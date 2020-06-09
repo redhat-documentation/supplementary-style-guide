@@ -1,0 +1,199 @@
+[discrete]
+[[objective-c]]
+==== Objective C (noun)
+*Description*: "Objective C" is the name of a programming language.
+
+*Use it*: yes
+
+*Incorrect forms*: Objective-C
+
+*See also*:
+
+[discrete]
+[[oem]]
+==== OEM (noun)
+*Description*: "OEM" is an acronym for "original equipment manufacturer," which is a misleading term for a company that has a special relationship with computer producers. OEMs buy computers in bulk and customize them for a particular application. They then sell the customized computer under their own name. OEMs are not the original manufacturers; they are the customizers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[offline-backup]]
+==== offline backup (noun)
+*Description*: Use "offline backup" to refer to backing up a database while the database is not being accessed by applications.
+
+*Use it*: yes
+
+*Incorrect forms*: cold backup
+
+*See also*: xref:online-backup[online backup]
+
+[discrete]
+[[ok]]
+==== OK (noun)
+*Description*: When referring to the "OK" button, it is not necessary to use "button" in the sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: OK button
+
+*See also*:
+
+[discrete]
+[[omit]]
+==== omit (verb)
+*Description*: Use "omit" rather than "leave out" and other terms meaning the same thing.
+
+*Use it*: yes
+
+*Incorrect forms*: leave out
+
+*See also*:
+
+[discrete]
+[[on-board]]
+==== on-board (adjective)
+*Description*: Hyphenate "on-board" when using it as an adjective. The term "on board" is also valid, for example, "They are on board with the idea." Try to reword the sentence to avoid using "on board."
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:onboard[onboard]
+
+[discrete]
+[[onboard]]
+==== onboard (verb)
+*Description*: "Onboard" is usually used to describe the process of introducing a new employee to the company.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:on-board[on-board]
+
+[discrete]
+[[online-backup]]
+==== online backup (noun)
+*Description*: From http://www.webopedia.com/TERM/O/online_backup.html[webopedia]: In storage technology, "online backup" means to back up data from your hard drive to a remote server or computer using a network connection.
+
+*Use it*:
+
+*Incorrect forms*:
+
+*See also*: xref:offline-backup[offline backup]
+
+[discrete]
+[[on-premise]]
+==== on-premise (adjective)
+*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise."
+
+*Use it*: with caution
+
+*Incorrect forms*: on premise
+
+*See also*:
+
+[discrete]
+==== on-the-fly
+[[on-the-fly]]
+
+*Description*: "On-the-fly" is an idiom meaning "as you go" or "in real time." Do not use it as it is not universally understood.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:real-time-adj[real time]
+
+[discrete]
+[[opcodes]]
+==== opcode (noun)
+*Description*: An "opcode" is the portion of a machine language instruction that specifies the operation to be performed.
+
+*Use it*: yes
+
+*Incorrect forms*: op-code
+
+*See also*:
+
+[discrete]
+[[open-architecture]]
+==== open architecture (noun)
+*Description*: An "open architecture" is an architecture whose specifications are public. This includes officially approved standards as well as privately designed architectures whose specifications are made public by the designers. The opposite of "open architecture" is "closed architecture" or "proprietary architecture."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+//TODO xref: proprietary[proprietary]
+
+[discrete]
+[[open-source]]
+==== open source (noun)
+*Description*: "Open source" means that the source code of a program or utility can be viewed, modified, and shared. See https://opensource.com/resources/what-open-source[What is Open Source] for details.
+
+*Use it*: yes
+
+*Incorrect forms*: open-source, OpenSource, opensource
+
+*See also*:
+
+[discrete]
+[[opex]]
+==== OpEx (noun)
+*Description*: "OpEx" is an abbreviation of "operating expenses." 
+
+*Use it*: yes
+
+*Incorrect forms*: Opex, Opex, OPEX, opEx
+
+*See also*:
+
+[discrete]
+[[operating-environment]]
+==== operating environment (noun)
+*Description*: An "operating environment" is the environment in which a user can run application software. An operating environment consists of a user interface provided by an applications manager and usually includes an application programming interface (API).
+
+*Use it*: yes
+
+*Incorrect forms*: Operating Environment
+
+*See also*: xref:control-program[control program]
+
+[discrete]
+[[operating-system]]
+==== operating system (noun)
+*Description*: From https://en.wikipedia.org/wiki/Operating_system[Wikipedia]: An "operating system" is system software that manages computer hardware and software resources and provides common services for computer programs. All computer programs, excluding firmware, require an operating system to function.
+
+*Use it*: yes
+
+*Incorrect forms*: OS, Operating System
+
+*See also*:
+
+[discrete]
+[[output-device]]
+==== output device (noun)
+*Description*: An "output device" is any machine capable of representing information from a computer, such as display screens, printers, plotters, and synthesizers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[override]]
+==== override (verb)
+*Description*: In computing, "override" means to force the use of a specific setting or value instead of the one that would otherwise be used, for example, "apply a setting from a configuration file to override the default ones."
+
+*Use it*: yes
+
+*Incorrect forms*: over-ride, over ride
+
+*See also*:

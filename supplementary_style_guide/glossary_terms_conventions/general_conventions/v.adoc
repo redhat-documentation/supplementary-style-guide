@@ -1,0 +1,214 @@
+[discrete]
+[[var]]
+==== VAR (noun)
+*Description*: "VAR" is an acronym for value-added reseller, which is the equivalent of original equipment manufacturer (OEM).
+
+*Use it*: yes
+
+*Incorrect forms*: var
+
+*See also*: xref:oem[OEM]
+
+[discrete]
+[[vcpu]]
+==== vCPU (noun)
+*Description*: "vCPU" is an acronym for a virtual central processing unit, which represents a portion of a physical CPU that is assigned to a virtual machine.
+
+Use lowercase "v" and uppercase "CPU".
+
+*Use it*: yes
+
+*Incorrect forms*: VCPU, vcpu
+
+*See also*:
+
+[discrete]
+[[vdsm]]
+==== VDSM (noun)
+*Description*: "VDSM" is an acronym for Virtual Desktop Server Management. Do not spell out this acronym. Using the term "virtual desktop" in this context has negative marketing implications.
+
+*Use it*: yes
+
+*Incorrect forms*: Virtual Desktop Server Management
+
+*See also*:
+
+[discrete]
+[[verify]]
+==== verify (verb)
+*Description*: "Verify" means to check that something is correct.
+
+*Use it*: yes
+
+*Incorrect forms*: make sure
+
+*See also*:
+
+[discrete]
+[[vi]]
+==== vi (noun)
+*Description*: "vi" is a screen-oriented text editor originally created for the Unix operating system. Do not use "VI."
+
+*Use it*: yes
+
+*Incorrect forms*: VI
+
+*See also*: xref:vim[Vim]
+
+[discrete]
+[[video-mode]]
+==== video mode (noun)
+*Description*: "Video mode" is the setting of a video adapter. Most video adapters can run in either text mode or graphics mode. In text mode, a monitor can display only ASCII characters. In graphics mode, a monitor can display any bit-mapped image. In addition to the text and graphics modes, video adapters offer different modes of resolution and color depth.
+
+*Use it*: yes
+
+*Incorrect forms*: video-mode, videomode
+
+*See also*:
+
+[discrete]
+[[vim]]
+==== Vim (noun)
+*Description*: "Vim" is an acronym for Vi IMproved. In the original 1991 release for the Amiga platform, the acronym was derived from Vi IMitation. It became Vi IMproved when ported to various Unix-based operating systems in 1992. Despite being an acronym, and despite the first word of the "About" text that is displayed when you launch the editor, the standard, proper noun-derived, mixed-case spelling has been in use since its release on the Amiga.
+
+*Use it*: yes
+
+*Incorrect forms*: VIM, vim
+
+*See also*: xref:vi[vi]
+
+[discrete]
+[[virtual]]
+==== virtual (adjective)
+*Description*: "Virtual" is an adjective describing computer systems with hardware functions partially carried out in the software layer. It is preferred over virtualized, as it is simple, direct, and unambiguous.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:virtualized[virtualized]
+
+[discrete]
+[[virtual-console]]
+==== virtual console (noun)
+*Description*: "Virtual console" can be abbreviated to "VC" as long as the term has been introduced in the same content in its full version first, such as "A virtual console (VC) is a shell prompt in a non-graphical environment. Multiple VCs can be accessed simultaneously."
+
+*Use it*: yes
+
+*Incorrect forms*: virtual-console, Virtual Console
+
+*See also*:
+
+[discrete]
+[[virtual-floppy-disk]]
+==== virtual floppy disk (noun)
+*Description*: A "virtual floppy disk" is an alternative to the traditional floppy. It is an image file rather than a physical disk.
+
+Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy disk," this term is outdated and refers to the physical disk. In the context of virtualization, "floppy disk" is the preferred term; the file extension, for example, is ".vfd."
+
+*Use it*: yes
+
+*Incorrect forms*: virtual diskette
+
+*See also*: xref:virtual-floppy-drive[virtual floppy drive]
+
+[discrete]
+[[virtual-floppy-drive]]
+==== virtual floppy drive (noun)
+*Description*: A "virtual floppy drive" is the virtual hardware used to mount a floppy disk image.
+
+Although the _IBM Style Guide_ recommends using "diskette drive" instead of "floppy drive," this term is outdated and refers to the physical hardware. In the context of virtualization, "floppy drive" is the preferred term.
+
+*Use it*: yes
+
+*Incorrect forms*: virtual diskette drive
+
+*See also*: xref:virtual-floppy-disk[virtual floppy disk]
+
+[discrete]
+[[virtual-machine]]
+==== virtual machine (noun)
+*Description*: "Virtual machine" refers to virtual hardware that consists of virtual CPUs, memory, devices, and so on. Do not use "guest virtual machine" unless you want to specifically emphasize the fact that it is a guest. Virtual machine can be abbreviated to "VM" as long as the term has been introduced in the same content in its full version first and provided there is no possibility of confusion with other terms, such as "virtual memory." Author discretion is recommended.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[virtual-router]]
+==== virtual router (noun)
+*Description*: A "virtual router" is an abstract object managed by the virtual router redundancy protocol (VRRP) that acts as a default router for hosts on a shared LAN. It consists of a Virtual Router Identifier and a set of associated IP addresses across a common LAN.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[virtualized]]
+==== virtualized (adjective)
+*Description*: "Virtualized" is an adjective and a past-tense verb. It implies having undergone or been produced by a process. The distinction implies the possibility of a real (not virtual) counterpart.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:virtual[virtual]
+
+[discrete]
+[[virtualized-guest]]
+==== virtualized guest (noun)
+*Description*: A "virtualized guest" is a virtual machine (VM). Use virtualized guest only when comparing a "fully virtualized guest" with a "paravirtualized guest."
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:guest-operating-system[guest operating system], xref:virtual-machine[virtual machine]
+
+[discrete]
+[[vlan]]
+==== VLAN (noun)
+*Description*: "VLAN" is an abbreviation for virtual local area network. Use uppercase for all letters. 
+
+*Use it*: yes
+
+*Incorrect forms*: vlan, vLAN
+
+*See also*:
+
+[discrete]
+[[vnic]]
+==== vNIC (noun)
+*Description*: "vNIC" is an abbreviation for virtual network interface card. Use lowercase v and uppercase NIC for the abbreviation, but all lowercase for the expansion, except at the beginning of a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: vnic, VNIC, Virtual Network Interface Card
+
+*See also*:
+
+[discrete]
+[[vnuma]]
+==== vNUMA node (noun)
+*Description*: A virtual non-uniform memory access (vNUMA) node optimizes performance for a virtual machine (VM) by pinning vNUMA nodes on the VM to specific NUMA nodes on the host. You can optionally use virtual NUMA node instead of vNUMA node.
+
+*Use it*: yes
+
+*Incorrect forms*: vnuma, VNUMA
+
+*See also*: 
+
+[discrete]
+[[vpn]]
+==== VPN (noun)
+*Description*: "VPN" is an acronym for virtual private network, which is a network that is constructed by using public wires to connect nodes. For example, there are a number of systems that enable you to create networks using the Internet as the medium for transporting data. These systems use encryption and other security mechanisms to ensure that only authorized users can access the network and that the data cannot be intercepted.
+
+*Use it*: yes
+
+*Incorrect forms*: vpn
+
+*See also*:

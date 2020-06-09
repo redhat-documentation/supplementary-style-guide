@@ -1,0 +1,9 @@
+= General formatting
+
+== User-replaced variables
+
+== Lead-in sentences
+
+== Admonitions
+
+== Product names and version references

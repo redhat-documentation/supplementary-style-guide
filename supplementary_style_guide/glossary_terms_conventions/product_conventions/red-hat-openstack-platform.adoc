@@ -1,0 +1,102 @@
+[[red-hat-openstack-platform-conventions]]
+
+
+:openstack-glossary: link:https://docs.openstack.org/ocata/install-guide-rdo/common/glossary.html[OpenStack.org Glossary]
+
+Responsible person: Petr Kovar (pkovar@redhat.com), backup contact rhos-docs@redhat.com.
+
+Upstream references: {openstack-glossary}
+
+[discrete]
+[[director]]
+==== director (noun)
+*Description*: The Red Hat OpenStack Platform director is a toolset for installing and managing a complete OpenStack environment. Write in lower case. Use with the article 'the' where appropriate. For example: _"Create an OpenStack environment with the director."_
+
+*Use it*: yes
+
+*Incorrect forms*: Director
+
+*See also*:
+
+[discrete]
+[[instance]]
+==== instance (noun)
+*Description*: A running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term _instance_ instead of _virtual machine_ unless specifically called out in the user interface or a configuration file.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[openstack-services]]
+==== OpenStack services (noun)
+*Description*: For definitions of all upstream OpenStack services, see the {openstack-glossary}. The following Red Hat OpenStack Platform documentation conventions apply:
+
+* Use the component name instead of the code name.
+** For example: _Block Storage_ instead of _cinder_.
+* If the component name includes _service_, write _service_ in lower case.
+** For example: _Identity service_.
+* Write the code name in lowercase.
+** For example: _nova_.
+* Write the component name in upper case.
+** For example: _Compute_.
+* First instance: _Component Name (codename)_.
+** For example: _OpenStack Networking (neutron)_.
+* Second instance: _Component Name_.
+** For example: _OpenStack Networking_.
+* At writer's discretion: _codename_.
+** For example: _neutron_.
+* Exceptions:
+** _heat templates_ (as opposed to _Orchestration service template_).
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[overcloud]]
+==== overcloud (noun)
+*Description*: The overcloud is the resulting Red Hat OpenStack Platform environment created using the undercloud. Write in lower case.
+
+*Use it*: yes
+
+*Incorrect forms*: Overcloud
+
+*See also*: xref:undercloud[undercloud]
+
+[discrete]
+[[red-hat-enterprise-linux-openstack-platform]]
+==== Red Hat Enterprise Linux OpenStack Platform (noun)
+*Description*: Spell out in full. This product name applies to Red Hat Enterprise Linux OpenStack Platform 7 and earlier versions.
+
+*Use it*: with caution
+
+*Incorrect forms*: RHELOSP, RHEL-OSP
+
+*See also*: xref:red-hat-openstack-platform[Red Hat OpenStack Platform]
+
+[discrete]
+[[red-hat-openstack-platform]]
+==== Red Hat OpenStack Platform (noun)
+*Description*: Spell out in full. This product name applies to Red Hat OpenStack Platform 8 and later versions.
+
+*Use it*: yes
+
+*Incorrect forms*: RHOS, RHOSP, RH-OSP
+
+*See also*: xref:red-hat-enterprise-linux-openstack-platform[Red Hat Enterprise Linux OpenStack Platform]
+
+[discrete]
+[[undercloud]]
+==== undercloud (noun)
+*Description*: The undercloud is the main director node. It is a single-system OpenStack installation that includes components for provisioning and managing the OpenStack nodes that form your OpenStack environment (the overcloud). Write in lower case.
+
+*Use it*: yes
+
+*Incorrect forms*: Undercloud
+
+*See also*: xref:overcloud[overcloud], xref:node[node]

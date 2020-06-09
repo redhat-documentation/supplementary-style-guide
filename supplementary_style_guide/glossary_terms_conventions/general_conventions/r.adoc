@@ -1,0 +1,372 @@
+[discrete]
+[[ram]]
+==== RAM (noun)
+*Description*: "RAM" is an acronym for "random access memory."
+
+*Use it*: yes
+
+*Incorrect forms*: Ram, ram
+
+*See also*: xref:ram-disk[RAM disk]
+
+[discrete]
+[[ram-disk]]
+==== RAM disk (noun)
+*Description*: "RAM disk" refers to "RAM" that has been configured to simulate a disk drive. You can access files on a RAM disk as you would access files on a physical disk. RAM disks, however, are approximately a thousand times faster than hard disk drives. They are particularly useful for applications that require frequent disk accesses.
+
+*Use it*: yes
+
+*Incorrect forms*: RAMdisk, ramdisk, RAM-disk
+
+*See also*: xref:ram[RAM]
+
+[discrete]
+[[raw]]
+==== raw (adjective)
+*Description*: In computing terms, "raw" means unprocessed. The term refers to data that is passed to an I/O device without being interpreted. In contrast, "cooked" refers to data that is processed before being passed to the I/O device. The term comes from Unix, which supports cooked and raw modes for data output to a terminal. In cooked mode, special characters, such as erase and kill, are processed by the device driver before being sent to the output device.
+
+*Use it*: yes
+
+*Incorrect forms*: RAW
+
+*See also*: xref:cooked[cooked]
+
+[discrete]
+[[raw-data]]
+==== raw data (noun)
+
+*Description*: "Raw data" is information that has not been organized, formatted, or analyzed.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[read-v]]
+==== read (verb)
+*Description*: To "read" means to copy data to a place where it can be used by a program. Read is commonly used to describe copying data from a storage medium, such as a disk, to main memory. It is also used to refer to the act of determining the contents of a variable or parameter.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:read-n[read (noun)]
+
+[discrete]
+[[read-n]]
+==== read (noun)
+*Description*: When used as a noun, "read" refers to the act of reading, for example, "A fast disk drive performs 100 'reads' per second."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:read-v[read (verb)]
+
+[discrete]
+[[real-time-n]]
+==== real time (noun)
+*Description*: As a noun, "real time" is the actual time during which something takes place, for example, "The computer may partly analyze the data in real time (as it comes in) -- R. H. March."
+
+*Use it*: yes
+
+*Incorrect forms*: realtime
+
+*See also*: xref:real-time-adj[real-time]
+
+[discrete]
+[[real-time-adj]]
+==== real-time (adjective)
+*Description*: As an adjective, use the hyphenated form, for example, "XEmacs is a self-documenting, customizable, extensible, real-time display editor."
+
+*Use it*: yes
+
+*Incorrect forms*: realtime
+
+*See also*: xref:real-time-n[real time]
+
+[discrete]
+[[reboot]]
+==== reboot (verb)
+*Description*: "Reboot" means to turn off a computer's operating system and then turn it on.
+
+*Use it*: yes
+
+*Incorrect forms*: re-boot
+
+*See also*:
+
+[discrete]
+[[recommend]]
+==== recommend (verb)
+*Description*: Avoid "recommends". Instead of "Red Hat recommends", direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream/downstream coordinated efforts.
+
+For example, instead of "Red Hat recommends using X package because", write "Use this package because" or "Use this package when". 
+
+*Use it*: no
+
+*Incorrect forms*: we recommend, we suggest, Red Hat recommends
+
+*See also*: xref:we-suggest[we suggest]
+
+[discrete]
+[[redboot]]
+==== RedBoot (noun)
+*Description*: "RedBoot" is an acronym for "Red Hat Embedded Debug and Bootstrap" firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
+
+*Use it*: yes
+
+*Incorrect forms*: Redboot, Red Boot, red
+
+*See also*:
+
+[discrete]
+[[red-hat-container-catalog]]
+==== Red Hat Container Catalog (noun)
+*Description*: "Red Hat Container Catalog" is Red Hat's hosted registry for Enterprise-ready containers located at link:https://access.redhat.com/containers[access.redhat.com/containers]. Red Hat Container Catalog is a trusted source for secure, certified, and up-to-date container images. Write this name in full the first time that you use it in a document.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:container-registry[container registry], xref:openshift-container-registry[OpenShift Container Registry]
+
+[discrete]
+==== Red Hat Enterprise Linux
+[[red-hat-enterprise-linux]]
+
+*Description*: "Red Hat Enterprise Linux" is an open source operating system based on Fedora and developed by Red Hat.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:rhel[RHEL]
+
+[discrete]
+[[red-hat-network-satellite-server]]
+==== Red Hat Network Satellite Server (noun)
+*Description*: Use "Red Hat Network Satellite Server" for the first occurrence; use "RHN Satellite Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy," for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy."
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat Satellite (Server)
+
+*See also*: xref:red-hat-network-proxy-server[Red Hat Network Proxy Server]
+
+[discrete]
+[[red-hat-network-proxy-server]]
+==== Red Hat Network Proxy Server (noun)
+*Description*: Use "Red Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy," for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy."
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat Proxy (Server)
+
+*See also*: xref:red-hat-network-satellite-server[Red Hat Network Satellite Server]
+
+[discrete]
+[[red-hat-way]]
+==== Red Hat Way (noun)
+
+*Description*: "Red Hat Way" refers to the culture valued and maintained by Red Hat associates.
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat way
+
+*See also*:
+
+[discrete]
+[[relative-path]]
+==== relative path (noun)
+*Description*: The path related to the present working directory. Because it does not provide enough information for a program to locate a file, it must be combined with an additional path to access a file.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[remote-access]]
+==== remote access (noun)
+*Description*: "Remote access" is the ability to log on to a network from a distant location. Generally, this implies a computer, a modem, and some remote access software to connect to the network. "Remote control" refers to taking control of another computer, while "remote access" means that the remote computer actually becomes a full-fledged host on the network. The remote access software dials in directly to the network server. The only difference between a remote host and workstations connected directly to the network is slower data transfer speeds.
+
+*Use it*: yes
+
+*Incorrect forms*: remote-access
+
+*See also*: xref:remote-access-server[remote access server]
+
+[discrete]
+[[remote-access-server]]
+==== remote access server (noun)
+*Description*: A "remote access server" is a server that is dedicated to handling users that are not on a LAN but need remote access to it. The remote access server allows users to gain access to files and print services on the LAN from a remote location. For example, a user who dials in to a network from home using an analog modem or an ISDN connection will dial in to a remote access server. Once authenticated, the user can access shared drives and printers as if they were physically connected to the office LAN.
+
+*Use it*: yes
+
+*Incorrect forms*: remote-access server
+
+*See also*: xref:remote-access[remote access]
+
+[discrete]
+[[repository]]
+==== repository (noun)
+*Description*: Repositories provide the packages required for Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red Hat Network (RHN), where you subscribed to channels.
+
+*Use it*: yes
+
+*Incorrect forms*: channel
+
+*See also*: xref:subscription[subscription], xref:entitlement[entitlement]
+
+[discrete]
+[[required]]
+==== required (adjective)
+
+*Description*: "Required" can mean needed, essential, or obligatory. Example 1: "The module is missing essential parts." Example 2: "Filling in the Class field is obligatory."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[resilient-storage-add-on]]
+==== Resilient Storage Add-On (noun)
+
+*Description*: "Resilient Storage Add-On" is an add-on to Red Hat Enterprise Linux that allows a shared storage or clustered file system to access the same storage device over a network. The Resilient Storage Add-On creates a pool of data that is available to each server in a group by creating consistent storage across a cluster of servers that is protected if any one server fails.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[return]]
+==== return (verb)
+
+*Description*: When referring to the keyboard key on Solaris or Mac, use "Return" or "return," respectively. See "enter" for other platforms.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:enter-n[enter]
+
+[discrete]
+[[rhel]]
+==== RHEL (noun)
+*Description*: "RHEL" is an acronym for "Red Hat Enterprise Linux." The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:red-hat-enterprise-linux[Red Hat Enterprise Linux]
+
+[discrete]
+[[roll-out]]
+==== roll out (verb)
+*Description*: In marketing, to "roll out" a product means to introduce it in stages to the public. In computing, to roll out software means to install a new product across a  network.
+
+*Use it*: yes
+
+*Incorrect forms*: rollout
+
+*See also*: xref:rollout[rollout]
+
+[discrete]
+[[rollout]]
+==== rollout (noun)
+*Description*: In marketing, "rollout" describes a series of related product announcements. When a company installs new equipment or software, this process is also called a "rollout."
+
+*Use it*: yes
+
+*Incorrect forms*: roll out
+
+*See also*: xref:rollout[roll-out]
+
+[discrete]
+[[rom]]
+==== ROM (noun)
+*Description*: "ROM" is an acronym for "read-only memory," that is, computer memory on which data has been prerecorded. After data has been written onto a ROM chip, it cannot be removed and can only be read.
+
+*Use it*: yes
+
+*Incorrect forms*: Rom, rom
+
+*See also*: xref:prom[PROM]
+
+[discrete]
+[[roundtable]]
+==== roundtable (noun)
+*Description*: Use "roundtable" when referring to a type of event or gathering.
+
+*Use it*: yes
+
+*Incorrect forms*: round table
+
+*See also*: xref:round-table[round table]
+
+[discrete]
+[[round-table]]
+==== round table (noun)
+
+*Description*: Use "round table" when referring to a circular table.
+
+*Use it*: yes
+
+*Incorrect forms*: roundtable
+
+*See also*: xref:roundtable[roundtable]
+
+[discrete]
+[[routine]]
+==== routine (noun)
+
+*Description*: A "routine" is a set of programming instructions designed to perform a specific limited task.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[rpm]]
+==== RPM (noun)
+*Description*: "RPM" is the recursive initialism for the "RPM Package Manager." RPM manages files in the RPM format, known as RPM packages. RPM packages are known informally as rpm files, but this informal usage is not used in Red Hat documentation to avoid confusion with the command name. Files in RPM format are referred to as RPM packages.
+
+*Use it*: yes
+
+*Incorrect forms*: rpm
+
+*See also*:
+
+[discrete]
+[[runlevel]]
+==== runlevel (noun)
+*Description*: A "runlevel" is a preset operating state on a Unix-like operating system. A system can be booted in to (that is, started up in to) any of several runlevels, each of which is represented by a single-digit integer. Each runlevel designates a different system configuration and allows access to a different combination of processes (that is, instances of executing programs). There are differences in the runlevels according to the operating system. Seven runlevels are supported in the standard Linux kernel.
+
+*Use it*: yes
+
+*Incorrect forms*: run level, run-level
+
+*See also*:
+
+[discrete]
+[[runtime]]
+==== runtime (noun)
+*Description*: "Runtime" is when a program is running (or being executed), that is, when you start a program running in a computer, it is the runtime for that program. In some programming languages, certain reusable programs or routines are built and packaged as a runtime library.
+
+*Use it*: yes
+
+*Incorrect forms*: run time, run-time
+
+*See also*:

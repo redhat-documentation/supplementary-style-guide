@@ -1,0 +1,7 @@
+= Graphical interfaces
+
+== User interface elements
+
+== Menu navigation
+
+== Text entry

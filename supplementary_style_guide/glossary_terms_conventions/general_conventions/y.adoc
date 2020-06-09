@@ -1,0 +1,21 @@
+[discrete]
+[[yaml]]
+==== YAML (noun)
+*Description*: "YAML" is the recursive acronym for YAML Ain't Markup Language, after originally being said to mean Yet Another Markup Language. YAML is a human-readable data serialization standard for all programming languages.
+
+*Use it*: yes
+
+*Incorrect forms*: yaml
+
+*See also*:
+
+[discrete]
+[[you]]
+==== you (noun)
+*Description*: Do not use the first-person pronoun "I" or the third-person pronouns "he" or "she."
+
+*Use it*: yes
+
+*Incorrect forms*: I, he, she
+
+*See also*: 

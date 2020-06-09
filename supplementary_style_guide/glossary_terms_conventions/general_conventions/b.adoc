@@ -1,0 +1,265 @@
+[discrete]
+[[backtrace]]
+==== backtrace (noun)
+*Description*: "Backtrace" is another name for "stack trace" (or "stack backtrace"), which is a report of the active stack frames (function calls) at a certain point in time during the execution of a program. The Python programming language uses the term "traceback," possibly because the stack frames are printed in the opposite order of those presented by gdb, the GNU Debugger. "Traceback" is the preferred term when referring to a Python stack trace.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*:
+
+[discrete]
+[[bandwidth]]
+==== bandwidth (noun)
+*Description*: "Bandwidth" refers to a range within a band of frequencies or wavelengths, or the amount of data that can be transmitted in a fixed amount of time.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:latency[latency]
+
+[discrete]
+[[bare-metal-n]]
+==== bare metal (noun)
+*Description*: "Bare metal" refers to physical hardware as opposed to virtual hardware. Use the two-word form as a noun: "Install on bare metal."
+
+*Use it*: yes
+
+*Incorrect forms*: baremetal, bare-metal
+
+*See also*: xref:bare-metal-adj[bare-metal (adjective)]
+
+[discrete]
+[[bare-metal-adj]]
+==== bare-metal (adjective)
+*Description*: "Bare metal" refers to physical hardware as opposed to virtual hardware. Use the hyphenated form as an adjective: "Bare-metal servers."
+
+*Use it*: yes
+
+*Incorrect forms*: baremetal, bare metal
+
+*See also*: xref:bare-metal-n[bare metal (noun)]
+
+[discrete]
+[[basically]]
+==== basically (adverb)
+*Description*: "Basically" is another term for "in principle" or "fundamentally."
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[because]]
+==== because (conjunction)
+*Description*: Do not use "since" to mean "because." Use "because" to refer to a reason. Use "since" to indicate the passage of time. 
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[big-data]]
+==== big data (noun)
+*Description*: "Big data" refers to extremely large sets of data that can be analyzed to determine trends and other information. 
+
+*Use it*: yes
+
+*Incorrect forms*: Big Data, Big-Data, big-data
+
+*See also*:
+
+[discrete]
+[[bimodal-it]]
+==== bimodal IT (noun)
+*Description*: "Bimodal IT" is the Gartner phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing. 
+
+The practice of having both modes together is often referred to as "hybrid," "agile," or "modern" IT. "Hybrid IT" is a more general term; for example, it could mean "on-premise plus public cloud." "Agile" and "modern IT" can both carry an implication of "mode 2." When using those terms, be specific about the exact technology combination you mean.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[bimonthly]]
+==== bimonthly (adverb)
+*Description*: "Bimonthly" means every other month. 
+
+*Use it*: yes
+
+*Incorrect forms*: bi-monthly
+
+*See also*:
+
+[discrete]
+[[biweekly]]
+==== biweekly (adverb)
+*Description*: "Biweekly" means every other week. 
+
+*Use it*: yes
+
+*Incorrect forms*: bi-weekly
+
+*See also*:
+
+[discrete]
+[[bind]]
+==== BIND (noun)
+*Description*: Use "BIND" when referring to the DNS software.
+
+*Use it*: yes
+
+*Incorrect forms*: Bind, bind
+
+*See also*:
+
+[discrete]
+[[bios]]
+==== BIOS (noun)
+*Description*: "BIOS" is an abbreviation for basic input and output system. The plural form is "BIOSes."
+
+*Use it*: yes
+
+*Incorrect forms*: Bios
+
+*See also*:
+
+[discrete]
+[[bit-rate]]
+==== bit rate (noun)
+*Description*: "Bit rate" is the number of bits per second that can be transmitted or processed.
+
+*Use it*: yes
+
+*Incorrect forms*: bitrate
+
+*See also*:
+
+[discrete]
+[[boot-disk]]
+==== boot disk (noun)
+*Description*: A "boot disk" is a disk used to start a computer.
+
+*Use it*: yes
+
+*Incorrect forms*: boot diskette
+
+*See also*:
+
+[discrete]
+[[boot-loader]]
+==== boot loader (noun)
+*Description*: "Boot loader" is software used to load an operating system when a computer is started.
+
+*Use it*: yes
+
+*Incorrect forms*: bootloader
+
+*See also*:
+
+[discrete]
+[[bottleneck]]
+==== bottleneck (noun)
+*Description*: A "bottleneck" is a limitation in the capacity of software or hardware caused by a single component. 
+
+*Use it*: yes
+
+*Incorrect forms*: bottle neck, bottle-neck
+
+*See also*:
+
+[discrete]
+[[bpp]]
+==== bpp (noun)
+*Description*: The acronym for bits per pixel ("bpp") is presented in lowercase letters, unless it is at the beginning of a sentence. Use a non-breaking space between the numeral and the units, for example, "16 bpp," not "16bpp."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[Bps]]
+==== Bps (noun)
+*Description*: "Bps" is an acronym for bytes per second.
+
+*Use it*: yes
+
+*Incorrect forms*: bps
+
+*See also*: xref:bps[bps]
+
+[discrete]
+[[bps]]
+==== bps (noun)
+*Description*: The acronym for bits per second is "bps."
+
+*Use it*: yes
+
+*Incorrect forms*: Bps
+
+*See also*: xref:Bps[Bps]
+
+[discrete]
+[[broadcast-n]]
+==== broadcast (noun)
+*Description*: When used as a noun, a "broadcast" is a message sent simultaneously to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients. 
+
+*Use it*: yes
+
+*Incorrect forms*: broad cast, broad-cast
+
+*See also*: xref:broadcast-v[broadcast (verb)]
+
+[discrete]
+[[broadcast-v]]
+==== broadcast (verb)
+*Description*: When used as a verb, "broadcast" means to simultaneously send the same message to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
+
+*Use it*: yes
+
+*Incorrect forms*: broad cast, broad-cast
+
+*See also*: xref:broadcast-n[broadcast (noun)]
+
+[discrete]
+[[btrfs]]
+==== Btrfs (noun)
+*Description*: "Btrfs" is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. See the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page for more information on this file system. See  the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page for a list of file system names and how to present them.
+
+*Use it*: yes
+
+*Incorrect forms*: btrfs
+
+*See also*: 
+
+[discrete]
+[[bug-fix]]
+==== bug fix (noun)
+*Description*: A "bug fix" is the resolution to a bug.
+
+*Use it*: yes
+
+*Incorrect forms*: bugfix
+
+*See also*: 
+
+[discrete]
+[[built-in]]
+==== built-in (adjective)
+*Description*: Use "built-in" when referring to something that is included or incorporated into a larger unit.
+
+*Use it*: yes
+
+*Incorrect forms*: builtin, built in
+
+*See also*:

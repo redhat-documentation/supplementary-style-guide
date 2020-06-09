@@ -1,0 +1,603 @@
+[discrete]
+[[saas]]
+==== SaaS (noun)
+*Description*: "Saas" is an acronym for Software-as-a-Service. In the spelled-out version and its variants (for example, Infrastructure-as-a-Service and Platform-as-a-Service), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text (such as banners), use "<VARIANT>-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:iaas[IaaS], xref:paas[PaaS]
+
+[discrete]
+[[samba]]
+==== Samba (noun)
+*Description*: "Samba" is a freeware program that allows end users to access and use files, printers, and other commonly shared resources on a company's intranet or on the Internet. Samba can be installed on a variety of operating system platforms, including Linux, most common Unix platforms, OpenVMS, and OS/2.
+
+*Use it*: yes
+
+*Incorrect forms*: samba, SAMBA
+
+*See also*:
+
+[discrete]
+[[s-record]]
+==== S-record (noun)
+*Description*: "Motorola S-record" is a file format that stores binary information in ASCII hex text form.
+
+*Use it*: yes
+
+*Incorrect forms*: s-record, S-Record, s-Record, SREC, or any other variation
+
+*See also*:
+
+[discrete]
+[[screen-saver]]
+==== screen saver (noun)
+*Description*: A "screen saver" is an image or animation that replaces a computer's display after a set amount of time without user activity.
+
+*Use it*: yes
+
+*Incorrect forms*: screensaver
+
+*See also*:
+
+[discrete]
+[[scrollbar]]
+==== scrollbar (noun)
+*Description*: A "scrollbar" is a long, thin rectangle on the edge of the screen that allows a user to view information that does not fit on a single screen display.
+
+*Use it*: yes
+
+*Incorrect forms*: scroll bar, scroll-bar
+
+*See also*:
+
+[discrete]
+[[see]]
+==== see (verb)
+*Description*: Use "see" to refer readers to another resource, for example, "See the **Red Hat Enterprise Linux Installation Guide** for more information." Avoid using "refer to" in this context.
+
+*Use it*: yes
+
+*Incorrect forms*: refer to
+
+*See also*:
+
+[discrete]
+[[segmentation-fault]]
+==== segmentation fault (noun)
+*Description*:  A "segmentation fault" occurs when a process tries to access a memory location that it is not allowed to access, or tries to access a memory location in a way that is not allowed (for example, if the process tries to write to a read-only location or to overwrite part of the operating system). Only use the abbreviation "segfault" if absolutely necessary, and never use it as a verb.
+
+*Use it*: yes
+
+*Incorrect forms*: segfault as a verb
+
+*See also*: https://access.redhat.com/articles/372743[A Guide for Troubleshooting a Segfault] on the Customer Portal for more information.
+
+[discrete]
+[[selinux]]
+==== SELinux (noun)
+*Description*: "SELinux" is an abbreviation for Security-Enhanced Linux. SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux," "S-E Linux," or "SE Linux."
+
+*Use it*: yes
+
+*Incorrect forms*: SE-Linux, S-E Linux, SE Linux, selinux
+
+*See also*:
+
+[discrete]
+[[server-cluster]]
+==== server cluster (noun)
+*Description*: A "server cluster" is a group of networked servers housed in one location. This organization of servers streamlines internal processes by distributing the workload between the individual components of the group. It also expedites computing processes by harnessing the power of multiple servers. The clusters rely on load-balancing software that accomplishes tasks such as tracking demand for processing power from different machines, prioritizing the tasks, and scheduling and rescheduling them, depending on priority and demand on the network. When one server in the cluster fails, another server can serve as a backup.
+
+*Use it*: yes
+
+*Incorrect forms*: computer farm, computer ranch
+
+*See also*: xref:server-farm[server farm]
+
+[discrete]
+[[server-farm]]
+==== server farm (noun)
+*Description*: A "server farm" is a group of networked servers housed in one location. This organization of servers streamlines internal processes by distributing the workload between the individual components of the group. It also expedites computing processes by harnessing the power of multiple servers. The farms rely on load-balancing software that accomplishes tasks such as tracking demand for processing power from different machines, prioritizing the tasks, and scheduling and rescheduling them, depending on priority and demand on the network. When one server in the farm fails, another server can serve as a backup.
+
+*Use it*: yes
+
+*Incorrect forms*: computer farm, computer ranch
+
+*See also*: xref:server-cluster[server cluster]
+
+[discrete]
+[[server-side-n]]
+==== server side (noun)
+*Description*: The "server side" means that the action takes place on a web server in a client/server relationship. Use this form when "server side" is a noun, for example, "She does most of her programming on the server side, that is, directly on the web server."
+
+*Use it*: yes
+
+*Incorrect forms*: server-side
+
+*See also*: xref:server-side-adj[server-side]
+
+[discrete]
+[[server-side-adj]]
+==== server-side (adjective)
+*Description*: Use "server-side" as an adjective when referring to operations performed by the server in a client/server relationship, for example, "Her specialty is server-side programming."
+
+*Use it*: yes
+
+*Incorrect forms*: server side
+
+*See also*: xref:server-side-n[server side]
+
+[discrete]
+[[sha-1]]
+==== SHA-1 (noun)
+*Description*: "SHA" is an acronym for Secure Hash Algorithm and is a cryptographic hash function. SHA-1 is an earlier hashing algorithm that is being replaced by SHA-2.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:sha-2[SHA-2]
+
+[discrete]
+[[sha-2]]
+==== SHA-2 (noun)
+*Description*: "SHA" is an acronym for Secure Hash Algorithm and is a cryptographic hash function. The encryption hash used in SHA-2 is significantly stronger and not subject to the same vulnerabilities as SHA-1. SHA-2 variants are often specified using their digest size, in bits, as the trailing number, instead of 2. SHA-224, SHA-256, SHA-384, and SHA-512 are all correct when referring to these specific hash functions.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:sha-1[SHA-1]
+
+[discrete]
+[[shadowman]]
+==== Shadowman (noun)
+*Description*: "Shadowman" is Red Hat's corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
+
+*Use it*: yes
+
+*Incorrect forms*: Shadow Man, ShadowMan
+
+*See also*: http://brand.redhat.com/logos/shadowman/[Red Hat Brand Standards: Shadowman]
+
+[discrete]
+[[shadow-passwords]]
+==== shadow passwords (noun)
+*Description*: "Shadow passwords" are a method of improving system security by moving the encrypted passwords (normally found in `/etc/passwd`) to `/etc/shadow`, which is readable only by root. This option is available during installation and is part of the shadow utilities package. Shadow passwords is not a proper noun and is only capitalized at the beginning of a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: Shadow passwords (capitalized)
+
+*See also*:
+
+[discrete]
+[[shadow-utilities]]
+==== shadow utilities (noun)
+*Description*: "Shadow utilities" are the specific system programs that operate on the shadow password files. Shadow utilities is not a proper noun and is only capitalized at the beginning of a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: Shadow utilities (capitalized)
+
+*See also*:
+
+[discrete]
+[[share-name]]
+==== share name (noun)
+*Description*: "Share name" is the name of a shared resource. Use it as two words unless you are quoting the output of commands, such as "smbclient -L."
+
+*Use it*: yes
+
+*Incorrect forms*: sharename, Sharename
+
+*See also*:
+
+[discrete]
+[[she]]
+==== she (pronoun)
+*Description*: Reword the sentence to avoid using "he" or "she."
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:he[he]
+
+[discrete]
+[[shell]]
+==== shell (noun)
+*Description*: A "shell" is a software application (for example, `/bin/bash` or `/bin/sh`) that provides an interface to a computer. Do not use this term to describe the prompt where you type commands.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:shell-prompt[shell prompt]
+
+[discrete]
+[[shell-prompt]]
+==== shell prompt (noun)
+*Description*:  The "shell prompt" is the character at the beginning of the command line, for example "$" or "#". It indicates that the shell is ready to accept commands. Do not use "command prompt," "terminal," or "shell."
+
+*Use it*: yes
+
+*Incorrect forms*: command prompt, terminal, shell
+
+*See also*: xref:shell[shell]
+
+[discrete]
+[[signal-topology]]
+==== signal topology (noun)
+*Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The "signal topology" is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices. The signal topology is also called "logical topology."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:logical-topology[logical topology], xref:physical-topology[physical topology]
+
+[discrete]
+[[skill-set]]
+==== skill set (noun)
+*Description*: Use "skills" or "knowledge" instead of "skill set" (n) or "skill-set" (adj). For example, "Do you have the right skill set to be an RHCE?" is incorrect. Use "Do you have the right skills to be an RHCE?" instead.
+
+*Use it*: no
+
+*Incorrect forms*: skill set, skillset, skill-set, skill-set knowledge
+
+*See also*:
+
+[discrete]
+[[snippet]]
+==== snippet (noun)
+*Description*: A "snippet" is a small piece or brief extract. Use "piece" instead of snippet. Use "excerpt" to refer to samples taken from a more-extensive section of text.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[socks]]
+==== SOCKS (noun)
+*Description*: "SOCKS" is an acronym for Socket Secure, which is an Internet protocol that exchanges network packets between a client and server through a proxy server. When specifying a SOCKS version, use "SOCKSv4" or "SOCKSv5."
+
+*Use it*: yes
+
+*Incorrect forms*: socks
+
+*See also*:
+
+[discrete]
+[[softcopy]]
+==== softcopy (noun)
+*Description*: "Softcopy" is an electronic copy of some type of data, for example, a file viewed on a computer screen. Use "online" instead of softcopy, for example, "To view the online documentation...​."
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[software-collection]]
+==== Software Collection (noun)
+*Description*: A "Software Collection" (SCL) allows for building and concurrent installation of multiple versions of the same software component on a single system. Always capitalize as shown. The abbreviation "SCL" (plural form "SCLs") is acceptable only for use in technical documents or documents shared with upstream projects.
+
+*Use it*: yes
+
+*Incorrect forms*: software collection, collection, Software collection, Collection
+
+*See also*:
+
+[discrete]
+[[sound-card]]
+==== sound card (noun)
+*Description*: A "sound card" is a device slotted into a computer to allow the use of audio components for multimedia applications.
+
+*Use it*: yes
+
+*Incorrect forms*: soundcard, sound-card
+
+*See also*:
+
+[discrete]
+[[source-navigator]]
+==== Source-Navigator^TM^ (noun)
+*Description*: "Source-Navigator^TM^" is a source code analysis tool and is a Red Hat trademark.
+
+*Use it*: yes
+
+*Incorrect forms*: Source Navigator (without trademark symbol)
+
+*See also*:
+
+[discrete]
+[[space]]
+==== space (noun)
+*Description*: Use "space" to refer to white space, for example, "Ensure there is a space between each command." Use "spacebar" when referring to the keyboard key.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:spacebar[spacebar]
+
+[discrete]
+[[spacebar]]
+==== spacebar (noun)
+*Description*: Use "spacebar" when referring to the keyboard key, for example, "Press the spacebar and type the correct number." Use "space" to refer to white space.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:space[space]
+
+[discrete]
+[[spec-file]]
+==== spec file (noun)
+*Description*: "Spec files" are used as part of rebuilding RPMs. The spec file outlines how to configure and compile the RPM as well as how to install the files later.
+
+*Use it*: yes
+
+*Incorrect forms*: specfile
+
+*See also*:
+
+[discrete]
+[[specific]]
+==== specific (noun)
+*Description*: When used as a modifier, put a hyphen before "specific," for example, "Linux-specific" or "chip-specific."
+
+*Use it*: yes
+
+*Incorrect forms*: Linux specific, chip specific, and so on
+
+*See also*:
+
+[discrete]
+[[spelled]]
+==== spelled (verb)
+*Description*: "Spelled" is the past tense of "to spell" in U.S. English. Do not use the Commonwealth English variant "spelt."
+
+*Use it*: yes
+
+*Incorrect forms*: spelt
+
+*See also*:
+
+[discrete]
+[[sql]]
+==== SQL (noun)
+*Description*: "SQL" is an acronym for Structured Query Language. The ISO-standard SQL (ISO 9075 and its descendants) is pronounced "ess queue ell" and takes "an" as its indefinite article. Microsoft's proprietary product, SQL Server, is pronounced as a word ("sequel") and takes "a" as its indefinite article. Oracle also pronounces its SQL-based products (such as PL/SQL) as "sequel." When referring to a specific Relational Database Management System (RDBMS), use the appropriate product name. For example, when discussing Microsoft SQL Server, write out the full name, "Microsoft SQL Server."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:mysql[MySQL]
+
+[discrete]
+[[ser-iov]]
+==== SR-IOV (noun)
+*Description*: "SR-IOV" is an acronym for Single-Root I/O Virtualization. It is a virtualization specification that allows a PCIe device to appear to be multiple separate physical PCIe devices.
+
+*Use it*: yes
+
+*Incorrect forms*: SR/IOV
+
+*See also*:
+
+[discrete]
+[[ssh]]
+==== SSH (noun)
+*Description*: "SSH" is an acronym for Secure Shell, which is a network protocol that allows data exchange using a secure channel. For the protocol, do not use "SSH," "ssh," "Ssh," or other variants. For the command, use "ssh." Do not use ssh as a verb; for example, write "Use SSH to connect to the remote server" instead of "ssh to the remote server."
+
+*Use it*: yes
+
+*Incorrect forms*: SSH as a verb
+
+*See also*:
+
+[discrete]
+[[ssl]]
+==== SSL (noun)
+*Description*: "SSL" is an acronym for Secure Sockets Layer, which is a protocol developed by Netscape for transmitting private documents over the Internet. SSL uses a public key to encrypt data that is transferred over the SSL connection. The majority of web browsers support SSL. Many websites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with https: instead of http:.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:ssl-tls[SSL/TLS]
+
+[discrete]
+[[ssl-tls]]
+==== SSL/TLS (noun)
+*Description*: SSL/TLS refers to the Secure Socket Layer protocol (SSL) and its successor, the Transport Layer Security protocol (TLS). As both of these protocols are frequently called "SSL", always use "SSL/TLS" to avoid confusion.
+
+*Use it*: yes
+
+*Incorrect forms*: SSL, TLS, TLS/SSL
+
+*See also*:
+
+[discrete]
+[[staroffice]]
+==== StarOffice (noun)
+*Description*: "StarOffice" is a Linux desktop suite.
+
+*Use it*: yes
+
+*Incorrect forms*: Star, Staroffice, Star Office
+
+*See also*:
+
+[discrete]
+[[startx]]
+==== startx (noun)
+*Description*: "startx" begins the xsession, which provides a graphical interface for running the session.
+
+*Use it*: yes
+
+*Incorrect forms*: StartX
+
+*See also*:
+
+[discrete]
+[[straightforward]]
+==== straightforward (adjective)
+*Description*: "Straightforward" means uncomplicated and easy to understand.
+
+*Use it*: yes
+
+*Incorrect forms*: straight forward, straight-forward
+
+*See also*:
+
+[discrete]
+[[su]]
+==== su (noun)
+*Description*: "su" (superuser, switch user, or substitute user) is a Linux command to change the local user to the root user.
+
+*Use it*: yes
+
+*Incorrect forms*: SU
+
+*See also*:
+
+[discrete]
+[[subcommand]]
+==== subcommand (noun)
+*Description*: A "subcommand" is a secondary or even tertiary command used with a primary command. Do not confuse subcommands with options or arguments; subcommands operate on more focused objects or entities. In the following command, "hammer" is the primary command, "import" and "organization" are subcommands, and "--help" is an option: `hammer import organization --help`.
+
+*Use it*: yes
+
+*Incorrect forms*: sub-command
+
+*See also*:
+
+[discrete]
+[[subdirectory]]
+==== subdirectory (noun)
+*Description*: A "subdirectory" is a directory located within another directory, similar to a folder beneath another folder in a graphical user interface (GUI).
+
+*Use it*: yes
+
+*Incorrect forms*: sub-directory
+
+*See also*:
+
+[discrete]
+[[submenu]]
+==== submenu (noun)
+*Description*: A "submenu" is a secondary menu contained within another menu.
+
+*Use it*: yes
+
+*Incorrect forms*: sub-menu
+
+*See also*:
+
+[discrete]
+[[subpackage]]
+==== subpackage (noun)
+*Description*: "Subpackage" has a specific, specialized meaning in Red Hat products. An RPM spec file can define more than one package; these additional packages are called "subpackages." CCS strongly discourages any other use of subpackage. *Subpackages are not the same as dependencies.* Do not treat them as if they are.
+
+*Use it*: yes
+
+*Incorrect forms*: sub-package
+
+*See also*:
+
+[discrete]
+[[subscription]]
+==== subscription (noun)
+*Description*: Subscriptions provide access to Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red Hat Network (RHN), where you subscribed to channels. Do not use "subscription" and "entitlement" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
+
+*Use it*: yes
+
+*Incorrect forms*: entitlement
+
+*See also*: xref:entitlement[entitlement], xref:repository[repository]
+
+[discrete]
+[[sudo]]
+==== sudo (noun)
+*Description*: `sudo` is a command that allows a user to run a program as another user (the root user by default). When a user requires elevated privileges, using the phrase 'as the root user' prior to a command is preferred over prefixing commands with `sudo`.
+
+*Use it*: with caution
+
+*Incorrect forms*: SUDO, Sudo
+
+*See also*:
+
+[discrete]
+[[superuser]]
+==== superuser (noun)
+*Description*: Superuser is the same as the root user. The term is more common in Solaris documentation than Linux.
+
+*Use it*: yes
+
+*Incorrect forms*: super-user, super user
+
+*See also*:
+
+[discrete]
+[[swap-space]]
+==== swap space (noun)
+*Description*:  A Linux system uses "swap space" when it needs more memory resources and the RAM is full. The system moves inactive pages to the swap space to free memory.
+
+*Use it*: yes
+
+*Incorrect forms*: swapspace
+
+*See also*:
+
+[discrete]
+[[sybase-adaptive-server-enterprise]]
+==== Sybase Adaptive Server Enterprise (noun)
+*Description*: Sybase Corporation developed Sybase Adaptive Server Enterprise as a relational database management system that became part of SAP AG. Use SAP Sybase Adaptive Server Enterprise (ASE) on the first use; on subsequent mentions, use "Sybase ASE." If discussing the high-availability version, use "Sybase ASE and High Availability."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[symmetric-encryption]]
+==== symmetric encryption (noun)
+*Description*: "Symmetric encryption" is a type of encryption where the same key encrypts and decrypts the message. In contrast, asymmetric (or public-key) encryption uses one key to encrypt a message and another to decrypt the message.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[systemd]]
+==== systemd (noun)
+*Description*: Systemd is a "system and service manager" that is used as the default system daemon for Red Hat Enterprise Linux 7+
+
+*Use it*: yes
+
+*Incorrect forms*: system D, system D, SystemD, system d, Systemd (unless at the start of a sentence).
+
+*See also*: 
+
+[discrete]
+[[sysv]]
+==== SysV (noun)
+*Description*: The "SysV" init runlevel system provides a standard process for controlling which programs init launches or halts when initializing a runlevel.
+
+*Use it*: yes
+
+*Incorrect forms*: Sys V, System V
+
+*See also*:

@@ -1,0 +1,43 @@
+[discrete]
+[[q-and-a]]
+==== Q and A (noun)
+*Description*: "Q and A" is an abbreviation for "Question and Answer," as defined by the American Heritage Dictionary. In DocBook XML, the title is defined by the DocBook style sheets for the <qandadiv> element. The relevant generated text in English is "Q & A" and is localized automatically.
+
+*Use it*: yes
+
+*Incorrect forms*: q & a, q&a Q & A, Q&A 
+
+*See also*:
+
+[discrete]
+[[qcow2]]
+==== QCOW2 (noun)
+*Description*: "QCOW2" is an acronym for "QEMU Copy On Write version 2." QCOW2 is a file format for disk image files used by QEMU, a hosted virtual machine monitor. Always write this term in uppercase letters.
+
+*Use it*: yes
+
+*Incorrect forms*: qcow2, Qcow2
+
+*See also*: xref:kvm[KVM]
+
+[discrete]
+[[qeth]]
+==== qeth (adjective)
+*Description*: Messages with a prefix "qeth" are issued by the qeth device driver. The qeth device driver supports a multitude of network connections, for example, connections through Open Systems Adapters (OSA), HiperSockets™, guest LANs, and virtual switches.
+
+*Use it*: yes
+
+*Incorrect forms*: Qeth, QETH
+
+*See also*:
+
+[discrete]
+[[quiescent]]
+==== quiescent (adjective)
+*Description*: This lofty-sounding word means _at rest_, _quiet_, or _inactive_. With reference to a measurable property or system, it can also mean _not active_. A system can be quiescent, meaning it is inactive, or (by extension) in a known, unchanging state. If this is what you mean, this is what you should write. If a system is, or needs to be inactive, write _inactive_. If a system is, or needs to be safe, write _safe_.
+
+*Use it*: no
+
+*Incorrect forms*: 
+
+*See also*:
