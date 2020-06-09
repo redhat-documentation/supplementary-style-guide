@@ -1,0 +1,242 @@
+[discrete]
+[[paas]]
+==== PaaS (noun)
+*Description*: "PaaS" is an acronym for "Platform-as-a-Service." In the spelled-out version of this term and its variants (for example, "Infrastructure-as-a-Service" and "Software-as-a-Service"), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text, such as banners, use "<VARIANT>-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:saas[SaaS], xref:iaas[IaaS]
+
+[discrete]
+[[pc]]
+==== PC (noun)
+*Description*: "PC" is an acronym for personal computer. See _The IBM Style Guide_ for further information.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[performance-counter]]
+==== performance counter (noun)
+*Description*: A "performance counter" is a utility for collecting and analyzing performance data. Always use "performance counter" unless referring to a code element named perfcounter and as such, mark it up appropriately (`perfcounter`).
+
+*Use it*: yes
+
+*Incorrect forms*: perfcounter
+
+*See also*:
+
+
+[discrete]
+[[php]]
+==== PHP (noun)
+*Description*: Use "PHP" when referring to the programming language in general. Use `php` when referring to the specific command or some other literal use. See http://www.php.net/ for specific PHP language information. See http://en.wikipedia.org/wiki/PHP for more general information.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[pico]]
+==== Pico (noun)
+*Description*: Capitalize "Pico" when referring to the text editor or to the programming language. Do not capitalize "pico" when referring to the SI prefix.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[physical-topology]]
+==== physical topology (noun)
+*Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The physical topology is the way that the workstations are connected to the network through the actual cables that transmit data.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:logical-topology[logical topology], xref:signal-topology[signal topology]
+
+[discrete]
+[[plain-text]]
+==== plain text (adjective)
+*Description*: "Plain text" is correct in almost all cases. We use "plain text" as a plain English denotation of all unencrypted information, whether it is being stored or is being fed to an encryption algorithm. Unless it is necessary to make the cryptographer's distinction, do not use "plaintext" or "cleartext." Cryptographers distinguish between "cleartext" (unencrypted data) and "plaintext" (unencrypted data as input to an encryption algorithm).
+
+*Use it*: yes
+
+*Incorrect forms*: plaintext, plain-text, cleartext, clear text
+
+*See also*:
+
+[discrete]
+[[please]]
+==== please (adverb)
+*Description*: Instead of saying "Please refer to the _Getting Started Guide_," use "See the _Getting Started Guide_."
+
+*Use it*: no
+
+*Incorrect forms*: 
+
+*See also*:
+
+[discrete]
+[[pluggable]]
+==== pluggable (noun)
+*Description*: "Pluggable" refers to something that is capable of being plugged in, especially in terms of (for example) software modules. "Hot-pluggable" is also widely used with respect to hardware to indicate that it can be connected and recognized without powering down the system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[plugin]]
+==== plug-in (noun)
+*Description*: A "plug-in" is a hardware or software module that adds a specific feature or service to a larger system. For example, a number of plug-ins are available for the Netscape Navigator browser that enable it to display different types of audio or video messages. Navigator plug-ins are based on MIME file types.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[popup]]
+==== pop-up (noun)
+*Description*: A "pop-up" is a graphical user interface (GUI) display area, usually a small window, that is suddenly displayed in the foreground of the visual interface. Pop-ups can be initiated by a single or double mouse click or rollover (sometimes called a mouseover). A pop-up window must be smaller than the background window or interface; otherwise, it's a replacement interface.
+
+*Use it*: yes
+
+*Incorrect forms*: popup, Pop-up
+
+*See also*:
+
+[discrete]
+[[postscript]]
+==== PostScript (noun)
+*Description*: "PostScript" is a registered trademark of Adobe.
+
+*Use it*: yes
+
+*Incorrect forms*: Postscript
+
+*See also*:
+
+[discrete]
+[[powerpc]]
+==== PowerPC (noun)
+*Description*: Depending on context, "PowerPC" refers to either "64-bit PowerPC" (which covers most 64-bit PowerPC implementations) or "64-bit IBM POWER Series" (which covers the IBM POWER2 and IBM POWER8 series). The PowerPC version of Red Hat Enterprise Linux runs on 64-bit IBM POWER series hardware in almost all cases.
+
+*Use it*: yes
+
+*Incorrect forms*: PPC, P-PC, PPC64
+
+*See also*:
+
+[discrete]
+[[posix]]
+==== POSIX (noun)
+*Description*: "POSIX" is an acronym for "Portable Operating System Interface [for Unix]."
+
+*Use it*: yes
+
+*Incorrect forms*: Posix, posix, variations
+
+*See also*:
+
+[discrete]
+[[ppp]]
+==== PPP (noun)
+*Description*: "PPP" is an acronym for "Point-to-Point Protocol," a data link (layer 2) protocol used to establish a direct connection between two nodes. PPP can provide connection authentication, transmission encryption (using ECP, RFC 1968), and compression.
+
+*Use it*: yes
+
+*Incorrect forms*: Ppp, ppp
+
+*See also*:
+
+[discrete]
+[[press]]
+==== press (verb)
+*Description*: Use "press" for keyboard instructions, for example, "Press Enter."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[prom]]
+==== PROM (noun)
+*Description*: "PROM" is an acronym for "programmable read-only memory" and is a variation of "ROM." PROMs are manufactured as blank chips on which data can be written with a device called a PROM programmer.
+
+*Use it*: yes
+
+*Incorrect forms*: prom, Prom
+
+*See also*: xref:rom[ROM]
+
+[discrete]
+[[proof-of-concept]]
+==== proof of concept (noun)
+*Description*: Use the following rules to form the plural of this phrase: Use "proofs of concept" for multiple proofs but only one concept. Use "proofs of concepts" for multiple proofs and multiple concepts.
+
+*Use it*: yes
+
+*Incorrect forms*: proof of concepts
+
+*See also*:
+
+[discrete]
+[[pseudoops]]
+==== pseudo-ops (noun)
+*Description*: "Pseudo-ops" is an abbreviation for "pseudo operations" and is sometimes called an assembler directive. These keywords do not directly translate to a machine instruction.
+
+*Use it*: yes
+
+*Incorrect forms*: pseudo ops, pseudoops
+
+*See also*:
+
+[discrete]
+[[pseries]]
+==== pSeries (noun)
+*Description*: Use "IBM eServer System p" for the first reference; use "IBM System p" or "System p" for subsequent references.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[pulldown]]
+==== pulldown (adjective)
+*Description*: A "pulldown" is the common type of menu used with a graphical user interface (GUI). Clicking a menu title causes the menu items to drop down from that position and be displayed. Options are selected either by clicking the menu item or by continuing to hold the mouse button down and letting go when the item is highlighted.
+
+*Use it*: yes
+
+*Incorrect forms*: pull-down
+
+*See also*:
+
+[discrete]
+[[pxe]]
+==== PXE (noun)
+*Description*: "PXE" is an acronym for "Pre-Boot Execution Environment." Pronounced "pixie," PXE is one of the components of Intel's Wired for Management (WfM) specification. It allows a workstation to boot from a server on a network in preference to booting the operating system on the local hard drive. PXE is a mandatory element of the WfM specification. To be considered compliant, PXE must be supported by the computer's BIOS and its NIC.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:

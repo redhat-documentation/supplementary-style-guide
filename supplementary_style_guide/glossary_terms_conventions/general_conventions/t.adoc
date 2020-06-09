@@ -1,0 +1,209 @@
+[discrete]
+[[terminal-emulation]]
+==== terminal emulation (noun)
+*Description*: "Terminal emulation" refers to making a computer respond like a particular type of terminal. Terminal emulation programs allow you to access a mainframe computer or bulletin board service with a personal computer.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[terminate]]
+==== terminate (verb)
+*Description*: To "terminate" means to stop or end a program.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:fail[fail], xref:crash[crash]
+
+[discrete]
+[[text-mode]]
+==== text mode (noun)
+*Description*: "Text mode" is a video mode in which a display screen is divided into rows and columns of boxes. Each box can contain one character. Text mode is also called character mode.
+
+*Use it*: yes
+
+*Incorrect forms*: textmode, text-mode
+
+*See also*:
+
+[discrete]
+[[text-based]]
+==== text-based (adjective)
+*Description*: Use "text-based" as an adjective when referring to a text-based operating system or interface.
+
+*Use it*: yes
+
+*Incorrect forms*: text based
+
+*See also*:
+
+[discrete]
+[[thin-provisioned]]
+==== thin-provisioned (adjective)
+*Description*: "Thin-provisioning" is a mechanism that allocates disk storage space in a flexible manner, based on the minimum space required at any given time. Thin-provisioned storage is also referred to as "sparse" in some contexts.
+
+*Use it*: yes
+
+*Incorrect forms*: thin-provisioned, thinly provisioned, thinly-provisioned
+
+*See also*: 
+
+[discrete]
+[[third-party-adj]]
+==== third-party (adjective)
+*Description*: Use "third-party" as the adjectival form. Consult a dictionary for more examples.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[third-party-n]]
+==== third party (noun)
+*Description*: Use "third party" as the nominal form. Consult a dictionary for more examples.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[through]]
+==== through (preposition)
+*Description*: Use "through" instead of a hyphen or any other type of dash when expressing a range.
+
+*Use it*: yes
+
+*Incorrect forms*: thru
+
+*See also*:
+
+[discrete]
+[[throughput]]
+==== throughput (noun)
+*Description*: "Throughput" is the amount of data transferred from one place to another or processed in a specified amount of time. Data transfer rates for disk drives and networks are measured in terms of throughput. Typically, throughput is measured in kbps, Mbps, or Gbps. See _The IBM Style Guide_ for more information about using measurements and abbreviations.
+
+*Use it*: yes
+
+*Incorrect forms*: thru
+
+*See also*:
+
+[discrete]
+[[tier-1]]
+==== tier-1 (adjective)
+*Description*: Always hyphenate "tier-1" and indicate the number in numeral form. Follow standard capitalization guidelines.
+
+*Use it*: yes
+
+*Incorrect forms*: tier-one, tier 1
+
+*See also*:
+
+[discrete]
+[[time-frame]]
+==== time frame (noun)
+*Description*: "Time frame" is a period of time with respect to some action or project. It is most commonly styled as two words.
+
+*Use it*: yes
+
+*Incorrect forms*: timeframe, time-frame
+
+*See also*:
+
+[discrete]
+[[time-zone]]
+==== time zone (noun)
+*Description*: "Time zone" is most commonly styled as two words.
+
+*Use it*: yes
+
+*Incorrect forms*: timezone, time-zone
+
+*See also*:
+
+[discrete]
+[[totally]]
+==== totally (adverb)
+*Description*: Do not use "totally."
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:basically[basically]
+
+[discrete]
+[[ttl]]
+==== TTL (noun)
+*Description*: "TTL" is an acronym for "time to live" (noun) and "time-to-live" (adjective). The acronym is always in uppercase letters.
+
+*Use it*: yes
+
+*Incorrect forms*: ttl
+
+*See also*: xref:time-to-live-adj[time-to-live], xref:time-to-live-n[time to live]
+
+[discrete]
+[[time-to-live-n]]
+==== time to live (noun)
+*Description*: Do not capitalize "time to live" unless you are documenting a GUI field, label, or similar element, in which case you should use the same capitalization. Capitalization at the beginning of a sentence is acceptable.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ttl[TTL], xref:time-to-live-adj[time-to-live]
+
+[discrete]
+[[time-to-live-adj]]
+==== time-to-live (adjective)
+*Description*: Do not capitalize "time-to-live" unless you are documenting a GUI field, label, or similar element, in which case you should use the same capitalization. Capitalization at the beginning of a sentence is acceptable.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ttl[TTL], xref:time-to-live-n[time to live]
+
+[discrete]
+[[trusted-certificate-authority]]
+==== trusted Certificate Authority (noun)
+*Description*: A "trusted Certificate Authority" is a third party that creates SSL certificates (CA certificates) used for authentication. It is not to be confused with self-signed certificates. Note the capitalization of Certificate Authority, commonly abbreviated as CA.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[type-n]]
+==== type (noun)
+*Description*: "Type" can be used as a noun, for example, "Print the data type of init." 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:type-v[type (verb)]
+
+[discrete]
+[[type-v]]
+==== type (verb)
+*Description*: "Type" can be used as a verb, for example, "To start Source-Navigator, type `snavigator`."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:type-n[type (noun)]

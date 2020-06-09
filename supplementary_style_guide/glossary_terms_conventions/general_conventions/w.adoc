@@ -1,0 +1,109 @@
+[discrete]
+[[wan]]
+==== WAN (noun)
+*Description*: "WAN" is an acronym for wide-area network, which is a computer network that spans a relatively large geographical area. Typically, a WAN consists of two or more local-area networks (LANs). Computers connected to a wide-area network are often connected through public networks, such as the telephone system. Connections can be through leased lines or satellites. The largest WAN in existence is the Internet.
+
+*Use it*: yes
+
+*Incorrect forms*: wan
+
+*See also*:
+
+[discrete]
+[[wca]]
+==== WCA (noun)
+*Description*: "WCA" is an acronym for web clipping application, which is an application that allows users to extract static information from a web server and load that data onto a web-enabled PDA. WCAs are also called query applications.
+
+*Use it*: yes
+
+*Incorrect forms*: wca
+
+*See also*:
+
+[discrete]
+[[want]]
+==== want (verb)
+*Description*: Use "want" instead of "wish" or "would like." It is better to avoid it entirely by rewriting the sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: wish, would like
+
+*See also*:
+
+[discrete]
+[[we-suggest]]
+==== we suggest (verb)
+*Description*: Do not use "we suggest." Use a more direct construction or use "recommend." For example, instead of "We suggest that you make a backup of your data disk," write "Back up your data disk," or "It is recommended that you back up your data disk."
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:recommend[recommend]
+
+[discrete]
+[[web-ui]]
+==== web UI (noun)
+*Description*: Use "web UI" to refer to a browser-based interface to a software application, even if that application has no connection to the web. If necessary, spell out web UI on first use. Do not hyphenate the acronym or use the one-word form.
+
+*Use it*: yes
+
+*Incorrect forms*: web-UI, webUI
+
+*See also*:
+
+[discrete]
+[[who]]
+==== who (pronoun)
+*Description*: Use the pronoun "who" as a subject, for example, "Who owns this?"
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:whom[whom]
+
+[discrete]
+[[whom]]
+==== whom (pronoun)
+*Description*: Use the pronoun "whom" as a direct object, an indirect object, or the object of a preposition, for example, "To whom does this belong?"
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:who[who]
+
+[discrete]
+[[will]]
+==== will (verb)
+*Description*: Do not use future tense unless it is absolutely necessary.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[window-maker]]
+==== Window Maker (noun)
+*Description*: "Window Maker" is a window manager for the X Window System. Do not combine Window Maker into one word or hyphenate the two words.
+
+*Use it*: yes
+
+*Incorrect forms*: Window-Maker, WindowMaker
+
+*See also*:
+
+[discrete]
+[[write]]
+==== write (verb)
+*Description*: Use "write" instead of "code" as a verb.
+
+*Use it*: yes
+
+*Incorrect forms*: code
+
+*See also*:

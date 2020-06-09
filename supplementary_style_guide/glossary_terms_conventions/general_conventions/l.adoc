@@ -1,0 +1,155 @@
+[discrete]
+[[lan]]
+==== LAN (noun)
+*Description*: "LAN" is an acronym for "local area network."
+
+*Use it*: yes
+
+*Incorrect forms*: Lan, lan
+
+*See also*:
+
+[discrete]
+[[latency]]
+==== latency (noun)
+*Description*: (1) In general, "latency" is the period of time that one component in a system is waiting for another component, which is wasted time. In accessing data on a disk, latency is the time it takes to position the proper sector under the read/write head. (2) In networking, "latency" is the amount of time it takes a packet to travel from source to destination. Latency and bandwidth define the speed and capacity of a network.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:bandwidth[bandwidth]
+
+[discrete]
+[[libvirt]]
+==== libvirt (noun)
+*Description*: "libvirt" is an open source API, daemon, and management tool for managing platform virtualization. It can manage several types of virtualization technologies, including KVM and QEMU. libvirt APIs are used in the orchestration layer of hypervisors in the development of cloud-based environments.
+
+*Use it*: yes
+
+*Class*: noun
+
+*Incorrect forms*: Libvirt
+
+*See also*:  xref:kvm[KVM]
+
+[discrete]
+[[license-n]]
+==== license (noun)
+*Description*: A "license" is an official document that gives someone permission to do or use something.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:license-v[license (verb)]
+
+[discrete]
+[[license-v]]
+==== license (verb)
+*Description*: When used as a verb, "license" means to give someone permission to do something.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:license-n[license (noun)]
+
+[discrete]
+[[linux]]
+==== Linux (noun)
+*Description*: "Linux" is a Unix-like operating system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it properly.
+
+*Use it*: yes
+
+*Incorrect forms*: LINUX, linux
+
+*See also*:
+
+[discrete]
+[[load]]
+==== load (verb)
+*Description*: (1) To "load" means to copy a program from a storage device into memory. Every program must be loaded into memory before it can be executed. Usually, the loading process is performed invisibly by a part of the operating system called the loader. (2) In programming, "load" means to copy data from main memory into a data register. (3) In networking, "load" refers to the amount of data (traffic) being carried by the network.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[load-balancing]]
+==== load balancing (noun)
+*Description*: "Load balancing" distributes processing and communications activity evenly across a computer network so that no single device is overwhelmed. Load balancing is especially important for networks, where it is difficult to predict the number of requests that will be issued to a server. Busy websites typically employ two or more web servers in a load-balancing scheme. If one server starts to get swamped, requests are forwarded to another server with more capacity. Load balancing can also refer to the communications channels themselves.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[logical-topology]]
+==== logical topology (noun)
+*Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The "logical topology" (or "signal topology") is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:physical-topology[physical topology], xref:signal-topology[signal-topology]
+
+[discrete]
+[[lookup-n]]
+==== lookup (noun)
+*Description*: A "lookup" means an act of searching. The correct noun form is "lookup."
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:look-up-v[look up], xref:look-up-ad[look-up]
+
+[discrete]
+[[look-up-v]]
+==== look up (verb)
+*Description*: To "look up" means to search for something. The correct verb form is "look up."
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:lookup-n[lookup], xref:look-up-ad[look-up]
+
+[discrete]
+[[look-up-ad]]
+==== look-up (adjective)
+*Description*: Hyphenate "look-up" when using it as a modifier.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:look-up-v[look up], xref:lookup-n[lookup]
+
+[discrete]
+[[loopback-address]]
+==== loopback address (noun)
+*Description*: The "loopback address" is a special IP address (127.0.0.1 for IPv4, ::1 for IPv6) that is designated for the software loopback interface of a machine. The loopback interface has no hardware associated with it, and it is not physically connected to a network. The loopback interface allows IT professionals to test IP software without worrying about broken or corrupted drivers or hardware.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*:
+
+[discrete]
+[[lpar]]
+==== LPAR (noun)
+*Description*: "LPAR" is an acronym for "logical partitioning," a system of taking a computer's total resources (processors, memory, and storage) and splitting them into smaller units that each can be run with its own instance of the operating system and applications. Logical partitioning, which requires specialized hardware circuits, is typically used to separate different functions of a system, such as web serving, database functions, client/server actions, or systems that serve multiple time zones and/or languages. Logical partitioning can also be used to keep testing environments separated from the production environments. Because the logical partitions act as separate physical machines, they can communicate with each other. Logical partitioning was first used in 1976 by IBM.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:

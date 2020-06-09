@@ -1,0 +1,431 @@
+[[red-hat-jboss-bxms-conventions]]
+
+
+Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-docs@redhat.com. 
+
+[discrete]
+[[asset]]
+==== asset (noun)
+*Description*: An "asset" is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:business-rule[business rule], xref:business-process[business process], xref:decision-table[decision table], xref:data-model[data model], xref:dsl[DSL]
+
+
+[discrete]
+[[backward-chaining]]
+==== backward chaining (verb)
+*Description*: "Backward chaining" is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat JBoss BRMS is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: 
+
+
+[discrete]
+[[business-central]]
+==== Business Central (noun)
+*Description*: The "Business Central" is a web-based user interface used for both Red Hat JBoss BRMS and Red Hat JBoss BPM Suite. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
+
+*Use it*: yes
+
+*Incorrect forms*: Central, BC
+
+*See also*: 
+
+
+[discrete]
+[[business-resource-planner]]
+==== Business Resource Planner (noun)
+*Description*: The "Business Resource Planner" is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
+
+*Use it*: yes
+
+*Incorrect forms*: Resource Planner, Planner
+
+*See also*: 
+
+[discrete]
+[[business-process]]
+==== business process (noun)
+*Description*: A "business process" is a collection of related, structured tasks that results in achieving a specific target. It is presented as as a flowchart comprising a sequence steps necessary to achieve business goals.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+
+
+[discrete]
+[[business-rule]]
+==== business rule (noun)
+*Description*: A "business rule" defines a particular aspect of a business that is intended to assert business structure or influence the behaviour of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+
+[discrete]
+[[data-enumeration]]
+==== data enumeration (noun)
+*Description*: "Data enumeration" is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
+
+*Use it*: yes
+
+*Incorrect forms*: enum
+
+*See also*: 
+
+
+[discrete]
+[[data-model]]
+==== data model (noun)
+*Description*: "Data model" is a model of a data object. A data object is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
+
+*Use it*: yes
+
+*Incorrect forms*: pojo
+
+*See also*: 
+
+
+[discrete]
+[[data-modeler]]
+==== Data Modeler (noun)
+*Description*: The "Data Modeler" is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[decision-table]]
+==== decision table (noun)
+*Description*: A "decision table" is a collection of rules stored in either a spreadsheet or in the Red Hat JBoss BRMS user interface.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[decision-tree]]
+==== decision tree (noun)
+*Description*: A "decision tree" is a graphical representation of a decision model in a tree-like manner.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[drl]]
+==== DRL (noun)
+*Description*: "DRL" is an acronym for the Drools Rule Language, which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
+
+*Use it*: yes
+
+*Incorrect forms*: drl
+
+*See also*: 
+
+
+
+[discrete]
+[[dsl]]
+==== DSL (noun)
+*Description*: "DSL" is an acronym for domain-specific language. DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into DRL files.
+
+*Use it*: yes
+
+*Incorrect forms*: dsl
+
+*See also*: 
+
+
+[discrete]
+[[drools-expert]]
+==== Drools Expert (noun)
+*Description*: The "Drools Expert" is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[guided-editor]]
+==== guided editor (noun)
+*Description*: The "guided editor" is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
+
+*Use it*: yes
+
+*Incorrect forms*: Editor, GUI editor, Business Central editor
+
+*See also*: xref:business-central[Business Central]
+
+
+[discrete]
+[[inference-engine]]
+==== inference engine (noun)
+*Description*: The "inference engine" is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
+
+*Use it*: yes
+
+*Incorrect forms*: BRMS engine, engine
+
+*See also*: 
+
+
+[discrete]
+[[intelligent-process-server]]
+==== Intelligent Process Server (noun)
+*Description*: The "Intelligent Process Server" is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
+
+*Use it*: yes
+
+*Incorrect forms*: Kie server
+
+*See also*: 
+
+
+[discrete]
+[[kjar]]
+==== KJAR (noun)
+*Description*: Red Hat JBoss BPM Suite provides a simplified and complete deployment mechanism that is based entirely on Apache Maven artifacts. These artifacts, also known as "KJARs", are simple jar files that include a descriptor for the KIE system to produce KieBase and KieSession. The KJAR descriptor is represented as the `kmodule.xml` file.
+
+*Use it*: yes
+
+*Incorrect forms*: kjar, kJAR
+
+*See also*: 
+
+
+
+[discrete]
+[[kie]]
+==== KIE (noun)
+*Description*: "KIE" is an acronym for Knowledge Is Everything. KIE is a knowledge solution for Red Hat JBoss BRMS and JBoss BPM Suite and is used for the generic parts of a unified API, such as building, deploying, and loading.
+
+*Use it*: yes
+
+*Incorrect forms*: kie, Kie, knowledge
+
+*See also*: 
+
+
+
+[discrete]
+[[kie-api]]
+==== KIE API (noun)
+*Description*: The "KIE API" is a knowledge-centric API, where rules and processes are first class citizens. KIE is used for the generic parts of unified API, such as building, deploying, and loading.
+
+*Use it*: yes
+
+*Incorrect forms*: kie, Kie, knowledge API
+
+*See also*: 
+
+
+[discrete]
+[[kie-base]]
+==== KIE base (noun)
+*Description*: The "KIE base" is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started. 
+
+*Use it*: yes
+
+*Incorrect forms*: kbase, knowledge base
+
+*See also*: 
+
+
+[discrete]
+[[kie-session]]
+==== KIE session (noun)
+*Description*: A "KIE session" stores runtime data created from a KIE base. The name of the Java object is `KieSession`. After the KIE base is loaded, a session can be created to interact with the engine. The session can then be used to start new processes and signal events.
+
+*Use it*: yes
+
+*Incorrect forms*: ksession, knowledge session
+
+*See also*: 
+
+
+
+[discrete]
+[[knowledge-store]]
+==== knowledge store (noun)
+*Description*: "Knowledge store" is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[organizational-unit]]
+==== organizational unit (noun)
+*Description*: An "organizational unit" is a directory comprising repositories that store business assets.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[package]]
+==== package (noun)
+*Description*: A "package" is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+
+[discrete]
+[[bpms-project]]
+==== project (noun)
+*Description*: A "project" is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:business-rule[business rule], xref:business-process[business process]
+
+
+
+[discrete]
+[[realtime-decision-server]]
+==== Realtime Decision Server (noun)
+*Description*: The "Realtime Decision Server" is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.
+
+*Use it*: yes
+
+*Incorrect forms*: Decision Server, Kie Server
+
+*See also*: 
+
+
+[discrete]
+[[brms]]
+==== Red Hat JBoss BRMS (noun)
+*Description*: "Red Hat JBoss BRMS" is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). BRMS stands for Business Rules Management System. Organizations can use Red Hat JBoss BRMS to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
+
+*Use it*: yes
+
+*Incorrect forms*: BRMS, BRM, JBoss BRMS
+
+*See also*: 
+
+
+[discrete]
+[[bpms]]
+==== Red Hat JBoss BPM Suite (noun)
+*Description*: "Red Hat JBoss BPM Suite" is the JBoss platform for Business Process Management (BPM). It enables enterprise business and IT users to document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
+
+*Use it*: yes
+
+*Incorrect forms*: BPMS, BPM, JBoss BPMS
+
+*See also*: 
+
+
+[discrete]
+[[rule]]
+==== rule (noun)
+*Description*: A "rule" provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
+
+*Use it*: yes
+
+*Incorrect forms*: technical rule
+
+*See also*: 
+
+
+[discrete]
+[[rule-template]]
+==== rule template (noun)
+*Description*: A "rule template" enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[runtime-manager]]
+==== runtime manager (noun)
+*Description*: The "runtime manager" is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution.The strategies are singleton, per request, and per process instance.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:kie-api[KIE API]
+
+
+[discrete]
+[[scorecard]]
+==== Scorecard (noun)
+*Description*: "Scorecard" is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[truth-maintenance-system]]
+==== truth maintenance system (noun)
+*Description*: A "truth maintenance system" (TMS) refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+
+[discrete]
+[[working-memory]]
+==== working memory (noun)
+*Description*: "Working memory" is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 

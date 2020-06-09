@@ -1,0 +1,154 @@
+[discrete]
+[[red-hat-jboss-enterprise-application-platform]]
+==== Red Hat JBoss Enterprise Application Platform (noun)
+*Description*: Red Hat JBoss Enterprise Application Platform is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat JBoss EAP, JBoss Enterprise Application Platform
+
+*See also*: xref:jboss-eap[JBoss EAP]
+
+[discrete]
+[[jboss-eap]]
+==== JBoss EAP (noun)
+*Description*: JBoss EAP is the approved shortened form of xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform].
+
+*Use it*: yes
+
+*Incorrect forms*: EAP, JBoss
+
+*See also*: xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform]
+
+
+[discrete]
+[[activemq]]
+==== ActiveMQ (noun)
+*Description*: ActiveMQ should not be used by itself when referring to the built-in messaging in JBoss EAP.
+
+*Use it*: no
+
+*Incorrect forms*: Active MQ, Active-MQ
+
+*See also*: xref:activemq-artemis[ActiveMQ Artemis], xref:jboss-eap-messaging[JBoss EAP messaging]
+
+[discrete]
+[[activemq-artemis]]
+==== ActiveMQ Artemis (noun)
+*Description*: The use of ActiveMQ Artemis should only be used where required, such as an overview section on what is under the hood of the built-in JBoss EAP messaging.
+
+*Use it*: with caution
+
+*Incorrect forms*: Active MQ Artemis, Active-MQ Artemis
+
+*See also*: xref:activemq[ActiveMQ], xref:jboss-eap-messaging[JBoss EAP messaging]
+
+[discrete]
+[[domain-mode]]
+==== domain mode (noun)
+*Description*: Do not use when referring to the running instance of JBoss EAP server. See xref:managed-domain[managed domain] entry for the correct usage.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:managed-domain[managed domain]
+
+[discrete]
+[[jboss-eap-messaging]]
+==== JBoss EAP messaging (noun)
+*Description*: "JBoss EAP messaging", "JBoss EAP built-in messaging", "built-in messaging" are the appropriate terms for referring to the built-in JBoss EAP messaging.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:activemq[ActiveMQ], xref:activemq-artemis[ActiveMQ Artemis]
+
+[discrete]
+[[management-cli]]
+==== management CLI (noun)
+*Description*: This is the correct way to refer to the command-line JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: CLI, native interface
+
+*See also*:
+
+[discrete]
+[[management-console]]
+==== management console (noun)
+*Description*: This is the correct way to refer to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: GUI, HTTP interface
+
+*See also*:
+
+[discrete]
+[[managed-domain]]
+==== managed domain (noun)
+*Description*: This is the appropriate way to refer to the managed domain operating mode, for example, "When running the JBoss EAP server in a managed domain".
+
+*Use it*: yes
+
+*Incorrect forms*: domain mode
+
+*See also*: xref:domain-mode[domain mode]
+
+[discrete]
+[[messaging-subsystem]]
+==== Messaging subsystem (noun)
+*Description*: It is fine to refer to the JBoss EAP 7 "messaging-activemq" subsystem generically as the "messaging subsystem", where appropriate.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[standalone-mode]]
+==== standalone mode (noun)
+*Description*: Do not use to refer to the standalone operating mode of JBoss EAP server.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:standalone-server[standalone server]
+
+[discrete]
+[[standalone-server]]
+==== standalone server (noun)
+*Description*: This is the appropriate way to refer to the standalone operating mode. For example, when running JBoss EAP as a standalone server.
+
+*Use it*: yes
+
+*Incorrect forms*: standalone mode
+
+*See also*: xref:standalone-mode[standalone mode]
+
+[discrete]
+[[web-services]]
+==== Web services (noun)
+*Description*: Use as two words.
+
+*Use it*: yes
+
+*Incorrect forms*: webservices
+
+*See also*:
+
+[discrete]
+[[windows-server]]
+==== Windows Server (noun)
+*Description*: This uppercase term is correct when referring to Microsoft’s Windows Server product or Windows-specific commands and scripts like `standalone.bat`. "Microsoft" does not precede the product name.
+
+*Use it*: yes
+
+*Incorrect forms*: Microsoft Windows, Windows
+
+*See also*:

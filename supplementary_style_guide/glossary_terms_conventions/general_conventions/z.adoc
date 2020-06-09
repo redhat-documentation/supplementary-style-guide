@@ -1,0 +1,21 @@
+[discrete]
+[[z-series]]
+==== zSeries (noun)
+*Description*: "IBM Z" is the correct usage. Do not use "S/390x," "s390x," "IBM zSeries," or "zSeries."
+
+*Use it*: no
+
+*Incorrect forms*: S/390x, s390x, IBM zSeries, zSeries
+
+*See also*: xref:ibm-z[IBM Z], xref:ibm-s-390[IBM S/390]
+
+[discrete]
+[[z-stream]]
+==== z-stream (noun)
+*Description*: "z-stream" refers to the *_z_* in an _x.y.z_ product version numbering schema. Use only if required for generic reference to a release and the term is in use already by the product. In all other instances refer to the specific release number. 
+
+*Use it*: with caution 
+
+*Incorrect forms*: 
+
+*See also*: xref:micro-release[micro release]

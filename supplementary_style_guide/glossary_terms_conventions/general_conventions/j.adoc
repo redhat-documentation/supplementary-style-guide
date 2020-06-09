@@ -1,0 +1,88 @@
+[discrete]
+[[JavaScript]]
+==== JavaScript (noun)
+*Description*: "JavaScript" is a trademark of Oracle Corporation and should be used when referring to the scripting language. When referring to a file written using this language, use "javascript."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:javascript[javascript]
+
+[discrete]
+[[javascript]]
+==== javascript (adjective)
+*Description*: When referring to a file written using the "JavaScript" language, use all lowercase letters, for example, "Copy the IPA javascript file to the `/temp/` directory."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:JavaScript[JavaScript]
+
+[discrete]
+[[jboss-community]]
+==== JBoss Community (noun)
+*Description*: Use "JBoss Community" when referring to the community of users and contributors. Do not refer to the community as "JBoss.org."
+
+*Use it*: yes
+
+*Incorrect forms*: JBoss.org
+
+*See also*:
+
+[discrete]
+[[jboss-way]]
+==== JBoss Way (noun)
+*Description*: Capitalize "JBoss Way" as a formal, branded concept when referring specifically to the JBoss cultural and business climate or practices. If the reference is generic or the way is further specified, do not capitalize "way."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+// TODO: Add links to "Red Hat Way" and "open source way".
+*See also*: Red Hat Way, open source way
+
+[discrete]
+[[job]]
+==== job (noun)
+*Description*: A "job" is a task performed by a computer system, for example, printing a file is a job. Jobs can be performed by a single program or by a collection of programs.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jsvc]]
+==== jsvc (noun)
+*Description*: The Apache Commons Daemon "jsvc" is a set of libraries and applications for making Java applications run on Unix more easily. Capitalize the initial "J" only at the beginning of a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[just]]
+==== just (adverb)
+*Description*: Use "just" sparingly. In the phrase "Just open the file," "just" can be omitted.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jvm]]
+==== JVM (noun)
+*Description*: "JVM" is an acronym for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM," or only the noun itself, "virtual machine." You can include JVM for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)."
+
+*Use it*: yes
+
+*Incorrect forms*: Jvm, jvm
+
+*See also*:

@@ -1,0 +1,105 @@
+[discrete]
+[[need]]
+==== need (verb)
+*Description*: Use "need" instead of "desire" or "wish." Use "want" when the reader's actions are optional (that is, one might not need something but might still want something).
+
+*Use it*: yes
+
+*Incorrect forms*: desire, wish
+
+*See also*: xref:want[want]
+
+[discrete]
+[[neighbor]]
+==== neighbor (noun)
+
+*Description*: "Neighbor" is the accepted spelling.
+
+*Use it*: yes
+
+*Incorrect forms*: neighbour
+
+*See also*:
+
+[discrete]
+[[network-transparency]]
+==== network transparency (noun)
+
+*Description*: "Network transparency" is a condition where an operating system or other service allows the user access to a remote resource through a network without needing to know if the resource is remote or local. For example, Sun Microsystems' NFS, which has become a de facto industry standard, provides access to shared files through an interface called the Virtual File System (VFS) that runs on top of the TCP/IP stack. Users can manipulate shared files as if they were stored locally on the user's hard disk.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[nfs]]
+==== NFS (noun)
+
+*Description*: "NFS" is an acronym for "Network File System." NFS is a client-server application designed by Sun Microsystems that allows all network users to access shared files stored on computers of different types. NFS provides access to shared files through an interface called the Virtual File System (VFS) that runs in a layer above TCP/IP. Users can manipulate shared files as if they were stored locally on the user's own hard disk. With NFS, computers connected to a network operate as clients while accessing remote files, and as servers while providing remote users access to local shared files. The NFS standards are publicly available and widely used.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[node]]
+==== node (noun)
+
+*Description*: 1) In networks, a "node" is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a node is a point where two or more lines meet. 2) In the context of OpenShift, a "node" provides the runtime environments for containers. 3) In the context of OpenStack, use "node" to refer to a machine running a particular OpenStack service, for example, "a Networking node." Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node," for example, "a Compute host." 4) In Fuse tooling, a node is a Camel component or EIP that has been dragged from the Palette and dropped on the route editor's canvas displayed on the Design tab. Selecting a node on the canvas displays its properties in Properties view for editing. Selecting a node on the canvas also displays its usage details on the Documentation tab in Properties view.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[now]]
+==== now (adverb)
+*Description*: "Now" means at the present time, immediately, or at once.
+
+*Use it*: yes
+
+*Incorrect forms*: right now
+
+*See also*:
+
+[discrete]
+[[null-value]]
+==== NULL (noun)
+
+*Description*: Use "NULL" when a command or value is stated.
+
+*Use it*: with caution
+
+*Incorrect forms*: null
+
+*See also*: xref:null-adjective[null]
+
+[discrete]
+[[null-adjective]]
+==== null (adjective)
+
+*Description*: Use "null" (in all lowercase letters) when stating that something is null.
+
+*Use it*: with caution
+
+*Incorrect forms*: NULL
+
+*See also*: xref:null-value[NULL]
+
+[discrete]
+[[numbers]]
+==== numbers (adverb)
+
+*Description*: Spell out the numbers zero through nine. Spell out any number that begins a sentence. Spell out a number that precedes another number (four 6-pound bags or eleven 20-pound bags). Spell out approximations (for example, thousands of ...) and very large values (for example, 4 billion). Use numerals for numbers 10 and greater, negative numbers, fractions, percentages, decimals, measurements, references to book sections (Chapter 3, Table 5, Page 11), and numbers less than 10 if they appear in the same paragraph as numbers of 10 or greater. (You answered 8 out of 14 questions correctly.) Use numerals when referring to registers (such as R1), code (such as x = 6), and release versions (Red Hat Enterprise Linux 6, Source-Navigator 4.5). Do not use commas in numbers with four digits (for example, 1000 rather than 1,000). Use commas in numbers with five or more digits (for example, 10,000). See _The IBM Style Guide_ for detailed information on numbering formats.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:

@@ -1,0 +1,264 @@
+[discrete]
+[[daisy-chain-n]]
+==== daisy chain (noun)
+*Description*: When used as a noun, a "daisy chain" is a hardware configuration in which devices are connected to each other in series.
+
+*Use it*: yes
+
+*Incorrect forms*: daisy-chain, daisychain
+
+*See also*: xref:daisy-chain-v[daisy chain (verb)]
+
+[discrete]
+[[daisy-chain-v]]
+==== daisy chain (verb)
+*Description*: When used as a verb "daisy chain" means to connect devices in a daisy-chain pattern, that is, in series.
+
+*Use it*: yes
+
+*Incorrect forms*: daisy-chain, daisychain
+
+*See also*: xref:daisy-chain-n[daisy chain (noun)]
+
+[discrete]
+[[data-center]]
+==== data center (noun)
+*Description*: A "data center" is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter."
+
+*Use it*: yes
+
+*Incorrect forms*: datacenter, data-center, data centre, datacentre
+
+*See also*:
+
+[discrete]
+[[data-mirroring]]
+==== data mirroring (noun)
+*Description*: "Data mirroring" is the act of copying data from one location to a storage device in real time.
+
+*Use it*: yes
+
+*Incorrect forms*: datamirroring, data-mirroring
+
+*See also*:
+
+[discrete]
+[[data-path-n]]
+==== data path (noun)
+*Description*: A "data path" is a collection of functional units (such as arithmetic logic units or multipliers that perform data processing operations), registers, and buses. Along with the control unit, a "data path" comprises the central processing unit (CPU).
+
+*Use it*: yes
+
+*Incorrect forms*: datapath
+
+*See also*:
+
+[discrete]
+[[debug-adj]]
+==== debug (adjective)
+*Description*: Use "debug" as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script."
+
+*Use it*: yes
+
+*Incorrect forms*: de-bug
+
+*See also*: xref:debug-v[debug (verb)]
+
+[discrete]
+[[debug-v]]
+==== debug (verb)
+*Description*: When used as a verb, "debug" means to find and remove errors from a program or design.
+
+*Use it*: yes
+
+*Incorrect forms*: de-bug
+
+*See also*: xref:debug-adj[debug (adjective)]
+
+[discrete]
+[[denial-of-service-n]]
+==== denial of service (noun)
+*Description*: "Denial of service" is an interruption in a user's access to a computer network, usually caused deliberately and with malicious intent. Use "denial of service (DoS)" on first use and "DoS" thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Denial of Service
+
+*See also*: xref:denial-of-service-adj[denial of service (adjective)]
+
+[discrete]
+[[denial-of-service-adj]]
+==== denial-of-service (adjective)
+*Description*: When used as an adjective, spell as "denial-of-service," for example, "denial-of-service attack."
+
+*Use it*: yes
+
+*Incorrect forms*: Denial-of-Service
+
+*See also*: xref:denial-of-service-n[denial of service (noun)]
+
+[discrete]
+[[desktop-adj]]
+==== desktop (adjective)
+*Description*: Use "desktop" as an adjective when describing a type of computer, for example, "desktop computer."
+
+*Use it*: yes
+
+*Incorrect forms*: desk top, desk-top
+
+*See also*: xref:desktop-n[desktop (noun)]
+
+[discrete]
+[[desktop-n]]
+==== desktop (noun)
+*Description*: When used as a noun, "desktop" can refer to a type of computer or the working area of a computer screen.
+
+*Use it*: yes
+
+*Incorrect forms*: desk top, desk-top
+
+*See also*: xref:desktop-adj[desktop (adjective)]
+
+[discrete]
+[[device]]
+==== device (noun)
+*Description*: A "device" is any machine or component that attaches to a computer.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[devops-n]]
+==== DevOps (noun)
+*Description*: "DevOps" is a combination of "Development" and "Operations." It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
+
+*Use it*: yes
+
+*Incorrect forms*: devops, Devops, Dev-Ops, Dev Ops
+
+*See also*:
+
+[discrete]
+[[different]]
+==== different from (preposition)
+*Description*: Use "different from" when comparing two things. Use "different from" when the next part of the sentence is a noun or pronoun.
+
+*Use it*: yes
+
+*Incorrect forms*: different than, different to
+
+*See also*:
+
+[discrete]
+[[disk-druid]]
+==== Disk Druid (noun)
+*Description*: A "Disk Druid" is a partitioning tool incorporated into Red Hat Enterprise Linux.
+
+*Use it*: yes
+
+*Incorrect forms*: Disk druid, disk druid, diskdruid
+
+*See also*:
+
+[discrete]
+[[disk-label]]
+==== disk label (noun)
+*Description*: A "disk label" is a record that contains information about the location of the partitions on a disk.
+
+*Use it*: yes
+
+*Incorrect forms*: disklabel, disk-label
+
+*See also*:
+
+[discrete]
+[[dns]]
+==== DNS (noun)
+*Description*: "DNS" is an acronym for "Domain Name System" or "Domain Name Service," a service that translates domain names into IP addresses and vice versa.
+
+*Use it*: yes
+
+*Incorrect forms*: dns
+
+*See also*:
+
+[discrete]
+[[domain-name]]
+==== domain name (noun)
+*Description*: A "domain name" is a name that identifies one or more IP addresses, for example, "redhat.com."
+
+*Use it*: yes
+
+*Incorrect forms*: domainname, domain-name
+
+*See also*:
+
+
+[discrete]
+[[download-n]]
+==== download (noun)
+*Description*: Use "download" as a noun when referring to software, data, and so on that is being retrieved from another computer.
+
+*Use it*: yes
+
+*Incorrect forms*: down-load, down load
+
+*See also*: xref:download-v[download (verb)]
+
+[discrete]
+[[download-v]]
+==== download (verb)
+*Description*: Use "download" as a verb when referring to the act or process of downloading data.
+
+*Use it*: yes
+
+*Incorrect forms*: down-load, down load
+
+*See also*: xref:download-n[download (noun)]
+
+[discrete]
+[[downstream-adj]]
+==== downstream (adjective)
+*Description*: "Downstream" as an adjective refers to the Red Hat offerings that are based on upstream community projects.
+
+*Use it*: yes
+
+*Incorrect forms*: down-stream, down stream
+
+*See also*: xref:downstream-n[downstream (noun)], xref:upstream-adj[upstream (adjective)], xref:upstream-n[upstream (noun)]
+
+[discrete]
+[[downstream-n]]
+==== downstream (noun)
+*Description*: "Downstream" as a noun refers to the Red Hat offerings that are based on upstream community projects.
+
+*Use it*: yes
+
+*Incorrect forms*: down-stream, down stream
+
+*See also*: xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)], xref:upstream-n[upstream (noun)]
+
+[discrete]
+[[dual-boot]]
+==== dual-boot (adjective)
+*Description*: A "dual-boot" system is a system in which two operating systems are installed on the same hard drive.
+
+*Use it*: yes
+
+*Incorrect forms*: dualboot, dual boot
+
+*See also*:
+
+[discrete]
+[[DVD-writer]]
+==== DVD writer (noun)
+*Description*: A "DVD writer" is adevice that records data into the DVD format.
+
+*Use it*: yes
+
+*Incorrect forms*: DVD burner, burner
+
+*See also*:

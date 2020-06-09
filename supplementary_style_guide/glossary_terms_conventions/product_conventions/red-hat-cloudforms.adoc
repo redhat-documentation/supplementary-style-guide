@@ -1,0 +1,76 @@
+[discrete]
+[[red-hat-cloudforms]]
+==== Red Hat CloudForms (noun)
+*Description*: Red Hat CloudForms enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.
+
+*Use it*: yes
+
+*Incorrect forms*: CloudForms Management Engine, CFME
+
+*See also*:
+
+[discrete]
+[[red-hat-cloudforms-appliance]]
+==== Red Hat CloudForms Appliance (noun)
+*Description*: A virtual machine where the virtual management database (VMDB) and Red Hat CloudForms reside. Use "Red Hat CloudForms" in the first documentation instance and "the appliance" in subsequent instances.
+
+*Use it*: yes
+
+*Incorrect forms*: CloudForms Management Engine, CFME
+
+*See also*:
+
+[discrete]
+[[appliance-console]]
+==== Appliance console (noun)
+*Description*: The appliance console is a command-line based interface into the Red Hat CloudForms appliance used for set-up and configuration. 
+
+*Use it*: yes 
+
+*Incorrect forms*: Appliance Console
+
+*See also*:
+
+[discrete]
+[[red-hat-cloudforms-server]]
+==== Red Hat CloudForms server (noun)
+*Description*: The application that runs on the Red Hat CloudForms appliance and communicates with the SmartProxy and the VMDB.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[smartstate-analysis]]
+==== SmartState analysis (noun)
+*Description*: Process run by the SmartProxy which collects the details of a virtual machine or instance. Such details include accounts, drivers, network information, hardware, and security patches. This process is also run by the Red Hat CloudForms server on hosts and clusters. The data is stored in the VMDB.
+
+*Use it*: yes
+
+*Incorrect forms*: Smart State, smart state, Smart state, Smartstate, Analysis.
+
+*See also*:
+
+[discrete]
+[[virtual-management-database]]
+==== Virtual Management Database (VMDB) (noun)
+*Description*: Database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use Virtual Management Database (VMDB) in the first instance and VMDB in subsequent instances. 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[worker-appliance]]
+==== Worker Appliance (noun)
+*Description*: A Red Hat CloudForms appliance dedicated to a role other than User Interface or database. 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:

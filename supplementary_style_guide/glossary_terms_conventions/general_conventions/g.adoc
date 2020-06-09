@@ -1,0 +1,275 @@
+[discrete]
+[[gplusplus]]
+==== G++ (noun)
+*Description*: "G++" is a C++ compiler usually operated using the command line. When referring to the program, use "G++."
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gplusplus-command[g++]
+
+[discrete]
+[[gplusplus-command]]
+==== g++ (noun)
+*Description*: "G++" is a C++ compiler usually operated through the command line. When referring to the command, use "g++," marked up appropriately.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gplusplus[G++]
+
+[discrete]
+[[gas]]
+==== GAS (noun)
+*Description*: "GAS" is an acronym for "GNU Assembler," the assembler used by the GNU Project. When referring to the program, use "GAS."
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gas-command[gas]
+
+[discrete]
+[[gas-command]]
+==== gas (noun)
+*Description*: "GAS" is an acronym for "GNU Assembler," the assembler used by the GNU Project. When referring to the command, use `gas`, marked up appropriately.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gas[GAS]
+
+[discrete]
+[[gb]]
+==== GB (noun)
+*Description*: "GB" is an acronym for gigabyte. Use a space between the value and the abbreviation, for example, "a 2 GB file."
+
+*Use it*: yes
+
+*Incorrect forms*: gb, Gb
+
+*See also*: xref:gigabyte[gigabyte]
+
+[discrete]
+[[gbps]]
+==== Gbps (noun)
+*Description*: "Gbps" is an acronym for Gigabits per second, a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.
+
+*Use it*: yes
+
+*Incorrect forms*: gbps, GBPS
+
+*See also*: 
+
+[discrete]
+[[gcc]]
+==== GCC (noun)
+*Description*: "GCC" is an acronym for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC."
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gcc-command[gcc]
+
+[discrete]
+[[gcc-command]]
+==== gcc (noun)
+*Description*: "GCC" is an acronym for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gcc[GCC]
+
+[discrete]
+[[gcj]]
+==== GCJ (noun)
+*Description*: "GCJ" is an acronym for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ."
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gcj-command[gcj], xref:gcc[GCC]
+
+[discrete]
+[[gcj-command]]
+==== gcj (noun)
+
+*Description*: "GCJ" is an acronym for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use `gcj`, marked up appropriately.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gcj[GCJ], xref:gcc-command[gcc]
+
+[discrete]
+[[gdb]]
+==== GDB (noun)
+*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many Unix-like systems and works for many programming languages. When referring to the program, use "GDB."
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gdb-command[gdb], xref:insight[Insight]
+
+[discrete]
+[[gdb-command]]
+==== gdb (noun)
+*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many Unix-like systems and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gdb[GDB], xref:insight[Insight]
+
+[discrete]
+[[gid]]
+==== GID (noun)
+*Description*: "GID" is an acronym for "Group ID." Do not use "gid."
+
+*Use it*: yes
+
+*Incorrect forms*: gid, Gid
+
+*See also*:
+
+[discrete]
+[[gigabyte]]
+==== gigabyte (noun)
+*Description*: A "gigabyte" is 2 to the 30th power (1,073,741,824) bytes. One gigabyte is equal to 1,024 megabytes. When abbreviating gigabyte, use "GB."
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:gb[GB]
+
+[discrete]
+[[gimp]]
+==== GIMP (noun)
+*Description*: "GIMP" is an acronym for "GNU Image Manipulation Program." Do not use "Gimp" or "gimp." 
+
+*Use it*: yes
+
+*Incorrect forms*: Gimp, gimp
+
+*See also*: 
+
+[discrete]
+[[gnome]]
+==== GNOME (noun)
+*Description*: "GNOME" is an open source desktop environment for Unix systems.
+
+*Use it*: yes
+
+*Incorrect forms*: Gnome, gnome
+
+*See also*: xref:gnome-classic[GNOME Classic]
+
+[discrete]
+[[gnome-classic]]
+==== GNOME Classic (noun)
+*Description*: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as "classic mode" in internal and developer-oriented community documents, we should stay consistent with what is exposed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic." The GNOME "modern mode" (technically, GNOME Shell with the classic mode extensions disabled) is referred to as "GNOME" (on the login screen and elsewhere).
+
+*Use it*: yes
+
+*Incorrect forms*: classic mode
+
+*See also*: xref:gnome[GNOME]
+
+[discrete]
+[[gnu]]
+==== GNU (noun)
+*Description*: "GNU" is a recursive acronym for "GNU's Not Unix." GNU is a Unix-like, open-source operating system. Do not use "Gnu" or "gnu."
+
+*Use it*: yes
+
+*Incorrect forms*: Gnu, gnu
+
+*See also*:
+
+[discrete]
+[[gnupro]]
+==== GNUPro (noun)
+*Description*: "GNUPro" Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro."
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+[discrete]
+[[gpl]]
+==== GPL (noun)
+*Description*: "GPL" is an acronym for "General Public License." Do not use "Gpl" or "gpl."
+
+*Use it*: yes
+
+*Incorrect forms*: Gpl, gpl
+
+*See also*: 
+
+[discrete]
+[[grayscale]]
+==== grayscale (noun)
+*Description*: "Grayscale" is a range of gray shades from white to black, as used in a monochrome display or printout. Do not use "gray-scale" or "gray scale." Only the noun form is currently recognized.
+
+*Use it*: yes
+
+*Incorrect forms*: gray-scale, gray scale
+
+*See also*: 
+
+[discrete]
+[[grub]]
+==== GRUB (noun)
+*Description*: "GRUB" is an acronym for "GRand Unified Bootloader," which is a Linux boot loader.
+
+*Use it*: yes
+
+*Incorrect forms*: Grub
+
+*See also*: 
+
+[discrete]
+[[gtkplus]]
+==== GTK+ (noun)
+*Description*: "GTK+" is an acronym for "GIMP Tool Kit." Do not use "GTK," "Gtk," or "gtk." 
+
+*Use it*: yes
+
+*Incorrect forms*: GTK, Gtk, gtk
+
+*See also*:
+
+[discrete]
+[[guestfish]]
+==== Guestfish (noun)
+*Description*: "Guestfish" is an interactive shell that supports commands for accessing and modifying virtual disk images used in platform virtualization. You can use Guestfish for viewing and editing virtual machines (VMs) managed by libvirt.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:libvirt[libvirt]
+
+[discrete]
+[[guest-operating-system]]
+==== guest operating system (noun)
+*Description*: A "guest operating system" refers to the operating system that is installed in a virtual machine. Do not use "guest" by itself, because it is ambiguous.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:

@@ -1,0 +1,107 @@
+[discrete]
+[[absolute-path]]
+==== absolute path (noun)
+*Description*: The location of a file or directory from the root directory (/). Provides all information to locate a file or directory. 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[agnostic]]
+==== agnostic (adjective)
+*Description*: "Agnostic" denotes or relates to hardware or software that is compatible with many types of platforms or operating systems. For example, many common file formats (JPEG, MP3, and others) are platform agnostic. Use "neutral" instead.
+
+*Use it*: no
+
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[air-gap]]
+==== air gap (noun)
+*Description*: "Air gap" is the physical segregation and isolation of a system as a security measure.
+
+*Use it*: yes
+
+*Incorrect forms*: air wall
+
+*See also*:
+
+[discrete]
+[[alright]]
+==== alright (adjective)
+*Description*: "Alright" is the colloquial form of "correct" or "as expected."
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[AMD64]]
+==== AMD64 (noun)
+*Description*: "AMD64" is the AMD implementation of the x86 architecture.
+
+*Use it*: yes
+
+*Incorrect forms*: Hammer, x86_64, x86-64, x64, 64-bit x86
+
+*See also*:
+
+[NOTE]
+====
+The AMD64 logo is trademarked; the term "AMD64" is not trademarked. For more information about AMD trademarks, see the http://www.amd.com/us/aboutamd/Pages/trademarks.aspx[AMD Trademark Information] page.
+
+For more information about Intel® trademarks, see the http://www.intel.com/content/www/us/en/legal/trademarks.html[Trademark Information] and http://www.intel.com/content/www/us/en/trademarks/trademarks.html[Usage Guidelines for Customers, Licensees, and Other Third Parties] pages.
+====
+
+[discrete]
+[[app]]
+==== app (noun)
+*Description*: Acceptable when referring to a mobile or web application.
+
+*Use it*: yes
+
+*Incorrect forms*: app.
+
+*See also*:
+
+[discrete]
+[[applixware]]
+==== Applixware (noun)
+*Description*: "Applixware" is a suite of proprietary modular applications for Linux.
+
+
+*Use it*: yes
+
+*Incorrect forms*: Applix, ApplixWare
+
+*See also*:
+
+[discrete]
+[[asynchronous-transfer-mode]]
+==== Asynchronous Transfer Mode (noun)
+*Description*: "Asynchronous Transfer Mode" (ATM) is a network technology based on transferring data in cells or packets of a fixed size. The cell size used with ATM is relatively small compared to units used with older technologies.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[auto-detect]]
+==== auto-detect (verb)
+*Description*: "Auto-detect" means to automatically detect threats, new hardware, software updates, and so on.
+
+*Use it*: yes
+
+*Incorrect forms*: autodetect
+
+*See also*:

@@ -1,0 +1,136 @@
+[[red-hat-satellite6-conventions]]
+
+
+Responsible person: Stephen Wadeley (swadeley@redhat.com), backup contact (satellite-doc-list@redhat.com)
+
+[discrete]
+[[capsule-server]]
+==== Capsule Server (noun)
+*Description*: Capsule Server is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Use the two-word name on first use in a section; the single term 'Capsule' is acceptable thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Capsule server, capsule
+
+*See also*:
+
+[discrete]
+[[content-view]]
+==== Content View (noun)
+*Description*: A Content View is a subset of Library content created by intelligent filtering. Use the two-word name in full on first use in a section; the abbreviation 'CV' is acceptable thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Content view, content view
+
+*See also*: xref:composite-content-view[Composite Content View]
+
+[discrete]
+[[composite-content-view]]
+==== Composite Content View (noun)
+*Description*: A Composite Content View is a collection of Content Views. Use the three-word name in full on first use in a section; the abbreviation 'CVV' is acceptable thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Composite Content view, composite content view, Composite View, composite view
+
+*See also*: xref:content-view[Content View]
+
+[discrete]
+[[facter]]
+==== Facter (noun)
+*Description*: Facter is Puppet's system inventory tool.
+
+*Use it*: yes
+
+*Incorrect forms*: facter
+
+*See also*:
+
+[discrete]
+[[subscription-manifest]]
+==== Subscription Manifest (noun)
+*Description*: A Subscription Manifest is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word 'manifest' is acceptable thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Subscription manifest
+
+*See also*:
+
+[discrete]
+[[puppet]]
+==== Puppet (noun)
+*Description*: Puppet is a tool for applying and managing system configurations.
+
+*Use it*: yes
+
+*Incorrect forms*: puppet
+
+*See also*:
+
+[discrete]
+[[puppetize]]
+==== Puppetize (verb)
+*Description*: To apply Puppet manifests and methods to a system. This is unnecessary industry jargon or slang.
+
+*Use it*: no
+
+*Incorrect forms*: puppetize
+
+*See also*: xref:puppet[Puppet]
+
+[discrete]
+[[puppet-forge]]
+==== Puppet Forge (noun)
+*Description*: Puppet Forge is a Puppet Labs git repository for community supplied Puppet modules.
+
+*Use it*: yes
+
+*Incorrect forms*: puppet forge
+
+*See also*:
+
+[discrete]
+[[product]]
+==== Product (noun)
+*Description*: A Red Hat Satellite Product is a collection of repositories.
+
+*Use it*: yes
+
+*Incorrect forms*: product
+
+*See also*:
+
+[discrete]
+[[satellite-server]]
+==== Satellite Server (noun)
+*Description*: Satellite Server synchronizes the content from Red Hat Customer Portal and other sources, and provides life cycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term 'Satellite' is acceptable thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Satellite server
+
+*See also*:
+
+[discrete]
+[[foreman]]
+==== Foreman (noun)
+*Description*: The upstream project from which Satellite Server's provisioning and life cycle management functions are drawn. Use only when required to mention the upstream project. In Red Hat Virtualization use Foreman/Satellite when referring directly to the UI element. Do not use Foreman or Foreman/Satellite to refer to Red Hat Satellite in other cases. A bug is open to get this element changed to Satellite. (https://bugzilla.redhat.com/show_bug.cgi?id=1428205[BZ#1428205 Change Foreman/Satellite to Satellite]) 
+
+*Use it*: with caution
+
+*Incorrect forms*: foreman
+
+*See also*:
+
+[discrete]
+[[katello]]
+==== Katello (noun)
+*Description*: The upstream project from which Satellite Server's subscription and repository management functions are drawn. Use only when required to mention the upstream project.
+
+*Use it*: with caution
+
+*Incorrect forms*: katello
+
+*See also*:

@@ -1,0 +1,9 @@
+= Contributing
+
+== Submitting a question or suggestion
+
+If you have a suggestion or question, open an link:https://github.com/redhat-documentation/doc-style/issues[issue] in the project's GitHub repository.
+
+== Making an update to this guide
+
+If you want to contribute an update to this guide, see the link:https://github.com/redhat-documentation/doc-style/blob/master/CONTRIBUTING.md[Contributing guide] provided in the project's GitHub repository.

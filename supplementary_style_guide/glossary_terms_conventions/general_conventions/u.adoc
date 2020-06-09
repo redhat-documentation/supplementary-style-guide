@@ -1,0 +1,221 @@
+[discrete]
+[[uid]]
+==== UID (noun)
+*Description*: "UID" is an abbreviation of user identifier. UID is a unique identifier associated with a single entity within a given system.
+
+*Use it*: yes
+
+*Incorrect forms*: uid
+
+*See also*:
+
+[discrete]
+[[UltraSPARC]]
+==== UltraSPARC (noun)
+*Description*: "UltraSPARC" is a trademark of SPARC International, Inc. and is used under license by Sun Microsystems, Inc. Products bearing the SPARC trademarks are based upon an architecture developed by Sun Microsystems, Inc.
+
+*Use it*: yes
+
+*Incorrect forms*: ULTRASPARC, UltraSparc, or other variations.
+
+*See also*:
+
+[discrete]
+[[uninterruptible]]
+==== uninterruptible (adjective)
+*Description*: Although "uninterruptable" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[unix]]
+==== UNIX (noun)
+*Description*: UNIX is a registered trademark of The Open Group. Do not use "UNIX-like"; use an expression such as "Linux, UNIX, and similar operating systems" instead.
+
+*Use it*: yes
+
+*Incorrect forms*: Unix, unix, UNIX-like
+
+*See also*:
+
+[discrete]
+[[unset]]
+==== unset (verb)
+*Description*: Use "clear" instead of "unset," for example, "To disable the *Wobbly Widget*, clear the *Enable Wobbly Widget* check box." Another example is, "This rule only matches TCP packets that have the SYN flag set and the ACK flag cleared."
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[untrusted]]
+==== untrusted (adjective)
+*Description*: Use "untrusted" only in the context of security relationships, for example, web browsers often indicate that a site is untrusted if it cannot verify that site's security certificate.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[upgrade]]
+==== upgrade (verb)
+*Description*: "Upgrade" means to raise (something) to a higher standard, in particular to improve by adding or replacing components, for example, "Upgrade the RHEL version."
+
+*Use it*: yes
+
+*Incorrect forms*: up-grade, up grade
+
+*See also*:
+
+[discrete]
+[[unmount]]
+==== unmount (verb)
+*Description*: "Unmount" means to make a disk inaccessible by the computer.
+
+*Use it*: yes
+
+*Incorrect forms*: un-mount, un mount
+
+*See also*: xref:mount[mount]
+
+
+[discrete]
+[[ups]]
+==== UPS (noun)
+*Description*: "UPS" is an abbreviation of uninterruptible power supply, which is a power supply that includes a battery to maintain power in the event of a power outage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[upsell]]
+==== upsell (verb)
+*Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, "upsell" is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
+
+*Use it*: yes
+
+*Incorrect forms*: up-sell
+
+*See also*:
+
+[discrete]
+[[upselling]]
+==== upselling (noun)
+*Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, "upselling" is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
+
+*Use it*: yes
+
+*Incorrect forms*: up-selling, up selling
+
+*See also*:
+
+[discrete]
+[[upstream-n]]
+==== upstream (noun)
+*Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the nominal form.
+
+*Use it*: yes
+
+*Incorrect forms*: up-stream, up stream
+
+*See also*: xref:downstream-n[downstream (noun)], xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)]
+
+[discrete]
+[[upstream-adj]]
+==== upstream (adjective)
+*Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the adjectival form.
+
+*Use it*: yes
+
+*Incorrect forms*: up-stream, up stream
+
+*See also*: xref:downstream-n[downstream (noun)], xref:downstream-adj[downstream (adjective)], xref:upstream-n[upstream (noun)]
+
+
+[discrete]
+[[uptime]]
+==== uptime (noun)
+*Description*: "Uptime" is the time during which a computer or server is in operation. Use the one-word form.
+
+*Use it*: yes
+
+*Incorrect forms*: up-time, up time
+
+*See also*:
+
+[discrete]
+[[url]]
+==== URL (noun)
+*Description*: "URL" is an acronym for Uniform Resource Locator. A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
+
+*Use it*: yes
+
+*Incorrect forms*: url
+
+*See also*:
+
+[discrete]
+[[usable]]
+==== usable (adjective)
+*Description*: "Usable" means something is capable of being used.
+
+*Use it*: yes
+
+*Incorrect forms*: useable
+
+*See also*:
+
+[discrete]
+[[user]]
+==== user (noun)
+*Description*: When referring to the reader, use "you" instead of "user." If referring to more than one user, calling the collection "users" is acceptable, such as "Other users might want to access your database."
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[user-name]]
+==== user name (noun)
+*Description*: Use as shown, two words, except for instances in which the GUI uses the single word form (username).
+
+*Use it*: yes, with exception for GUI.
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[user-space-n]]
+==== user space (noun)
+*Description*: Use "user space" when used as a noun.
+
+*Use it*: yes
+
+*Incorrect forms*: userspace
+
+*See also*: xref:user-space-adj[user-space]
+
+[discrete]
+[[user-space-adj]]
+==== user-space (adjective)
+*Description*: When used as a modifier, use the hyphenated form "user-space."
+
+*Use it*: yes
+
+*Incorrect forms*: userspace
+
+*See also*: xref:user-space-n[user space]
