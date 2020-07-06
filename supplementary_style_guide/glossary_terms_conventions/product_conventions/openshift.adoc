@@ -1,8 +1,5 @@
 [[openshift-conventions]]
 
-
-Responsible person: Ashley Hardin (ahardin@redhat.com), backup contact (openshift-docs@redhat.com)
-
 [discrete]
 [[action]]
 ==== action (noun)

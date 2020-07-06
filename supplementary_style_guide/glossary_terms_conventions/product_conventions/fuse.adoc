@@ -1,7 +1,6 @@
 [[red-hat-jboss-fuse-conventions]]
 
 
-Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@redhat.com. 
 
 [discrete]
 [[camel-context]]
@@ -10,18 +9,18 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: with caution
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:routing-context[routing context]
 
 [discrete]
 [[canvas]]
 ==== canvas (noun)
-*Description*: In Fuse tooling, the route editor provides a canvas (Design tab) on which to build routes graphically, using components and Enterprise Integration Patterns (EIPs) available in the Palette. 
+*Description*: In Fuse tooling, the route editor provides a canvas (Design tab) on which to build routes graphically, using components and Enterprise Integration Patterns (EIPs) available in the Palette.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:design-tab[Design tab], xref:eip[EIP]
 
@@ -32,14 +31,14 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:connection-fuse[connection], xref:endpoint-fuse[endpoint]
 
 [discrete]
 [[configurations-tab]]
 ==== Configurations tab (noun)
-*Description*: In Fuse tooling, the route editor's Configurations tab enables you to add configuration shared globally by all routes in a multiroute routing context. You can select existing endpoints, data formats, or beans from the list or create and add new ones.   
+*Description*: In Fuse tooling, the route editor's Configurations tab enables you to add configuration shared globally by all routes in a multiroute routing context. You can select existing endpoints, data formats, or beans from the list or create and add new ones.
 
 *Use it*: yes
 
@@ -54,7 +53,7 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:connector-fuse[connector]
 
@@ -65,7 +64,7 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:connection-fuse[connection]
 
@@ -76,9 +75,9 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: xref:message-exchange[message exchange], xref:producer-fuse[producer] 
+*See also*: xref:message-exchange[message exchange], xref:producer-fuse[producer]
 
 [discrete]
 [[design-tab]]
@@ -94,11 +93,11 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 [discrete]
 [[eip]]
 ==== EIP (noun)
-*Description*: Enterprise Integration Pattern. A pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Camel implements numerous patterns for asynchronous messaging. In Fuse tooling, these patterns are located in the Palette and filed in separate drawers according to function (Routing, Control Flow, Transformation, and Miscellaneous).  
+*Description*: Enterprise Integration Pattern. A pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Camel implements numerous patterns for asynchronous messaging. In Fuse tooling, these patterns are located in the Palette and filed in separate drawers according to function (Routing, Control Flow, Transformation, and Miscellaneous).
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:component[component]
 
@@ -109,20 +108,20 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: with caution
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:component[component], xref:consumer-fuse[consumer], xref:producer-fuse[producer]
 
 [discrete]
 [[fuse-home]]
 ==== FUSE_HOME (noun)
-*Description*: Fuse installation directory. Use this when describing which directory to use. 
+*Description*: Fuse installation directory. Use this when describing which directory to use.
 
 *Use it*: yes
 
 *Incorrect forms*: INSTALL_DIR, installDir
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[fuse-ignite]]
@@ -142,7 +141,7 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:
 
@@ -153,18 +152,18 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:
 
 [discrete]
 [[message-fuse]]
 ==== message (noun)
-*Description*: In Camel, the message is the fundamental structure for moving data through a route. A message consists of a body (also known as payload), headers, and attachments (optional). Messages flow in one direction from sender to receiver. Headers contain metadata, such as sender IDs, content encoding hints, and so on. Attachments can be text, image, audio, or video files and are typically used with email and web service components.  
+*Description*: In Camel, the message is the fundamental structure for moving data through a route. A message consists of a body (also known as payload), headers, and attachments (optional). Messages flow in one direction from sender to receiver. Headers contain metadata, such as sender IDs, content encoding hints, and so on. Attachments can be text, image, audio, or video files and are typically used with email and web service components.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:message-exchange[message exchange]
 
@@ -175,7 +174,7 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:message-fuse[message], xref:mep[MEP]
 
@@ -186,7 +185,7 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:message-exchange[message exchange]
 
@@ -194,7 +193,7 @@ Responsible person: Nichola Moore (nmoore@redhat.com), backup contact fuse-docs@
 ==== node (noun)
 See xref:node[node] in the _General Conventions_ chapter.
 
-*See also*: xref:canvas[canvas], xref:component[component], xref:eip[EIP], xref:properties-view[Properties view]  
+*See also*: xref:canvas[canvas], xref:component[component], xref:eip[EIP], xref:properties-view[Properties view]
 
 [discrete]
 [[pid]]
@@ -203,7 +202,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:
 
@@ -214,7 +213,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:route-fuse[route], xref:eip[EIP]
 
@@ -225,7 +224,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:consumer-fuse[consumer]
 
@@ -234,7 +233,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 ==== Properties View (noun)
 *Description*: In Fuse tooling, Properties view displays, by default, the properties of the node that is selected on the canvas for editing. It also displays the selected node's user documentation on the Documentation tab.
 
-*Use it*: 
+*Use it*:
 
 *Incorrect forms*: Properties editor
 
@@ -247,14 +246,14 @@ See xref:node[node] in the _General Conventions_ chapter.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:consumer-fuse[consumer], xref:endpoint-fuse[endpoint], xref:processor[processor], xref:producer-fuse[producer], xref:routing-context[routing context]
 
 [discrete]
 [[route-editor]]
 ==== route editor (noun)
-*Description*:  In Fuse tooling, the route editor is the tool you use to construct the route or routes in your routing context. It provides two methods that you can use interchangeably. You build a context graphically in the Design tab. You code a context in XML in the Source tab. 
+*Description*:  In Fuse tooling, the route editor is the tool you use to construct the route or routes in your routing context. It provides two methods that you can use interchangeably. You build a context graphically in the Design tab. You code a context in XML in the Source tab.
 
 *Use it*: yes
 
@@ -265,11 +264,11 @@ See xref:node[node] in the _General Conventions_ chapter.
 [discrete]
 [[routing-context]]
 ==== routing context (noun)
-*Description*: A routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. In Fuse tooling, the routing context is provided in a `.xml` file, the name of which depends on the configuration framework used. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`. 
+*Description*: A routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. In Fuse tooling, the routing context is provided in a `.xml` file, the name of which depends on the configuration framework used. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:camel-context[Camel context], xref:routing-rules[routing rules]
 
@@ -280,7 +279,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:routing-context[routing context], xref:source-tab[Source tab]
 
@@ -288,7 +287,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 [discrete]
 [[source-tab]]
 ==== Source tab (noun)
-*Description*: In Fuse tooling, the route editor's Source tab displays the XML code that corresponds to the graphical representation of the routing context displayed on the Design tab. You can edit and save changes to the routing context on either tab. Changes saved on one tab are immediately propagated and saved on the other tab. 
+*Description*: In Fuse tooling, the route editor's Source tab displays the XML code that corresponds to the graphical representation of the routing context displayed on the Design tab. You can edit and save changes to the routing context on either tab. Changes saved on one tab are immediately propagated and saved on the other tab.
 
 *Use it*: yes
 
@@ -301,9 +300,9 @@ See xref:node[node] in the _General Conventions_ chapter.
 ==== Syndesis (noun)
 *Description*: The community name for Fuse Ignite.
 
-*Use it*: 
+*Use it*:
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:fuse-ignite[Fuse Ignite]
 

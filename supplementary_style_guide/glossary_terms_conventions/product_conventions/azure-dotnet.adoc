@@ -5,7 +5,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:  xref:xplat[Microsoft Azure Cross-Platform Command-Line Interface]
 
@@ -17,7 +17,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:asm[Azure Service Management]
 
@@ -28,7 +28,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:arm[Azure Resource Manager]
 
@@ -39,7 +39,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:hypervisor[hypervisor]
 
@@ -76,7 +76,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Incorrect forms*: On-Demand Marketplace
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[azure-portal]]
