@@ -1,4 +1,10 @@
 [discrete]
+
+For information on official product naming, including long- and short-form names, please contact naming@redhat.com.
+
+For documentation questions, contact cloudforms-docs@redhat.com.
+
+
 [[red-hat-cloudforms]]
 ==== Red Hat CloudForms (noun)
 *Description*: Red Hat CloudForms enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.

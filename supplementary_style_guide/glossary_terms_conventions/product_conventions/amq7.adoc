@@ -1,5 +1,7 @@
 [[red-hat-jboss-amq7-conventions]]
 
+For information on official product naming, including long- and short-form names, please contact naming@redhat.com.
+
 [discrete]
 [[acceptor]]
 ==== acceptor (noun)

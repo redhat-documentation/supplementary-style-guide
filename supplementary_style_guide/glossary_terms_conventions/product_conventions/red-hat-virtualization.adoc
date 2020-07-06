@@ -1,5 +1,9 @@
 [[red-hat-virtualization-conventions]]
 
+For information on official product naming, including long- and short-form names, please contact naming@redhat.com.
+
+For documentation questions, contact rhev-docs@redhat.com.
+
 [discrete]
 [[administration-portal]]
 ==== Administration Portal (noun)

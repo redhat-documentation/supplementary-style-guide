@@ -1,5 +1,9 @@
 [[red-hat-jboss-bxms-conventions]]
 
+For information on official product naming, including long- and short-form names, please contact naming@redhat.com
+
+For other documentation questions, contact brms-docs@redhat.com. 
+
 [discrete]
 [[asset]]
 ==== asset (noun)

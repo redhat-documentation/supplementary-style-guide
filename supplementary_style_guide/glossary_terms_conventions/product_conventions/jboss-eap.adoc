@@ -1,5 +1,7 @@
 [[red-hat-jboss-eap-conventions]]
 
+For information on official product naming, including long- and short-form names, please contact naming@redhat.com.
+
 
 [discrete]
 [[red-hat-jboss-enterprise-application-platform]]
