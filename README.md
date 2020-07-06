@@ -18,4 +18,4 @@ See the [Contributing guide](CONTRIBUTING.md) for information on how to contribu
 
 ## License
 
-<!-- TODO: License information -->
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
