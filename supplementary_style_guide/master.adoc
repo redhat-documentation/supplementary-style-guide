@@ -1,4 +1,4 @@
-= Red Hat supplementary style guide for technical documentation
+= Red Hat supplementary style guide for product documentation
 :doctype: book
 :toc: left
 :toclevels: 3

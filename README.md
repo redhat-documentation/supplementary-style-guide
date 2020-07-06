@@ -1,10 +1,12 @@
-# Red Hat supplementary style guide for technical documentation
+# Red Hat supplementary style guide for product documentation
 
 ## About
 
 <!-- TODO: Update the about; this was taken from project proposal doc -->
 
-The purpose of this project is to create an official Red Hat Supplemental Style Guide for Technical Documentation, supplementing The IBM Style Guide, in direct support of cross-product solution documentation issues. The intended users are documentation teams at Red Hat and upstream project contributors.
+The purpose of this project is to create an official _Red Hat supplemental style guide for product documentation_, supplementing _The IBM Style Guide_, in direct support of cross-product solution documentation issues. The intended users are product documentation teams at Red Hat and upstream project contributors.
+
+<span style="color:red">This project is currently a work in progress.</span>
 
 <!-- TODO: Link to published guide -->
 
