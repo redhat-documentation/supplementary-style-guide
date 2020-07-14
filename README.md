@@ -6,7 +6,7 @@
 
 The purpose of this project is to create an official _Red Hat supplemental style guide for product documentation_, supplementing _The IBM Style Guide_, in direct support of cross-product solution documentation issues. The intended users are product documentation teams at Red Hat and upstream project contributors.
 
-<span style="color:red">This project is currently a work in progress.</span>
+**_This project is currently a work in progress._**
 
 <!-- TODO: Link to published guide -->
 
