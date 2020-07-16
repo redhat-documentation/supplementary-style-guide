@@ -1,7 +1,5 @@
 [[openshift-conventions]]
 
-For information on official product naming, including long- and short-form names, contact brand@redhat.com.
-
 
 [discrete]
 [[action]]
