@@ -5,9 +5,6 @@
 
 Upstream references: {openstack-glossary}
 
-
-For information on official product naming, including long- and short-form names, please contact naming@redhat.com.
-
 For documentation questions, contact rhos-docs@redhat.com.
 
 

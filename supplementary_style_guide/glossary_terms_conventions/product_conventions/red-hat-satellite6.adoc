@@ -1,8 +1,5 @@
 [[red-hat-satellite6-conventions]]
 
-
-For information on official product naming, including long- and short-form names, please contact naming@redhat.com.
-
 For documentation questions, contact satellite-doc-list@redhat.com.
 
 [discrete]
