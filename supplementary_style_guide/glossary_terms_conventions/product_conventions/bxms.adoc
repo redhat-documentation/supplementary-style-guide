@@ -1,7 +1,6 @@
 [[red-hat-jboss-bxms-conventions]]
 
-
-Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-docs@redhat.com. 
+For documentation questions, contact brms-docs@redhat.com.
 
 [discrete]
 [[asset]]
@@ -24,7 +23,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -36,7 +35,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: Central, BC
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -48,7 +47,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: Resource Planner, Planner
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[business-process]]
@@ -57,9 +56,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 
@@ -71,9 +70,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 
@@ -86,7 +85,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: enum
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -98,7 +97,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: pojo
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -108,9 +107,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -120,9 +119,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -132,9 +131,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -146,7 +145,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: drl
 
-*See also*: 
+*See also*:
 
 
 
@@ -159,7 +158,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: dsl
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -169,9 +168,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -195,7 +194,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: BRMS engine, engine
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -207,7 +206,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: Kie server
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -219,7 +218,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: kjar, kJAR
 
-*See also*: 
+*See also*:
 
 
 
@@ -232,7 +231,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: kie, Kie, knowledge
 
-*See also*: 
+*See also*:
 
 
 
@@ -245,19 +244,19 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: kie, Kie, knowledge API
 
-*See also*: 
+*See also*:
 
 
 [discrete]
 [[kie-base]]
 ==== KIE base (noun)
-*Description*: The "KIE base" is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started. 
+*Description*: The "KIE base" is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started.
 
 *Use it*: yes
 
 *Incorrect forms*: kbase, knowledge base
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -269,7 +268,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: ksession, knowledge session
 
-*See also*: 
+*See also*:
 
 
 
@@ -280,9 +279,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -292,9 +291,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -304,9 +303,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 
@@ -317,7 +316,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:business-rule[business rule], xref:business-process[business process]
 
@@ -332,7 +331,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: Decision Server, Kie Server
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -344,7 +343,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: BRMS, BRM, JBoss BRMS
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -356,7 +355,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: BPMS, BPM, JBoss BPMS
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -368,7 +367,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Incorrect forms*: technical rule
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -378,9 +377,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -390,7 +389,7 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:kie-api[KIE API]
 
@@ -402,9 +401,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -414,9 +413,9 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 
 [discrete]
@@ -426,6 +425,6 @@ Responsible person: Vidya Iyengar (viyengar@redhat.com), backup contact brms-doc
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:

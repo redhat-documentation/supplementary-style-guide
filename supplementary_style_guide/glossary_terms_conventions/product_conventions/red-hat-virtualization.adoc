@@ -1,7 +1,6 @@
 [[red-hat-virtualization-conventions]]
 
-
-Responsible person: Tahlia Richardson (trichard@redhat.com), backup contact rhev-docs@redhat.com
+For documentation questions, contact rhev-docs@redhat.com.
 
 [discrete]
 [[administration-portal]]

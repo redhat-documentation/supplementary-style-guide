@@ -1,7 +1,6 @@
 [[red-hat-satellite6-conventions]]
 
-
-Responsible person: Stephen Wadeley (swadeley@redhat.com), backup contact (satellite-doc-list@redhat.com)
+For documentation questions, contact satellite-doc-list@redhat.com.
 
 [discrete]
 [[capsule-server]]
@@ -116,7 +115,7 @@ Responsible person: Stephen Wadeley (swadeley@redhat.com), backup contact (satel
 [discrete]
 [[foreman]]
 ==== Foreman (noun)
-*Description*: The upstream project from which Satellite Server's provisioning and life cycle management functions are drawn. Use only when required to mention the upstream project. In Red Hat Virtualization use Foreman/Satellite when referring directly to the UI element. Do not use Foreman or Foreman/Satellite to refer to Red Hat Satellite in other cases. A bug is open to get this element changed to Satellite. (https://bugzilla.redhat.com/show_bug.cgi?id=1428205[BZ#1428205 Change Foreman/Satellite to Satellite]) 
+*Description*: The upstream project from which Satellite Server's provisioning and life cycle management functions are drawn. Use only when required to mention the upstream project. In Red Hat Virtualization use Foreman/Satellite when referring directly to the UI element. Do not use Foreman or Foreman/Satellite to refer to Red Hat Satellite in other cases. A bug is open to get this element changed to Satellite. (https://bugzilla.redhat.com/show_bug.cgi?id=1428205[BZ#1428205 Change Foreman/Satellite to Satellite])
 
 *Use it*: with caution
 

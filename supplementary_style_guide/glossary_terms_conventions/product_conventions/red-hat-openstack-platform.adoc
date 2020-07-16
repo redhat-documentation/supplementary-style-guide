@@ -3,9 +3,10 @@
 
 :openstack-glossary: link:https://docs.openstack.org/ocata/install-guide-rdo/common/glossary.html[OpenStack.org Glossary]
 
-Responsible person: Petr Kovar (pkovar@redhat.com), backup contact rhos-docs@redhat.com.
-
 Upstream references: {openstack-glossary}
+
+For documentation questions, contact rhos-docs@redhat.com.
+
 
 [discrete]
 [[director]]

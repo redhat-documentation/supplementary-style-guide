@@ -1,4 +1,8 @@
 [discrete]
+
+For documentation questions, contact cloudforms-docs@redhat.com.
+
+
 [[red-hat-cloudforms]]
 ==== Red Hat CloudForms (noun)
 *Description*: Red Hat CloudForms enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.
@@ -23,9 +27,9 @@
 [discrete]
 [[appliance-console]]
 ==== Appliance console (noun)
-*Description*: The appliance console is a command-line based interface into the Red Hat CloudForms appliance used for set-up and configuration. 
+*Description*: The appliance console is a command-line based interface into the Red Hat CloudForms appliance used for set-up and configuration.
 
-*Use it*: yes 
+*Use it*: yes
 
 *Incorrect forms*: Appliance Console
 
@@ -56,7 +60,7 @@
 [discrete]
 [[virtual-management-database]]
 ==== Virtual Management Database (VMDB) (noun)
-*Description*: Database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use Virtual Management Database (VMDB) in the first instance and VMDB in subsequent instances. 
+*Description*: Database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use Virtual Management Database (VMDB) in the first instance and VMDB in subsequent instances.
 
 *Use it*: yes
 
@@ -67,7 +71,7 @@
 [discrete]
 [[worker-appliance]]
 ==== Worker Appliance (noun)
-*Description*: A Red Hat CloudForms appliance dedicated to a role other than User Interface or database. 
+*Description*: A Red Hat CloudForms appliance dedicated to a role other than User Interface or database.
 
 *Use it*: yes
 

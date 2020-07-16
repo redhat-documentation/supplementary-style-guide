@@ -1,7 +1,6 @@
 [[red-hat-ceph-storage-conventions]]
 
-
-Responsible person: Bára Ančincová (bara@redhat.com), backup contact ceph-docs@redhat.com
+For documentation questions, contact ceph-docs@redhat.com.
 
 [discrete]
 [[bucket]]
@@ -368,7 +367,7 @@ See xref:container[container] in the _General Conventions_ part.
 [[placement-target]]
 ==== placement target (noun)
 *Description*: A configurable rule that determines where bucket data is stored.
-//TODO: does this have to be first letters in uppercase? 
+//TODO: does this have to be first letters in uppercase?
 
 *Use it*: yes
 

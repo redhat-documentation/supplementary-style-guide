@@ -1,8 +1,6 @@
 [[red-hat-jboss-amq7-conventions]]
 
 
-Responsible person: Ben Hardesty (bhardest@redhat.com)
-
 [discrete]
 [[acceptor]]
 ==== acceptor (noun)
@@ -56,7 +54,7 @@ Responsible person: Ben Hardesty (bhardest@redhat.com)
 
 *Incorrect forms*: A-MQ Console, Red Hat Console, JBoss Console
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[amq-core-protocol-jms]]
