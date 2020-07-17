@@ -1,3 +1,6 @@
+[discrete]
+[[general-formatting]]
+
 = General formatting
 
 == User-replaced variables

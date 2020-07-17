@@ -1,3 +1,6 @@
+[discrete]
+[[code-examples]]
+
 = Code examples
 
 == Code example syntax highlighting

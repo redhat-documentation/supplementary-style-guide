@@ -1,3 +1,6 @@
+[discrete]
+[[grammar]]
+
 = Grammar
 
 == Abbreviations and acronyms

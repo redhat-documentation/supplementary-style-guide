@@ -1,3 +1,6 @@
+[discrete]
+[[graphical-interfaces]]
+
 = Graphical interfaces
 
 == User interface elements

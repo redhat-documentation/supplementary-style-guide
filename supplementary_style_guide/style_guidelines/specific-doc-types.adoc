@@ -1,3 +1,6 @@
+[discrete]
+[[specific-doc-types]]
+
 = Specific documentation types
 
 == Release notes
