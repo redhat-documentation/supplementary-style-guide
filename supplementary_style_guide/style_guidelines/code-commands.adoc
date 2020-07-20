@@ -1,7 +1,12 @@
+
+[[code-examples]]
 = Code examples
 
+[[code-example-syntax-highlighting]]
 == Code example syntax highlighting
 
+[[callouts-code-examples]]
 == Callouts in code examples
 
+[[long-code-examples]]
 == Long code examples in procedures

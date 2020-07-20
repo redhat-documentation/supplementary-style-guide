@@ -1,9 +1,15 @@
+
+[[general-formatting]]
 = General formatting
 
+[[user-replaced-variables]]
 == User-replaced variables
 
+[[lead-in-sentences]]
 == Lead-in sentences
 
+[[admonitions]]
 == Admonitions
 
+[[product-names-versions-ref]]
 == Product names and version references
