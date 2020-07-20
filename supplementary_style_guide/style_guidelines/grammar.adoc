@@ -1,6 +1,7 @@
-[discrete]
-[[grammar]]
 
+[[grammar]]
 = Grammar
 
+
+[[abbreviations-acronyms]]
 == Abbreviations and acronyms

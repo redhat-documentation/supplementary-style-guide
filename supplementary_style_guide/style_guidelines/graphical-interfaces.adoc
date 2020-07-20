@@ -1,10 +1,12 @@
-[discrete]
-[[graphical-interfaces]]
 
+[[graphical-interfaces]]
 = Graphical interfaces
 
+[[user-interface-elements]]
 == User interface elements
 
+[[menu-navigation]]
 == Menu navigation
 
+[[text-entry]]
 == Text entry

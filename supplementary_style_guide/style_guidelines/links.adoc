@@ -1,8 +1,9 @@
-[discrete]
-[[internal-links]]
 
+[[links]]
 = Links
 
+[[internal-links]]
 == Internal links
 
+[[external-links]]
 == External links
