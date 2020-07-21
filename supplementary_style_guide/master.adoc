@@ -7,18 +7,22 @@
 // :experimental:
 // :linkattrs:
 
-// TODO: Add anchors
-
+[[introduction]]
 == Introduction
 
 include::introduction/about-guide.adoc[leveloffset=+2]
 
 include::introduction/contributing.adoc[leveloffset=+2]
 
+[[style-guidelines]]
 == Style guidelines
 
-// TODO: Add intro text
-// I changed this comment to kick off a travis build. You can delete this line.
+These recommendations might override existing guidance in _The IBM Style Guide_, or might provide guidance for items not covered in _The IBM Style Guide_.
+
+[NOTE]
+====
+If applicable, these guidelines provide example formatting in AsciiDoc, which is the markup language that Red Hat Customer Content Services currently uses. However, the guidelines can be applied to any language.
+====
 
 // General formatting
 include::style_guidelines/general-formatting.adoc[leveloffset=+2]
@@ -38,12 +42,12 @@ include::style_guidelines/specific-doc-types.adoc[leveloffset=+2]
 // Links
 include::style_guidelines/links.adoc[leveloffset=+2]
 
-
+[[glossary-terms-conventions]]
 == Glossary of terms and conventions
 
 This glossary is the central location for terms and conventions for technical language in Red Hat’s product documentation and other technical content.
 
-
+[[general-conventions]]
 === General conventions
 
 ==== A
@@ -154,6 +158,7 @@ include::glossary_terms_conventions/general_conventions/z.adoc[leveloffset=+1]
 
 include::glossary_terms_conventions/general_conventions/symbols.adoc[leveloffset=+1]
 
+[[product-specific-conventions]]
 === Product-specific conventions
 
 include::glossary_terms_conventions/product_conventions/products_conventions_overview.adoc[leveloffset=+1]

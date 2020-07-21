@@ -5,8 +5,29 @@
 [[user-interface-elements]]
 == User interface elements
 
+Bold all graphical user interface elements, including but not limited to menu names, menu items, button names, and dialog window names. Bold the item even if it is not clickable.
+
+.Example AsciiDoc
+----
+Click *OK*.
+----
+
 [[menu-navigation]]
 == Menu navigation
 
+Bold menu names and join menu items with an arrow to indicate a sequence of actions.
+
+.Example AsciiDoc
+----
+Click *Design* -> *Projects*.
+----
+
 [[text-entry]]
 == Text entry
+
+To indicate that a user should input text, use "enter" as opposed to "type" or "input". The text to enter should be in monospace.
+
+.Example AsciiDoc
+----
+Enter `test-postgresql` in the *Name* field.
+----
