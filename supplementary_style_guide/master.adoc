@@ -18,6 +18,7 @@ include::introduction/contributing.adoc[leveloffset=+2]
 == Style guidelines
 
 // TODO: Add intro text
+// I added this comment to kick off a travis build. You can delete this line.
 
 // General formatting
 include::style_guidelines/general-formatting.adoc[leveloffset=+2]
