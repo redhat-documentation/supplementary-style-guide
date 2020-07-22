@@ -1,9 +1,9 @@
 sudo: required
 
-branches:
+branches: # source branch
   only:
   - master # Name of the branch from which to publish
-  - gh_pages # Working branch for testing prior to merging to master.
+  - add_travis_config # Working branch for testing prior to merging to master.
 
 services:
   - docker
