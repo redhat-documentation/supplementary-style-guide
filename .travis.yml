@@ -24,7 +24,7 @@ after_failure:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $TOKEN # Set in travis-ci.org dashboard
+  github_token: $GH_TOKEN # Set in travis-ci.org dashboard
   local_dir: output
 #  repo: supplementary-style-guide/supplementary-style-guide.github.io
 #  target_branch: master
