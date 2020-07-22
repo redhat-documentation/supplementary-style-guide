@@ -2,8 +2,7 @@ sudo: required
 
 branches: # source branch
   only:
-  - master # Name of the branch from which to publish
-  - add_travis_config # Working branch for testing prior to merging to master.
+  - master # Name of the branch from which to publish36
 
 services:
   - docker
@@ -26,9 +25,6 @@ deploy:
   skip_cleanup: true
   github_token: $GH_TOKEN # Set in travis-ci.org dashboard
   local_dir: output
-#  repo: supplementary-style-guide/supplementary-style-guide.github.io
-#  target_branch: master
   on:
-    branch: gh_pages
     branch: master
     
