@@ -3,7 +3,7 @@ sudo: required
 branches:
   only:
   - master # Name of the branch from which to publish
-  - add_travis_config # Working branch for testing prior to merging to master.
+  - gh_pages # Working branch for testing prior to merging to master.
 
 services:
   - docker
@@ -29,6 +29,6 @@ deploy:
 #  repo: supplementary-style-guide/supplementary-style-guide.github.io
 #  target_branch: master
   on:
-    branch: add_travis_config
+    branch: gh_pages
     branch: master
     
