@@ -1,0 +1,33 @@
+sudo: required
+
+branches:
+  only:
+  - master # Name of the branch from which to publish
+  - add_travis_config # Working branch for testing prior to merging to master.
+
+services:
+  - docker
+
+before_install:
+  - mkdir -p output
+  - docker pull asciidoctor/docker-asciidoctor
+
+script:
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor --destination-dir=/documents/output --out-file=index.html supplementary_style_guide/master.adoc
+
+after_error: 
+  - docker logs asciidoc-to-html
+
+after_failure:
+  - docker logs asciidoc-to-html
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $TOKEN # Set in travis-ci.org dashboard
+  local_dir: output
+#  repo: supplementary-style-guide/supplementary-style-guide.github.io
+#  target_branch: master
+  on:
+#    branch: master
+    branch: add_travis_config
