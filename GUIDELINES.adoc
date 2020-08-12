@@ -23,7 +23,7 @@ Use the following template for glossary entries:
 ----
 
 [options="header"]
-|======================
+|===
 |Replace                |With                               | Notes
 |`<id>`                 |The term in lowercase.             |If the term consists of more than one word, separate them with a hyphen ("-"). Do not use spaces, capital letters, or special characters (for example, slash "/") in the ID.
 |`<term>`               |The term to be described.          |
@@ -37,7 +37,7 @@ Use the following template for glossary entries:
 |`<incorrect-form>`     |The form of the term that we should not use.|If there are multiple incorrect forms, separate them with a comma (",").
 |`<another-term-id>`    |The ID of another term related to this one.|Always verify that this ID already exists in the document; otherwise, it will fail to validate if the ID does not exist. Do not include a space between `<another-term-id>` and `[<another-term>]`.
 |`<another-term>`       |The term related to this one.|To link to another document or a web page, replace `xref:<another-term-id>[<another-term>]` with `<link>[<name-of-the-document/web-page>]`.
-|======================
+|===
 
 .Additional glossary entry guidelines
 * Do not combine two terms into one entry.
@@ -81,4 +81,51 @@ To avoid this issue, use different IDs:
 [[contributing-style-guideline-entry]]
 == Contributing a style guideline entry
 
-// TODO: Add guidelines/template once we start adding
+Use the following template when adding a new style guide entry:
+
+.AsciiDoc source for a new style entry
+-----
+[[<id>]]
+== <style-item>
+
+<description>
+
+.Example AsciiDoc
+----
+<example-asciidoc>
+----
+-----
+
+[cols="1,1,2",options="header"]
+|===
+|Replace
+|With
+|Notes
+
+|`<id>`
+|The style item in lowercase.
+|If the style item consists of more than one word, separate them with a hyphen ("-"). Do not use spaces, capital letters, or special characters (for example, slash "/") in the ID.
+
+|`<style-item>`
+|The style item to be described.
+|
+
+|`<description>`
+|The description of the style guidance.
+|Use full sentences with periods. If applicable, add information about why this guidance is recommended.
+
+|`<example-asciidoc>`
+|An AsciiDoc example.
+|Only add an AsciiDoc example if it is applicable to the style guidance.
+
+|===
+
+.Additional style entry guidelines
+
+* Do not combine multiple guidelines into one entry.
+
+* Do not add style entries that duplicate guidance already covered by _The IBM Style Guide_.
+
+* Avoid linking to other resources to provide the style guidance. Incorporate the guidance from other resources into the entry description.
+
+* Use single lines with no breaks for each paragraph. In other words, do not hard wrap at 80 characters, for example.
