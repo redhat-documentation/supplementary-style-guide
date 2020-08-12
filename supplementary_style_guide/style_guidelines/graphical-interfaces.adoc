@@ -5,7 +5,7 @@
 [[user-interface-elements]]
 == User interface elements
 
-Bold all graphical user interface elements, including but not limited to menu names, menu items, button names, and dialog window names. Bold the item even if it is not clickable.
+Bold all graphical user interface elements, including, but not limited to, menu names, menu items, button names, and dialog window names. Bold the item even if it is not clickable.
 
 .Example AsciiDoc
 ----
