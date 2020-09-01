@@ -3,7 +3,7 @@
 = Grammar
 
 
-[[abbreviations-acronyms]]
+[id="abbreviations-acronyms"]
 == Abbreviations and acronyms
 
 Do not use abbreviations in headings and titles, unless an abbreviation is well known or the spelled-out form is too long. If you use an abbreviation for the first time in a heading or title, ensure that you include the spelled-out form either in the heading or title, or in the text that immediately follows the heading or title.
