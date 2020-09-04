@@ -5,9 +5,9 @@
 [[date-formats]]
 == Date formats
 
-Follow _The IBM Style Guide_  guidance of `day Month year` for date formats, for example 3 October 2019.
+Follow _The IBM Style Guide_  guidance of day Month year for date formats, for example 3 October 2019.
 
-When the format, `day Month year`, causes a presentation or clarity issue, use instead: `Month day, year` (for example, October 3, 2019). (Issue link:https://github.com/redhat-documentation/supplementary-style-guide/issues/14[#14])
+When the format, day Month year, causes a presentation or clarity issue, use instead: Month day, year (for example, October 3, 2019).
 
 
 [[user-replaced-variables]]
