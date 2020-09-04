@@ -2,6 +2,14 @@
 [[general-formatting]]
 = General formatting
 
+[[date-formats]]
+== Date formats
+
+Red Hat writers follow _The IBM Style Guide_ for date formats. This list enumerates exceptions:
+
+* When the format, `day Month year`, causes a presentation or clarity issue, use instead: `Month day, year` (for example, October 3, 2019). (Issue link:https://github.com/redhat-documentation/supplementary-style-guide/issues/14[#14])
+
+
 [[user-replaced-variables]]
 == User-replaced variables
 
