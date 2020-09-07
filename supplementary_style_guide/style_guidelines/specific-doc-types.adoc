@@ -113,11 +113,6 @@ Example doc texts:
 "In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) will be removed. Bug fixes and support will be provided through the end of the RHOSP 15  lifecycle but Red Hat will not implement new feature enhancements."
 ----
 
-.Survival tips
-
-- Remove any asterisks (`*`) when you edit the doc text, because they might interfere with the draft text formatting.
-- You can add links in doc text, for example if you need to link to more information in the doc set or to a KBase article.
-- When you review Doc Text and save the BZ, all the people in the CC list receive an email notification, which can act as an indirect request for tech review on the edited text. However, if you are unsure of the text, contact the reporter or the person who wrote the draft directly and ask for a tech review.
 
 
 
