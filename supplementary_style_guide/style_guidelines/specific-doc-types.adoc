@@ -8,7 +8,7 @@
 [[release-notes-doc-texts]]
 === Conventions for phrasing Release Notes doc texts
 
-A doc text is a short description of an engineering Bugzilla or Jira issue that is published in product Errata Advisories and Release Notes. Engineering supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with the IBM Style Guide. You can write doc texts in more than one way, depending on the issue type: 
+A doc text is a short description of an engineering Bugzilla or Jira issue that is published in product Errata Advisories and Release Notes. Engineering supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with _The IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type: 
 
 * Enhancements
 * Bug Fixes
@@ -101,16 +101,16 @@ In <product> <release>, <name of capability> is deprecated. Bug fixes and suppor
 
 Removal notice::
 ----
-In <product> <release>, <name of capability> is removed. Bug fixes and support will be provided through the end of the <releasename or, if unknown, “a future”> lifecycle but no new feature enhancements will be made. (OPTIONAL: You can use <alternative capability> instead.) 
+In <product> <release>, <name of capability> is removed. Bug fixes and support will be provided through the end of the <releasename or, if unknown, “a future”> life cycle but no new feature enhancements will be made. (OPTIONAL: You can use <alternative capability> instead.) 
 ----
 
 Example doc texts:
 ----
-"In Red Hat Openstack Platform (RHOSP) 14, the director graphical user interface will be deprecated. Bug fixes and support will be provided through the end of a future lifecycle but Red Hat will not implement new feature enhancements."
+"In Red Hat Openstack Platform (RHOSP) 14, the director graphical user interface will be deprecated. Bug fixes and support will be provided through the end of a future life cycle but Red Hat will not implement new feature enhancements."
 ----
 
 ----
-"In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) will be removed. Bug fixes and support will be provided through the end of the RHOSP 15  lifecycle but Red Hat will not implement new feature enhancements."
+"In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) will be removed. Bug fixes and support will be provided through the end of the RHOSP 15  life cycle but Red Hat will not implement new feature enhancements."
 ----
 
 
