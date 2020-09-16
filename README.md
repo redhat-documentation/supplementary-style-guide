@@ -8,7 +8,7 @@ The purpose of this project is to create an official _Red Hat supplemental style
 
 **_This project is currently a work in progress._**
 
-<!-- TODO: Link to published guide -->
+View the latest version of the guide: [Red Hat supplementary style guide for product documentation](https://redhat-documentation.github.io/supplementary-style-guide/)
 
 ## Suggestions or questions?
 
