@@ -7,7 +7,7 @@
 
 Follow _The IBM Style Guide_  guidance of day Month year for date formats, for example 3 October 2019.
 
-When the format, day Month year, causes a presentation or clarity issue, use instead: Month day, year (for example, October 3, 2019).
+When the format _day Month year_ causes a presentation or clarity issue, use instead: _Month day, year_ (for example, October 3, 2019).
 
 
 [[user-replaced-variables]]
