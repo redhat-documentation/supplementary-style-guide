@@ -8,83 +8,73 @@
 [[release-notes-doc-texts]]
 === Conventions for phrasing Release Notes doc texts
 
-A doc text is a short description of an engineering Bugzilla or Jira issue that is published in product Errata Advisories and Release Notes. Engineering supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with _The IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type: 
+A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and Release notes. Engineering supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with _The IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type: 
 
-* Enhancements
-* Bug Fixes
-* Known Issues
+* Enhancement
+* Bug Fix
+* Known Issue
 * Technology Preview
 * Deprecated Functionality
 
 Use the following general structure for consistency.
 
-.Enhancement
+Enhancement::
  
 Use present tense in one of the following formats:
-
 ----
 This enhancement <present tense explanation>.
 ----
-
 ----
 With this update, <present tense explanation>.
 ----
-
-Example doc texts:
+.Example doc texts:
 ----
-“This enhancement optimizes migration of an RBD volume from one Cinder back end to another when the volume resides within the same Ceph cluster. If both volumes are in the same Ceph cluster, Ceph performs data migration instead of the cinder-volume process. This reduces migration time.”
+This enhancement optimizes migration of an RBD volume from one Cinder back end to another when the volume resides within the same Ceph cluster. If both volumes are in the same Ceph cluster, Ceph performs data migration instead of the cinder-volume process. This reduces migration time.
 ----
-
 ----
-"With this update, you can create application credentials to use keystone to authenticate applications."
+With this update, you can create application credentials to use keystone to authenticate applications.
 ----
 
-.Bug Fixes
+Bug Fix::
 
 Use past tense for the problem and present tense for the solution, in the following format:
-
 ----
 Before this update,  <X problem> caused <Y situation> (OPTIONAL: under the following <Z conditions>). With this update, <fix> resolves the issue (OPTIONAL: and <agent> can <perform operation> successfully).
 ----
-
-Example doc text:
+.Example doc text:
 ----
-“Before this update, the loopback device for Cinder iSCSI/LVM backend was not recreated after a system restart, which prevented the cinder-volume service from restarting. With this update, a systemd service recreates the loopback device and the Cinder iSCSI/LVM backend persists after a restart.”
+Before this update, the loopback device for Cinder iSCSI/LVM backend was not recreated after a system restart, which prevented the cinder-volume service from restarting. With this update, a systemd service recreates the loopback device and the Cinder iSCSI/LVM backend persists after a restart.
 ----
 
-.Known Issues
+Known Issue::
 
 Use present tense for the issue and the imperative form for the workaround in the following format:
-
 ----
 There is currently a known issue <present tense explanation> under <X conditions>. 
 
 Workaround: <workaround>.
 ----
-
-Example doc text:
+.Example doc text:
 ----
-"Currently, you cannot use Orchestration (heat) templates with the director to deploy an overcloud that requires NFS as an Image service (glance) back end. There is currently no workaround for this issue."
+Currently, you cannot use Orchestration (heat) templates with the director to deploy an overcloud that requires NFS as an Image service (glance) back end. There is currently no workaround for this issue.
 ----
-
 ----
-"The Compute services (nova) might fail to deploy because the nova_wait_for_compute_service script is unable to query the Nova API. If a remote container image registry is used outside of the undercloud, the Nova API service might not finish deploying in time. 
-Workaround: Rerun the deployment command, or use a local container image registry on the undercloud."
+The Compute services (nova) might fail to deploy because the `nova_wait_for_compute_service` script is unable to query the Nova API. If a remote container image registry is used outside of the undercloud, the Nova API service might not finish deploying in time. 
+Workaround: Rerun the deployment command, or use a local container image registry on the undercloud.
 ----
 
-.Technology Preview
+Technology Preview::
 
 Use present tense in the following format:
 ----
-In <release>, a technology preview is available for <feature explanation>.
+In <release>, a Technology Preview is available for <feature explanation>.
+----
+.Example doc text: 
+----
+In Red Hat OpenStack Platform 16.0, a Technology Preview is available for the Bare Metal Provisioning service (ironic) deployed on an IPv6 provisioning network for BMaaS (Bare Metal as-a-Service) tenants.
 ----
 
-Example doc text: 
-----
-"In Red Hat OpenStack Platform 16.0, a technology preview is available for the Bare Metal Provisioning service (ironic) deployed on an IPv6 provisioning network for BMaaS (Bare Metal as-a-Service) tenants."
-----
-
-.Deprecated Functionality
+Deprecated Functionality::
 Warn users about the following deprecation stages:
 
 * Plan to deprecate
@@ -98,19 +88,16 @@ Deprecation notice::
 ----
 In <product> <release>, <name of capability> is deprecated. Bug fixes and support will be provided through the end of the <releasename or, if unknown, “a future”> lifecycle but no new feature enhancements will be made. (OPTIONAL: You can use <alternative capability> instead.) 
 ----
-
 Removal notice::
 ----
 In <product> <release>, <name of capability> is removed. Bug fixes and support will be provided through the end of the <releasename or, if unknown, “a future”> life cycle but no new feature enhancements will be made. (OPTIONAL: You can use <alternative capability> instead.) 
 ----
-
-Example doc texts:
+.Example doc texts:
 ----
-"In Red Hat Openstack Platform (RHOSP) 14, the director graphical user interface will be deprecated. Bug fixes and support will be provided through the end of a future life cycle but Red Hat will not implement new feature enhancements."
+In Red Hat Openstack Platform (RHOSP) 14, the director graphical user interface will be deprecated. Bug fixes and support will be provided through the end of a future life cycle but Red Hat will not implement new feature enhancements.
 ----
-
 ----
-"In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) will be removed. Bug fixes and support will be provided through the end of the RHOSP 15  life cycle but Red Hat will not implement new feature enhancements."
+In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) will be removed. Bug fixes and support will be provided through the end of the RHOSP 15  life cycle but Red Hat will not implement new feature enhancements.
 ----
 
 
