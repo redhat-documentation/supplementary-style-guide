@@ -2,11 +2,43 @@
 [[links]]
 = Links
 
-// [[internal-links]]
-// == Internal links
+[[cross-references]]
+== Cross-references
 
-// [[external-links]]
-// == External links
+Follow these guidelines when adding cross-references within your documentation:
+
+* Include cross-references only when necessary.
+* If the information is critical, consider including it instead of cross-referencing.
+
+.Example AsciiDoc: Cross-reference
+----
+For more information about <topic>, see xref:<link>[<link_text>].
+----
+
+[[external-links]]
+== External links
+
+Follow these guidelines when linking externally:
+
+* Always include link text. Bare URLs (URLs without explanatory information) are unhelpful because they do not provide adequate context about the link target.
+* Use hyperlinks unless the URL is an example URL or is otherwise inaccessible to users. See the _IBM Style Guide_ for information about using addresses in examples.
+* By default, links are followable and crawlable. Do not use the "nofollow" link option unless absolutely necessary.
+* Avoid links to external sites when possible. External links can change or be unreliable.
+* Avoid deep links (to a specific page or image from another company) to prevent an ongoing maintenance responsibility and to prevent bypassing a website's legal information.
+
+.Example AsciiDoc: External link
+----
+For more information about <topic>, see link:<link>[<link_text>].
+----
+
+[[link-text]]
+== Link text
+
+Follow these guidelines when specifying link text:
+
+* Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location.
+* Use a concise sentence or sentence fragment as the link text.
+* Avoid irrelevant link text.
 
 [[rh-kb-links]]
 == Links to Red Hat Knowledgebase articles
