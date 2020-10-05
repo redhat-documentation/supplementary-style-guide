@@ -37,10 +37,10 @@ You can use one of the following example link structures for consistency.
 
 .Example AsciiDoc
 ----
-For more information about X, see xref/url[Y].
+For more information about <topic>, see <link>/<xref>[<anchor_text>].
 ----
 ----
-For more information, see xref/url[Y].
+For more information, see <link>/<xref>[<anchor_text>].
 ----
 
 [[external-links]]
@@ -52,10 +52,16 @@ You can use the following example link structures for consistency.
 
 To link to a particular module or section:
 ----
-For more information about X, see xref/url[Y], in the _XYZ_ guide.
+For more information about <topic>, see <link>/<xref>[<anchor_text>], in the <_title_name_> guide.
+----
+----
+For more information, see <link>/<xref>[<anchor_text>], in the <_title_name_> guide.
 ----
 
 To link to an entire guide or index of a user story:
 ----
-For more information about X, see the xref/url[_XYZ_] guide.
+For more information about <topic>, see the <link>/<xref>[<_title_name_>] guide.
+----
+----
+For more information, see the <link>/<xref>[<_title_name_>] guide.
 ----
