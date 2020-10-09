@@ -19,5 +19,31 @@ When the format _day Month year_ causes a presentation or clarity issue, use ins
 [[admonitions]]
 == Admonitions
 
+Admonitions should draw the reader’s attention to certain information. Keep admonitions to a minimum, and avoid placing multiple admonitions in close proximity to one another. If multiple admonitions are necessary, restructure the information by removing the less important statements and placing them into the flow of the main content.
+
+Valid admonition types:
+
+- NOTE
+- IMPORTANT
+- WARNING
+- TIP
+
+[IMPORTANT]
+====
+CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red Hat Customer Portal. Do not use this admonition type.
+====
+
+Admonitions should be short and concise. Do not include procedures in an admonition.
+
+Only individual admonitions are allowed. For example, you cannot have a plural *NOTES* heading.
+
+.Example AsciiDoc
+----
+[NOTE]
+====
+Text for note.
+====
+----
+
 [[product-names-versions-ref]]
 == Product names and version references
