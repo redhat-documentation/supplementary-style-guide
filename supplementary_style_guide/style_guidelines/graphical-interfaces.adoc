@@ -9,17 +9,7 @@ Bold all graphical user interface elements, including, but not limited to, menu 
 
 .Example AsciiDoc
 ----
-Click *OK*.
-----
-
-[[menu-navigation]]
-== Menu navigation
-
-Bold menu names and join menu items with an arrow to indicate a sequence of actions.
-
-.Example AsciiDoc
-----
-Click *Design* -> *Projects*.
+Click *Metering* on the *Installed Operators* page.
 ----
 
 [[text-entry]]
