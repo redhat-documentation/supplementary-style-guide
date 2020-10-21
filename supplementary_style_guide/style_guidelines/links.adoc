@@ -11,18 +11,19 @@
 [[rh-kb-links]]
 == Linking to Red Hat Knowledgebase articles
 
-* The link text should be the title of the Knowledgebase article/solution or running text.
-* Call out that this is a Knowledgebase article/solution when _not_ using running text.
-* When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase solution)`
+* Use the title of the Knowledgebase article for the link text, or use descriptive running text.
+* Call out that this is a Knowledgebase article when _not_ using running text.
+* When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase)`
 
 
-.Examples
+.Example: Article title
 
-The article's tile::
 For a non-cloud environment, you can resize the disk and file system. For more information, see the Red Hat Knowledgebase solution link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?].
 
-Running text::
+.Example: Running text
+
 If your Apache web server configuration enables SSL security, verify that you enable only the TLSv1 protocol, and disable SSLv2 and SSLv3. This is due to the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
 
-Additional resource::
-* link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?] (Red Hat Knowledgebase solution)
+.Example: Additional resources
+
+* link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?] (Red Hat Knowledgebase)
