@@ -28,7 +28,7 @@ If applicable, these guidelines provide example formatting in AsciiDoc, which is
 include::style_guidelines/general-formatting.adoc[leveloffset=+2]
 
 // Grammar
-include::style_guidelines/grammar.adoc[leveloffset=+2]
+// include::style_guidelines/grammar.adoc[leveloffset=+2]
 
 // Code examples
 include::style_guidelines/code-commands.adoc[leveloffset=+2]
@@ -37,7 +37,7 @@ include::style_guidelines/code-commands.adoc[leveloffset=+2]
 include::style_guidelines/graphical-interfaces.adoc[leveloffset=+2]
 
 // Specific documentation types
-include::style_guidelines/specific-doc-types.adoc[leveloffset=+2]
+// include::style_guidelines/specific-doc-types.adoc[leveloffset=+2]
 
 // Links
 include::style_guidelines/links.adoc[leveloffset=+2]
