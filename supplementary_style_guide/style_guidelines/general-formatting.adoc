@@ -14,7 +14,7 @@ When the format _day Month year_ causes a presentation or clarity issue, use ins
 == User-replaced variables
 
 [[lead-in-sentences]]
-== Lead-in sentences
+== Lead-in sentences for `Prerequisites` and `Procedure` sections
 
 [[admonitions]]
 == Admonitions
@@ -45,5 +45,5 @@ Text for note.
 ====
 ----
 
-[[product-names-versions-ref]]
-== Product names and version references
+// [[product-names-versions-ref]]
+// == Product names and version references
