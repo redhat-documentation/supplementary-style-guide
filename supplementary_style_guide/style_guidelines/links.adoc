@@ -23,11 +23,11 @@ The following guidelines improve findability and search engine optimization.
 * Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
 * Search engines have a soft-cap of crawling around 150 links. Avoid over-linking and consider that the navigational links are crawlable too. 
 
-.Anchor text best practices
-* Contextually describe what the user will find post-click.
+.Link text best practices
+* Contextually describe what the user will find at the target.
 * Contextually describe the content at the link location so that the user can decide if they want to leave their current location. 
-* Avoid irrelevant anchor text.
-* You can use a sentence or sentence fragment as the link anchor text.
+* Avoid irrelevant link text.
+* You can use a sentence or sentence fragment as the link text.
 
 
 [[internal-links]]
@@ -37,10 +37,10 @@ You can use one of the following example link structures for consistency.
 
 .Example AsciiDoc
 ----
-For more information about <topic>, see <link>/<xref>[<anchor_text>].
+For more information about <topic>, see <link>/<xref>[<link_text>].
 ----
 ----
-For more information, see <link>/<xref>[<anchor_text>].
+For more information, see <link>/<xref>[<link_text>].
 ----
 
 [[external-links]]
@@ -52,16 +52,16 @@ You can use the following example link structures for consistency.
 
 To link to a particular module or section:
 ----
-For more information about <topic>, see <link>/<xref>[<anchor_text>], in the <_title_name_> guide.
+For more information about <topic>, see <link>[<link_text>], in the <_title_name_> guide.
 ----
 ----
-For more information, see <link>/<xref>[<anchor_text>], in the <_title_name_> guide.
+For more information, see <link>[<link_text>], in the <_title_name_> guide.
 ----
 
 To link to an entire guide or index of a user story:
 ----
-For more information about <topic>, see the <link>/<xref>[<_title_name_>] guide.
+For more information about <topic>, see the <link>[<_title_name_>] guide.
 ----
 ----
-For more information, see the <link>/<xref>[<_title_name_>] guide.
+For more information, see the <link>[<_title_name_>] guide.
 ----
