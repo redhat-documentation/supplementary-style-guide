@@ -1,0 +1,11 @@
+[[lead-in-sentences]]
+= Lead-in sentences
+
+A lead-in sentenece is the text that directly follows a procedure or prerequiste heading in a task-based module. It is not the module abstract, which describes the goals of the user for the module.
+
+.Example lead-in sentences
+----
+To register your system to Satellite Server, complete the following steps:
+----
+
+Avoid using a lead-in sentence if it does not add value. Use a lead-in sentence to introduce a procedure or prerequisite only in instances where the lead-in sentence adds context and makes it easier for the user to understand the module content. 
