@@ -2,6 +2,8 @@
 [[code-examples]]
 = Code examples
 
+Provide the source language if it is supported by the toolchain. Do not use the Bash source language for terminal commands; when representing a terminal prompt for a root command, it improperly interprets the # character as a comment.
+
 [[code-example-syntax-highlighting]]
 == Code example syntax highlighting
 
