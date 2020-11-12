@@ -2,7 +2,7 @@
 [[code-examples]]
 = Code examples
 
-Provide the source language if it is supported by the toolchain. Do not use the Bash source language for terminal commands; when representing a terminal prompt for a root command, it improperly interprets the # character as a comment.
+Provide the source language if it is supported by the toolchain. Do not use the Bash source language for terminal commands. Bash improperly interprets the number sign (#) as a comment instead of the prompt for a command run as the root user.
 
 .Example Asciidoc
 
