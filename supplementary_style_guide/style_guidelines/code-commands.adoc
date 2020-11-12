@@ -4,6 +4,16 @@
 
 Provide the source language if it is supported by the toolchain. Do not use the Bash source language for terminal commands; when representing a terminal prompt for a root command, it improperly interprets the # character as a comment.
 
+.Example Asciidoc
+
+[source, yaml]
+-----
+collections:
+        - name: amazon.aws
+          source: https://galaxy.ansible.com/api/v2/collections
+          version: 1.2.1
+-----
+
 [[code-example-syntax-highlighting]]
 == Code example syntax highlighting
 
