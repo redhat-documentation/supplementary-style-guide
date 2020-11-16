@@ -36,7 +36,7 @@ The following guidelines improve findability and search engine optimization.
 * Users first: Allows users to navigate intuitively.
 * Allows Google to understand architecture of the site.
 * Establishes a quantifiable pathway to recognize topical expertise.
-* They increase site visitation time.
+* Increases site visitation time.
 * Helps Google crawl your site.
 * Builds relevancy and ranking signals for keywords and topics.
 * Builds citation or helps users add context.
