@@ -4,6 +4,34 @@
 
 The following guidelines improve findability and search engine optimization.
 
+
+[[technical-best-practices]]
+.Technical best practices
+
+* Use standard hyperlinks:
+`href="http://www.same-domain.com/" title="Keyword Text">Keyword Text`
+* Do not use non hyperlinks.
+* Do not use JavaScript links. 
+* Do not use Flash Links.
+* Do not use links in Frames or iframes.
+* Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
+* Search engines have a soft-cap of crawling around 150 links. Avoid over-linking and consider that the navigational links are crawlable too. 
+
+
+[[link-text-best-practices]]
+.Link text best practices
+* Contextually describe what the user will find at the target.
+* Contextually describe the content at the link location so that the user can decide if they want to leave their current location. 
+* Avoid irrelevant link text.
+* You can use a sentence or sentence fragment as the link text.
+
+
+
+
+[[internal-links]]
+== Internal links
+
+
 .Benefits of internal linking
 * Users first: Allows users to navigate intuitively.
 * Allows Google to understand architecture of the site.
@@ -13,29 +41,9 @@ The following guidelines improve findability and search engine optimization.
 * Builds relevancy and ranking signals for keywords and topics.
 * Builds citation or helps users add context.
 
-.Technical best practices
-* Use standard hyperlinks:
-`<a href="http://www.same-domain.com/" title="Keyword Text">Keyword Text</a>`
-* Do not use non hyperlinks.
-* Do not use JavaScript links. 
-* Do not use Flash Links.
-* Do not use links in Frames or iframes
-* Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
-* Search engines have a soft-cap of crawling around 150 links. Avoid over-linking and consider that the navigational links are crawlable too. 
-
-.Link text best practices
-* Contextually describe what the user will find at the target.
-* Contextually describe the content at the link location so that the user can decide if they want to leave their current location. 
-* Avoid irrelevant link text.
-* You can use a sentence or sentence fragment as the link text.
-
-
-[[internal-links]]
-== Example format for internal links
-
 You can use one of the following example link structures for consistency.
 
-.Example AsciiDoc
+.Example AsciiDoc for internal links
 ----
 For more information about <topic>, see <link>/<xref>[<link_text>].
 ----
@@ -43,25 +51,28 @@ For more information about <topic>, see <link>/<xref>[<link_text>].
 For more information, see <link>/<xref>[<link_text>].
 ----
 
-[[external-links]]
-== Example format for external links
 
+
+[[external-links]]
+== External links
+
+
+.Example AsciiDoc for external links
 You can use the following example link structures for consistency.
 
-.Example AsciiDoc
 
 To link to a particular module or section:
 ----
 For more information about <topic>, see <link>[<link_text>], in the <_title_name_> guide.
 ----
 ----
-For more information, see <link>[<link_text>], in the <_title_name_> guide.
+For more information, see <link>[<link_text>], in the _<title_name>_ guide.
 ----
 
 To link to an entire guide or index of a user story:
 ----
-For more information about <topic>, see the <link>[<_title_name_>] guide.
+For more information about <topic>, see the <link>[_>title_name>_] guide.
 ----
 ----
-For more information, see the <link>[<_title_name_>] guide.
+For more information, see the <link>[_<title_name>_] guide.
 ----
