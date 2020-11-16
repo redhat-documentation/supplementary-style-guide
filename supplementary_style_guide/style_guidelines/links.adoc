@@ -71,7 +71,7 @@ For more information, see <link>[<link_text>], in the _<title_name>_ guide.
 
 To link to an entire guide or index of a user story:
 ----
-For more information about <topic>, see the <link>[_>title_name>_] guide.
+For more information about <topic>, see the <link>[_<title_name>_] guide.
 ----
 ----
 For more information, see the <link>[_<title_name>_] guide.
