@@ -10,3 +10,5 @@
 
 [[long-code-examples]]
 == Long code examples in procedures
+
+All code blocks, regardless of length, must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables and callouts only. The length of the block is irrelevant, within reason, if the code block follows these guidelines. 
