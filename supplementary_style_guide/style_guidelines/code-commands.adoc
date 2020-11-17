@@ -2,17 +2,17 @@
 [[code-examples]]
 = Code examples
 
-Provide the source language if it is supported by the toolchain. Do not use the Bash source language for terminal commands. Bash improperly interprets the number sign (#) as a comment instead of the prompt for a command run as the root user.
+Provide the source language if it is supported by the Red Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It improperly interprets the number sign (#) as a comment instead of the prompt for a root command.
 
-.Example Asciidoc
+.Example AsciiDoc
 
-[source, yaml]
------
-collections:
+  [source,yaml]
+  -----
+  collections:
         - name: amazon.aws
           source: https://galaxy.ansible.com/api/v2/collections
           version: 1.2.1
------
+  -----
 
 [[code-example-syntax-highlighting]]
 == Code example syntax highlighting
