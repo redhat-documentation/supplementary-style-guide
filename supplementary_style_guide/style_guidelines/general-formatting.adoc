@@ -16,26 +16,17 @@ When the format _day Month year_ causes a presentation or clarity issue, use ins
 [[lead-in-sentences]]
 == Lead-in sentences for `Prerequisites` and `Procedure` sections
 
-A lead-in sentence in this context is the text that directly follows a `Prerequistes` or `Procedure` heading in a task-based module. It is distinct from the module abstract, which describes the goals of the user for the module.
+A lead-in sentence in this context is the text that directly follows a `Prerequisites` or `Procedure` heading in a task-based module. It is distinct from the module abstract, which describes the goals of the user for the module.
 
-Avoid using a lead-in sentence in the `Prerequisites` or `Procedure` sections of a module if it does not add value. Use a lead-in sentence to introduce a procedure or prerequisite only in instances where the lead-in sentence adds context and makes it easier for the user to understand the module content. Use a complete sentence for the lead-in sentence, to reduce ambiguity and support translation for international audiences. 
+Do not use a lead-in sentence in the `Prerequisites` or `Procedure` sections of a module unless it is necessary to aid in navigation or add clarity.
 
+The following are examples of when a lead-in sentence might add value:
 
-Example lead-in sentence
-----
-.Prerequisite
-
-Before registering it to Satellite Server, ensure that the base system on which you want to install Capsule meets the following conditions:
-
-* On Satellite Server, a manifest must be installed and it must contain the appropriate repositories for the organization you want Capsule to belong to.
-* The manifest must contain repositories for the base system on which you want to install Capsule, as well as any clients that you want to connect to Capsule.
-* The repositories must be synchronized.
-* For more information on manifests and repositories, see Managing Subscriptions in the Red Hat Satellite Content Management Guide.
-
-.Procedure
-----
+* Your module has a very long list of prerequisites, and you want to sectionalize the prerequisties to make it easier for users to understand what tasks must be completed to succesfully complete a proceudre.
+* Your module has a complex procedure or set of prerequisites, and you want to emphasize that all steps or prerequisites must be completed.
 
 
+Use a complete sentence for the lead-in sentence, to reduce ambiguity and support translation.
 
 [[admonitions]]
 == Admonitions
