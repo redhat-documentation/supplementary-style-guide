@@ -25,7 +25,6 @@ The following are examples of when a lead-in sentence might add value:
 * Your module has a very long list of prerequisites, and you want to sectionalize the prerequisties to make it easier for users to understand what tasks must be completed to succesfully complete a proceudre.
 * Your module has a complex procedure or set of prerequisites, and you want to emphasize that all steps or prerequisites must be completed.
 
-
 Use a complete sentence for the lead-in sentence, to reduce ambiguity and support translation.
 
 [[admonitions]]
