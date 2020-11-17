@@ -2,9 +2,13 @@
 [[code-examples]]
 = Code examples
 
+[[code-example-syntax-highlighting]]
+== Code example syntax highlighting
+
 Provide the source language if it is supported by the Red Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It improperly interprets the number sign (#) as a comment instead of the prompt for a root command.
 
 .Example AsciiDoc
+
 
   [source,yaml]
   -----
@@ -14,8 +18,7 @@ Provide the source language if it is supported by the Red Hat Customer Portal to
           version: 1.2.1
   -----
 
-[[code-example-syntax-highlighting]]
-== Code example syntax highlighting
+
 
 // [[callouts-code-examples]]
 // == Callouts in code examples
