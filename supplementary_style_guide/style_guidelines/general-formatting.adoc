@@ -10,8 +10,52 @@ Follow _The IBM Style Guide_  guidance of _day Month year_ for date formats, for
 When the format _day Month year_ causes a presentation or clarity issue, use instead: _Month day, year_ (for example, October 3, 2019).
 
 
-[[user-replaced-variables]]
-== User-replaced variables
+[[user-replaced-values]]
+== User-replaced values
+
+A _user-replaced value_ is a value that the user must replace with a value that is relevant for their situation. User-replaced values are often found in places such as code blocks, file paths, and commands.
+
+Use descriptive names for user-replaced values and follow this general format: _<value_name>_.
+
+Ensure that user-replaced values have the following characteristics:
+
+* Surrounded by angle brackets (`< >`)
+* Separated by underscores (`_`) for multi-word values
+* Lowercase, unless the rest of the related text is uppercase or another capitalization scheme.
+* Italicized
+* If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value.
+
+.Example AsciiDoc: User-replaced value in a paragraph
+
+----
+Create an Ansible inventory file that is named `/_<path>_/inventory/hosts`.
+----
+
+This renders as follows:
+
+====
+Create an Ansible inventory file that is named `/_<path>_/inventory/hosts`.
+====
+
+To italicize a user-replaced value in a code block, you must add an attribute to apply text formatting, such as `subs="+quotes"` or `subs="normal"`, to the attribute list of the code block.
+
+.Example AsciiDoc: User-replaced value in a code block
+
+  [subs="+quotes"]
+  ----
+  $ oc describe node __<node_name>__
+  ----
+
+This renders as follows:
+
+====
+[subs="+quotes"]
+----
+$ oc describe node __<node_name>__
+----
+====
+
+// TODO: In the future, add alternative guidance for XML
 
 [[lead-in-sentences]]
 == Lead-in sentences for `Prerequisites` and `Procedure` sections
