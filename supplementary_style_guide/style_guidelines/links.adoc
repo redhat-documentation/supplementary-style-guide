@@ -2,11 +2,11 @@
 [[links]]
 = Links
 
-[[internal-links]]
-== Internal links
+// [[internal-links]]
+// == Internal links
 
-[[external-links]]
-== External links
+// [[external-links]]
+// == External links
 
 [[rh-kb-links]]
 == Linking to Red Hat Knowledgebase articles
