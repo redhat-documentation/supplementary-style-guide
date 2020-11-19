@@ -5,9 +5,9 @@
 [[date-formats]]
 == Date formats
 
-Follow _The IBM Style Guide_  guidance of _day Month year_ for date formats, for example 3 October 2019.
+Follow _The IBM Style Guide_  guidance of _day Month year_ for date formats, for example, 3 October 2019.
 
-When the format _day Month year_ causes a presentation or clarity issue, use instead: _Month day, year_ (for example, October 3, 2019).
+When the format _day Month year_ causes a presentation or clarity issue, use _Month day, year_ (for example, October 3, 2019) instead.
 
 
 [[user-replaced-values]]
@@ -21,7 +21,7 @@ Ensure that user-replaced values have the following characteristics:
 
 * Surrounded by angle brackets (`< >`)
 * Separated by underscores (`_`) for multi-word values
-* Lowercase, unless the rest of the related text is uppercase or another capitalization scheme.
+* Lowercase, unless the rest of the related text is uppercase or another capitalization scheme
 * Italicized
 * If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value.
 
@@ -31,7 +31,7 @@ Ensure that user-replaced values have the following characteristics:
 Create an Ansible inventory file that is named `/_<path>_/inventory/hosts`.
 ----
 
-This renders as follows:
+This renders as:
 
 ====
 Create an Ansible inventory file that is named `/_<path>_/inventory/hosts`.
@@ -46,7 +46,7 @@ To italicize a user-replaced value in a code block, you must add an attribute to
   $ oc describe node __<node_name>__
   ----
 
-This renders as follows:
+This renders as:
 
 ====
 [subs="+quotes"]
@@ -62,19 +62,19 @@ $ oc describe node __<node_name>__
 
 A lead-in sentence in this context is the text that directly follows a `Prerequisites` or `Procedure` heading in a task-based module. It is distinct from the module abstract, which describes the goals of the user for the module.
 
-Do not use a lead-in sentence in the `Prerequisites` or `Procedure` sections of a module unless it is necessary to aid in navigation or add clarity.
+Do not use a lead-in sentence in the `Prerequisites` or `Procedure` sections of a module unless it is necessary to aid navigation or add clarity.
 
-The following are examples of when a lead-in sentence might add value:
+The following examples demonstrate when a lead-in sentence might add value.
 
-* Your module has a very long list of prerequisites, and you want to sectionalize the prerequisties to make it easier for users to understand what tasks must be completed to succesfully complete a proceudre.
+* Your module has a long list of prerequisites, and you want to group the prerequisties in sections to make it easier for users to understand what tasks must be performed to complete a procedure.
 * Your module has a complex procedure or set of prerequisites, and you want to emphasize that all steps or prerequisites must be completed.
 
-Use a complete sentence for the lead-in sentence, to reduce ambiguity and support translation.
+Use a complete sentence for the lead-in sentence to reduce ambiguity and support translation.
 
 [[admonitions]]
 == Admonitions
 
-Admonitions should draw the reader’s attention to certain information. Keep admonitions to a minimum, and avoid placing multiple admonitions in close proximity to one another. If multiple admonitions are necessary, restructure the information by removing the less important statements and placing them into the flow of the main content.
+Admonitions should draw the reader’s attention to certain information. Keep admonitions to a minimum, and avoid placing multiple admonitions close to one another. If multiple admonitions are necessary, restructure the information by moving the less-important statements into the flow of the main content.
 
 Valid admonition types:
 
@@ -90,7 +90,7 @@ CAUTION, which is another type of AsciiDoc admonition, is not fully supported by
 
 Admonitions should be short and concise. Do not include procedures in an admonition.
 
-Only individual admonitions are allowed. For example, you cannot have a plural *NOTES* heading.
+Only individual admonitions are allowed, for example, you cannot have a plural *NOTES* heading.
 
 .Example AsciiDoc
 ----
