@@ -1,4 +1,4 @@
-= Repository Administrator Responisbilities Checklist
+= Repository Administrator Responsibilities
 
 == Administrator rotation schedule:
 
@@ -9,29 +9,28 @@ Signing up to be administrator is voluntary.
 
 As the administrator you are in charge of performing the following duties:
 
-=== Point of Contact
+=== Being the Point of Contact for general issues related to the Supplementary Style Guide repository
 
-You are the point of contact in case other contributors experience issues with the repository. When people reach out to you about an issue, try to fix it if possible. If you cannot fix the issue, report to it to a member of the initiative who can.
+* You are the point of contact in case other contributors experience issues with the repository.
+When people reach out to you about an issue, try to fix it if you can.
+If you cannot fix the issue, report to it to a member of the initiative who can.
 
-=== Site maintenance
+=== Maintaining the Style Guide site on GitHub
 
 * Ensure that the style guide site is available and displayed correctly.
-* Update the README.md, GUIDELINES.adoc and the Contribution guide, if necessary.
+* Create pull requests to update the README.md, GUIDELINES.adoc and the Contribution guide, if necessary.
 
-=== Issues
+=== Driving resolution of open issues
 
 * Review issues submitted to the Supplementary Style Guide GitHub repository.
 * Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify CCS Style Council members and report any issues that need the attention of your peers at the next meeting.
 * Update issue priority labels according to decisions made in meetings.
 * Close issues that are resolved.
 
-=== Pull requests
+=== Driving the completion of pull requests
 
 * Ensure that contributors are submitting pull requests on prioritized open issues.
 * Also ensure that work on open pull requests is moving forward consistently.
-
-=== Reviewing and approving contributions
-
-* Ensure that at least 3 members of CCS Style Council (Link) review and approve every contribution before merging it. If you are the administrator and a member of the Style Council, approve the changes yourself if you can.
-* If a contribution is not reviewed or approved for longer than 1 week, reach out to Style Council members and ask them to review and approve the contribution.
+* Ensure that at least 3 members of the CCS Style Council (Link) review and approve every contribution before merging it. You can be one of the 3.
+* If a contribution is not reviewed or approved for longer than 1 week, reach out to individual Style Council members and ask them to review and approve the contribution.
 * Merge contributions that are approved by 3 or more Style Council members.
