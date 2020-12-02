@@ -7,13 +7,12 @@ Signing up to be administrator is voluntary.
 
 == Administrator responsibilities:
 
-As the administrator you are in charge of performing the following duties:
+As the administrator, you are in charge of performing the following duties:
 
 === Being the Point of Contact for general issues related to the Supplementary Style Guide repository
 
 * You are the point of contact in case other contributors experience issues with the repository.
-When people reach out to you about an issue, try to fix it if you can.
-If you cannot fix the issue, report to it to a member of the initiative who can.
+When people reach out to you about an issue, try to fix it. If you cannot fix the issue, report it to a member of the initiative who can.
 
 === Maintaining the Style Guide site on GitHub
 
@@ -23,14 +22,14 @@ If you cannot fix the issue, report to it to a member of the initiative who can.
 === Driving resolution of link:https://github.com/redhat-documentation/supplementary-style-guide/issues[open issues]
 
 * Review link:https://github.com/redhat-documentation/supplementary-style-guide/issues[issues] submitted to the Supplementary Style Guide GitHub repository.
-* Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] members and report any issues that need the attention of your peers at the next meeting.
+* Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] members and report any issues that need your peer's attention at the next meeting.
 * Update issue priority labels according to decisions made in meetings.
 * Close issues that are resolved.
 
 === Driving completion of link:https://github.com/redhat-documentation/supplementary-style-guide/pulls[pull requests]
 
 * Ensure that contributors are submitting pull requests on prioritized open issues.
-* Also ensure that work on open pull requests is moving forward consistently.
-* Ensure that at least 3 members of the link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] review and approve every contribution before merging it. You can be one of the 3.
+* Ensure that work on open pull requests is moving forward consistently.
+* Ensure that at least three members of the link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] review and approve every contribution before merging it. You can be one of the three reviewers.
 * If a contribution is not reviewed or approved for longer than 1 week, reach out to individual Style Council members and ask them to review and approve the contribution.
-* Merge pull requests with contributions that are approved by 3 or more Style Council members.
+* Merge pull requests with contributions that are approved by three or more Style Council members.
