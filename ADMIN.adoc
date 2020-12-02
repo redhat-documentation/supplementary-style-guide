@@ -17,20 +17,20 @@ If you cannot fix the issue, report to it to a member of the initiative who can.
 
 === Maintaining the Style Guide site on GitHub
 
-* Ensure that the style guide site is available and displayed correctly.
-* Create pull requests to update the README.md, GUIDELINES.adoc and the Contribution guide, if necessary.
+* Ensure that the link:https://redhat-documentation.github.io/supplementary-style-guide/[style guide site] is available and displayed correctly.
+* Create pull requests to update the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/README.md[README.md], link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/GUIDELINES.adoc[GUIDELINES.adoc] and the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/CONTRIBUTING.md[Contribution guide], if necessary.
 
-=== Driving resolution of open issues
+=== Driving resolution of link:https://github.com/redhat-documentation/supplementary-style-guide/issues[open issues]
 
-* Review issues submitted to the Supplementary Style Guide GitHub repository.
-* Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify CCS Style Council members and report any issues that need the attention of your peers at the next meeting.
+* Review link:https://github.com/redhat-documentation/supplementary-style-guide/issues[issues] submitted to the Supplementary Style Guide GitHub repository.
+* Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] members and report any issues that need the attention of your peers at the next meeting.
 * Update issue priority labels according to decisions made in meetings.
 * Close issues that are resolved.
 
-=== Driving the completion of pull requests
+=== Driving completion of link:https://github.com/redhat-documentation/supplementary-style-guide/pulls[pull requests]
 
 * Ensure that contributors are submitting pull requests on prioritized open issues.
 * Also ensure that work on open pull requests is moving forward consistently.
-* Ensure that at least 3 members of the CCS Style Council (Link) review and approve every contribution before merging it. You can be one of the 3.
+* Ensure that at least 3 members of the link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] review and approve every contribution before merging it. You can be one of the 3.
 * If a contribution is not reviewed or approved for longer than 1 week, reach out to individual Style Council members and ask them to review and approve the contribution.
-* Merge contributions that are approved by 3 or more Style Council members.
+* Merge pull requests with contributions that are approved by 3 or more Style Council members.
