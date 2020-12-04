@@ -65,6 +65,17 @@
 *See also*: xref:whom[whom]
 
 [discrete]
+[[whitelist]]
+==== whitelist (noun,verb,adjective)
+*Description*: A whitelist is a list of items that are allowed or denied. It is an example of problematic language. Use "allowlist" or "passlist" instead.
+
+*Use it*: no
+
+*Incorrect forms*: whitelist, white-list
+
+*See also*: allowlist, blacklist, blocklist, denylist, passlist
+
+[discrete]
 [[whom]]
 ==== whom (pronoun)
 *Description*: Use the pronoun "whom" as a direct object, an indirect object, or the object of a preposition, for example, "To whom does this belong?"

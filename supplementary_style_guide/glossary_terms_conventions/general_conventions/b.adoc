@@ -5,7 +5,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:
 
@@ -56,7 +56,7 @@
 [discrete]
 [[because]]
 ==== because (conjunction)
-*Description*: Do not use "since" to mean "because." Use "because" to refer to a reason. Use "since" to indicate the passage of time. 
+*Description*: Do not use "since" to mean "because." Use "because" to refer to a reason. Use "since" to indicate the passage of time.
 
 *Use it*: with caution
 
@@ -67,7 +67,7 @@
 [discrete]
 [[big-data]]
 ==== big data (noun)
-*Description*: "Big data" refers to extremely large sets of data that can be analyzed to determine trends and other information. 
+*Description*: "Big data" refers to extremely large sets of data that can be analyzed to determine trends and other information.
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 [discrete]
 [[bimodal-it]]
 ==== bimodal IT (noun)
-*Description*: "Bimodal IT" is the Gartner phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing. 
+*Description*: "Bimodal IT" is the Gartner phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing.
 
 The practice of having both modes together is often referred to as "hybrid," "agile," or "modern" IT. "Hybrid IT" is a more general term; for example, it could mean "on-premise plus public cloud." "Agile" and "modern IT" can both carry an implication of "mode 2." When using those terms, be specific about the exact technology combination you mean.
 
@@ -91,7 +91,7 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 [discrete]
 [[bimonthly]]
 ==== bimonthly (adverb)
-*Description*: "Bimonthly" means every other month. 
+*Description*: "Bimonthly" means every other month.
 
 *Use it*: yes
 
@@ -102,7 +102,7 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 [discrete]
 [[biweekly]]
 ==== biweekly (adverb)
-*Description*: "Biweekly" means every other week. 
+*Description*: "Biweekly" means every other week.
 
 *Use it*: yes
 
@@ -144,6 +144,18 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 *See also*:
 
 [discrete]
+[[blacklist]]
+==== blacklist (noun,verb,adjective)
+*Description*: A blacklist is a list of items that are disallowed or denied. It is an example of problematic language. Use "blocklist" or "denylist" instead.
+
+*Use it*: no
+
+*Incorrect forms*: blacklist, black-list
+
+*See also*: allowlist, blocklist, denylist, passlist, whitelist
+
+
+[discrete]
 [[boot-disk]]
 ==== boot disk (noun)
 *Description*: A "boot disk" is a disk used to start a computer.
@@ -168,7 +180,7 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 [discrete]
 [[bottleneck]]
 ==== bottleneck (noun)
-*Description*: A "bottleneck" is a limitation in the capacity of software or hardware caused by a single component. 
+*Description*: A "bottleneck" is a limitation in the capacity of software or hardware caused by a single component.
 
 *Use it*: yes
 
@@ -212,7 +224,7 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 [discrete]
 [[broadcast-n]]
 ==== broadcast (noun)
-*Description*: When used as a noun, a "broadcast" is a message sent simultaneously to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients. 
+*Description*: When used as a noun, a "broadcast" is a message sent simultaneously to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
 
 *Use it*: yes
 
@@ -240,7 +252,7 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 
 *Incorrect forms*: btrfs
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[bug-fix]]
@@ -251,7 +263,7 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 
 *Incorrect forms*: bugfix
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[built-in]]
