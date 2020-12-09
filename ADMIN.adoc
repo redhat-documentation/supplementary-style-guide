@@ -7,7 +7,12 @@ Signing up to be administrator is voluntary.
 
 == Administrator responsibilities:
 
-As the administrator, you are in charge of performing the following duties:
+As the administrator, you are the point of contact if any contributors experience issues with the repository.
+
+In addition, you are in charge of the following:
+* Maintaining the Style Guide site on GitHub
+* Driving resolution of open issues
+* Driving completion of pull requests
 
 === Being the Point of Contact for general issues related to the Supplementary Style Guide repository
 
