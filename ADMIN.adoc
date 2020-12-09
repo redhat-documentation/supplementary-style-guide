@@ -1,40 +1,36 @@
-= Repository Administrator Responsibilities
+= Repository administrator responsibilities
 
-== Administrator rotation schedule:
+== Administrator rotation schedule
 
 Every 2 weeks a different project member assumes the role of repository administrator.
-Signing up to be administrator is voluntary.
+Signing up to be an administrator is voluntary.
+To volunteer to be an administrator, contact @cbudz or @bergerhoffer.
 
-== Administrator responsibilities:
+== Administrator responsibilities
 
 As the administrator, you are the point of contact if any contributors experience issues with the repository.
+You also have the following responsibilities:
 
-In addition, you are in charge of the following:
 * Maintaining the Style Guide site on GitHub
 * Driving resolution of open issues
 * Driving completion of pull requests
 
-=== Being the Point of Contact for general issues related to the Supplementary Style Guide repository
-
-* You are the point of contact if contributors experience issues with the repository.
-When people reach out to you about an issue, try to fix it. If you cannot fix the issue, report it to a member of the initiative who can.
-
 === Maintaining the Style Guide site on GitHub
 
 * Ensure that the link:https://redhat-documentation.github.io/supplementary-style-guide/[style guide site] is available and displayed correctly.
-* Create pull requests to update the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/README.md[README.md], link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/GUIDELINES.adoc[GUIDELINES.adoc] and the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/CONTRIBUTING.md[Contribution guide], if necessary.
+* Create pull requests to update the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/README.md[README.md], link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/GUIDELINES.adoc[GUIDELINES.adoc] and the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/CONTRIBUTING.md[CONTRIBUTING.md], if necessary.
 
-=== Driving resolution of link:https://github.com/redhat-documentation/supplementary-style-guide/issues[open issues]
+=== Driving resolution of open issues
 
-* Review link:https://github.com/redhat-documentation/supplementary-style-guide/issues[issues] submitted to the Supplementary Style Guide GitHub repository.
-* Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] members and report any issues that need your peer's attention at the next meeting.
+* Review link:https://github.com/redhat-documentation/supplementary-style-guide/issues[issues] submitted to the supplementary style guide GitHub repository.
+* Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS style council] members and report any issues that need attention at the next meeting.
 * Update issue priority labels according to decisions made in meetings.
 * Close issues that are resolved.
 
-=== Driving completion of link:https://github.com/redhat-documentation/supplementary-style-guide/pulls[pull requests]
+=== Review open pull requests
 
-* Ensure that contributors are submitting pull requests on prioritized open issues.
-* Ensure that work on open pull requests is moving forward consistently.
-* Ensure that at least three members of the link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[CCS Style Council] review and approve every contribution before merging it. You can be one of the three reviewers.
-* If a contribution is not reviewed or approved for longer than 1 week, reach out to individual Style Council members and ask them to review and approve the contribution.
-* Merge pull requests with contributions that are approved by three or more Style Council members.
+* Ensure that contributors are submitting link:https://github.com/redhat-documentation/supplementary-style-guide/pulls[pull requests] on prioritized open issues.
+* Also ensure that work on open pull requests is moving forward consistently.
+* Ensure that at least 3 members of the CCS style council review and approve every contribution before merging it. You can be one of the 3.
+* If a contribution is not reviewed or approved for longer than 1 week, reach out to individual style council members and ask them to review and approve the contribution.
+* Merge pull requests with contributions that are approved by 3 or more style council members.
