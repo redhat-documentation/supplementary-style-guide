@@ -16,7 +16,7 @@ In addition, you are in charge of the following:
 
 === Being the Point of Contact for general issues related to the Supplementary Style Guide repository
 
-* You are the point of contact in case other contributors experience issues with the repository.
+* You are the point of contact if contributors experience issues with the repository.
 When people reach out to you about an issue, try to fix it. If you cannot fix the issue, report it to a member of the initiative who can.
 
 === Maintaining the Style Guide site on GitHub
