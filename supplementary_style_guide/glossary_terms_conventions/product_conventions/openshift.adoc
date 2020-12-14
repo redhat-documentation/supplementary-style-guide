@@ -18,17 +18,23 @@
 *Description*: API objects are the resources that can be exposed by an API server
 at an endpoint for interrogation.
 
-Use initial capitalization and camel case for Kubernetes or OpenShift API
-objects and do not mark them up unless referring to a specific field or variable
-name from a spec or manifest file.
+For general references to a term that is also an API object, use lower case and separate multi-word API objects. For example:
 
-This matches general Kubernetes usage and makes it obvious that a specific
-concept is being referred to. For example:
+* pod
+* node
+* daemon set
+* config map
 
-- Pod
-- Deployment
-- Operator
-- DaemonSet (and not "daemon set", "daemonset", or "Daemonset")
+Example general term usage: _You must have at least one secret, config map, or service account._
+
+However, if you are interacting with the API object, such as when defining or editing an object, use the proper PascalCase `Kind` for the object and mark it up in monospace. For example:
+
+* `Pod`
+* `Node`
+* `DaemonSet`
+* `ConfigMap`
+
+Example object-specific usage: _The default amount of CPU that a container can use if not specified in the `Pod` spec._
 
 *Use it*: yes
 
@@ -39,7 +45,7 @@ concept is being referred to. For example:
 [discrete]
 [[api-server]]
 ==== API server (noun)
-*Description*: A REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well. Always mark it properly (`apiserver`).
+*Description*: A REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
 
 *Use it*: yes
 
@@ -87,9 +93,9 @@ JBoss, or something else.
 
 [discrete]
 [[build-configuration]]
-==== BuildConfig (noun)
-*Description*: A BuildConfig is an API object that describes a single build
-definition and a set of triggers for when a new build should be created.
+==== build config (noun)
+*Description*: A build config describes a single build
+definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
 
 *Use it*: yes
 
@@ -100,6 +106,17 @@ definition and a set of triggers for when a new build should be created.
 [discrete]
 ==== cluster (noun)
 See xref:cluster[cluster] in the _General Conventions_ part.
+
+[discrete]
+[[config-map]]
+==== config map (noun)
+*Description*: A config map holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
+
+*Use it*: yes
+
+*Incorrect forms*: configmap, configuration map
+
+*See also*: xref:api-objects[API objects]
 
 [discrete]
 ==== container (noun)
@@ -117,42 +134,39 @@ See xref:container[container] in the _General Conventions_ part.
 *See also*:
 
 [discrete]
+[[custom-resource]]
+==== custom resource (noun)
+*Description*: A custom resource (CR) is a resource implemented through the Kubernetes `CustomResourceDefinition` API. While CRs have the same behaviors as the built-in set of Kubernetes and OpenShift resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[custom-resource-definition]]
+==== custom resource definition (noun)
+*Description*: A custom resource definition (CRD) defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[deployment]]
 ==== deployment (noun)
-*Description*: A statement of intent by a user to roll out a new version of a configuration. A replication controller can be used for that and other purposes. All deployments are replication controllers, but not all replication controllers are deployments. To avoid confusion, do not refer to an overall OpenShift installation, instance, or cluster as an "OpenShift deployment".
+*Description*: A statement of intent by a user to roll out a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift installation, instance, or cluster as an "OpenShift deployment".
+
+The API object for a deployment can be either a Kubernetes-native `Deployment` object (which uses replication controllers) or an OpenShift-specific `DeploymentConfig` object (which uses replica sets).
 
 *Use it*: yes
 
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
-[[deployment-configuration]]
-==== DeploymentConfig (noun)
-*Description*: A DeploymentConfig is an API object that contains the details of a
-particular application deployment: the configuration used in the replication
-controller definition, such as the number of replicas to ensure; triggers for
-automatically performing an updated deployment, such as when an image is tagged
-or the source code in a source-to-image deployment is changed; the strategy for
-transitioning between deployments when upgrading; and lifecycle hooks.
-
-*Use it*: yes
-
-*Incorrect forms*:
+*Incorrect forms*: deployment configuration
 
 *See also*: xref:api-objects[API objects]
-
-[discrete]
-[[deployment-controller]]
-==== deployment controller (noun)
-*Description*: A Kubernetes object that creates a replication controller from a given Pod template. If that Pod template is modified, the deployment controller creates a new replication controller based on the modified Pod template and replaces the old replication controller with this new one.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
 
 [discrete]
 [[dockerfile]]
@@ -201,7 +215,7 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 [discrete]
 [[image-stream]]
 ==== image stream (noun)
-*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in OpenShift’s integrated Docker repository, images from external Docker registries, and other image streams.
+*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in OpenShift’s integrated Docker repository, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
 
 *Use it*: yes
 
@@ -212,11 +226,22 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 [discrete]
 [[init-container]]
 ==== init container (noun)
-*Description*: A container that allows you to reorganize setup scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A Pod can have init containers in addition to application containers.
+*Description*: A container that allows you to reorganize setup scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.
 
 *Use it*: yes
 
 *Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[installer-provisioned-infrastructure]]
+==== installer-provisioned infrastructure (noun)
+*Description*: If the installation program deploys and configures the infrastructure that the cluster runs on, it is an installer-provisioned infrastructure installation.
+
+*Use it*: yes
+
+*Incorrect forms*: IPI
 
 *See also*:
 
@@ -245,7 +270,7 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 [discrete]
 [[label]]
 ==== label (noun)
-*Description*: Objects used to organize, group, or select API objects. For example, Pods are "tagged" with labels, and then services use label selectors to identify the Pods they proxy to. This makes it possible for services to reference groups of Pods, even treating Pods with potentially different containers as related entities.
+*Description*: Objects used to organize, group, or select API objects. For example, pods are "tagged" with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
 
 *Use it*: yes
 
@@ -303,7 +328,7 @@ distribution / variant name whenever possible. For example:
 - OpenShift Container Platform
 - OpenShift Online
 - OpenShift Dedicated
-- OpenShift Container Engine
+- OpenShift Kubernetes Engine
 
 Previously, the upstream distribution was called OpenShift Origin, however it is
 now called OKD; use of the OpenShift Origin name is deprecated.
@@ -313,7 +338,7 @@ applies to all distributions, as OKD does not have OpenShift in its name.
 However, the following components currently use "OpenShift" in the name and are
 allowed for use across all distribution documentation:
 
-- OpenShift Ansible Broker
+- OpenShift Ansible Broker (deprecated in 4.2 / removed in 4.4)
 - OpenShift Pipeline
 - OpenShift SDN
 
@@ -326,7 +351,7 @@ allowed for use across all distribution documentation:
 [discrete]
 [[openshift-cli]]
 ==== OpenShift CLI (noun)
-*Description*: The command line interface of OpenShift v3, previously referred to as the client tools in OpenShift v2.
+*Description*: The `oc` tool is the command-line interface of OpenShift 3 and 4.
 
 *Use it*: yes
 
@@ -363,7 +388,7 @@ allowed for use across all distribution documentation:
 
 *Use it*: no
 
-*Incorrect forms*: OpenShift, Openshift, Origin
+*Incorrect forms*:
 
 *See also*: xref:okd[OKD]
 
@@ -392,19 +417,19 @@ _Build an Operator using the Operator SDK._
 
 [discrete]
 [[pod]]
-==== Pod (noun)
-*Description*: Pods come from the Kubernetes concept of the same name. A Pod is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. It is important to realize that OpenShift treats Pods as immutable. Any changes, be it the underlying image, Pod configuration, or environment variable values, cause new Pods to be created and phase out the existing Pods. Being immutable also means that any state is not maintained between Pods when they are recreated.
+==== pod (noun)
+*Description*: Pods come from the Kubernetes concept of the same name. A pod is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. It is important to realize that OpenShift treats pods as immutable. Any changes, be it the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are recreated. The API object for a pod is `Pod`.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:container[container]
+*See also*: xref:container[container], xref:api-objects[API objects]
 
 [discrete]
 [[project]]
 ==== project (noun)
-*Description*:An OpenShift project corresponds to a Kubernetes namespace. They are used to organize and group objects in the system, such as Services and DeploymentConfigs, as well as provide security policies specific to those resources.
+*Description*: An OpenShift project corresponds to a Kubernetes namespace. They are used to organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources.
 
 *Use it*: yes
 
@@ -448,26 +473,13 @@ _Build an Operator using the Operator SDK._
 [discrete]
 [[replication-controller]]
 ==== replication controller (noun)
-*Description*: A Kubernetes object used to ensure a specified number of Pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed Pods, both the removal of existing Pods (deletion, crashing, etc.) or the addition of extra Pods that are not desired. The Pods are automatically added or removed from the service to ensure its uptime.
+*Description*: A Kubernetes object used to ensure a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods (deletion, crashing, etc.) or the addition of extra pods that are not desired. The pods are automatically added or removed from the service to ensure its uptime.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
 *See also*:
-
-[discrete]
-[[resource]]
-==== resource (noun)
-*Description*: The API endpoint being accessed. This is distinct from the
-referenced resource itself, which can be a Pod, DdeploymentConfig, Build, or
-other resource.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:endpoint[endpoint], xref:action[action], xref:project[project]
 
 [discrete]
 [[route]]
@@ -481,9 +493,9 @@ other resource.
 *See also*:
 
 [discrete]
-[[service]]
-==== service (noun)
-*Description*: A service functions as a load balancer and proxy to underlying Pods. Services are assigned IP addresses and ports and will delegate requests to an appropriate Pod that can field it.
+[[scheduler]]
+==== scheduler (noun)
+*Description*: Component of the Kubernetes master or OpenShift master that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
 
 *Use it*: yes
 
@@ -492,9 +504,9 @@ other resource.
 *See also*:
 
 [discrete]
-[[scheduler]]
-==== scheduler (noun)
-*Description*: Component of the Kubernetes master or OpenShift master that manages the state of the system, places Pods on nodes, and ensures that all containers that are expected to be running are actually running.
+[[service]]
+==== service (noun)
+*Description*: A service functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and will delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
 
 *Use it*: yes
 
@@ -505,7 +517,7 @@ other resource.
 [discrete]
 [[skydns]]
 ==== SkyDNS (noun)
-*Description*: A component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal host names for services and Pods.
+*Description*: A component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal host names for services and pods.
 
 *Use it*: yes
 
@@ -533,7 +545,7 @@ OpenShift object specs / manifests / definitions.
 
 Example of correct usage:
 
-_Update the Pod spec to reflect the changes._
+_Update the `Pod` spec to reflect the changes._
 
 *Use it*: yes
 
@@ -549,6 +561,17 @@ _Update the Pod spec to reflect the changes._
 *Use it*: yes
 
 *Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[user-provisioned-infrastructure]]
+==== user-provisioned infrastructure (noun)
+*Description*: If the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a user-provisioned infrastructure installation.
+
+*Use it*: yes
+
+*Incorrect forms*: UPI
 
 *See also*:
 
