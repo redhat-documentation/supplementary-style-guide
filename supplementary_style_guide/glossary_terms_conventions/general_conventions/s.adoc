@@ -111,7 +111,7 @@
 [discrete]
 [[server-side-n]]
 ==== server side (noun)
-*Description*: The "server side" means that the action takes place on a web server in a client/server relationship. Use this form when "server side" is a noun, for example, "She does most of her programming on the server side, that is, directly on the web server."
+*Description*: The "server side" means that the action takes place on a web server in a client/server relationship. Use this form when "server side" is a noun, for example, "They do most of their programming on the server side, that is, directly on the web server."
 
 *Use it*: yes
 
@@ -200,6 +200,7 @@
 [[she]]
 ==== she (pronoun)
 *Description*: Reword the sentence to avoid using "he" or "she."
+
 *Use it*: no
 
 *Incorrect forms*:
@@ -589,7 +590,7 @@
 
 *Incorrect forms*: system D, system D, SystemD, system d, Systemd (unless at the start of a sentence).
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[sysv]]
