@@ -1,0 +1,222 @@
+= J
+// Should this term be added to the general "j" topic?
+[discrete]
+== Java
+
+*Description* A class-based, object-oriented programming language.
+
+*Use it?* Yes
+
+*Incorrect forms* java (lower-case)
+
+*See*
+
+[discrete]
+== jaxrs
+
+*Description* The JBoss EAP subsystem that enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS).
+
+*Use it?* Yes
+
+*Incorrect forms* jax-rs, JAXRS, JAX-RS
+
+*See* JAX-RS
+
+[discrete]
+== JAX-RS
+
+*Description* Heading format for the jaxrs subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* JAXRS
+
+*See* jaxrs
+
+//Should "JBoss AMQ" be moved to the AMQ module?
+[discrete]
+== JBoss AMQ
+
+*Description* Former name of Red Hat's messaging queue product.  Product has been renamed to "Red Hat AMQ"
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* Red Hat AMQ
+
+[discrete]
+== JBoss EAP messaging
+
+*Description* Acceptable term for the built-in messaging system in JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* ActiveMQ, ActiveMQ Artemis
+
+*See* "built-in messaging", "JBoss EAP built-in messaging", "messaging subsystem"
+
+[discrete]
+== JBoss EAP built-in messaging
+
+*Description* Acceptable term for the built-in messaging system in JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* ActiveMQ, ActiveMQ Artemis
+
+*See* built-in messaging, JBoss EAP Messaging
+
+[discrete]
+== jca
+
+*Description* The JBoss EAP subsystem that is used to configure settings for the Jakarta EE Connector Architecture (JCA) container.
+
+*Use it?* Yes
+
+*Incorrect forms* JCA
+
+*See* JCA
+
+[discrete]
+== JCA
+
+*Description* Heading format for the jca subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* jca
+
+*See* jca
+
+[discrete]
+== jdr
+
+*Description* The JBoss EAP subsystem that gathers diagnostic data to support troubleshooting.
+
+*Use it?* Yes
+
+*Incorrect forms* JDR
+
+*See* JDR
+
+[discrete]
+== JDR
+
+*Description* Heading format for the jdr subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* jdr
+
+*See* jdr
+
+[discrete]
+== jgroups
+
+*Description* The JBoss EAP subsystem used to configure protocol stacks and communication mechanisms for servers in a cluster.
+
+*Use it?* Yes
+
+*Incorrect forms* JGROUPS JGroups
+
+*See* JGroups
+
+[discrete]
+== JGroups
+
+*Description* Heading format for the jgroups subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* jgroups JGROUPS
+
+*See* jgroups
+
+[discrete]
+== jmx
+
+*Description* The JBoss EAP subsystem that is used to configure remote Java Management Extensions (JMX) access.
+
+*Use it?* Yes
+
+*Incorrect forms* JMX
+
+*See* JMX
+
+[discrete]
+== JMX
+
+*Description* Heading format for the JMS subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* jmx
+
+*See* jmx
+
+[discrete]
+== jpa
+
+*Description* The JBoss EAP subsystem that in used to manage requirements of the Java Persistence API.
+
+*Use it?* Yes
+
+*Incorrect forms* JPA
+
+*See* JPA
+
+[discrete]
+== JPA
+
+*Description* Heading format for the jpa subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* jpa
+
+*See* jpa
+
+[discrete]
+== jsf
+
+*Description* The JBoss EAP subsystem that manages JavaServer Faces implementations.
+
+*Use it?* Yes
+
+*Incorrect forms* JSF
+
+*See* JSF
+
+[discrete]
+== JSF
+
+*Description* Heading format for the JSF subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* jsf
+
+*See* jsf
+
+[discrete]
+== jsr77
+
+*Description* The JBoss EAP subsystem that provides Java EE management capabilities defined by the JSR-77 specification.
+
+*Use it?* Yes
+
+*Incorrect forms* jsr-77 JSR77 JSR-77
+
+*See* JSR-77
+
+[discrete]
+== JSR-77
+
+*Description* Heading format for the jsr77 subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* JSR77 jsr77 jsr-77
+
+*See* jsr77

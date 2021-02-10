@@ -1,0 +1,46 @@
+= X
+
+//Should this term be added to the general conventions "X" module.
+[discrete]
+== XML
+
+*Description* eXtensible Markup Language.  Always format in all caps.
+
+*Use it?* Yes
+
+*Incorrect forms* xml (all lowercase)
+
+*See*
+
+[discrete]
+== XP
+
+*Desscription* Shorthand form of "Expansion Pack"
+
+*Use it?* Yes
+
+*Incorrect forms* xp
+
+*See* Expansion Pack
+
+[discrete]
+== xts
+
+*Description* The JBoss EAP subsystem that is used to configure settings for coordinating web services in a transaction.
+
+*Use it?* Yes
+
+*Incorrect forms* XTS
+
+*See* XTS
+
+[discrete]
+== XTS
+
+*Description* Heading format for the xts subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* xts
+
+*See* xts

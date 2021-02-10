@@ -1,0 +1,67 @@
+= P
+
+[discrete]
+== picketlink-federation
+
+*Description* The JBoss EAP subsystem used to configure single sign-on (SSO) using SAML.
+
+*Use it?* Yes
+
+*Incorrect forms* picketLink-federation picketlink-Federation picketLink-Federation
+
+*See* PicketLink Federation
+
+[discrete]
+== PicketLink Federation
+
+*Description* Heading format for the picketlink-federation subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Picketlink Federation" "PicketLink federation" "Picketlink federation"
+
+*See* picketlink-federation
+
+[discrete]
+== picketlink-identity-management
+
+*Description* The JBoss EAP subsystem used to configure identity management services.
+
+*Use it?* Yes
+
+*Incorrect forms* Any form using capitalization.
+
+*See* PicketLink Identity Management
+
+[discrete]
+== PicketLink Identity Management
+
+*Description* Heading format for the picketlink-identity-management subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Picketlink Identity Management" "PicketLink identity management" "Picketlink identity management"
+
+*See* picketlink-identity-management
+
+[discrete]
+== pojo
+
+*Description* The JBoss EAP subsystem that enables deployment of applications containing JBoss Microcontainer services.
+
+*Use it?* Yes
+
+*Incorrect forms* Any form using capitals
+
+*See* POJO
+
+[discrete]
+== POJO
+
+*Description* Heading format for the pojo subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* Any form using lower case.
+
+*See* pojo

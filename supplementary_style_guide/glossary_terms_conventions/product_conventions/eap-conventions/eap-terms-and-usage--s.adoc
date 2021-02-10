@@ -1,0 +1,122 @@
+= S
+
+[discrete]
+== sar
+
+*Description* The JBoss EAP subsystem that enables deployment of SAR archives containing MBean services.
+
+*Use it?* Yes
+
+*Incorrect forms* SAR
+
+*See* SAR
+
+[discrete]
+== SAR
+
+*Description* Heading format for the sar subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* sar
+
+*See* sars
+
+[discrete]
+== security
+
+*Description* The legacy security subsystem in JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* Security
+
+*See* Security
+
+[discrete]
+== Security
+
+*Description* Heading format for the security subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* security
+
+*See* security
+
+[discrete]
+== Security - Elytron
+
+*Description* Label used for the elytron subsystem in the management console.  Use this formatting to describe this subsystem in the management console.
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* elytron
+
+[discrete]
+== security-manager
+
+*Description* The JBoss EAP subsystem used to configure security policies used by the Java Security Manager.
+
+*Use it?* Yes
+
+*Incorrect forms* Any form using capitals
+
+*See* Security Manager
+
+[discrete]
+== Security Manager
+
+*Description* Heading format for the security-manager subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Security manager"
+
+*See* security-manager
+
+[discrete]
+== singleton
+
+*Description* The JBoss EAP subsystem that is used to configure the behavior of singleton deployments.
+
+*Use it?* Yes
+
+*Incorrect forms* Singleton
+
+*See* Singleton
+
+[discrete]
+== Singleton
+
+*Description* Heading format for the singleton subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* singleton
+
+*See* singleton
+
+[discrete]
+== standalone mode
+
+*Description* Incorrect term for a standalone server.
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* standalone server
+
+[discrete]
+== standalone server
+
+*Description* Correct way to refer the standalone operating mode.
+
+*Use it?* Yes
+
+*Incorrect forms* standalone mode
+
+*See*

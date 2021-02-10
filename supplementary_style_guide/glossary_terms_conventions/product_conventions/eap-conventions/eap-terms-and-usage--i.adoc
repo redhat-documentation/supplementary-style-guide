@@ -1,0 +1,45 @@
+= I
+
+[discrete]
+== IIOP
+
+*Description* Heading format for the iiop-openjdk subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* iiop-openjdk
+
+[discrete]
+== iiop-openjdk
+
+*Description* The JBoss EAP subsystem that is used to configure Common Object Request Broker Architecture (CORBA) services.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* IIOP
+
+[discrete]
+== io
+
+*Description* The JBoss EAP subsystem that is used to define workers and buffer pools used by other subsystems.
+
+*Use it?* Yes
+
+*Incorrect forms* IO Io
+
+*See* IO
+
+[discrete]
+== IO
+
+*Description* Heading format for the io subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* io Io
+
+*See* io

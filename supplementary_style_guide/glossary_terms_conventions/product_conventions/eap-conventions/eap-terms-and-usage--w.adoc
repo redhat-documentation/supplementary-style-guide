@@ -1,0 +1,58 @@
+= W
+
+[discrete]
+=== WebHTTP - Undertow
+
+*Description* Label used for the undertow subsystem in the management console.  Use this formatting to describe this subsystem in the management console.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See*
+
+[discrete]
+=== Web Services
+
+*Description* Heading format for the webservices subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* webservices
+
+*See* webservices
+
+[discrete]
+=== webservices
+
+*Description* The JBoss EAP subsystem used to configure the web services provider.
+
+NOTE: Only use this format when describing this subsystem.  Do not use this format when describing web services in general.
+
+*Use it?* Restricted; only use for the JBoss subsystem.
+
+*Incorrect forms*
+
+*See* web services
+
+[discrete]
+=== weld
+
+*Description* The JBoss EAP subsystem that is used to configure Contexts and Dependency Injection (CDI) funcationality for JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* Weld
+
+*See* Weld
+
+[discrete]
+=== Weld
+
+*Description* Heading format for the weld subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* weld
+
+*See* weld

@@ -1,0 +1,125 @@
+= R
+
+// Should this term be added to the AMQ or general conventions module?
+[discrete]
+== Red Hat AMQ
+
+*Description* Red Hat's messaging queue product
+
+*Use it?* Yes
+
+*Incorrect forms* "JBoss AMQ", "Red Hat JBoss AMQ"
+
+*See*
+
+//Should this term be added to the general conventions "R" module?
+[discrete]
+== Red Hat Customer Portal
+
+*Description* Correct way to refer to http://access.redhat.com. Always precede with "Red Hat".
+
+*Use it?* Yes
+
+*Incorrect forms* Customer Portal
+
+*See*
+
+[discrete]
+== remoting
+
+*Description* The JBoss EAP subsystem that is used to configure inbound and outbound connections for local and remote servers.
+
+*Use it?* Yes
+
+*Incorrect forms* Remoting
+
+*See* Remoting
+
+[discrete]
+== Remoting
+
+*Description* Heading format for the remoting subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* remoting
+
+*See* remoting
+
+//Should this item be added to the general conventions module "R".
+[discrete]
+== repo
+
+*Description* Shorthand for "repository". Do not use.
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See*
+
+[discrete]
+== Request Controller
+
+*Description* Heading format for the request-controller subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Request controller"
+
+*See* request-controller
+
+[discrete]
+== request-controller
+
+*Description* The JBoss EAP subsystem used to configure settings to suspend servers or to shut them down gracefully.
+
+*Use it?* Yes
+
+*Incorrect forms* Any form using capitals
+
+*See* Request Controller
+
+[discrete]
+== Resource Adapters
+
+*Description* Heading format for the resource-adapters subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Resource adapters"
+
+*See* resource-adapters
+
+[discrete]
+== resource-adapters
+
+*Description* The JBoss EAP subsystem that is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS).
+
+*Use it?* Yes
+
+*Incorrect forms* Any form using capitals
+
+*See* Resource Adapters
+[discrete]
+
+== rts
+
+*Description* An implementation of REST AT that is not supported in JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* RTS
+
+*See* RTS
+
+[discrete]
+== RTS
+
+*Description* Heading format for the rts subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* rts
+
+*See* rts

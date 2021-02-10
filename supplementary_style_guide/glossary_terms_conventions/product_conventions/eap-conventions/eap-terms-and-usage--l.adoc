@@ -1,0 +1,35 @@
+= L
+
+//should this term be moved to the general conventions  "L" topic?
+[discrete]
+== load balance
+
+*Description* Verb form. The process of distributing processing requests among a set of servers.
+
+*Use it?* Yes
+
+*Incorrect forms* load-balance, load-balancing
+
+*See* adjective forms and noun
+
+[discrete]
+== logging
+
+*Description* The JBoss EAP subsystem used to configure logging at the system and application levels.
+
+*Use it?* Yes
+
+*Incorrect forms* Logging
+
+*See* Logging
+
+[discrete]
+== Logging
+
+*Description* Heading format for the logging subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* logging
+
+*See* logging

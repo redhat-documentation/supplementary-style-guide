@@ -1,0 +1,56 @@
+= D
+
+[discrete]
+== datasource
+
+*Description* The JBoss EAP subsystem that is used to create and configure datasources and to manage JDBC database drivers.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* Datasource Subsystem
+
+[discrete]
+== Datasource Subsystem
+
+*Description* Heading format for datasource subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* datasource
+
+[discrete]
+== Deployment Scanners
+
+*Description* Heading format for the deployment-scanner subsystem
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* deployment-scanner
+
+[discrete]
+== deployment-scanner
+
+*Description* The JBoss EAP subsystem that is used to configure scanners to monitor for applications to deploy.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* Deployment Scanners
+
+[discrete]
+== domain mode
+
+*Description* Incorrect terminology for "managed domain." Do not use in customer-facing documentation.
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* managed domain

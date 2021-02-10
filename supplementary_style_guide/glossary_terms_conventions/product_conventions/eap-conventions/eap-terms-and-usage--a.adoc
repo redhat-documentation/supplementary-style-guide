@@ -1,0 +1,23 @@
+= A
+// Should these terms be added to the AMQ conventions.
+[discrete]
+=== ActiveMQ
+
+*Description* Shorthand for "ActiveMQ Artemis," the built-in messaging technology for JBoss EAP.
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* ActiveMQ Artemis and JBoss EAP Messaging
+
+[discrete]
+=== ActiveMQ Artemis
+
+*Description* The messaging technology used in JBoss EAP.
+
+*Use it?* Restricted.  Only use when describing the technology used to implement messaging in JBoss EAP.
+
+*Incorrect forms* "Active MQ Artemis", "Active-MQ Artemis"
+
+*See* JBoss EAP Messaging

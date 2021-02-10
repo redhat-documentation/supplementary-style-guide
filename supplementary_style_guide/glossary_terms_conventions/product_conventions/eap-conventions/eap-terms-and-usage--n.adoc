@@ -1,0 +1,35 @@
+= N
+
+[discrete]
+== naming
+
+*Description* The JBoss EAP subsystem used to manage JNDI namespaces and interfaces.
+
+*Use it?* Yes
+
+*Incorrect forms* Naming
+
+*See* Naming
+
+[discrete]
+== Naming
+
+*Description* Heading format for the naming subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* naming
+
+*See* naming
+
+
+[discrete]
+== native interface
+
+*Description* Incorrect term for the management CLI.  Use "management CLI".
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* management CLI
