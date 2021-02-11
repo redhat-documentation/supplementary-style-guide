@@ -103,7 +103,7 @@
 ==== recommend (verb)
 *Description*: Avoid "recommends". Instead of "Red Hat recommends", direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream/downstream coordinated efforts.
 
-For example, instead of "Red Hat recommends using X package because", write "Use this package because" or "Use this package when". 
+For example, instead of "Red Hat recommends using X package because", write "Use this package because" or "Use this package when".
 
 *Use it*: no
 
@@ -125,13 +125,29 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 [discrete]
 [[red-hat-container-catalog]]
 ==== Red Hat Container Catalog (noun)
-*Description*: "Red Hat Container Catalog" is Red Hat's hosted registry for Enterprise-ready containers located at link:https://access.redhat.com/containers[access.redhat.com/containers]. Red Hat Container Catalog is a trusted source for secure, certified, and up-to-date container images. Write this name in full the first time that you use it in a document.
+*Description*: "Red Hat Container Catalog" was the Red Hat-hosted registry for enterprise-ready containers located at link:https://access.redhat.com/containers[access.redhat.com/containers].
+
+The Red Hat Container Catalog no longer exists; it has become part of the Red Hat Ecosystem Catalog, which holds not only information about container images, but also information about certified software, hardware, and cloud service providers. The old link:https://access.redhat.com/containers[Red Hat Container Catalog] link redirects to the link:https://catalog.redhat.com/software/containers/explore[Container images] section of the Red Hat Ecosystem Catalog.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:container-registry[container registry], xref:openshift-container-registry[OpenShift Container Registry]
+
+[discrete]
+[[red-hat-ecosystem-catalog]]
+==== Red Hat Ecosystem Catalog (noun)
+*Description*: The "Red Hat Ecosystem Catalog" is the official source for discovering and learning more about the Red Hat Certified Technology Ecosystem and certified third-party products and services. The Red Hat Ecosystem Catalog is a repository for all certified partner software, hardware, and public cloud provider images that run on, in, or under Red Hat software, such as Red Hat Enterprise Linux, OpenShift Container Platform, Red Hat OpenStack Platform, and Ansible.
+
+Write this name in full the first time that you use it in a document. Subsequent uses can be shortened to "Ecosystem Catalog".
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:container-registry[container registry], xref:openshift-container-registry[OpenShift Container Registry]
+*See also*: xref:red-hat-container-catalog[Red Hat Container Catalog]
+
 
 [discrete]
 ==== Red Hat Enterprise Linux
