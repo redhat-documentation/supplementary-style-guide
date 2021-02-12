@@ -5,7 +5,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gplusplus-command[g++]
 
@@ -16,7 +16,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gplusplus[G++]
 
@@ -27,7 +27,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gas-command[gas]
 
@@ -38,7 +38,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gas[GAS]
 
@@ -62,7 +62,7 @@
 
 *Incorrect forms*: gbps, GBPS
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[gcc]]
@@ -71,7 +71,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gcc-command[gcc]
 
@@ -82,7 +82,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gcc[GCC]
 
@@ -93,7 +93,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gcj-command[gcj], xref:gcc[GCC]
 
@@ -105,7 +105,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gcj[GCJ], xref:gcc-command[gcc]
 
@@ -116,7 +116,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gdb-command[gdb], xref:insight[Insight]
 
@@ -127,7 +127,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gdb[GDB], xref:insight[Insight]
 
@@ -149,20 +149,31 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:gb[GB]
 
 [discrete]
 [[gimp]]
 ==== GIMP (noun)
-*Description*: "GIMP" is an acronym for "GNU Image Manipulation Program." Do not use "Gimp" or "gimp." 
+*Description*: "GIMP" is an acronym for "GNU Image Manipulation Program." Do not use "Gimp" or "gimp."
 
 *Use it*: yes
 
 *Incorrect forms*: Gimp, gimp
 
-*See also*: 
+*See also*:
+
+[discrete]
+[[git]]
+==== Git (noun)
+*Description*: Git is an open source version control system. Use "Git" when referring to the software in general, for example, "Clone the Git repository." Do not use lowercase "git" unless you are referring to the `git` command; as such, mark it up in monospace.
+
+*Use it*: yes
+
+*Incorrect forms*: git, GIT
+
+*See also*:
 
 [discrete]
 [[gnome]]
@@ -204,9 +215,9 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[gpl]]
@@ -217,7 +228,7 @@
 
 *Incorrect forms*: Gpl, gpl
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[grayscale]]
@@ -228,7 +239,7 @@
 
 *Incorrect forms*: gray-scale, gray scale
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[grub]]
@@ -239,12 +250,12 @@
 
 *Incorrect forms*: Grub
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[gtkplus]]
 ==== GTK+ (noun)
-*Description*: "GTK+" is an acronym for "GIMP Tool Kit." Do not use "GTK," "Gtk," or "gtk." 
+*Description*: "GTK+" is an acronym for "GIMP Tool Kit." Do not use "GTK," "Gtk," or "gtk."
 
 *Use it*: yes
 

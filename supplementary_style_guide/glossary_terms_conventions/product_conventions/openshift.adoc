@@ -204,7 +204,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[image]]
 ==== image (noun)
-*Description*: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information on how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift. Additionally, OpenShift provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a git repository.
+*Description*: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift. Additionally, OpenShift provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.
 
 *Use it*: yes
 
