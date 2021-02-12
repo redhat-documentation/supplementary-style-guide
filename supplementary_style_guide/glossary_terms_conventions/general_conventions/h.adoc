@@ -124,7 +124,7 @@
 [discrete]
 [[host-name]]
 ==== host name (noun)
-*Description*: "Host name" is preferred spelling; do not use "hostname." Only capitalize the initial "H" at the beginning of a sentence. See _The IBM Style Guide_ for more information.
+*Description*: "Host name" is the preferred spelling; do not use "hostname." Only capitalize the initial "H" at the beginning of a sentence.
 
 *Use it*: yes
 
@@ -234,13 +234,13 @@
 [discrete]
 [[hyperconverged]]
 ==== hyperconverged (adjective)
-*Description*: A hyperconverged system combines compute, storage, networking, and management capabilities into a single solution, simplifying deployment and reducing the cost of acquisition and maintenance. 
+*Description*: A hyperconverged system combines compute, storage, networking, and management capabilities into a single solution, simplifying deployment and reducing the cost of acquisition and maintenance.
 
 *Use it*: yes
 
 *Incorrect forms*: hyper-converged
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[hypervisor]]
