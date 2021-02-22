@@ -66,44 +66,11 @@
 *See also*: xref:read-v[read (verb)]
 
 [discrete]
-[[real-time-n]]
-==== real time (noun)
-*Description*: As a noun, "real time" is the actual time during which something takes place, for example, "The computer may partly analyze the data in real time (as it comes in) -- R. H. March."
-
-*Use it*: yes
-
-*Incorrect forms*: realtime
-
-*See also*: xref:real-time-adj[real-time]
-
-[discrete]
-[[real-time-adj]]
-==== real-time (adjective)
-*Description*: As an adjective, use the hyphenated form, for example, "XEmacs is a self-documenting, customizable, extensible, real-time display editor."
-
-*Use it*: yes
-
-*Incorrect forms*: realtime
-
-*See also*: xref:real-time-n[real time]
-
-[discrete]
-[[reboot]]
-==== reboot (verb)
-*Description*: "Reboot" means to turn off a computer's operating system and then turn it on.
-
-*Use it*: yes
-
-*Incorrect forms*: re-boot
-
-*See also*:
-
-[discrete]
 [[recommend]]
 ==== recommend (verb)
 *Description*: Avoid "recommends". Instead of "Red Hat recommends", direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream/downstream coordinated efforts.
 
-For example, instead of "Red Hat recommends using X package because", write "Use this package because" or "Use this package when". 
+For example, instead of "Red Hat recommends using X package because", write "Use this package because" or "Use this package when".
 
 *Use it*: no
 
@@ -357,16 +324,5 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 *Use it*: yes
 
 *Incorrect forms*: run level, run-level
-
-*See also*:
-
-[discrete]
-[[runtime]]
-==== runtime (noun)
-*Description*: "Runtime" is when a program is running (or being executed), that is, when you start a program running in a computer, it is the runtime for that program. In some programming languages, certain reusable programs or routines are built and packaged as a runtime library.
-
-*Use it*: yes
-
-*Incorrect forms*: run time, run-time
 
 *See also*:

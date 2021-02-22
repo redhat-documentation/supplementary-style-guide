@@ -126,7 +126,7 @@
 
 *Use it*: with caution
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:z-stream[z-stream]
 
@@ -161,7 +161,7 @@
 
 *Incorrect forms*:
 
-*See also*: xref:unmount[unmount]
+*See also*: 
 
 [discrete]
 [[mouse-button]]

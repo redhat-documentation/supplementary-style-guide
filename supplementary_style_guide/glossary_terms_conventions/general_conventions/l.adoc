@@ -34,28 +34,6 @@
 *See also*:  xref:kvm[KVM]
 
 [discrete]
-[[license-n]]
-==== license (noun)
-*Description*: A "license" is an official document that gives someone permission to do or use something.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:license-v[license (verb)]
-
-[discrete]
-[[license-v]]
-==== license (verb)
-*Description*: When used as a verb, "license" means to give someone permission to do something.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:license-n[license (noun)]
-
-[discrete]
 [[linux]]
 ==== Linux (noun)
 *Description*: "Linux" is a Unix-like operating system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it properly.
@@ -139,7 +117,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:
 

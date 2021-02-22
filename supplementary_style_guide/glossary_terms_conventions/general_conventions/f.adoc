@@ -7,7 +7,7 @@
 
 *Incorrect forms*:
 
-*See also*: xref:terminate[terminate], xref:crash[crash]
+*See also*: xref:crash[crash]
 
 [discrete]
 [[faq]]
@@ -23,7 +23,7 @@
 [discrete]
 [[fault-tolerance-n]]
 ==== fault tolerance (noun)
-*Description*: "Fault tolerance" is the ability of a system to respond gracefully to an unexpected hardware or software failure. There are many levels of fault tolerance, the lowest being the ability to continue operation in the event of a power failure. 
+*Description*: "Fault tolerance" is the ability of a system to respond gracefully to an unexpected hardware or software failure. There are many levels of fault tolerance, the lowest being the ability to continue operation in the event of a power failure.
 
 Use the two-word "fault tolerance" when using it as a noun.
 
@@ -36,7 +36,7 @@ Use the two-word "fault tolerance" when using it as a noun.
 [discrete]
 [[fault-tolerant-adj]]
 ==== fault-tolerant (adjective)
-*Description*: "Fault-tolerant" systems can respond gracefully to an unexpected hardware or software failure. Many fault-tolerant computer systems mirror all operations, that is, every operation is performed on two or more duplicate systems, so if one fails the other can take over. 
+*Description*: "Fault-tolerant" systems can respond gracefully to an unexpected hardware or software failure. Many fault-tolerant computer systems mirror all operations, that is, every operation is performed on two or more duplicate systems, so if one fails the other can take over.
 
 Use the hyphenated "fault-tolerant" when using it as an adjective.
 
@@ -55,7 +55,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Incorrect forms*: fedora project
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[firewire]]
@@ -68,7 +68,7 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 
 *Incorrect forms*: Firewire, firewire
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[firmware]]
@@ -126,28 +126,6 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 *See also*:
 
 [discrete]
-[[front-end-adj]]
-==== front-end (adjective)
-*Description*: When used as an adjective, "front-end" means something that is directly accessed by the user and allows access to further devices, programs, or databases. Do not use "frontend" as noun or adjective. 
-
-*Use it*: yes
-
-*Incorrect forms*: frontend
-
-*See also*: xref:front-end-n[front end]
-
-[discrete]
-[[front-end-n]]
-==== front end (noun)
-*Description*: When used as a noun, "front end" refers to the presentation layer. Do not use "frontend" as noun or adjective. 
-
-*Use it*: yes
-
-*Incorrect forms*: frontend
-
-*See also*: xref:front-end-adj[front-end] 
-
-[discrete]
 [[futex]]
 ==== futex (noun)
 *Description*: A "futex" (an abbreviation for "fast userspace mutex") is a Linux kernel system call that programmers can use to implement basic locking or as a building block for higher-level locking abstractions.
@@ -165,17 +143,17 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:futex[futex], xref:mutexes[mutexes]
 
 [discrete]
 [[fuzzy]]
 ==== fuzzy (adjective)
-*Description*: It is only correct to use "fuzzy" as an adjective when referring to "fuzzy searches" (the technique of finding strings that match a pattern approximately, rather than exactly). See http://www.stylepedia.net/#chap-Red_Hat_Technical_Publications-Writing_Style_Guide-Avoiding_Slang_Metaphors_and_Misleading_Language[Avoiding Slang, Metaphors, and Misleading Language] for details and examples. 
+*Description*: It is only correct to use "fuzzy" as an adjective when referring to "fuzzy searches" (the technique of finding strings that match a pattern approximately, rather than exactly). See http://www.stylepedia.net/#chap-Red_Hat_Technical_Publications-Writing_Style_Guide-Avoiding_Slang_Metaphors_and_Misleading_Language[Avoiding Slang, Metaphors, and Misleading Language] for details and examples.
 
 *Use it*: with caution
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:

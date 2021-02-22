@@ -41,14 +41,3 @@
 *Incorrect forms*: Xterm
 
 *See also*:
-
-[discrete]
-[[x-window-system]]
-==== X Window System (noun)
-*Description*: "X Window System" is a windowing system for bitmap displays, common on Unix-like computer operating systems. It is also referred to as X. When making multiple references to the X Window System, on first mention spell out, with shortened references following. For example, "Reinstalling the X Window System (X) is not necessary if.... To start an X session, from the shell prompt...."
-
-*Use it*: yes
-
-*Incorrect forms*: X Windowns
-
-*See also*: xref:x[X]

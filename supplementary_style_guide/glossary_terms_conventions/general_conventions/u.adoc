@@ -76,18 +76,6 @@
 *See also*:
 
 [discrete]
-[[unmount]]
-==== unmount (verb)
-*Description*: "Unmount" means to make a disk inaccessible by the computer.
-
-*Use it*: yes
-
-*Incorrect forms*: un-mount, un mount
-
-*See also*: xref:mount[mount]
-
-
-[discrete]
 [[ups]]
 ==== UPS (noun)
 *Description*: "UPS" is an abbreviation of uninterruptible power supply, which is a power supply that includes a battery to maintain power in the event of a power outage.
@@ -162,17 +150,6 @@
 *Use it*: yes
 
 *Incorrect forms*: url
-
-*See also*:
-
-[discrete]
-[[usable]]
-==== usable (adjective)
-*Description*: "Usable" means something is capable of being used.
-
-*Use it*: yes
-
-*Incorrect forms*: useable
 
 *See also*:
 

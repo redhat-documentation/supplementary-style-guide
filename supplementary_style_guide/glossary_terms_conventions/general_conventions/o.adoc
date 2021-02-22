@@ -98,18 +98,6 @@
 *See also*:
 
 [discrete]
-==== on-the-fly
-[[on-the-fly]]
-
-*Description*: "On-the-fly" is an idiom meaning "as you go" or "in real time." Do not use it as it is not universally understood.
-
-*Use it*: no
-
-*Incorrect forms*:
-
-*See also*: xref:real-time-adj[real time]
-
-[discrete]
 [[opcodes]]
 ==== opcode (noun)
 *Description*: An "opcode" is the portion of a machine language instruction that specifies the operation to be performed.
@@ -146,7 +134,7 @@
 [discrete]
 [[opex]]
 ==== OpEx (noun)
-*Description*: "OpEx" is an abbreviation of "operating expenses." 
+*Description*: "OpEx" is an abbreviation of "operating expenses."
 
 *Use it*: yes
 
