@@ -128,7 +128,7 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 [discrete]
 [[front-end-adj]]
 ==== front-end (adjective)
-*Description*: When used as adjective, "front-end" means something that is directly accessed by the user and allows access to further devices, programs, or databases. Do not use "frontend" as noun or adjective. 
+*Description*: When used as an adjective, "front-end" means something that is directly accessed by the user and allows access to further devices, programs, or databases. Do not use "frontend" as noun or adjective. 
 
 *Use it*: yes
 
@@ -172,7 +172,7 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 [discrete]
 [[fuzzy]]
 ==== fuzzy (adjective)
-*Description*: It is only correct to use "fuzzy" as adjective when referring to "fuzzy searches" (the technique of finding strings that match a pattern approximately, rather than exactly). See http://www.stylepedia.net/#chap-Red_Hat_Technical_Publications-Writing_Style_Guide-Avoiding_Slang_Metaphors_and_Misleading_Language[Avoiding Slang, Metaphors, and Misleading Language] for details and examples. 
+*Description*: It is only correct to use "fuzzy" as an adjective when referring to "fuzzy searches" (the technique of finding strings that match a pattern approximately, rather than exactly). See http://www.stylepedia.net/#chap-Red_Hat_Technical_Publications-Writing_Style_Guide-Avoiding_Slang_Metaphors_and_Misleading_Language[Avoiding Slang, Metaphors, and Misleading Language] for details and examples. 
 
 *Use it*: with caution
 
