@@ -2,13 +2,34 @@
 [[specific-doc-types]]
 = Specific documentation types
 
+[[prerequisites]]
+== Prerequisites
+In contradistinction to normative technical writing guidelines, write prerequisites using the passive voice.
+
+*Reasoning:* The active voice turns a prerequisite into a procedural step.
+
+.Example
+
+You want the user to be logged in with root user permissions when the procedure begins.
+
+*Passive voice:*
+====
+You are logged in with root permissions.
+====
+
+*Active voice:*
+====
+Log in with Administrator privileges.
+====
+
+////
 [[release-notes]]
 == Release notes
 
 [[release-notes-doc-texts]]
 === Release notes doc texts
 
-A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with _The IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type: 
+A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with _The IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type:
 
 * Enhancement
 * Bug fix
@@ -20,7 +41,7 @@ Use the following general structure for consistency.
 
 [discrete]
 ==== Enhancement
- 
+
 Use present tense in one of the following formats:
 ----
 This enhancement <present tense explanation>.
@@ -54,7 +75,7 @@ Before this update, the loopback device for Cinder iSCSI/LVM backend was not rec
 
 Use present tense for the issue and the imperative form for the workaround in the following format:
 ----
-There is currently a known issue <present tense explanation> under <X conditions>. 
+There is currently a known issue <present tense explanation> under <X conditions>.
 
 Workaround: <workaround>.
 ----
@@ -63,7 +84,7 @@ Workaround: <workaround>.
 Currently, you cannot use Orchestration (heat) templates with the director to deploy an overcloud that requires NFS as an Image service (glance) back end. There is currently no workaround for this issue.
 ----
 ----
-The Compute services (nova) might fail to deploy because the `nova_wait_for_compute_service` script is unable to query the Nova API. If a remote container image registry is used outside of the undercloud, the Nova API service might not finish deploying in time. 
+The Compute services (nova) might fail to deploy because the `nova_wait_for_compute_service` script is unable to query the Nova API. If a remote container image registry is used outside of the undercloud, the Nova API service might not finish deploying in time.
 Workaround: Rerun the deployment command, or use a local container image registry on the undercloud.
 ----
 
@@ -74,7 +95,7 @@ Use present tense in the following format:
 ----
 In <release>, a Technology Preview is available for <feature explanation>.
 ----
-.Example doc text 
+.Example doc text
 ----
 In Red Hat OpenStack Platform 16.0, a Technology Preview is available for the Bare Metal Provisioning service (ironic) deployed on an IPv6 provisioning network for BMaaS (Bare Metal as-a-Service) tenants.
 ----
@@ -87,14 +108,14 @@ Warn users about the following deprecation stages:
 * Plan to deprecate
 * Deprecate
 * Plan to remove
-* Remove 
+* Remove
 
 If available, inform users of alternative capabilities and workarounds.
 
 [discrete]
 ===== Deprecation notice
 ----
-In <product> <release>, <name of capability> is deprecated. Bug fixes and support are provided through the end of the <releasename or, if unknown, “a future”> life cycle. After which, no new feature enhancements are made. (Optional: You can use <alternative capability> instead.) 
+In <product> <release>, <name of capability> is deprecated. Bug fixes and support are provided through the end of the <releasename or, if unknown, “a future”> life cycle. After which, no new feature enhancements are made. (Optional: You can use <alternative capability> instead.)
 ----
 .Example deprecation notice doc text
 ----
@@ -104,7 +125,7 @@ In Red Hat Openstack Platform (RHOSP) 14, the director graphical user interface 
 [discrete]
 ===== Removal notice
 ----
-In <product> <release>, <name of capability> is removed. Bug fixes and support is provided through the end of the <releasename or, if unknown, “a future”> life cycle. After which, no new feature enhancements are made. (Optional: You can use <alternative capability> instead.) 
+In <product> <release>, <name of capability> is removed. Bug fixes and support is provided through the end of the <releasename or, if unknown, “a future”> life cycle. After which, no new feature enhancements are made. (Optional: You can use <alternative capability> instead.)
 ----
 .Example removal notice doc text
 ----
