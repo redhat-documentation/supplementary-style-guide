@@ -10,6 +10,20 @@ Follow _The IBM Style Guide_  guidance of _day Month year_ for date formats, for
 When the format _day Month year_ causes a presentation or clarity issue, use _Month day, year_ (for example, October 3, 2019) instead.
 
 
+[[conversational-style]]
+== Conversational style
+
+Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cases. 
+
+As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
+
+.Example AsciiDoc: Less conversational style 
+
+----
+Get answers now. Search the documentation and posts from the Stack Overflow community, which is actively monitored.
+The jobs in a stage can't pass artifacts to each other.
+----
+
 [[user-replaced-values]]
 == User-replaced values
 
