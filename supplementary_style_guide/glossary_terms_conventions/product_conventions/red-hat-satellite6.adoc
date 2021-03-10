@@ -82,7 +82,7 @@ For documentation questions, contact satellite-doc-list@redhat.com.
 [discrete]
 [[puppet-forge]]
 ==== Puppet Forge (noun)
-*Description*: Puppet Forge is a Puppet Labs git repository for community supplied Puppet modules.
+*Description*: Puppet Forge is a Puppet Labs Git repository for community supplied Puppet modules.
 
 *Use it*: yes
 
