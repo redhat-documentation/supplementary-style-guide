@@ -9,6 +9,7 @@ These instructions show how to submit an update using the command line. You may 
 Before you begin:
 
 * You must have a GitHub account.
+* You must have [set up an SSH key for your GitHub account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
 The first time you contribute:
 
@@ -22,7 +23,11 @@ The first time you contribute:
    $ git clone git@github.com:<username>/supplementary-style-guide.git
    ```
 
-3. Set the upstream remote repository.
+   If this command fails, be sure that you have [set up an SSH key for GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
+
+3. Navigate to the `supplementary-style-guide` directory.
+
+4. Set the upstream remote repository.
 
    ```
    $ git remote add -f upstream git@github.com:redhat-documentation/supplementary-style-guide.git
