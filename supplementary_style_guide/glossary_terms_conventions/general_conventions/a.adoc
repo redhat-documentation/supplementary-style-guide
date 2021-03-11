@@ -46,7 +46,7 @@
 [discrete]
 [[AMD64]]
 ==== AMD64 (noun)
-*Description*: "AMD64" is the AMD implementation of the x86 architecture.
+*Description*: "AMD64" is the AMD implementation of a 64-bit version of the x86 architecture.
 
 *Use it*: yes
 
