@@ -18,8 +18,6 @@ You also have the following responsibilities:
 === Driving resolution of open issues
 
 * Review link:https://github.com/redhat-documentation/supplementary-style-guide/issues[issues] submitted to the supplementary style guide GitHub repository.
-* If none of the project members respond to a newly opened issue, add the _Needs Fix_ label to the issue and mention @redhat-documentation/ccs-style-council in a comment on the issue to notify project members about it.
-//* Ensure that discussion on open issues is moving forward consistently. If the discussion does not progress, notify link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council[project council members] about the issue.
 * Close issues that are resolved.
 
 === Review open pull requests
