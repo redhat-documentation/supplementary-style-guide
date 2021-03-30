@@ -4,7 +4,9 @@
 
 Every 2 weeks a different project member assumes the role of repository administrator.
 Signing up to be an administrator is voluntary.
-To volunteer to be an administrator, contact @cbudz or @bergerhoffer.
+To volunteer to be an administrator, contact link:https://github.com/cbudz[@cbudz] or link:https://github.com/cbudz[@bergerhoffer].
+Each administrator rotation is marked on the Supplementary Style Guide shared calendar.
+Administrators receive a calendar notification when it is their turn.
 
 == Administrator responsibilities
 
@@ -18,6 +20,7 @@ You also have the following responsibilities:
 === Driving resolution of open issues
 
 * Review link:https://github.com/redhat-documentation/supplementary-style-guide/issues[issues] submitted to the supplementary style guide GitHub repository.
+* For open issues, include the link to the PR that resolve the issue.
 * Close issues that are resolved.
 
 === Review open pull requests
