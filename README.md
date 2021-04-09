@@ -12,7 +12,11 @@ If you have a suggestion or question, open an [issue](https://github.com/redhat-
 
 ## Contributing
 
-See the [Contributing guide](CONTRIBUTING.md) for information on how to contribute an update.
+See the [Contributing guide](CONTRIBUTING.md) for information about how to contribute an update.
+
+## Administrator responsibilities
+
+See the list of [administrator responsibilities](ADMIN.adoc) for more information on what to do in your role as the administrator of this repository.  
 
 ## License
 
