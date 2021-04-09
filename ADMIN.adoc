@@ -4,7 +4,7 @@
 
 Every 2 weeks a different project member assumes the role of repository administrator.
 Signing up to be an administrator is voluntary.
-To volunteer to be an administrator, contact link:https://github.com/cbudz[@cbudz] or link:https://github.com/cbudz[@bergerhoffer].
+To volunteer to be an administrator, contact link:https://github.com/cbudz[@cbudz] or link:https://github.com/bergerhoffer[@bergerhoffer].
 Each administrator rotation is marked on the Supplementary Style Guide shared calendar.
 Administrators receive a calendar notification when it is their turn.
 
