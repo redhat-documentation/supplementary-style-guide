@@ -110,10 +110,3 @@ In <product> <release>, <name of capability> is removed. Bug fixes and support i
 ----
 In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) is removed. Bug fixes and support are provided through the end of the RHOSP 15 life cycle but Red Hat do not implement new feature enhancements.
 ----
-
-
-
-
-
-[[tech-preview-features]]
-== Technology Preview features
