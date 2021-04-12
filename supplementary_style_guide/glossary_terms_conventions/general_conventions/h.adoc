@@ -34,17 +34,6 @@
 *See also*: xref:she[she]
 
 [discrete]
-[[healthcare]]
-==== healthcare (noun)
-*Description*: "Healthcare" refers to maintaining or improving health by preventing or treating health issues.
-
-*Use it*: yes
-
-*Incorrect forms*: health-care
-
-*See also*:
-
-[discrete]
 [[health-check]]
 ==== health check (noun)
 *Description*: A "health check" identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check." Do not capitalize "health check" when referring to those services in a general way, for example, "A health check ensures your systems perform at their best."

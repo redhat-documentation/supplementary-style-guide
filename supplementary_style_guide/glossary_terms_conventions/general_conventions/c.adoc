@@ -340,7 +340,7 @@ image repository contains one or more tagged images.
 
 *Incorrect forms*:
 
-*See also*: xref:fail[fail], xref:terminate[terminate]
+*See also*: xref:fail[fail]
 
 [discrete]
 [[cross-platform]]

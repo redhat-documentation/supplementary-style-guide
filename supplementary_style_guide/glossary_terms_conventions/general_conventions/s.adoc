@@ -21,17 +21,6 @@
 *See also*:
 
 [discrete]
-[[s-record]]
-==== S-record (noun)
-*Description*: "Motorola S-record" is a file format that stores binary information in ASCII hex text form.
-
-*Use it*: yes
-
-*Incorrect forms*: s-record, S-Record, s-Record, SREC, or any other variation
-
-*See also*:
-
-[discrete]
 [[screen-saver]]
 ==== screen saver (noun)
 *Description*: A "screen saver" is an image or animation that replaces a computer's display after a set amount of time without user activity.
@@ -107,28 +96,6 @@
 *Incorrect forms*: computer farm, computer ranch
 
 *See also*: xref:server-cluster[server cluster]
-
-[discrete]
-[[server-side-n]]
-==== server side (noun)
-*Description*: The "server side" means that the action takes place on a web server in a client/server relationship. Use this form when "server side" is a noun, for example, "They do most of their programming on the server side, that is, directly on the web server."
-
-*Use it*: yes
-
-*Incorrect forms*: server-side
-
-*See also*: xref:server-side-adj[server-side]
-
-[discrete]
-[[server-side-adj]]
-==== server-side (adjective)
-*Description*: Use "server-side" as an adjective when referring to operations performed by the server in a client/server relationship, for example, "Her specialty is server-side programming."
-
-*Use it*: yes
-
-*Incorrect forms*: server side
-
-*See also*: xref:server-side-n[server side]
 
 [discrete]
 [[sha-1]]
@@ -382,6 +349,17 @@
 *Incorrect forms*:
 
 *See also*: xref:mysql[MySQL]
+
+[discrete]
+[[s-record]]
+==== S-record (noun)
+*Description*: "Motorola S-record" is a file format that stores binary information in ASCII hex text form.
+
+*Use it*: yes
+
+*Incorrect forms*: s-record, S-Record, s-Record, SREC, or any other variation
+
+*See also*:
 
 [discrete]
 [[ser-iov]]
