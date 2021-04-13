@@ -103,71 +103,64 @@ Text for note.
 [product-names-versions-ref]]
 == Product names and version references
 
-////
-PROPOSED ADDITIONS?
-master-docinfo.xml specific and portal-specific version variables
-URL fragments and composed links?
-correct sequence when combining attributes
-ensure proper sequence for compound attributes
-syntax recommendations: what separators to use? dashes/hyphens, underscores?
-////
-
 Whenever you refer to the name of your product in full, or in its abbreviated form, or when you refer to the major and minor version of your product, avoid using hard-coded references and use attributes instead.
-
 Only use hard-coded version references if the version that you are referring to in a particular case never changes.
 
 === Attribute file
 
-Define attributes for product name and product version in a single common shared attributes file for each documentation set or product.
-
-Name the file `attributes.adoc`.
-You may use a different name if necessary, but if you do, ensure that the name of the file indicates to your collaborators that it is an attribute file.
-
-//For a single title, store the file in the same directory as the `master.adoc` file.
-For sharing between multiple titles, store the file in a common directory above the directories that contain your titles, such as `docs/common/` or `docs/topics/templates`.
-
+Define attributes for product name and product version and store them in a dedicated attributes file for each set of product documentation.
+For examples of where you can store the shared attributes file inside your documentation repository, see the link:https://github.com/redhat-documentation/modular-docs/tree/mod-doc-repo-example[Example modular documentation repository].
 Include the attributes file at the beginning of the `master.adoc` files of all titles in your documentation set:
 
 .master.adoc
 [source,asciidoc,options="nowrap"]
 ----
-\include::common/attributes.adoc[]
+\include::<path-to-directory-with-attributes-file>/attributes.adoc[]
 ----
-
-TIP: Create a symbolic link pointing to the `common` directory inside the directory containing the `master.adoc` file of your title. It makes including the attribute file in your title easier. +
-Do not copy the directory or attribute file directly, and do not use hard links!
 
 === Minimum required attributes
 
-For each title ensure that you define attributes for the following values:
+Define attributes for the following values in each documentation set.
+Note that the attribute names used in this section are only meant as examples.
+You can use different attribute names:
 
-* product name
-* abbreviated product name (if applicable to your product)
-* the major and minor version of the product (for example, 5 and 5.4)
-
-You may create additional attributes according to what your documentation requires.
-For example, some projects with complex names may define multiple abbreviated and non-abbreviated forms for their product name. You may also combine existing product name attributes to create compound product names.
-
-=== Attribute usage
-
-Product names and abbreviations::
-Use the product name attribute for all instances of the product name where possible.
+The name of the product:: Use the product name attribute for all instances of the product name where possible.
 Avoid using hard-coded product names.
+For example:
++
+.Example product name attribute
+----
+:name-product: Red Hat build of Quarkus
+----
 
-Product versions::
-Use the product version attribute for instances where the product version should change with the next version and the content would still be correct.
+The abbreviated form of the product name:: If it is necessary for your product, you can use an attribute to store a shortened version of the name of your product, for example:
++
+.Example abbreviated product name attribute
+----
+:name-product-abbreviated: RHBQ
+----
+
+The major and minor version of the product:: Use an attribute for the product version in cases where the product version can change with each release and the content is still correct.
+For example:
++
+.Example long and short product version attributes
+----
+:version-product-short: 1.11.6
+:version-product-long: 1.11
+----
++
+[NOTE]
+====
 Do not use the product version attribute if the version should not change.
 For example, if a feature was introduced in a certain version, the version should be hard-coded.
+====
 
-////
-=== Recommendations on attribute name syntax
+You might create additional attributes according to what your documentation requires.
+For example, you might combine existing product name attributes to create compound names of products or components:
 
-The particular format of attribute names is largely determined by the internal naming conventions of each particular project.
-
-Some recommendation can be made to the general syntax of attribute names to ensure that the names clearly indicate the purpose of each attribute.
-
-Attribute names should be as explicit as possible, especially in sets that have many attributes.
-Using prefixes helps achieve this without making the attribute name too long.
-For example `name-product-short` clearly indicates that the attribute resolves.
-It is also not product specific, which might be usitable for
-////
+.Example attributes for compound names of product components
+----
+:name-runtime-spring-boot: Spring Boot
+:name-runtime-vertx: Eclipse Vert.x
+:name-spring-reactive: {name-runtime-spring-boot} with {name-runtime-vertx} reactive components
+----
