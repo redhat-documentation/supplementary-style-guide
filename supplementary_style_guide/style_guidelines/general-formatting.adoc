@@ -13,7 +13,7 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 [[user-replaced-values]]
 == User-replaced values
 
-A _user-replaced value_ is a value that the user must replace with a value that is relevant for their situation. User-replaced values are often found in places such as code blocks, file paths, and commands.
+A _user-replaced value_, also known as a replaceable or variable value, is a value that the user must replace with a value that is relevant for their situation. User-replaced values are often found in places such as code blocks, file paths, and commands.
 
 Use descriptive names for user-replaced values and follow this general format: _<value_name>_.
 
