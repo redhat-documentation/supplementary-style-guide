@@ -21,7 +21,7 @@ As needed, adjust the conversational to _fairly conversational_ for an audience 
 
 ----
 Get answers now. Search the documentation and posts from the Stack Overflow community, which is actively monitored.
-The jobs in a stage can't pass artifacts to each other.
+The jobs in a stage cannot pass artifacts to each other.
 ----
 
 [[user-replaced-values]]
