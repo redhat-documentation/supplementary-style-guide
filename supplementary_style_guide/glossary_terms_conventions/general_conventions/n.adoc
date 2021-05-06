@@ -34,18 +34,6 @@
 *See also*:
 
 [discrete]
-[[nfs]]
-==== NFS (noun)
-
-*Description*: "NFS" is an acronym for "Network File System." NFS is a client-server application designed by Sun Microsystems that allows all network users to access shared files stored on computers of different types. NFS provides access to shared files through an interface called the Virtual File System (VFS) that runs in a layer above TCP/IP. Users can manipulate shared files as if they were stored locally on the user's own hard disk. With NFS, computers connected to a network operate as clients while accessing remote files, and as servers while providing remote users access to local shared files. The NFS standards are publicly available and widely used.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
 [[node]]
 ==== node (noun)
 
@@ -67,30 +55,6 @@
 *Incorrect forms*: right now
 
 *See also*:
-
-[discrete]
-[[null-value]]
-==== NULL (noun)
-
-*Description*: Use "NULL" when a command or value is stated.
-
-*Use it*: with caution
-
-*Incorrect forms*: null
-
-*See also*: xref:null-adjective[null]
-
-[discrete]
-[[null-adjective]]
-==== null (adjective)
-
-*Description*: Use "null" (in all lowercase letters) when stating that something is null.
-
-*Use it*: with caution
-
-*Incorrect forms*: NULL
-
-*See also*: xref:null-value[NULL]
 
 [discrete]
 [[numbers]]

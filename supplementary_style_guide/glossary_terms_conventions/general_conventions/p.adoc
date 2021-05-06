@@ -44,17 +44,6 @@
 *See also*:
 
 [discrete]
-[[pico]]
-==== Pico (noun)
-*Description*: Capitalize "Pico" when referring to the text editor or to the programming language. Do not capitalize "pico" when referring to the SI prefix.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
 [[physical-topology]]
 ==== physical topology (noun)
 *Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The physical topology is the way that the workstations are connected to the network through the actual cables that transmit data.
@@ -66,6 +55,17 @@
 *See also*: xref:logical-topology[logical topology], xref:signal-topology[signal topology]
 
 [discrete]
+[[pico]]
+==== Pico (noun)
+*Description*: Capitalize "Pico" when referring to the text editor or to the programming language. Do not capitalize "pico" when referring to the SI prefix.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[plain-text]]
 ==== plain text (adjective)
 *Description*: "Plain text" is correct in almost all cases. We use "plain text" as a plain English denotation of all unencrypted information, whether it is being stored or is being fed to an encryption algorithm. Unless it is necessary to make the cryptographer's distinction, do not use "plaintext" or "cleartext." Cryptographers distinguish between "cleartext" (unencrypted data) and "plaintext" (unencrypted data as input to an encryption algorithm).
@@ -73,17 +73,6 @@
 *Use it*: yes
 
 *Incorrect forms*: plaintext, plain-text, cleartext, clear text
-
-*See also*:
-
-[discrete]
-[[please]]
-==== please (adverb)
-*Description*: Instead of saying "Please refer to the _Getting Started Guide_," use "See the _Getting Started Guide_."
-
-*Use it*: no
-
-*Incorrect forms*: 
 
 *See also*:
 
@@ -99,17 +88,6 @@
 *See also*:
 
 [discrete]
-[[plugin]]
-==== plug-in (noun)
-*Description*: A "plug-in" is a hardware or software module that adds a specific feature or service to a larger system. For example, a number of plug-ins are available for the Netscape Navigator browser that enable it to display different types of audio or video messages. Navigator plug-ins are based on MIME file types.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
 [[popup]]
 ==== pop-up (noun)
 *Description*: A "pop-up" is a graphical user interface (GUI) display area, usually a small window, that is suddenly displayed in the foreground of the visual interface. Pop-ups can be initiated by a single or double mouse click or rollover (sometimes called a mouseover). A pop-up window must be smaller than the background window or interface; otherwise, it's a replacement interface.
@@ -117,6 +95,17 @@
 *Use it*: yes
 
 *Incorrect forms*: popup, Pop-up
+
+*See also*:
+
+[discrete]
+[[posix]]
+==== POSIX (noun)
+*Description*: "POSIX" is an acronym for "Portable Operating System Interface [for Unix]."
+
+*Use it*: yes
+
+*Incorrect forms*: Posix, posix, variations
 
 *See also*:
 
@@ -143,17 +132,6 @@
 *See also*:
 
 [discrete]
-[[posix]]
-==== POSIX (noun)
-*Description*: "POSIX" is an acronym for "Portable Operating System Interface [for Unix]."
-
-*Use it*: yes
-
-*Incorrect forms*: Posix, posix, variations
-
-*See also*:
-
-[discrete]
 [[ppp]]
 ==== PPP (noun)
 *Description*: "PPP" is an acronym for "Point-to-Point Protocol," a data link (layer 2) protocol used to establish a direct connection between two nodes. PPP can provide connection authentication, transmission encryption (using ECP, RFC 1968), and compression.
@@ -161,17 +139,6 @@
 *Use it*: yes
 
 *Incorrect forms*: Ppp, ppp
-
-*See also*:
-
-[discrete]
-[[press]]
-==== press (verb)
-*Description*: Use "press" for keyboard instructions, for example, "Press Enter."
-
-*Use it*: yes
-
-*Incorrect forms*:
 
 *See also*:
 
@@ -198,17 +165,6 @@
 *See also*:
 
 [discrete]
-[[pseudoops]]
-==== pseudo-ops (noun)
-*Description*: "Pseudo-ops" is an abbreviation for "pseudo operations" and is sometimes called an assembler directive. These keywords do not directly translate to a machine instruction.
-
-*Use it*: yes
-
-*Incorrect forms*: pseudo ops, pseudoops
-
-*See also*:
-
-[discrete]
 [[pseries]]
 ==== pSeries (noun)
 *Description*: Use "IBM eServer System p" for the first reference; use "IBM System p" or "System p" for subsequent references.
@@ -216,6 +172,17 @@
 *Use it*: no
 
 *Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[pseudoops]]
+==== pseudo-ops (noun)
+*Description*: "Pseudo-ops" is an abbreviation for "pseudo operations" and is sometimes called an assembler directive. These keywords do not directly translate to a machine instruction.
+
+*Use it*: yes
+
+*Incorrect forms*: pseudo ops, pseudoops
 
 *See also*:
 

@@ -2,7 +2,7 @@
 
 ## About
 
-The purpose of this project is to create an official _Red Hat supplemental style guide for product documentation_, supplementing _The IBM Style Guide_, in direct support of cross-product solution documentation issues. The intended users are product documentation teams at Red Hat and upstream project contributors.
+The purpose of this project is to create an official _Red Hat supplementary style guide for product documentation_, supplementing _The IBM Style Guide_, in direct support of cross-product solution documentation issues. The intended users are product documentation teams at Red Hat and upstream project contributors.
 
 View the latest version of the guide: [Red Hat supplementary style guide for product documentation](https://redhat-documentation.github.io/supplementary-style-guide/)
 
@@ -12,7 +12,15 @@ If you have a suggestion or question, open an [issue](https://github.com/redhat-
 
 ## Contributing
 
-See the [Contributing guide](CONTRIBUTING.md) for information on how to contribute an update.
+See the [Contributing guide](CONTRIBUTING.md) for information about how to contribute an update.
+
+## Administrator responsibilities
+
+See the list of [administrator responsibilities](ADMIN.adoc) for more information on what to do in your role as the administrator of this repository.  
+
+## History
+
+See the [history of significant updates](HISTORY.md) to the _Red Hat supplementary style guide for product documentation_.
 
 ## License
 

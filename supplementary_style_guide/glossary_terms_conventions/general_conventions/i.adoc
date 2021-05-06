@@ -66,6 +66,17 @@
 *See also*:
 
 [discrete]
+[[insight]]
+==== Insight (noun)
+*Description*: "Insight" is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.
+
+*Use it*: yes
+
+*Incorrect forms*: GDBTK
+
+*See also*: xref:gdb[GBD], xref:gdb-command[gdb]
+
+[discrete]
 [[installation-program]]
 ==== installation program (noun)
 *Description*: An "installation program" is a program that installs certain software.
@@ -132,30 +143,6 @@
 *See also*:
 
 [discrete]
-[[internet-of-things]]
-==== Internet of Things (noun)
-*Description*: The "Internet of Things" ("IoT") refers to uniquely identifiable objects and their virtual representations in an Internet-like structure. See the link:https://en.wikipedia.org/wiki/Internet_of_things[Internet of Things Wikipedia page] for more information. Capitalize "Internet of Things" (IoT) as shown. Spell out "Internet of Things" on the first occurrence, and use the acronym thereafter.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
-[[i-o]]
-==== I/O (noun)
-*Description*: "I/O" is an acronym for "input/output" (pronounced "eye-oh"). The term I/O is used to describe any program, operation, or device that transfers data to or from a computer and to or from a peripheral device. Every transfer is an output from one device and an input into another. Devices such as keyboards and mice are input-only devices, while devices such as printers are output-only. A writable CD is both an input and an output device.
-
-The term I/O is a non-countable noun, meaning that it cannot be expressed in plural form. Append "operations" to refer to multiple units of I/O, for example, "I/O operations could not be recovered in situations where I/O should have been temporarily queued, such as when paths were unavailable."
-
-*Use it*: yes
-
-*Incorrect forms*: IO
-
-*See also*:
-
-[discrete]
 [[iops]]
 ==== IOPS (noun)
 *Description*: "IOPS" is an acronym for "input/output operations per second."
@@ -165,17 +152,6 @@ The term I/O is a non-countable noun, meaning that it cannot be expressed in plu
 *Incorrect forms*: Iops, IOPs
 
 *See also*:
-
-[discrete]
-[[insight]]
-==== Insight (noun)
-*Description*: "Insight" is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.
-
-*Use it*: yes
-
-*Incorrect forms*: GDBTK
-
-*See also*: xref:gdb[GBD], xref:gdb-command[gdb]
 
 [discrete]
 [[ip]]
@@ -222,6 +198,17 @@ The term I/O is a non-countable noun, meaning that it cannot be expressed in plu
 *See also*:
 
 [discrete]
+[[iseries]]
+==== ISeries (noun)
+*Description*: Use "IBM eServer System i" for the first reference, and "IBM System i" or "System i" for subsequent references.
+
+*Use it*: yes
+
+*Incorrect forms*: iSeries
+
+*See also*:
+
+[discrete]
 [[iso]]
 ==== ISO (noun)
 *Description*: "ISO" is an acronym for the "International Organization for Standardization," which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.
@@ -240,17 +227,6 @@ The term I/O is a non-countable noun, meaning that it cannot be expressed in plu
 *Use it*: yes
 
 *Incorrect forms*: iso image
-
-*See also*:
-
-[discrete]
-[[isv]]
-==== ISV (noun)
-*Description*: "ISV" is an acronym for "independent software vendor," a company that produces software.
-
-*Use it*: yes
-
-*Incorrect forms*:
 
 *See also*:
 
@@ -284,16 +260,5 @@ The term I/O is a non-countable noun, meaning that it cannot be expressed in plu
 *Use it*: yes
 
 *Incorrect forms*: Itanium2
-
-*See also*:
-
-[discrete]
-[[iseries]]
-==== ISeries (noun)
-*Description*: Use "IBM eServer System i" for the first reference, and "IBM System i" or "System i" for subsequent references.
-
-*Use it*: yes
-
-*Incorrect forms*: iSeries
 
 *See also*:
