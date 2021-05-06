@@ -71,6 +71,16 @@ The following examples demonstrate when a lead-in sentence might add value.
 
 Use a complete sentence for the lead-in sentence to reduce ambiguity and support translation.
 
+[[single-step-procedures]]
+== Single step procedures
+
+When a procedure contains only one step, use an unnumbered bullet. 
+
+For example:
+====
+* Install the `dnf-automatic` package.
+====
+
 [[admonitions]]
 == Admonitions
 
