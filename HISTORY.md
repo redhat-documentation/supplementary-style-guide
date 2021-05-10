@@ -4,12 +4,19 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [April 2021](#2021-april)
 * [March 2021](#2021-march)
 * [February 2021](#2021-february)
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of March 11 2021 -->
+<!-- Updated as of May 4 2021 -->
+
+<a name="2021-april"></a>
+## April 2021
+
+* Removed glossary entries that were duplicated by the new IBM Style Guide
+* Clarified AMD64 glossary entry
 
 <a name="2021-march"></a>
 ## March 2021
