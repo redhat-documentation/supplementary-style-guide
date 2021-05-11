@@ -109,13 +109,13 @@ Only use hard-coded version references if the version that you are referring to 
 === Attribute file
 
 Define attributes for product name and product version and store them in a dedicated attributes file for each set of product documentation.
-For examples of where you can store the shared attributes file inside your documentation repository, see the link:https://github.com/redhat-documentation/modular-docs/tree/mod-doc-repo-example[Example modular documentation repository].
+For examples of where you can store the shared attributes file inside your documentation repository, see the link:https://github.com/redhat-documentation/modular-docs/blob/mod-doc-repo-example/_artifacts/document-attributes.adoc[Example modular documentation repository].
 Include the attributes file at the beginning of the `master.adoc` files of all titles in your documentation set:
 
-.master.adoc
-[source,asciidoc,options="nowrap"]
+.Example Asciidoc: Attribute file included in a master.adoc file
+[subs="+quotes"]
 ----
-\include::<path-to-directory-with-attributes-file>/attributes.adoc[]
+\include::__<path_to_directory_with_attributes_file>__/attributes.adoc[]
 ----
 
 === Minimum required attributes
@@ -128,25 +128,25 @@ The name of the product:: Use the product name attribute for all instances of th
 Avoid using hard-coded product names.
 For example:
 +
-.Example product name attribute
+.Example Asciidoc: Product name attribute
 ----
 :name-product: Red Hat build of Quarkus
 ----
 
 The abbreviated form of the product name:: If it is necessary for your product, you can use an attribute to store a shortened version of the name of your product, for example:
 +
-.Example abbreviated product name attribute
+.Example Asciidoc: Abbreviated product name attribute
 ----
-:name-product-abbreviated: RHBQ
+:name-product-abbreviated: JBoss EAP for OpenShift
 ----
 
 The major and minor version of the product:: Use an attribute for the product version in cases where the product version can change with each release and the content is still correct.
 For example:
 +
-.Example long and short product version attributes
+.Example Asciidoc: Long and short product version attributes
 ----
-:version-product-short: 1.11.6
-:version-product-long: 1.11
+:version-product-minor: 1.11
+:version-product-patch: 1.11.6
 ----
 +
 [NOTE]
