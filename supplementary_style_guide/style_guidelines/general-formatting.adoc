@@ -17,11 +17,9 @@ Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cas
 
 As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
 
-For example:
+.Example: Less conversational style
 
-====
 Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
-====
 
 [[user-replaced-values]]
 == User-replaced values
