@@ -112,7 +112,7 @@ Define attributes for product name and product version and store them in a dedic
 For examples of where you can store the shared attributes file inside your documentation repository, see the link:https://github.com/redhat-documentation/modular-docs/blob/mod-doc-repo-example/_artifacts/document-attributes.adoc[Example modular documentation repository].
 Include the attributes file at the beginning of the `master.adoc` files of all titles in your documentation set:
 
-.Example Asciidoc: Attribute file included in a master.adoc file
+.Example AsciiDoc: Attribute file included in a master.adoc file
 [subs="+quotes"]
 ----
 \include::__<path_to_directory_with_attributes_file>__/attributes.adoc[]
@@ -128,14 +128,14 @@ The name of the product:: Use the product name attribute for all instances of th
 Avoid using hard-coded product names.
 For example:
 +
-.Example Asciidoc: Product name attribute
+.Example AsciiDoc: Product name attribute
 ----
 :name-product: Red Hat build of Quarkus
 ----
 
 The abbreviated form of the product name:: If it is necessary for your product, you can use an attribute to store a shortened version of the name of your product, for example:
 +
-.Example Asciidoc: Abbreviated product name attribute
+.Example AsciiDoc: Abbreviated product name attribute
 ----
 :name-product-abbreviated: JBoss EAP for OpenShift
 ----
@@ -143,7 +143,7 @@ The abbreviated form of the product name:: If it is necessary for your product, 
 The major and minor version of the product:: Use an attribute for the product version in cases where the product version can change with each release and the content is still correct.
 For example:
 +
-.Example Asciidoc: Long and short product version attributes
+.Example AsciiDoc: Product version attributes
 ----
 :version-product-minor: 1.11
 :version-product-patch: 1.11.6
