@@ -130,14 +130,14 @@ For example:
 +
 .Example AsciiDoc: Product name attribute
 ----
-:name-product: Red Hat build of Quarkus
+:name-product: Red Hat JBoss Enterprise Application Platform
 ----
 
 The abbreviated form of the product name:: If it is necessary for your product, you can use an attribute to store a shortened version of the name of your product, for example:
 +
 .Example AsciiDoc: Abbreviated product name attribute
 ----
-:name-product-abbreviated: JBoss EAP for OpenShift
+:name-product-abbreviated: JBoss EAP
 ----
 
 The major and minor version of the product:: Use an attribute for the product version in cases where the product version can change with each release and the content is still correct.
