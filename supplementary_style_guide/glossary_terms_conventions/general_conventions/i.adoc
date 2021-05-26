@@ -167,7 +167,7 @@
 [discrete]
 [[ip-masquerade]]
 ==== IP Masquerade (noun)
-*Description*: "IP Masquerade" is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ," allows one or more computers in a network without assigned IP addresses to communicate with the Internet using the Linux server's assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the Internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.
+*Description*: "IP Masquerade" is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ," allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server's assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.
 
 *Use it*: yes
 
@@ -244,7 +244,7 @@
 [discrete]
 [[itanium]]
 ==== Itanium (noun)
-*Description*: "Itanium" is a 64-bit RISC microprocessor and a member of Intel's Merced family of processors. Based on the Explicitly Parallel Instruction Computing (EPIC) design philosophy, which states that the compiler should decide which instructions be executed together, Itanium has the highest FPU power available. In 64-bit mode, Itanium is able to calculate two bundles of a maximum of three instructions at a time. In 32-bit mode, it is much slower. Decoders must first translate 32-bit instruction sets into 64-bit instruction sets, which results in extra-clock cycle use. Itanium's primary use is driving large applications that require more than 4 GB of memory, such as databases, ERP, and future Internet applications.
+*Description*: "Itanium" is a 64-bit RISC microprocessor and a member of Intel's Merced family of processors. Based on the Explicitly Parallel Instruction Computing (EPIC) design philosophy, which states that the compiler should decide which instructions be executed together, Itanium has the highest FPU power available. In 64-bit mode, Itanium is able to calculate two bundles of a maximum of three instructions at a time. In 32-bit mode, it is much slower. Decoders must first translate 32-bit instruction sets into 64-bit instruction sets, which results in extra-clock cycle use. Itanium's primary use is driving large applications that require more than 4 GB of memory, such as databases, ERP, and future internet applications.
 
 *Use it*: yes
 

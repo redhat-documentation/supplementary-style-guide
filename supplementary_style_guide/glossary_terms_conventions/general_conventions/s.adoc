@@ -12,7 +12,7 @@
 [discrete]
 [[samba]]
 ==== Samba (noun)
-*Description*: "Samba" is a freeware program that allows end users to access and use files, printers, and other commonly shared resources on a company's intranet or on the Internet. Samba can be installed on a variety of operating system platforms, including Linux, most common Unix platforms, OpenVMS, and OS/2.
+*Description*: "Samba" is a freeware program that allows end users to access and use files, printers, and other commonly shared resources on a company's intranet or on the internet. Samba can be installed on a variety of operating system platforms, including Linux, most common Unix platforms, OpenVMS, and OS/2.
 
 *Use it*: yes
 
@@ -232,7 +232,7 @@
 [discrete]
 [[socks]]
 ==== SOCKS (noun)
-*Description*: "SOCKS" is an acronym for Socket Secure, which is an Internet protocol that exchanges network packets between a client and server through a proxy server. When specifying a SOCKS version, use "SOCKSv4" or "SOCKSv5."
+*Description*: "SOCKS" is an acronym for Socket Secure, which is an internet protocol that exchanges network packets between a client and server through a proxy server. When specifying a SOCKS version, use "SOCKSv4" or "SOCKSv5."
 
 *Use it*: yes
 
@@ -386,7 +386,7 @@
 [discrete]
 [[ssl]]
 ==== SSL (noun)
-*Description*: "SSL" is an acronym for Secure Sockets Layer, which is a protocol developed by Netscape for transmitting private documents over the Internet. SSL uses a public key to encrypt data that is transferred over the SSL connection. The majority of web browsers support SSL. Many websites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with https: instead of http:.
+*Description*: "SSL" is an acronym for Secure Sockets Layer, which is a protocol developed by Netscape for transmitting private documents over the internet. SSL uses a public key to encrypt data that is transferred over the SSL connection. The majority of web browsers support SSL. Many websites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with https: instead of http:.
 
 *Use it*: no
 
