@@ -4,25 +4,37 @@
 
 [[prerequisites]]
 == Prerequisites
-In contradistinction to normative technical writing guidelines, write prerequisites using the passive voice.
 
-*Reasoning:* The active voice turns a prerequisite into a procedural step.
+When writing prerequisites, be as clear and concise as possible. You can use the passive voice, _if necessary_, to achieve that end.
 
-.Example
+Write prerequisites as checks that are true or that the user must have completed before they begin a procedure. They can be actions that the user, another person, or piece of technology has completed. Prerequisites can also include items that the user must have ready before beginning the procedure.
 
-You want the user to be logged in with root user permissions when the procedure begins.
+* The passive voice might be appropriate for a prerequisite that is not completed by the current user. For example, having a configuration enabled by a system admin.
 
-*Passive voice:*
-====
-You are logged in with root permissions.
-====
+* Avoid using imperative formations.
 
-*Active voice:*
-====
-Log in with Administrator privileges.
-====
+* Use parallel language when writing prerequisites, but it is not a requirement if you can achieve greater clarity without parallel language.
 
-////
+.Examples of prerequisites
+
+* JDK 11 or later is installed.
++
+Passive voice: the agent is unknown or unimportant.
+
+* You have a running Kafka instance in {product}.
++
+Present tense and active, because the agent is clear.
+
+* You are logged in to the Administration Portal.
++
+Present tense and active, because the agent is clear.
+
+* You must have a comfortable place to sit.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/modular-docs/#creating-procedure-modules[_Procedure Prerequisites_ in the _Modular Documentation Reference Guide_]
+
 [[release-notes]]
 == Release notes
 
