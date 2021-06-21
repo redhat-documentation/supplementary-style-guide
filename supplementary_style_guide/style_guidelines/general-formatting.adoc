@@ -10,6 +10,17 @@ Follow _The IBM Style Guide_  guidance of _day Month year_ for date formats, for
 When the format _day Month year_ causes a presentation or clarity issue, use _Month day, year_ (for example, October 3, 2019) instead.
 
 
+[[conversational-style]]
+== Conversational style
+
+Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cases. 
+
+As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
+
+.Example: Less conversational style
+
+Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
+
 [[user-replaced-values]]
 == User-replaced values
 
