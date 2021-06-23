@@ -1,6 +1,6 @@
 [discrete]
 [[daisy-chain-n]]
-==== daisy chain (noun)
+==== image:images/yes.png[yes] daisy chain (noun)
 *Description*: When used as a noun, a "daisy chain" is a hardware configuration in which devices are connected to each other in series.
 
 *Use it*: yes
@@ -11,7 +11,7 @@
 
 [discrete]
 [[daisy-chain-v]]
-==== daisy chain (verb)
+==== image:images/yes.png[yes] daisy chain (verb)
 *Description*: When used as a verb "daisy chain" means to connect devices in a daisy-chain pattern, that is, in series.
 
 *Use it*: yes
@@ -22,7 +22,7 @@
 
 [discrete]
 [[data-center]]
-==== data center (noun)
+==== image:images/yes.png[yes] data center (noun)
 *Description*: A "data center" is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter."
 
 *Use it*: yes
@@ -33,7 +33,7 @@
 
 [discrete]
 [[data-mirroring]]
-==== data mirroring (noun)
+==== image:images/yes.png[yes] data mirroring (noun)
 *Description*: "Data mirroring" is the act of copying data from one location to a storage device in real time.
 
 *Use it*: yes
@@ -44,7 +44,7 @@
 
 [discrete]
 [[data-path-n]]
-==== data path (noun)
+==== image:images/yes.png[yes] data path (noun)
 *Description*: A "data path" is a collection of functional units (such as arithmetic logic units or multipliers that perform data processing operations), registers, and buses. Along with the control unit, a "data path" comprises the central processing unit (CPU).
 
 *Use it*: yes
@@ -55,7 +55,7 @@
 
 [discrete]
 [[debug-adj]]
-==== debug (adjective)
+==== image:images/yes.png[yes] debug (adjective)
 *Description*: Use "debug" as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script."
 
 *Use it*: yes
@@ -66,7 +66,7 @@
 
 [discrete]
 [[debug-v]]
-==== debug (verb)
+==== image:images/yes.png[yes] debug (verb)
 *Description*: When used as a verb, "debug" means to find and remove errors from a program or design.
 
 *Use it*: yes
@@ -77,7 +77,7 @@
 
 [discrete]
 [[denial-of-service-n]]
-==== denial of service (noun)
+==== image:images/yes.png[yes] denial of service (noun)
 *Description*: "Denial of service" is an interruption in a user's access to a computer network, usually caused deliberately and with malicious intent. Use "denial of service (DoS)" on first use and "DoS" thereafter.
 
 *Use it*: yes
@@ -88,7 +88,7 @@
 
 [discrete]
 [[denial-of-service-adj]]
-==== denial-of-service (adjective)
+==== image:images/yes.png[yes] denial-of-service (adjective)
 *Description*: When used as an adjective, spell as "denial-of-service," for example, "denial-of-service attack."
 
 *Use it*: yes
@@ -99,7 +99,7 @@
 
 [discrete]
 [[desktop-adj]]
-==== desktop (adjective)
+==== image:images/yes.png[yes] desktop (adjective)
 *Description*: Use "desktop" as an adjective when describing a type of computer, for example, "desktop computer."
 
 *Use it*: yes
@@ -110,7 +110,7 @@
 
 [discrete]
 [[desktop-n]]
-==== desktop (noun)
+==== image:images/yes.png[yes] desktop (noun)
 *Description*: When used as a noun, "desktop" can refer to a type of computer or the working area of a computer screen.
 
 *Use it*: yes
@@ -121,7 +121,7 @@
 
 [discrete]
 [[device]]
-==== device (noun)
+==== image:images/yes.png[yes] device (noun)
 *Description*: A "device" is any machine or component that attaches to a computer.
 
 *Use it*: yes
@@ -132,7 +132,7 @@
 
 [discrete]
 [[devops-n]]
-==== DevOps (noun)
+==== image:images/yes.png[yes] DevOps (noun)
 *Description*: "DevOps" is a combination of "Development" and "Operations." It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
 
 *Use it*: yes
@@ -143,7 +143,7 @@
 
 [discrete]
 [[different]]
-==== different from (preposition)
+==== image:images/yes.png[yes] different from (preposition)
 *Description*: Use "different from" when comparing two things. Use "different from" when the next part of the sentence is a noun or pronoun.
 
 *Use it*: yes
@@ -154,7 +154,7 @@
 
 [discrete]
 [[disk-druid]]
-==== Disk Druid (noun)
+==== image:images/yes.png[yes] Disk Druid (noun)
 *Description*: A "Disk Druid" is a partitioning tool incorporated into Red Hat Enterprise Linux.
 
 *Use it*: yes
@@ -165,7 +165,7 @@
 
 [discrete]
 [[disk-label]]
-==== disk label (noun)
+==== image:images/yes.png[yes] disk label (noun)
 *Description*: A "disk label" is a record that contains information about the location of the partitions on a disk.
 
 *Use it*: yes
@@ -176,7 +176,7 @@
 
 [discrete]
 [[dns]]
-==== DNS (noun)
+==== image:images/yes.png[yes] DNS (noun)
 *Description*: "DNS" is an acronym for "Domain Name System" or "Domain Name Service," a service that translates domain names into IP addresses and vice versa.
 
 *Use it*: yes
@@ -187,7 +187,7 @@
 
 [discrete]
 [[domain-name]]
-==== domain name (noun)
+==== image:images/yes.png[yes] domain name (noun)
 *Description*: A "domain name" is a name that identifies one or more IP addresses, for example, "redhat.com."
 
 *Use it*: yes
@@ -199,7 +199,7 @@
 
 [discrete]
 [[download-n]]
-==== download (noun)
+==== image:images/yes.png[yes] download (noun)
 *Description*: Use "download" as a noun when referring to software, data, and so on that is being retrieved from another computer.
 
 *Use it*: yes
@@ -210,7 +210,7 @@
 
 [discrete]
 [[download-v]]
-==== download (verb)
+==== image:images/yes.png[yes] download (verb)
 *Description*: Use "download" as a verb when referring to the act or process of downloading data.
 
 *Use it*: yes
@@ -221,7 +221,7 @@
 
 [discrete]
 [[downstream-adj]]
-==== downstream (adjective)
+==== image:images/yes.png[yes] downstream (adjective)
 *Description*: "Downstream" as an adjective refers to the Red Hat offerings that are based on upstream community projects.
 
 *Use it*: yes
@@ -232,7 +232,7 @@
 
 [discrete]
 [[downstream-n]]
-==== downstream (noun)
+==== image:images/yes.png[yes] downstream (noun)
 *Description*: "Downstream" as a noun refers to the Red Hat offerings that are based on upstream community projects.
 
 *Use it*: yes
@@ -243,7 +243,7 @@
 
 [discrete]
 [[dual-boot]]
-==== dual-boot (adjective)
+==== image:images/yes.png[yes] dual-boot (adjective)
 *Description*: A "dual-boot" system is a system in which two operating systems are installed on the same hard drive.
 
 *Use it*: yes
@@ -254,7 +254,7 @@
 
 [discrete]
 [[DVD-writer]]
-==== DVD writer (noun)
+==== image:images/yes.png[yes] DVD writer (noun)
 *Description*: A "DVD writer" is adevice that records data into the DVD format.
 
 *Use it*: yes
