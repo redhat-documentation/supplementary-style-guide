@@ -1,7 +1,7 @@
 [discrete]
 [[wan]]
 ==== WAN (noun)
-*Description*: "WAN" is an acronym for wide-area network, which is a computer network that spans a relatively large geographical area. Typically, a WAN consists of two or more local-area networks (LANs). Computers connected to a wide-area network are often connected through public networks, such as the telephone system. Connections can be through leased lines or satellites. The largest WAN in existence is the Internet.
+*Description*: "WAN" is an acronym for wide-area network, which is a computer network that spans a relatively large geographical area. Typically, a WAN consists of two or more local-area networks (LANs). Computers connected to a wide-area network are often connected through public networks, such as the telephone system. Connections can be through leased lines or satellites. The largest WAN in existence is the internet.
 
 *Use it*: yes
 
