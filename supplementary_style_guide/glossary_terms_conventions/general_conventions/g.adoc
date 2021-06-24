@@ -1,6 +1,6 @@
 [discrete]
 [[gplusplus]]
-==== G++ (noun)
+==== image:images/yes.png[yes] G++ (noun)
 *Description*: "G++" is a C++ compiler usually operated using the command line. When referring to the program, use "G++."
 
 *Use it*: yes
@@ -11,7 +11,7 @@
 
 [discrete]
 [[gplusplus-command]]
-==== g++ (noun)
+==== image:images/yes.png[yes] g++ (noun)
 *Description*: "G++" is a C++ compiler usually operated through the command line. When referring to the command, use "g++," marked up appropriately.
 
 *Use it*: yes
@@ -22,7 +22,7 @@
 
 [discrete]
 [[gas]]
-==== GAS (noun)
+==== image:images/yes.png[yes] GAS (noun)
 *Description*: "GAS" is an acronym for "GNU Assembler," the assembler used by the GNU Project. When referring to the program, use "GAS."
 
 *Use it*: yes
@@ -33,7 +33,7 @@
 
 [discrete]
 [[gas-command]]
-==== gas (noun)
+==== image:images/yes.png[yes] gas (noun)
 *Description*: "GAS" is an acronym for "GNU Assembler," the assembler used by the GNU Project. When referring to the command, use `gas`, marked up appropriately.
 
 *Use it*: yes
@@ -44,7 +44,7 @@
 
 [discrete]
 [[gb]]
-==== GB (noun)
+==== image:images/yes.png[yes] GB (noun)
 *Description*: "GB" is an acronym for gigabyte. Use a space between the value and the abbreviation, for example, "a 2 GB file."
 
 *Use it*: yes
@@ -55,7 +55,7 @@
 
 [discrete]
 [[gbps]]
-==== Gbps (noun)
+==== image:images/yes.png[yes] Gbps (noun)
 *Description*: "Gbps" is an acronym for Gigabits per second, a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.
 
 *Use it*: yes
@@ -66,7 +66,7 @@
 
 [discrete]
 [[gcc]]
-==== GCC (noun)
+==== image:images/yes.png[yes] GCC (noun)
 *Description*: "GCC" is an acronym for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC."
 
 *Use it*: yes
@@ -77,7 +77,7 @@
 
 [discrete]
 [[gcc-command]]
-==== gcc (noun)
+==== image:images/yes.png[yes] gcc (noun)
 *Description*: "GCC" is an acronym for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
 
 *Use it*: yes
@@ -88,7 +88,7 @@
 
 [discrete]
 [[gcj]]
-==== GCJ (noun)
+==== image:images/yes.png[yes] GCJ (noun)
 *Description*: "GCJ" is an acronym for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ."
 
 *Use it*: yes
@@ -99,7 +99,7 @@
 
 [discrete]
 [[gcj-command]]
-==== gcj (noun)
+==== image:images/yes.png[yes] gcj (noun)
 
 *Description*: "GCJ" is an acronym for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use `gcj`, marked up appropriately.
 
@@ -111,7 +111,7 @@
 
 [discrete]
 [[gdb]]
-==== GDB (noun)
+==== image:images/yes.png[yes] GDB (noun)
 *Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many Unix-like systems and works for many programming languages. When referring to the program, use "GDB."
 
 *Use it*: yes
@@ -122,7 +122,7 @@
 
 [discrete]
 [[gdb-command]]
-==== gdb (noun)
+==== image:images/yes.png[yes] gdb (noun)
 *Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many Unix-like systems and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
 
 *Use it*: yes
@@ -133,7 +133,7 @@
 
 [discrete]
 [[gid]]
-==== GID (noun)
+==== image:images/yes.png[yes] GID (noun)
 *Description*: "GID" is an acronym for "Group ID." Do not use "gid."
 
 *Use it*: yes
@@ -144,7 +144,7 @@
 
 [discrete]
 [[gigabyte]]
-==== gigabyte (noun)
+==== image:images/yes.png[yes] gigabyte (noun)
 *Description*: A "gigabyte" is 2 to the 30th power (1,073,741,824) bytes. One gigabyte is equal to 1,024 megabytes. When abbreviating gigabyte, use "GB."
 
 *Use it*: yes
@@ -155,7 +155,7 @@
 
 [discrete]
 [[gimp]]
-==== GIMP (noun)
+==== image:images/yes.png[yes] GIMP (noun)
 *Description*: "GIMP" is an acronym for "GNU Image Manipulation Program." Do not use "Gimp" or "gimp."
 
 *Use it*: yes
@@ -166,7 +166,7 @@
 
 [discrete]
 [[git]]
-==== Git (noun)
+==== image:images/yes.png[yes] Git (noun)
 *Description*: Git is an open source version control system. Use "Git" when referring to the software in general, for example, "Clone the Git repository." Do not use lowercase "git" unless you are referring to the `git` command; as such, mark it up in monospace.
 
 *Use it*: yes
@@ -177,7 +177,7 @@
 
 [discrete]
 [[gnome]]
-==== GNOME (noun)
+==== image:images/yes.png[yes] GNOME (noun)
 *Description*: "GNOME" is an open source desktop environment for Unix systems.
 
 *Use it*: yes
@@ -188,7 +188,7 @@
 
 [discrete]
 [[gnome-classic]]
-==== GNOME Classic (noun)
+==== image:images/yes.png[yes] GNOME Classic (noun)
 *Description*: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as "classic mode" in internal and developer-oriented community documents, we should stay consistent with what is exposed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic." The GNOME "modern mode" (technically, GNOME Shell with the classic mode extensions disabled) is referred to as "GNOME" (on the login screen and elsewhere).
 
 *Use it*: yes
@@ -199,7 +199,7 @@
 
 [discrete]
 [[gnu]]
-==== GNU (noun)
+==== image:images/yes.png[yes] GNU (noun)
 *Description*: "GNU" is a recursive acronym for "GNU's Not Unix." GNU is a Unix-like, open-source operating system. Do not use "Gnu" or "gnu."
 
 *Use it*: yes
@@ -210,7 +210,7 @@
 
 [discrete]
 [[gnupro]]
-==== GNUPro (noun)
+==== image:images/yes.png[yes] GNUPro (noun)
 *Description*: "GNUPro" Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro."
 
 *Use it*: yes
@@ -221,7 +221,7 @@
 
 [discrete]
 [[gpl]]
-==== GPL (noun)
+==== image:images/yes.png[yes] GPL (noun)
 *Description*: "GPL" is an acronym for "General Public License." Do not use "Gpl" or "gpl."
 
 *Use it*: yes
@@ -232,7 +232,7 @@
 
 [discrete]
 [[grayscale]]
-==== grayscale (noun)
+==== image:images/yes.png[yes] grayscale (noun)
 *Description*: "Grayscale" is a range of gray shades from white to black, as used in a monochrome display or printout. Do not use "gray-scale" or "gray scale." Only the noun form is currently recognized.
 
 *Use it*: yes
@@ -243,7 +243,7 @@
 
 [discrete]
 [[grub]]
-==== GRUB (noun)
+==== image:images/yes.png[yes] GRUB (noun)
 *Description*: "GRUB" is an acronym for "GRand Unified Bootloader," which is a Linux boot loader.
 
 *Use it*: yes
@@ -254,7 +254,7 @@
 
 [discrete]
 [[gtkplus]]
-==== GTK+ (noun)
+==== image:images/yes.png[yes] GTK+ (noun)
 *Description*: "GTK+" is an acronym for "GIMP Tool Kit." Do not use "GTK," "Gtk," or "gtk."
 
 *Use it*: yes
@@ -265,7 +265,7 @@
 
 [discrete]
 [[guestfish]]
-==== Guestfish (noun)
+==== image:images/yes.png[yes] Guestfish (noun)
 *Description*: "Guestfish" is an interactive shell that supports commands for accessing and modifying virtual disk images used in platform virtualization. You can use Guestfish for viewing and editing virtual machines (VMs) managed by libvirt.
 
 *Use it*: yes
@@ -276,7 +276,7 @@
 
 [discrete]
 [[guest-operating-system]]
-==== guest operating system (noun)
+==== image:images/yes.png[yes] guest operating system (noun)
 *Description*: A "guest operating system" refers to the operating system that is installed in a virtual machine. Do not use "guest" by itself, because it is ambiguous.
 
 *Use it*: yes
