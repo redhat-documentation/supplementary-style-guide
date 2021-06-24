@@ -406,6 +406,17 @@
 *See also*:
 
 [discrete]
+[[standalone]]
+==== standalone (adjective)
+*Description*: Use "standalone" instead of "stand-alone" when referring to components that are complete and that operate independently of other components, such as "a standalone distribution" or "a standalone module". However, use two words for a noun phrase, such as "a module must stand alone".
+
+*Use it*: yes
+
+*Incorrect forms*: stand-alone
+
+*See also*:
+
+[discrete]
 [[staroffice]]
 ==== StarOffice (noun)
 *Description*: "StarOffice" is a Linux desktop suite.
