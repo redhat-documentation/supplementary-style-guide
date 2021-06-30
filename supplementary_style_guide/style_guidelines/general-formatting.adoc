@@ -13,13 +13,20 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 [[conversational-style]]
 == Conversational style
 
-Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cases. 
+Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cases.
 
 As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
 
 .Example: Less conversational style
 
 Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
+
+[[contractions]]
+== Contractions
+
+Avoid contractions in product documentation to leave no ambiguity and to make it easier for translation and international audiences.
+
+If you are writing quickstart or other content that uses a more informal xref:#conversational-style[conversational style] (_fairly conversational_ or _more conversational_), you may use contractions. In this case, follow the guidance in _The IBM Style Guide_ on using contractions.
 
 [[user-replaced-values]]
 == User-replaced values
@@ -85,7 +92,7 @@ Use a complete sentence for the lead-in sentence to reduce ambiguity and support
 [[single-step-procedures]]
 == Single-step procedures
 
-When a procedure contains only one step, use an unnumbered bullet. 
+When a procedure contains only one step, use an unnumbered bullet.
 
 For example:
 ====
