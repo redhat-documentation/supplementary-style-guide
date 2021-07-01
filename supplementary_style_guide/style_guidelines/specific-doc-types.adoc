@@ -13,7 +13,7 @@ Write prerequisites as checks that are true or that the user must have completed
 
 * Avoid using imperative formations.
 
-* Use parallel language when writing prerequisites, but it is not a requirement if you can achieve greater clarity without parallel language.
+* Use parallel language when writing prerequisites. For example, if one bullet is a complete sentence, the other bullets should be complete sentences. But one bullet could be passive voice and another active voice.
 
 .Examples of prerequisites
 
@@ -21,15 +21,11 @@ Write prerequisites as checks that are true or that the user must have completed
 +
 Passive voice: the agent is unknown or unimportant.
 
-* You have a running Kafka instance in {product}.
-+
-Present tense and active, because the agent is clear.
+* A running Kafka instance in {product}.
 
 * You are logged in to the Administration Portal.
-+
-Present tense and active, because the agent is clear.
 
-* You must have a comfortable place to sit.
+* You have validated Thing 1.
 
 .Additional resources
 
