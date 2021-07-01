@@ -13,7 +13,7 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 [[conversational-style]]
 == Conversational style
 
-Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cases. 
+Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cases.
 
 As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
 
@@ -28,13 +28,18 @@ A _user-replaced value_ is a value that the user must replace with a value that 
 
 Use descriptive names for user-replaced values and follow this general format: _<value_name>_.
 
+[NOTE]
+====
+For XML code blocks, see the guidance on xref:#user-replaced-values-xml[user-replaced values for XML].
+====
+
 Ensure that user-replaced values have the following characteristics:
 
 * Surrounded by angle brackets (`< >`)
 * Separated by underscores (`_`) for multi-word values
 * Lowercase, unless the rest of the related text is uppercase or another capitalization scheme
 * Italicized
-* If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value.
+* If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value
 
 .Example AsciiDoc: User-replaced value in a paragraph
 
@@ -66,7 +71,50 @@ $ oc describe node __<node_name>__
 ----
 ====
 
-// TODO: In the future, add alternative guidance for XML
+[[user-replaced-values-xml]]
+== User-replaced values for XML
+
+Because XML uses angle brackets (`< >`), the xref:#user-replaced-values[default guidance] for user-replaced values does not work well for it. If you are using user-replaced values in an XML code block, use the following format: _${value_name}_.
+
+Ensure that user-replaced values in XML have the following characteristics:
+
+* Surrounded by curly braces and preceded by a dollar sign (`${ }`)
+* Separated by underscores (`_`) for multi-word values
+* Lowercase, unless the rest of the related text is uppercase or another capitalization scheme
+* Italicized
+* If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value
+
+.Example AsciiDoc: User-replaced value for an XML element
+
+  [source,xml,subs="+quotes"]
+  ----
+  <ipAddress>__${ip_address}__</ipAddress>
+  ----
+
+This renders as:
+
+====
+[source,xml,subs="+quotes"]
+----
+<ipAddress>__${ip_address}__</ipAddress>
+----
+====
+
+.Example AsciiDoc: User-replaced value for an XML attribute
+
+  [source,xml,subs="+quotes"]
+  ----
+  <oauth2-introspection client-id="__${client_id}__"/>
+  ----
+
+This renders as:
+
+====
+[source,xml,subs="+quotes"]
+----
+<oauth2-introspection client-id="__${client_id}__"/>
+----
+====
 
 [[lead-in-sentences]]
 == Lead-in sentences for `Prerequisites` and `Procedure` sections
@@ -85,7 +133,7 @@ Use a complete sentence for the lead-in sentence to reduce ambiguity and support
 [[single-step-procedures]]
 == Single-step procedures
 
-When a procedure contains only one step, use an unnumbered bullet. 
+When a procedure contains only one step, use an unnumbered bullet.
 
 For example:
 ====
