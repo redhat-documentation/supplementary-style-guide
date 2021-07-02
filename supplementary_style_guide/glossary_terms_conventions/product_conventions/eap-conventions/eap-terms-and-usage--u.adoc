@@ -1,0 +1,23 @@
+= U
+
+[discrete]
+=== undertow
+
+*Description* The JBoss EAP subsystem that is used to configure the JBoss EAP web server and servlet container settings.
+
+*Use it?* Yes
+
+*Incorrect forms* Undertow
+
+*See* Undertow
+
+[discrete]
+=== Undertow
+
+*Description* Heading format for the undertow subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* undertow
+
+*See* undertow

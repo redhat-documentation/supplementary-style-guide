@@ -1,0 +1,12 @@
+= H
+
+[discrete]
+== HTTP interface
+
+*Description* An interface accessed using hypertext transfer protocol (http). Do not use when referring to the EAP management console.
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* management console

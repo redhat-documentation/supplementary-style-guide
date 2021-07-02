@@ -1,0 +1,209 @@
+= M
+
+[discrete]
+=== mail
+
+*Description* The JBoss EAP subsystem that is used to configure mail services for applications deployed to JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* Mail
+
+*See* Mail
+
+[discrete]
+=== Mail
+
+*Description* Heading format for the mail subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* mail
+
+*See* mail
+
+[discrete]
+=== managed domain
+
+*Description* A group of JBoss EAP instances managed from a single control point.
+
+*Use it?* Yes
+
+*Incorrect forms* domain mode
+
+*See*
+
+[discrete]
+=== management console
+
+*Description* The preferred term for the web-based JBoss EAP management console.  Do not capitalize "management" unless it starts a sentence.
+
+*Use it?* Yes
+
+*Incorrect forms* GUI, "HTTP interface"
+
+*See*
+
+[discrete]
+=== management CLI
+
+*Description* The preferred term for the command-line JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
+
+*Use it?* Yes
+
+*Incorrect forms* CLI, "native interface"
+
+*See*
+
+[discrete]
+=== Messaging
+
+*Description* Heading format for the messaging-activemq subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* messaging messaging-activemq Messaging-activemq Messaging-Activemg Messaging-ActiveMQ
+
+*See* messaging-activemq
+
+[discrete]
+=== messaging-activemq
+
+*Description* The subsystem used to configure messaging in JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* messaging Messaging
+
+*See* Messaging, "Messaging - ActiveMQ"
+
+[discrete]
+=== Messaging - ActiveMQ
+
+*Description* The label used in the management console for the messaging-activemq subsystem. Use this formatting to describe this subsystem in the management console.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See*
+
+[discrete]
+=== messaging subsytem
+
+*Description* Acceptable shorthand for the JBoss EAP messaging-activemq subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* JBoss EAP built-in messaging
+
+//MicroProfile capabilities have been moved out of EAP into the EAP Expansion Pack (XP)
+////
+[discrete]
+== microprofile-config-smallrye
+
+*Description* The JBoss EAP subsystem that allows application to access updated configuration properties without restarting the server.
+
+NOTE: This feature is provided as a technology preview.
+
+*Use it?* Yes
+
+*Incorrect forms* MicroProfile-Config-SmallRye
+
+*See* MicroProfile Config SmallRye
+
+[discrete]
+== MicroProfile Config SmallRye
+
+*Description* Heading format for the microprofile-config-smallrye subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Microprofile Config SmallRye" "MicroProfile Config Smallrye" "Microprofile Config Smallrye"
+
+*See* microprofile-config-smallrye
+
+[discrete]
+== microprofile-health-smallrye
+
+*Description* The JBoss EAP subsystem that monitors server health.
+
+NOTE: This feature is provided as a technology preview.
+
+*Use it?* Yes
+
+*Incorrect forms* MicroProfile-Health-SmallRye
+
+*See* MicroProfile Health SmallRye
+
+[discrete]
+== MicroProfile Health SmallRye
+
+*Description* Heading format for the microprofile-health-smallrye subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Microprofile Health SmallRye" "MicroProfile Health Smallrye" "Microprofile Health Smallrye"
+
+*See* microprofile-health-smallrye
+
+[discrete]
+== microprofile-opentracing-smallrye
+
+*Description* The JBoss EAP subsystem that traces requests across service boundaries.
+
+NOTE: This feature is provided as a technology preview.
+
+*Use it?* Yes
+
+*Incorrect forms* any form that includes capitalization
+
+*See* MicroProfile OpenTracing SmallRye
+
+[discrete]
+== MicroProfile OpenTracing SmallRye
+
+*Description* Heading format for the microprofile-opentracing-smallrye subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* "Microprofile OpenTracing SmallRye" "MicroProfile Opentracing SmallRye" "MicroProfile OpenTracing Smallrye" "Microprofile Opentracing Smallrye"
+
+*See* microprofile-opentracing-smallrye
+////
+
+[discrete]
+== modcluster
+
+*Description* The JBoss EAP subsystem used to configure modcluster worker nodes.
+
+*Use it?* Yes
+
+*Incorrect forms* Modcluster modCluster ModCluster
+
+*See* ModCluster
+
+[discrete]
+== ModCluster
+
+*Description* Heading format for the modcluster subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* Modcluster modCluster
+
+*See* modcluster
+
+// Should this term be added to the general conventions "M" module?
+[discrete]
+== Microsoft Windows
+
+*Description* Shorthand for Microsoft's windows-based server operating system.  Do not use.
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* Windows Server

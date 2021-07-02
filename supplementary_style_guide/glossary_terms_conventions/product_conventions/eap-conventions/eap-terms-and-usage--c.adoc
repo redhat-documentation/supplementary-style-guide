@@ -1,0 +1,94 @@
+= C
+
+//should Java-specific terms, like "class loader", "class path", be added to the general style conventions, or should we simply remove them here?
+
+////
+[discrete]
+=== class loader
+
+*Description* The Java Runtime Environmment feature that loads Java classes to the Java Virtual Machine.
+
+*Use it?* Yes
+
+*Incorrect forms* classloader
+
+*See*
+
+[discrete]
+=== class loading
+
+*Description* The process of loading a Java class to the Java Runtime Environment.
+
+*Use it?* Yes
+
+*Incorrect forms* classloading
+
+*See*
+
+[discrete]
+=== class path
+
+*Description* The path that the Java Runtime Environmnent searches for classes and other resources.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* CLASSPATH
+
+[discrete]
+=== CLASSPATH
+
+*Description* The variable that specifies the location of user-defined classes and packages. Often set as an environment variable with the same name.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* class path
+////
+
+[discrete]
+=== CLI
+
+*Description* Abbreviation of "command line interface." Do not use "CLI" alone to refer to the management CLI.
+
+*Use it?* Only as part of the phrase "management CLI"
+
+*Incorrect forms*
+
+*See* management CLI
+
+[discrete]
+=== Core Management Subsystem
+
+*Description* Heading format for the core-management subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* core-management
+
+[discrete]
+=== core-management
+
+*Description* The JBoss EAP subsystem registers server life-cycle event listeners and and tracks configuration changes.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* Core Management Subsystem
+
+// Should this term be added to general style conventions?
+[discrete]
+=== Customer Portal
+
+*Description* Internal shorthand for the Red Hat Customer Portal.  When used in customer-facing documentation, always use "Red Hat Customer Portal."
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* Red Hat Customer Portal

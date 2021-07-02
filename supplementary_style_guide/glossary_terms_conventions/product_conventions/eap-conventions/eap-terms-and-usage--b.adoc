@@ -1,0 +1,56 @@
+= B 
+
+[discrete]
+== Batch Subsystem
+
+*Description* Heading format for the batch-jberet subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* batch-jberet
+
+[discrete]
+== batch-jberet
+
+*Description* The JBoss EAP subsystem used to configure and manage batch jobs.  Always lower case except when used in a heading.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* Batch
+
+[discrete]
+== Bean Validation Subsystem
+
+*Description* Heading format for the bean-validation subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* bean-validation
+
+[discrete]
+== bean-validation
+
+*Description* The JBoss EAP subsystem use to configure validation of Java bean object data.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* Bean Validation Subsystem
+
+[discrete]
+== built-in messaging
+
+*Description* Acceptable term for the built-in messaging system in JBoss EAP.
+
+*Use it?* Yes
+
+*Incorrect forms* ActiveMQ, ActiveMQ Artemis
+
+*See* JBoss EAP Messaging, JBoss EAP built-in messaging

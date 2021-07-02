@@ -1,0 +1,46 @@
+= T
+
+[discrete]
+== transactions
+
+*Description* The JBoss EAP subsystem that is used to configure options in the Transaction Manager
+
+*Use it?* Yes
+
+*Incorrect forms* Transactions
+
+*See* Transactions
+
+[discrete]
+== Transactions
+
+*Description* Heading format for the transactions subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms* transactions
+
+*See* transactions
+
+//Should the truststore items be added to the general conventions "T" topic.
+[discrete]
+== trust store
+
+*Description* Incorrect usage for "truststore".
+
+*Use it?* No
+
+*Incorrect forms*
+
+*See* truststore
+
+[discrete]
+=== truststore
+
+*Description* A repository of trusted security certificates. Contrast with a keystore, which stores private and self-certified certificates.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* keystore

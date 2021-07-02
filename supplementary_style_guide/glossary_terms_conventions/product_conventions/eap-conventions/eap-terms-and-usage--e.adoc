@@ -1,0 +1,78 @@
+= E
+
+[discrete]
+== ee
+
+*Description* The JBoss EAP subsystem that is used to configure functionality in the Jakarta EE platform.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* EE
+
+[discrete]
+== EE
+
+*Description* Heading format for the ee subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* ee
+
+[discrete]
+== EJB 3
+
+*Description* Heading format for the ejb3 subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* ejb3
+
+[discrete]
+== ejb3
+
+*Description* The JBoss EAP subsystem that is used to configure Enterprise JavaBeans.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* EJB 3
+
+[discrete]
+== elytron
+
+*Description* The JBoss EAP subsystem that is used to configure server and application security.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* Elytron, "Security - Elytron"
+
+[discrete]
+== Elytron
+
+*Description* Heading format for the elytron subsystem.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* EJB 3
+
+[discrete]
+== Expansion Pack
+
+*Description* A JBoss EAP addon that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
+
+*Use it?* Yes
+
+*Incorrect forms*
+
+*See* XP

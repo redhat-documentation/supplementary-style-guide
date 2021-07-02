@@ -1,0 +1,13 @@
+= K
+
+// Should this term be moved to the general convention "K" module?
+[discrete]
+== keystore
+
+*Description* A repository for private and self-certified security certificates
+
+*Use it?* Yes
+
+*Incorrect forms* "key store"
+
+*See* truststore
