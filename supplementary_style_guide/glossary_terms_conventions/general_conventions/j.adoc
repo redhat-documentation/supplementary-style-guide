@@ -1,6 +1,6 @@
 [discrete]
 [[JavaScript]]
-==== JavaScript (noun)
+==== image:images/yes.png[yes] JavaScript (noun)
 *Description*: "JavaScript" is a trademark of Oracle Corporation and should be used when referring to the scripting language. When referring to a file written using this language, use "javascript."
 
 *Use it*: yes
@@ -11,7 +11,7 @@
 
 [discrete]
 [[javascript]]
-==== javascript (adjective)
+==== image:images/yes.png[yes] javascript (adjective)
 *Description*: When referring to a file written using the "JavaScript" language, use all lowercase letters, for example, "Copy the IPA javascript file to the `/temp/` directory."
 
 *Use it*: yes
@@ -22,7 +22,7 @@
 
 [discrete]
 [[jboss-community]]
-==== JBoss Community (noun)
+==== image:images/yes.png[yes] JBoss Community (noun)
 *Description*: Use "JBoss Community" when referring to the community of users and contributors. Do not refer to the community as "JBoss.org."
 
 *Use it*: yes
@@ -33,7 +33,7 @@
 
 [discrete]
 [[jboss-way]]
-==== JBoss Way (noun)
+==== image:images/yes.png[yes] JBoss Way (noun)
 *Description*: Capitalize "JBoss Way" as a formal, branded concept when referring specifically to the JBoss cultural and business climate or practices. If the reference is generic or the way is further specified, do not capitalize "way."
 
 *Use it*: yes
@@ -45,7 +45,7 @@
 
 [discrete]
 [[job]]
-==== job (noun)
+==== image:images/yes.png[yes] job (noun)
 *Description*: A "job" is a task performed by a computer system, for example, printing a file is a job. Jobs can be performed by a single program or by a collection of programs.
 
 *Use it*: yes
@@ -56,7 +56,7 @@
 
 [discrete]
 [[jsvc]]
-==== jsvc (noun)
+==== image:images/yes.png[yes] jsvc (noun)
 *Description*: The Apache Commons Daemon "jsvc" is a set of libraries and applications for making Java applications run on Unix more easily. Capitalize the initial "J" only at the beginning of a sentence.
 
 *Use it*: yes
@@ -67,7 +67,7 @@
 
 [discrete]
 [[jvm]]
-==== JVM (noun)
+==== image:images/yes.png[yes] JVM (noun)
 *Description*: "JVM" is an acronym for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM," or only the noun itself, "virtual machine." You can include JVM for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)."
 
 *Use it*: yes

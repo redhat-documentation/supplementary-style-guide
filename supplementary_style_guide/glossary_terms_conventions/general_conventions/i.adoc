@@ -1,6 +1,6 @@
 [discrete]
 [[iaas]]
-==== IaaS (noun)
+==== image:images/yes.png[yes] IaaS (noun)
 *Description*: "Iaas" is an acronym for "Infrastructure-as-a-Service." Always use hyphens when spelling out the acronym.
 
 *Use it*: yes
@@ -12,7 +12,7 @@
 
 [discrete]
 [[ibm-eserver-system-p]]
-==== IBM eServer System p (noun)
+==== image:images/yes.png[yes] IBM eServer System p (noun)
 *Description*: Use "IBM eServer System p" for the first reference, and "IBM System p" or "System p" for subsequent references.
 
 *Use it*: yes
@@ -23,7 +23,7 @@
 
 [discrete]
 [[ibm-s-390]]
-==== IBM S/390 (noun)
+==== image:images/yes.png[yes] IBM S/390 (noun)
 *Description*: The "IBM S/390" is IBM's large server (or mainframe) line of computer systems. Use the full description "IBM S/390."
 
 *Use it*: yes
@@ -34,7 +34,7 @@
 
 [discrete]
 [[ibm-z]]
-==== IBM Z (noun)
+==== image:images/yes.png[yes] IBM Z (noun)
 *Description*: "IBM Z" is the new name for the "IBM z Systems" family of IBM mainframe computers.
 
 *Use it*: yes
@@ -45,7 +45,7 @@
 
 [discrete]
 [[infiniband]]
-==== InfiniBand (noun)
+==== image:images/yes.png[yes] InfiniBand (noun)
 *Description*: "InfiniBand" is a switched fabric network topology used in high-performance computing. The term is both a service mark and a trademark of the InfiniBand Trade Association. Their rules for using the mark are standard ones: append the (TM) symbol the first time it is used, and respect the capitalization (including the inter-capped "B") from then on. In ASCII-only circumstances, the "\(TM)" string is the acceptable alternative.
 
 *Use it*: yes
@@ -56,7 +56,7 @@
 
 [discrete]
 [[insecure]]
-==== insecure (adjective)
+==== image:images/yes.png[yes] insecure (adjective)
 *Description*: "Insecure" refers to something that is unsafe.
 
 *Use it*: yes
@@ -67,7 +67,7 @@
 
 [discrete]
 [[insight]]
-==== Insight (noun)
+==== image:images/yes.png[yes] Insight (noun)
 *Description*: "Insight" is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.
 
 *Use it*: yes
@@ -78,7 +78,7 @@
 
 [discrete]
 [[installation-program]]
-==== installation program (noun)
+==== image:images/yes.png[yes] installation program (noun)
 *Description*: An "installation program" is a program that installs certain software.
 
 *Use it*: yes
@@ -89,7 +89,7 @@
 
 [discrete]
 [[intel-coretm]]
-==== Intel(R) Core(TM) (noun)
+==== image:images/yes.png[yes] Intel(R) Core(TM) (noun)
 *Description*: "Intel(R) Core(TM)" refers to a line of Intel brand processors.
 
 *Use it*: yes
@@ -100,7 +100,7 @@
 
 [discrete]
 [[intel-ep80579-integrated-processor]]
-==== Intel(R) EP80579 Integrated Processor (noun)
+==== image:images/yes.png[yes] Intel(R) EP80579 Integrated Processor (noun)
 *Description*: "Intel(R) EP80579 Integrated Processor" is the official brand name.
 
 *Use it*: yes
@@ -111,7 +111,7 @@
 
 [discrete]
 [[intel-virtualization-technology]]
-==== Intel Virtualization Technology (noun)
+==== image:images/yes.png[yes] Intel Virtualization Technology (noun)
 *Description*: The first and all prominent uses of "Intel Virtualization Technology" should be spelled out, immediately followed by the acronym, for example, "Intel Virtualization Technology (Intel VT) for Intel 64 or Itanium architecture (Intel VT-i)." Subsequent uses can be abbreviated to "Intel VT-i." Always write the acronym in uppercase letters, accompanied by the Intel mark. Do not use the acronym in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as (TM) or "\(TM).
 
 *Use it*: yes
@@ -122,7 +122,7 @@
 
 [discrete]
 [[intel-xeon]]
-==== Intel(R) Xeon(R) (noun)
+==== image:images/yes.png[yes] Intel(R) Xeon(R) (noun)
 *Description*: "Intel(R) Xeon(R)" refers to a line of Intel brand processors.
 
 *Use it*: yes
@@ -133,7 +133,7 @@
 
 [discrete]
 [[interesting]]
-==== interesting (adjective)
+==== image:images/no.png[no] interesting (adjective)
 *Description*: Avoid using "interesting," as this term is a substitute for showing the reader why something is of interest. Instead of writing, "It is interesting to note...," consider using a "Note" admonition.
 
 *Use it*: no
@@ -144,7 +144,7 @@
 
 [discrete]
 [[iops]]
-==== IOPS (noun)
+==== image:images/yes.png[yes] IOPS (noun)
 *Description*: "IOPS" is an acronym for "input/output operations per second."
 
 *Use it*: yes
@@ -155,7 +155,7 @@
 
 [discrete]
 [[ip]]
-==== IP (noun)
+==== image:images/yes.png[yes] IP (noun)
 *Description*: "IP" is an acronym for "Internet Protocol."
 
 *Use it*: yes
@@ -166,7 +166,7 @@
 
 [discrete]
 [[ip-masquerade]]
-==== IP Masquerade (noun)
+==== image:images/yes.png[yes] IP Masquerade (noun)
 *Description*: "IP Masquerade" is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ," allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server's assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.
 
 *Use it*: yes
@@ -177,7 +177,7 @@
 
 [discrete]
 [[ipsec]]
-==== IPsec (noun)
+==== image:images/yes.png[yes] IPsec (noun)
 *Description*: "IPsec" is an acronym for "Internet Protocol security."
 
 *Use it*: yes
@@ -188,7 +188,7 @@
 
 [discrete]
 [[ip-switching]]
-==== IP switching (noun)
+==== image:images/yes.png[yes] IP switching (noun)
 *Description*: "IP switching" is a type of IP routing developed by Ipsilon Networks, Inc. Unlike conventional routers, IP switching routers use ATM hardware to speed packets through networks. Although the technology is new, it appears to be considerably faster than older router techniques.
 
 *Use it*: yes
@@ -199,7 +199,7 @@
 
 [discrete]
 [[iseries]]
-==== ISeries (noun)
+==== image:images/yes.png[yes] ISeries (noun)
 *Description*: Use "IBM eServer System i" for the first reference, and "IBM System i" or "System i" for subsequent references.
 
 *Use it*: yes
@@ -210,7 +210,7 @@
 
 [discrete]
 [[iso]]
-==== ISO (noun)
+==== image:images/yes.png[yes] ISO (noun)
 *Description*: "ISO" is an acronym for the "International Organization for Standardization," which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.
 
 *Use it*: yes
@@ -221,7 +221,7 @@
 
 [discrete]
 [[iso-image]]
-==== ISO image (noun)
+==== image:images/yes.png[yes] ISO image (noun)
 *Description*: An "ISO image" is a type of disk image comprising the data contents from every written sector on a media disk. ISO image files use the `.iso` file extension. According to Wikipedia, the ISO name comes from the ISO 9660 file system used with CD-ROM media, but what is known as an ISO image might also contain a UDF (ISO/IEC 13346) file system, which is often used by DVDs and Blu-ray discs.
 
 *Use it*: yes
@@ -232,7 +232,7 @@
 
 [discrete]
 [[it]]
-==== IT, I.T. (noun)
+==== image:images/yes.png[yes] IT, I.T. (noun)
 *Description*: "IT" and "I.T." are acronyms for "information technology." Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used to clarify that the word is "IT" rather than "it."
 
 *Use it*: yes
@@ -243,7 +243,7 @@
 
 [discrete]
 [[itanium]]
-==== Itanium (noun)
+==== image:images/yes.png[yes] Itanium (noun)
 *Description*: "Itanium" is a 64-bit RISC microprocessor and a member of Intel's Merced family of processors. Based on the Explicitly Parallel Instruction Computing (EPIC) design philosophy, which states that the compiler should decide which instructions be executed together, Itanium has the highest FPU power available. In 64-bit mode, Itanium is able to calculate two bundles of a maximum of three instructions at a time. In 32-bit mode, it is much slower. Decoders must first translate 32-bit instruction sets into 64-bit instruction sets, which results in extra-clock cycle use. Itanium's primary use is driving large applications that require more than 4 GB of memory, such as databases, ERP, and future internet applications.
 
 *Use it*: yes
@@ -254,7 +254,7 @@
 
 [discrete]
 [[itanium-2]]
-==== Itanium 2 (noun)
+==== image:images/yes.png[yes] Itanium 2 (noun)
 *Description*: "Itanium 2" is correct. Do not use "Itanium2" without the space between "Itanium" and "2."
 
 *Use it*: yes
