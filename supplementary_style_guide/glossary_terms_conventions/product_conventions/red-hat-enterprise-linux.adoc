@@ -37,7 +37,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 [discrete]
 [[clean-install]]
-==== clean-install (noun)
+==== clean install (noun)
 *Description*: A clean install removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
 
 *Use it*: yes
