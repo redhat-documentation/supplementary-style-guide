@@ -11,7 +11,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Incorrect forms*: 
 
-*See also*: xref:upgrade[upgrade], xref:in-place-upgrade[in-place upgrade]
+*See also*: xref:upgrade-rhel[upgrade], xref:in-place-upgrade[in-place upgrade]
 
 [discrete]
 [[conversion]]
@@ -33,7 +33,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Incorrect forms*:
 
-*See also*: xref:upgrade[upgrade], xref:clean-install[clean install]
+*See also*: xref:upgrade-rhel[upgrade], xref:clean-install[clean install]
 
 [discrete]
 [[migration]]
@@ -44,11 +44,12 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Incorrect forms*:
 
-*See also*: xref:update[update], xref:upgrade[upgrade], xref:conversion[conversion][discrete]
+*See also*: xref:update[update], xref:upgrade-rhel[upgrade], xref:conversion[conversion][discrete]
 
+[discrete]
 [[update]]
 ==== update (noun)
-*Description*: Sometimes called a software patch, an update is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In RHEL, an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
+*Description*: Sometimes called a software patch, an update is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
 
 *Use it*: yes
 
@@ -57,7 +58,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 *See also*:
 
 [discrete]
-[[upgrade]]
+[[upgrade-rhel]]
 ==== upgrade (noun)
 *Description*: An upgrade is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
 
