@@ -175,6 +175,9 @@ include::glossary_terms_conventions/product_conventions/ceph.adoc[leveloffset=+1
 ==== Red Hat CloudForms
 include::glossary_terms_conventions/product_conventions/red-hat-cloudforms.adoc[leveloffset=+1]
 
+==== Red Hat Enterprise Linux
+include::glossary_terms_conventions/product_conventions/red-hat-enterprise-linux.adoc[leveloffset=+1]
+
 ==== Red Hat JBoss BRMS and Red Hat JBoss BPM Suite
 include::glossary_terms_conventions/product_conventions/bxms.adoc[leveloffset=+1]
 
