@@ -44,7 +44,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Incorrect forms*:
 
-*See also*: xref:update[update], xref:upgrade-rhel[upgrade], xref:conversion[conversion][discrete]
+*See also*: xref:update[update], xref:upgrade-rhel[upgrade], xref:conversion[conversion]
 
 [discrete]
 [[update]]
