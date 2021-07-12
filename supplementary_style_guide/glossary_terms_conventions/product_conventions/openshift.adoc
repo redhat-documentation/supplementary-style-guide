@@ -81,6 +81,17 @@ JBoss, or something else.
 *See also*: xref:action[action], xref:identity[identity]
 
 [discrete]
+[[backing store]]
+==== backing store (noun)
+*Description*: A type of storage resource for Multicloud Object Gateway, which is used to store the data like RADOS gateway (RGW), Amazon Web Service S3, Azure Blob Storage, IBM Cloud Object Storage, and so on. 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[build]]
 ==== build (noun)
 *Description*: The process of transforming input parameters into a resulting object. Most often, the process is used to transform input parameters or source code into a runnable image.
@@ -117,6 +128,17 @@ See xref:cluster[cluster] in the _General Conventions_ part.
 *Incorrect forms*: configmap, configuration map
 
 *See also*: xref:api-objects[API objects]
+
+[discrete]
+[[container storage interface]]
+==== Container Storage Interface (noun)
+*Description*: The Container Storage Interface (CSI) is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third party storage providers that implement the CSI interface as persistent storage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 ==== container (noun)
@@ -291,6 +313,17 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *See also*: xref:node[node]
 
 [discrete]
+[[multicloud object gateway]]
+==== Multicloud Object Gateway (noun)
+*Description*: Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform that allow users to start small and then scale as needed on-premise, in multiple clusters, and with cloud-native storage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[namespace]]
 ==== namespace (noun)
 *Description*: Typically synonymous with project in OpenShift parlance, which is preferred.
@@ -304,6 +337,51 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 ==== node (noun)
 See xref:node[node] in the _General Conventions_ part.
+
+[discrete]
+[[namespace store]]
+==== namespace store (noun)
+*Description*: A type of a resource for Multicloud Object Gateway that is used to store plain data and is used by Namespace buckets. The supported stores are S3, Azure, and S3 compatible.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[namespace bucket]]
+==== Namespace bucket (noun)
+*Description*: Namespace buckets enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to Namespace buckets are kept plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
+
+Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+
+[discrete]
+[[object bucket]]
+==== object bucket (noun)
+*Description*: A container for storing objects.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[object bucket claim]]
+==== object bucket claim (noun)
+*Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. An Object Bucket Claim can be used to request an S3 compatible bucket for the workloads.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[okd]]
@@ -416,6 +494,28 @@ _Build an Operator using the Operator SDK._
 *See also*: xref:api-objects[API objects]
 
 [discrete]
+[[persistent volume]]
+==== persistent volume (noun)
+*Description*: A persistent volume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using storage classes. 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[persistent volume claim]]
+==== persistent volume claim (noun)
+*Description*: A persistent volume claim (PVC) is a request for storage by a user.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[pod]]
 ==== pod (noun)
 *Description*: Pods come from the Kubernetes concept of the same name. A pod is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. It is important to realize that OpenShift treats pods as immutable. Any changes, be it the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are recreated. The API object for a pod is `Pod`.
@@ -449,6 +549,17 @@ _Build an Operator using the Operator SDK._
 *See also*:
 
 [discrete]
+[[red-hat-openshift-container-storage]]
+==== Red Hat OpenShift Container Storage (noun)
+*Description*: Red Hat's software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms.
+
+*Use it*: yes
+
+*Incorrect forms*: OCS
+
+*See also*: 
+
+[discrete]
 [[red-hat-openshift-dedicated]]
 ==== Red Hat OpenShift Dedicated (noun)
 *Description*: Red Hat's managed public cloud application deployment and hosting service.
@@ -480,6 +591,30 @@ _Build an Operator using the Operator SDK._
 *Incorrect forms*:
 
 *See also*:
+
+[discrete]
+[[rook]]
+==== Rook (noun)
+*Description*: Rook is an orchestrator for multiple storage solutions, each with a specialized Kubernetes Operator to automate management.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[rook-ceph operator]]
+==== Rook-Ceph Operator (noun)
+
+*Description*: The Rook-Ceph Operator automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 
 [discrete]
 [[route]]
@@ -550,6 +685,17 @@ _Update the `Pod` spec to reflect the changes._
 *Use it*: yes
 
 *Incorrect forms*: Spec
+
+*See also*:
+
+[discrete]
+[[storageclass]]
+==== StorageClass (noun)
+*Description*: A StorageClass provides a way to describe the classes of storage offered. OpenShift Container Storage offers block, shared file system, and object classes.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
