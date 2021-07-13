@@ -1,0 +1,70 @@
+[[red-hat-enterprise-linux-conventions]]
+
+For documentation questions, contact rhel-docs@redhat.com.
+
+[discrete]
+[[clean-install]]
+==== clean install (noun)
+*Description*: A clean install removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:upgrade-rhel[upgrade], xref:in-place-upgrade[in-place upgrade]
+
+[discrete]
+[[conversion]]
+==== conversion (noun)
+*Description*: An operating system conversion is when you convert your operating system from a different Linux distribution to Red Hat Enterprise Linux.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[in-place-upgrade]]
+==== in-place upgrade (noun)
+*Description*: During an in-place upgrade, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:upgrade-rhel[upgrade], xref:clean-install[clean install]
+
+[discrete]
+[[migration]]
+==== migration (noun)
+*Description*: Typically, a migration indicates a change of platform: software or hardware. Moving from Windows to Linux is a migration. Moving a user from one laptop to another or a company from one server to another is a migration. However, most migrations also involve upgrades, and sometimes the terms are used interchangeably.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:update[update], xref:upgrade-rhel[upgrade], xref:conversion[conversion]
+
+[discrete]
+[[update]]
+==== update (noun)
+*Description*: Sometimes called a software patch, an update is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[upgrade-rhel]]
+==== upgrade (noun)
+*Description*: An upgrade is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:in-place-upgrade[in-place upgrade], xref:clean-install[clean install]
+
