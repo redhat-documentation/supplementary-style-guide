@@ -290,6 +290,17 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *See also*: xref:node[node]
 
 [discrete]
+[[namespace]]
+==== namespace (noun)
+*Description*: Typically synonymous with project in OpenShift parlance, which is preferred.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:project[project]
+
+[discrete]
 ==== node (noun)
 See xref:node[node] in the _General Conventions_ part.
 
