@@ -23,7 +23,7 @@
 *See also*:
 
 [discrete]
-[[multicloud-object-ateway]]
+[[multicloud-object-gateway]]
 ==== Multicloud Object Gateway (noun)
 *Description*: Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform that allows users to start small and then scale as needed on-premise, in multiple clusters, and with cloud-native storage.
 
@@ -134,8 +134,8 @@
 *See also*:
 
 [discrete]
-[[storageclass]]
-==== storage-class (noun)
+[[storage-class]]
+==== storage class (noun)
 *Description*: A storage class provides a way to describe the classes of storage offered. OpenShift Container Storage offers block, shared file system, and object classes.
 
 *Use it*: yes
