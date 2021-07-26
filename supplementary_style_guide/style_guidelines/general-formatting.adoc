@@ -21,6 +21,13 @@ As needed, adjust the conversational to _fairly conversational_ for an audience 
 
 Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
 
+[[contractions]]
+== Contractions
+
+Avoid contractions in product documentation to leave no ambiguity and to make it easier for translation and international audiences.
+
+If you are writing quickstart or other content that uses a more informal xref:#conversational-style[conversational style] (_fairly conversational_ or _more conversational_), you may use contractions. In this case, follow the guidance in _The IBM Style Guide_ on using contractions.
+
 [[user-replaced-values]]
 == User-replaced values
 
