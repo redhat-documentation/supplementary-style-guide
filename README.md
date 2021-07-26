@@ -14,13 +14,13 @@ If you have a suggestion or question, open an [issue](https://github.com/redhat-
 
 See the [Contributing guide](CONTRIBUTING.md) for information about how to contribute an update.
 
+## What's new
+
+See the [history of significant updates](HISTORY.md) to the _Red Hat supplementary style guide for product documentation_.
+
 ## Administrator responsibilities
 
 See the list of [administrator responsibilities](ADMIN.adoc) for more information on what to do in your role as the administrator of this repository.  
-
-## History
-
-See the [history of significant updates](HISTORY.md) to the _Red Hat supplementary style guide for product documentation_.
 
 ## License
 
