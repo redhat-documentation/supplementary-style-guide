@@ -155,7 +155,7 @@
 
 [discrete]
 [[user]]
-==== image:images/caution.png[caution] user (noun)
+==== image:images/caution.png[with caution] user (noun)
 *Description*: When referring to the reader, use "you" instead of "user." If referring to more than one user, calling the collection "users" is acceptable, such as "Other users might want to access your database."
 
 *Use it*: with caution

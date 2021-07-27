@@ -6,7 +6,7 @@
 
 [discrete]
 [[activemq]]
-==== ActiveMQ (noun)
+==== image:images/no.png[no] ActiveMQ (noun)
 *Description*: Do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
 
 *Use it*: no
@@ -17,7 +17,7 @@
 
 [discrete]
 [[activemq-artemis]]
-==== ActiveMQ Artemis (noun)
+==== image:images/caution.png[with caution] ActiveMQ Artemis (noun)
 *Description*: Use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
 
 *Use it*: with caution
@@ -32,7 +32,7 @@
 
 [discrete]
 [[batch-jberet]]
-==== batch-jberet subsystem (noun)
+==== image:images/yes.png[yes] batch-jberet subsystem (noun)
 *Description*: The "batch-jberet" subsystem is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the batch-jberet subsystem in titles and headings.
 
 *Use it*: yes
@@ -43,7 +43,7 @@
 
 [discrete]
 [[bean-validation]]
-==== bean-validation subsystem (noun)
+==== image:images/yes.png[yes] bean-validation subsystem (noun)
 *Description*: The "bean-validation" subsystem is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the bean-validation subsystem in titles and headings.
 
 *Use it*: yes
@@ -54,7 +54,7 @@
 
 [discrete]
 [[built-in-messaging]]
-==== built-in messaging (noun)
+==== image:images/yes.png[yes] built-in messaging (noun)
 *Description*: "Built-in messaging" is an acceptable term for referring to the built-in messaging system in JBoss EAP. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
 
 *Use it*: yes
@@ -69,7 +69,7 @@
 
 [discrete]
 [[core-management]]
-==== core-management subsystem (noun)
+==== image:images/yes.png[yes] core-management subsystem (noun)
 *Description*: The "core-management" subsystem is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the core-management subsystem in titles and headings.
 
 *Use it*: yes
@@ -84,7 +84,7 @@
 
 [discrete]
 [[datasource]]
-==== datasource subsystem (noun)
+==== image:images/yes.png[yes] datasource subsystem (noun)
 *Description*: The "datasource" subsystem is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the datasource subsystem in titles and headings.
 
 *Use it*: yes
@@ -95,7 +95,7 @@
 
 [discrete]
 [[deployment-scanner]]
-==== deployment-scanner subsystem (noun)
+==== image:images/yes.png[yes] deployment-scanner subsystem (noun)
 *Description*: The "deployment-scanner" subsystem is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the deployment-scanner subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
 
 *Use it*: yes
@@ -106,7 +106,7 @@
 
 [discrete]
 [[domain-mode]]
-==== domain mode (noun)
+==== image:images/no.png[no] domain mode (noun)
 *Description*: Do not use "domain mode" to refer to the running instance of JBoss EAP server. See the xref:managed-domain[managed domain] entry for the correct usage.
 
 *Use it*: no
@@ -121,7 +121,7 @@
 
 [discrete]
 [[ee]]
-==== ee subsystem (noun)
+==== image:images/yes.png[yes] ee subsystem (noun)
 *Description*: The "ee" subsystem is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the ee subsystem in titles and headings.
 
 *Use it*: yes
@@ -132,7 +132,7 @@
 
 [discrete]
 [[ejb3]]
-==== ejb3 subsystem (noun)
+==== image:images/yes.png[yes] ejb3 subsystem (noun)
 *Description*: The "ejb3" subsystem is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the ejb3 subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
 
 *Use it*: yes
@@ -143,7 +143,7 @@
 
 [discrete]
 [[elytron]]
-==== elytron subsystem (noun)
+==== image:images/yes.png[yes] elytron subsystem (noun)
 *Description*: The "elytron" subsystem is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the elytron subsystem in titles and headings. See the xref:security-elytron[Security - Elytron] entry for the correct usage when referring to the elytron subsystem in the management console.
 
 *Use it*: yes
@@ -154,7 +154,7 @@
 
 [discrete]
 [[expansion-pack]]
-==== Expansion Pack (noun)
+==== image:images/yes.png[yes] Expansion Pack (noun)
 *Description*: "Expansion Pack" is a JBoss EAP add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
 
 *Use it*: yes
@@ -169,7 +169,7 @@
 
 [discrete]
 [[http-interface]]
-==== HTTP interface (noun)
+==== image:images/no.png[no] HTTP interface (noun)
 *Description*: "HTTP interface" is an interface accessed using hypertext transfer protocol. Do not use “HTTP interface” to refer to the JBoss EAP management console. See the xref:management-console[management console] entry for the correct usage.
 
 *Use it*: no
@@ -184,7 +184,7 @@
 
 [discrete]
 [[iiop-openjdk]]
-==== iiop-openjdk subsystem (noun)
+==== image:images/yes.png[yes] iiop-openjdk subsystem (noun)
 *Description*: The "iiop-openjdk" subsystem is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the iiop-openjdk subsystem in titles and headings.
 
 *Use it*: yes
@@ -195,7 +195,7 @@
 
 [discrete]
 [[io]]
-==== io subsystem (noun)
+==== image:images/yes.png[yes] io subsystem (noun)
 *Description*: The "io" subsystem is used to define workers and buffer pools used by other subsystems. In general text, write in lowercase as one word. Use "IO subsystem" when referring to the io subsystem in titles and headings.
 
 *Use it*: yes
@@ -210,7 +210,7 @@
 
 [discrete]
 [[jaxrs]]
-==== jaxrs subsystem (noun)
+==== image:images/yes.png[yes] jaxrs subsystem (noun)
 *Description*: The "jaxrs" subsystem enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the jaxrs subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
 
 *Use it*: yes
@@ -221,7 +221,7 @@
 
 [discrete]
 [[jboss-amq-eap]]
-==== JBoss AMQ (noun)
+==== image:images/no.png[no] JBoss AMQ (noun)
 *Description*: Do not use "JBoss AMQ" to refer to the Red Hat messaging queue product. This product has been renamed "Red Hat AMQ".
 
 *Use it*: no
@@ -232,7 +232,7 @@
 
 [discrete]
 [[jboss-eap]]
-==== JBoss EAP (noun)
+==== image:images/yes.png[yes] JBoss EAP (noun)
 *Description*: "JBoss EAP" is the approved shortened form of xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform].
 
 *Use it*: yes
@@ -243,7 +243,7 @@
 
 [discrete]
 [[jboss-eap-built-in-messaging]]
-==== JBoss EAP built-in messaging (noun)
+==== image:images/yes.png[yes] JBoss EAP built-in messaging (noun)
 *Description*: "JBoss EAP built-in messaging" is an acceptable term for referring to the built-in messaging system in JBoss EAP. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
 
 *Use it*: yes
@@ -254,7 +254,7 @@
 
 [discrete]
 [[jboss-eap-messaging]]
-==== JBoss EAP messaging (noun)
+==== image:images/yes.png[yes] JBoss EAP messaging (noun)
 *Description*: "JBoss EAP messaging" is an acceptable term for referring to the built-in messaging system in JBoss EAP. Other acceptable terms are "built-in messaging" and "JBoss EAP built-in messaging".
 
 *Use it*: yes
@@ -265,7 +265,7 @@
 
 [discrete]
 [[jca]]
-==== jca subsystem (noun)
+==== image:images/yes.png[yes] jca subsystem (noun)
 *Description*: The "jca" subsystem is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the jca subsystem in titles and headings.
 
 *Use it*: yes
@@ -276,7 +276,7 @@
 
 [discrete]
 [[jdr]]
-==== jdr subsystem (noun)
+==== image:images/yes.png[yes] jdr subsystem (noun)
 *Description*: The "jdr" subsystem is used to gather diagnostic data to support troubleshooting. In general text, write in lowercase as one word. Use "JDR subsystem" when referring to the jdr subsystem in titles and headings.
 
 *Use it*: yes
@@ -287,7 +287,7 @@
 
 [discrete]
 [[jgroups]]
-==== jgroups subsystem (noun)
+==== image:images/yes.png[yes] jgroups subsystem (noun)
 *Description*: The "jgroups" subsystem is used to configure protocol stacks and communication mechanisms for servers in a cluster. In general text, write in lower case as one word. Use "JGroups subsystem" when referring to the jgroups subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'G'.
 
 *Use it*: yes
@@ -298,7 +298,7 @@
 
 [discrete]
 [[jmx]]
-==== jmx subsystem (noun)
+==== image:images/yes.png[yes] jmx subsystem (noun)
 *Description*: The "jmx" subsystem is used to configure remote Java Management Extensions (JMX) access. In general text, write in lowercase as one word. Use "JMX subsystem" when referring to the jmx subsystem in titles and headings.
 
 *Use it*: yes
@@ -309,7 +309,7 @@
 
 [discrete]
 [[jpa]]
-==== jpa subsystem (noun)
+==== image:images/yes.png[yes] jpa subsystem (noun)
 *Description*: The "jpa" subsystem is used to manage requirements of the Java Persistence API. In general text, write in lowercase as one word. Use "JPA subsystem" when referring to the jpa subsystem in titles and headings.
 
 *Use it*: yes
@@ -320,7 +320,7 @@
 
 [discrete]
 [[jsf]]
-==== jsf subsystem (noun)
+==== image:images/yes.png[yes] jsf subsystem (noun)
 *Description*: The "jsf" subsystem is used to manage JavaServer Faces implementations. In general text, write in lowercase as one word. Use "JSF subsystem" when referring to the jsf subsystem in titles and headings.
 
 *Use it*: yes
@@ -331,7 +331,7 @@
 
 [discrete]
 [[jsr77]]
-==== jsr77 subsystem (noun)
+==== image:images/yes.png[yes] jsr77 subsystem (noun)
 *Description*: The "jsr77" subsystem provides Java EE management capabilities defined by the JSR-77 specification. In general text, write in lowercase as one word. Use "JSR-77 subsystem" when referring to the jsr77 subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JSR' and '77'.
 
 *Use it*: yes
@@ -346,7 +346,7 @@
 
 [discrete]
 [[keystore]]
-==== keystore (noun)
+==== image:images/yes.png[yes] keystore (noun)
 *Description*: A "keystore" is a repository for private and self-certified security certificates. Write in lowercase as one word. This is in contrast to a "truststore", which stores trusted security certificates.
 
 *Use it*: yes
@@ -361,7 +361,7 @@
 
 [discrete]
 [[load-balance]]
-==== load balance (verb)
+==== image:images/yes.png[yes] load balance (verb)
 *Description*: The compound verb "load balance" means to distribute processing requests among a set of servers.
 
 *Use it*: yes
@@ -372,7 +372,7 @@
 
 [discrete]
 [[logging]]
-==== logging subsystem (noun)
+==== image:images/yes.png[yes] logging subsystem (noun)
 *Description*: The "logging" subsystem is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
 
 *Use it*: yes
@@ -387,7 +387,7 @@
 
 [discrete]
 [[mail]]
-==== mail subsystem (noun)
+==== image:images/yes.png[yes] mail subsystem (noun)
 *Description*: The "mail" subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lowercase in general text. Use "Mail subsystem" when referring to the mail subsystem in titles and headings.
 
 *Use it*: yes
@@ -398,7 +398,7 @@
 
 [discrete]
 [[managed-domain]]
-==== managed domain (noun)
+==== image:images/yes.png[yes] managed domain (noun)
 *Description*: A "managed domain" is a group of JBoss EAP instances managed from a single control point. This is the appropriate way to refer to the managed domain operating mode. For example, "When running the JBoss EAP server in a managed domain".
 
 *Use it*: yes
@@ -409,7 +409,7 @@
 
 [discrete]
 [[management-cli]]
-==== management CLI (noun)
+==== image:images/yes.png[yes] management CLI (noun)
 *Description*: Use "management CLI" to refer to the command line interface for the JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
 
 *Use it*: yes
@@ -420,7 +420,7 @@
 
 [discrete]
 [[management-console]]
-==== management console (noun)
+==== image:images/yes.png[yes] management console (noun)
 *Description*: Use "management console" to refer to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
 
 *Use it*: yes
@@ -431,7 +431,7 @@
 
 [discrete]
 [[messaging-activemq]]
-==== messaging-activemq subsystem (noun)
+==== image:images/yes.png[yes] messaging-activemq subsystem (noun)
 *Description*: The "messaging-activemq" subsystem is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the messaging-activemq subsystem in titles and headings. See the xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the messaging-activemq subsystem in the management console.
 
 *Use it*: yes
@@ -442,7 +442,7 @@
 
 [discrete]
 [[messaging-activemq-management]]
-==== Messaging - ActiveMQ (noun)
+==== image:images/yes.png[yes] Messaging - ActiveMQ (noun)
 *Description*: Use "Messaging - ActiveMQ" when describing the messaging-activemq subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "MQ" is also in uppercase.
 
 *Use it*: yes
@@ -453,7 +453,7 @@
 
 [discrete]
 [[messaging-subsystem]]
-==== messaging subsystem (noun)
+==== image:images/yes.png[yes] messaging subsystem (noun)
 *Description*: "Messaging subsystem" is an acceptable generic term for referring to the messaging-activemq subsystem. Capitalize "messaging" only at the beginning of a sentence. However, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the messaging-activemq subsystem in the management console.
 
 *Use it*: yes
@@ -464,7 +464,7 @@
 
 [discrete]
 [[microsoft-windows]]
-==== Microsoft Windows (noun)
+==== image:images/no.png[no] Microsoft Windows (noun)
 *Description*: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. See the xref:windows-server[Windows Server] entry for the correct usage.
 
 *Use it*: no
@@ -475,7 +475,7 @@
 
 [discrete]
 [[modcluster]]
-==== modcluster subsystem (noun)
+==== image:images/yes.png[yes] modcluster subsystem (noun)
 *Description*: The "modcluster" subsystem is used to configure modcluster worker nodes. In general text, write in lowercase as one word. Use "ModCluster subsystem" when referring to the modcluster subsystem in titles and headings.
 
 *Use it*: yes
@@ -490,7 +490,7 @@
 
 [discrete]
 [[naming]]
-==== naming subsystem (noun)
+==== image:images/yes.png[yes] naming subsystem (noun)
 *Description*: The "naming" subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
 
 *Use it*: yes
@@ -501,7 +501,7 @@
 
 [discrete]
 [[native-interface]]
-==== native interface (noun)
+==== image:images/no.png[no] native interface (noun)
 *Description*: Do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. See the xref:management-cli[management CLI] entry for the correct usage.
 
 *Use it*: no
@@ -516,7 +516,7 @@
 
 [discrete]
 [[picketlink-federation]]
-==== picketlink-federation subsystem (noun)
+==== image:images/yes.png[yes] picketlink-federation subsystem (noun)
 *Description*: The "picketlink-federation" subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). In general text, write in lowercase as two words separated by a hyphen. Use "PicketLink Federation subsystem" when referring to the picketlink-federation subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'L'.
 
 *Use it*: yes
@@ -527,7 +527,7 @@
 
 [discrete]
 [[picketlink-identity-management]]
-==== picketlink-identity-management subsystem(noun)
+==== image:images/yes.png[yes] picketlink-identity-management subsystem(noun)
 *Description*: The "picketlink-identity-management" subsystem is used to configure identity management services. In general text, write in lowercase as three words separated by hyphens. Use "PicketLink Identity Management subsystem" when referring to the picketlink-identity-management subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'L'.
 
 *Use it*: yes
@@ -538,7 +538,7 @@
 
 [discrete]
 [[pojo]]
-==== pojo subsystem (noun)
+==== image:images/yes.png[yes] pojo subsystem (noun)
 *Description*: The "pojo" subsystem enables deployment of applications containing JBoss Microcontainer services. In general text, write in lowercase as one word. Use "POJO subsystem" when referring to the pojo subsystem in titles and headings.
 
 *Use it*: yes
@@ -553,7 +553,7 @@
 
 [discrete]
 [[red-hat-amq]]
-==== Red Hat AMQ (noun)
+==== image:images/yes.png[yes] Red Hat AMQ (noun)
 *Description*: "Red Hat AMQ" is the official name of the Red Hat messaging queue product.
 
 *Use it*: yes
@@ -564,7 +564,7 @@
 
 [discrete]
 [[red-hat-customer-portal]]
-==== Red Hat Customer Portal (noun)
+==== image:images/yes.png[yes] Red Hat Customer Portal (noun)
 *Description*: "Red Hat Customer Portal" is the official name of the customer portal at https://access.redhat.com.
 
 *Use it*: yes
@@ -575,7 +575,7 @@
 
 [discrete]
 [[red-hat-jboss-enterprise-application-platform]]
-==== Red Hat JBoss Enterprise Application Platform (noun)
+==== image:images/yes.png[yes] Red Hat JBoss Enterprise Application Platform (noun)
 *Description*: "Red Hat JBoss Enterprise Application Platform" is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
 
 *Use it*: yes
@@ -586,7 +586,7 @@
 
 [discrete]
 [[remoting]]
-==== remoting subsystem (noun)
+==== image:images/yes.png[yes] remoting subsystem (noun)
 *Description*: The "remoting" subsystem is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
 
 *Use it*: yes
@@ -597,7 +597,7 @@
 
 [discrete]
 [[request-controller]]
-==== request-controller subsystem (noun)
+==== image:images/yes.png[yes] request-controller subsystem (noun)
 *Description*: The "request-controller" subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
 
 *Use it*: yes
@@ -608,7 +608,7 @@
 
 [discrete]
 [[resource-adapters]]
-==== resource-adapters subsystem (noun)
+==== image:images/yes.png[yes] resource-adapters subsystem (noun)
 *Description*: The "resource-adapters" subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
 
 *Use it*: yes
@@ -619,7 +619,7 @@
 
 [discrete]
 [[rts]]
-==== rts subsystem (noun)
+==== image:images/yes.png[yes] rts subsystem (noun)
 *Description*: The "rts" subsystem is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the rts subsystem in titles and headings.
 
 *Use it*: yes
@@ -634,7 +634,7 @@
 
 [discrete]
 [[sar]]
-==== sar subsystem (noun)
+==== image:images/yes.png[yes] sar subsystem (noun)
 *Description*: The "sar" subsystem enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the sar subsystem in titles and headings.
 
 *Use it*: yes
@@ -645,7 +645,7 @@
 
 [discrete]
 [[security]]
-==== security subsystem (noun)
+==== image:images/yes.png[yes] security subsystem (noun)
 *Description*: The legacy security subsystem in JBoss EAP is called "security". Write in lowercase in general text. Use "Security subsystem" when referring to the legacy security subsystem in titles and headings.
 
 *Use it*: yes
@@ -656,7 +656,7 @@
 
 [discrete]
 [[security-elytron]]
-==== Security - Elytron (noun)
+==== image:images/yes.png[yes] Security - Elytron (noun)
 *Description*: Use “Security - Elytron” when describing the elytron subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
 
 *Use it*: yes
@@ -667,7 +667,7 @@
 
 [discrete]
 [[security-manager]]
-==== security-manager subsystem (noun)
+==== image:images/yes.png[yes] security-manager subsystem (noun)
 *Description*: The "security-manager" subsystem is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the security-manager subsystem in titles and headings.
 
 *Use it*: yes
@@ -678,7 +678,7 @@
 
 [discrete]
 [[singleton]]
-==== singleton subsystem (noun)
+==== image:images/yes.png[yes] singleton subsystem (noun)
 *Description*: The "singleton" subsystem is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the singleton subsystem in titles and headings.
 
 *Use it*: yes
@@ -689,7 +689,7 @@
 
 [discrete]
 [[standalone-mode]]
-==== standalone mode (noun)
+==== image:images/no.png[no] standalone mode (noun)
 *Description*: Do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. See the xref:standalone-server[standalone server] entry for the correct usage.
 
 *Use it*: no
@@ -700,7 +700,7 @@
 
 [discrete]
 [[standalone-server]]
-==== standalone server (noun)
+==== image:images/yes.png[yes] standalone server (noun)
 *Description*: Use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
 
 *Use it*: yes
@@ -715,7 +715,7 @@
 
 [discrete]
 [[transactions]]
-==== transactions subsystem (noun)
+==== image:images/yes.png[yes] transactions subsystem (noun)
 *Description*: The "transactions" subsystem is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the transactions subsystem in titles and headings.
 
 *Use it*: yes
@@ -726,7 +726,7 @@
 
 [discrete]
 [[truststore]]
-==== truststore (noun)
+==== image:images/yes.png[yes] truststore (noun)
 *Description*: A "truststore" is a repository of trusted security certificates. Write in lowercase as one word. This is in contrast to a "keystore", which stores private and self-certified certificates.
 
 *Use it*: yes
@@ -741,7 +741,7 @@
 
 [discrete]
 [[undertow]]
-==== undertow subsystem(noun)
+==== image:images/yes.png[yes] undertow subsystem(noun)
 *Description*: The "undertow" subsystem is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the undertow subsystem in titles and headings. See the xref:webhttp-undertow[WebHTTP - Undertow] entry for the correct usage when referring to the undertow subsystem in the management console.
 
 *Use it*: yes
@@ -757,7 +757,7 @@
 
 [discrete]
 [[webhttp-undertow]]
-==== WebHTTP - Undertow (noun)
+==== image:images/yes.png[yes] WebHTTP - Undertow (noun)
 *Description*: Use "WebHTTP - Undertow" when describing the undertow subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
 
 *Use it*: yes
@@ -768,7 +768,7 @@
 
 [discrete]
 [[web-services]]
-==== Web services (noun)
+==== image:images/yes.png[yes] Web services (noun)
 *Description*: Use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
 
 *Use it*: yes
@@ -779,7 +779,7 @@
 
 [discrete]
 [[webservices]]
-==== webservices subsystem (noun)
+==== image:images/yes.png[yes] webservices subsystem (noun)
 *Description*: The "webservices" subsystem is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the webservices subsystem in titles and headings.
 
 *Use it*: yes
@@ -790,7 +790,7 @@
 
 [discrete]
 [[weld]]
-==== weld subsystem (noun)
+==== image:images/yes.png[yes] weld subsystem (noun)
 *Description*: The "weld" subsystem is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the weld subsystem in titles and headings.
 
 *Use it*: yes
@@ -801,7 +801,7 @@
 
 [discrete]
 [[windows-server]]
-==== Windows Server (noun)
+==== image:images/yes.png[yes] Windows Server (noun)
 *Description*: Use "Windows Server" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. Do not precede the product name with "Microsoft".
 
 *Use it*: yes
@@ -816,7 +816,7 @@
 
 [discrete]
 [[xp]]
-==== XP (noun)
+==== image:images/yes.png[yes] XP (noun)
 *Description*: "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
 
 *Use it*: yes
@@ -827,7 +827,7 @@
 
 [discrete]
 [[xts]]
-==== xts subsystem (noun)
+==== image:images/yes.png[yes] xts subsystem (noun)
 *Description*: The "xts" subsystem is used to configure settings for coordinating Web services in a transaction. In general text, write in lowercase as one word. Use "XTS subsystem" when referring to the xts subsystem in titles and headings.
 
 *Use it*: yes
