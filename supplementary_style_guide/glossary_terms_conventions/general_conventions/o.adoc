@@ -133,7 +133,7 @@
 
 [discrete]
 [[opex]]
-==== OpEx (noun)
+==== image:images/yes.png[yes] OpEx (noun)
 *Description*: "OpEx" is an abbreviation of "operating expenses."
 
 *Use it*: yes
@@ -166,7 +166,7 @@
 
 [discrete]
 [[output-device]]
-==== output device (noun)
+==== image:images/yes.png[yes] output device (noun)
 *Description*: An "output device" is any machine capable of representing information from a computer, such as display screens, printers, plotters, and synthesizers.
 
 *Use it*: yes
