@@ -5,17 +5,6 @@
 // ***********************
 
 [discrete]
-[[activemq]]
-==== ActiveMQ (noun)
-*Description*: Do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
-
-*Use it*: no
-
-*Incorrect forms*: Active MQ, Active-MQ
-
-*See also*: xref:activemq-artemis[ActiveMQ Artemis], xref:jboss-eap-messaging[JBoss EAP messaging]
-
-[discrete]
 [[activemq-artemis]]
 ==== ActiveMQ Artemis (noun)
 *Description*: Use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
@@ -24,7 +13,7 @@
 
 *Incorrect forms*: Active MQ Artemis, Active-MQ Artemis
 
-*See also*: xref:activemq[ActiveMQ], xref:jboss-eap-messaging[JBoss EAP messaging]
+*See also*: xref:jboss-eap-messaging[JBoss EAP messaging]
 
 // ***********************
 // Terms starting with 'B'
@@ -44,7 +33,7 @@
 [discrete]
 [[batch-jberet]]
 ==== batch-jberet (noun)
-*Description*: The "batch-jberet" subsystem is used to configure and manage batch jobs. Write in lower case as two words separated by a hyphen. See xref:batch-subsystem[Batch Subsystem] entry for the correct usage in headings.
+*Description*: The "batch-jberet" subsystem is used to configure and manage batch jobs. Write in lowercase as two words separated by a hyphen. See xref:batch-subsystem[Batch Subsystem] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -66,7 +55,7 @@
 [discrete]
 [[bean-validation]]
 ==== bean-validation (noun)
-*Description*: The "bean-validation" subsystem is used to configure validation of Java bean object data. Write in lower case as two words separated by a hyphen. See xref:bean-validation-subsystem[Bean Validation Subsystem] entry for the correct usage in headings.
+*Description*: The "bean-validation" subsystem is used to configure validation of Java bean object data. Write in lowercase as two words separated by a hyphen. See xref:bean-validation-subsystem[Bean Validation Subsystem] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -90,17 +79,6 @@
 // ***********************
 
 [discrete]
-[[cli-eap]]
-==== CLI (noun)
-*Description*: "CLI" is an abbreviation of "command line interface". Do not use "CLI" by itself to refer to the management CLI.
-
-*Use it*: no
-
-*Incorrect forms*:
-
-*See also*: xref:management-cli[management CLI]
-
-[discrete]
 [[core-management-subsystem]]
 ==== Core Management Subsystem (noun)
 *Description*: Use "Core Management Subsystem" when referring to the xref:core-management[core-management] subsystem in titles and headings. Capitalize each word. See xref:core-management[core-management] entry for the correct usage in general text.
@@ -114,24 +92,13 @@
 [discrete]
 [[core-management]]
 ==== core-management (noun)
-*Description*: The "core-management" subsystem is used to register server life-cycle event listeners and track configuration changes. Write in lower case as two words separated by a hyphen. See xref:core-management-subsystem[Core Management Subsystem] entry for the correct usage in headings.
+*Description*: The "core-management" subsystem is used to register server lifecycle event listeners and track configuration changes. Write in lowercase as two words separated by a hyphen. See xref:core-management-subsystem[Core Management Subsystem] entry for the correct usage in headings.
 
 *Use it*: yes
 
 *Incorrect forms*: Any form using uppercase letters or omitting the hyphen
 
 *See also*: xref:core-management-subsystem[Core Management Subsystem]
-
-[discrete]
-[[customer-portal]]
-==== Customer Portal (noun)
-*Description*: Do not use "Customer Portal" by itself to refer to the Red Hat Customer Portal.
-
-*Use it*: no
-
-*Incorrect forms*:
-
-*See also*: xref:red-hat-customer-portal[Red Hat Customer Portal]
 
 // ***********************
 // Terms starting with 'D'
@@ -140,11 +107,11 @@
 [discrete]
 [[datasource]]
 ==== datasource (noun)
-*Description*: The "datasource" subsystem is used to create and configure data sources and to manage JDBC database drivers. Write in lower case as one word. See xref:datasource-subsystem[Datasource Subsystem] entry for the correct usage in headings.
+*Description*: The "datasource" subsystem is used to create and configure data sources and to manage JDBC database drivers. Write in lowercase as one word. See xref:datasource-subsystem[Datasource Subsystem] entry for the correct usage in headings.
 
 *Use it*: yes
 
-*Incorrect forms*: Any form using uppercase letters
+*Incorrect forms*: Datasource, data source
 
 *See also*: xref:datasource-subsystem[Datasource Subsystem]
 
@@ -173,7 +140,7 @@
 [discrete]
 [[deployment-scanner]]
 ==== deployment-scanner (noun)
-*Description*: The "deployment-scanner" subsystem is used to configure scanners to check for applications to deploy. Write in lower case as two words separated by a hyphen. See xref:deployment-scanners-heading[Deployment Scanners] entry for the correct usage in headings.
+*Description*: The "deployment-scanner" subsystem is used to configure scanners to check for applications to deploy. Write in lowercase as two words separated by a hyphen. See xref:deployment-scanners-heading[Deployment Scanners] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -199,7 +166,7 @@
 [discrete]
 [[ee]]
 ==== ee (noun)
-*Description*: The "ee" subsystem is used to configure functionality in the Jakarta Enterprise Edition platform. Write in lower case as one word. See xref:ee-heading[EE] entry for the correct usage in headings.
+*Description*: The "ee" subsystem is used to configure functionality in the Jakarta Enterprise Edition platform. Write in lowercase as one word. See xref:ee-heading[EE] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -232,7 +199,7 @@
 [discrete]
 [[ejb3]]
 ==== ejb3 (noun)
-*Description*: The "ejb3" subsystem is used to configure Enterprise JavaBeans. Write in lower case as one word. See xref:ejb3-heading[EJB 3] entry for the correct usage in headings.
+*Description*: The "ejb3" subsystem is used to configure Enterprise JavaBeans. Write in lowercase as one word. See xref:ejb3-heading[EJB 3] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -243,7 +210,7 @@
 [discrete]
 [[elytron]]
 ==== elytron (noun)
-*Description*: The "elytron" subsystem is used to configure server and application security. Write in lower case. See xref:elytron-heading[Elytron] entry for the correct usage in headings. See xref:security-elytron[Security - Elytron] entry for the correct usage when describing elytron in the management console.
+*Description*: The "elytron" subsystem is used to configure server and application security. Write in lowercase. See xref:elytron-heading[Elytron] entry for the correct usage in headings. See xref:security-elytron[Security - Elytron] entry for the correct usage when describing elytron in the management console.
 
 *Use it*: yes
 
@@ -306,7 +273,7 @@
 [discrete]
 [[iiop-openjdk]]
 ==== iiop-openjdk (noun)
-*Description*: The "iiop-openjdk" subsystem is used to configure Common Object Request Broker Architecture (CORBA) services. Write in lower case as two words separated by a hyphen. See xref:iiop[IIOP] entry for the correct usage in headings.
+*Description*: The "iiop-openjdk" subsystem is used to configure Common Object Request Broker Architecture (CORBA) services. Write in lowercase as two words separated by a hyphen. See xref:iiop[IIOP] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -317,7 +284,7 @@
 [discrete]
 [[io]]
 ==== io (noun)
-*Description*: The "io" subsystem is used to define workers and buffer pools used by other subsystems. Write in lower case as one word. See xref:io-heading[IO] entry for the correct usage in headings.
+*Description*: The "io" subsystem is used to define workers and buffer pools used by other subsystems. Write in lowercase as one word. See xref:io-heading[IO] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -343,7 +310,7 @@
 [discrete]
 [[java]]
 ==== Java (noun)
-*Description*: "Java" is a a class-based, object-oriented programming language. Capitalize in headings and general text.
+*Description*: "Java" is a class-based, object-oriented programming language. Capitalize in headings and general text.
 
 *Use it*: yes
 
@@ -354,7 +321,7 @@
 [discrete]
 [[jaxrs]]
 ==== jaxrs (noun)
-*Description*: The "jaxrs" subsystem enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). Write in lower case as one word. See xref:jaxrs-heading[JAX-RS] entry for the correct usage in headings.
+*Description*: The "jaxrs" subsystem enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). Write in lowercase as one word. See xref:jaxrs-heading[JAX-RS] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -369,7 +336,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: Any form using lower case letters or omitting the hyphen
+*Incorrect forms*: Any form using lowercase letters or omitting the hyphen
 
 *See also*: xref:jaxrs[jaxrs]
 
@@ -420,7 +387,7 @@
 [discrete]
 [[jca]]
 ==== jca (noun)
-*Description*: The "jca" subsystem is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. Write in lower case as one word. See xref:jca-heading[JCA] entry for the correct usage in headings.
+*Description*: The "jca" subsystem is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. Write in lowercase as one word. See xref:jca-heading[JCA] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -442,7 +409,7 @@
 [discrete]
 [[jdr]]
 ==== jdr (noun)
-*Description*: The "jdr" subsystem is used to gather diagnostic data to support troubleshooting. Write in lower case as one word. See xref:jdr-heading[JDR] entry for the correct usage in headings.
+*Description*: The "jdr" subsystem is used to gather diagnostic data to support troubleshooting. Write in lowercase as one word. See xref:jdr-heading[JDR] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -464,7 +431,7 @@
 [discrete]
 [[jgroups]]
 ==== jgroups (noun)
-*Description*: The "jgroups" subsystem is used to configure protocol stacks and communication mechanisms for servers in a cluster. Write in lower case as one word. See xref:jgroups-heading[JGroups] entry for the correct usage in headings.
+*Description*: The "jgroups" subsystem is used to configure protocol stacks and communication mechanisms for servers in a cluster. Write in lowercase as one word. See xref:jgroups-heading[JGroups] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -475,7 +442,7 @@
 [discrete]
 [[jgroups-heading]]
 ==== JGroups (noun)
-*Description*: Use "JGroups" when referring to the xref:jgroups[jgroups] subsystem in titles and headings. Capitalize the 'J' and 'G' and write the rest of the word in lower case. See xref:jgroups[jgroups] entry for the correct usage in general text.
+*Description*: Use "JGroups" when referring to the xref:jgroups[jgroups] subsystem in titles and headings. Capitalize the 'J' and 'G'. See xref:jgroups[jgroups] entry for the correct usage in general text.
 
 *Use it*: yes
 
@@ -486,7 +453,7 @@
 [discrete]
 [[jmx]]
 ==== jmx (noun)
-*Description*: The "jmx" subsystem is used to configure remote Java Management Extensions (JMX) access. Write in lower case as one word. See xref:jmx-heading[JMX] entry for the correct usage in headings.
+*Description*: The "jmx" subsystem is used to configure remote Java Management Extensions (JMX) access. Write in lowercase as one word. See xref:jmx-heading[JMX] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -508,7 +475,7 @@
 [discrete]
 [[jpa]]
 ==== jpa (noun)
-*Description*: The "jpa" subsystem is used to manage requirements of the Java Persistence API. Write in lower case as one word. See xref:jpa-heading[JPA] entry for the correct usage in headings.
+*Description*: The "jpa" subsystem is used to manage requirements of the Java Persistence API. Write in lowercase as one word. See xref:jpa-heading[JPA] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -530,7 +497,7 @@
 [discrete]
 [[jsf]]
 ==== jsf (noun)
-*Description*: The "jsf" subsystem is used to manage JavaServer Faces implementations. Write in lower case as one word. See xref:jsf-heading[JSF] entry for the correct usage in headings.
+*Description*: The "jsf" subsystem is used to manage JavaServer Faces implementations. Write in lowercase as one word. See xref:jsf-heading[JSF] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -552,7 +519,7 @@
 [discrete]
 [[jsr77]]
 ==== jsr77 (noun)
-*Description*: The "jsr77" subsystem provides Java EE management capabilities defined by the JSR-77 specification. Write in lower case as one word. See xref:jsr77-heading[JSR-77] entry for the correct usage in headings.
+*Description*: The "jsr77" subsystem provides Java EE management capabilities defined by the JSR-77 specification. Write in lowercase as one word. See xref:jsr77-heading[JSR-77] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -578,7 +545,7 @@
 [discrete]
 [[keystore]]
 ==== keystore (noun)
-*Description*: A "keystore" is a repository for private and self-certified security certificates. Write in lower case as one word. This is in contrast to a "truststore", which stores trusted security certificates.
+*Description*: A "keystore" is a repository for private and self-certified security certificates. Write in lowercase as one word. This is in contrast to a "truststore", which stores trusted security certificates.
 
 *Use it*: yes
 
@@ -604,7 +571,7 @@
 [discrete]
 [[logging]]
 ==== logging (noun)
-*Description*: The "logging" subsystem is used to configure logging at the system and application levels. Write in lower case. See xref:logging-heading[Logging] entry for the correct usage in headings.
+*Description*: The "logging" subsystem is used to configure logging at the system and application levels. Write in lowercase. See xref:logging-heading[Logging] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -630,7 +597,7 @@
 [discrete]
 [[mail]]
 ==== mail (noun)
-*Description*: The "mail" subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lower case. See xref:mail-heading[Mail] entry for the correct usage in headings.
+*Description*: The "mail" subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lowercase. See xref:mail-heading[Mail] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -696,7 +663,7 @@
 [discrete]
 [[messaging-activemq]]
 ==== messaging-activemq (noun)
-*Description*: The "messaging-activemq" subsystem is used to configure messaging in JBoss EAP. Write in lower case as two words separated by a hyphen. See xref:messaging-heading[Messaging] entry for the correct usage in headings. See xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the messaging-activemq subsystem in the management console.
+*Description*: The "messaging-activemq" subsystem is used to configure messaging in JBoss EAP. Write in lowercase as two words separated by a hyphen. See xref:messaging-heading[Messaging] entry for the correct usage in headings. See xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the messaging-activemq subsystem in the management console.
 
 *Use it*: yes
 
@@ -729,7 +696,7 @@
 [discrete]
 [[microsoft-windows]]
 ==== Microsoft Windows (noun)
-*Description*: Do not use "Microsoft Windows" to refer to the Microsoft Windows Server product or Windows-specific commands and scripts such as standalone.bat. when referring to the modcluster subsystem in titles and headings. See xref:windows-server[Windows Server] entry for the correct usage.
+*Description*: Do not use "Microsoft Windows" to refer to the Microsoft Windows Server product or Windows-specific commands and scripts such as `standalone.bat` when referring to the modcluster subsystem in titles and headings. See xref:windows-server[Windows Server] entry for the correct usage.
 
 *Use it*: no
 
@@ -740,7 +707,7 @@
 [discrete]
 [[modcluster]]
 ==== modcluster (noun)
-*Description*: The "modcluster" subsystem is used to configure modcluster worker nodes. Write in lower case as one word. See xref:modcluster-heading[ModCluster] entry for the correct usage in headings.
+*Description*: The "modcluster" subsystem is used to configure modcluster worker nodes. Write in lowercase as one word. See xref:modcluster-heading[ModCluster] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -751,7 +718,7 @@
 [discrete]
 [[modcluster-heading]]
 ==== ModCluster (noun)
-*Description*: Use "ModCluster" when referring to the xref:modcluster[modcluster] subsystem in titles and headings. Capitalize the 'M' and 'C' and write the rest of the word in lower case. See xref:modcluster[modcluster] entry for the correct usage in general text.
+*Description*: Use "ModCluster" when referring to the xref:modcluster[modcluster] subsystem in titles and headings. Capitalize the 'M' and 'C'. See xref:modcluster[modcluster] entry for the correct usage in general text.
 
 *Use it*: yes
 
@@ -766,7 +733,7 @@
 [discrete]
 [[naming]]
 ==== naming (noun)
-*Description*: The "naming" subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lower case. See xref:naming-heading[Naming] entry for the correct usage in headings.
+*Description*: The "naming" subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase. See xref:naming-heading[Naming] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -803,7 +770,7 @@
 [discrete]
 [[picketlink-federation]]
 ==== picketlink-federation (noun)
-*Description*: The "picketlink-federation" subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). Write in lower case as two words separated by a hyphen. See xref:picketlink-federation-heading[PicketLink Federation] entry for the correct usage in headings.
+*Description*: The "picketlink-federation" subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). Write in lowercase as two words separated by a hyphen. See xref:picketlink-federation-heading[PicketLink Federation] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -825,7 +792,7 @@
 [discrete]
 [[picketlink-identity-management]]
 ==== picketlink-identity-management (noun)
-*Description*: The "picketlink-identity-management" subsystem is used to configure identity management services. Write in lower case as three words separated by hyphens. See xref:picketlink-identity-management-heading[PicketLink Identity Management] entry for the correct usage in headings.
+*Description*: The "picketlink-identity-management" subsystem is used to configure identity management services. Write in lowercase as three words separated by hyphens. See xref:picketlink-identity-management-heading[PicketLink Identity Management] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -847,7 +814,7 @@
 [discrete]
 [[pojo]]
 ==== pojo (noun)
-*Description*: The "pojo" subsystem enables deployment of applications containing JBoss Microcontainer services. Write in lower case as one word. See xref:pojo-heading[POJO] entry for the correct usage in headings.
+*Description*: The "pojo" subsystem enables deployment of applications containing JBoss Microcontainer services. Write in lowercase as one word. See xref:pojo-heading[POJO] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -890,7 +857,7 @@
 
 *Incorrect forms*: Customer Portal
 
-*See also*: xref:customer-portal[Customer Portal]
+*See also*:
 
 [discrete]
 [[red-hat-jboss-enterprise-application-platform]]
@@ -906,7 +873,7 @@
 [discrete]
 [[remoting]]
 ==== remoting (noun)
-*Description*: The "remoting" subsystem is used to configure inbound and outbound connections for local and remote servers. Write in lower case. See xref:remoting-heading[Remoting] entry for the correct usage in headings.
+*Description*: The "remoting" subsystem is used to configure inbound and outbound connections for local and remote servers. Write in lowercase. See xref:remoting-heading[Remoting] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -950,7 +917,7 @@
 [discrete]
 [[request-controller]]
 ==== request-controller (noun)
-*Description*: The "request-controller" subsystem is used to configure settings to suspend servers or to shut them down gracefully. Write in lower case as two words separated by a hyphen. See xref:request-controller-heading[Request Controller] entry for the correct usage in headings.
+*Description*: The "request-controller" subsystem is used to configure settings to suspend servers or to shut them down gracefully. Write in lowercase as two words separated by a hyphen. See xref:request-controller-heading[Request Controller] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -972,7 +939,7 @@
 [discrete]
 [[resource-adapters]]
 ==== resource-adapters (noun)
-*Description*: The "resource-adapters" subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). Write in lower case as two words separated by a hyphen. See xref:resource-adapters-heading[Resource Adapters] entry for the correct usage in headings.
+*Description*: The "resource-adapters" subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). Write in lowercase as two words separated by a hyphen. See xref:resource-adapters-heading[Resource Adapters] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -983,7 +950,7 @@
 [discrete]
 [[rts]]
 ==== rts (noun)
-*Description*: The "rts" subsystem is an implementation of REST AT that is not supported in JBoss EAP. Write in lower case as one word. See xref:rts-heading[RTS] entry for the correct usage in headings.
+*Description*: The "rts" subsystem is an implementation of REST AT that is not supported in JBoss EAP. Write in lowercase as one word. See xref:rts-heading[RTS] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1009,7 +976,7 @@
 [discrete]
 [[sar]]
 ==== sar (noun)
-*Description*: The "sar" subsystem enables deployment of SAR archives containing MBean services. Write in lower case as one word. See xref:sar-heading[SAR] entry for the correct usage in headings.
+*Description*: The "sar" subsystem enables deployment of SAR archives containing MBean services. Write in lowercase as one word. See xref:sar-heading[SAR] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1031,7 +998,7 @@
 [discrete]
 [[security]]
 ==== security (noun)
-*Description*: "security" is the name of the legacy security subsystem in JBoss EAP. Write in lower case. See xref:security-heading[Security] entry for the correct usage in headings.
+*Description*: "security" is the name of the legacy security subsystem in JBoss EAP. Write in lowercase. See xref:security-heading[Security] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1064,7 +1031,7 @@
 [discrete]
 [[security-manager]]
 ==== security-manager (noun)
-*Description*: The "security-manager" subsystem is used to configure security policies used by the Java Security Manager. Write in lower case as two words separated by a hyphen. See xref:security-manager-heading[Security Manager] entry for the correct usage in headings.
+*Description*: The "security-manager" subsystem is used to configure security policies used by the Java Security Manager. Write in lowercase as two words separated by a hyphen. See xref:security-manager-heading[Security Manager] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1086,7 +1053,7 @@
 [discrete]
 [[singleton]]
 ==== singleton (noun)
-*Description*: The "singleton" subsystem is used to configure the behavior of singleton deployments. Write in lower case. See xref:singleton-heading[Singleton] entry for the correct usage in headings.
+*Description*: The "singleton" subsystem is used to configure the behavior of singleton deployments. Write in lowercase. See xref:singleton-heading[Singleton] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1134,7 +1101,7 @@
 [discrete]
 [[transactions]]
 ==== transactions (noun)
-*Description*: The "transactions" subsystem is used to configure options in the Transaction Manager. Write in lower case. See xref:transactions-heading[Transactions] entry for the correct usage in headings.
+*Description*: The "transactions" subsystem is used to configure options in the Transaction Manager. Write in lowercase. See xref:transactions-heading[Transactions] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1156,7 +1123,7 @@
 [discrete]
 [[truststore]]
 ==== truststore (noun)
-*Description*: A "truststore" is a repository of trusted security certificates. Write in lower case as one word. This is in contrast to a "keystore", which stores private and self-certified certificates.
+*Description*: A "truststore" is a repository of trusted security certificates. Write in lowercase as one word. This is in contrast to a "keystore", which stores private and self-certified certificates.
 
 *Use it*: yes
 
@@ -1171,7 +1138,7 @@
 [discrete]
 [[undertow]]
 ==== undertow (noun)
-*Description*: The "undertow" subsystem is used to configure the JBoss EAP web server and servlet container settings. Write in lower case. See xref:undertow-heading[Undertow] entry for the correct usage in headings.
+*Description*: The "undertow" subsystem is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase. See xref:undertow-heading[Undertow] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1208,7 +1175,7 @@
 [discrete]
 [[web-services]]
 ==== Web services (noun)
-*Description*: Use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lower case.
+*Description*: Use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
 
 *Use it*: yes
 
@@ -1230,7 +1197,7 @@
 [discrete]
 [[webservices]]
 ==== webservices (noun)
-*Description*: The "webservices" subsystem is used to configure the Web services provider. Write in lower case as one word. See xref:webservices-heading[Web Services] entry for the correct usage in headings.
+*Description*: The "webservices" subsystem is used to configure the Web services provider. Write in lowercase as one word. See xref:webservices-heading[Web Services] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1241,7 +1208,7 @@
 [discrete]
 [[weld]]
 ==== weld (noun)
-*Description*: The "weld" subsystem is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lower case. See xref:weld-heading[Weld] entry for the correct usage in headings.
+*Description*: The "weld" subsystem is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase. See xref:weld-heading[Weld] entry for the correct usage in headings.
 
 *Use it*: yes
 
@@ -1276,17 +1243,6 @@
 // ***********************
 
 [discrete]
-[[xml]]
-==== XML (noun)
-*Description*: "XML" is an acceptable shortened form of "eXensible Markup Language". Write in uppercase.
-
-*Use it*: yes
-
-*Incorrect forms*: Xml, xml
-
-*See also*:
-
-[discrete]
 [[xp]]
 ==== XP (noun)
 *Description*: "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
@@ -1300,7 +1256,7 @@
 [discrete]
 [[xts]]
 ==== xts (noun)
-*Description*: The "xts" subsystem is used to configure settings for coordinating Web services in a transaction. Write in lower case. Write in lower case as one word. See xref:xts-heading[XTS] entry for the correct usage in headings.
+*Description*: The "xts" subsystem is used to configure settings for coordinating Web services in a transaction. Write in lowercase as one word. See xref:xts-heading[XTS] entry for the correct usage in headings.
 
 *Use it*: yes
 
