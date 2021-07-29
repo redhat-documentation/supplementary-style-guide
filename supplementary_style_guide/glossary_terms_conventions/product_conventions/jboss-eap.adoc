@@ -5,6 +5,17 @@
 // ***********************
 
 [discrete]
+[[activemq]]
+==== ActiveMQ (noun)
+*Description*: Do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
+
+*Use it*: no
+
+*Incorrect forms*: Active MQ, Active-MQ
+
+*See also*: xref:activemq-artemis[ActiveMQ Artemis], xref:jboss-eap-messaging[JBoss EAP messaging]
+
+[discrete]
 [[activemq-artemis]]
 ==== ActiveMQ Artemis (noun)
 *Description*: Use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
@@ -891,17 +902,6 @@
 *Incorrect forms*: remoting
 
 *See also*: xref:remoting[remoting]
-
-[discrete]
-[[repo]]
-==== repo (noun)
-*Description*: Do not use "repo" as a shortened form of "repository". Spell out the full word.
-
-*Use it*: no
-
-*Incorrect forms*:
-
-*See also*:
 
 [discrete]
 [[request-controller-heading]]
