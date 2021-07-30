@@ -1,6 +1,6 @@
 [discrete]
 [[wan]]
-==== WAN (noun)
+==== image:images/yes.png[yes] WAN (noun)
 *Description*: "WAN" is an acronym for wide-area network, which is a computer network that spans a relatively large geographical area. Typically, a WAN consists of two or more local-area networks (LANs). Computers connected to a wide-area network are often connected through public networks, such as the telephone system. Connections can be through leased lines or satellites. The largest WAN in existence is the internet.
 
 *Use it*: yes
@@ -11,7 +11,7 @@
 
 [discrete]
 [[want]]
-==== want (verb)
+==== image:images/yes.png[yes] want (verb)
 *Description*: Use "want" instead of "wish" or "would like." It is better to avoid it entirely by rewriting the sentence.
 
 *Use it*: yes
@@ -22,7 +22,7 @@
 
 [discrete]
 [[wca]]
-==== WCA (noun)
+==== image:images/yes.png[yes] WCA (noun)
 *Description*: "WCA" is an acronym for web clipping application, which is an application that allows users to extract static information from a web server and load that data onto a web-enabled PDA. WCAs are also called query applications.
 
 *Use it*: yes
@@ -33,7 +33,7 @@
 
 [discrete]
 [[we-suggest]]
-==== we suggest (verb)
+==== image:images/no.png[no] we suggest (verb)
 *Description*: Do not use "we suggest." Use a more direct construction or use "recommend." For example, instead of "We suggest that you make a backup of your data disk," write "Back up your data disk," or "It is recommended that you back up your data disk."
 
 *Use it*: no
@@ -44,7 +44,7 @@
 
 [discrete]
 [[web-ui]]
-==== web UI (noun)
+==== image:images/yes.png[yes] web UI (noun)
 *Description*: Use "web UI" to refer to a browser-based interface to a software application, even if that application has no connection to the web. If necessary, spell out web UI on first use. Do not hyphenate the acronym or use the one-word form.
 
 *Use it*: yes
@@ -55,7 +55,7 @@
 
 [discrete]
 [[who]]
-==== who (pronoun)
+==== image:images/yes.png[yes] who (pronoun)
 *Description*: Use the pronoun "who" as a subject, for example, "Who owns this?"
 
 *Use it*: yes
@@ -66,7 +66,7 @@
 
 [discrete]
 [[whom]]
-==== whom (pronoun)
+==== image:images/yes.png[yes] whom (pronoun)
 *Description*: Use the pronoun "whom" as a direct object, an indirect object, or the object of a preposition, for example, "To whom does this belong?"
 
 *Use it*: yes
@@ -77,7 +77,7 @@
 
 [discrete]
 [[will]]
-==== will (verb)
+==== image:images/caution.png[caution] will (verb)
 *Description*: Do not use future tense unless it is absolutely necessary.
 
 *Use it*: with caution
@@ -88,7 +88,7 @@
 
 [discrete]
 [[window-maker]]
-==== Window Maker (noun)
+==== image:images/yes.png[yes] Window Maker (noun)
 *Description*: "Window Maker" is a window manager for the X Window System. Do not combine Window Maker into one word or hyphenate the two words.
 
 *Use it*: yes
@@ -99,7 +99,7 @@
 
 [discrete]
 [[write]]
-==== write (verb)
+==== image:images/yes.png[yes] write (verb)
 *Description*: Use "write" instead of "code" as a verb.
 
 *Use it*: yes
