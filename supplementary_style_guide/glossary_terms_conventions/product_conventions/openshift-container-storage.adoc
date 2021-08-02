@@ -3,7 +3,7 @@
 [discrete]
 [[backing-store]]
 ==== backing store (noun)
-*Description*: A type of storage resource for Multicloud Object Gateway, which is used to store the data like RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage, and so on. 
+*Description*: A type of storage resource for Multicloud Object Gateway, which is used to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage. 
 
 *Use it*: yes
 
@@ -25,7 +25,9 @@
 [discrete]
 [[multicloud-object-gateway]]
 ==== Multicloud Object Gateway (noun)
-*Description*: Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform that allows users to start small and then scale as needed on-premise, in multiple clusters, and with cloud-native storage.
+*Description*: Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premises, in multiple clusters, and with cloud-native storage.
+
+Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform that you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
 
 *Use it*: yes
 
@@ -102,7 +104,7 @@
 [discrete]
 [[red-hat-openshift-container-storage]]
 ==== Red Hat OpenShift Container Storage (noun)
-*Description*: Red Hat's software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms.
+*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms.
 
 *Use it*: yes
 
