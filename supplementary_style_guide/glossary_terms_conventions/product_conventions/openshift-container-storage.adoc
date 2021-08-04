@@ -3,7 +3,7 @@
 [discrete]
 [[backing-store]]
 ==== backing store (noun)
-*Description*: A type of storage resource for Multicloud Object Gateway, which is used to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage. 
+*Description*: A type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage. 
 
 *Use it*: yes
 
@@ -38,7 +38,7 @@ Multicloud Object Gateway (MCG) is a lightweight object storage service for Open
 [discrete]
 [[namespace-bucket]]
 ==== namespace bucket (noun)
-*Description*: Namespace buckets enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are kept plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
+*Description*: Namespace buckets enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
 
 *Use it*: yes
 
@@ -49,7 +49,7 @@ Multicloud Object Gateway (MCG) is a lightweight object storage service for Open
 [discrete]
 [[namespace-store]]
 ==== namespace store (noun)
-*Description*: A type of a resource for Multicloud Object Gateway that is used to store plain data and is used by namespace buckets. The supported stores are S3, Azure, and S3 compatible.
+*Description*: A type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
 
 *Use it*: yes
 
@@ -60,7 +60,7 @@ Multicloud Object Gateway (MCG) is a lightweight object storage service for Open
 [discrete]
 [[object-bucket]]
 ==== object bucket (noun)
-*Description*: A container for storing objects.
+*Description*: A container to store objects.
 
 *Use it*: yes
 
@@ -71,7 +71,7 @@ Multicloud Object Gateway (MCG) is a lightweight object storage service for Open
 [discrete]
 [[object-bucket-claim]]
 ==== object bucket claim (noun)
-*Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. An object bucket claim can be used to request an S3 compatible bucket for the workloads.
+*Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use object bucket claim to request an AWS S3 compatible bucket for the workloads.
 
 *Use it*: yes
 
@@ -82,7 +82,7 @@ Multicloud Object Gateway (MCG) is a lightweight object storage service for Open
 [discrete]
 [[persistent-volume]]
 ==== persistent volume (noun)
-*Description*: A persistent volume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using storage classes. 
+*Description*: A persistent volume (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.
 
 *Use it*: yes
 
@@ -138,7 +138,7 @@ Multicloud Object Gateway (MCG) is a lightweight object storage service for Open
 [discrete]
 [[storage-class]]
 ==== storage class (noun)
-*Description*: A storage class provides a way to describe the classes of storage offered. OpenShift Container Storage offers block, shared file system, and object classes.
+*Description*: Use storage classes to describe the types of storage a product offers. OpenShift Container Storage offers block, shared file system, and object classes.
 
 *Use it*: yes
 
