@@ -679,7 +679,7 @@
 [discrete]
 [[singleton]]
 ==== singleton subsystem (noun)
-*Description*: The "singleton" subsystem is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the xref:singleton[singleton] subsystem in titles and headings.
+*Description*: The "singleton" subsystem is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the singleton subsystem in titles and headings.
 
 *Use it*: yes
 
