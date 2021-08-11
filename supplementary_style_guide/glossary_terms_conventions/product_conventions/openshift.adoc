@@ -437,6 +437,22 @@ _Build an Operator using the Operator SDK._
 *See also*: xref:action[action]
 
 [discrete]
+[[quick-start]]
+==== quick start (noun)
+*Description*: Two types of quick starts exist in OpenShift:
+
+* Quick starts that provide a guided tutorial in the web console.
+* Quick start templates that enable users to start creating new applications quickly.
+
+Ensure that you provide context about which type of quick start you are referring to.
+
+*Use it*: yes
+
+*Incorrect forms*: quickstart, Quickstart
+
+*See also*:
+
+[discrete]
 [[red-hat-openshift-container-platform]]
 ==== Red Hat OpenShift Container Platform (noun)
 *Description*: Red Hat's private, on-premise cloud application deployment and hosting platform.
