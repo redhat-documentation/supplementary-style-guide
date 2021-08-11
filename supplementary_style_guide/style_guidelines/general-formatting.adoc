@@ -10,6 +10,35 @@ Follow _The IBM Style Guide_  guidance of _day Month year_ for date formats, for
 When the format _day Month year_ causes a presentation or clarity issue, use _Month day, year_ (for example, October 3, 2019) instead.
 
 
+[[conscious-language]]
+== Conscious language
+
+The Conscious Language Group is supporting the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects that Red Hat is involved with.
+ 
+.blacklist and whitelist 
+
+When possible, rewrite documentation to avoid these terms.
+
+.Example (before)
+Heat blacklists any servers in the list from receiving updated heat deployments. After the stack operation completes, any blacklisted servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
+
+.Example (after)
+Heat excludes any servers in the list from receiving updated heat deployments. After the stack operation completes, any excluded servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
+
+.Example (before)
+You can exclude overcloud nodes from receiving an updated deployment. This means that the blacklisted nodes are isolated from the effects of the stack operation. 
+
+.Example (after)
+You can exclude overcloud nodes from receiving an updated deployment by listing them in an environment file. The nodes you list are isolated from the effects of the stack operation. 
+
+When it is not possible to remove the terms blacklist and whitelist, replace them with one of the following alternatives:
+
+* blocklist / allowlist: This combination is recommended by _The IBM Style Guide_. Use this combination unless your product area has another specific replacement that is agreed between engineering leadership and your documentation team.
+* denylist / allowlist
+* blocklist / passlist
+
+For more information about the Conscious Language Group, see https://github.com/conscious-lang/conscious-lang-docs.
+
 [[conversational-style]]
 == Conversational style
 
