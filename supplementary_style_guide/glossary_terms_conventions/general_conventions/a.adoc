@@ -76,10 +76,20 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 ==== image:images/yes.png[yes] Applixware (noun)
 *Description*: "Applixware" is a suite of proprietary modular applications for Linux.
 
-
 *Use it*: yes
 
 *Incorrect forms*: Applix, ApplixWare
+
+*See also*:
+
+[discrete]
+[[as-expected]]
+==== image:images/no.png[no] as expected (adverb)
+*Description*: Expectations are relative, use "correctly" instead.
+
+*Use it*: no
+
+*Incorrect forms*:
 
 *See also*:
 
