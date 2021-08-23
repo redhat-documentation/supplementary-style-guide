@@ -1,33 +1,13 @@
 [[red-hat-jboss-eap-conventions]]
 
-
-[discrete]
-[[red-hat-jboss-enterprise-application-platform]]
-==== Red Hat JBoss Enterprise Application Platform (noun)
-*Description*: Red Hat JBoss Enterprise Application Platform is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
-
-*Use it*: yes
-
-*Incorrect forms*: Red Hat JBoss EAP, JBoss Enterprise Application Platform
-
-*See also*: xref:jboss-eap[JBoss EAP]
-
-[discrete]
-[[jboss-eap]]
-==== JBoss EAP (noun)
-*Description*: JBoss EAP is the approved shortened form of xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform].
-
-*Use it*: yes
-
-*Incorrect forms*: EAP, JBoss
-
-*See also*: xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform]
-
+// ***********************
+// Terms starting with 'A'
+// ***********************
 
 [discrete]
 [[activemq]]
 ==== ActiveMQ (noun)
-*Description*: ActiveMQ should not be used by itself when referring to the built-in messaging in JBoss EAP.
+*Description*: Do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
 
 *Use it*: no
 
@@ -38,18 +18,96 @@
 [discrete]
 [[activemq-artemis]]
 ==== ActiveMQ Artemis (noun)
-*Description*: The use of ActiveMQ Artemis should only be used where required, such as an overview section on what is under the hood of the built-in JBoss EAP messaging.
+*Description*: Use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
 
 *Use it*: with caution
 
 *Incorrect forms*: Active MQ Artemis, Active-MQ Artemis
 
-*See also*: xref:activemq[ActiveMQ], xref:jboss-eap-messaging[JBoss EAP messaging]
+*See also*: xref:jboss-eap-messaging[JBoss EAP messaging]
+
+// ***********************
+// Terms starting with 'B'
+// ***********************
+
+[discrete]
+[[batch-jberet]]
+==== batch-jberet subsystem (noun)
+*Description*: The "batch-jberet" subsystem is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the batch-jberet subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[bean-validation]]
+==== bean-validation subsystem (noun)
+*Description*: The "bean-validation" subsystem is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the bean-validation subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[built-in-messaging]]
+==== built-in messaging (noun)
+*Description*: "Built-in messaging" is an acceptable term for referring to the built-in messaging system in JBoss EAP. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
+
+*Use it*: yes
+
+*Incorrect forms*: ActiveMQ, ActiveMQ Artemis
+
+*See also*: xref:jboss-eap-built-in-messaging[JBoss EAP built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
+
+// ***********************
+// Terms starting with 'C'
+// ***********************
+
+[discrete]
+[[core-management]]
+==== core-management subsystem (noun)
+*Description*: The "core-management" subsystem is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the core-management subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// ***********************
+// Terms starting with 'D'
+// ***********************
+
+[discrete]
+[[datasource]]
+==== datasource subsystem (noun)
+*Description*: The "datasource" subsystem is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the datasource subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[deployment-scanner]]
+==== deployment-scanner subsystem (noun)
+*Description*: The "deployment-scanner" subsystem is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the deployment-scanner subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[domain-mode]]
 ==== domain mode (noun)
-*Description*: Do not use when referring to the running instance of JBoss EAP server. See xref:managed-domain[managed domain] entry for the correct usage.
+*Description*: Do not use "domain mode" to refer to the running instance of JBoss EAP server. See the xref:managed-domain[managed domain] entry for the correct usage.
 
 *Use it*: no
 
@@ -57,43 +115,291 @@
 
 *See also*: xref:managed-domain[managed domain]
 
+// ***********************
+// Terms starting with 'E'
+// ***********************
+
 [discrete]
-[[jboss-eap-messaging]]
-==== JBoss EAP messaging (noun)
-*Description*: "JBoss EAP messaging", "JBoss EAP built-in messaging", "built-in messaging" are the appropriate terms for referring to the built-in JBoss EAP messaging.
+[[ee]]
+==== ee subsystem (noun)
+*Description*: The "ee" subsystem is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the ee subsystem in titles and headings.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:activemq[ActiveMQ], xref:activemq-artemis[ActiveMQ Artemis]
+*See also*:
 
 [discrete]
-[[management-cli]]
-==== management CLI (noun)
-*Description*: This is the correct way to refer to the command-line JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
+[[ejb3]]
+==== ejb3 subsystem (noun)
+*Description*: The "ejb3" subsystem is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the ejb3 subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
 
 *Use it*: yes
 
-*Incorrect forms*: CLI, native interface
+*Incorrect forms*:
 
 *See also*:
 
 [discrete]
-[[management-console]]
-==== management console (noun)
-*Description*: This is the correct way to refer to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
+[[elytron]]
+==== elytron subsystem (noun)
+*Description*: The "elytron" subsystem is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the elytron subsystem in titles and headings. See the xref:security-elytron[Security - Elytron] entry for the correct usage when referring to the elytron subsystem in the management console.
 
 *Use it*: yes
 
-*Incorrect forms*: GUI, HTTP interface
+*Incorrect forms*:
+
+*See also*: xref:security-elytron[Security - Elytron]
+
+[discrete]
+[[expansion-pack]]
+==== Expansion Pack (noun)
+*Description*: "Expansion Pack" is a JBoss EAP add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:xp[XP]
+
+// ***********************
+// Terms starting with 'H'
+// ***********************
+
+[discrete]
+[[http-interface]]
+==== HTTP interface (noun)
+*Description*: "HTTP interface" is an interface accessed using hypertext transfer protocol. Do not use “HTTP interface” to refer to the JBoss EAP management console. See the xref:management-console[management console] entry for the correct usage.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:management-console[management console]
+
+// ***********************
+// Terms starting with 'I'
+// ***********************
+
+[discrete]
+[[iiop-openjdk]]
+==== iiop-openjdk subsystem (noun)
+*Description*: The "iiop-openjdk" subsystem is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the iiop-openjdk subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[io]]
+==== io subsystem (noun)
+*Description*: The "io" subsystem is used to define workers and buffer pools used by other subsystems. In general text, write in lowercase as one word. Use "IO subsystem" when referring to the io subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// ***********************
+// Terms starting with 'J'
+// ***********************
+
+[discrete]
+[[jaxrs]]
+==== jaxrs subsystem (noun)
+*Description*: The "jaxrs" subsystem enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the jaxrs subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jboss-amq-eap]]
+==== JBoss AMQ (noun)
+*Description*: Do not use "JBoss AMQ" to refer to the Red Hat messaging queue product. This product has been renamed "Red Hat AMQ".
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:red-hat-amq[Red Hat AMQ]
+
+[discrete]
+[[jboss-eap]]
+==== JBoss EAP (noun)
+*Description*: "JBoss EAP" is the approved shortened form of xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform].
+
+*Use it*: yes
+
+*Incorrect forms*: EAP, JBoss
+
+*See also*: xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform]
+
+[discrete]
+[[jboss-eap-built-in-messaging]]
+==== JBoss EAP built-in messaging (noun)
+*Description*: "JBoss EAP built-in messaging" is an acceptable term for referring to the built-in messaging system in JBoss EAP. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
+
+*Use it*: yes
+
+*Incorrect forms*: ActiveMQ, ActiveMQ Artemis
+
+*See also*: xref:built-in-messaging[built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
+
+[discrete]
+[[jboss-eap-messaging]]
+==== JBoss EAP messaging (noun)
+*Description*: "JBoss EAP messaging" is an acceptable term for referring to the built-in messaging system in JBoss EAP. Other acceptable terms are "built-in messaging" and "JBoss EAP built-in messaging".
+
+*Use it*: yes
+
+*Incorrect forms*: ActiveMQ, ActiveMQ Artemis
+
+*See also*: xref:built-in-messaging[built-in messaging], xref:jboss-eap-built-in-messaging[JBoss EAP built-in messaging]
+
+[discrete]
+[[jca]]
+==== jca subsystem (noun)
+*Description*: The "jca" subsystem is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the jca subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jdr]]
+==== jdr subsystem (noun)
+*Description*: The "jdr" subsystem is used to gather diagnostic data to support troubleshooting. In general text, write in lowercase as one word. Use "JDR subsystem" when referring to the jdr subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jgroups]]
+==== jgroups subsystem (noun)
+*Description*: The "jgroups" subsystem is used to configure protocol stacks and communication mechanisms for servers in a cluster. In general text, write in lower case as one word. Use "JGroups subsystem" when referring to the jgroups subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'G'.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jmx]]
+==== jmx subsystem (noun)
+*Description*: The "jmx" subsystem is used to configure remote Java Management Extensions (JMX) access. In general text, write in lowercase as one word. Use "JMX subsystem" when referring to the jmx subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jpa]]
+==== jpa subsystem (noun)
+*Description*: The "jpa" subsystem is used to manage requirements of the Java Persistence API. In general text, write in lowercase as one word. Use "JPA subsystem" when referring to the jpa subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jsf]]
+==== jsf subsystem (noun)
+*Description*: The "jsf" subsystem is used to manage JavaServer Faces implementations. In general text, write in lowercase as one word. Use "JSF subsystem" when referring to the jsf subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[jsr77]]
+==== jsr77 subsystem (noun)
+*Description*: The "jsr77" subsystem provides Java EE management capabilities defined by the JSR-77 specification. In general text, write in lowercase as one word. Use "JSR-77 subsystem" when referring to the jsr77 subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JSR' and '77'.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// ***********************
+// Terms starting with 'K'
+// ***********************
+
+[discrete]
+[[keystore]]
+==== keystore (noun)
+*Description*: A "keystore" is a repository for private and self-certified security certificates. Write in lowercase as one word. This is in contrast to a "truststore", which stores trusted security certificates.
+
+*Use it*: yes
+
+*Incorrect forms*: key store
+
+*See also*: xref:truststore[truststore]
+
+// ***********************
+// Terms starting with 'L'
+// ***********************
+
+[discrete]
+[[load-balance]]
+==== load balance (verb)
+*Description*: The compound verb "load balance" means to distribute processing requests among a set of servers.
+
+*Use it*: yes
+
+*Incorrect forms*: load-balance, load-balancing
+
+*See also*:
+
+[discrete]
+[[logging]]
+==== logging subsystem (noun)
+*Description*: The "logging" subsystem is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// ***********************
+// Terms starting with 'M'
+// ***********************
+
+[discrete]
+[[mail]]
+==== mail subsystem (noun)
+*Description*: The "mail" subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lowercase in general text. Use "Mail subsystem" when referring to the mail subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
 [discrete]
 [[managed-domain]]
 ==== managed domain (noun)
-*Description*: This is the appropriate way to refer to the managed domain operating mode, for example, "When running the JBoss EAP server in a managed domain".
+*Description*: A "managed domain" is a group of JBoss EAP instances managed from a single control point. This is the appropriate way to refer to the managed domain operating mode. For example, "When running the JBoss EAP server in a managed domain".
 
 *Use it*: yes
 
@@ -102,9 +408,278 @@
 *See also*: xref:domain-mode[domain mode]
 
 [discrete]
+[[management-cli]]
+==== management CLI (noun)
+*Description*: Use "management CLI" to refer to the command line interface for the JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: CLI, native interface
+
+*See also*: xref:cli-eap[CLI], xref:native-interface[native interface]
+
+[discrete]
+[[management-console]]
+==== management console (noun)
+*Description*: Use "management console" to refer to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: GUI, HTTP interface
+
+*See also*: xref:http-interface[HTTP interface]
+
+[discrete]
+[[messaging-activemq]]
+==== messaging-activemq subsystem (noun)
+*Description*: The "messaging-activemq" subsystem is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the messaging-activemq subsystem in titles and headings. See the xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the messaging-activemq subsystem in the management console.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:messaging-activemq-management[Messaging - ActiveMQ], xref:messaging-subsystem[messaging subsystem]
+
+[discrete]
+[[messaging-activemq-management]]
+==== Messaging - ActiveMQ (noun)
+*Description*: Use "Messaging - ActiveMQ" when describing the messaging-activemq subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "MQ" is also in uppercase.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-subsystem[messaging subsystem]
+
+[discrete]
 [[messaging-subsystem]]
-==== Messaging subsystem (noun)
-*Description*: It is fine to refer to the JBoss EAP 7 "messaging-activemq" subsystem generically as the "messaging subsystem", where appropriate.
+==== messaging subsystem (noun)
+*Description*: "Messaging subsystem" is an acceptable generic term for referring to the messaging-activemq subsystem. Capitalize "messaging" only at the beginning of a sentence. However, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the messaging-activemq subsystem in the management console.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-activemq-management[Messaging - ActiveMQ]
+
+[discrete]
+[[microsoft-windows]]
+==== Microsoft Windows (noun)
+*Description*: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. See the xref:windows-server[Windows Server] entry for the correct usage.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:windows-server[Windows Server]
+
+[discrete]
+[[modcluster]]
+==== modcluster subsystem (noun)
+*Description*: The "modcluster" subsystem is used to configure modcluster worker nodes. In general text, write in lowercase as one word. Use "ModCluster subsystem" when referring to the modcluster subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// ***********************
+// Terms starting with 'N'
+// ***********************
+
+[discrete]
+[[naming]]
+==== naming subsystem (noun)
+*Description*: The "naming" subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[native-interface]]
+==== native interface (noun)
+*Description*: Do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. See the xref:management-cli[management CLI] entry for the correct usage.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:management-cli[management CLI]
+
+// ***********************
+// Terms starting with 'P'
+// ***********************
+
+[discrete]
+[[picketlink-federation]]
+==== picketlink-federation subsystem (noun)
+*Description*: The "picketlink-federation" subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). In general text, write in lowercase as two words separated by a hyphen. Use "PicketLink Federation subsystem" when referring to the picketlink-federation subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'L'.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[picketlink-identity-management]]
+==== picketlink-identity-management subsystem(noun)
+*Description*: The "picketlink-identity-management" subsystem is used to configure identity management services. In general text, write in lowercase as three words separated by hyphens. Use "PicketLink Identity Management subsystem" when referring to the picketlink-identity-management subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'L'.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:picketlink-identity-management-heading[PicketLink Identity Management]
+
+[discrete]
+[[pojo]]
+==== pojo subsystem (noun)
+*Description*: The "pojo" subsystem enables deployment of applications containing JBoss Microcontainer services. In general text, write in lowercase as one word. Use "POJO subsystem" when referring to the pojo subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// ***********************
+// Terms starting with 'R'
+// ***********************
+
+[discrete]
+[[red-hat-amq]]
+==== Red Hat AMQ (noun)
+*Description*: "Red Hat AMQ" is the official name of the Red Hat messaging queue product.
+
+*Use it*: yes
+
+*Incorrect forms*: JBoss AMQ, Red Hat JBoss AMQ
+
+*See also*: xref:jboss-amq-eap[JBoss AMQ]
+
+[discrete]
+[[red-hat-customer-portal]]
+==== Red Hat Customer Portal (noun)
+*Description*: "Red Hat Customer Portal" is the official name of the customer portal at https://access.redhat.com.
+
+*Use it*: yes
+
+*Incorrect forms*: Customer Portal
+
+*See also*:
+
+[discrete]
+[[red-hat-jboss-enterprise-application-platform]]
+==== Red Hat JBoss Enterprise Application Platform (noun)
+*Description*: "Red Hat JBoss Enterprise Application Platform" is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat JBoss EAP, JBoss Enterprise Application Platform
+
+*See also*: xref:jboss-eap[JBoss EAP]
+
+[discrete]
+[[remoting]]
+==== remoting subsystem (noun)
+*Description*: The "remoting" subsystem is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[request-controller]]
+==== request-controller subsystem (noun)
+*Description*: The "request-controller" subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[resource-adapters]]
+==== resource-adapters subsystem (noun)
+*Description*: The "resource-adapters" subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:resource-adapters-heading[Resource Adapters]
+
+[discrete]
+[[rts]]
+==== rts subsystem (noun)
+*Description*: The "rts" subsystem is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the rts subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// ***********************
+// Terms starting with 'S'
+// ***********************
+
+[discrete]
+[[sar]]
+==== sar subsystem (noun)
+*Description*: The "sar" subsystem enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the sar subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[security]]
+==== security subsystem (noun)
+*Description*: The legacy security subsystem in JBoss EAP is called "security". Write in lowercase in general text. Use "Security subsystem" when referring to the legacy security subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[security-elytron]]
+==== Security - Elytron (noun)
+*Description*: Use “Security - Elytron” when describing the elytron subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:elytron[elytron]
+
+[discrete]
+[[security-manager]]
+==== security-manager subsystem (noun)
+*Description*: The "security-manager" subsystem is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the security-manager subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[singleton]]
+==== singleton subsystem (noun)
+*Description*: The "singleton" subsystem is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the singleton subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -115,7 +690,7 @@
 [discrete]
 [[standalone-mode]]
 ==== standalone mode (noun)
-*Description*: Do not use to refer to the standalone operating mode of JBoss EAP server.
+*Description*: Do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. See the xref:standalone-server[standalone server] entry for the correct usage.
 
 *Use it*: no
 
@@ -126,7 +701,7 @@
 [discrete]
 [[standalone-server]]
 ==== standalone server (noun)
-*Description*: This is the appropriate way to refer to the standalone operating mode. For example, when running JBoss EAP as a standalone server.
+*Description*: Use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
 
 *Use it*: yes
 
@@ -134,24 +709,129 @@
 
 *See also*: xref:standalone-mode[standalone mode]
 
+// ***********************
+// Terms starting with 'T'
+// ***********************
+
 [discrete]
-[[web-services]]
-==== Web services (noun)
-*Description*: Use as two words.
+[[transactions]]
+==== transactions subsystem (noun)
+*Description*: The "transactions" subsystem is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the transactions subsystem in titles and headings.
 
 *Use it*: yes
 
-*Incorrect forms*: webservices
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[truststore]]
+==== truststore (noun)
+*Description*: A "truststore" is a repository of trusted security certificates. Write in lowercase as one word. This is in contrast to a "keystore", which stores private and self-certified certificates.
+
+*Use it*: yes
+
+*Incorrect forms*: trust store
+
+*See also*: xref:keystore[keystore]
+
+// ***********************
+// Terms starting with 'U'
+// ***********************
+
+[discrete]
+[[undertow]]
+==== undertow subsystem(noun)
+*Description*: The "undertow" subsystem is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the undertow subsystem in titles and headings. See the xref:webhttp-undertow[WebHTTP - Undertow] entry for the correct usage when referring to the undertow subsystem in the management console.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:WebHTTP - Undertow[webhttp-undertow]
+
+
+// ***********************
+// Terms starting with 'W'
+// ***********************
+
+[discrete]
+[[webhttp-undertow]]
+==== WebHTTP - Undertow (noun)
+*Description*: Use "WebHTTP - Undertow" when describing the undertow subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:undertow[undertow]
+
+[discrete]
+[[web-services]]
+==== Web services (noun)
+*Description*: Use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
+
+*Use it*: yes
+
+*Incorrect forms*: webservices, web services, Web Services
+
+*See also*:
+
+[discrete]
+[[webservices]]
+==== webservices subsystem (noun)
+*Description*: The "webservices" subsystem is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the webservices subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[weld]]
+==== weld subsystem (noun)
+*Description*: The "weld" subsystem is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the weld subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
 [discrete]
 [[windows-server]]
 ==== Windows Server (noun)
-*Description*: This uppercase term is correct when referring to Microsoft’s Windows Server product or Windows-specific commands and scripts like `standalone.bat`. "Microsoft" does not precede the product name.
+*Description*: Use "Windows Server" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. Do not precede the product name with "Microsoft".
 
 *Use it*: yes
 
-*Incorrect forms*: Microsoft Windows, Windows
+*Incorrect forms*: Microsoft Windows Server, Microsoft Windows, Windows
+
+*See also*: xref:microsoft-windows[Microsoft Windows]
+
+// ***********************
+// Terms starting with 'X'
+// ***********************
+
+[discrete]
+[[xp]]
+==== XP (noun)
+*Description*: "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
+
+*Use it*: yes
+
+*Incorrect forms*: Xp, xp
+
+*See also*: xref:expansion-pack[Expansion Pack]
+
+[discrete]
+[[xts]]
+==== xts subsystem (noun)
+*Description*: The "xts" subsystem is used to configure settings for coordinating Web services in a transaction. In general text, write in lowercase as one word. Use "XTS subsystem" when referring to the xts subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
