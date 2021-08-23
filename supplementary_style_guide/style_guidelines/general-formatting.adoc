@@ -29,7 +29,7 @@ Heat excludes any servers in the list from receiving updated heat deployments. A
 The following steps demonstrate adding a new rule to whitelist a custom binary.
 
 .Example (after)
-You can exclude overcloud nodes from receiving an updated deployment by listing them in an environment file. The nodes you list are isolated from the effects of the stack operation. 
+The following steps demonstrate adding a new rule to allow a custom binary.
 
 When it is not possible to remove the terms blacklist and whitelist, replace them with one of the following alternatives:
 
