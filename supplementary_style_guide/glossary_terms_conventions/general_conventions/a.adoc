@@ -85,7 +85,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[as-expected]]
 ==== image:images/no.png[no] as expected (adverb)
-*Description*: Expectations are relative, use "correctly" instead.
+*Description*: Expectations are relative; use "correctly" instead.
 
 *Use it*: no
 
