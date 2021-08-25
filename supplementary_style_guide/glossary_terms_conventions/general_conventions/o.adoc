@@ -174,12 +174,14 @@ using the Kubernetes APIs and `kubectl` or `oc` tooling.
 
 The term "Operator" in the context of Kubernetes is always capitalized to distinguish it from other types of operators, such as human or mathematical operators. For example:
 
+.Example: Kubernetes Operator
 ----
 = Support policy for unmanaged Operators
 
 Individual Operators have a `managementState` parameter in their configuration.
 ----
 
+.Example: Mathematical operator
 ----
 The following operators and operands are supported in Drools Rule Language:
 
@@ -207,7 +209,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Incorrect forms*: operator, operatorize
 
-*See also*: link:https://github.com/openshift/openshift-docs/blob/main/contributing_to_docs/doc_guidelines.adoc#api-object-formatting[API object formatting] in OpenShift documentation guidelines
+*See also*: xref:api-objects[API objects]
 
 [discrete]
 [[organization-administrator]]
