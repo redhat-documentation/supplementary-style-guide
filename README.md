@@ -2,7 +2,7 @@
 
 ## About
 
-The purpose of this project is to create an official _Red Hat supplementary style guide for product documentation_, supplementing _The IBM Style Guide_, in direct support of cross-product solution documentation issues. The intended users are product documentation teams at Red Hat and upstream project contributors.
+The purpose of this project is to create an official _Red Hat supplementary style guide for product documentation_, supplementing the _IBM Style Guide_, in direct support of cross-product solution documentation issues. The intended users are product documentation teams at Red Hat and upstream project contributors.
 
 View the latest version of the guide: [Red Hat supplementary style guide for product documentation](https://redhat-documentation.github.io/supplementary-style-guide/)
 

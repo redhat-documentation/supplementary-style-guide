@@ -15,7 +15,7 @@ include::introduction/contributing.adoc[leveloffset=+2]
 [[style-guidelines]]
 == Style guidelines
 
-These recommendations might override existing guidance in _The IBM Style Guide_, or might provide guidance for items not covered in _The IBM Style Guide_.
+These recommendations might override existing guidance in the _IBM Style Guide_, or might provide guidance for items not covered in the _IBM Style Guide_.
 
 [NOTE]
 ====
