@@ -207,7 +207,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Use it*: yes
 
-*Incorrect forms*: operator, operatorize
+*Incorrect forms*: Kubernetes operator, operatorize
 
 *See also*: xref:api-objects[API objects]
 
