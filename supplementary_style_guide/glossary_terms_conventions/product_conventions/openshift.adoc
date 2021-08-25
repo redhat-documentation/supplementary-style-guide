@@ -391,7 +391,6 @@ allowed for use across all distribution documentation:
 
 *See also*: xref:okd[OKD]
 
-[discrete]
 [[operator]]
 ==== Operator
 *Description*: An Operator is a method of packaging, deploying, and managing a
@@ -399,14 +398,36 @@ Kubernetes application. A Kubernetes application is an application that is both
 deployed on a Kubernetes cluster (including OpenShift clusters) and managed
 using the Kubernetes APIs and `kubectl` or `oc` tooling.
 
+The term "Operator" in the context of Kubernetes is always capitalized to distinguish it from other types of operators, such as human or mathematical operators. For example:
+
+----
+= Support policy for unmanaged Operators
+
+Individual Operators have a `managementState` parameter in their configuration.
+----
+
+----
+The following operators and operands are supported in Drools Rule Language:
+
+* + (addition)
+* - (subtraction)
+...
+----
+
+An Operator's full name must be a proper noun, with each word initially
+capitalized. If it includes a product name, defer the product's capitalization
+style guidelines. For example:
+
+- Red Hat OpenShift Logging Operator
+- Prometheus Operator
+- etcd Operator
+- Node Tuning Operator
+- Cluster Version Operator
+
 While "containerized" is allowed, do not use "Operatorize" to refer to building
 an Operator that packages an application.
 
-Examples of correct usage:
-
-_Install the etcd Operator._
-
-_Build an Operator using the Operator SDK._
+NOTE: When referring generally to other Kubernetes components, such as pods, nodes, or image streams, use lowercase. When referring to a specific component, follow the capitalization of the component name and apply monospace formatting, such as "the `Pod` spec", "a `Node` object", or "an `ImageStream` resource".
 
 *Use it*: yes
 
