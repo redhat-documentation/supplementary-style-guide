@@ -111,17 +111,6 @@
 *See also*:
 
 [discrete]
-[[host-name]]
-==== image:images/yes.png[yes] host name (noun)
-*Description*: "Host name" is the preferred spelling; do not use "hostname." Only capitalize the initial "H" at the beginning of a sentence.
-
-*Use it*: yes
-
-*Incorrect forms*: hostname
-
-*See also*:
-
-[discrete]
 [[hot-add]]
 ==== image:images/yes.png[yes] hot add (verb)
 *Description*: "Hot add" is the ability to add physical or virtual hardware to a running system without the need for downtime.

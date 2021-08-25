@@ -4,6 +4,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [August 2021](#2021-august)
 * [July 2021](#2021-july)
 * [June 2021](#2021-june)
 * [May 2021](#2021-may)
@@ -13,7 +14,12 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of July 26 2021 -->
+<!-- Updated as of August 25 2021 -->
+
+<a name="2021-august"></a>
+## August 2021
+
+* Council decided to follow IBM Style Guide "hostname" one word guidance
 
 <a name="2021-july"></a>
 ## July 2021
