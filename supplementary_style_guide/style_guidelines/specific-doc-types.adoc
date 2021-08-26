@@ -39,7 +39,7 @@ Not a complete sentence: This prerequisite is acceptable if all the other prereq
 [[release-notes-doc-texts]]
 === Release notes doc texts
 
-A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with _The IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type:
+A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with the _IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type: 
 
 * Enhancement
 * Bug fix
