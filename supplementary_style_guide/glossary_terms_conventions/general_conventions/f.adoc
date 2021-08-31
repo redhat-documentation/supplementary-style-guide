@@ -117,7 +117,7 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 [discrete]
 [[fqdn]]
 ==== image:images/yes.png[yes] FQDN (noun)
-*Description*: "FQND" is an acronym for fully qualified domain name. A FQDN consists of a host and domain name, including top-level domain. For example, www.redhat.com is a fully qualified domain name. www is the host, redhat is the second-level domain, and .com is the top-level domain. A FQDN always starts with a host name and continues all the way up to the top-level domain name, so www.parc.xerox.com is also a FQDN.
+*Description*: "FQDN" is an acronym for fully qualified domain name. A FQDN consists of a host and domain name, including top-level domain. For example, www.redhat.com is a fully qualified domain name. www is the host, redhat is the second-level domain, and .com is the top-level domain. A FQDN always starts with a hostname and continues all the way up to the top-level domain name, so www.parc.xerox.com is also a FQDN.
 
 *Use it*: yes
 

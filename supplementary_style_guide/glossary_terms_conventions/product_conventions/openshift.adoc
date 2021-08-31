@@ -484,7 +484,7 @@ _Build an Operator using the Operator SDK._
 [discrete]
 [[route]]
 ==== route (noun)
-*Description*: A route exposes a service at a host name, like www.example.com, so that external clients can reach it by name.
+*Description*: A route exposes a service at a hostname, like www.example.com, so that external clients can reach it by name.
 
 *Use it*: yes
 
@@ -517,7 +517,7 @@ _Build an Operator using the Operator SDK._
 [discrete]
 [[skydns]]
 ==== SkyDNS (noun)
-*Description*: A component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal host names for services and pods.
+*Description*: A component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal hostnames for services and pods.
 
 *Use it*: yes
 
