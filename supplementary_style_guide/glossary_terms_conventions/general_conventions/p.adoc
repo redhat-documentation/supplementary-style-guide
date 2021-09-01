@@ -12,7 +12,7 @@
 [discrete]
 [[pc]]
 ==== image:images/yes.png[yes] PC (noun)
-*Description*: "PC" is an acronym for personal computer. See _The IBM Style Guide_ for further information.
+*Description*: "PC" is an acronym for personal computer. See the _IBM Style Guide_ for further information.
 
 *Use it*: yes
 

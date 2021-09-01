@@ -5,7 +5,7 @@
 [[date-formats]]
 == Date formats
 
-Follow _The IBM Style Guide_  guidance of _day Month year_ for date formats, for example, 3 October 2019.
+Follow the _IBM Style Guide_  guidance of _day Month year_ for date formats, for example, 3 October 2019.
 
 When the format _day Month year_ causes a presentation or clarity issue, use _Month day, year_ (for example, October 3, 2019) instead.
 
@@ -42,7 +42,7 @@ For more information about the Conscious Language Group, see https://github.com/
 [[conversational-style]]
 == Conversational style
 
-Follow _The IBM Style Guide_ guidance of _less conversational_ style in most cases.
+Follow the _IBM Style Guide_ guidance of _less conversational_ style in most cases.
 
 As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
 
@@ -55,7 +55,7 @@ Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation 
 
 Avoid contractions in product documentation to leave no ambiguity and to make it easier for translation and international audiences.
 
-If you are writing quickstart or other content that uses a more informal xref:#conversational-style[conversational style] (_fairly conversational_ or _more conversational_), you may use contractions. In this case, follow the guidance in _The IBM Style Guide_ on using contractions.
+If you are writing quickstart or other content that uses a more informal xref:#conversational-style[conversational style] (_fairly conversational_ or _more conversational_), you may use contractions. In this case, follow the guidance in the _IBM Style Guide_ on using contractions.
 
 [[user-replaced-values]]
 == User-replaced values

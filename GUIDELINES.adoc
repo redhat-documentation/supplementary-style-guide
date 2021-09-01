@@ -124,7 +124,7 @@ Use the following template when adding a new style guide entry:
 
 * Do not combine multiple guidelines into one entry.
 
-* Do not add style entries that duplicate guidance already covered by _The IBM Style Guide_.
+* Do not add style entries that duplicate guidance already covered by the _IBM Style Guide_.
 
 * Avoid linking to other resources to provide the style guidance. Incorporate the guidance from other resources into the entry description.
 
