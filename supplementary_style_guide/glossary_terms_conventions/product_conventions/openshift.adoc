@@ -278,7 +278,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-
 [discrete]
 [[minion]]
 ==== minion (noun)

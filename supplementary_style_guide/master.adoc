@@ -188,6 +188,9 @@ include::glossary_terms_conventions/product_conventions/fuse.adoc[leveloffset=+1
 ==== Red Hat OpenShift
 include::glossary_terms_conventions/product_conventions/openshift.adoc[leveloffset=+1]
 
+==== Red Hat OpenShift Container Storage
+include::glossary_terms_conventions/product_conventions/openshift-container-storage.adoc[leveloffset=+1]
+
 ==== Red Hat OpenStack Platform
 include::glossary_terms_conventions/product_conventions/red-hat-openstack-platform.adoc[leveloffset=+1]
 
