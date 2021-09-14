@@ -13,7 +13,7 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 [[conscious-language]]
 == Conscious language
 
-The Conscious Language Group is supporting the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects that Red Hat is involved with.
+The Conscious Language Group supports the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red Hat is involved.
 For more information about the Conscious Language Group, see https://github.com/conscious-lang/conscious-lang-docs.
 
 === blacklist and whitelist 
