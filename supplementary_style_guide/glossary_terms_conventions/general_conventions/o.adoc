@@ -167,7 +167,7 @@
 [discrete]
 [[organization-administrator]]
 ==== image:images/yes.png[yes] Organization Administrator (noun)
-*Description*: From https://access.redhat.com/articles/1757953[Roles and Permissions for Red Hat Customer Portal]: Organization Administrator: This is the highest permission level with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
+*Description*: From https://access.redhat.com/articles/1757953[Roles and Permissions for Red Hat Customer Portal]: Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
 
 Use Organization Administrator as a proper noun when referring to the Organization Administrator role for a Red Hat corporate account.
 
