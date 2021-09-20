@@ -392,27 +392,9 @@ allowed for use across all distribution documentation:
 *See also*: xref:okd[OKD]
 
 [discrete]
-[[operator]]
+[[operator-openshift]]
 ==== Operator
-*Description*: An Operator is a method of packaging, deploying, and managing a
-Kubernetes application. A Kubernetes application is an application that is both
-deployed on a Kubernetes cluster (including OpenShift clusters) and managed
-using the Kubernetes APIs and `kubectl` or `oc` tooling.
-
-While "containerized" is allowed, do not use "Operatorize" to refer to building
-an Operator that packages an application.
-
-Examples of correct usage:
-
-_Install the etcd Operator._
-
-_Build an Operator using the Operator SDK._
-
-*Use it*: yes
-
-*Incorrect forms*: operator, operatorize
-
-*See also*: xref:api-objects[API objects]
+See xref:operator[Operator] in the _General Conventions_ part.
 
 [discrete]
 [[pod]]

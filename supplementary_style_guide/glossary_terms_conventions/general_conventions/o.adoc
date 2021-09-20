@@ -165,6 +165,51 @@
 *See also*:
 
 [discrete]
+[[operator]]
+==== image:images/yes.png[yes] Operator (noun)
+*Description*: In the context of Kubernetes, an Operator is a method of packaging, deploying, and managing a
+Kubernetes application. A Kubernetes application is an application that is both deployed on a Kubernetes cluster (including OpenShift clusters) and managed using the Kubernetes APIs and `kubectl` or `oc` tooling.
+
+The term "Operator" in the context of Kubernetes is always capitalized to distinguish it from other types of operators, such as human or mathematical operators.
+
+.Example: Kubernetes Operator
+----
+= Support policy for unmanaged Operators
+
+Individual Operators have a `managementState` parameter in their configuration.
+----
+
+.Example: Mathematical operator
+----
+The following operators and operands are supported in Drools Rule Language:
+
+* + (addition)
+* - (subtraction)
+...
+----
+
+An Operator's full name must be a proper noun, with each word initially
+capitalized. If it includes a product name, defer to the product's capitalization
+style guidelines. For example:
+
+- Red Hat OpenShift Logging Operator
+- Prometheus Operator
+- etcd Operator
+- Node Tuning Operator
+- Cluster Version Operator
+
+Although "containerized" is allowed, do not use "Operatorize" to refer to building
+an Operator that packages an application.
+
+NOTE: When referring generally to other Kubernetes components, such as pods, nodes, or image streams, use lowercase. When referring to a specific component, follow the capitalization of the component name and apply monospace formatting, such as "the `Pod` spec", "a `Node` object", or "an `ImageStream` resource".
+
+*Use it*: yes
+
+*Incorrect forms*: Kubernetes operator, operatorize
+
+*See also*: xref:api-objects[API objects]
+
+[discrete]
 [[organization-administrator]]
 ==== image:images/yes.png[yes] Organization Administrator (noun)
 *Description*: From https://access.redhat.com/articles/1757953[Roles and Permissions for Red Hat Customer Portal]: Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
