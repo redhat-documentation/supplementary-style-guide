@@ -39,6 +39,9 @@ include::style_guidelines/graphical-interfaces.adoc[leveloffset=+2]
 // Specific documentation types
 // include::style_guidelines/specific-doc-types.adoc[leveloffset=+2]
 
+// Managed cloud services documentation types
+// include::style_guidelines/managed-services.adoc[leveloffset=+2]
+
 // Links
 include::style_guidelines/links.adoc[leveloffset=+2]
 

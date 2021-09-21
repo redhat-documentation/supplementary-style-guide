@@ -1,0 +1,38 @@
+[[managed-services]]
+= Managed cloud services
+
+Managed cloud services, also referred to as cloud services, are applications that run on a platform backed by data storage infrastructure and are hosted and managed by Red Hat on behalf of the customer. Managed cloud services provide rapid iteration and can more quickly deliver updated product functionality.
+
+This means a product is no longer running exclusively in the customer’s infrastructure but is a service running in the cloud that is operated and maintained by Red Hat.
+
+Red Hat is now responsible for ensuring the service is secure, scalable, performant, and available 24x7.
+
+This section describes the different types of managed cloud services and provides guidelines for creating content for them.
+
+/////
+[[template]]
+== Template
+
+Definition including where and when it use it, and the intended audience
+
+Guidelines including
+* voice
+* localization concerns
+* accssibility issues
+
+Links to additional resources
+/////
+
+[[microcopy]]
+== Microcopy
+
+
+
+
+
+[[service-defintion]]
+== Service defintion
+
+
+[[topics-assemblies]]
+== Topics and assemblies
