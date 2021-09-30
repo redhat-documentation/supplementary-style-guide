@@ -183,7 +183,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[vnic]]
 ==== image:images/yes.png[yes] vNIC (noun)
-*Description*: "vNIC" is an abbreviation for virtual network interface card. Use lowercase v and uppercase NIC for the abbreviation, but all lowercase for the expansion, except at the beginning of a sentence.
+*Description*: "vNIC" is an abbreviation for virtual network interface controller. Use lowercase v and uppercase NIC for the abbreviation, but all lowercase for the expansion, except at the beginning of a sentence.
 
 *Use it*: yes
 

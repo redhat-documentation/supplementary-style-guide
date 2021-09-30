@@ -22,6 +22,28 @@
 *See also*:
 
 [discrete]
+[[network-interface-card]]
+==== image:images/no.png[no] network interface card
+*Description*: Do not use "network interface card" for the acronym "NIC". Use "network interface controller" instead.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:network-interface-controller[network interface controller]
+
+[discrete]
+[[network-interface-controller]]
+==== image:images/yes.png[yes] network interface controller (NIC)
+*Description*: The physical or virtual hardware that provides Ethernet connectivity between a host or virtual machine and a network.
+
+*Use it*: yes
+
+*Incorrect forms*: network interface card
+
+*See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
+
+[discrete]
 [[network-transparency]]
 ==== image:images/yes.png[yes] network transparency (noun)
 
@@ -32,6 +54,17 @@
 *Incorrect forms*:
 
 *See also*:
+
+[discrete]
+[[nic]]
+==== image:images/yes.png[yes] NIC
+*Description*: "NIC" is an acronym for "network interface controller".
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
 
 [discrete]
 [[node]]
