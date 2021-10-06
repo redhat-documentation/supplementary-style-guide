@@ -517,7 +517,7 @@
 
 [discrete]
 [[sudo]]
-==== image:images/caution.png[caution] sudo (noun)
+==== image:images/caution.png[with caution] sudo (noun)
 *Description*: `sudo` is a command that allows a user to run a program as another user (the root user by default). When a user requires elevated privileges, using the phrase 'as the root user' prior to a command is preferred over prefixing commands with `sudo`.
 
 *Use it*: with caution

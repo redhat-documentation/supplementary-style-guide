@@ -160,7 +160,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 
 [discrete]
 [[virtualized-guest]]
-==== image:images/caution.png[caution] virtualized guest (noun)
+==== image:images/caution.png[with caution] virtualized guest (noun)
 *Description*: A "virtualized guest" is a virtual machine (VM). Use virtualized guest only when comparing a "fully virtualized guest" with a "paravirtualized guest."
 
 *Use it*: with caution

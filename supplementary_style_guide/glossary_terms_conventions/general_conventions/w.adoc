@@ -77,7 +77,7 @@
 
 [discrete]
 [[will]]
-==== image:images/caution.png[caution] will (verb)
+==== image:images/caution.png[with caution] will (verb)
 *Description*: Do not use future tense unless it is absolutely necessary.
 
 *Use it*: with caution
