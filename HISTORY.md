@@ -4,6 +4,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [September 2021](#2021-september)
 * [August 2021](#2021-august)
 * [July 2021](#2021-july)
 * [June 2021](#2021-june)
@@ -14,11 +15,23 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of August 25 2021 -->
+<!-- Updated as of October 6 2021 -->
+
+<a name="2021-september"></a>
+## September 2021
+
+* Updated and moved glossary entry for [Operator](https://redhat-documentation.github.io/supplementary-style-guide/#operator) to the _General conventions_ section
+* Added glossary entry for [Organization Administrator](https://redhat-documentation.github.io/supplementary-style-guide/#organization-administrator)
+* Added product-specific (OpenShift) glossary entry for [quick start](https://redhat-documentation.github.io/supplementary-style-guide/#quick-start)
+* Added guidance for [conscious language](https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language)
+* Added product-specific terminology for [Red Hat OpenShift Container Storage](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_openshift_container_storage)
 
 <a name="2021-august"></a>
 ## August 2021
 
+* Added guidance for [writing prerequisites](https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites)
+* Added glossary entry for [as expected](https://redhat-documentation.github.io/supplementary-style-guide/#as-expected)
+* Updated product-specific terminology for [Red Hat JBoss Enterprise Application Platform](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_jboss_enterprise_application_platform)
 * Council decided to follow IBM Style Guide "hostname" one word guidance
 
 <a name="2021-july"></a>
