@@ -219,6 +219,17 @@
 *See also*:
 
 [discrete]
+[[smartnic]]
+==== image:images/yes.png[yes] SmartNIC
+*Description*: A type of network interface controller (NIC) that uses its own integrated processor to handle certain low-level networking tasks.
+
+*Use it*: yes
+
+*Incorrect forms*: smart NIC, Smart-NIC
+
+*See also*: xref:nic[NIC], xref:vnic[vNIC]
+
+[discrete]
 [[snippet]]
 ==== image:images/no.png[no] snippet (noun)
 *Description*: A "snippet" is a small piece or brief extract. Use "piece" instead of snippet. Use "excerpt" to refer to samples taken from a more-extensive section of text.
