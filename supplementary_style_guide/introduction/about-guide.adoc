@@ -4,6 +4,11 @@ This guide provides style guidelines and preferred term usage for link:https://w
 
 The Red Hat Customer Content Services team created this guide as part of its responsibility for producing product documentation for Red Hat customers. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide. 
 
+[NOTE]
+====
+Both the link:https://www.ibm.com/docs/en/ibm-style[IBM Style Guide] and the link:https://github.com/redhat-documentation/supplementary-style-guide/issues[Red Hat supplementary style guide] are the source of truth for output and writing style guidance that is not specific to Modular Documentation guidelines. The link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide] and templates are the source of truth for all things connected to Modular Documentation, including implementing those guidelines in Asciidoc. The link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference] is the source of truth for guidance specific to writing in Asciidoc.
+====
+
 == How to use this guide
 
 When looking for style guidance, reference this guide first, because it overrides certain guidance from the _IBM Style Guide_. If you must deviate from the guidance in either guide, notify the style council by opening an link:https://github.com/redhat-documentation/doc-style/issues[issue]. This way, the deviation can be discussed by the style council and included in this guide.
