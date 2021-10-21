@@ -2,6 +2,8 @@
 [[graphical-interfaces]]
 = Graphical interfaces
 
+For more detailed guidance on how to document UI elements, see link:https://www.patternfly.org/v4/ux-writing/about[Patternfly].
+
 [[user-interface-elements]]
 == User interface elements
 
