@@ -182,10 +182,10 @@ Admonitions should draw the reader’s attention to certain information. Keep ad
 
 Valid admonition types:
 
-NOTE:: Additional information that adds something to the content, but if you breeze past it, nothing will break.
-IMPORTANT:: Considerations that you should not ignore.
-WARNING:: Ignoring this information can cause system damage or a support-related issue.
-TIP:: Additional information that can help make things easier or more productive for you.
+NOTE:: Additional information of which users should be aware, but ignoring it does not impact product usage.
+IMPORTANT:: Advisory information that provides information essential to the completion of a task. Users must not disregard this information.
+WARNING:: Ignoring this information can cause system damage, data loss, or a support-related issue. Explain the problem, cause, and offer a solution that works. If available, offer information to avoid the problem in the future or state where to find more information.
+TIP:: Makes applying the techniques and procedures described in the text easier or targets specific needs. A tip suggests alternative methods that might not be obvious, and helps users understand the benefits and capabilities of the product. A tip is not essential to using the product.
 
 [IMPORTANT]
 ====
