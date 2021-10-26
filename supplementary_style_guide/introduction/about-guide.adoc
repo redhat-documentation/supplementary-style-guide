@@ -1,6 +1,6 @@
 = About this guide
 
-This guide provides style guidelines and preferred term usage for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation. It is intended to be used as a supplement to the _IBM Style Guide_, which is the primary source of guidance for Red Hat product documentation.
+This guide provides style guidelines and preferred term usage for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation. It is intended to be used as a supplement to the _link:https://www.ibm.com/docs/en/ibm-style[IBM Style Guide]_, which is the primary source of guidance for Red Hat product documentation.
 
 The Red Hat Customer Content Services team created this guide as part of its responsibility for producing product documentation for Red Hat customers. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide. 
 
@@ -8,6 +8,9 @@ The Red Hat Customer Content Services team created this guide as part of its res
 
 When looking for style guidance, reference this guide first, because it overrides certain guidance from the _IBM Style Guide_. If you must deviate from the guidance in either guide, notify the style council by opening an link:https://github.com/redhat-documentation/doc-style/issues[issue]. This way, the deviation can be discussed by the style council and included in this guide.
 
-== Other style guides
+== Related Red Hat guides
 
-Both the link:https://www.ibm.com/docs/en/ibm-style[IBM Style Guide] and the Red Hat supplementary style guide are the source of truth for output and writing style guidance that is not specific to Modular Documentation guidelines. The link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide] and templates are the source of truth for all things connected to Modular Documentation, including implementing those guidelines in Asciidoc. The link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference] is the source of truth for guidance specific to writing in Asciidoc.
+In addition to the _IBM Style Guide_ and the Red Hat supplementary style guide for product documentation, Red Hat product documentation uses the following reference guides for non-writing style topics:
+
+* _link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide]_: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc. 
+* _link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference]_: Guidance specific to writing in AsciiDoc.
