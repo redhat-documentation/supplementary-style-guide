@@ -4,6 +4,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [October 2021](#2021-october)
 * [September 2021](#2021-september)
 * [August 2021](#2021-august)
 * [July 2021](#2021-july)
@@ -15,7 +16,15 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of October 6 2021 -->
+<!-- Updated as of October 27 2021 -->
+
+<a name="2021-october"></a>
+## October 2021
+
+* Added guidance for when to use the various [admonition types](https://redhat-documentation.github.io/supplementary-style-guide/#admonitions)
+* Added "on-premises" and "on-prem" as incorrect forms of [on-premise](https://redhat-documentation.github.io/supplementary-style-guide/#on-premise)
+* Added a link to Patternfly for guidance on documenting UI elements
+* Added glossary entry for [network interface controller](https://redhat-documentation.github.io/supplementary-style-guide/#network-interface-controller) (preferred over network interface card)
 
 <a name="2021-september"></a>
 ## September 2021
