@@ -16,7 +16,7 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 The Conscious Language Group supports the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red Hat is involved.
 For more information about the Conscious Language Group, see https://github.com/conscious-lang/conscious-lang-docs.
 
-=== blacklist and whitelist 
+=== blacklist and whitelist
 
 When possible, rewrite documentation to avoid these terms.
 
@@ -182,10 +182,10 @@ Admonitions should draw the reader’s attention to certain information. Keep ad
 
 Valid admonition types:
 
-- NOTE
-- IMPORTANT
-- WARNING
-- TIP
+NOTE:: Additional guidance or advice that improves product configuration, performance, or supportability.
+IMPORTANT:: Advisory information essential to the completion of a task. Users must not disregard this information.
+WARNING:: Information about potential system damage, data loss, or a support-related issue if the user disregards this admonition. Explain the problem, cause, and offer a solution that works. If available, offer information to avoid the problem in the future or state where to find more information.
+TIP:: Alternative methods that might not be obvious. Makes applying the techniques and procedures described in the text easier or targets specific needs. Helps users understand the benefits and capabilities of the product. Not essential to using the product.
 
 [IMPORTANT]
 ====
