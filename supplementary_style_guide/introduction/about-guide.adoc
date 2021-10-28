@@ -10,7 +10,7 @@ When looking for style guidance, reference this guide first, because it override
 
 == Related Red Hat guides
 
-In addition to the _IBM Style Guide_ and the _Red Hat supplementary style guide for product documentation_, Red Hat product documentation uses the following reference guides for non-writing style topics:
+In addition to the _IBM Style Guide_ and the _Red Hat supplementary style guide for product documentation_, Red Hat product documentation uses the following reference guides for technical writers:
 
 * _link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide]_: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc. 
 * _link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference]_: Guidance specific to writing in AsciiDoc.
