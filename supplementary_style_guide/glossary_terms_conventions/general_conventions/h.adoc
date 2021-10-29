@@ -201,7 +201,7 @@
 [discrete]
 [[hyper-threading]]
 ==== image:images/yes.png[yes] Hyper-Threading (noun)
-*Description*: "Hyper-Threading" is Intel's implementation of simultaneous multithreading. If you are not referring specifically to Intel's implementation, use "simultaneous multithreading" or "SMT."
+*Description*: "Hyper-Threading" is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT."
 
 *Use it*: yes
 

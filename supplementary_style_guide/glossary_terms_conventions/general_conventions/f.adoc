@@ -60,9 +60,9 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 [discrete]
 [[firewire]]
 ==== image:images/yes.png[yes] FireWire (noun)
-*Description*: "FireWire" is Apple's name for the IEEE 1394 High Speed Serial Bus, a serial bus architecture for high-speed data transfer.
+*Description*: "FireWire" is the Apple name for the IEEE 1394 High Speed Serial Bus, a serial bus architecture for high-speed data transfer.
 
-Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple Computer, it does not need to be listed with a trademark symbol when mentioned. Only use the trademark symbol when talking about Apple's FireWire software license or specific logos. See http://developer.apple.com/softwarelicensing/agreements/firewire.html for full details.
+Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple Computer, it does not need to be listed with a trademark symbol when mentioned. Only use the trademark symbol when talking about the Apple FireWire software license or specific logos. See http://developer.apple.com/softwarelicensing/agreements/firewire.html for full details.
 
 *Use it*: yes
 

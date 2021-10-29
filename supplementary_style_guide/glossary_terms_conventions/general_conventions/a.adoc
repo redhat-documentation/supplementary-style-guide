@@ -34,7 +34,7 @@
 [discrete]
 [[alright]]
 ==== image:images/no.png[no] alright (adjective)
-*Description*: "Alright" is the colloquial form of "correct" or "as expected."
+*Description*: "Alright" is the colloquial form of "correct".
 
 *Use it*: no
 

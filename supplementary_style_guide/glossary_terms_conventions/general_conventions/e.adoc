@@ -3,7 +3,7 @@
 ==== image:images/yes.png[yes] Emacs (noun)
 *Description*: "Emacs" is a text editor available in Unix. Like vi, Emacs is a screen editor. Unlike vi, Emacs is not an insertion mode editor, meaning that any character typed in Emacs is automatically inserted into the file, unless it includes a command prefix.
 
-If referring to the program, use "Emacs," for example, "Source-Navigator supports Emacs or vi commands." If referring to the shell prompt command, use `emacs`. The command should always be properly marked up, for example, "At the prompt, type `emacs`." The complete and correct name is "GNU Emacs."
+If referring to the program, use "Emacs," for example, "Source-Navigator supports Emacs or vi commands." If referring to the shell prompt command, use `emacs`. Always marke up the command correctly, for example, "At the prompt, type `emacs`." The complete and correct name is "GNU Emacs."
 
 *Use it*: yes
 
@@ -36,7 +36,7 @@ If referring to the program, use "Emacs," for example, "Source-Navigator support
 [discrete]
 [[entitlement]]
 ==== image:images/caution.png[with caution] entitlement (noun)
-*Description*: "Entitlement" refers to the number of systems that can be attached to an individual subscription. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription's available entitlements. Do not use "entitlement" and "subscription" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
+*Description*: "Entitlement" refers to the number of systems that can be attached to an individual subscription. When you use Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription's available entitlements. Do not use "entitlement" and "subscription" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
 
 *Use it*: with caution
 
@@ -80,7 +80,7 @@ If referring to the program, use "Emacs," for example, "Source-Navigator support
 [discrete]
 [[examine]]
 ==== image:images/yes.png[yes] examine (verb)
-*Description*: Use "examine" instead of "look at."
+*Description*: Use "examine" instead of "look at".
 
 *Use it*: yes
 

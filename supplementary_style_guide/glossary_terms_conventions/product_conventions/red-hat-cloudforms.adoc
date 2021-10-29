@@ -3,7 +3,7 @@ For documentation questions, contact cloudforms-docs@redhat.com.
 [discrete]
 [[appliance-console]]
 ==== image:images/yes.png[yes] Appliance console (noun)
-*Description*: The appliance console is a command-line based interface into the Red Hat CloudForms appliance used for set-up and configuration.
+*Description*: The appliance console is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.
 
 *Use it*: yes
 

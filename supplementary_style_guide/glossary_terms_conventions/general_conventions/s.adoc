@@ -122,7 +122,7 @@
 [discrete]
 [[shadowman]]
 ==== image:images/yes.png[yes] Shadowman (noun)
-*Description*: "Shadowman" is Red Hat's corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
+*Description*: "Shadowman" is a Red Hat corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
 
 *Use it*: yes
 
@@ -529,7 +529,7 @@
 [discrete]
 [[sudo]]
 ==== image:images/caution.png[with caution] sudo (noun)
-*Description*: `sudo` is a command that allows a user to run a program as another user (the root user by default). When a user requires elevated privileges, using the phrase 'as the root user' prior to a command is preferred over prefixing commands with `sudo`.
+*Description*: `sudo` is a command that allows a user to run a program as another user (the root user by default). When a user requires elevated privileges, use the phrase 'as the root user' before a command instead of prefixing commands with `sudo`.
 
 *Use it*: with caution
 

@@ -38,7 +38,7 @@ For documentation questions, contact ceph-docs@redhat.com.
 [discrete]
 [[bluestore]]
 ==== image:images/yes.png[yes] BlueStore (noun)
-*Description*: BlueStore is an OSD back end that utilizes block devices directly.
+*Description*: BlueStore is an OSD back end that uses block devices directly.
 
 *Use it*: yes
 
@@ -60,7 +60,7 @@ For documentation questions, contact ceph-docs@redhat.com.
 [discrete]
 [[ceph-command]]
 ==== image:images/yes.png[yes] ceph (noun)
-*Description*: The Ceph command-line utility. Always mark it properly (`ceph`).
+*Description*: The Ceph command-line utility. Always mark it correctly (`ceph`).
 
 *Use it*: yes
 
@@ -71,7 +71,7 @@ For documentation questions, contact ceph-docs@redhat.com.
 [discrete]
 [[ceph-block-device]]
 ==== image:images/yes.png[yes] Ceph Block Device (noun)
-*Description*: The block storage component of Ceph. Also known as the RADOS Block Device, however prefer using the Ceph Block Device.
+*Description*: The block storage component of Ceph. Also known as the RADOS Block Device, however the term Ceph Block Device is preferred.
 
 *Use it*: yes
 
@@ -115,7 +115,7 @@ For documentation questions, contact ceph-docs@redhat.com.
 [discrete]
 [[ceph-ansible]]
 ==== image:images/yes.png[yes] ceph-ansible (noun)
-*Description*: `ceph-ansible` is a utility that provides Ansible playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it properly (`ceph-ansible`).
+*Description*: `ceph-ansible` is a utility that provides Ansible playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly (`ceph-ansible`).
 
 *Use it*: yes
 
@@ -127,7 +127,7 @@ For documentation questions, contact ceph-docs@redhat.com.
 [[ceph-mds]]
 ==== image:images/yes.png[yes] ceph-mds (noun)
 
-*Description*: `ceph-mds` is the Metadata Server daemon. One or more instances of `ceph-mds` collectively manage the file system namespace, coordinating access to the shared OSD cluster. Always mark it properly (`ceph-mds`)
+*Description*: `ceph-mds` is the Metadata Server daemon. One or more instances of `ceph-mds` collectively manage the file system namespace, coordinating access to the shared OSD cluster. Always mark it correctly (`ceph-mds`)
 
 *Use it*: yes
 
@@ -139,7 +139,7 @@ For documentation questions, contact ceph-docs@redhat.com.
 [[ceph-mon]]
 ==== image:images/yes.png[yes] ceph-mon (noun)
 
-*Description*: `ceph-mon` is the Ceph Monitor daemon. Always mark it properly (`ceph-mon`).
+*Description*: `ceph-mon` is the Ceph Monitor daemon. Always mark it correctly (`ceph-mon`).
 
 *Use it*: yes
 
@@ -151,7 +151,7 @@ For documentation questions, contact ceph-docs@redhat.com.
 [[ceph-osd]]
 ==== image:images/yes.png[yes] ceph-osd (noun)
 
-*Description*: `ceph-osd` is the Ceph object storage daemon that is responsible for storing objects on local file system and providing access to them over network. Always mark it properly (`ceph-osd`).
+*Description*: `ceph-osd` is the Ceph object storage daemon that is responsible for storing objects on local file system and providing access to them over network. Always mark it correctly (`ceph-osd`).
 
 *Use it*: yes
 
@@ -378,7 +378,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[pool]]
 ==== image:images/yes.png[yes] pool (noun)
-*Description*: A logical unit in which Ceph stores data. You can create pools for particular types of data, such as for Ceph Block Devices, Ceph Object Gateways, or simply just to separate one group of users from another. See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#pools[Pools] chapter in the Red Hat Ceph Storage Architecture Guide for details.
+*Description*: A logical unit in which Ceph stores data. You can create pools for particular types of data, such as for Ceph Block Devices, Ceph Object Gateways, or to separate one group of users from another. See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#pools[Pools] chapter in the Red Hat Ceph Storage Architecture Guide for details.
 
 *Use it*: yes
 
@@ -435,7 +435,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[rbd]]
 ==== image:images/yes.png[yes] rbd (noun)
-*Description*: A command to create, list, introspect, and remove Ceph Block Device images. Always mark it properly (`rbd`).
+*Description*: A command to create, list, introspect, and remove Ceph Block Device images. Always mark it correctly (`rbd`).
 
 *Use it*: yes
 
@@ -512,7 +512,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[snap]]
 ==== image:images/yes.png[yes] snap (noun)
-*Description*: A snap is the snapshot ID of an object. The only writable version of the object is called `head`. If an object is a clone, this field includes its sequential ID. Always mark it properly (`snap`).
+*Description*: A snap is the snapshot ID of an object. The only writable version of the object is called `head`. If an object is a clone, this field includes its sequential ID. Always mark it correctly (`snap`).
 
 *Use it*: yes
 

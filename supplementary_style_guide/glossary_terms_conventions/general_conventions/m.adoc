@@ -177,7 +177,7 @@
 [discrete]
 [[mozilla-firefox]]
 ==== image:images/yes.png[yes] Mozilla Firefox (noun)
-*Description*: "Mozilla Firefox" is an open source web browser. The first reference must be "Mozilla Firefox." Subsequent references can be "Firefox." Do not use "firefox" unless you are referring to the `firefox` command; as such, mark it properly.
+*Description*: "Mozilla Firefox" is an open source web browser. The first reference must be "Mozilla Firefox." Subsequent references can be "Firefox." Do not use "firefox" unless you are referring to the `firefox` command; as such, mark it correctly.
 
 *Use it*: yes
 
@@ -188,7 +188,7 @@
 [discrete]
 [[mozilla-thunderbird]]
 ==== image:images/yes.png[yes] Mozilla Thunderbird (noun)
-*Description*: "Mozilla Thunderbird" is a free, open source, cross-platform email, news, RSS, and chat client. The first reference must be "Mozilla Thunderbird." Subsequent references can be "Thunderbird." Do not use "thunderbird" unless you are referring to the `thunderbird` command; as such, mark it properly.
+*Description*: "Mozilla Thunderbird" is a free, open source, cross-platform email, news, RSS, and chat client. The first reference must be "Mozilla Thunderbird." Subsequent references can be "Thunderbird." Do not use "thunderbird" unless you are referring to the `thunderbird` command; as such, mark it correctly.
 
 *Use it*: yes
 

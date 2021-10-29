@@ -200,7 +200,7 @@
 [discrete]
 [[pxe]]
 ==== image:images/yes.png[yes] PXE (noun)
-*Description*: "PXE" is an acronym for "Pre-Boot Execution Environment." Pronounced "pixie," PXE is one of the components of Intel's Wired for Management (WfM) specification. It allows a workstation to boot from a server on a network in preference to booting the operating system on the local hard drive. PXE is a mandatory element of the WfM specification. To be considered compliant, PXE must be supported by the computer's BIOS and its NIC.
+*Description*: "PXE" is an acronym for "Pre-Boot Execution Environment." Pronounced "pixie," PXE is one of the components of the Intel Wired for Management (WfM) specification. It allows a workstation to boot from a server on a network in preference to booting the operating system on the local hard drive. PXE is a mandatory element of the WfM specification. To be considered compliant, PXE must be supported by the computer's BIOS and its NIC.
 
 *Use it*: yes
 

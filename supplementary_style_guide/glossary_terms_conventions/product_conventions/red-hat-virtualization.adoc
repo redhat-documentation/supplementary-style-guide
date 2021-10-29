@@ -40,7 +40,7 @@ Always use "Administration Portal", including the capital P. When other departme
 [discrete]
 [[data-warehouse]]
 ==== image:images/yes.png[yes] Data Warehouse (noun)
-*Description*: The Manager includes a comprehensive management history database, which can be utilized by any application to extract a range of information at the data center, cluster, and host levels. Installing Data Warehouse creates the `ovirt_engine_history` database, to which the Manager is configured to log information for reporting purposes.
+*Description*: The Manager includes a comprehensive management history database, which any application can use to extract a range of information at the data center, cluster, and host levels. Installing Data Warehouse creates the `ovirt_engine_history` database, to which the Manager is configured to log information for reporting purposes.
 
 Data Warehouse is optional in Red Hat Enterprise Virtualization (3.x). It is mandatory in Red Hat Virtualization (4.x).
 
@@ -203,7 +203,7 @@ Use "Red Hat Enterprise Virtualization Manager" for version 3.x. Spell out in fu
 [discrete]
 [[red-hat-enterprise-virtualization-manager-reports]]
 ==== image:images/yes.png[yes] Red Hat Enterprise Virtualization Manager Reports (noun)
-*Description*: Red Hat Enterprise Virtualization Manager Reports is available as an optional component. It produces reports that can be built and accessed via a web user interface, and then rendered to screen, printed, or exported to a variety of formats.
+*Description*: Red Hat Enterprise Virtualization Manager Reports is available as an optional component. It produces reports that can be built and accessed through a web user interface, and then rendered to screen, printed, or exported to a variety of formats.
 
 This component was removed from Red Hat Virtualization (4.x), but still exists in Red Hat Enterprise Virtualization (3.x).
 
@@ -257,7 +257,7 @@ Use "Red Hat Virtualization Manager" for version 4.x. Spell out in full for the 
 [discrete]
 [[resource-tab]]
 ==== image:images/yes.png[yes] resource tab (noun)
-*Description*: Hosts, virtual machines, storage, and other resources in Red Hat Virtualization can be managed using their associated tab. For a visual example, see link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.1/html-single/introduction_to_the_administration_portal/#Graphical_User_Interface_elements[Graphical User Interface Elements] in the _Introduction to the Administration Portal_. The screen shot applies to Red Hat Virtualization 4.1 and earlier versions (including 3.x).
+*Description*: Hosts, virtual machines, storage, and other resources in Red Hat Virtualization can be managed by using their associated tab. For a visual example, see link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.1/html-single/introduction_to_the_administration_portal/#Graphical_User_Interface_elements[Graphical User Interface Elements] in the _Introduction to the Administration Portal_. The screen shot applies to Red Hat Virtualization 4.1 and earlier versions (including 3.x).
 
 You can refer to these tabs as just, for example, "the *Storage* tab", unlike the tabs in the details pane, which are always specified as such.
 
@@ -307,7 +307,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 [discrete]
 [[sparse]]
 ==== image:images/yes.png[yes] sparse (adjective)
-*Description*: A disk is sparse when its unused disk space is taken from the virtual machine and returned to the host. In the past, the term sparse has been used to describe thin provisioned storage; however, with the addition of the sparsify feature in Red Hat Virtualization 4.1, these terms should not be used interchangeably as a thin provisioned disk may not be a sparse disk.
+*Description*: A disk is sparse when its unused disk space is taken from the virtual machine and returned to the host. In the past, the term sparse has been used to describe thin provisioned storage; however, with the addition of the sparsify feature in Red Hat Virtualization 4.1, these terms should not be used interchangeably as a thin provisioned disk might not be a sparse disk.
 
 *Use it*: yes
 
@@ -377,7 +377,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 [discrete]
 [[sysprep]]
 ==== image:images/yes.png[yes] sysprep (noun)
-*Description*: Sysprep is a tool used to automate the setup of Windows virtual machines. Red Hat Virtualization enhances Sysprep by building a tailored auto-answer file for each virtual machine.
+*Description*: Sysprep is a tool that automates the configuration of Windows virtual machines. Red Hat Virtualization enhances Sysprep by building a tailored auto-answer file for each virtual machine.
 
 With the exception of "sysprep file", which has a specific function, use "sysprep" on its own when referring to the tool.
 

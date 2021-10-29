@@ -27,7 +27,7 @@ For documentation questions, contact satellite-doc-list@redhat.com.
 [discrete]
 [[composite-content-view]]
 ==== image:images/yes.png[yes] Composite Content View (noun)
-*Description*: A Composite Content View is a collection of Content Views. Use the three-word name in full on first use in a section; the abbreviation 'CVV' is acceptable thereafter.
+*Description*: A Composite Content View is a collection of Content Views. Use the three-word name in full on first use in a section; the abbreviation 'CCV' is acceptable thereafter.
 
 *Use it*: yes
 
@@ -38,7 +38,7 @@ For documentation questions, contact satellite-doc-list@redhat.com.
 [discrete]
 [[facter]]
 ==== image:images/yes.png[yes] Facter (noun)
-*Description*: Facter is Puppet's system inventory tool.
+*Description*: Facter is the Puppet system inventory tool.
 
 *Use it*: yes
 
@@ -115,7 +115,7 @@ For documentation questions, contact satellite-doc-list@redhat.com.
 [discrete]
 [[foreman]]
 ==== image:images/caution.png[with caution] Foreman (noun)
-*Description*: The upstream project from which Satellite Server's provisioning and life cycle management functions are drawn. Use only when required to mention the upstream project. In Red Hat Virtualization use Foreman/Satellite when referring directly to the UI element. Do not use Foreman or Foreman/Satellite to refer to Red Hat Satellite in other cases. A bug is open to get this element changed to Satellite. (https://bugzilla.redhat.com/show_bug.cgi?id=1428205[BZ#1428205 Change Foreman/Satellite to Satellite])
+*Description*: The upstream project from which the provisioning and life cycle management functions of Satellite Server are drawn. Use only when required to mention the upstream project. In Red Hat Virtualization, use Foreman/Satellite when referring directly to the UI element. Do not use Foreman or Foreman/Satellite to refer to Red Hat Satellite in other cases. A bug is open to get this element changed to Satellite. (https://bugzilla.redhat.com/show_bug.cgi?id=1428205[BZ#1428205 Change Foreman/Satellite to Satellite])
 
 *Use it*: with caution
 
@@ -126,7 +126,7 @@ For documentation questions, contact satellite-doc-list@redhat.com.
 [discrete]
 [[katello]]
 ==== image:images/caution.png[with caution] Katello (noun)
-*Description*: The upstream project from which Satellite Server's subscription and repository management functions are drawn. Use only when required to mention the upstream project.
+*Description*: The upstream project from which the subscription and repository management functions of Satellite Server are drawn. Use only when required to mention the upstream project.
 
 *Use it*: with caution
 
