@@ -3,7 +3,7 @@
 ==== image:images/yes.png[yes] Emacs (noun)
 *Description*: "Emacs" is a text editor available in Unix. Like vi, Emacs is a screen editor. Unlike vi, Emacs is not an insertion mode editor, meaning that any character typed in Emacs is automatically inserted into the file, unless it includes a command prefix.
 
-If referring to the program, use "Emacs," for example, "Source-Navigator supports Emacs or vi commands." If referring to the shell prompt command, use `emacs`. Always marke up the command correctly, for example, "At the prompt, type `emacs`." The complete and correct name is "GNU Emacs."
+If referring to the program, use "Emacs," for example, "Source-Navigator supports Emacs or vi commands." If referring to the shell prompt command, use `emacs`. Always mark up the command correctly, for example, "At the prompt, type `emacs`." The complete and correct name is "GNU Emacs."
 
 *Use it*: yes
 
