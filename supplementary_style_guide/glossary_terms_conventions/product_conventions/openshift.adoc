@@ -210,7 +210,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[image-stream]]
 ==== image:images/yes.png[yes] image stream (noun)
-*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of the OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
+*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
 
 *Use it*: yes
 
