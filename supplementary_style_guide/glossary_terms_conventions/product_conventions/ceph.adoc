@@ -512,7 +512,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[snap]]
 ==== image:images/yes.png[yes] snap (noun)
-*Description*: A snap is the snapshot ID of an object. The only writable version of the object is called `head`. If an object is a clone, this field includes its sequential ID. Always mark it correctly (`snap`).
+*Description*: A snap is the snapshot identifier of an object. The only writable version of the object is called `head`. If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
 
 *Use it*: yes
 
