@@ -101,17 +101,27 @@ Workaround: Rerun the deployment command, or use a local container image registr
 [discrete]
 ==== Technology Preview
 
-Use present tense in the following format, where `<TechPreviewName>` is the name of your product, component or feature:
+Use the following text verbatim, where `<tech_preview_name>` is the name of your product, component or feature:
 
 // The following is based on RHEL 9 snip_techpreview.adoc
 ----
-<TechPreviewName> is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview[https://access.redhat.com/support/offerings/techpreview].
+<tech_preview_name> is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview[https://access.redhat.com/support/offerings/techpreview].
 ----
+
 // PREVIOUS GUIDANCE
 // In <release>, a Technology Preview is available for <feature explanation>.
+
+.Examples of possible values for <tech_preview_name>
+
+* The Driver Toolkit
+* SSPI connection support on Microsoft Windows
+* Hot-plugging virtual disks
+* The Bare Metal Provisioning service (ironic) deployed on an IPv6 provisioning network for BMaaS (Bare Metal as-a-Service) tenants
+
 .Example doc text
+
 ----
-In Red Hat OpenStack Platform 16.0, the Bare Metal Provisioning service (ironic) deployed on an IPv6 provisioning network for BMaaS (Bare Metal as-a-Service) tenants is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview[https://access.redhat.com/support/offerings/techpreview]. 
+The Driver Toolkit is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview[https://access.redhat.com/support/offerings/techpreview].
 ----
 
 
