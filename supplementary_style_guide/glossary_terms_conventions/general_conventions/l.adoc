@@ -36,7 +36,7 @@
 [discrete]
 [[linux]]
 ==== image:images/yes.png[yes] Linux (noun)
-*Description*: "Linux" is a Unix-like operating system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it properly.
+*Description*: "Linux" is a Unix-like operating system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it correctly.
 
 *Use it*: yes
 
@@ -58,7 +58,7 @@
 [discrete]
 [[load-balancing]]
 ==== image:images/yes.png[yes] load balancing (noun)
-*Description*: "Load balancing" distributes processing and communications activity evenly across a computer network so that no single device is overwhelmed. Load balancing is especially important for networks, where it is difficult to predict the number of requests that will be issued to a server. Busy websites typically employ two or more web servers in a load-balancing scheme. If one server starts to get swamped, requests are forwarded to another server with more capacity. Load balancing can also refer to the communications channels themselves.
+*Description*: "Load balancing" distributes processing and communications activity evenly across a computer network so that no single device is overwhelmed. Load balancing is especially important for networks, where it is difficult to predict the number of requests that might be issued to a server. Busy websites typically employ two or more web servers in a load-balancing scheme. If one server starts to get swamped, requests are forwarded to another server with more capacity. Load balancing can also refer to the communications channels themselves.
 
 *Use it*: yes
 

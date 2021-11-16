@@ -187,7 +187,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 [discrete]
 [[remote-access-server]]
 ==== image:images/yes.png[yes] remote access server (noun)
-*Description*: A "remote access server" is a server that is dedicated to handling users that are not on a LAN but need remote access to it. The remote access server allows users to gain access to files and print services on the LAN from a remote location. For example, a user who dials in to a network from home using an analog modem or an ISDN connection will dial in to a remote access server. Once authenticated, the user can access shared drives and printers as if they were physically connected to the office LAN.
+*Description*: A "remote access server" is a server that is dedicated to handling users that are not on a LAN but need remote access to it. The remote access server allows users to gain access to files and print services on the LAN from a remote location. For example, a user who dials in to a network from home by using an analog modem or an ISDN connection dial in to a remote access server. After the user is authenticated, they can access shared drives and printers as if they were physically connected to the office LAN.
 
 *Use it*: yes
 

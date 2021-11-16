@@ -4,7 +4,7 @@
 [discrete]
 [[action]]
 ==== image:images/yes.png[yes] action (noun)
-*Description*: In the context of authorization in OpenShift, an action consists of _project_, _verb_, and _resource_.
+*Description*: In the context of authorization in OpenShift Container Platform, an action consists of _project_, _verb_, and _resource_.
 
 *Use it*: yes
 
@@ -56,12 +56,7 @@ Example object-specific usage: _The default amount of CPU that a container can u
 [discrete]
 [[application]]
 ==== image:images/yes.png[yes] application (noun)
-*Description*: Although the term _application_ is not an specific API object type
-in OpenShift, customers still create and host applications on OpenShift, and
-using the term within certain contexts is acceptable. For example, the term
-application might refer to some combination of an image, a Git repository, or a
-replication controller, and this application might be running PHP, MySQL, Ruby,
-JBoss, or something else.
+*Description*: Although the term _application_ is not an specific API object type in OpenShift Container Platform, customers still create and host applications on OpenShift Container Platform, and using the term within certain contexts is acceptable. For example, the term application might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
 
 *Use it*: yes
 
@@ -136,7 +131,7 @@ See xref:container[container] in the _General Conventions_ part.
 [discrete]
 [[custom-resource]]
 ==== image:images/yes.png[yes] custom resource (noun)
-*Description*: A custom resource (CR) is a resource implemented through the Kubernetes `CustomResourceDefinition` API. While CRs have the same behaviors as the built-in set of Kubernetes and OpenShift resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
+*Description*: A custom resource (CR) is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
 
 *Use it*: yes
 
@@ -158,7 +153,7 @@ See xref:container[container] in the _General Conventions_ part.
 [discrete]
 [[deployment]]
 ==== image:images/yes.png[yes] deployment (noun)
-*Description*: A statement of intent by a user to roll out a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift installation, instance, or cluster as an "OpenShift deployment".
+*Description*: A statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
 
 The API object for a deployment can be either a Kubernetes-native `Deployment` object (which uses replication controllers) or an OpenShift-specific `DeploymentConfig` object (which uses replica sets).
 
@@ -204,7 +199,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[image]]
 ==== image:images/yes.png[yes] image (noun)
-*Description*: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift. Additionally, OpenShift provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.
+*Description*: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift Container Platform uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift Container Platform. Additionally, OpenShift Container Platform provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.
 
 *Use it*: yes
 
@@ -215,7 +210,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[image-stream]]
 ==== image:images/yes.png[yes] image stream (noun)
-*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in OpenShift’s integrated Docker repository, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
+*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
 
 *Use it*: yes
 
@@ -226,7 +221,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[init-container]]
 ==== image:images/yes.png[yes] init container (noun)
-*Description*: A container that allows you to reorganize setup scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.
+*Description*: A container that you can use to reorganize configuration scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.
 
 *Use it*: yes
 
@@ -248,7 +243,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[kubelet]]
 ==== image:images/yes.png[yes] kubelet (noun)
-*Description*: The agent that controls a Kubernetes node. Each node runs a kubelet, which handles starting and stopping containers on a node, based on the desired state defined by the master.
+*Description*: The agent that controls a Kubernetes node. Each node runs a kubelet, which handles starting and stopping containers on a node, based on the required state defined by the master.
 
 *Use it*: yes
 
@@ -307,7 +302,7 @@ See xref:node[node] in the _General Conventions_ part.
 [discrete]
 [[okd]]
 ==== image:images/yes.png[yes] OKD (noun)
-*Description*: The name of OpenShift's open source, upstream project (previously known as
+*Description*: The name of the open source, upstream project of OpenShift Container Platform (previously known as
 OpenShift Origin before August 3, 2018). OKD is a distribution of Kubernetes
 optimized for continuous application development and multitenant deployment.
 Officially, the initialism does not stand for anything.
@@ -322,7 +317,7 @@ Officially, the initialism does not stand for anything.
 [[openshift]]
 ==== image:images/yes.png[yes] OpenShift (noun)
 *Description*: The OpenShift product name should be paired with its product
-distribution / variant name whenever possible. For example:
+distribution or variant name whenever possible. For example:
 
 - OpenShift Container Platform
 - OpenShift Online
@@ -350,7 +345,7 @@ allowed for use across all distribution documentation:
 [discrete]
 [[openshift-cli]]
 ==== image:images/yes.png[yes] OpenShift CLI (noun)
-*Description*: The `oc` tool is the command-line interface of OpenShift 3 and 4.
+*Description*: The `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
 
 *Use it*: yes
 
@@ -361,7 +356,7 @@ allowed for use across all distribution documentation:
 [discrete]
 [[openshift-container-registry]]
 ==== image:images/yes.png[yes] OpenShift Container Registry (noun)
-*Description*: The integrated container registry that is deployed as part of an OpenShift Container Platform installation. This container registry adds the ability to easily provision new image repositories. This allows users to automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option that allows you to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
+*Description*: The integrated container registry that is deployed as part of an OpenShift Container Platform installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
 
 *Use it*: yes
 
@@ -383,7 +378,7 @@ allowed for use across all distribution documentation:
 [discrete]
 [[openshift-origin]]
 ==== image:images/no.png[no] OpenShift Origin (noun)
-*Description*: The previous name of OpenShift's open source, upstream project. This project has been renamed OKD.
+*Description*: The previous name of the open source, upstream project of OpenShift Container Platform. This project has been renamed OKD.
 
 *Use it*: no
 
@@ -399,7 +394,7 @@ See xref:operator[Operator] in the _General Conventions_ part.
 [discrete]
 [[pod]]
 ==== image:images/yes.png[yes] pod (noun)
-*Description*: Pods come from the Kubernetes concept of the same name. A pod is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. It is important to realize that OpenShift treats pods as immutable. Any changes, be it the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are recreated. The API object for a pod is `Pod`.
+*Description*: Pods come from the Kubernetes concept of the same name. A pod is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are recreated. The API object for a pod is `Pod`.
 
 *Use it*: yes
 
@@ -410,7 +405,7 @@ See xref:operator[Operator] in the _General Conventions_ part.
 [discrete]
 [[project]]
 ==== image:images/yes.png[yes] project (noun)
-*Description*: An OpenShift project corresponds to a Kubernetes namespace. They are used to organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources.
+*Description*: An OpenShift Container Platform project corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources.
 
 *Use it*: yes
 
@@ -421,7 +416,7 @@ See xref:operator[Operator] in the _General Conventions_ part.
 [discrete]
 [[quick-start]]
 ==== image:images/yes.png[yes] quick start (noun)
-*Description*: Two types of quick starts exist in OpenShift:
+*Description*: Two types of quick starts exist in OpenShift Container Platform:
 
 * Quick starts that provide a guided tutorial in the web console.
 * Quick start templates that enable users to start creating new applications quickly.
@@ -437,7 +432,7 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[red-hat-openshift-container-platform]]
 ==== image:images/yes.png[yes] Red Hat OpenShift Container Platform (noun)
-*Description*: Red Hat's private, on-premise cloud application deployment and hosting platform.
+*Description*: A Red Hat private, on-premise cloud application deployment and hosting platform.
 
 *Use it*: yes
 
@@ -448,7 +443,7 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[red-hat-openshift-dedicated]]
 ==== image:images/yes.png[yes] Red Hat OpenShift Dedicated (noun)
-*Description*: Red Hat's managed public cloud application deployment and hosting service.
+*Description*: A Red Hat managed public cloud application deployment and hosting service.
 
 *Use it*: yes
 
@@ -459,7 +454,7 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[red-hat-openshift-online]]
 ==== image:images/yes.png[yes] Red Hat OpenShift Online (noun)
-*Description*: Red Hat's public cloud application deployment and hosting platform.
+*Description*: A Red Hat public cloud application deployment and hosting platform.
 
 *Use it*: yes
 
@@ -470,7 +465,7 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[replication-controller]]
 ==== image:images/yes.png[yes] replication controller (noun)
-*Description*: A Kubernetes object used to ensure a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods (deletion, crashing, etc.) or the addition of extra pods that are not desired. The pods are automatically added or removed from the service to ensure its uptime.
+*Description*: A Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
 
 *Use it*: yes
 
@@ -503,7 +498,7 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[service]]
 ==== image:images/yes.png[yes] service (noun)
-*Description*: A service functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and will delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
+*Description*: A service functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
 
 *Use it*: yes
 
@@ -536,9 +531,7 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[spec]]
 ==== image:images/yes.png[yes] spec (noun)
-*Description*: In addition to "spec file" being allowed related to RPM spec
-files, general usage of "spec" is allowed when describing Kubernetes or
-OpenShift object specs / manifests / definitions.
+*Description*: In addition to "spec file", which is permitted when it relates to RPM spec files, you can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
 
 Example of correct usage:
 
@@ -553,7 +546,7 @@ _Update the `Pod` spec to reflect the changes._
 [discrete]
 [[template]]
 ==== image:images/yes.png[yes] template (noun)
-*Description*: A template describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift.
+*Description*: A template describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
 
 *Use it*: yes
 

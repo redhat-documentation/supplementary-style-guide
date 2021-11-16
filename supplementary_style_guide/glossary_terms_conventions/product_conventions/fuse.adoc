@@ -6,7 +6,7 @@ For documentation questions, contact fuse-docs@redhat.com.
 [discrete]
 [[camel-context]]
 ==== image:images/caution.png[with caution] Camel context (noun)
-*Description*: Every Camel application is based on a `CamelContext` object, which is Camel's runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it (for example, components, endpoints, routes, data formats, languages, the registry, and so on). In the routing context `.xml` file, it is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term *routing context* when talking about the application's .xml/DSL file or the file's routing rules.
+*Description*: Every Camel application is based on a `CamelContext` object, which is the Camel runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it, such as components, endpoints, routes, data formats, languages, and registry. In the routing context `.xml` file, the object is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term *routing context* when talking about the application's .xml/DSL file or the file's routing rules.
 
 *Use it*: with caution
 
@@ -310,7 +310,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 [discrete]
 [[uri]]
 ==== image:images/yes.png[yes] URI (noun)
-*Description*: Uniform Resource Identifier. A string of characters that indentifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, will be polled for files at 5 second intervals.
+*Description*: Uniform Resource Identifier. A string of characters that indentifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
 
 *Use it*: yes
 

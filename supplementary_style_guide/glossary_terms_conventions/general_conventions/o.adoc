@@ -188,7 +188,7 @@ The following operators and operands are supported in Drools Rule Language:
 ...
 ----
 
-An Operator's full name must be a proper noun, with each word initially
+The full name of an Operator must be a proper noun, with each word initially
 capitalized. If it includes a product name, defer to the product's capitalization
 style guidelines. For example:
 

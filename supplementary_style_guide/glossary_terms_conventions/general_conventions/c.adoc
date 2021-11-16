@@ -244,7 +244,7 @@
 [discrete]
 [[container]]
 ==== image:images/yes.png[yes] container (noun)
-*Description*: 1) A "container" is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container will be limited to a single process providing a specific service (for example web server, database). 2) A "container" in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A "container" in the Swift API is synonymous with a "bucket" in the S3 API.
+*Description*: 1) A "container" is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). 2) A "container" in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A "container" in the Swift API is synonymous with a "bucket" in the S3 API.
 
 *Use it*: yes
 
