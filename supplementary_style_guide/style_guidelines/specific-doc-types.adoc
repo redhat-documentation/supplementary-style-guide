@@ -39,7 +39,7 @@ Not a complete sentence: This prerequisite is acceptable if all the other prereq
 [[release-notes-doc-texts]]
 === Release notes doc texts
 
-A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with the _IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type: 
+A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with the _IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type:
 
 * Enhancement
 * Bug fix
@@ -101,13 +101,25 @@ Workaround: Rerun the deployment command, or use a local container image registr
 [discrete]
 ==== Technology Preview
 
-Use present tense in the following format:
+Use the following text verbatim, where `<tech_preview_name>` is the name of your product, component, or feature:
+
+// The following is based on RHEL 9 snip_techpreview.adoc
 ----
-In <release>, a Technology Preview is available for <feature explanation>.
+<tech_preview_name> is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview[https://access.redhat.com/support/offerings/techpreview].
 ----
+
+
+.Examples of possible values for <tech_preview_name>
+
+* The Driver Toolkit
+* SSPI connection support on Microsoft Windows
+* Hot-plugging virtual disks
+* The Bare Metal Provisioning service (ironic) deployed on an IPv6 provisioning network for BMaaS (Bare Metal as-a-Service) tenants
+
 .Example doc text
+
 ----
-In Red Hat OpenStack Platform 16.0, a Technology Preview is available for the Bare Metal Provisioning service (ironic) deployed on an IPv6 provisioning network for BMaaS (Bare Metal as-a-Service) tenants.
+The Driver Toolkit is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview[https://access.redhat.com/support/offerings/techpreview].
 ----
 
 
