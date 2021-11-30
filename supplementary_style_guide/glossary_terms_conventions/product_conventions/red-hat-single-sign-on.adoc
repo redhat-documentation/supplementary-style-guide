@@ -43,7 +43,7 @@ When a client is registered, you must define protocol mappers and role scope map
 
 [discrete]
 [[clients]]
-== Cllients
+== Clients
 Clients are entities that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients can also be entities that only want to request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
 
 [[composite-roles]]
