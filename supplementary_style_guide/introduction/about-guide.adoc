@@ -1,6 +1,6 @@
 = About this guide
 
-This guide provides style guidelines and preferred term usage for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation. It is intended to be used as a supplement to the _link:https://www.ibm.com/docs/en/ibm-style[IBM Style Guide]_, which is the primary source of guidance for Red Hat product documentation.
+This guide provides style guidelines and preferred term usage for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation. It is intended to be used as a supplement to the _IBM Style Guide_, which is the primary source of guidance for Red Hat product documentation.
 
 The Red Hat Customer Content Services team created this guide as part of its responsibility for producing product documentation for Red Hat customers. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide. 
 
