@@ -4,6 +4,8 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [December 2021](#2021-december)
+* [November 2021](#2021-november)
 * [October 2021](#2021-october)
 * [September 2021](#2021-september)
 * [August 2021](#2021-august)
@@ -16,7 +18,17 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of October 27 2021 -->
+<!-- Updated as of December 7 2021 -->
+
+<a name="2021-december"></a>
+## December 2021
+
+* Added links to the [related Red Hat guides](https://redhat-documentation.github.io/supplementary-style-guide/#_related_red_hat_guides)
+
+<a name="2021-november"></a>
+## November 2021
+
+* Added the standard boilerplate note for [Technology Preview features](https://redhat-documentation.github.io/supplementary-style-guide/#release-notes-doc-texts)
 
 <a name="2021-october"></a>
 ## October 2021
