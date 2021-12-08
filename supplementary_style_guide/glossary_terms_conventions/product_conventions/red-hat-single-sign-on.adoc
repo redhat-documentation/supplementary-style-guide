@@ -102,18 +102,18 @@ For each client you can tailor what claims and assertions are stored in the OIDC
 
 [discrete]
 [[realms]]
-== Realms
-A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
+== Realm
+Manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
 
 [discrete]
 [[required-actions]]
-== Required actions
-Required actions are actions a user must perform during the authentication process. A user cannot complete the authentication process until these actions are complete. For example, an admin might schedule users to reset their passwords every month. An update password required action is set for all these users.
+== Required action
+An action a user must perform during the authentication process. A user cannot complete the authentication process until this action is complete. For example, an admin might schedule users to reset their passwords every month. An update password required action is set for all these users.
 
 [discrete]
 [[roles]]
-== Roles
-Roles identify a type or category of user. `Admin`, `user`, `manager`, and `employee` are all typical roles that may exist in an organization. Applications often assign access and permissions to specific roles rather than individual users because dealing with users can be too granular and hard to manage.
+== Role
+Identifies a type or category of user. `Admin`, `user`, `manager`, and `employee` are all typical roles that may exist in an organization. Applications often assign access and permissions to specific roles rather than individual users because dealing with users can be too granular and hard to manage.
 
 [discrete]
 [[service-account]]
@@ -127,8 +127,8 @@ When a user logs in, a session is created to manage the login session. A session
 
 [discrete]
 [[themes]]
-== Themes
-Every screen provided by Red Hat Single Sign-On is backed by a theme. Themes define HTML templates and stylesheets that you can override as needed.
+== Theme
+Defines HTML templates and stylesheets that you can override as needed. Every screen provided by Red Hat Single Sign-On is backed by a theme. 
 
 [discrete]
 [[user-federation-provider]]
@@ -142,5 +142,5 @@ A user role mapping defines a mapping between a role and a user. A user can be a
 
 [discrete]
 [[users]]
-== Users
-Users are entities that can log into your system. They can have attributes associated with themselves like email, username, address, phone number, and birth day. They can be assigned group membership and have specific roles assigned to them.
+== User
+An entity that can log into your system. A user can have attributes associated with themselves like email, username, address, phone number, and birthday. They can be assigned group membership and have specific roles assigned to them.
