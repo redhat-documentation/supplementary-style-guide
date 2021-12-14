@@ -18,11 +18,12 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of December 7 2021 -->
+<!-- Updated as of December 14 2021 -->
 
 <a name="2021-december"></a>
 ## December 2021
 
+* Added guidance for [avoiding statements about future plans](https://redhat-documentation.github.io/supplementary-style-guide/#statements-about-the-future)
 * Added links to the [related Red Hat guides](https://redhat-documentation.github.io/supplementary-style-guide/#_related_red_hat_guides)
 
 <a name="2021-november"></a>
