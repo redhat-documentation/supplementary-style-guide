@@ -27,3 +27,28 @@ Provide the source language if it is supported by the Red Hat Customer Portal to
 == Long code examples in procedures
 
 All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables and callouts. The length of the block is irrelevant, within reason, if the code block follows these guidelines.
+
+[[commands-with-root-privileges]]
+== Commands with root privileges
+
+Some commands require root privileges to run. Users without root privileges must first do one of the following to run such a command:
+
+* Run `su -` to switch to the root user account.
+* Preface the command with `sudo` to temporarily change their current privileges.
+
+Use the following guidelines when you document commands that require root privileges:
+
+* If you include a shell prompt in a sample command, always show the correct prompt for a regular user (`$`) or a user with root privileges (`#`).
++
+[NOTE]
+====
+Do not rely solely on a shell prompt in a sample command to indicate the required privilege level to run a command.
+If you include a shell prompt to indicate that a user with root privileges must run the command, also include a statement about this requirement in the step text, the introductory text, or the prerequisites.
+====
++
+* If a command requires a temporary switch to root privileges, use `sudo` at the beginning of the sample command syntax. If the sample command includes a shell prompt together with `sudo`, the prompt should remain `$` and not be changed to `#`.
+* If multiple commands in a procedure require root privileges, add introductory content to tell the user what to do. For example, "The commands in this procedure require root privileges to run. Either run `su -` to switch to the root user or preface the commands with `sudo`."
+
+.Additional resources
+* link:https://www.redhat.com/sysadmin/difference-between-sudo-su[Exploring the differences between sudo and su commands in Linux]
+
