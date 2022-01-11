@@ -5,7 +5,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 [discrete]
 [[access-control-instruction]]
 ==== image:images/yes.png[yes] access control instruction (noun)
-*Description*: In an LDAP directory, an access control instruction (ACI) grants or denies access to entries or attributes.Use access control instruction on the first usage and then the abbreviation ACI subsequently.
+*Description*: In an LDAP directory, an access control instruction (ACI) grants or denies access to entries or attributes. Use access control instruction on the first usage and then the abbreviation ACI subsequently.
 
 *Use it*: yes
 
