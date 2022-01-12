@@ -2,10 +2,8 @@
 :doctype: book
 :toc: left
 :toclevels: 3
-
-// TODO: Are these needed?
-// :experimental:
-// :linkattrs:
+// Embed images directly into HTML
+// :data-uri:
 
 [[introduction]]
 == Introduction
@@ -17,7 +15,7 @@ include::introduction/contributing.adoc[leveloffset=+2]
 [[style-guidelines]]
 == Style guidelines
 
-These recommendations might override existing guidance in _The IBM Style Guide_, or might provide guidance for items not covered in _The IBM Style Guide_.
+These recommendations might override existing guidance in the _IBM Style Guide_, or might provide guidance for items not covered in the _IBM Style Guide_.
 
 [NOTE]
 ====
@@ -28,7 +26,7 @@ If applicable, these guidelines provide example formatting in AsciiDoc, which is
 include::style_guidelines/general-formatting.adoc[leveloffset=+2]
 
 // Grammar
-include::style_guidelines/grammar.adoc[leveloffset=+2]
+// include::style_guidelines/grammar.adoc[leveloffset=+2]
 
 // Code examples
 include::style_guidelines/code-commands.adoc[leveloffset=+2]
@@ -175,6 +173,9 @@ include::glossary_terms_conventions/product_conventions/ceph.adoc[leveloffset=+1
 ==== Red Hat CloudForms
 include::glossary_terms_conventions/product_conventions/red-hat-cloudforms.adoc[leveloffset=+1]
 
+==== Red Hat Enterprise Linux
+include::glossary_terms_conventions/product_conventions/red-hat-enterprise-linux.adoc[leveloffset=+1]
+
 ==== Red Hat JBoss BRMS and Red Hat JBoss BPM Suite
 include::glossary_terms_conventions/product_conventions/bxms.adoc[leveloffset=+1]
 
@@ -186,6 +187,9 @@ include::glossary_terms_conventions/product_conventions/fuse.adoc[leveloffset=+1
 
 ==== Red Hat OpenShift
 include::glossary_terms_conventions/product_conventions/openshift.adoc[leveloffset=+1]
+
+==== Red Hat OpenShift Container Storage
+include::glossary_terms_conventions/product_conventions/openshift-container-storage.adoc[leveloffset=+1]
 
 ==== Red Hat OpenStack Platform
 include::glossary_terms_conventions/product_conventions/red-hat-openstack-platform.adoc[leveloffset=+1]

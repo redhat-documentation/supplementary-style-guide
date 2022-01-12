@@ -1,6 +1,6 @@
 [discrete]
 [[uid]]
-==== UID (noun)
+==== image:images/yes.png[yes] UID (noun)
 *Description*: "UID" is an abbreviation of user identifier. UID is a unique identifier associated with a single entity within a given system.
 
 *Use it*: yes
@@ -11,7 +11,7 @@
 
 [discrete]
 [[UltraSPARC]]
-==== UltraSPARC (noun)
+==== image:images/yes.png[yes] UltraSPARC (noun)
 *Description*: "UltraSPARC" is a trademark of SPARC International, Inc. and is used under license by Sun Microsystems, Inc. Products bearing the SPARC trademarks are based upon an architecture developed by Sun Microsystems, Inc.
 
 *Use it*: yes
@@ -22,7 +22,7 @@
 
 [discrete]
 [[uninterruptible]]
-==== uninterruptible (adjective)
+==== image:images/yes.png[yes] uninterruptible (adjective)
 *Description*: Although "uninterruptable" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)."
 
 *Use it*: yes
@@ -33,7 +33,7 @@
 
 [discrete]
 [[unix]]
-==== UNIX (noun)
+==== image:images/yes.png[yes] UNIX (noun)
 *Description*: UNIX is a registered trademark of The Open Group. Do not use "UNIX-like"; use an expression such as "Linux, UNIX, and similar operating systems" instead.
 
 *Use it*: yes
@@ -44,7 +44,7 @@
 
 [discrete]
 [[unset]]
-==== unset (verb)
+==== image:images/no.png[no] unset (verb)
 *Description*: Use "clear" instead of "unset," for example, "To disable the *Wobbly Widget*, clear the *Enable Wobbly Widget* check box." Another example is, "This rule only matches TCP packets that have the SYN flag set and the ACK flag cleared."
 
 *Use it*: no
@@ -55,7 +55,7 @@
 
 [discrete]
 [[untrusted]]
-==== untrusted (adjective)
+==== image:images/yes.png[yes] untrusted (adjective)
 *Description*: Use "untrusted" only in the context of security relationships, for example, web browsers often indicate that a site is untrusted if it cannot verify that site's security certificate.
 
 *Use it*: yes
@@ -66,7 +66,7 @@
 
 [discrete]
 [[upgrade]]
-==== upgrade (verb)
+==== image:images/yes.png[yes] upgrade (verb)
 *Description*: "Upgrade" means to raise (something) to a higher standard, in particular to improve by adding or replacing components, for example, "Upgrade the RHEL version."
 
 *Use it*: yes
@@ -76,20 +76,8 @@
 *See also*:
 
 [discrete]
-[[unmount]]
-==== unmount (verb)
-*Description*: "Unmount" means to make a disk inaccessible by the computer.
-
-*Use it*: yes
-
-*Incorrect forms*: un-mount, un mount
-
-*See also*: xref:mount[mount]
-
-
-[discrete]
 [[ups]]
-==== UPS (noun)
+==== image:images/yes.png[yes] UPS (noun)
 *Description*: "UPS" is an abbreviation of uninterruptible power supply, which is a power supply that includes a battery to maintain power in the event of a power outage.
 
 *Use it*: yes
@@ -100,7 +88,7 @@
 
 [discrete]
 [[upsell]]
-==== upsell (verb)
+==== image:images/yes.png[yes] upsell (verb)
 *Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, "upsell" is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
 
 *Use it*: yes
@@ -111,7 +99,7 @@
 
 [discrete]
 [[upselling]]
-==== upselling (noun)
+==== image:images/yes.png[yes] upselling (noun)
 *Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, "upselling" is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
 
 *Use it*: yes
@@ -122,7 +110,7 @@
 
 [discrete]
 [[upstream-n]]
-==== upstream (noun)
+==== image:images/yes.png[yes] upstream (noun)
 *Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the nominal form.
 
 *Use it*: yes
@@ -133,7 +121,7 @@
 
 [discrete]
 [[upstream-adj]]
-==== upstream (adjective)
+==== image:images/yes.png[yes] upstream (adjective)
 *Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the adjectival form.
 
 *Use it*: yes
@@ -145,7 +133,7 @@
 
 [discrete]
 [[uptime]]
-==== uptime (noun)
+==== image:images/yes.png[yes] uptime (noun)
 *Description*: "Uptime" is the time during which a computer or server is in operation. Use the one-word form.
 
 *Use it*: yes
@@ -156,7 +144,7 @@
 
 [discrete]
 [[url]]
-==== URL (noun)
+==== image:images/yes.png[yes] URL (noun)
 *Description*: "URL" is an acronym for Uniform Resource Locator. A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
 
 *Use it*: yes
@@ -166,19 +154,8 @@
 *See also*:
 
 [discrete]
-[[usable]]
-==== usable (adjective)
-*Description*: "Usable" means something is capable of being used.
-
-*Use it*: yes
-
-*Incorrect forms*: useable
-
-*See also*:
-
-[discrete]
 [[user]]
-==== user (noun)
+==== image:images/caution.png[with caution] user (noun)
 *Description*: When referring to the reader, use "you" instead of "user." If referring to more than one user, calling the collection "users" is acceptable, such as "Other users might want to access your database."
 
 *Use it*: with caution
@@ -189,7 +166,7 @@
 
 [discrete]
 [[user-name]]
-==== user name (noun)
+==== image:images/yes.png[yes] user name (noun)
 *Description*: Use as shown, two words, except for instances in which the GUI uses the single word form (username).
 
 *Use it*: yes, with exception for GUI.
@@ -200,7 +177,7 @@
 
 [discrete]
 [[user-space-n]]
-==== user space (noun)
+==== image:images/yes.png[yes] user space (noun)
 *Description*: Use "user space" when used as a noun.
 
 *Use it*: yes
@@ -211,7 +188,7 @@
 
 [discrete]
 [[user-space-adj]]
-==== user-space (adjective)
+==== image:images/yes.png[yes] user-space (adjective)
 *Description*: When used as a modifier, use the hyphenated form "user-space."
 
 *Use it*: yes

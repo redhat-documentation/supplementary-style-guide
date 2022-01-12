@@ -3,8 +3,8 @@
 
 [discrete]
 [[action]]
-==== action (noun)
-*Description*: In the context of authorization in OpenShift, an action consists of _project_, _verb_, and _resource_.
+==== image:images/yes.png[yes] action (noun)
+*Description*: In the context of authorization in OpenShift Container Platform, an action consists of _project_, _verb_, and _resource_.
 
 *Use it*: yes
 
@@ -14,21 +14,27 @@
 
 [discrete]
 [[api-objects]]
-==== API objects (noun)
+==== image:images/yes.png[yes] API objects (noun)
 *Description*: API objects are the resources that can be exposed by an API server
 at an endpoint for interrogation.
 
-Use initial capitalization and camel case for Kubernetes or OpenShift API
-objects and do not mark them up unless referring to a specific field or variable
-name from a spec or manifest file.
+For general references to a term that is also an API object, use lower case and separate multi-word API objects. For example:
 
-This matches general Kubernetes usage and makes it obvious that a specific
-concept is being referred to. For example:
+* pod
+* node
+* daemon set
+* config map
 
-- Pod
-- Deployment
-- Operator
-- DaemonSet (and not "daemon set", "daemonset", or "Daemonset")
+Example general term usage: _You must have at least one secret, config map, or service account._
+
+However, if you are interacting with the API object, such as when defining or editing an object, use the proper PascalCase `Kind` for the object and mark it up in monospace. For example:
+
+* `Pod`
+* `Node`
+* `DaemonSet`
+* `ConfigMap`
+
+Example object-specific usage: _The default amount of CPU that a container can use if not specified in the `Pod` spec._
 
 *Use it*: yes
 
@@ -38,8 +44,8 @@ concept is being referred to. For example:
 
 [discrete]
 [[api-server]]
-==== API server (noun)
-*Description*: A REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well. Always mark it properly (`apiserver`).
+==== image:images/yes.png[yes] API server (noun)
+*Description*: A REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
 
 *Use it*: yes
 
@@ -49,13 +55,8 @@ concept is being referred to. For example:
 
 [discrete]
 [[application]]
-==== application (noun)
-*Description*: Although the term _application_ is not an specific API object type
-in OpenShift, customers still create and host applications on OpenShift, and
-using the term within certain contexts is acceptable. For example, the term
-application might refer to some combination of an image, a Git repository, or a
-replication controller, and this application might be running PHP, MySQL, Ruby,
-JBoss, or something else.
+==== image:images/yes.png[yes] application (noun)
+*Description*: Although the term _application_ is not an specific API object type in OpenShift Container Platform, customers still create and host applications on OpenShift Container Platform, and using the term within certain contexts is acceptable. For example, the term application might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
 
 *Use it*: yes
 
@@ -65,7 +66,7 @@ JBoss, or something else.
 
 [discrete]
 [[authorization]]
-==== authorization (noun)
+==== image:images/yes.png[yes] authorization (noun)
 *Description*: An authorization determines whether an _identity_ is allowed to perform any _action_. It consists of identity and action.
 
 *Use it*: yes
@@ -76,7 +77,7 @@ JBoss, or something else.
 
 [discrete]
 [[build]]
-==== build (noun)
+==== image:images/yes.png[yes] build (noun)
 *Description*: The process of transforming input parameters into a resulting object. Most often, the process is used to transform input parameters or source code into a runnable image.
 
 *Use it*: yes
@@ -87,9 +88,9 @@ JBoss, or something else.
 
 [discrete]
 [[build-configuration]]
-==== BuildConfig (noun)
-*Description*: A BuildConfig is an API object that describes a single build
-definition and a set of triggers for when a new build should be created.
+==== image:images/yes.png[yes] build config (noun)
+*Description*: A build config describes a single build
+definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
 
 *Use it*: yes
 
@@ -98,16 +99,27 @@ definition and a set of triggers for when a new build should be created.
 *See also*: xref:build[build], xref:api-objects[API objects]
 
 [discrete]
-==== cluster (noun)
+==== image:images/yes.png[yes] cluster (noun)
 See xref:cluster[cluster] in the _General Conventions_ part.
 
 [discrete]
-==== container (noun)
+[[config-map]]
+==== image:images/yes.png[yes] config map (noun)
+*Description*: A config map holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
+
+*Use it*: yes
+
+*Incorrect forms*: configmap, configuration map
+
+*See also*: xref:api-objects[API objects]
+
+[discrete]
+==== image:images/yes.png[yes] container (noun)
 See xref:container[container] in the _General Conventions_ part.
 
 [discrete]
 [[controller]]
-==== controller (noun)
+==== image:images/yes.png[yes] controller (noun)
 *Description*: An object that reads APIs, applies changes to other objects, and reports status or write back to the object.
 
 *Use it*: yes
@@ -117,9 +129,9 @@ See xref:container[container] in the _General Conventions_ part.
 *See also*:
 
 [discrete]
-[[deployment]]
-==== deployment (noun)
-*Description*: A statement of intent by a user to roll out a new version of a configuration. A replication controller can be used for that and other purposes. All deployments are replication controllers, but not all replication controllers are deployments. To avoid confusion, do not refer to an overall OpenShift installation, instance, or cluster as an "OpenShift deployment".
+[[custom-resource]]
+==== image:images/yes.png[yes] custom resource (noun)
+*Description*: A custom resource (CR) is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
 
 *Use it*: yes
 
@@ -128,35 +140,32 @@ See xref:container[container] in the _General Conventions_ part.
 *See also*:
 
 [discrete]
-[[deployment-configuration]]
-==== DeploymentConfig (noun)
-*Description*: A DeploymentConfig is an API object that contains the details of a
-particular application deployment: the configuration used in the replication
-controller definition, such as the number of replicas to ensure; triggers for
-automatically performing an updated deployment, such as when an image is tagged
-or the source code in a source-to-image deployment is changed; the strategy for
-transitioning between deployments when upgrading; and lifecycle hooks.
+[[custom-resource-definition]]
+==== image:images/yes.png[yes] custom resource definition (noun)
+*Description*: A custom resource definition (CRD) defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
 
 *Use it*: yes
 
 *Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[deployment]]
+==== image:images/yes.png[yes] deployment (noun)
+*Description*: A statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
+
+The API object for a deployment can be either a Kubernetes-native `Deployment` object (which uses replication controllers) or an OpenShift-specific `DeploymentConfig` object (which uses replica sets).
+
+*Use it*: yes
+
+*Incorrect forms*: deployment configuration
 
 *See also*: xref:api-objects[API objects]
 
 [discrete]
-[[deployment-controller]]
-==== deployment controller (noun)
-*Description*: A Kubernetes object that creates a replication controller from a given Pod template. If that Pod template is modified, the deployment controller creates a new replication controller based on the modified Pod template and replaces the old replication controller with this new one.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
 [[dockerfile]]
-==== Dockerfile (noun)
+==== image:images/yes.png[yes] Dockerfile (noun)
 *Description*: Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands you would normally execute manually in order to build a Docker image.
 
 *Use it*: yes
@@ -167,7 +176,7 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[endpoint]]
-==== endpoint (noun)
+==== image:images/yes.png[yes] endpoint (noun)
 *Description*: The servers that back a service.
 
 *Use it*: yes
@@ -178,7 +187,7 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[identity]]
-==== identity (noun)
+==== image:images/yes.png[yes] identity (noun)
 *Description*: Both the user name and list of groups the user belongs to.
 
 *Use it*: yes
@@ -189,8 +198,8 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[image]]
-==== image (noun)
-*Description*: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information on how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift. Additionally, OpenShift provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a git repository.
+==== image:images/yes.png[yes] image (noun)
+*Description*: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift Container Platform uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift Container Platform. Additionally, OpenShift Container Platform provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.
 
 *Use it*: yes
 
@@ -200,8 +209,8 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[image-stream]]
-==== image stream (noun)
-*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in OpenShift’s integrated Docker repository, images from external Docker registries, and other image streams.
+==== image:images/yes.png[yes] image stream (noun)
+*Description*: A series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
 
 *Use it*: yes
 
@@ -211,8 +220,8 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[init-container]]
-==== init container (noun)
-*Description*: A container that allows you to reorganize setup scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A Pod can have init containers in addition to application containers.
+==== image:images/yes.png[yes] init container (noun)
+*Description*: A container that you can use to reorganize configuration scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.
 
 *Use it*: yes
 
@@ -221,9 +230,20 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 *See also*:
 
 [discrete]
+[[installer-provisioned-infrastructure]]
+==== image:images/yes.png[yes] installer-provisioned infrastructure (noun)
+*Description*: If the installation program deploys and configures the infrastructure that the cluster runs on, it is an installer-provisioned infrastructure installation.
+
+*Use it*: yes
+
+*Incorrect forms*: IPI
+
+*See also*:
+
+[discrete]
 [[kubelet]]
-==== kubelet (noun)
-*Description*: The agent that controls a Kubernetes node. Each node runs a kubelet, which handles starting and stopping containers on a node, based on the desired state defined by the master.
+==== image:images/yes.png[yes] kubelet (noun)
+*Description*: The agent that controls a Kubernetes node. Each node runs a kubelet, which handles starting and stopping containers on a node, based on the required state defined by the master.
 
 *Use it*: yes
 
@@ -233,7 +253,7 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[kubernetes-master]]
-==== Kubernetes master (noun)
+==== image:images/yes.png[yes] Kubernetes master (noun)
 *Description*: The Kubernetes-native equivalent to the OpenShift master. An OpenShift system runs OpenShift masters, not Kubernetes masters, and an OpenShift master provides a superset of the functionality of a Kubernetes master, so it is generally preferred to use the term OpenShift master.
 
 *Use it*: yes
@@ -244,8 +264,8 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[label]]
-==== label (noun)
-*Description*: Objects used to organize, group, or select API objects. For example, Pods are "tagged" with labels, and then services use label selectors to identify the Pods they proxy to. This makes it possible for services to reference groups of Pods, even treating Pods with potentially different containers as related entities.
+==== image:images/yes.png[yes] label (noun)
+*Description*: Objects used to organize, group, or select API objects. For example, pods are "tagged" with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
 
 *Use it*: yes
 
@@ -253,10 +273,9 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 *See also*:
 
-
 [discrete]
 [[minion]]
-==== minion (noun)
+==== image:images/no.png[no] minion (noun)
 *Description*: Deprecated. Use node instead.
 
 *Use it*: no
@@ -267,7 +286,7 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 
 [discrete]
 [[namespace]]
-==== namespace (noun)
+==== image:images/caution.png[with caution] namespace (noun)
 *Description*: Typically synonymous with project in OpenShift parlance, which is preferred.
 
 *Use it*: with caution
@@ -277,13 +296,13 @@ transitioning between deployments when upgrading; and lifecycle hooks.
 *See also*: xref:project[project]
 
 [discrete]
-==== node (noun)
+==== image:images/yes.png[yes] node (noun)
 See xref:node[node] in the _General Conventions_ part.
 
 [discrete]
 [[okd]]
-==== OKD (noun)
-*Description*: The name of OpenShift's open source, upstream project (previously known as
+==== image:images/yes.png[yes] OKD (noun)
+*Description*: The name of the open source, upstream project of OpenShift Container Platform (previously known as
 OpenShift Origin before August 3, 2018). OKD is a distribution of Kubernetes
 optimized for continuous application development and multitenant deployment.
 Officially, the initialism does not stand for anything.
@@ -296,14 +315,14 @@ Officially, the initialism does not stand for anything.
 
 [discrete]
 [[openshift]]
-==== OpenShift (noun)
+==== image:images/yes.png[yes] OpenShift (noun)
 *Description*: The OpenShift product name should be paired with its product
-distribution / variant name whenever possible. For example:
+distribution or variant name whenever possible. For example:
 
 - OpenShift Container Platform
 - OpenShift Online
 - OpenShift Dedicated
-- OpenShift Container Engine
+- OpenShift Kubernetes Engine
 
 Previously, the upstream distribution was called OpenShift Origin, however it is
 now called OKD; use of the OpenShift Origin name is deprecated.
@@ -313,7 +332,7 @@ applies to all distributions, as OKD does not have OpenShift in its name.
 However, the following components currently use "OpenShift" in the name and are
 allowed for use across all distribution documentation:
 
-- OpenShift Ansible Broker
+- OpenShift Ansible Broker (deprecated in 4.2 / removed in 4.4)
 - OpenShift Pipeline
 - OpenShift SDN
 
@@ -325,8 +344,8 @@ allowed for use across all distribution documentation:
 
 [discrete]
 [[openshift-cli]]
-==== OpenShift CLI (noun)
-*Description*: The command line interface of OpenShift v3, previously referred to as the client tools in OpenShift v2.
+==== image:images/yes.png[yes] OpenShift CLI (noun)
+*Description*: The `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
 
 *Use it*: yes
 
@@ -336,8 +355,8 @@ allowed for use across all distribution documentation:
 
 [discrete]
 [[openshift-container-registry]]
-==== OpenShift Container Registry (noun)
-*Description*: The integrated container registry that is deployed as part of an OpenShift Container Platform installation. This container registry adds the ability to easily provision new image repositories. This allows users to automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option that allows you to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
+==== image:images/yes.png[yes] OpenShift Container Registry (noun)
+*Description*: The integrated container registry that is deployed as part of an OpenShift Container Platform installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
 
 *Use it*: yes
 
@@ -347,7 +366,7 @@ allowed for use across all distribution documentation:
 
 [discrete]
 [[openshift-master]]
-==== OpenShift master (noun)
+==== image:images/yes.png[yes] OpenShift master (noun)
 *Description*: Provides a REST endpoint for interacting with the system and manages the state of the system, ensuring that all containers expected to be running are actually running and that other requests such as builds and deployments are serviced. New deployments and configurations are created with the REST API, and the state of the system can be interrogated through this endpoint as well. An OpenShift master comprises the API server, scheduler, and SkyDNS.
 
 *Use it*: yes
@@ -358,53 +377,35 @@ allowed for use across all distribution documentation:
 
 [discrete]
 [[openshift-origin]]
-==== OpenShift Origin (noun)
-*Description*: The previous name of OpenShift's open source, upstream project. This project has been renamed OKD.
+==== image:images/no.png[no] OpenShift Origin (noun)
+*Description*: The previous name of the open source, upstream project of OpenShift Container Platform. This project has been renamed OKD.
 
 *Use it*: no
 
-*Incorrect forms*: OpenShift, Openshift, Origin
+*Incorrect forms*:
 
 *See also*: xref:okd[OKD]
 
 [discrete]
-[[operator]]
-==== Operator
-*Description*: An Operator is a method of packaging, deploying, and managing a
-Kubernetes application. A Kubernetes application is an application that is both
-deployed on a Kubernetes cluster (including OpenShift clusters) and managed
-using the Kubernetes APIs and `kubectl` or `oc` tooling.
-
-While "containerized" is allowed, do not use "Operatorize" to refer to building
-an Operator that packages an application.
-
-Examples of correct usage:
-
-_Install the etcd Operator._
-
-_Build an Operator using the Operator SDK._
-
-*Use it*: yes
-
-*Incorrect forms*: operator, operatorize
-
-*See also*: xref:api-objects[API objects]
+[[operator-openshift]]
+==== image:images/yes.png[yes] Operator
+See xref:operator[Operator] in the _General Conventions_ part.
 
 [discrete]
 [[pod]]
-==== Pod (noun)
-*Description*: Pods come from the Kubernetes concept of the same name. A Pod is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. It is important to realize that OpenShift treats Pods as immutable. Any changes, be it the underlying image, Pod configuration, or environment variable values, cause new Pods to be created and phase out the existing Pods. Being immutable also means that any state is not maintained between Pods when they are recreated.
+==== image:images/yes.png[yes] pod (noun)
+*Description*: Pods come from the Kubernetes concept of the same name. A pod is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are recreated. The API object for a pod is `Pod`.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:container[container]
+*See also*: xref:container[container], xref:api-objects[API objects]
 
 [discrete]
 [[project]]
-==== project (noun)
-*Description*:An OpenShift project corresponds to a Kubernetes namespace. They are used to organize and group objects in the system, such as Services and DeploymentConfigs, as well as provide security policies specific to those resources.
+==== image:images/yes.png[yes] project (noun)
+*Description*: An OpenShift Container Platform project corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources.
 
 *Use it*: yes
 
@@ -413,9 +414,25 @@ _Build an Operator using the Operator SDK._
 *See also*: xref:action[action]
 
 [discrete]
+[[quick-start]]
+==== image:images/yes.png[yes] quick start (noun)
+*Description*: Two types of quick starts exist in OpenShift Container Platform:
+
+* Quick starts that provide a guided tutorial in the web console.
+* Quick start templates that enable users to start creating new applications quickly.
+
+Ensure that you provide context about which type of quick start you are referring to.
+
+*Use it*: yes
+
+*Incorrect forms*: quickstart, Quickstart
+
+*See also*:
+
+[discrete]
 [[red-hat-openshift-container-platform]]
-==== Red Hat OpenShift Container Platform (noun)
-*Description*: Red Hat's private, on-premise cloud application deployment and hosting platform.
+==== image:images/yes.png[yes] Red Hat OpenShift Container Platform (noun)
+*Description*: A Red Hat private, on-premise cloud application deployment and hosting platform.
 
 *Use it*: yes
 
@@ -425,8 +442,8 @@ _Build an Operator using the Operator SDK._
 
 [discrete]
 [[red-hat-openshift-dedicated]]
-==== Red Hat OpenShift Dedicated (noun)
-*Description*: Red Hat's managed public cloud application deployment and hosting service.
+==== image:images/yes.png[yes] Red Hat OpenShift Dedicated (noun)
+*Description*: A Red Hat managed public cloud application deployment and hosting service.
 
 *Use it*: yes
 
@@ -436,8 +453,8 @@ _Build an Operator using the Operator SDK._
 
 [discrete]
 [[red-hat-openshift-online]]
-==== Red Hat OpenShift Online (noun)
-*Description*: Red Hat's public cloud application deployment and hosting platform.
+==== image:images/yes.png[yes] Red Hat OpenShift Online (noun)
+*Description*: A Red Hat public cloud application deployment and hosting platform.
 
 *Use it*: yes
 
@@ -447,43 +464,19 @@ _Build an Operator using the Operator SDK._
 
 [discrete]
 [[replication-controller]]
-==== replication controller (noun)
-*Description*: A Kubernetes object used to ensure a specified number of Pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed Pods, both the removal of existing Pods (deletion, crashing, etc.) or the addition of extra Pods that are not desired. The Pods are automatically added or removed from the service to ensure its uptime.
+==== image:images/yes.png[yes] replication controller (noun)
+*Description*: A Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
 *See also*:
-
-[discrete]
-[[resource]]
-==== resource (noun)
-*Description*: The API endpoint being accessed. This is distinct from the
-referenced resource itself, which can be a Pod, DdeploymentConfig, Build, or
-other resource.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:endpoint[endpoint], xref:action[action], xref:project[project]
 
 [discrete]
 [[route]]
-==== route (noun)
-*Description*: A route exposes a service at a host name, like www.example.com, so that external clients can reach it by name.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
-[[service]]
-==== service (noun)
-*Description*: A service functions as a load balancer and proxy to underlying Pods. Services are assigned IP addresses and ports and will delegate requests to an appropriate Pod that can field it.
+==== image:images/yes.png[yes] route (noun)
+*Description*: A route exposes a service at a hostname, like www.example.com, so that external clients can reach it by name.
 
 *Use it*: yes
 
@@ -493,8 +486,19 @@ other resource.
 
 [discrete]
 [[scheduler]]
-==== scheduler (noun)
-*Description*: Component of the Kubernetes master or OpenShift master that manages the state of the system, places Pods on nodes, and ensures that all containers that are expected to be running are actually running.
+==== image:images/yes.png[yes] scheduler (noun)
+*Description*: Component of the Kubernetes master or OpenShift master that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[service]]
+==== image:images/yes.png[yes] service (noun)
+*Description*: A service functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
 
 *Use it*: yes
 
@@ -504,8 +508,8 @@ other resource.
 
 [discrete]
 [[skydns]]
-==== SkyDNS (noun)
-*Description*: A component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal host names for services and Pods.
+==== image:images/yes.png[yes] SkyDNS (noun)
+*Description*: A component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal hostnames for services and pods.
 
 *Use it*: yes
 
@@ -515,7 +519,7 @@ other resource.
 
 [discrete]
 [[source-to-image]]
-==== Source-to-Image (S2I) (noun)
+==== image:images/yes.png[yes] Source-to-Image (S2I) (noun)
 *Description*: A tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image.
 
 *Use it*: yes
@@ -526,14 +530,12 @@ other resource.
 
 [discrete]
 [[spec]]
-==== spec (noun)
-*Description*: In addition to "spec file" being allowed related to RPM spec
-files, general usage of "spec" is allowed when describing Kubernetes or
-OpenShift object specs / manifests / definitions.
+==== image:images/yes.png[yes] spec (noun)
+*Description*: In addition to "spec file", which is permitted when it relates to RPM spec files, you can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
 
 Example of correct usage:
 
-_Update the Pod spec to reflect the changes._
+_Update the `Pod` spec to reflect the changes._
 
 *Use it*: yes
 
@@ -543,8 +545,8 @@ _Update the Pod spec to reflect the changes._
 
 [discrete]
 [[template]]
-==== template (noun)
-*Description*: A template describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift.
+==== image:images/yes.png[yes] template (noun)
+*Description*: A template describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
 
 *Use it*: yes
 
@@ -553,8 +555,19 @@ _Update the Pod spec to reflect the changes._
 *See also*:
 
 [discrete]
+[[user-provisioned-infrastructure]]
+==== image:images/yes.png[yes] user-provisioned infrastructure (noun)
+*Description*: If the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a user-provisioned infrastructure installation.
+
+*Use it*: yes
+
+*Incorrect forms*: UPI
+
+*See also*:
+
+[discrete]
 [[verb]]
-==== verb (noun)
+==== image:images/yes.png[yes] verb (noun)
 *Description*: A get, list, create, or update operation.
 
 *Use it*: yes

@@ -13,8 +13,9 @@ before_install:
 
 script:
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor --destination-dir=/documents/output --out-file=index.html supplementary_style_guide/master.adoc
+  - cp -r supplementary_style_guide/images/ output/
 
-after_error: 
+after_error:
   - docker logs asciidoc-to-html
 
 after_failure:
@@ -27,4 +28,3 @@ deploy:
   local_dir: output
   on:
     branch: master
-    

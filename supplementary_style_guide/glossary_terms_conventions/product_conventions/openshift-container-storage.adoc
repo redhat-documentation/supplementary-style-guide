@@ -1,0 +1,147 @@
+[[openshift-container-storage-conventions]]
+
+[discrete]
+[[backing-store]]
+==== backing store (noun)
+*Description*: A type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[container-storage-interface]]
+==== Container Storage Interface (noun)
+*Description*: The Container Storage Interface (CSI) is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[multicloud-object-gateway]]
+==== Multicloud Object Gateway (noun)
+*Description*: Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
+
+Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform that you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[namespace-bucket]]
+==== namespace bucket (noun)
+*Description*: Namespace buckets enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[namespace-store]]
+==== namespace store (noun)
+*Description*: A type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[object-bucket]]
+==== object bucket (noun)
+*Description*: A container to store objects.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[object-bucket-claim]]
+==== object bucket claim (noun)
+*Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use object bucket claim to request an AWS S3 compatible bucket for the workloads.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[persistent-volume]]
+==== persistent volume (noun)
+*Description*: A persistent volume (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[persistent-volume-claim]]
+==== persistent volume claim (noun)
+*Description*: A persistent volume claim (PVC) is a request for storage by a user.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[red-hat-openshift-container-storage]]
+==== Red Hat OpenShift Container Storage (noun)
+*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms.
+
+*Use it*: yes
+
+*Incorrect forms*: OCS
+
+*See also*:
+
+[discrete]
+[[rook]]
+==== Rook (noun)
+*Description*: Rook is an orchestrator for multiple storage solutions, each with a specialized Kubernetes Operator to automate management.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[rook-ceph-operator]]
+==== Rook-Ceph Operator (noun)
+
+*Description*: The Rook-Ceph Operator automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[storage-class]]
+==== storage class (noun)
+*Description*: Use storage classes to describe the types of storage a product offers. OpenShift Container Storage offers block, shared file system, and object classes.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
