@@ -10,7 +10,7 @@ For documentation questions, contact rhos-docs@redhat.com.
 
 [discrete]
 [[director]]
-==== ==== image:images/yes.png[yes] director (noun)
+==== image:images/yes.png[yes] director (noun)
 *Description*: The Red Hat OpenStack Platform (RHOSP) director is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: _Use director to create a RHOSP environment._
 
 
@@ -37,7 +37,6 @@ For documentation questions, contact rhos-docs@redhat.com.
 *Description*: For definitions of all upstream OpenStack services, see the {openstack-glossary}. The following RHOSP documentation conventions apply:
 
 * Use the component name instead of the code name. For example: _Block Storage_ instead of _cinder_. Exceptions: _heat templates_ (as opposed to _Orchestration service templates_).
-==== image:images/yes.png[yes] OpenStack services (noun)
 *Description*: For definitions of all upstream OpenStack services, see the {openstack-glossary}. The following Red Hat OpenStack Platform documentation conventions apply:
 
 * Write the component name in upper case.
