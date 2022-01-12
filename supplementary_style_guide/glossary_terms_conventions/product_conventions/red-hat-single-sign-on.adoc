@@ -3,7 +3,7 @@
 [discrete]
 [[access-token]]
 == Access token
-A token that can be provided as part of an HTTP request that grants access to the service on which the request is  being invoked. This is part of the OpenID Connect and OAuth 2.0 specification.
+A token that can be provided as part of an HTTP request that grants access to the service on which the request is being invoked. This is part of the OpenID Connect and OAuth 2.0 specification.
 
 [discrete]
 [[assertion]]
