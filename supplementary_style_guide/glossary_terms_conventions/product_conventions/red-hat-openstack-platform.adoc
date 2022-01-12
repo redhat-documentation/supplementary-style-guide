@@ -1,7 +1,7 @@
 [[red-hat-openstack-platform-conventions]]
 
 
-:openstack-glossary: link:https://docs.openstack.org/ocata/install-guide-rdo/common/glossary.html[OpenStack.org Glossary]
+:openstack-glossary: link:https://docs.openstack.org/glossary/common/glossary.html[OpenStack.org Glossary]
 
 Upstream references: {openstack-glossary}
 
@@ -11,11 +11,11 @@ For documentation questions, contact rhos-docs@redhat.com.
 [discrete]
 [[director]]
 ==== director (noun)
-*Description*: The Red Hat OpenStack Platform director is a toolset for installing and managing a complete OpenStack environment. Write in lower case. Use with the article 'the' where appropriate. For example: _"Create an OpenStack environment with the director."_
+*Description*: The Red Hat OpenStack Platform (RHOSP) director is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: _Use director to create a RHOSP environment._
 
 *Use it*: yes
 
-*Incorrect forms*: Director
+*Incorrect forms*: The director, Director
 
 *See also*:
 
@@ -33,35 +33,26 @@ For documentation questions, contact rhos-docs@redhat.com.
 [discrete]
 [[openstack-services]]
 ==== OpenStack services (noun)
-*Description*: For definitions of all upstream OpenStack services, see the {openstack-glossary}. The following Red Hat OpenStack Platform documentation conventions apply:
+*Description*: For definitions of all upstream OpenStack services, see the {openstack-glossary}. The following RHOSP documentation conventions apply:
 
-* Use the component name instead of the code name.
-** For example: _Block Storage_ instead of _cinder_.
-* If the component name includes _service_, write _service_ in lower case.
-** For example: _Identity service_.
-* Write the code name in lowercase.
-** For example: _nova_.
+* Use the component name instead of the code name. For example: _Block Storage_ instead of _cinder_. Exceptions: _heat templates_ (as opposed to _Orchestration service templates_).
 * Write the component name in upper case.
-** For example: _Compute_.
-* First instance: _Component Name (codename)_.
-** For example: _OpenStack Networking (neutron)_.
-* Second instance: _Component Name_.
-** For example: _OpenStack Networking_.
-* At writer's discretion: _codename_.
-** For example: _neutron_.
-* Exceptions:
-** _heat templates_ (as opposed to _Orchestration service template_).
+* If the component name includes _service_, write _service_ in lowercase.
+* On the first use of the component name in a module, write the code name in lowercase in parentheses after the component name and after _service_.
+* Include the word _OpenStack_ before the component name only if necessary to differentiate from other product services.
+
+Examples of correct usage: _Networking service (neutron)_, _Shared File Systems service (manila)_, _Identity service_, _OpenStack Networking service_.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: Block storage service, compute, Horizon
 
 *See also*:
 
 [discrete]
 [[overcloud]]
 ==== overcloud (noun)
-*Description*: The overcloud is the resulting Red Hat OpenStack Platform environment created using the undercloud. Write in lower case.
+*Description*: The overcloud is the resulting RHOSP environment created by using the undercloud. Write in lowercase.
 
 *Use it*: yes
 
@@ -83,18 +74,18 @@ For documentation questions, contact rhos-docs@redhat.com.
 [discrete]
 [[red-hat-openstack-platform]]
 ==== Red Hat OpenStack Platform (noun)
-*Description*: Spell out in full. This product name applies to Red Hat OpenStack Platform 8 and later versions.
+*Description*: On the first use in a module, use the complete product name and the abbreviation in parentheses: _Red Hat OpenStack Platform (RHOSP)_. After the first instance, use: _RHOSP_. This product name applies to RHOSP 8 and later versions.
 
 *Use it*: yes
 
-*Incorrect forms*: RHOS, RHOSP, RH-OSP
+*Incorrect forms*: OpenStack Platform, RHOS, RH-OSP
 
 *See also*: xref:red-hat-enterprise-linux-openstack-platform[Red Hat Enterprise Linux OpenStack Platform]
 
 [discrete]
 [[undercloud]]
 ==== undercloud (noun)
-*Description*: The undercloud is the main director node. It is a single-system OpenStack installation that includes components for provisioning and managing the OpenStack nodes that form your OpenStack environment (the overcloud). Write in lower case.
+*Description*: The undercloud is the director node. It is a single-system RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment (the overcloud). Write in lowercase.
 
 *Use it*: yes
 
