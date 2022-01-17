@@ -203,6 +203,17 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 *See also*:
 
 [discrete]
+[[volatile-storage]]
+==== image:images/yes.png[yes] Volatile storage (noun)
+*Description*: A temporary storage, for example random access memory (RAM), that requires power to maintain the stored information. The stored data is lost when the device is turned off or restarts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:persistent-storage[Persistent storage]
+
+[discrete]
 [[vpn]]
 ==== image:images/yes.png[yes] VPN (noun)
 *Description*: "VPN" is an acronym for virtual private network, which is a network that is constructed by using public wires to connect nodes. For example, there are a number of systems that enable you to create networks using the internet as the medium for transporting data. These systems use encryption and other security mechanisms to ensure that only authorized users can access the network and that the data cannot be intercepted.

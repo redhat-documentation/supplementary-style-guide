@@ -44,6 +44,17 @@
 *See also*:
 
 [discrete]
+[[in-memory]]
+==== image:images/yes.png[yes] In-memory (adjective)
+*Description*: "In-memory" systems store data in a computer's main memory, random access memory (RAM). Clusters share their memory together and allow immediate access to data for real-time applications that require high performance.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[infiniband]]
 ==== image:images/yes.png[yes] InfiniBand (noun)
 *Description*: "InfiniBand" is a switched fabric network topology used in high-performance computing. The term is both a service mark and a trademark of the InfiniBand Trade Association. Their rules for using the mark are standard ones: append the (TM) symbol the first time it is used, and respect the capitalization (including the inter-capped "B") from then on. In ASCII-only circumstances, the "\(TM)" string is the acceptable alternative.

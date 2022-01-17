@@ -1,0 +1,102 @@
+[[red-hat-data-grid-conventions]]
+
+For documentation questions, contact jdg-docs@redhat.com.
+
+[discrete]
+[[cache-manager]]
+==== image:images/yes.png[yes] Cache Manager (noun)
+*Description*: Interface for creating and managing caches. Always spell as two words with capital letters when referring to the abstract notion of a Cache Manager. When referring to specific interfaces, use `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[data-grid]]
+==== image:images/yes.png[yes] Data Grid (noun)
+*Description*: The short product name for Red Hat Data Grid. Red Hat Data Grid is a high-performance, distributed in-memory data store.
+
+*Use it*: yes
+
+*Incorrect forms*: JBoss Data Grid
+
+*See also*: xref:red-hat-data-grid[Red Hat Data Grid]
+
+[discrete]
+[[data-grid-console]]
+==== image:images/yes.png[yes] Data Grid Console (noun)
+*Description*: Data Grid Console provides a web interface for creating and managing caches.
+
+*Use it*: yes
+
+*Incorrect forms*: JBoss Data Grid Administration Console, Data Grid console
+
+*See also*:
+
+[discrete]
+[[data-grid-server]]
+==== image:images/yes.png[yes] Data Grid Server (noun)
+*Description*: Data Grid Server is a standalone server which exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a Data Grid Server instance.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[hot-rod]]
+==== image:images/yes.png[yes] Hot Rod (adjective)
+*Description*: Hot Rod is a binary TCP client-server protocol used in Red Hat Data Grid. A Java client is able to interact with the Data Grid Server clusters via the Hot Rod protocol using the Hot Rod Java Client API. Write as two words and capitalize the first letter of each word.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[infinispan]]
+==== image:images/yes.png[yes] Infinispan (noun)
+*Description*: The name of the open source, upstream project of Red Hat Data Grid.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[red-hat-data-grid]]
+==== image:images/yes.png[yes] Red Hat Data Grid (noun)
+*Description*: Red Hat Data Grid is a high-performance, distributed in-memory data store. Always use the full product name (Red Hat Data Grid) or short product name (Data Grid). This product name applies to Red Hat Data Grid 7.3 and later versions.
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat JBoss Data Grid
+
+*See also*:
+
+[discrete]
+[[red-hat-jboss-data-grid]]
+==== image:images/no.png[no] Red Hat JBoss Data Grid (noun)
+*Description*: This product name applies to Red Hat Data Grid 7.3 and earlier versions.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:red-hat-data-grid[Red Hat Data Grid]
+
+[discrete]
+[[session-externalization]]
+==== image:images/yes.png[yes] Session externalization (noun)
+*Description*: Data Grid can provide external cache container for application specific data. These external caches store HTTP sessions and other data independently of the application layer.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
