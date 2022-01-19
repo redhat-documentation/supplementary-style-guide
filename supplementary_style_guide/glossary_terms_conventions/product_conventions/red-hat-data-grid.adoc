@@ -5,7 +5,7 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[cache-manager]]
 ==== image:images/yes.png[yes] Cache Manager (noun)
-*Description*: Interface for creating and managing caches. Always spell as two words with capital letters when referring to the abstract notion of a Cache Manager. When referring to specific interfaces, use `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`.
+*Description*: Interface for creating caches and managing cache lifecycles. Always spell as two words with capital letters when referring to the abstract notion of a Cache Manager. When referring to specific interfaces, use `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, marked up appropriately.
 
 *Use it*: yes
 
@@ -14,9 +14,20 @@ For documentation questions, contact jdg-docs@redhat.com.
 *See also*:
 
 [discrete]
+[[cross-site-replication]]
+==== image:images/yes.png[yes] cross-site replication (noun)
+*Description*: A configuration that allows Data Grid clusters to form a global view and back up data across geographically disperse locations. Multiple clusters running in different data centers replicate data between each other to ensure business continuity in the event of an outage and to present a single, unified caching service to applications.
+
+*Use it*: yes
+
+*Incorrect forms*: xsite
+
+*See also*:
+
+[discrete]
 [[data-grid]]
 ==== image:images/yes.png[yes] Data Grid (noun)
-*Description*: The short product name for Red Hat Data Grid. Red Hat Data Grid is a high-performance, distributed in-memory data store.
+*Description*: The short product name for Red Hat Data Grid. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
 
 *Use it*: yes
 
@@ -49,18 +60,18 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[hot-rod]]
 ==== image:images/yes.png[yes] Hot Rod (adjective)
-*Description*: Hot Rod is a binary TCP client-server protocol used in Red Hat Data Grid. A Java client is able to interact with the Data Grid Server clusters via the Hot Rod protocol using the Hot Rod Java Client API. Write as two words and capitalize the first letter of each word.
+*Description*: Hot Rod is a binary TCP client-server protocol used in Red Hat Data Grid. Java, C#, C++, Node.js clients, as well as clients written in other programming languages, and clients can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: hot rod, HotRod, hotrod
 
 *See also*:
 
 [discrete]
 [[infinispan]]
 ==== image:images/yes.png[yes] Infinispan (noun)
-*Description*: The name of the open source, upstream project of Red Hat Data Grid.
+*Description*: Infinispan is the open-source, community project on which Red Hat Data Grid is built.
 
 *Use it*: yes
 
@@ -71,13 +82,13 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[red-hat-data-grid]]
 ==== image:images/yes.png[yes] Red Hat Data Grid (noun)
-*Description*: Red Hat Data Grid is a high-performance, distributed in-memory data store. Always use the full product name (Red Hat Data Grid) or short product name (Data Grid). This product name applies to Red Hat Data Grid 7.3 and later versions.
+*Description*: Red Hat Data Grid is a high-performance, distributed in-memory data store. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. This product name applies to Red Hat Data Grid 7.3 and later versions.
 
 *Use it*: yes
 
-*Incorrect forms*: Red Hat JBoss Data Grid
+*Incorrect forms*: Red Hat JBoss Data Grid, JDG
 
-*See also*:
+*See also*: xref:data-grid[Data Grid]
 
 [discrete]
 [[red-hat-jboss-data-grid]]
@@ -92,8 +103,8 @@ For documentation questions, contact jdg-docs@redhat.com.
 
 [discrete]
 [[session-externalization]]
-==== image:images/yes.png[yes] Session externalization (noun)
-*Description*: Data Grid can provide external cache container for application specific data. These external caches store HTTP sessions and other data independently of the application layer.
+==== image:images/yes.png[yes] session externalization (noun)
+*Description*: Data Grid clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
 
 *Use it*: yes
 

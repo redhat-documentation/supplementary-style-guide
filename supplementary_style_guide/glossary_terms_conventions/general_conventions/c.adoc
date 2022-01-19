@@ -354,17 +354,6 @@ image repository contains one or more tagged images.
 *See also*:
 
 [discrete]
-[[cross-site-replication]]
-==== image:images/yes.png[yes] Cross-site replication (noun)
-*Description*: A service that allows data back up across locations. Clusters running in different locations can transfer state from one cluster to another.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
 [[cross-site-scripting]]
 ==== image:images/yes.png[yes] cross-site scripting (adjective)
 *Description*: Use "cross-site scripting" as an adjective when referring to "cross-site scripting" attacks. Another acceptable use is "cross-site scripting" (XSS) attack.

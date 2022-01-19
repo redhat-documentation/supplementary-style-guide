@@ -33,14 +33,14 @@
 
 [discrete]
 [[persistent-storage]]
-==== image:images/yes.png[yes] Persistent storage (noun)
-*Description*: A type of storage that persists data even after the computer is turned off or after the process that created them ended, for example hard disk, tape or flash memory.
+==== image:images/yes.png[yes] persistent storage (noun)
+*Description*: A type of storage that persists data even after the computer is turned off or after the process that created the data ended, for example hard disk, tape, or flash memory.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:volatile-storage[Volatile storage]
+*See also*: xref:volatile-storage[volatile storage]
 
 [discrete]
 [[php]]
