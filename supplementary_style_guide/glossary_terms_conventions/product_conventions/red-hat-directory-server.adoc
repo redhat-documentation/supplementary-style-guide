@@ -60,7 +60,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 [discrete]
 [[directory-manager]]
 ==== image:images/yes.png[yes] Directory Manager (noun)
-*Description*: The privileged administrative user in Red Hat Directory Server is called Directory Manager. The distinguished name (DN) of this user is cn=Directory Manager.
+*Description*: The privileged administrative user in Red Hat Directory Server is called the Directory Manager. The distinguished name (DN) of this user is cn=Directory Manager.
 
 *Use it*: yes
 
@@ -71,7 +71,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 [discrete]
 [[directory-server]]
 ==== image:images/yes.png[yes] Directory Server (noun)
-*Description*: The short product name of Red Hat Directory Server. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this distinguishes the Red Hat Directory Server product from other directory servers.
+*Description*: The short product name of Red Hat Directory Server. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
 
 *Use it*: yes
 
