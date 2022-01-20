@@ -190,7 +190,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 *See also*: xref:consumer-rhds[consumer], xref:hub[hub]
 
 [discrete]
-[[ssl]]
+[[ssl-rhds]]
 ==== image:images/no.png[no] SSL (noun)
 *Description*: The Secure Socket Layer (SSL) protocol is the insecure predecessor of TLS. Due to the weakness of the protocol, support of SSL has been removed in RHEL 8 and Directory Server 11. When you refer to TLS encryption or certificates, use "TLS".
 
@@ -242,4 +242,4 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Incorrect forms*: SSL, SSL/TLS, TLS/SSL
 
-*See also*: xref:ssl[SSL]
+*See also*: xref:ssl-rhds[SSL]
