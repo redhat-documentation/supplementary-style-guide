@@ -16,27 +16,64 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 The Conscious Language Group supports the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red Hat is involved.
 For more information about the Conscious Language Group, see https://github.com/conscious-lang/conscious-lang-docs.
 
+[IMPORTANT]
+====
+To ensure consistency and success, it is imperative for product team stakeholders to align internally. For example, documentation teams should engage in discussions with their engineering leadership to reach an agreement on replacement terms. This ensures that the product documentation matches the code.
+====
+
 === blacklist and whitelist
 
 When possible, rewrite documentation to avoid these terms.
-
-
-.Example: Removing 'blacklist'
-image:images/no.png[no] Heat blacklists any servers in the list from receiving updated heat deployments. After the stack operation completes, any blacklisted servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
-
-image:images/yes.png[yes] Heat excludes any servers in the list from receiving updated heat deployments. After the stack operation completes, any excluded servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
-
-
-.Example: Removing 'whitelist'
-image:images/no.png[no] The following steps demonstrate adding a new rule to whitelist a custom binary.
-
-image:images/yes.png[yes] The following steps demonstrate adding a new rule to allow a custom binary.
-
-When it is not possible to remove the terms 'blacklist' and 'whitelist', replace them with one of the following alternatives:
+When it is not possible to remove the terms _blacklist_ and _whitelist_, replace them with one of the following alternatives:
 
 * blocklist / allowlist: This combination is recommended by _The IBM Style Guide_. Use this combination unless your product area has another specific replacement that is agreed between engineering leadership and your documentation team.
 * denylist / allowlist
 * blocklist / passlist
+* You can also use a term that has been agreed by your product team stakeholders.
+
+.Examples
+* Removing blacklist
++
+image:images/no.png[no] Heat _blacklists_ any servers in the list from receiving updated heat deployments. After the stack operation completes, any blacklisted servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
++
+image:images/yes.png[yes] Heat _excludes_ any servers in the list from receiving updated heat deployments. After the stack operation completes, any excluded servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
+
+* Removing whitelist
++
+image:images/no.png[no] The following steps demonstrate adding a new rule to _whitelist_ a custom binary.
++
+image:images/yes.png[yes] The following steps demonstrate adding a new rule to _allow_ a custom binary.
+
+
+=== master and slave
+
+When possible, rewrite documentation to avoid these terms. When it is not possible to rewrite, you can use the following alternatives for _master_ / _slave_:
+
+* primary / secondary
+* source / replica
+* initiator, requester / responder
+* controller, host / device, worker, proxy
+* director / performer
+* You can also use a term that has been agreed by your product team stakeholders.
+
+
+.Examples
+* Removing _master_
++
+image:images/no.png[no] A Ceph Monitor maintains the _master_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
++
+image:images/yes.png[yes] A Ceph Monitor maintains the _primary_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
++
+image:images/yes.png[yes] A Ceph Monitor maintains the _main_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
+
+
+* Removing _slave_
++
+image:images/no.png[no] Use the following command to copy the public key to the _slave_ node.
++
+image:images/yes.png[yes] Use the following command to copy the public key to the _secondary_ node.
+
+
 
 [[conversational-style]]
 == Conversational style
@@ -274,7 +311,7 @@ For example, you might combine existing product name attributes to create compou
 
 When possible, avoid making statements that predict future releases or plans.
 
-However, some circumstances, such as release notes or deprecation notices, might dictate that you refer to a future release, plan, or event. 
+However, some circumstances, such as release notes or deprecation notices, might dictate that you refer to a future release, plan, or event.
 In these situations, follow these guidelines:
 
 * When discussing future plans, use words such as "anticipate", "expect", or "plan".
@@ -283,16 +320,12 @@ In these situations, follow these guidelines:
 +
 [NOTE]
 ====
-One exception to this rule applies to deprecation notices, which might have to specify a future release in which a feature or functions will be removed. 
+One exception to this rule applies to deprecation notices, which might have to specify a future release in which a feature or functions will be removed.
 
-See xref:release-notes[Release notes] for guidelines about deprecation notices. 
+See xref:release-notes[Release notes] for guidelines about deprecation notices.
 ====
 
 .Example: Bug fix statement
 image:images/no.png[no] We will fix this issue in the 18.3.4 release next February.
 
 image:images/yes.png[yes] It is anticipated that an upcoming release will include a fix for this issue.
-
-
-
-
