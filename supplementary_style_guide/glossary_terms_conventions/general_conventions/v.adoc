@@ -205,7 +205,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[volatile-storage]]
 ==== image:images/yes.png[yes] volatile storage (noun)
-*Description*: Temporary storage, for example random access memory (RAM), that requires power to maintain the stored information. The stored data is lost when the device is turned off or restarts.
+*Description*: Volatile storage is temporary storage, for example, random access memory (RAM) that requires power to maintain the stored information. The stored data is lost when the device is turned off or restarts.
 
 *Use it*: yes
 

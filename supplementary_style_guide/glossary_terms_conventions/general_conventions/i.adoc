@@ -46,7 +46,7 @@
 [discrete]
 [[in-memory]]
 ==== image:images/yes.png[yes] in-memory (adjective)
-*Description*: "In-memory" systems store data in a computer's main memory, random access memory (RAM). Clusters share memory resources, which reduces waste and boosts application performance by providing access to data in the same memory space where code executes.
+*Description*: In-memory systems store data in a computer's main memory, random access memory (RAM). Clusters share memory resources, which reduces waste and boosts application performance by providing access to data in the same memory space where code executes.
 
 *Use it*: yes
 

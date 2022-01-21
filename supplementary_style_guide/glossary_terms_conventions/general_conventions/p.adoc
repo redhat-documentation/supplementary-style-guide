@@ -34,7 +34,7 @@
 [discrete]
 [[persistent-storage]]
 ==== image:images/yes.png[yes] persistent storage (noun)
-*Description*: A type of storage that persists data even after the computer is turned off or after the process that created the data ended, for example hard disk, tape, or flash memory.
+*Description*: Persistent storage is a type of storage that preserves data even after the computer is turned off or after the process that created the data ends. A hard disk, tape, or flash memory are examples of persistent storage.
 
 *Use it*: yes
 

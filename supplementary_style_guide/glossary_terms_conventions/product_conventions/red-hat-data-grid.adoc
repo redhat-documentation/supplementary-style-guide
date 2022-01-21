@@ -5,7 +5,7 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[cache-manager]]
 ==== image:images/yes.png[yes] Cache Manager (noun)
-*Description*: Interface for creating caches and managing cache lifecycles. Always spell as two words with capital letters when referring to the abstract notion of a Cache Manager. When referring to specific interfaces, use `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, marked up appropriately.
+*Description*: Cache Manager is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a Cache Manager. When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
 
 *Use it*: yes
 
@@ -49,7 +49,7 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[data-grid-server]]
 ==== image:images/yes.png[yes] Data Grid Server (noun)
-*Description*: Data Grid Server is a standalone server which exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a Data Grid Server instance.
+*Description*: Data Grid Server is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a Data Grid Server instance.
 
 *Use it*: yes
 
@@ -60,7 +60,7 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[hot-rod]]
 ==== image:images/yes.png[yes] Hot Rod (adjective)
-*Description*: Hot Rod is a binary TCP client-server protocol used in Red Hat Data Grid. Java, C#, C++, Node.js clients, as well as clients written in other programming languages, and clients can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
+*Description*: Hot Rod is a binary TCP client-server protocol used in Red Hat Data Grid. Java, C#, C++, Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
 
 *Use it*: yes
 
