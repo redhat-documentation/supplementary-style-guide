@@ -1,13 +1,11 @@
 [[cloud-services]]
 = Cloud services
 
-Cloud services, also referred to as cloud services, are applications that run on a platform backed by data storage infrastructure and are hosted and managed by Red Hat on behalf of the customer. Managed cloud services provide rapid iteration and can more quickly deliver updated product functionality.
+Cloud services are applications that run on a platform backed by data storage infrastructure and are hosted and managed by Red Hat on behalf of the customer. Managed cloud services provide rapid iteration and can more quickly deliver updated product functionality.
 
-This means a product is no longer running exclusively in the customer’s infrastructure but is a service running in the cloud that is operated and maintained by Red Hat.
+This means a product is no longer running exclusively in the customer’s infrastructure but is a service running in the cloud that is operated and maintained by Red Hat. Red Hat is now responsible for ensuring the service is secure, scalable, performant, and available at all times.
 
-Red Hat is now responsible for ensuring the service is secure, scalable, performant, and available at all times.
-
-Cloud services documentation requires a shift from how documentation is typically created for an on-premise product. There is more emphasis on the content delivered within the user interface itself, a need to deliver content rapidly without necessarily having a set release cadence, and to adapt content to the needs of cloud service users. For example, there might not be a need for upgrade and migration content that’s typical for on-premise products.
+Cloud services documentation requires a shift from how documentation is typically created for an on-premise product. There is more emphasis on the content delivered within the product's user interface itself, a need to deliver content rapidly without having a set release cadence, and to adapt content to the needs of cloud service users. For example, there might not be a need for upgrade and migration content that’s typical for on-premise products.
 
 This section provides guidelines for creating content for the user interface, emphasizing accessibility. with the intent to provide consistency in how users understand and navigate across different cloud services.
 
@@ -69,20 +67,20 @@ Examples:
 * Use correct Asciidoc tags to produce intended HTML.
 
 
-.Reference
+.Additional resources
 
 *  Understanding WCAG 2.0
-** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html[Text Alternatives].
-** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html[Images of Text].
-** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html[Link Purpose(In Context)].
-** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html[Sensory Characteristics].
-** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html[Use of Color].
+** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html[Text Alternatives]
+** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html[Images of Text]
+** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html[Link Purpose (In Context)]
+** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html[Sensory Characteristics]
+** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html[Use of Color]
 ** link:https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html[Meaningful Sequence]
-* link:https://webaim.org/resources/contrastchecker/[WebAIM Contrast Checker].
+* link:https://webaim.org/resources/contrastchecker/[WebAIM Contrast Checker]
 
 == Localization
 
-Documentation that follows the IBM Style Guide for fairly conversational tone does not present issues with human- or machine-translation. Use of contractions, specifically, has not shown to produce issues with translations.
+Documentation that follows the _IBM Style Guide_ for fairly conversational tone does not present issues with human or machine translation and better aligns with tone in the user interface. Use contractions where appropriate.
 
 [[microcopy]]
 == Microcopy
@@ -93,7 +91,7 @@ See link:https://www.patternfly.org/v4/ux-writing/about[UX writing] in the Patte
 
 [[screenshots]]
 == Screenshots
-Avoid screenshots for both accessibility and localization concerns, if you must use screenshots use them as judiciously as possible and ensure alt text is unique and descriptive. See xref:accessibility[Accessibility] for more information on proper use of images in user interface documentation.
+Avoid screenshots for both accessibility and localization reasons. If you must use screenshots use them as judiciously as possible and ensure alt text is unique and descriptive. See xref:accessibility[Accessibility] for more information on proper use of images in user interface documentation.
 
 /////
 TBD as more information is provided on unique content types.
