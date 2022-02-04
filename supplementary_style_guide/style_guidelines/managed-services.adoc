@@ -7,7 +7,7 @@ This means a product is no longer running exclusively in the customer’s infras
 
 Cloud services documentation requires a shift from how documentation is typically created for an on-premise product. There is more emphasis on the content delivered within the product's user interface itself, a need to deliver content rapidly without having a set release cadence, and to adapt content to the needs of cloud service users. For example, there might not be a need for upgrade and migration content that’s typical for on-premise products.
 
-This section provides guidelines for creating content for the user interface, emphasizing accessibility. with the intent to provide consistency in how users understand and navigate across different cloud services.
+This section provides guidelines for creating content for the user interface, emphasizing accessibility, with the intent to provide consistency in how users understand and navigate across different cloud services.
 
 [[accessibility]]
 == Accessibility
