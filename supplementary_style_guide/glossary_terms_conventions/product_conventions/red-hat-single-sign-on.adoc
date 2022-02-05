@@ -2,145 +2,319 @@
 
 [discrete]
 [[access-token]]
-== Access token
-A token that can be provided as part of an HTTP request that grants access to the service on which the request is being invoked. This is part of the OpenID Connect and OAuth 2.0 specification.
+==== image:images/yes.png[yes] Access token
+An access token is a token that can be provided as part of an HTTP request that grants access to the service being invoked on. This is part of the OpenID Connect and OAuth 2.0 specification.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[assertion]]
-== Assertion
-Information about a user. This usually pertains to an XML blob that is included in a SAML authentication response that provided identity metadata about an authenticated user.
+==== image:images/yes.png[yes] Assertion
+An assertion provides information about a user. This usually pertains to an XML blob that is included in a SAML authentication response that provided identity metadata about an authenticated user.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 
 [discrete]
 [[authentication]]
-== Authentication
-The process of identifying and validating a user.
+==== image:images/yes.png[yes] Authentication
+Authentication is the process of identifying and validating a user.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[authentication-flows]]
-== Authentication flows
-Authentication flows are work flows a user must perform when interacting with certain aspects of the system. A login flow can define what credential types are required. A registration flow defines what profile information a user must enter and whether something like reCAPTCHA must be used to filter out bots. Credential reset flow defines what actions a user must do before they can reset their password.
+[[authentication-flow]]
+==== image:images/yes.png[yes] Authentication flow
+An authentication flow is a work flow that a user must perform when interacting with certain aspects of the system. A login flow can define what credential types are required. A registration flow defines what profile information a user must enter and whether something like reCAPTCHA must be used to filter out bots. Credential reset flow defines what actions a user must take before they can reset their password.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[authorization]]
-== Authorization
-The process of granting access to a user.
+//[[authorization]]
+==== image:images/yes.png[yes] Authorization
+Authorization is the process of granting access to a user.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[client-adapters]]
-== Client adapters
-Client adapters are plugins that you install into your application environment to be able to communicate and be secured by Red Hat Single Sign-On. Red Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red Hat do not cover.
+[[client-adapter]]
+==== image:images/yes.png[yes] Client adapter
+Client adapters are libraries that make it easy to secure applications and services with Red Hat Single Sign-On. Red Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red Hat do not cover.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
 [[client-role]]
-== Client role
-Clients can define roles that are specific to them. This is basically a role namespace dedicated to the client.
+==== image:images/yes.png[yes] Client role
+A client role is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[client-scopes]]
-== Client scopes
-When a client is registered, you must define protocol mappers and role scope mappings for that client. It is often useful to store a client scope, to make creating new clients easier by sharing some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red Hat Single Sign-On provides the concept of a client scope for this.
+[[client-scope]]
+==== image:images/yes.png[yes] Client scope
+When a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a client scope so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red Hat Single Sign-On provides the concept of a client scope for this.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[clients]]
-== Clients
-Clients are entities that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients can also be entities that only want to request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
+[[client]]
+==== image:images/yes.png[yes] Client
+A client is an entity that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
 
-[[composite-roles]]
-== Composite roles
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[composite-role]]
+==== image:images/yes.png[yes] Composite role
 A composite role is a role that can be associated with other roles. For example a `superuser` composite role can be associated with the `sales-admin` and `order-entry-admin` roles. If a user is mapped to the `superuser` role they also inherit the `sales-admin` and `order-entry-admin` roles.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[consent]]
-== Consent
+==== image:images/yes.png[yes] Consent
 Consent is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[credentials]]
-== Credentials
+==== image:images/yes.png[yes] Credentials
 Credentials are pieces of data that Red Hat Single Sign-On uses to verify the identity of a user. Some examples are passwords, one-time-passwords, digital certificates, or even fingerprints.
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[direct-grant]]
-== Direct grant
-A way for a client to obtain an access token on behalf of a user through a REST invocation.
+==== image:images/yes.png[yes] Direct grant
+A direct grant is a way for a client to obtain an access token on behalf of a user through a REST invocation.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[events]]
-== Events
-Events are audit streams that admins can view and hook into.
+//[[event]]
+==== image:images/yes.png[yes] Event
+An event is an audit stream that admins view and connect to.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[groups]]
-== Groups
-Groups manage groups of users. Attributes can be defined for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings that group defines.
+[[group]]
+==== image:images/yes.png[yes] Group
+A group manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings that group defines.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[identity-provider]]
-== Identity provider
-An identity provider (IDP) is a service that can authenticate a user. Red Hat Single Sign-On is an IDP.
+==== image:images/yes.png[yes] Identity provider
+An identity provider (IDP) is a service that authenticates a user. Red Hat Single Sign-On is an IDP.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[identity-provider-federation]]
-== Identity provider federation
+==== image:images/yes.png[yes] Identity provider federation
 Red Hat Single Sign-On can be configured to delegate authentication to one or more IDPs. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[identity-provider-mappers]]
-== Identity provider mappers
-When doing IDP federation you can map incoming tokens and assertions to user and session attributes. This helps you propagate identity information from the external IDP to your client requesting authentication.
+==== image:images/yes.png[yes] Identity provider mappers
+When doing IDP federation, you can map incoming tokens and assertions to user and session attributes. This helps you propagate identity information from the external IDP to your client requesting authentication.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[identity-token]]
-== Identity token
-A token that provides identity information about the user. Part of the OpenID Connect specification.
+==== image:images/yes.png[yes] Identity token
+An identity token provides identity information about the user. Part of the OpenID Connect specification.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[protocol-mappers]]
-== Protocol mappers
+[[protocol-mapper]]
+==== image:images/yes.png[yes] Protocol mapper
 For each client you can tailor what claims and assertions are stored in the OIDC token or SAML assertion. You do this per client by creating and configuring protocol mappers.
 
-[discrete]
-[[realms]]
-== Realm
-Manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[required-actions]]
-== Required action
-An action a user must perform during the authentication process. A user cannot complete the authentication process until this action is complete. For example, an admin might schedule users to reset their passwords every month. An update password required action is set for all these users.
+//[[realm]]
+==== image:images/yes.png[yes] Realm
+A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[roles]]
-== Role
-Identifies a type or category of user. `Admin`, `user`, `manager`, and `employee` are all typical roles that may exist in an organization. Applications often assign access and permissions to specific roles rather than individual users because dealing with users can be too granular and hard to manage.
+[[required-action]]
+==== image:images/yes.png[yes] Required action
+A required action is an action that a user must perform during the authentication process. A user cannot complete the authentication process until these actions are complete. For example, an admin might schedule users to reset their passwords every month. An update password required action is set for all these users.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[role]]
+==== image:images/yes.png[yes] Role
+A role identifies a type or category of user. `Admin`, `user`, `manager`, and `employee` are all typical roles that might exist in an organization. Applications often assign access and permissions to specific roles rather than individual users because dealing with users can be too granular and hard to manage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[service-account]]
-== Service account
+==== image:images/yes.png[yes] Service account
 Each client has a built-in service account to obtain an access token.
 
-[discrete]
-[[session]]
-== Session
-When a user logs in, a session is created to manage the login session. A session contains information like when the user logged in and what applications have participated within single-sign on during that session. Both admins and users can view session information.
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
-[[themes]]
-== Theme
-Defines HTML templates and stylesheets that you can override as needed. Every screen provided by Red Hat Single Sign-On is backed by a theme. 
+//[[session]]
+==== image:images/yes.png[yes] Session
+When a user logs in, a session is created to manage the login session. A session contains information like when the user logged in and what applications have participated within single-sign on during that session. Both admins and users can view session information.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[theme]]
+==== image:images/yes.png[yes] Theme
+A theme defines HTML templates and stylesheets that you can override as you require. Every screen that Red Hat Single Sign-On provides is backed by a theme.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[user-federation-provider]]
-== User federation provider
+==== image:images/yes.png[yes] User federation provider
 Red Hat Single Sign-On can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[user-role-mapping]]
-== User role mapping
+==== image:images/yes.png[yes] User role mapping
 A user role mapping defines a mapping between a role and a user. A user can be associated with zero or more roles. This role mapping information can be encapsulated into tokens and assertions so that applications can decide access permissions on various resources they manage.
 
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
-[[users]]
-== User
-An entity that can log into your system. A user can have attributes associated with themselves like email, username, address, phone number, and birthday. They can be assigned group membership and have specific roles assigned to them.
+//[[user]]
+==== image:images/yes.png[yes] User
+A user is an entity that can log into your system. A user can have attributes associated with themselves like email, username, address, phone number, and birth day. They can be assigned group membership and have specific roles assigned to them.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
