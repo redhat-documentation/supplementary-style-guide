@@ -176,6 +176,9 @@ include::glossary_terms_conventions/product_conventions/red-hat-cloudforms.adoc[
 ==== Red Hat Directory Server
 include::glossary_terms_conventions/product_conventions/red-hat-directory-server.adoc[leveloffset=+1]
 
+==== Red Hat Data Grid
+include::glossary_terms_conventions/product_conventions/red-hat-data-grid.adoc[leveloffset=+1]
+
 ==== Red Hat Enterprise Linux
 include::glossary_terms_conventions/product_conventions/red-hat-enterprise-linux.adoc[leveloffset=+1]
 
