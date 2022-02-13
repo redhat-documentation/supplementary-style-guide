@@ -52,6 +52,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *See also*:
 
+////
 [discrete]
 [[details-pane]]
 ==== image:images/yes.png[yes] details pane (noun)
@@ -64,6 +65,7 @@ Tabs in the details pane are always referred to as, for example, "the General ta
 *Incorrect forms*:
 
 *See also*: xref:results-list[results list], xref:details-view[details view]
+////
 
 [discrete]
 [[details-view]]
@@ -90,7 +92,7 @@ Tabs in the details pane are always referred to as, for example, "the General ta
 [discrete]
 [[header-bar]]
 ==== image:images/yes.png[yes] header bar (noun)
-*Description*: The header bar contains the name of the currently logged in user, the Sign Out button, the About button, the Configure button, and the Guide button. For a visual example, see link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.1/html-single/introduction_to_the_administration_portal/#Graphical_User_Interface_elements[Graphical User Interface Elements] in the _Introduction to the Administration Portal_. The screen shot applies to Red Hat Virtualization 4.1 and earlier versions (including 3.x).
+*Description*: The header bar contains a button for collapsing/expanding the text in the side bar, as well as buttons for viewing *Bookmarks*, creating, editing, and viewing *Tags*, viewing *Tasks*, viewing *Events and alerts* notification,  viewing *Help* and *About* information, and the name of the currently logged in user, with an option to edit the authorization SSH key.
 
 *Use it*: yes
 
@@ -257,7 +259,7 @@ Use "Red Hat Virtualization Manager" for version 4.x. Spell out in full for the 
 [discrete]
 [[resource-tab]]
 ==== image:images/yes.png[yes] resource tab (noun)
-*Description*: Hosts, virtual machines, storage, and other resources in Red Hat Virtualization can be managed by using their associated tab. For a visual example, see link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.1/html-single/introduction_to_the_administration_portal/#Graphical_User_Interface_elements[Graphical User Interface Elements] in the _Introduction to the Administration Portal_. The screen shot applies to Red Hat Virtualization 4.1 and earlier versions (including 3.x).
+*Description*: Hosts, virtual machines, storage, and other resources in Red Hat Virtualization can be managed by using their associated tab.
 
 You can refer to these tabs as just, for example, "the *Storage* tab", unlike the tabs in the details pane, which are always specified as such.
 
@@ -270,7 +272,7 @@ You can refer to these tabs as just, for example, "the *Storage* tab", unlike th
 [discrete]
 [[results-list]]
 ==== image:images/yes.png[yes] results list (noun)
-*Description*: The results list shows the resources managed under each resource tab. For example, the results list for the *Hosts* tab shows all hosts attached to the Red Hat Virtualization Manager. For a visual example, see link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.1/html-single/introduction_to_the_administration_portal/#Graphical_User_Interface_elements[Graphical User Interface Elements] in the _Introduction to the Administration Portal_. The screen shot applies to Red Hat Virtualization 4.1 and earlier versions (including 3.x).
+*Description*: The results list shows the resources managed under each resource tab. For example, the results list for the *Hosts* tab shows all hosts attached to the Red Hat Virtualization Manager.
 
 *Use it*: yes
 
@@ -342,7 +344,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 [discrete]
 [[standalone-manager]]
 ==== image:images/yes.png[yes] standalone Manager (noun)
-*Description*: "Standalone Manager" is used specifically, and only, in the context of differentiating between a "regular" Red Hat Virtualization environment and a self-hosted engine environment. Use "the Red Hat Virtualization Manager" or "the Manager" in all other cases. See the link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.1/html/product_guide/introduction#architecture[_Red Hat Virtualization Product Guide_] for details.
+*Description*: "Standalone Manager" is used specifically, and only, in the context of differentiating between a "regular" Red Hat Virtualization environment and a self-hosted engine environment. Use "the Red Hat Virtualization Manager" or "the Manager" in all other cases. See the link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.4/html/product_guide/introduction#Standalone_Manager_Architecture_RHV_intro[_Red Hat Virtualization Product Guide_] for details.
 
 *Use it*: yes
 
@@ -387,6 +389,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 *See also*:
 
+////
 [discrete]
 [[tree-pane]]
 ==== image:images/yes.png[yes] tree pane (noun)
@@ -397,6 +400,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 *Incorrect forms*: System pane, system pane
 
 *See also*:
+////
 
 [discrete]
 [[user-portal]]
