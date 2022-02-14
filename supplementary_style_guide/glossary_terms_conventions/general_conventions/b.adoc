@@ -100,7 +100,7 @@ The practice of having both modes together is often referred to as "hybrid," "ag
 *See also*:
 
 [discrete]
-[[bind]]
+[[bind-n]]
 ==== image:images/yes.png[yes] BIND (noun)
 *Description*: Use "BIND" when referring to the DNS software.
 

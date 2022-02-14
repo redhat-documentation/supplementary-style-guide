@@ -82,6 +82,8 @@
 ==== image:images/yes.png[yes] high availability (noun)
 *Description*: "High availability" is the concept of making a system or service continuously available, even if a particular component experiences a failure. An example is, "Support is available 24x7 to help maintain high availability."
 
+Ensure that availability is not erroneously used to indicate that a server or disk is online or available, e.g. do not say "the server has availability".
+
 *Use it*: yes
 
 *Incorrect forms*:

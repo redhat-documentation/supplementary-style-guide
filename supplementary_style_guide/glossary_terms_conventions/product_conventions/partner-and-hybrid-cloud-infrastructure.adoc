@@ -9,16 +9,6 @@
 
 
 [discrete]
-[[application]]
-==== image:images/yes.png[yes] application (noun)
-*Description*: An application is software that performs, or enables a user to perform, specific tasks.
-
-*Use it*: Yes
-
-*Incorrect forms*: app
-
-
-[discrete]
 [[availability]]
 ==== image:images/caution.png[with caution] availability (adjective)
 The state of being available to perform work in a system, in the context of high availability or availability zones. The ability of a component to be utilized at a given time.
@@ -70,7 +60,7 @@ Ensure that availability is not erroneously used to indicate that a server or di
 
 
 [discrete]
-[[bind]]
+[[bind-v]]
 ==== image:images/yes.png[yes] bind (verb)
 *Description*: To associate two or more objects in a particular scope, for example, in OpenShift Container Storage, when a Persistent Volume Claim is created, a Persistent Volume that matches the claim's requirements is bound to the Persistent Volume Claim.
 
@@ -151,13 +141,6 @@ Ensure that availability is not erroneously used to indicate that a server or di
 *Use it*: Yes
 
 [discrete]
-[[cluster]]
-==== image:images/yes.png[yes] cluster (noun)
-*Description*: Generically, a cluster is a group of physical or virtual machines that can act as a single system for some purpose.
-
-*Use it*: Yes
-
-[discrete]
 [[high-availability-cluster]]
 ==== image:images/yes.png[yes] high-availability cluster (noun)
 *Description*: A group of physical or virtual machines that can share work between themselves in order to allow services and resources to be available even if one or more machines in the cluster is offline.
@@ -190,25 +173,11 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 *Use it*: With caution
 
 
-[discrete]
-[[container-storage-interface]]
-==== image:images/yes.png[yes] Container Storage Interface, CSI (noun)
-*Description*:	Container Storage Interface (CSI) is a software interface for Kubernetes and other container orchestrators that allows storage providers to create plug-ins so that their applications can be exposed to containerized applications as persistent storage.
-
-*Use it*: Yes
-
 
 [discrete]
 [[copy-v]]
 ==== image:images/yes.png[yes] copy (verb)
 *Description*: Generically, the process of creating a duplicate of a file in a different location.
-
-[discrete]
-[[custom-resource]]
-==== image:images/yes.png[yes] custom resource (noun)
-*Description*: A customized resource in a single Kubernetes installation that allows for storage and retrieval of structured data, or the Kubernetes API extension that enables the existence of the same.
-
-*Use it*: Yes
 
 
 [discrete]
@@ -401,16 +370,6 @@ In Red Hat Quay, geo-replication refers to replication of data from one central 
 
 *Incorrect forms*: disk drive
 
-
-[discrete]
-[[high-availability]]
-==== image:images/yes.png[yes] high availability (noun)
-*Description*: A specific configuration where multiple instances of an object or service run simultaneously to improve the likelihood that the object or service is available and operational for users.
-
-Ensure that availability is not erroneously used to indicate that a server or disk is online or available, e.g. do not say "the server has availability".
-
-*Use it*: Yes
-
 [discrete]
 [[hyperconverged-cluster]]
 ==== image:images/yes.png[yes] hyperconverged cluster (noun)
@@ -510,11 +469,11 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 
 
 [discrete]
-[[namespace]]
-==== image:images/yes.png[yes] namespace (noun)
-*Description*: An abstract group or context, generally used to identify and isolate resources from users, processes, and other resources that do not share the namespace. This concept is referred to as a "project" in the OpenShift user interface.
+[[namespace-hci]]
+==== image:images/caution.png[with caution] namespace (noun)
+*Description*: An abstract group or context, generally used to identify and isolate resources from users, processes, and other resources that do not share the namespace. In the context of OpenShift, the term "project" is preferred over "namespace".
 
-*Use it*: Yes
+*Use it*: With caution
 
 
 [discrete]
@@ -531,19 +490,6 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 
 *Use it*: Yes
 
-[discrete]
-[[object-bucket]]
-==== image:images/yes.png[yes] object bucket (noun)
-*Description*: An Amazon S3 compatible logical container for objects to be stored in.
-
-*Use it*: Yes
-
-[discrete]
-[[object-bucket-claim]]
-==== image:images/yes.png[yes] object bucket claim (noun)
-*Description*: A request by a user or application for an Amazon S3 compatible object bucket that is used for workload processing.
-
-*Use it*: Yes
 
 [discrete]
 [[object-storage]]
@@ -555,27 +501,14 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 *See also*: xref:block-storage[block storage], xref:file-storage[file storage]
 
 [discrete]
-[[operator]]
-==== image:images/caution.png[with caution] operator (noun)
-*Description*: This term has several meanings.
-
-In OpenShift, an Operator is a piece of software that eases the operational complexity of running another piece of software. A meta-operator is an operator that controls one or more other operators in order to ease operational complexity of using multiple pieces of software.
-
-In programming, an operator is a part of a program that takes an operand to apply logic to, for example, "the XOR operator". This meaning is rare in Red Hat documentation.
-
-Generically, an operator is a role that a human has while controlling or operating a piece of software or hardware. This may be a defined role in certain pieces of software, for example, the operator user role. This usage is rare in Red Hat documentation.
-
-*Use it*: With caution - ensure you are using the correct term for the context.
-
-[discrete]
-[[persistent-volume]]
+[[persistent-volume-hci]]
 ==== image:images/yes.png[yes] persistent volume (noun)
 *Description*: A storage volume for data in an OpenShift cluster that remains available and usable after the pod that created it has been destroyed. A persistent volume provides persistent storage to OpenShift applications, as distinct from the ephemeral storage provided by default. This term is sometimes abbreviated as "PV", so it is important to clearly distinguish this term from "physical volume" in contexts where logical volume management is discussed, for example, when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
 
 *Use it*: Yes
 
 [discrete]
-[[persistent-volume-claim]]
+[[persistent-volume-claim-hci]]
 ==== image:images/yes.png[yes] persistent volume claim (noun)
 *Description*:	A request by a user or application for storage that is associated with a persistent volume or disk drive.
 
@@ -676,7 +609,7 @@ Generically, an operator is a role that a human has while controlling or operati
 *Use it*: Yes
 
 [discrete]
-[[service]]
+[[service-hci]]
 ==== image:images/yes.png[yes] service (noun)
 *Description*: Software that performs automated tasks and listens to and responds to hardware events and requests from other software.
 
@@ -711,7 +644,7 @@ Generically, an operator is a role that a human has while controlling or operati
 *Use it*: Yes
 
 [discrete]
-[[storage-class]]
+[[storage-class-hci]]
 ==== image:images/yes.png[yes] storage class (noun)
 *Description*: In OpenShift, a type of storage device categorized by performance characteristics. Storage class devices can be, but are not limited to; a traditional hard disk drive, a solid state drive, or a non-volatile memory express (NVMe) drive.
 
@@ -756,7 +689,7 @@ In Red Hat Ceph Storage, a *Ceph subvolume* is an abstraction of a Ceph file sys
 *Use it*: With caution - use the expanded term before you use subvolume by itself.
 
 [discrete]
-[[target]]
+[[target-hci]]
 ==== image:images/yes.png[yes] target (noun)
 *Description*: Synonymous with destination, a target is a file, device or any type of location to which data is moved or copied.
 
@@ -765,7 +698,7 @@ In Red Hat Ceph Storage, a *Ceph subvolume* is an abstraction of a Ceph file sys
 [discrete]
 [[target-volume]]
 ==== image:images/yes.png[yes] target volume (noun)
-*Description*: The volume that has an action performed against it.
+*Description*: The storage volume that has an administrative action performed against it.
 
 *Use it*: Yes
 

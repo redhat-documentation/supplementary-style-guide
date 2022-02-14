@@ -604,7 +604,7 @@
 
 *Incorrect forms*:
 
-*See also*: xref:target[target]
+*See also*: xref:target-amq[target]
 
 [discrete]
 [[brokerless]]
@@ -629,7 +629,7 @@
 *See also*:
 
 [discrete]
-[[target]]
+[[target-amq]]
 ==== image:images/yes.png[yes] target (noun)
 *Description*: A message's destination. This is usually a queue or topic.
 
