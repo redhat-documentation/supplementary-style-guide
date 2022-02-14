@@ -27,6 +27,8 @@
 
 *Use it*: yes
 
+*Correct form*: JBoss Community
+
 *Incorrect forms*: JBoss.org
 
 *See also*:
