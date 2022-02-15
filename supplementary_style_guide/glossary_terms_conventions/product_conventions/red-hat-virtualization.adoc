@@ -144,7 +144,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 [discrete]
 [[monitoring_portal]]
 ==== image:images/yes.png[yes] Monitoring Portal (noun)
-*Description*: The Monitoring Portal is a a graphical user interface used to display reports based on data collected from the Data Warehouse PostgreSQL database. The Monitoring Portal is implemented by using the Grafana web-based UI tool to display the reports as dashboards.
+*Description*: The Monitoring Portal is a graphical user interface used to display reports based on data collected from the Data Warehouse PostgreSQL database. The Monitoring Portal is implemented by using the Grafana web-based UI tool to display the reports as dashboards.
 
 *Use it*: yes
 
