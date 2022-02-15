@@ -104,6 +104,17 @@ For more information, see the Microsoft document on link:https://docs.microsoft.
 *See also*:
 
 [discrete]
+[[anaconda]]
+==== image:images/yes.png[yes] Anaconda (noun)
+*Description*: The operating system installer used in Fedora, Red Hat Enterprise Linux, and their derivatives. Anaconda is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that allows users to set parameters of the resulting (target) system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[ansible-play]]
 ==== image:images/yes.png[yes] Ansible play (noun)
 *Description*: Ansible plays are the building blocks of link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html#playbooks-intro[Ansible playbooks]. The goal of a play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
@@ -124,6 +135,18 @@ For more information, see the Microsoft document on link:https://docs.microsoft.
 *Incorrect forms*:
 
 *See also*: xref:ansible-play[ansible-play]
+
+[discrete]
+[[ansible-playbook-sysroles]]
+==== image:images/yes.png[yes] Ansible playbook (noun)
+// If you decide to get rid of this description -> DO NOT forget to delete the xref in control-node
+*Description*: According to the System Role terminology playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ansible-playbook[ansible-playbook]
 
 [discrete]
 [[ansible-task]]
@@ -184,12 +207,42 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 * Signed by the `ipa` CA.
 * Signed by any of the intermediate CAs between itself and `ipa` CA. The certificate of a sub-CA cannot be self-signed.
 
-
 *Use it*: yes
 
 *Incorrect forms*:
 
 *See also*: xref:certificate[certificate]
+
+[discrete]
+[[commit]]
+==== image:images/yes.png[yes] commit (noun)
+*Description*: A release or image version of the operating system. Image Builder generates an ostree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[ostree]
+
+[discrete]
+[[compose]]
+==== image:images/yes.png[yes] compose (noun)
+*Description*: Composes are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:blueprint[blueprint]
+
+[discrete]
+[[control-node]]
+==== image:images/yes.png[yes] control node (noun)
+*Description*: ny machine with Ansible installed. You can run commands and playbooks, invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any control node. You can use any computer that has Python installed on it as a control node - laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node. You can have multiple control nodes.
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ansible-playbook[ansible-playbook], xref:ansible-playbook-sysroles[ansible-playbook-sysroles]
 
 [discrete]
 [[cross-forest-trust]]
@@ -202,6 +255,17 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 *Incorrect forms*:
 
 *See also*: xref:active-directory-forest[active-directory-forest]
+
+[discrete]
+[[customization]]
+==== image:images/yes.png[yes] customization (noun)
+*Description*: Customizations are specifications for the system, which are not packages. This includes users, groups, and SSH keys.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[directory-server]]
@@ -297,6 +361,17 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 *Incorrect forms*:
 
 *See also*: xref:dns-srv-records[dns-srv-records]
+
+[discrete]
+[[host-system]]
+==== image:images/yes.png[yes] host system (noun)
+*Description*: The system on which the instrumentation modules (from SystemTap scripts) are compiled, to be loaded on target systems.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:target-system[target-system]
 
 [discrete]
 [[http-server]]
@@ -453,6 +528,29 @@ By default, the server that fulfills the *CA renewal server* role also fulfills 
 *See also*:
 
 [discrete]
+[[instrumentation-module]]
+==== image:images/yes.png[yes] instrumentation module (noun)
+*Description*: The kernel module built from a SystemTap script; the SystemTap module is built on the host system, and will be loaded on the target kernel of the target system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:host-system[host-system], xref:target-kernel[target-kernel], xref:target-system[target-system]
+
+
+[discrete]
+[[inventory]]
+==== image:images/yes.png[yes] inventory (noun)
+*Description*: A list of managed nodes. An inventory file is also sometimes called a “hostfile”. Your inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:managed-nodes[managed-nodes]
+
+[discrete]
 [[kerberos-authentication-indicators]]
 ==== image:images/yes.png[yes] Kerberos authentication indicators (noun)
 *Description*: Authentication indicators are attached to Kerberos tickets and represent the initial authentication method used to acquire a ticket:
@@ -583,6 +681,29 @@ For more information, see link:https://access.redhat.com/documentation/en-us/red
 *See also*: xref:certificate-authorities[certificate-authorities]
 
 [discrete]
+[[managed-nodes]]
+==== image:images/yes.png[yes] managed nodes (noun)
+*Description*: The network devices, servers, or both that you manage with Ansible. Managed nodes are also sometimes called “hosts”. Ansible is not installed on managed nodes.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[ostree]]
+==== image:images/yes.png[yes] OSTree (noun)
+*Description*: A tool used for managing Linux-based operating system versions. The OSTree tree view is similar to Git and is based on similar concepts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+
+[discrete]
 [[password-policy]]
 ==== image:images/yes.png[yes] Password policy (noun)
 *Description*: A password policy is a set of conditions that the passwords of a particular IdM user group must meet. The conditions can include the following parameters:
@@ -626,6 +747,28 @@ These attributes identify users and groups as separate entities.
 *See also*:
 
 [discrete]
+[[refs]]
+==== image:images/yes.png[yes] refs (noun)
+*Description*: Represents a branch in ostree. Refs always resolve to the latest commit. For example, `rhel/8/x86_64/edge`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[ostree]
+
+[discrete]
+[[remote]]
+==== image:images/yes.png[yes] remote (noun)
+*Description*: The http or https endpoint that hosts the ostree content. This is analogous to the baseurl for a `yum` or `dnf` repository.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[ostree]
+
+[discrete]
 [[replication-agreement]]
 ==== image:images/yes.png[yes] Replication agreement (noun)
 *Description*: A replication agreement is an agreement between two IdM servers in the same IdM deployment. The replication agreement ensures that the data and configuration is continuously replicated between the two servers.
@@ -643,6 +786,28 @@ For more information, see:
 *Incorrect forms*:
 
 *See also*: xref:idm-deployment[idm-deployment]
+
+[discrete]
+[[revision]]
+==== image:images/yes.png[yes] revision (noun)
+*Description*: Revision (Rev) represents SHA-256 for a specific ostree commit.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[ostree]
+
+[discrete]
+[[rpm-ostree]]
+==== image:images/yes.png[yes] rpm-ostree (noun)
+*Description*: A hybrid image or system package that hosts operating system updates.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[ostree]
 
 [discrete]
 [[smart-card]]
@@ -678,6 +843,38 @@ For more information, see:
 *See also*: xref:kerberos[kerberos], xref:ldap[ldap], xref:sssd[sssd]
 
 [discrete]
+[[static-delta]]
+==== image:images/yes.png[yes] static-delta (noun)
+*Description*: Updates to ostree images are always delta updates. In case of RHEL for Edge images, the TCP overhead can be higher than expected due to the updates to number of files. To avoid TCP overhead, you can generate static-delta between specific commits, and send the update in a single connection. This optimization helps large deployments with constrained connectivity.
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[ostree], xref:commit[commit]
+
+[discrete]
+[[target-kernel]]
+==== image:images/yes.png[yes] target kernel (noun)
+*Description*: The kernel of the target system. This is the kernel that loads and runs the instrumentation module.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:target-system[target-system], xref:instrumentation-module[instrumentation-module]
+
+[discrete]
+[[target-system]]
+==== image:images/yes.png[yes] target system (noun)
+*Description*: The system in which the instrumentation module is being built (from SystemTap scripts).
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:instrumentation-module[instrumentation-module]
+
+[discrete]
 [[ticket-granting-ticket]]
 ==== image:images/yes.png[yes] Ticket-granting ticket (TGT) (noun)
 *Description*: After authenticating to a Kerberos Key Distribution Center (KDC), a user receives a ticket-granting ticket (TGT), which is a temporary set of credentials that can be used to request access tickets to other services, such as websites and email.
@@ -690,7 +887,6 @@ For more information, see link:https://access.redhat.com/documentation/en-us/red
 *Incorrect forms*:
 
 *See also*: xref:key-distribution-center[key-distribution-center]
-
 
 [discrete]
 [[web-server]]
