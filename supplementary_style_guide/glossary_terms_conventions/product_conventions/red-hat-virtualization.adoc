@@ -79,6 +79,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 ==== image:images/yes.png[yes] header bar (noun)
 *Description*: The header bar contains the following buttons:
 *  collapse/expand text labels in the side bar
+
 * *Bookmarks*
 * *Tags*
 * *Tasks*
