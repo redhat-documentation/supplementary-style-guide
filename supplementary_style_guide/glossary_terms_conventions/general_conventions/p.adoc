@@ -111,7 +111,7 @@
 [discrete]
 [[posix]]
 ==== image:images/yes.png[yes] POSIX (noun)
-*Description*: "POSIX" is an acronym for "Portable Operating System Interface [for Unix]."
+*Description*: "POSIX" is an acronym for "Portable Operating System Interface [for UNIX]."
 
 *Use it*: yes
 

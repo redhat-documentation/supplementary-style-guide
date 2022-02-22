@@ -34,11 +34,11 @@
 [discrete]
 [[unix]]
 ==== image:images/yes.png[yes] UNIX (noun)
-*Description*: UNIX is a registered trademark of The Open Group. Do not use "UNIX-like"; use an expression such as "Linux, UNIX, and similar operating systems" instead.
+*Description*: UNIX is a registered trademark of The Open Group. Do not use "UNIX-like" or "UNIX-based"; use an expression such as "Linux, UNIX, and similar operating systems" or "UNIX system-based" instead.
 
 *Use it*: yes
 
-*Incorrect forms*: Unix, unix, UNIX-like
+*Incorrect forms*: Unix, unix, UNIX-like, UNIX-based
 
 *See also*:
 

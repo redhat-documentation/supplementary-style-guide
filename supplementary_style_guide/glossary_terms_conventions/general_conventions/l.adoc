@@ -36,7 +36,7 @@
 [discrete]
 [[linux]]
 ==== image:images/yes.png[yes] Linux (noun)
-*Description*: "Linux" is a Unix-like operating system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it correctly.
+*Description*: "Linux" is an operating system that is similar to the UNIX system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it correctly.
 
 *Use it*: yes
 

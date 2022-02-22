@@ -57,7 +57,7 @@
 [discrete]
 [[jsvc]]
 ==== image:images/yes.png[yes] jsvc (noun)
-*Description*: The Apache Commons Daemon "jsvc" is a set of libraries and applications for making Java applications run on Unix more easily. Capitalize the initial "J" only at the beginning of a sentence.
+*Description*: The Apache Commons Daemon "jsvc" is a set of libraries and applications for making Java applications run on UNIX systems more easily. Capitalize the initial "J" only at the beginning of a sentence.
 
 *Use it*: yes
 
