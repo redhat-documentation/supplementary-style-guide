@@ -3,6 +3,8 @@ For documentation questions, contact cloudforms-docs@redhat.com.
 [discrete]
 [[appliance-console]]
 ==== image:images/yes.png[yes] Appliance console (noun)
+[small silver]_Red Hat CloudForms_
+
 *Description*: The appliance console is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.
 
 *Use it*: yes
@@ -14,6 +16,8 @@ For documentation questions, contact cloudforms-docs@redhat.com.
 [discrete]
 [[red-hat-cloudforms]]
 ==== image:images/yes.png[yes] Red Hat CloudForms (noun)
+[small silver]_Red Hat CloudForms_
+
 *Description*: Red Hat CloudForms enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.
 
 *Use it*: yes
@@ -25,6 +29,8 @@ For documentation questions, contact cloudforms-docs@redhat.com.
 [discrete]
 [[red-hat-cloudforms-appliance]]
 ==== image:images/yes.png[yes] Red Hat CloudForms Appliance (noun)
+[small silver]_Red Hat CloudForms_
+
 *Description*: A virtual machine where the virtual management database (VMDB) and Red Hat CloudForms reside. Use "Red Hat CloudForms" in the first instance and "the appliance" in subsequent instances.
 
 *Use it*: yes

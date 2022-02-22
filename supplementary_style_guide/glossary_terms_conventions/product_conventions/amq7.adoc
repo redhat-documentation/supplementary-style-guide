@@ -4,6 +4,8 @@
 [discrete]
 [[acceptor]]
 ==== image:images/yes.png[yes] acceptor (noun)
+[small]_Product: Red Hat CloudForms_
+
 *Description*: An acceptor defines the way a client can connect to a broker instance.
 
 *Use it*: yes
@@ -15,6 +17,8 @@
 [discrete]
 [[jboss-amq]]
 ==== image:images/yes.png[yes] AMQ (noun)
+[small]_Product: Red Hat CloudForms_
+
 *Description*: The short product name for Red Hat AMQ.
 
 *Use it*: yes
@@ -26,6 +30,8 @@
 [discrete]
 [[amq-broker]]
 ==== image:images/yes.png[yes] AMQ Broker (noun)
+[small]_Product: Red Hat CloudForms_
+
 *Description*: A component of Red Hat AMQ, it is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
 
 *Use it*: yes

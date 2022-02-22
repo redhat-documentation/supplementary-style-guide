@@ -5,6 +5,8 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[cache-manager]]
 ==== image:images/yes.png[yes] Cache Manager (noun)
+[small]_Red Hat Data Grid_
+
 *Description*: Cache Manager is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a Cache Manager. When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
 
 *Use it*: yes
@@ -16,6 +18,8 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[cross-site-replication]]
 ==== image:images/yes.png[yes] cross-site replication (noun)
+[small]_Red Hat Data Grid_
+
 *Description*: A configuration that allows Data Grid clusters to form a global view and back up data across geographically disperse locations. Multiple clusters running in different data centers replicate data between each other to ensure business continuity in the event of an outage and to present a single, unified caching service to applications.
 
 *Use it*: yes
@@ -27,6 +31,8 @@ For documentation questions, contact jdg-docs@redhat.com.
 [discrete]
 [[data-grid]]
 ==== image:images/yes.png[yes] Data Grid (noun)
+[small]_Red Hat Data Grid_
+
 *Description*: The short product name for Red Hat Data Grid. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
 
 *Use it*: yes
