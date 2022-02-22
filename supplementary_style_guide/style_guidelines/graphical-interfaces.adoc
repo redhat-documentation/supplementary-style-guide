@@ -11,7 +11,7 @@ Bold all graphical user interface elements, including, but not limited to, menu 
 
 .Example AsciiDoc
 ----
-On the *Installed Operators* page, click *Metering* .
+On the *Installed Operators* page, click *Metering*.
 ----
 
 [[text-entry]]
