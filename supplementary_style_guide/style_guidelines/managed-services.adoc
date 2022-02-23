@@ -44,7 +44,7 @@ Examples:
 When working with tables, accessibility tools such as a screen reader can programmatically determine the location of the content in each row and column. Screen readers interact with a data table based on the number of columns and rows, and provide table navigation to the user by reading row and column headers in the order they occur.
 
 * All tables must have a simple, logical reading order from left to right, top to bottom.
-* Avoid tables with irregular headers. Tables with multi-level headers, or spanned rows and cells, don’t provide a clear horizontal or vertical association between header and data cells, and are too complex for accessibility tools to interpret.
+* Avoid tables with irregular headers. Tables with multi-level headers, or spanned rows and cells, do not provide a clear horizontal or vertical association between header and data cells, and are too complex for accessibility tools to interpret.
 ** See the example in link:https://www.w3.org/WAI/tutorials/tables/irregular/[Tables with irregular headers].
 * Avoid blank header cells. Older screen readers often do not handle blank header cells correctly. Simplify tables to remove empty header cells, or add row and column text to each header cell.
 * For more information on adding titles using AsciiDoc, see link:https://docs.AsciiDoctor.org/AsciiDoc/latest/tables/add-title/[Add a Title to a Table].
