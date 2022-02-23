@@ -244,7 +244,7 @@
 [discrete]
 [[it]]
 ==== image:images/yes.png[yes] IT, I.T. (noun)
-*Description*: "IT" and "I.T." are abbreviations for "information technology". Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used to clarify that the word is "IT" rather than "it".
+*Description*: "IT" and "I.T." are abbreviations for "information technology". Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used, to clarify that the word is "IT" rather than "it".
 
 *Use it*: yes
 
