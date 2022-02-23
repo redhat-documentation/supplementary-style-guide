@@ -67,7 +67,7 @@
 [discrete]
 [[selinux]]
 ==== image:images/yes.png[yes] SELinux (noun)
-*Description*: "SELinux" is an abbreviation for Security-Enhanced Linux. SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux," "S-E Linux," or "SE Linux."
+*Description*: "SELinux" is an abbreviation for Security-Enhanced Linux. SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux", "S-E Linux", or "SE Linux".
 
 *Use it*: yes
 
@@ -155,7 +155,7 @@
 [discrete]
 [[share-name]]
 ==== image:images/yes.png[yes] share name (noun)
-*Description*: "Share name" is the name of a shared resource. Use it as two words unless you are quoting the output of commands, such as "smbclient -L."
+*Description*: "Share name" is the name of a shared resource. Use it as two words unless you are quoting the output of commands, such as "smbclient -L".
 
 *Use it*: yes
 
@@ -166,7 +166,7 @@
 [discrete]
 [[she]]
 ==== image:images/no.png[no] she (pronoun)
-*Description*: Reword the sentence to avoid using "he" or "she."
+*Description*: Reword the sentence to avoid using "he" or "she".
 
 *Use it*: no
 
@@ -188,7 +188,7 @@
 [discrete]
 [[shell-prompt]]
 ==== image:images/yes.png[yes] shell prompt (noun)
-*Description*:  The "shell prompt" is the character at the beginning of the command line, for example "$" or "#". It indicates that the shell is ready to accept commands. Do not use "command prompt," "terminal," or "shell."
+*Description*:  The "shell prompt" is the character at the beginning of the command line, for example "$" or "#". It indicates that the shell is ready to accept commands. Do not use "command prompt", "terminal", or "shell".
 
 *Use it*: yes
 
@@ -199,7 +199,7 @@
 [discrete]
 [[signal-topology]]
 ==== image:images/yes.png[yes] signal topology (noun)
-*Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The "signal topology" is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices. The signal topology is also called "logical topology."
+*Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The "signal topology" is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices. The signal topology is also called "logical topology".
 
 *Use it*: yes
 
@@ -243,7 +243,7 @@
 [discrete]
 [[socks]]
 ==== image:images/yes.png[yes] SOCKS (noun)
-*Description*: "SOCKS" is an abbreviation for Socket Secure, which is an internet protocol that exchanges network packets between a client and server through a proxy server. When specifying a SOCKS version, use "SOCKSv4" or "SOCKSv5."
+*Description*: "SOCKS" is an abbreviation for Socket Secure, which is an internet protocol that exchanges network packets between a client and server through a proxy server. When specifying a SOCKS version, use "SOCKSv4" or "SOCKSv5".
 
 *Use it*: yes
 
@@ -254,7 +254,7 @@
 [discrete]
 [[softcopy]]
 ==== image:images/no.png[no] softcopy (noun)
-*Description*: "Softcopy" is an electronic copy of some type of data, for example, a file viewed on a computer screen. Use "online" instead of softcopy, for example, "To view the online documentation...​."
+*Description*: "Softcopy" is an electronic copy of some type of data, for example, a file viewed on a computer screen. Use "online" instead of softcopy, for example, "To view the online documentation...​".
 
 *Use it*: no
 
@@ -331,7 +331,7 @@
 [discrete]
 [[specific]]
 ==== image:images/yes.png[yes] specific (noun)
-*Description*: When used as a modifier, put a hyphen before "specific," for example, "Linux-specific" or "chip-specific."
+*Description*: When used as a modifier, put a hyphen before "specific", for example, "Linux-specific" or "chip-specific".
 
 *Use it*: yes
 
@@ -342,7 +342,7 @@
 [discrete]
 [[spelled]]
 ==== image:images/yes.png[yes] spelled (verb)
-*Description*: "Spelled" is the past tense of "to spell" in U.S. English. Do not use the Commonwealth English variant "spelt."
+*Description*: "Spelled" is the past tense of "to spell" in U.S. English. Do not use the Commonwealth English variant "spelt".
 
 *Use it*: yes
 
@@ -353,7 +353,7 @@
 [discrete]
 [[sql]]
 ==== image:images/yes.png[yes] SQL (noun)
-*Description*: "SQL" is an abbreviation for Structured Query Language. The ISO-standard SQL (ISO 9075 and its descendants) is pronounced "ess queue ell" and takes "an" as its indefinite article. Microsoft's proprietary product, SQL Server, is pronounced as a word ("sequel") and takes "a" as its indefinite article. Oracle also pronounces its SQL-based products (such as PL/SQL) as "sequel." When referring to a specific Relational Database Management System (RDBMS), use the appropriate product name. For example, when discussing Microsoft SQL Server, write out the full name, "Microsoft SQL Server."
+*Description*: "SQL" is an abbreviation for Structured Query Language. The ISO-standard SQL (ISO 9075 and its descendants) is pronounced "ess queue ell" and takes "an" as its indefinite article. Microsoft's proprietary product, SQL Server, is pronounced as a word ("sequel") and takes "a" as its indefinite article. Oracle also pronounces its SQL-based products (such as PL/SQL) as "sequel". When referring to a specific Relational Database Management System (RDBMS), use the appropriate product name. For example, when discussing Microsoft SQL Server, write out the full name, "Microsoft SQL Server".
 
 *Use it*: yes
 
@@ -386,7 +386,7 @@
 [discrete]
 [[ssh]]
 ==== image:images/yes.png[yes] SSH (noun)
-*Description*: "SSH" is an abbreviation for Secure Shell, which is a network protocol that allows data exchange using a secure channel. For the protocol, do not use "SSH," "ssh," "Ssh," or other variants. For the command, use "ssh." Do not use ssh as a verb; for example, write "Use SSH to connect to the remote server" instead of "ssh to the remote server."
+*Description*: "SSH" is an abbreviation for Secure Shell, which is a network protocol that allows data exchange using a secure channel. For the protocol, do not use "SSH", "ssh", "Ssh", or other variants. For the command, use "ssh". Do not use ssh as a verb; for example, write "Use SSH to connect to the remote server" instead of "ssh to the remote server".
 
 *Use it*: yes
 
@@ -507,7 +507,7 @@
 [discrete]
 [[subpackage]]
 ==== image:images/yes.png[yes] subpackage (noun)
-*Description*: "Subpackage" has a specific, specialized meaning in Red Hat products. An RPM spec file can define more than one package; these additional packages are called "subpackages." CCS strongly discourages any other use of subpackage. *Subpackages are not the same as dependencies.* Do not treat them as if they are.
+*Description*: "Subpackage" has a specific, specialized meaning in Red Hat products. An RPM spec file can define more than one package; these additional packages are called "subpackages". CCS strongly discourages any other use of subpackage. *Subpackages are not the same as dependencies.* Do not treat them as if they are.
 
 *Use it*: yes
 
@@ -562,7 +562,7 @@
 [discrete]
 [[sybase-adaptive-server-enterprise]]
 ==== image:images/yes.png[yes] Sybase Adaptive Server Enterprise (noun)
-*Description*: Sybase Corporation developed Sybase Adaptive Server Enterprise as a relational database management system that became part of SAP AG. Use SAP Sybase Adaptive Server Enterprise (ASE) on the first use; on subsequent mentions, use "Sybase ASE." If discussing the high-availability version, use "Sybase ASE and High Availability."
+*Description*: Sybase Corporation developed Sybase Adaptive Server Enterprise as a relational database management system that became part of SAP AG. Use SAP Sybase Adaptive Server Enterprise (ASE) on the first use; on subsequent mentions, use "Sybase ASE". If discussing the high-availability version, use "Sybase ASE and High Availability".
 
 *Use it*: yes
 

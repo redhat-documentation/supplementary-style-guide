@@ -12,7 +12,7 @@
 [discrete]
 [[oem]]
 ==== image:images/yes.png[yes] OEM (noun)
-*Description*: "OEM" is an abbreviation for "original equipment manufacturer," which is a misleading term for a company that has a special relationship with computer producers. OEMs buy computers in bulk and customize them for a particular application. They then sell the customized computer under their own name. OEMs are not the original manufacturers; they are the customizers.
+*Description*: "OEM" is an abbreviation for "original equipment manufacturer", which is a misleading term for a company that has a special relationship with computer producers. OEMs buy computers in bulk and customize them for a particular application. They then sell the customized computer under their own name. OEMs are not the original manufacturers; they are the customizers.
 
 *Use it*: yes
 
@@ -56,7 +56,7 @@
 [discrete]
 [[on-board]]
 ==== image:images/caution.png[with caution] on-board (adjective)
-*Description*: Hyphenate "on-board" when using it as an adjective. The term "on board" is also valid, for example, "They are on board with the idea." Try to reword the sentence to avoid using "on board."
+*Description*: Hyphenate "on-board" when using it as an adjective. The term "on board" is also valid, for example, "They are on board with the idea." Try to reword the sentence to avoid using "on board".
 
 *Use it*: with caution
 
@@ -89,7 +89,7 @@
 [discrete]
 [[on-premise]]
 ==== image:images/caution.png[with caution] on-premise (adjective)
-*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise."
+*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise".
 
 *Use it*: with caution
 
@@ -111,7 +111,7 @@
 [discrete]
 [[open-architecture]]
 ==== image:images/yes.png[yes] open architecture (noun)
-*Description*: An "open architecture" is an architecture whose specifications are public. This includes officially approved standards as well as privately designed architectures whose specifications are made public by the designers. The opposite of "open architecture" is "closed architecture" or "proprietary architecture."
+*Description*: An "open architecture" is an architecture whose specifications are public. This includes officially approved standards as well as privately designed architectures whose specifications are made public by the designers. The opposite of "open architecture" is "closed architecture" or "proprietary architecture".
 
 *Use it*: yes
 
@@ -134,7 +134,7 @@
 [discrete]
 [[opex]]
 ==== image:images/yes.png[yes] OpEx (noun)
-*Description*: "OpEx" is an abbreviation of "operating expenses."
+*Description*: "OpEx" is an abbreviation of "operating expenses".
 
 *Use it*: yes
 
@@ -237,7 +237,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 [discrete]
 [[override]]
 ==== image:images/yes.png[yes] override (verb)
-*Description*: In computing, "override" means to force the use of a specific setting or value instead of the one that would otherwise be used, for example, "apply a setting from a configuration file to override the default ones."
+*Description*: In computing, "override" means to force the use of a specific setting or value instead of the one that would otherwise be used, for example, "Apply a setting from a configuration file to override the default ones."
 
 *Use it*: yes
 

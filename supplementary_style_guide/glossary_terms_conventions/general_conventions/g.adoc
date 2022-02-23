@@ -1,7 +1,7 @@
 [discrete]
 [[gplusplus]]
 ==== image:images/yes.png[yes] G++ (noun)
-*Description*: "G++" is a C++ compiler usually operated using the command line. When referring to the program, use "G++."
+*Description*: "G++" is a C++ compiler usually operated using the command line. When referring to the program, use "G++".
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[gplusplus-command]]
 ==== image:images/yes.png[yes] g++ (noun)
-*Description*: "G++" is a C++ compiler usually operated through the command line. When referring to the command, use "g++," marked up appropriately.
+*Description*: "G++" is a C++ compiler usually operated through the command line. When referring to the command, use "g++", marked up appropriately.
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[gas]]
 ==== image:images/yes.png[yes] GAS (noun)
-*Description*: "GAS" is an acronym for "GNU Assembler," the assembler used by the GNU Project. When referring to the program, use "GAS."
+*Description*: "GAS" is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the program, use "GAS".
 
 *Use it*: yes
 
@@ -34,7 +34,7 @@
 [discrete]
 [[gas-command]]
 ==== image:images/yes.png[yes] gas (noun)
-*Description*: "GAS" is an acronym for "GNU Assembler," the assembler used by the GNU Project. When referring to the command, use `gas`, marked up appropriately.
+*Description*: "GAS" is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the command, use `gas`, marked up appropriately.
 
 *Use it*: yes
 
@@ -45,7 +45,7 @@
 [discrete]
 [[gb]]
 ==== image:images/yes.png[yes] GB (noun)
-*Description*: "GB" is an abbreviation for gigabyte. Use a space between the value and the abbreviation, for example, "a 2 GB file."
+*Description*: "GB" is an abbreviation for gigabyte. Use a space between the value and the abbreviation, for example, "a 2 GB file".
 
 *Use it*: yes
 
@@ -67,7 +67,7 @@
 [discrete]
 [[gcc]]
 ==== image:images/yes.png[yes] GCC (noun)
-*Description*: "GCC" is an abbreviation for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC."
+*Description*: "GCC" is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC".
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 [discrete]
 [[gcc-command]]
 ==== image:images/yes.png[yes] gcc (noun)
-*Description*: "GCC" is an abbreviation for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
+*Description*: "GCC" is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
 
 *Use it*: yes
 
@@ -89,7 +89,7 @@
 [discrete]
 [[gcj]]
 ==== image:images/yes.png[yes] GCJ (noun)
-*Description*: "GCJ" is an abbreviation for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ."
+*Description*: "GCJ" is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ".
 
 *Use it*: yes
 
@@ -101,7 +101,7 @@
 [[gcj-command]]
 ==== image:images/yes.png[yes] gcj (noun)
 
-*Description*: "GCJ" is an abbreviation for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use `gcj`, marked up appropriately.
+*Description*: "GCJ" is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use `gcj`, marked up appropriately.
 
 *Use it*: yes
 
@@ -134,7 +134,7 @@
 [discrete]
 [[gid]]
 ==== image:images/yes.png[yes] GID (noun)
-*Description*: "GID" is an abbreviation for "Group ID." Do not use "gid."
+*Description*: "GID" is an abbreviation for "Group ID". Do not use "gid".
 
 *Use it*: yes
 
@@ -145,7 +145,7 @@
 [discrete]
 [[gigabyte]]
 ==== image:images/yes.png[yes] gigabyte (noun)
-*Description*: A "gigabyte" is 2 to the 30th power (1,073,741,824) bytes. One gigabyte is equal to 1,024 megabytes. When abbreviating gigabyte, use "GB."
+*Description*: A "gigabyte" is 2 to the 30th power (1,073,741,824) bytes. One gigabyte is equal to 1,024 megabytes. When abbreviating gigabyte, use "GB".
 
 *Use it*: yes
 
@@ -156,7 +156,7 @@
 [discrete]
 [[gimp]]
 ==== image:images/yes.png[yes] GIMP (noun)
-*Description*: "GIMP" is an acronym for "GNU Image Manipulation Program." Do not use "Gimp" or "gimp."
+*Description*: "GIMP" is an acronym for "GNU Image Manipulation Program". Do not use "Gimp" or "gimp".
 
 *Use it*: yes
 
@@ -189,7 +189,7 @@
 [discrete]
 [[gnome-classic]]
 ==== image:images/yes.png[yes] GNOME Classic (noun)
-*Description*: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as "classic mode" in internal and developer-oriented community documents, we should stay consistent with what is exposed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic." The GNOME "modern mode" (technically, GNOME Shell with the classic mode extensions disabled) is referred to as "GNOME" (on the login screen and elsewhere).
+*Description*: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as "classic mode" in internal and developer-oriented community documents, we should stay consistent with what is exposed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic". The GNOME "modern mode" (technically, GNOME Shell with the classic mode extensions disabled) is referred to as "GNOME" (on the login screen and elsewhere).
 
 *Use it*: yes
 
@@ -200,7 +200,11 @@
 [discrete]
 [[gnu]]
 ==== image:images/yes.png[yes] GNU (noun)
+<<<<<<< HEAD
 *Description*: "GNU" is a recursive acronym for "GNU's Not UNIX." GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu."
+=======
+*Description*: "GNU" is a recursive acronym for "GNU's Not Unix". GNU is a Unix-like, open-source operating system. Do not use "Gnu" or "gnu".
+>>>>>>> bd10c89... 3. Moves misplaced punctuation in relation to quotation marks
 
 *Use it*: yes
 
@@ -211,7 +215,7 @@
 [discrete]
 [[gnupro]]
 ==== image:images/yes.png[yes] GNUPro (noun)
-*Description*: "GNUPro" Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro."
+*Description*: "GNUPro" Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro".
 
 *Use it*: yes
 
@@ -222,7 +226,7 @@
 [discrete]
 [[gpl]]
 ==== image:images/yes.png[yes] GPL (noun)
-*Description*: "GPL" is an abbreviation for "General Public License." Do not use "Gpl" or "gpl."
+*Description*: "GPL" is an abbreviation for "General Public License". Do not use "Gpl" or "gpl".
 
 *Use it*: yes
 
@@ -233,7 +237,7 @@
 [discrete]
 [[grayscale]]
 ==== image:images/yes.png[yes] grayscale (noun)
-*Description*: "Grayscale" is a range of gray shades from white to black, as used in a monochrome display or printout. Do not use "gray-scale" or "gray scale." Only the noun form is currently recognized.
+*Description*: "Grayscale" is a range of gray shades from white to black, as used in a monochrome display or printout. Do not use "gray-scale" or "gray scale". Only the noun form is currently recognized.
 
 *Use it*: yes
 
@@ -244,7 +248,7 @@
 [discrete]
 [[grub]]
 ==== image:images/yes.png[yes] GRUB (noun)
-*Description*: "GRUB" is an acronym for "GRand Unified Bootloader," which is a Linux boot loader.
+*Description*: "GRUB" is an acronym for "GRand Unified Bootloader", which is a Linux boot loader.
 
 *Use it*: yes
 
@@ -255,7 +259,7 @@
 [discrete]
 [[gtkplus]]
 ==== image:images/yes.png[yes] GTK+ (noun)
-*Description*: "GTK+" is an abbreviation for "GIMP Tool Kit." Do not use "GTK," "Gtk," or "gtk."
+*Description*: "GTK+" is an abbreviation for "GIMP Tool Kit". Do not use "GTK", "Gtk", or "gtk".
 
 *Use it*: yes
 

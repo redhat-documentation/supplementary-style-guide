@@ -1,7 +1,7 @@
 [discrete]
 [[paas]]
 ==== image:images/yes.png[yes] PaaS (noun)
-*Description*: "PaaS" is an acronym for "Platform-as-a-Service." In the spelled-out version of this term and its variants (for example, "Infrastructure-as-a-Service" and "Software-as-a-Service"), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text, such as banners, use "<VARIANT>-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.
+*Description*: "PaaS" is an acronym for "Platform-as-a-Service". In the spelled-out version of this term and its variants (for example, "Infrastructure-as-a-Service" and "Software-as-a-Service"), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text, such as banners, use "<VARIANT>-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 [discrete]
 [[plain-text]]
 ==== image:images/yes.png[yes] plain text (adjective)
-*Description*: "Plain text" is correct in almost all cases. We use "plain text" as a plain English denotation of all unencrypted information, whether it is being stored or is being fed to an encryption algorithm. Unless it is necessary to make the cryptographer's distinction, do not use "plaintext" or "cleartext." Cryptographers distinguish between "cleartext" (unencrypted data) and "plaintext" (unencrypted data as input to an encryption algorithm).
+*Description*: "Plain text" is correct in almost all cases. We use "plain text" as a plain English denotation of all unencrypted information, whether it is being stored or is being fed to an encryption algorithm. Unless it is necessary to make the cryptographer's distinction, do not use "plaintext" or "cleartext". Cryptographers distinguish between "cleartext" (unencrypted data) and "plaintext" (unencrypted data as input to an encryption algorithm).
 
 *Use it*: yes
 
@@ -111,7 +111,7 @@
 [discrete]
 [[posix]]
 ==== image:images/yes.png[yes] POSIX (noun)
-*Description*: "POSIX" is an acronym for "Portable Operating System Interface [for UNIX]."
+*Description*: "POSIX" is an acronym for "Portable Operating System Interface [for UNIX]".
 
 *Use it*: yes
 
@@ -144,7 +144,7 @@
 [discrete]
 [[ppp]]
 ==== image:images/yes.png[yes] PPP (noun)
-*Description*: "PPP" is an abbreviation for "Point-to-Point Protocol," a data link (layer 2) protocol used to establish a direct connection between two nodes. PPP can provide connection authentication, transmission encryption (using ECP, RFC 1968), and compression.
+*Description*: "PPP" is an abbreviation for "Point-to-Point Protocol", a data link (layer 2) protocol used to establish a direct connection between two nodes. PPP can provide connection authentication, transmission encryption (using ECP, RFC 1968), and compression.
 
 *Use it*: yes
 
@@ -155,7 +155,7 @@
 [discrete]
 [[prom]]
 ==== image:images/yes.png[yes] PROM (noun)
-*Description*: "PROM" is an acronym for "programmable read-only memory" and is a variation of "ROM." PROMs are manufactured as blank chips on which data can be written with a device called a PROM programmer.
+*Description*: "PROM" is an acronym for "programmable read-only memory" and is a variation of "ROM". PROMs are manufactured as blank chips on which data can be written with a device called a PROM programmer.
 
 *Use it*: yes
 
@@ -210,7 +210,7 @@
 [discrete]
 [[pxe]]
 ==== image:images/yes.png[yes] PXE (noun)
-*Description*: "PXE" is an acronym for "Pre-Boot Execution Environment." Pronounced "pixie," PXE is one of the components of the Intel Wired for Management (WfM) specification. It allows a workstation to boot from a server on a network in preference to booting the operating system on the local hard drive. PXE is a mandatory element of the WfM specification. To be considered compliant, PXE must be supported by the computer's BIOS and its NIC.
+*Description*: "PXE" is an acronym for "Pre-Boot Execution Environment". Pronounced "pixie", PXE is one of the components of the Intel Wired for Management (WfM) specification. It allows a workstation to boot from a server on a network in preference to booting the operating system on the local hard drive. PXE is a mandatory element of the WfM specification. To be considered compliant, PXE must be supported by the computer's BIOS and its NIC.
 
 *Use it*: yes
 

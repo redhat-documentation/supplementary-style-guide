@@ -1,7 +1,7 @@
 [discrete]
 [[cap-ex]]
 ==== image:images/yes.png[yes] CapEx (noun)
-*Description*: "CapEx" is an acronym for "capital expenditures."
+*Description*: "CapEx" is an acronym for "capital expenditures".
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[cd-command]]
 ==== image:images/yes.png[yes] cd (noun)
-*Description*: The "change directory" command is "cd."
+*Description*: The "change directory" command is "cd".
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[compact-disk]]
 ==== image:images/yes.png[yes] CD (noun)
-*Description*: "CD" is an abbreviation for "compact disc."
+*Description*: "CD" is an abbreviation for "compact disc".
 
 *Use it*: yes
 
@@ -35,7 +35,7 @@
 
 [[cd-one]]
 ==== image:images/yes.png[yes] CD #1 (noun)
-*Description*: When referring to a specific CD in the Red Hat Enterprise Linux CD set, it is correct to refer to it as "Red Hat Enterprise Linux CD #1." Avoid using "Red Hat Enterprise Linux CD 1."
+*Description*: When referring to a specific CD in the Red Hat Enterprise Linux CD set, it is correct to refer to it as "Red Hat Enterprise Linux CD #1". Avoid using "Red Hat Enterprise Linux CD 1".
 
 *Use it*: yes
 
@@ -57,7 +57,7 @@
 [discrete]
 [[cds]]
 ==== image:images/yes.png[yes] CDs (noun)
-*Description*: "CDs" is the plural form of "CD." Use "CDs" to describe multiple compact discs.
+*Description*: "CDs" is the plural form of "CD". Use "CDs" to describe multiple compact discs.
 
 *Use it*: yes
 
@@ -68,7 +68,7 @@
 [discrete]
 [[cgroup]]
 ==== image:images/yes.png[yes] cgroup (noun)
-*Description*: The term "cgroup" is a contraction of "control group." Cgroups allow you to allocate resources, such as CPU time, system memory, network bandwidth, or combinations of these resources, among user-defined groups of processes running on a system.
+*Description*: The term "cgroup" is a contraction of "control group". Cgroups allow you to allocate resources, such as CPU time, system memory, network bandwidth, or combinations of these resources, among user-defined groups of processes running on a system.
 
 *Use it*: yes
 
@@ -178,7 +178,7 @@
 [discrete]
 [[colocate]]
 ==== image:images/yes.png[yes] colocate (verb)
-*Description*: "Colocate" means to place two or more items in the same space. Do not hyphenate "colocate."
+*Description*: "Colocate" means to place two or more items in the same space. Do not hyphenate "colocate".
 
 *Use it*: yes
 
@@ -255,7 +255,7 @@
 [discrete]
 [[container-based]]
 ==== image:images/yes.png[yes] container-based (adjective)
-*Description*: Use "container-based" as an adjective when referring to applications made up of multiple services that are distributed in containers. "Container-based" can be used interchangeably with "containerized."
+*Description*: Use "container-based" as an adjective when referring to applications made up of multiple services that are distributed in containers. "Container-based" can be used interchangeably with "containerized".
 
 *Use it*: yes
 
@@ -266,7 +266,7 @@
 [discrete]
 [[containerized]]
 ==== image:images/yes.png[yes] containerized (adjective)
-*Description*: Use "containerized" as an adjective when referring to applications made up of multiple services that are distributed in containers. "Containerized" can be used interchangeably with "container-based."
+*Description*: Use "containerized" as an adjective when referring to applications made up of multiple services that are distributed in containers. "Containerized" can be used interchangeably with "container-based".
 
 *Use it*: yes
 
@@ -367,7 +367,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[csv]]
 ==== image:images/yes.png[yes] CSV (noun)
-*Description*: CSV is an abbreviation for "comma-separated values," which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
+*Description*: CSV is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
 
 *Use it*: yes
 

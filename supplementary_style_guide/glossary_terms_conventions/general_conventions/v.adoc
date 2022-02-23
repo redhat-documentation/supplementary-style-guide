@@ -47,7 +47,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[vi]]
 ==== image:images/yes.png[yes] vi (noun)
-*Description*: "vi" is a screen-oriented text editor originally created for the UNIX operating system. Do not use "VI."
+*Description*: "vi" is a screen-oriented text editor originally created for the UNIX operating system. Do not use "VI".
 
 *Use it*: yes
 
@@ -91,7 +91,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[virtual-console]]
 ==== image:images/yes.png[yes] virtual console (noun)
-*Description*: "Virtual console" can be abbreviated to "VC" as long as the term has been introduced in the same content in its full version first, such as "A virtual console (VC) is a shell prompt in a non-graphical environment. Multiple VCs can be accessed simultaneously."
+*Description*: "Virtual console" can be abbreviated to "VC" as long as the term has been introduced in the same content in its full version first, such as "A virtual console (VC) is a shell prompt in a non-graphical environment. Multiple VCs can be accessed simultaneously".
 
 *Use it*: yes
 
@@ -104,7 +104,7 @@ Use lowercase "v" and uppercase "CPU".
 ==== image:images/yes.png[yes] virtual floppy disk (noun)
 *Description*: A "virtual floppy disk" is an alternative to the traditional floppy. It is an image file rather than a physical disk.
 
-Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy disk," this term is outdated and refers to the physical disk. In the context of virtualization, "floppy disk" is the preferred term; the file extension, for example, is ".vfd."
+Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy disk", this term is outdated and refers to the physical disk. In the context of virtualization, "floppy disk" is the preferred term; the file extension, for example, is ".vfd".
 
 *Use it*: yes
 
@@ -117,7 +117,7 @@ Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy di
 ==== image:images/yes.png[yes] virtual floppy drive (noun)
 *Description*: A "virtual floppy drive" is the virtual hardware used to mount a floppy disk image.
 
-Although the _IBM Style Guide_ recommends using "diskette drive" instead of "floppy drive," this term is outdated and refers to the physical hardware. In the context of virtualization, "floppy drive" is the preferred term.
+Although the _IBM Style Guide_ recommends using "diskette drive" instead of "floppy drive", this term is outdated and refers to the physical hardware. In the context of virtualization, "floppy drive" is the preferred term.
 
 *Use it*: yes
 
@@ -128,7 +128,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[virtual-machine]]
 ==== image:images/yes.png[yes] virtual machine (noun)
-*Description*: "Virtual machine" refers to virtual hardware that consists of virtual CPUs, memory, devices, and so on. Do not use "guest virtual machine" unless you want to specifically emphasize the fact that it is a guest. Virtual machine can be abbreviated to "VM" as long as the term has been introduced in the same content in its full version first and provided there is no possibility of confusion with other terms, such as "virtual memory." Author discretion is recommended.
+*Description*: "Virtual machine" refers to virtual hardware that consists of virtual CPUs, memory, devices, and so on. Do not use "guest virtual machine" unless you want to specifically emphasize the fact that it is a guest. Virtual machine can be abbreviated to "VM" as long as the term has been introduced in the same content in its full version first and provided there is no possibility of confusion with other terms, such as "virtual memory". Author discretion is recommended.
 
 *Use it*: yes
 
@@ -161,7 +161,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[virtualized-guest]]
 ==== image:images/caution.png[with caution] virtualized guest (noun)
-*Description*: A "virtualized guest" is a virtual machine (VM). Use virtualized guest only when comparing a "fully virtualized guest" with a "paravirtualized guest."
+*Description*: A "virtualized guest" is a virtual machine (VM). Use virtualized guest only when comparing a "fully virtualized guest" with a "paravirtualized guest".
 
 *Use it*: with caution
 

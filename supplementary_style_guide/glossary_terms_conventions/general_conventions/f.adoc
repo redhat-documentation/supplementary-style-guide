@@ -1,7 +1,7 @@
 [discrete]
 [[fail]]
 ==== image:images/yes.png[yes] fail (verb)
-*Description*: When a program "fails," it means that it stops working.
+*Description*: When a program "fails", it means that it stops working.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[faq]]
 ==== image:images/yes.png[yes] FAQ (noun)
-*Description*: When referring to a Frequently Asked Questions (FAQ) section of content, refer to it as "an FAQ" (to be read as "an F-A-Q"), not "a FAQ." The plural form is "FAQs."
+*Description*: When referring to a Frequently Asked Questions (FAQ) section of content, refer to it as "an FAQ" (to be read as "an F-A-Q"), not "a FAQ". The plural form is "FAQs".
 
 *Use it*: yes
 
@@ -62,7 +62,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 ==== image:images/yes.png[yes] FireWire (noun)
 *Description*: "FireWire" is the Apple name for the IEEE 1394 High Speed Serial Bus, a serial bus architecture for high-speed data transfer.
 
-Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple Computer, it does not need to be listed with a trademark symbol when mentioned. Only use the trademark symbol when talking about the Apple FireWire software license or specific logos. See http://developer.apple.com/softwarelicensing/agreements/firewire.html for full details.
+Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple Computer, it does not need to be listed with a trademark symbol when mentioned. Only use the trademark symbol when talking about the Apple FireWire software license or specific logos. See http://developer.apple.com/softwarelicensing/agreements/firewire.html for full details.
 
 *Use it*: yes
 
@@ -106,7 +106,7 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 [discrete]
 [[fortran]]
 ==== image:images/yes.png[yes] Fortran (noun)
-*Description*: "Fortran" is a general-purpose, imperative programming language that is especially suited to numeric computation and scientific computing. For earlier versions up to FORTRAN 77, use "FORTRAN." For later versions beginning with Fortran 90, use "Fortran."
+*Description*: "Fortran" is a general-purpose, imperative programming language that is especially suited to numeric computation and scientific computing. For earlier versions up to FORTRAN 77, use "FORTRAN". For later versions beginning with Fortran 90, use "Fortran".
 
 *Use it*: yes
 
@@ -139,7 +139,7 @@ Do not use "Firewire" or "firewire." Although FireWire is a trademark of Apple C
 [discrete]
 [[futexes]]
 ==== image:images/yes.png[yes] futexes (noun)
-*Description*: "Futex" is an abbreviation of "fast user-space mutex." "Futexes" is the correct plural form.
+*Description*: "Futex" is an abbreviation of "fast user-space mutex". "Futexes" is the correct plural form.
 
 *Use it*: yes
 

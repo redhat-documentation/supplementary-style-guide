@@ -1,7 +1,7 @@
 [discrete]
 [[JavaScript]]
 ==== image:images/yes.png[yes] JavaScript (noun)
-*Description*: "JavaScript" is a trademark of Oracle Corporation and should be used when referring to the scripting language. When referring to a file written using this language, use "javascript."
+*Description*: "JavaScript" is a trademark of Oracle Corporation and should be used when referring to the scripting language. When referring to a file written using this language, use "javascript".
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[jboss-community]]
 ==== image:images/yes.png[yes] JBoss Community (noun)
-*Description*: Use "JBoss Community" when referring to the community of users and contributors. Do not refer to the community as "JBoss.org."
+*Description*: Use "JBoss Community" when referring to the community of users and contributors. Do not refer to the community as "JBoss.org".
 
 *Use it*: yes
 
@@ -34,7 +34,7 @@
 [discrete]
 [[jboss-way]]
 ==== image:images/yes.png[yes] JBoss Way (noun)
-*Description*: Capitalize "JBoss Way" as a formal, branded concept when referring specifically to the JBoss cultural and business climate or practices. If the reference is generic or the way is further specified, do not capitalize "way."
+*Description*: Capitalize "JBoss Way" as a formal, branded concept when referring specifically to the JBoss cultural and business climate or practices. If the reference is generic or the way is further specified, do not capitalize "way".
 
 *Use it*: yes
 
@@ -68,7 +68,7 @@
 [discrete]
 [[jvm]]
 ==== image:images/yes.png[yes] JVM (noun)
-*Description*: "JVM" is an abbreviation for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM," or only the noun itself, "virtual machine." You can include JVM for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)."
+*Description*: "JVM" is an abbreviation for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM", or only the noun itself, "virtual machine". You can include JVM for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)".
 
 *Use it*: yes
 

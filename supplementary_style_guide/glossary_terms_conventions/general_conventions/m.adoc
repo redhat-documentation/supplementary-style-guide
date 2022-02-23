@@ -12,7 +12,7 @@
 [discrete]
 [[man-page]]
 ==== image:images/yes.png[yes] man page (noun)
-*Description*: "Man page" is an abbreviation for "manual page."
+*Description*: "Man page" is an abbreviation for "manual page".
 
 *Use it*: yes
 
@@ -45,7 +45,7 @@
 [discrete]
 [[matrixes]]
 ==== image:images/yes.png[yes] matrixes (noun)
-*Description*: In mathematics, a "matrix" is a rectangular array of numbers, symbols, or expressions arranged in rows and columns. The correct plural form for US English spelling is "matrixes."
+*Description*: In mathematics, a "matrix" is a rectangular array of numbers, symbols, or expressions arranged in rows and columns. The correct plural form for US English spelling is "matrixes".
 
 *Use it*: yes
 
@@ -56,7 +56,7 @@
 [discrete]
 [[MB]]
 ==== image:images/yes.png[yes] MB (noun)
-*Description*: "MB" is an abbreviation for "megabyte," which is 1,000,000 bytes or 1,048,576 bytes, depending on the context.
+*Description*: "MB" is an abbreviation for "megabyte", which is 1,000,000 bytes or 1,048,576 bytes, depending on the context.
 
 *Use it*: yes
 
@@ -67,7 +67,7 @@
 [discrete]
 [[Mb]]
 ==== image:images/yes.png[yes] Mb (noun)
-*Description*: "Mb" is an abbreviation for "megabit." One megabit equals 1000 kilobits or 1,000,000 bits.
+*Description*: "Mb" is an abbreviation for "megabit". One megabit equals 1000 kilobits or 1,000,000 bits.
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 [discrete]
 [[mbps]]
 ==== image:images/yes.png[yes] MBps (noun)
-*Description*: "MBps" is an abbreviation for "megabytes per second," a measure of data transfer speed. Mass storage devices are generally measured in MBps.
+*Description*: "MBps" is an abbreviation for "megabytes per second", a measure of data transfer speed. Mass storage devices are generally measured in MBps.
 
 *Use it*: yes
 
@@ -89,7 +89,7 @@
 [discrete]
 [[mbr]]
 ==== image:images/yes.png[yes] MBR (noun)
-*Description*: "MBR" is an abbreviation for "Master Boot Record."
+*Description*: "MBR" is an abbreviation for "Master Boot Record".
 
 *Use it*: yes
 
@@ -166,7 +166,7 @@
 [discrete]
 [[mouse-button]]
 ==== image:images/yes.png[yes] mouse button (noun)
-*Description*: Use "mouse button" as two words. If you need to indicate which mouse button to use, use "right," "left," or "center," such as "right mouse button."
+*Description*: Use "mouse button" as two words. If you need to indicate which mouse button to use, use "right", "left", or "center", such as "right mouse button".
 
 *Use it*: yes
 
@@ -177,7 +177,7 @@
 [discrete]
 [[mozilla-firefox]]
 ==== image:images/yes.png[yes] Mozilla Firefox (noun)
-*Description*: "Mozilla Firefox" is an open source web browser. The first reference must be "Mozilla Firefox." Subsequent references can be "Firefox." Do not use "firefox" unless you are referring to the `firefox` command; as such, mark it correctly.
+*Description*: "Mozilla Firefox" is an open source web browser. The first reference must be "Mozilla Firefox". Subsequent references can be "Firefox". Do not use "firefox" unless you are referring to the `firefox` command; as such, mark it correctly.
 
 *Use it*: yes
 
@@ -188,7 +188,7 @@
 [discrete]
 [[mozilla-thunderbird]]
 ==== image:images/yes.png[yes] Mozilla Thunderbird (noun)
-*Description*: "Mozilla Thunderbird" is a free, open source, cross-platform email, news, RSS, and chat client. The first reference must be "Mozilla Thunderbird." Subsequent references can be "Thunderbird." Do not use "thunderbird" unless you are referring to the `thunderbird` command; as such, mark it correctly.
+*Description*: "Mozilla Thunderbird" is a free, open source, cross-platform email, news, RSS, and chat client. The first reference must be "Mozilla Thunderbird". Subsequent references can be "Thunderbird". Do not use "thunderbird" unless you are referring to the `thunderbird` command; as such, mark it correctly.
 
 *Use it*: yes
 
@@ -243,7 +243,7 @@
 [discrete]
 [[mutex]]
 ==== image:images/yes.png[yes] mutex (noun)
-*Description*: "Mutex" is an abbreviation for "mutual exclusion."
+*Description*: "Mutex" is an abbreviation for "mutual exclusion".
 
 *Use it*: yes
 
@@ -254,7 +254,7 @@
 [discrete]
 [[mutexes]]
 ==== image:images/yes.png[yes] mutexes (noun)
-*Description*: "Mutexes" is the plural form of "mutex."
+*Description*: "Mutexes" is the plural form of "mutex".
 
 *Use it*: yes
 

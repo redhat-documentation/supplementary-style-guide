@@ -1,7 +1,7 @@
 [discrete]
 [[q-and-a]]
 ==== image:images/yes.png[yes] Q and A (noun)
-*Description*: "Q and A" is an abbreviation for "Question and Answer," as defined by the American Heritage Dictionary. In DocBook XML, the title is defined by the DocBook style sheets for the <qandadiv> element. The relevant generated text in English is "Q & A" and is localized automatically.
+*Description*: "Q and A" is an abbreviation for "Question and Answer", as defined by the American Heritage Dictionary. In DocBook XML, the title is defined by the DocBook style sheets for the <qandadiv> element. The relevant generated text in English is "Q & A" and is localized automatically.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[qcow2]]
 ==== image:images/yes.png[yes] QCOW2 (noun)
-*Description*: "QCOW2" is an abbreviation for "QEMU Copy On Write version 2." QCOW2 is a file format for disk image files used by QEMU, a hosted virtual machine monitor. Always write this term in uppercase letters.
+*Description*: "QCOW2" is an abbreviation for "QEMU Copy On Write version 2". QCOW2 is a file format for disk image files used by QEMU, a hosted virtual machine monitor. Always write this term in uppercase letters.
 
 *Use it*: yes
 
