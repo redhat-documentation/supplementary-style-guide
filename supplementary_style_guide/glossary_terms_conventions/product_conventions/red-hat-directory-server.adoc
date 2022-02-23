@@ -1,0 +1,245 @@
+[[red-hat-directory-server-conventions]]
+
+For documentation questions, contact rhel-docs@redhat.com.
+
+[discrete]
+[[access-control-instruction]]
+==== image:images/yes.png[yes] access control instruction (noun)
+*Description*: In an LDAP directory, an access control instruction (ACI) grants or denies access to entries or attributes. Use "access control instruction" on the first usage and then the abbreviation "ACI" subsequently.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[attribute]]
+==== image:images/yes.png[yes] attribute (noun)
+*Description*: Each entry in an LDAP directory contains attributes. Object classes in an entry control which attributes in an entry are optional and which are required.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[base-dn]]
+==== image:images/yes.png[yes] base DN (noun)
+*Description*: In an LDAP directory, the base distinguished name (DN) defines the starting point for operations, such as searches.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:distinguished-name[distinguished name]
+
+[discrete]
+[[bind-dn]]
+==== image:images/yes.png[yes] bind DN (noun)
+*Description*: A distinguished name (DN) defines the unique location of an entry in the LDAP directory. You can use the DN of an entry to bind (authenticate) to an LDAP directory. The bind DN is similar to a user name in other systems.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:distinguished-name[distinguished name]
+
+[discrete]
+[[consumer-rhds]]
+==== image:images/yes.png[yes] consumer (noun)
+*Description*: In an LDAP replication environment, consumers receive data from suppliers or hubs.
+
+*Use it*: yes
+
+*Incorrect forms*: slave
+
+*See also*: xref:hub[hub], xref:supplier[supplier]
+
+[discrete]
+[[directory-manager]]
+==== image:images/yes.png[yes] Directory Manager (noun)
+*Description*: The privileged administrative user in Red Hat Directory Server is called the Directory Manager. The distinguished name (DN) of this user is cn=Directory Manager.
+
+*Use it*: yes
+
+*Incorrect forms*: DM, directory manager
+
+*See also*:
+
+[discrete]
+[[directory-server]]
+==== image:images/yes.png[yes] Directory Server (noun)
+*Description*: The short product name of Red Hat Directory Server. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
+
+*Use it*: yes
+
+*Incorrect forms*: directory server
+
+*See also*: xref:red-hat-directory-server[Red Hat Directory Server]
+
+[discrete]
+[[distinguished-name]]
+==== image:images/yes.png[yes] distinguished name (noun)
+*Description*: A distinguished name (DN) is a sequence of relative distinguished names (RDN) connected by commas. A DN defines the unique location of an entry in the LDAP directory. Use "distinguished name" on the first usage and then the abbreviation "DN" subsequently.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+[discrete]
+[[hub]]
+==== image:images/yes.png[yes] hub (noun)
+*Description*: In an LDAP replication environment, hubs receive data from a supplier and replicate the data to consumers.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:consumer-rhds[consumer]
+
+[discrete]
+[[ldap]]
+==== image:images/yes.png[yes] LDAP (noun)
+*Description*: The Lightweight Directory Access Protocol (LDAP) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*: Lightweight Directory Access Protocol
+
+*See also*: xref:ldaps[LDAPS], xref:starttls[STARTTLS]
+
+[discrete]
+[[ldaps]]
+==== image:images/yes.png[yes] LDAPS (noun)
+*Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (LDAPS) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*: Lightweight Directory Access Protocol over Secure Socket Layer
+
+*See also*: xref:ldap[LDAP], xref:starttls[STARTTLS]
+
+[discrete]
+[[master]]
+==== image:images/no.png[no] master (noun)
+*Description*: Do not use "master" to refer to a supplier.
+
+*Use it*: no
+
+*Incorrect forms*: 
+
+*See also*: xref:supplier[supplier]
+
+[discrete]
+[[object-class]]
+==== image:images/yes.png[yes] object class (noun)
+*Description*: Object classes in an entry control which attributes are optional and which are required. Write as two words when you refer to object classes in general.
+
+*Use it*: yes
+
+*Incorrect forms*: objectClass
+
+*See also*: xref:objectclass[objectClass]
+
+[discrete]
+[[objectclass]]
+==== image:images/yes.png[yes] objectClass (noun)
+*Description*: The objectClass attribute in an LDAP entry stores the object classes of this entry. 
+
+*Use it*: yes
+
+*Incorrect forms*: object class, objectclass
+
+*See also*: xref:object-class[object class]
+
+[discrete]
+[[red-hat-directory-server]]
+==== image:images/yes.png[yes] Red Hat Directory Server (noun)
+*Description*: Red Hat Directory Server (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
+
+*Use it*: yes
+
+*Incorrect forms*: RHDS
+
+*See also*: xref:directory-server[Directory Server]
+
+[discrete]
+[[replica]]
+==== image:images/yes.png[yes] replica (noun)
+*Description*: A replica is a copy of the Directory Server database on a different host. For example, a consumer can also be called a replica because it has a copy of the data received from the supplier.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+[discrete]
+[[slave]]
+==== image:images/no.png[no] slave (noun)
+*Description*: Do not use "slave" to refer to a consumer or hub.
+
+*Use it*: no
+
+*Incorrect forms*: 
+
+*See also*: xref:consumer-rhds[consumer], xref:hub[hub]
+
+[discrete]
+[[ssl-rhds]]
+==== image:images/no.png[no] SSL (noun)
+*Description*: The Secure Socket Layer (SSL) protocol is the insecure predecessor of TLS. Due to the weakness of the protocol, support of SSL has been removed in RHEL 8 and Directory Server 11. When you refer to TLS encryption or certificates, use "TLS".
+
+*Use it*: no
+
+*Incorrect forms*: Secure Socket Layer, SSL
+
+*See also*: xref:tls[TLS]
+
+[discrete]
+[[starttls]]
+==== image:images/yes.png[yes] STARTTLS (noun)
+*Description*: When an LDAP client wants to use a TLS-encrypted connection after establishing a connection to the unencrypted LDAP port, the client sends the STARTTLS command.
+
+*Use it*: yes
+
+*Incorrect forms*: StartTLS, startTLS
+
+*See also*: xref:ldap[LDAP], xref:ldaps[LDAPS]
+
+[discrete]
+[[suffix]]
+==== image:images/yes.png[yes] suffix (noun)
+*Description*: The name of the entry at the top of the directory tree is called a suffix. In Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
+[discrete]
+[[supplier]]
+==== image:images/yes.png[yes] supplier (noun)
+*Description*: In an LDAP replication environment, suppliers send data to other servers.
+
+*Use it*: yes
+
+*Incorrect forms*: master
+
+*See also*: xref:consumer-rhds[consumer]
+
+[discrete]
+[[tls]]
+==== image:images/yes.png[yes] TLS (noun)
+*Description*: Transport Layer Security (TLS) is a cryptographic protocol for secure communication over networks. TLS is the successor of the insecure Secure Sockets Layer (SSL) protocol. RHEL 8 and 9, as well as Directory Server 11 and 12, only support TLS version 1.2 and later. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*: SSL, SSL/TLS, TLS/SSL
+
+*See also*: xref:ssl-rhds[SSL]
