@@ -23,7 +23,7 @@
 [discrete]
 [[uninterruptible]]
 ==== image:images/yes.png[yes] uninterruptible (adjective)
-*Description*: Although "uninterruptable" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)."
+*Description*: Although "uninterruptible" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)."
 
 *Use it*: yes
 

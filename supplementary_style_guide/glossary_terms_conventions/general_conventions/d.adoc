@@ -255,7 +255,7 @@
 [discrete]
 [[DVD-writer]]
 ==== image:images/yes.png[yes] DVD writer (noun)
-*Description*: A "DVD writer" is adevice that records data into the DVD format.
+*Description*: A "DVD writer" is a device that records data into the DVD format.
 
 *Use it*: yes
 

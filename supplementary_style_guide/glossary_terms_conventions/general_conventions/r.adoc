@@ -273,7 +273,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *Incorrect forms*: roll out
 
-*See also*: xref:rollout[roll-out]
+*See also*: xref:roll-out[roll-out]
 
 [discrete]
 [[rom]]
