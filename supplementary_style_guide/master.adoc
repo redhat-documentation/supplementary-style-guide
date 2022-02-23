@@ -40,6 +40,11 @@ include::style_guidelines/specific-doc-types.adoc[leveloffset=+2]
 // Links
 include::style_guidelines/links.adoc[leveloffset=+2]
 
+// Managed cloud services guidelines
+include::style_guidelines/managed-services.adoc[leveloffset=+1]
+
+
+
 [[glossary-terms-conventions]]
 == Glossary of terms and conventions
 
