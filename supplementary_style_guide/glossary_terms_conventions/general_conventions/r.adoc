@@ -81,7 +81,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 [discrete]
 [[redboot]]
 ==== image:images/yes.png[yes] RedBoot (noun)
-*Description*: "RedBoot" is an acronym for "Red Hat Embedded Debug and Bootstrap" firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
+*Description*: "RedBoot" is an abbreviation for "Red Hat Embedded Debug and Bootstrap" firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
 
 *Use it*: yes
 

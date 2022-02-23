@@ -45,7 +45,7 @@
 [discrete]
 [[gb]]
 ==== image:images/yes.png[yes] GB (noun)
-*Description*: "GB" is an acronym for gigabyte. Use a space between the value and the abbreviation, for example, "a 2 GB file."
+*Description*: "GB" is an abbreviation for gigabyte. Use a space between the value and the abbreviation, for example, "a 2 GB file."
 
 *Use it*: yes
 
@@ -56,7 +56,7 @@
 [discrete]
 [[gbps]]
 ==== image:images/yes.png[yes] Gbps (noun)
-*Description*: "Gbps" is an acronym for Gigabits per second, a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.
+*Description*: "Gbps" is an abbreviation for Gigabits per second, a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.
 
 *Use it*: yes
 
@@ -67,7 +67,7 @@
 [discrete]
 [[gcc]]
 ==== image:images/yes.png[yes] GCC (noun)
-*Description*: "GCC" is an acronym for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC."
+*Description*: "GCC" is an abbreviation for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC."
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 [discrete]
 [[gcc-command]]
 ==== image:images/yes.png[yes] gcc (noun)
-*Description*: "GCC" is an acronym for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
+*Description*: "GCC" is an abbreviation for the "GNU Compiler Collection." GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
 
 *Use it*: yes
 
@@ -89,7 +89,7 @@
 [discrete]
 [[gcj]]
 ==== image:images/yes.png[yes] GCJ (noun)
-*Description*: "GCJ" is an acronym for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ."
+*Description*: "GCJ" is an abbreviation for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ."
 
 *Use it*: yes
 
@@ -101,7 +101,7 @@
 [[gcj-command]]
 ==== image:images/yes.png[yes] gcj (noun)
 
-*Description*: "GCJ" is an acronym for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use `gcj`, marked up appropriately.
+*Description*: "GCJ" is an abbreviation for the "GNU Compiler for Java." GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use `gcj`, marked up appropriately.
 
 *Use it*: yes
 
@@ -112,7 +112,7 @@
 [discrete]
 [[gdb]]
 ==== image:images/yes.png[yes] GDB (noun)
-*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the program, use "GDB."
+*Description*: "GDB" is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the program, use "GDB".
 
 *Use it*: yes
 
@@ -123,7 +123,7 @@
 [discrete]
 [[gdb-command]]
 ==== image:images/yes.png[yes] gdb (noun)
-*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
+*Description*: "GDB" is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
 
 *Use it*: yes
 
@@ -134,7 +134,7 @@
 [discrete]
 [[gid]]
 ==== image:images/yes.png[yes] GID (noun)
-*Description*: "GID" is an acronym for "Group ID." Do not use "gid."
+*Description*: "GID" is an abbreviation for "Group ID." Do not use "gid."
 
 *Use it*: yes
 
@@ -222,7 +222,7 @@
 [discrete]
 [[gpl]]
 ==== image:images/yes.png[yes] GPL (noun)
-*Description*: "GPL" is an acronym for "General Public License." Do not use "Gpl" or "gpl."
+*Description*: "GPL" is an abbreviation for "General Public License." Do not use "Gpl" or "gpl."
 
 *Use it*: yes
 
@@ -255,7 +255,7 @@
 [discrete]
 [[gtkplus]]
 ==== image:images/yes.png[yes] GTK+ (noun)
-*Description*: "GTK+" is an acronym for "GIMP Tool Kit." Do not use "GTK," "Gtk," or "gtk."
+*Description*: "GTK+" is an abbreviation for "GIMP Tool Kit." Do not use "GTK," "Gtk," or "gtk."
 
 *Use it*: yes
 

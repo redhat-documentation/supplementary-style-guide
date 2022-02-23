@@ -1,7 +1,7 @@
 [discrete]
 [[KB]]
 ==== image:images/yes.png[yes] KB (noun)
-*Description*: "KB" is acromyn for "kilobyte." One KB equals 1024 bytes.
+*Description*: "KB" is an abbreviation for "kilobyte." One KB equals 1024 bytes.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[kB]]
 ==== image:images/yes.png[yes] kB (noun)
-*Description*: "kB" is an acronym for "kilobyte." One kB equals 1000 bytes.
+*Description*: "kB" is an abbreviation for "kilobyte." One kB equals 1000 bytes.
 
 *Use it*: yes
 
@@ -146,7 +146,7 @@ Do not capitalize the first letter.
 [discrete]
 [[kvm]]
 ==== image:images/yes.png[yes] KVM (noun)
-*Description*: "KVM" is an acronym for "Kernel-based Virtual Machine."
+*Description*: "KVM" is an abbreviation for "Kernel-based Virtual Machine."
 
 *Use it*: yes
 

@@ -23,7 +23,7 @@
 [discrete]
 [[compact-disk]]
 ==== image:images/yes.png[yes] CD (noun)
-*Description*: "CD" is an acronym for "compact disc."
+*Description*: "CD" is an abbreviation for "compact disc."
 
 *Use it*: yes
 
@@ -367,7 +367,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[csv]]
 ==== image:images/yes.png[yes] CSV (noun)
-*Description*: CSV is an acronym for "comma-separated values," which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
+*Description*: CSV is an abbreviation for "comma-separated values," which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
 
 *Use it*: yes
 

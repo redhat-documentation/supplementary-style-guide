@@ -12,7 +12,7 @@
 [discrete]
 [[pc]]
 ==== image:images/yes.png[yes] PC (noun)
-*Description*: "PC" is an acronym for personal computer. See the _IBM Style Guide_ for further information.
+*Description*: "PC" is an abbreviation for personal computer. See the _IBM Style Guide_ for further information.
 
 *Use it*: yes
 
@@ -144,7 +144,7 @@
 [discrete]
 [[ppp]]
 ==== image:images/yes.png[yes] PPP (noun)
-*Description*: "PPP" is an acronym for "Point-to-Point Protocol," a data link (layer 2) protocol used to establish a direct connection between two nodes. PPP can provide connection authentication, transmission encryption (using ECP, RFC 1968), and compression.
+*Description*: "PPP" is an abbreviation for "Point-to-Point Protocol," a data link (layer 2) protocol used to establish a direct connection between two nodes. PPP can provide connection authentication, transmission encryption (using ECP, RFC 1968), and compression.
 
 *Use it*: yes
 

@@ -1,7 +1,7 @@
 [discrete]
 [[iaas]]
 ==== image:images/yes.png[yes] IaaS (noun)
-*Description*: "Iaas" is an acronym for "Infrastructure-as-a-Service." Always use hyphens when spelling out the acronym.
+*Description*: "IaaS" is an acronym for "Infrastructure-as-a-Service." Always use hyphens when spelling out the acronym.
 
 *Use it*: yes
 
@@ -123,7 +123,7 @@
 [discrete]
 [[intel-virtualization-technology]]
 ==== image:images/yes.png[yes] Intel Virtualization Technology (noun)
-*Description*: The first and all prominent uses of "Intel Virtualization Technology" should be spelled out, immediately followed by the acronym, for example, "Intel Virtualization Technology (Intel VT) for Intel 64 or Itanium architecture (Intel VT-i)." Subsequent uses can be abbreviated to "Intel VT-i." Always write the acronym in uppercase letters, accompanied by the Intel mark. Do not use the acronym in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as (TM) or "\(TM).
+*Description*: The first and all prominent uses of "Intel Virtualization Technology" should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64 or Itanium architecture (Intel VT-i)." Subsequent uses can be abbreviated to "Intel VT-i." Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as (TM) or "\(TM).
 
 *Use it*: yes
 
@@ -167,7 +167,7 @@
 [discrete]
 [[ip]]
 ==== image:images/yes.png[yes] IP (noun)
-*Description*: "IP" is an acronym for "Internet Protocol."
+*Description*: "IP" is an abbreviation for "Internet Protocol."
 
 *Use it*: yes
 
@@ -189,7 +189,7 @@
 [discrete]
 [[ipsec]]
 ==== image:images/yes.png[yes] IPsec (noun)
-*Description*: "IPsec" is an acronym for "Internet Protocol security."
+*Description*: "IPsec" is an abbreviation for "Internet Protocol security."
 
 *Use it*: yes
 
@@ -244,7 +244,7 @@
 [discrete]
 [[it]]
 ==== image:images/yes.png[yes] IT, I.T. (noun)
-*Description*: "IT" and "I.T." are acronyms for "information technology." Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used to clarify that the word is "IT" rather than "it."
+*Description*: "IT" and "I.T." are abbreviations for "information technology." Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used to clarify that the word is "IT" rather than "it."
 
 *Use it*: yes
 

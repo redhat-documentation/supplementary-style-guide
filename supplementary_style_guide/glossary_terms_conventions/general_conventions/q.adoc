@@ -5,14 +5,14 @@
 
 *Use it*: yes
 
-*Incorrect forms*: q & a, q&a Q & A, Q&A 
+*Incorrect forms*: q & a, q&a Q & A, Q&A
 
 *See also*:
 
 [discrete]
 [[qcow2]]
 ==== image:images/yes.png[yes] QCOW2 (noun)
-*Description*: "QCOW2" is an acronym for "QEMU Copy On Write version 2." QCOW2 is a file format for disk image files used by QEMU, a hosted virtual machine monitor. Always write this term in uppercase letters.
+*Description*: "QCOW2" is an abbreviation for "QEMU Copy On Write version 2." QCOW2 is a file format for disk image files used by QEMU, a hosted virtual machine monitor. Always write this term in uppercase letters.
 
 *Use it*: yes
 
@@ -38,6 +38,6 @@
 
 *Use it*: no
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:

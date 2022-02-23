@@ -56,7 +56,7 @@
 [discrete]
 [[MB]]
 ==== image:images/yes.png[yes] MB (noun)
-*Description*: "MB" is an acronym for "megabyte," which is 1,000,000 bytes or 1,048,576 bytes, depending on the context.
+*Description*: "MB" is an abbreviation for "megabyte," which is 1,000,000 bytes or 1,048,576 bytes, depending on the context.
 
 *Use it*: yes
 
@@ -67,7 +67,7 @@
 [discrete]
 [[Mb]]
 ==== image:images/yes.png[yes] Mb (noun)
-*Description*: "Mb" is an acronym for "megabit." One megabit equals 1000 kilobits or 1,000,000 bits.
+*Description*: "Mb" is an abbreviation for "megabit." One megabit equals 1000 kilobits or 1,000,000 bits.
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 [discrete]
 [[mbps]]
 ==== image:images/yes.png[yes] MBps (noun)
-*Description*: "MBps" is an acronym for "megabytes per second," a measure of data transfer speed. Mass storage devices are generally measured in MBps.
+*Description*: "MBps" is an abbreviation for "megabytes per second," a measure of data transfer speed. Mass storage devices are generally measured in MBps.
 
 *Use it*: yes
 
@@ -89,7 +89,7 @@
 [discrete]
 [[mbr]]
 ==== image:images/yes.png[yes] MBR (noun)
-*Description*: "MBR" is an acronym for "Master Boot Record."
+*Description*: "MBR" is an abbreviation for "Master Boot Record."
 
 *Use it*: yes
 
@@ -161,7 +161,7 @@
 
 *Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[mouse-button]]

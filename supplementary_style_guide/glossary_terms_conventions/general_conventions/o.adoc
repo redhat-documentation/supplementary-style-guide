@@ -12,7 +12,7 @@
 [discrete]
 [[oem]]
 ==== image:images/yes.png[yes] OEM (noun)
-*Description*: "OEM" is an acronym for "original equipment manufacturer," which is a misleading term for a company that has a special relationship with computer producers. OEMs buy computers in bulk and customize them for a particular application. They then sell the customized computer under their own name. OEMs are not the original manufacturers; they are the customizers.
+*Description*: "OEM" is an abbreviation for "original equipment manufacturer," which is a misleading term for a company that has a special relationship with computer producers. OEMs buy computers in bulk and customize them for a particular application. They then sell the customized computer under their own name. OEMs are not the original manufacturers; they are the customizers.
 
 *Use it*: yes
 

@@ -177,7 +177,7 @@
 [discrete]
 [[dns]]
 ==== image:images/yes.png[yes] DNS (noun)
-*Description*: "DNS" is an acronym for "Domain Name System" or "Domain Name Service," a service that translates domain names into IP addresses and vice versa.
+*Description*: "DNS" is an abbreviation for "Domain Name System" or "Domain Name Service," a service that translates domain names into IP addresses and vice versa.
 
 *Use it*: yes
 

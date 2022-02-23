@@ -133,7 +133,7 @@
 [discrete]
 [[ttl]]
 ==== image:images/yes.png[yes] TTL (noun)
-*Description*: "TTL" is an acronym for "time to live" (noun) and "time-to-live" (adjective). The acronym is always in uppercase letters.
+*Description*: "TTL" is an abbreviation for "time to live" (noun) and "time-to-live" (adjective). The abbreviation is always in uppercase letters.
 
 *Use it*: yes
 

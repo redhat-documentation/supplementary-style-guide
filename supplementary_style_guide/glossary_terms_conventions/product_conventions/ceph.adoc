@@ -265,7 +265,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[mds]]
 ==== image:images/yes.png[yes] MDS (noun)
-*Description*: MDS is an acronym for the Ceph Metadata Server.
+*Description*: MDS is an abbreviation for the Ceph Metadata Server.
 
 *Use it*: yes
 
@@ -344,7 +344,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[pg]]
 ==== image:images/yes.png[yes] PG (noun)
-*Description*: An acronym for Placement Group.
+*Description*: An abbreviation for Placement Group.
 
 *Use it*: yes
 
@@ -355,7 +355,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[placement-group]]
 ==== image:images/yes.png[yes] placement group (noun)
-*Description*: Aggregates a series of objects into a group, and maps the group into a series of OSDs. Write "Placement Group" (both first letters in uppercase) only when explaining the PC acronym, then write "placement group" (in lowercase). See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#placement_groups_pgs[Placement Groups] section in the Red Hat Ceph Storage Architecture Guide for details.
+*Description*: Aggregates a series of objects into a group, and maps the group into a series of OSDs. Write "Placement Group" (both first letters in uppercase) only when explaining the PC abbreviation, then write "placement group" (in lowercase). See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#placement_groups_pgs[Placement Groups] section in the Red Hat Ceph Storage Architecture Guide for details.
 
 *Use it*: yes
 
@@ -402,7 +402,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[rados-block-device]]
 ==== image:images/caution.png[with caution] RADOS Block Device (noun)
-*Description*: The block storage component of Ceph. Also known as the Ceph Block Device, which is the preferred form. Use RADOS Block Device only when expanding the RBD acronym.
+*Description*: The block storage component of Ceph. Also known as the Ceph Block Device, which is the preferred form. Use RADOS Block Device only when expanding the RBD abbreviation.
 
 *Use it*: with caution
 
@@ -413,7 +413,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[rados-gateway]]
 ==== image:images/caution.png[with caution] RADOS Gateway (noun)
-*Description*: The S3/Swift component of Ceph. Also known as the Ceph Object Gateway, which is the preferred form. Use RADOS Gateway only when expanding the RGW acronym.
+*Description*: The S3/Swift component of Ceph. Also known as the Ceph Object Gateway, which is the preferred form. Use RADOS Gateway only when expanding the RGW abbreviation.
 
 *Use it*: with caution
 
@@ -424,7 +424,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[RBD]]
 ==== image:images/yes.png[yes] RBD (noun)
-*Description*: Acronym for RADOS Block Device.
+*Description*: abbreviation for RADOS Block Device.
 
 *Use it*: yes
 
@@ -479,7 +479,7 @@ See xref:container[container] in the _General conventions_ section.
 [discrete]
 [[rgw]]
 ==== image:images/yes.png[yes] RGW (noun)
-*Description*: Acronym for RADOS Gateway.
+*Description*: abbreviation for RADOS Gateway.
 
 *Use it*: yes
 

@@ -68,7 +68,7 @@
 [discrete]
 [[jvm]]
 ==== image:images/yes.png[yes] JVM (noun)
-*Description*: "JVM" is an acronym for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM," or only the noun itself, "virtual machine." You can include JVM for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)."
+*Description*: "JVM" is an abbreviation for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM," or only the noun itself, "virtual machine." You can include JVM for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)."
 
 *Use it*: yes
 

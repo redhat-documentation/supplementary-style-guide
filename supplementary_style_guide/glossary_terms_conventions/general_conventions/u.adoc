@@ -145,7 +145,7 @@
 [discrete]
 [[url]]
 ==== image:images/yes.png[yes] URL (noun)
-*Description*: "URL" is an acronym for Uniform Resource Locator. A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
+*Description*: "URL" is an abbreviation for Uniform Resource Locator. A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
 
 *Use it*: yes
 

@@ -12,7 +12,7 @@
 [discrete]
 [[vcpu]]
 ==== image:images/yes.png[yes] vCPU (noun)
-*Description*: "vCPU" is an acronym for a virtual central processing unit, which represents a portion of a physical CPU that is assigned to a virtual machine.
+*Description*: "vCPU" is an abbreviation for a virtual central processing unit, which represents a portion of a physical CPU that is assigned to a virtual machine.
 
 Use lowercase "v" and uppercase "CPU".
 
@@ -25,7 +25,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[vdsm]]
 ==== image:images/yes.png[yes] VDSM (noun)
-*Description*: "VDSM" is an acronym for Virtual Desktop Server Management. Do not spell out this acronym. Using the term "virtual desktop" in this context has negative marketing implications.
+*Description*: "VDSM" is an abbreviation for Virtual Desktop Server Management. Do not spell out this abbreviation. Using the term "virtual desktop" in this context has negative marketing implications.
 
 *Use it*: yes
 
@@ -216,7 +216,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[vpn]]
 ==== image:images/yes.png[yes] VPN (noun)
-*Description*: "VPN" is an acronym for virtual private network, which is a network that is constructed by using public wires to connect nodes. For example, there are a number of systems that enable you to create networks using the internet as the medium for transporting data. These systems use encryption and other security mechanisms to ensure that only authorized users can access the network and that the data cannot be intercepted.
+*Description*: "VPN" is an abbreviation for virtual private network, which is a network that is constructed by using public wires to connect nodes. For example, there are a number of systems that enable you to create networks using the internet as the medium for transporting data. These systems use encryption and other security mechanisms to ensure that only authorized users can access the network and that the data cannot be intercepted.
 
 *Use it*: yes
 

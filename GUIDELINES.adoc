@@ -49,7 +49,7 @@ Use the following template for glossary entries:
 
 * Keep all fields, even if a field is empty. An empty field serves as a placeholder if the field is required later.
 
-* Use quotation marks on the first occurrence of a term in the *Description* field. Do not include an acronym in parentheses within the quotation marks; for example, "Asynchronous Transfer Mode" (ATM) is a network technology based on transferring data in cells or packets of a fixed size.
+* Use quotation marks on the first occurrence of a term in the *Description* field. Do not include an abbreviation in parentheses within the quotation marks; for example, "Asynchronous Transfer Mode" (ATM) is a network technology based on transferring data in cells or packets of a fixed size.
 
 * If the *Description* field contains more than one paragraph, only the last paragraph is displayed in the Atom linter's text. Ensure that word usage advice is contained in the last paragraph.
 
