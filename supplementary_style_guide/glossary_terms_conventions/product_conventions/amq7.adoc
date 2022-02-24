@@ -560,7 +560,7 @@
 
 *Incorrect forms*:
 
-*See also*: xref:producer[producer], xref:target[target], xref:receiver[receiver]
+*See also*: xref:producer[producer], xref:target-amq[target], xref:receiver[receiver]
 
 [discrete]
 [[session]]

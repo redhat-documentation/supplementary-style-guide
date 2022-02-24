@@ -169,8 +169,8 @@ include::glossary_terms_conventions/product_conventions/products_conventions_ove
 ==== Azure and .NET Core
 include::glossary_terms_conventions/product_conventions/azure-dotnet.adoc[leveloffset=+1]
 
-==== Partner and Hybrid Cloud Infrastructure
-include::glossary_terms_conventions/product_conventions/partner-and-hybrid-cloud-infrastructure.adoc[leveoffset=+1]
+==== Storage
+include::glossary_terms_conventions/product_conventions/storage.adoc[leveloffset=+1]
 
 ==== Red Hat AMQ
 include::glossary_terms_conventions/product_conventions/amq7.adoc[leveloffset=+1]

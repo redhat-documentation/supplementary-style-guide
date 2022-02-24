@@ -5,17 +5,23 @@
 ==== image:images/yes.png[yes] access mode (noun)
 *Description*: The concurrency method used when accessing a storage component, such as `readwriteonce` or `readwritemany`.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
 [[availability]]
 ==== image:images/caution.png[with caution] availability (adjective)
-The state of being available to perform work in a system, in the context of high availability or availability zones. The ability of a component to be utilized at a given time.
+*Description*: The state of being available to perform work in a system, in the context of high availability or availability zones. The ability of a component to be utilized at a given time.
 
-Ensure that availability is not erroneously used to indicate that a server or disk is online or available, e.g. do not say "the server has availability".
+Ensure that "availability" is not erroneously used to indicate that a server or disk is online or available, for example, do not say "the server has availability".
 
-*Use it*: With caution
+*Use it*: with caution
+
+*Incorrect forms*:
 
 *See also*: xref:high-availability[high availability], xref:availability-zone[availability zone]
 
@@ -27,28 +33,11 @@ Ensure that availability is not erroneously used to indicate that a server or di
 
 Ensure that availability is not erroneously used to indicate that a server or disk is online or available, e.g. do not say "the server has availability".
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*: xref:high-availability[high availability]
-
-[discrete]
-[[back-end]]
-==== image:images/caution.png[with caution] back end (noun)
-*Description*: A back end is the location for stored data. Hardware and software comprise a storage back end. Hyphenate when used as an adjective, for example, back-end storage.
-
-*Use it*: With caution, it is better to refer to "back-end storage" than to "the back end" as this is ambiguous even in a storage context.
-
-*Incorrect forms*: backend
-
-
-[discrete]
-[[back-up]]
-==== image:images/yes.png[yes] back up (verb)
-*Description*: Create a copy of data, configuration files, etc. to reduce risk of data loss. "Backup" when used as a noun, for example, the backup of your data is the data that was backed up.
-
-*Use it*: Yes
-
-*Incorrect forms*: back-up
 
 
 [discrete]
@@ -56,7 +45,11 @@ Ensure that availability is not erroneously used to indicate that a server or di
 ==== image:images/yes.png[yes] Bare Metal service (noun)
 *Description*: The Bare Metal service is a Red Hat OpenStack Platform product that provisions bare metal machines.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -64,16 +57,22 @@ Ensure that availability is not erroneously used to indicate that a server or di
 ==== image:images/yes.png[yes] bind (verb)
 *Description*: To associate two or more objects in a particular scope, for example, in OpenShift Container Storage, when a Persistent Volume Claim is created, a Persistent Volume that matches the claim's requirements is bound to the Persistent Volume Claim.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[block-device]]
 ==== image:images/caution.png[with caution] block device (noun)
 *Description*: A physical storage device that supports reading and writing data in groups (blocks) of bytes, in any order.
 
-*Use it*: With caution - do not confuse for "block storage" (cloud storage) or "block volume" (OpenShift Virtualization).
+*Use it*: with caution - do not confuse for "block storage" (cloud storage) or "block volume" (OpenShift Virtualization).
 
 *Incorrect forms*: block storage, block volume
+
+*See also*:
 
 
 [discrete]
@@ -81,41 +80,55 @@ Ensure that availability is not erroneously used to indicate that a server or di
 ==== image:images/caution.png[with caution] block storage (noun)
 *Description*: Block storage, as distinct from file storage and object storage, breaks data into chunks that are arbitrarily organized and distributed. These chunks can then be further partitioned and treated as individual storage devices.
 
-*Use it*: With caution - do not confuse for "block device" (generic) or "block volume" (OpenShift Virtualization).
+*Use it*: with caution - do not confuse for "block device" (generic) or "block volume" (OpenShift Virtualization).
 
 *Incorrect forms*: block device, block volume
+
+*See also*:
 
 [discrete]
 [[block-volume]]
 ==== image:images/caution.png[with caution] block volume (noun)
 *Description*: A physical volume that supports `Block` as opposed to `Filesystem` data formats. Block data are raw chunks of data that are not compatible with any predefined file system mechanism such as NFS.
 
-*Use it*: With caution - do not confuse for "block device" (generic) or "block storage" (cloud storage).
+*Use it*: with caution - do not confuse for "block device" (generic) or "block storage" (cloud storage).
 
 *Incorrect forms*: block device, block storage
+
+*See also*:
 
 [discrete]
 [[boot-source]]
 ==== image:images/yes.png[yes] boot source (noun)
 *Description*: A system image containing a bootable operating system (OS) and all of the configuration settings for the OS, such as drivers. Boot sources can be used to create virtual machine templates with specific configurations. These templates can be used to create any number of available virtual machines.
 
-*Use it*: Yes
+*Use it*: yes
 
 *Incorrect forms*: bootsource, boot-source
+
+*See also*:
 
 [discrete]
 [[brick]]
 ==== image:images/yes.png[yes] brick (noun)
 *Description*: Bricks are the basic unit of storage in Red Hat Gluster Storage. A brick is an exported directory on a server that is in a trusted storage pool.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[client]]
 ==== image:images/yes.png[yes] client (noun)
 *Description*: Generically, an entity (machine, process, service, or application) that uses a service provided by a server. Avoid using to refer to an application that manages configuration of such clients, or to applications, tools, etc.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -123,14 +136,22 @@ Ensure that availability is not erroneously used to indicate that a server or di
 ==== image:images/yes.png[yes] clone (noun)
 *Description*: A full data copy from an existing volume or disk drive to a new volume or disk drive. This is not the same as a virtual machine clone, which copies both storage and configuration.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[clone-v]]
 ==== image:images/yes.png[yes] clone (verb)
 *Description*: The process of making a full data copy from an existing volume or disk drive to a new volume or disk drive.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -138,26 +159,44 @@ Ensure that availability is not erroneously used to indicate that a server or di
 ==== image:images/yes.png[yes] cloud storage (noun)
 *Description*: Cloud storage is a method to save, access, and manage data or objects remotely, such as over a network.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[high-availability-cluster]]
 ==== image:images/yes.png[yes] high-availability cluster (noun)
 *Description*: A group of physical or virtual machines that can share work between themselves in order to allow services and resources to be available even if one or more machines in the cluster is offline.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[ocp-cluster]]
 ==== image:images/yes.png[yes] OpenShift Container Platform cluster (noun)
 *Description*: A group of physical machines that contains the controllers, pods, services, and configuration required to build and run containerized applications.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[compression]]
-==== image:images/yes.png[yes] compression (noun)
+==== image:images/caution.png[with caution] compression (noun)
 *Description*: Use compression by itself only after first referring to the specific type of compression, for example, network compression, data compression, migration compression.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[data-compression]]
@@ -170,14 +209,23 @@ Migration compression is specific to Red Hat Virtualization, and is the compress
 
 LZO compression and LZ4 compression are specific compression algorithms, so they are specific enough.
 
-*Use it*: With caution
+*Use it*: with caution
 
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
 [[copy-v]]
 ==== image:images/yes.png[yes] copy (verb)
 *Description*: Generically, the process of creating a duplicate of a file in a different location.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -186,7 +234,11 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 *Description*: A feature of virtual disk optimization (VDO) that helps conserve storage space by eliminating multiple copies of duplicate blocks. Instead of writing the same data more than once, VDO detects blocks that are duplicates of an existing block, and records them as a reference to the original block. VDO maintains a mapping from logical block addresses, which are used by the storage layer above VDO, to physical block addresses, which are used by the storage layer under VDO. After deduplication, multiple logical block addresses may be mapped to the same physical block address; these are called shared blocks. Block sharing is invisible to users of the storage, who read and write blocks as they would if VDO were not present. When a shared block is overwritten, a new physical block is allocated for storing the new block data to ensure that other logical block addresses that are mapped to the shared physical block are not modified.
 device	Use block or VDO or local storage device instead of using the vague term "device".
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -194,7 +246,11 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/yes.png[yes] directory (noun)
 *Description*: A special type of file in a Linux file system that contains a list of objects and their inodes.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -202,56 +258,88 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/yes.png[yes] disaster recovery (adjective)
 *Description*: Related to processes or methods used to ensure data integrity and the operational continuity of an environment or infrastructure in case of malicious or accidental interruption.
 
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[disconnected-deployment]]
 ==== image:images/caution.png[with caution] disconnected deployment or installation (noun)
 *Description*: An installation or deployment method that has been modified so that access to the internet is not required, for example, for use in an airgapped environment.
 
-*Use it*: With caution - support levels vary, so the exact method and limitations must be explained clearly.
+*Use it*: with caution - support levels vary, so the exact method and limitations must be explained clearly.
 
 *Incorrect forms*: offline deployment, airgapped deployment
+
+*See also*:
 
 [discrete]
 [[physical-disk]]
 ==== image:images/yes.png[yes] physical disk (noun)
 *Description*: A physical hardware component that stores data.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[virtual-disk]]
 ==== image:images/yes.png[yes] virtual disk (noun)
 *Description*: A file or set of files that presents as a physical disk to a virtualized operating system.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[disk-encryption]]
 ==== image:images/yes.png[yes] disk encryption (noun)
 *Description*: Generically, the encryption of data while it is stored on a disk. Also known as block device encryption or encryption at rest.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[dispersed-volume]]
 ==== image:images/yes.png[yes] dispersed volume (noun)
 *Description*: A Gluster volume that uses erasure coding to write data across three or more bricks to ensure that data remains available even when a certain number of bricks is not available.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[distributed-file-system]]
 ==== image:images/yes.png[yes] distributed file system (noun)
 *Description*: A file system that presents files from a number of different storage devices, potentially on many different machines and in many different locations, as a single interface to an end user or consuming service.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[distributed-volume]]
 ==== image:images/yes.png[yes] distributed volume (noun)
 *Description*: A Gluster volume that distributes data across one or more bricks.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -259,21 +347,33 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/yes.png[yes] distributed-dispersed volume (noun)
 *Description*: A Gluster volume that distributes and erasure codes data across one or more bricks.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[distributed-replicated-volume]]
 ==== image:images/yes.png[yes] distributed-dispersed volume (noun)
 *Description*: A Gluster volume that distributes and replicates data across multiple bricks.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[dynamically-provisioned-storage]]
 ==== image:images/caution.png[with caution] dynamically provisioned storage (noun)
 *Description*: Generically, a repository of data that changes in size depending on the current demand of the application or the user.
 
-*Use it*: With caution - in OpenShift Container Platform and OpenShift Data Foundation, use "dynamic volume provisioning" to refer to the related StorageClass configuration parameter.
+*Use it*: with caution - in OpenShift Container Platform and OpenShift Data Foundation, use "dynamic volume provisioning" to refer to the related StorageClass configuration parameter.
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -281,7 +381,11 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/yes.png[yes] encrypted disk (noun)
 *Description*: A disk containing data that has been encoded for the purpose of ensuring data security.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -289,7 +393,11 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/yes.png[yes] encryption (noun)
 *Description*: The encoding of data, either at-rest or in-transit, for the purpose of ensuring data security.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -297,21 +405,31 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/yes.png[yes] ephemeral storage (noun)
 *Description*: A temporary storage location that only exists while an individual pod exists, and cannot be shared by multiple pods.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[external-mode]]
 ==== image:images/caution.png[with caution] external mode (noun)
 *Description*: Using externally hosted storage services, for example, a deployment of Red Hat OpenShift Container Storage that uses externally hosted Red Hat Ceph Storage (RHCS) clusters to provide storage. This OpenShift Container Storage deployment type is supported for bare metal and user-provisioned VMware environments.
 
-*Use it*: With caution - only in OpenShift Container Storage.
+*Use it*: with caution - only in OpenShift Container Storage.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[file-storage]]
 ==== image:images/yes.png[yes] file storage (noun)
 *Description*: A repository of files and directories organized in a hierarchical way, as distinct from block storage or object storage.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*: xref:block-storage[block storage], xref:object-storage[object storage]
 
@@ -320,7 +438,11 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/yes.png[yes] file system (noun)
 *Description*: The system and process that controls how an operating system stores, organises, and retrieves files on a storage device.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -328,7 +450,11 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/caution.png[with caution] front end (noun)
 *Description*: The presentation layer of a web application, with which a user interacts, such as a user interface (UI).
 
-*Use it*: With caution - it may be more useful to specify the components or refer specifically to the user interface.
+*Use it*: with caution - it may be more useful to specify the components or refer specifically to the user interface.
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -336,14 +462,22 @@ device	Use block or VDO or local storage device instead of using the vague term 
 ==== image:images/caution.png[with caution] front-end (adjective)
 *Description*: Relating to the presentation layer of a web application, with which a user interacts, such as a user interface (UI). For example, the front-end development framework.
 
-*Use it*: With caution - it may be more useful to specify the components or refer specifically to the user interface.
+*Use it*: with caution - it may be more useful to specify the components or refer specifically to the user interface.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[fuse]]
 ==== image:images/caution.png[with caution] FUSE (File system in USEr Space)
 *Description*: A software interface for Linux and Linux-like systems that lets non-privileged users create and configure their own file systems without interacting directly with kernel code.
 
-*Use it*: With caution - it is more typical to refer to FUSE-compatible or FUSE-compliant systems rather than FUSE itself.
+*Use it*: with caution - it is more typical to refer to FUSE-compatible or FUSE-compliant systems rather than FUSE itself.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[geo-replication]]
@@ -352,32 +486,44 @@ device	Use block or VDO or local storage device instead of using the vague term 
 
 In Red Hat Quay, geo-replication refers to replication of data from one central storage engine to other storage engines.
 
-*Use it*: With caution - ensure no cross-over of the above definitions.
+*Use it*: with caution - ensure no cross-over of the above definitions.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[gluster-volume]]
 ==== image:images/yes.png[yes] gluster volume (noun)
 *Description*: A gluster volume is a logical collection of bricks across one or more servers in a trusted storage pool.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[hard-disk-drive]]
 ==== image:images/yes.png[yes] hard disk drive (noun)
 *Description*: In physical storage media, the hard disk drive is a physical component that stores data and all of the electronics that support or drive the reading and writing of data to and from the storage. It may be inserted into or removed from a server.
 
-*Use it*: Yes
+*Use it*: yes
 
 *Incorrect forms*: disk drive
+
+*See also*:
 
 [discrete]
 [[hyperconverged-cluster]]
 ==== image:images/yes.png[yes] hyperconverged cluster (noun)
 *Description*: A generic term to refer to the set of physical machines providing compute and storage capabilities in a Red Hat Hyperconverged Infrastructure for Virtualization (RHHI-V) or Red Hat Hyperconverged Infrastructure for Cloud (RHHI-C) cluster.
 
-*Use it*: Yes
+*Use it*: yes
 
 *Incorrect forms*: hyper converged cluster, hyper-converged cluster
+
+*See also*:
 
 
 [discrete]
@@ -385,7 +531,11 @@ In Red Hat Quay, geo-replication refers to replication of data from one central 
 ==== image:images/yes.png[yes] infrastructure node (noun)
 *Description*: A node that is labeled to run pieces of the OpenShift Container Platform environment, as distinct from a node intended to run applications.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -393,33 +543,55 @@ In Red Hat Quay, geo-replication refers to replication of data from one central 
 ==== image:images/yes.png[yes] initiator (noun)
 *Description*: The consumer of storage from a target. The initiator is typically a server with an adapter card. The initiator “initiates” a connection over the network fabric to one or more ports on your storage system, which are called target ports.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[internal-mode]]
 ==== image:images/yes.png[yes] internal mode (noun)
-*Description*: Using internally hosted services, for example, Red Hat OpenShift Container Storage where all components of OpenShift Container Storage are deployed within a cluster managed by OpenShift Container Platform and benefit from operator-based deployment and management.
+*Description*: Using internally hosted services, for example, Red Hat OpenShift Container Storage where all components of OpenShift Container Storage are deployed within a cluster managed by OpenShift Container Platform and benefit from Operator-based deployment and management.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[local-storage]]
 ==== image:images/yes.png[yes] local storage (noun)
 *Description*: Local storage is a method to save, access, and manage data or objects on hardware devices that are part of or closely connected to the machine accessing the data, such as hard drives, solid state drives, or external storage devices. In OpenShift Container Storage, local storage affects scheduling, as local storage can only be accessed by processes running on the node that the storage is physically attached to.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[logical-cache]]
 ==== image:images/yes.png[yes] logical cache (noun)
 *Description*: A caching mechanism used to improve the performance of a logical volume. Typically, a smaller and faster device is used to improve I/O performance of a larger and slower logical volume. Also known as a virtual cache or LVM cache.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[logical-volume]]
 ==== image:images/yes.png[yes] logical volume (noun)
 *Description*: A virtual, block storage device that a file system, database, or application can use. To create a logical volume, physical volumes are combined into a volume group (VG). This creates a pool of disk space out of which logical volumes (LVs) can be allocated. Note that Logical Volume Manager (LVM) is the device mapper framework that provides logical volume management for the Linux kernel.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -433,16 +605,22 @@ Use "controller node" for the Ansible node from which jobs are executed.
 
 Use "source node" for the node in the active cluster when discussing geo-replication in Red Hat Gluster Storage.
 
-*Use it*: Yes
+*Use it*: yes
 
 *Incorrect forms*: master node
+
+*See also*:
 
 [discrete]
 [[metadata]]
 ==== image:images/yes.png[yes] metadata (noun)
 *Description*: Generically, data that provides information about one or more other pieces of data.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[migrate]]
@@ -451,29 +629,33 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 
 In virtualization, "live migration" refers specifically to a virtual machine being moved from one host to another while remaining operational.
 
-*Use it*: With caution - for clarity, use the full term first before shortening to "migrate".
+*Use it*: with caution - for clarity, use the full term first before shortening to "migrate".
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[multipath]]
 ==== image:images/caution.png[with caution] multipath (noun)
 *Description*: Device Mapper Multipath Input Output (DM-MPIO), also known as DM Multipathing or multipath, is a Linux utility that enables multiple input/output paths between server nodes and storage arrays to be configured into a single device path to provide redundancy and improve performance.
 
-*Use it*: With caution - this term may be unclear on its own.
+*Use it*: with caution - this term may be unclear on its own.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[n-way-replication]]
 ==== image:images/yes.png[yes] n-way replication (noun)
 *Description*: Generically, refers to data being copied to multiple storage devices so that *n* copies are available in the storage cluster as a whole. This term is generally only used in Red Hat Gluster Storage.
 
-*Use it*: Yes
+*Use it*: yes
 
+*Incorrect forms*:
 
-[discrete]
-[[namespace-hci]]
-==== image:images/caution.png[with caution] namespace (noun)
-*Description*: An abstract group or context, generally used to identify and isolate resources from users, processes, and other resources that do not share the namespace. In the context of OpenShift, the term "project" is preferred over "namespace".
-
-*Use it*: With caution
+*See also*:
 
 
 [discrete]
@@ -481,14 +663,22 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 ==== image:images/yes.png[yes] network encryption (noun)
 *Description*: The encoding of data that is in transit across a network, for the purpose of ensuring data security.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[network-time-configuration]]
 ==== image:images/yes.png[yes] Network Time Configuration (noun)
 *Description*: Configuration for synchronizing time across all storage servers by using NTP (Network Time Protocol).
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -496,7 +686,9 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 ==== image:images/yes.png[yes] object storage (noun)
 *Description*: A repository of data objects stored in an unstructured way, as distinct from block storage or file storage.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*: xref:block-storage[block storage], xref:file-storage[file storage]
 
@@ -505,28 +697,44 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 ==== image:images/yes.png[yes] persistent volume (noun)
 *Description*: A storage volume for data in an OpenShift cluster that remains available and usable after the pod that created it has been destroyed. A persistent volume provides persistent storage to OpenShift applications, as distinct from the ephemeral storage provided by default. This term is sometimes abbreviated as "PV", so it is important to clearly distinguish this term from "physical volume" in contexts where logical volume management is discussed, for example, when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[persistent-volume-claim-hci]]
 ==== image:images/yes.png[yes] persistent volume claim (noun)
 *Description*:	A request by a user or application for storage that is associated with a persistent volume or disk drive.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[phase]]
 ==== image:images/yes.png[yes] phase (noun)
 *Description*: The state of an object (storage or otherwise) in OpenShift, for example, *available*, *bound*, *released*, *failed*.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[physical-volume]]
 ==== image:images/yes.png[yes] physical volume (noun)
 *Description*: A storage unit (a partition, or a whole disk) that has been configured for use by Logical Volume Manager. Before this configuration, the physical volume is just a block device. This term is sometimes abbreviated as "PV", so it is important to clearly distinguish this term from "persistent volume" in contexts where OpenShift is discussed, for example, when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -534,21 +742,33 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 ==== image:images/caution.png[with caution] platform (noun)
 *Description*: A set of technological building blocks, such as hardware and an operating system, that is used to develop and run applications, software, services, workflows, and so forth.
 
-*Use it*: With caution - this term is vague.
+*Use it*: with caution - this term is vague.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[primary-cluster]]
 ==== image:images/yes.png[yes] primary cluster (noun)
 *Description*: In Red Hat Gluster Storage, the storage cluster in active or production use.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[provision]]
 ==== image:images/caution.png[with caution] provision (verb)
 *Description*: To create, configure, and assign a resource for use, for example, you can provision more storage to ensure you have sufficient storage space on the cluster.
 
-*Use it*: With caution - this term can have different meanings in different contexts.
+*Use it*: with caution - this term can have different meanings in different contexts.
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -556,28 +776,44 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 ==== image:images/caution.png[with caution] proxy (noun)
 *Description*: A production environment that denies direct access to the internet and provides an available HTTP or HTTPS proxy instead.
 
-*Use it*: With caution - support levels vary, so the exact method and limitations must be explained clearly.
+*Use it*: with caution - support levels vary, so the exact method and limitations must be explained clearly.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[replicated-volume]]
 ==== image:images/yes.png[yes] replicated volume (noun)
 *Description*: A gluster volume that replicates data on one brick to one or more other bricks.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[restore]]
 ==== image:images/yes.png[yes] restore (verb)
 *Description*: To correct or replace data that has been lost or corrupted, after a problem in the cluster.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[scale-out]]
 ==== image:images/yes.png[yes] scale out (verb)
 *Description*: Improve the ability of a cluster to do work by adding more machines. Increase the amount of load that the system can handle at one time by increasing the number of servers doing work.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -585,70 +821,110 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 ==== image:images/yes.png[yes] scale up (verb)
 *Description*: Improve the ability of a specific machine or cluster to do work by adding more resources to the machine/s. Increase the amount of load that the system can handle by increasing the resources available to its components.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[secondary-cluster]]
 ==== image:images/yes.png[yes] secondary cluster (noun)
 *Description*: In Red Hat Gluster Storage, the cluster that exists as a backup in case the primary cluster becomes unavailable.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[self-heal]]
 ==== image:images/yes.png[yes] self-healing (noun)
 *Description*: In Red Hat Gluster Storage, after an error has occurred in the cluster, the ability to automatically determine which data is most correct and copies the correct data to the correct location in the cluster.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[server]]
 ==== image:images/yes.png[yes] server (noun)
 *Description*: The physical or virtual machine that runs the software that provides the primary features of the product. Do not use "server" by itself unless you have previously qualified it with another defined term, for example, storage server, metadata server, database server.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[service-hci]]
 ==== image:images/yes.png[yes] service (noun)
 *Description*: Software that performs automated tasks and listens to and responds to hardware events and requests from other software.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[shard]]
 ==== image:images/yes.png[yes] shard (noun)
 *Description*: A shard is a small part of a larger container. Shards replicate independently in parallel with other shards. Operations on shards take less time than operations on the whole container, which makes replication and maintenance more reliable.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[snapshot]]
 ==== image:images/yes.png[yes] snapshot (noun)
 *Description*: A point-in-time copy of the current state of a volume or disk drive. Do not use as a verb "snapshot the drive". Instead, say "take a snapshot" or "create a snapshot".
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[source-volume]]
 ==== image:images/yes.png[yes] source volume (noun)
 *Description*: Generically, the volume from which information is obtained for reference.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[split-brain]]
 ==== image:images/yes.png[yes] split brain (noun)
 *Description*: A state that a server cluster can enter, where nodes and their associated data diverge from each other and have conflicts when handling incoming I/O operations. The servers may record the same data inconsistently or compete for resources.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[storage-class-hci]]
 ==== image:images/yes.png[yes] storage class (noun)
 *Description*: In OpenShift, a type of storage device categorized by performance characteristics. Storage class devices can be, but are not limited to; a traditional hard disk drive, a solid state drive, or a non-volatile memory express (NVMe) drive.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -656,21 +932,33 @@ In virtualization, "live migration" refers specifically to a virtual machine bei
 ==== image:images/yes.png[yes] storage cluster (noun)
 *Description*: A group of physical or virtual machines that contains the resources and services required to provide storage. This may mean a Ceph storage cluster, a Gluster storage cluster, or just a cluster whose primary purpose is to provide storage as a service.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[storage-pool]]
 ==== image:images/yes.png[yes] storage pool (noun)
 *Description*: A logical storage partition that allows storage comprised of disks attached to one or more servers to be managed as a single entity. Access to and use of storage in a pool is usually shared between a number of different users or services.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[stripe]]
 ==== image:images/yes.png[yes] stripe (noun)
 *Description*: A stripe is a segment of data. Disk striping is a technique that spreads data segments across multiple disk drives to optimize performance.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 
 [discrete]
@@ -686,49 +974,77 @@ In Red Hat Gluster Storage, a *gluster subvolume* is a gluster brick whose data 
 
 In Red Hat Ceph Storage, a *Ceph subvolume* is an abstraction of a Ceph file system export that Ceph Manager can make available for consumption by a service, such as OpenStack's file system service (Manila).
 
-*Use it*: With caution - use the expanded term before you use subvolume by itself.
+*Use it*: with caution - use the expanded term before you use subvolume by itself.
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[target-hci]]
 ==== image:images/yes.png[yes] target (noun)
 *Description*: Synonymous with destination, a target is a file, device or any type of location to which data is moved or copied.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[target-volume]]
 ==== image:images/yes.png[yes] target volume (noun)
 *Description*: The storage volume that has an administrative action performed against it.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[thickly-provisioned]]
 ==== image:images/yes.png[yes] thickly provisioned (adjective)
 *Description*: Disk storage that is pre-allocated so that the total amount of virtual disk storage capacity exists on the physical storage when a virtual disk is created.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[thinly-provisioned]]
 ==== image:images/yes.png[yes] thinly provisioned (adjective)
 *Description*: Disk storage allocated in a flexible manner, based on the minimum space required at any given time. Thin-provisioned storage is also referred to as "sparse" in some contexts.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[total-capacity]]
 ==== image:images/yes.png[yes] total capacity (noun)
 *Description*: The complete amount of used and unused space available on a storage device.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[translator]]
 ==== image:images/yes.png[yes] translator (noun)
 *Description*: In Red Hat Gluster Storage, a software module that converts user requests into a storage operation. Multiple translators may interact with the data in the request, but translators always work in a specific order, with data passed from one to another as appropriate, depending on the gluster volume configuration.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[usable-capacity]]
@@ -736,27 +1052,41 @@ In Red Hat Ceph Storage, a *Ceph subvolume* is an abstraction of a Ceph file sys
 *Description*: The amount of unused space available on a storage device.
 virtual file system	An abstract layer on top of the base file system that provides a common interface to send specific file operations to the lower level file system.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[volume-file]]
 ==== image:images/yes.png[yes] volume file (noun)
 *Description*: In Red Hat Gluster Storage, a configuration file that determines the behavior of the trusted storage pool.
 
-*Use it*: Yes
+*Use it*: yes
 
 *Incorrect forms*: volfile
+
+*See also*:
 
 [discrete]
 [[volume-group]]
 ==== image:images/yes.png[yes] volume group (noun)
 *Description*: A combined group of physical volumes, which creates a pool of disk space out of which logical volumes can be allocated.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[worker-node]]
 ==== image:images/yes.png[yes] worker node (noun)
 *Description*: In OpenShift, a worker node runs containerized applications.
 
-*Use it*: Yes
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
