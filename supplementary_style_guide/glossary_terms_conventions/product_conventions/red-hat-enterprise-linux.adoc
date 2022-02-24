@@ -89,7 +89,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Incorrect forms*:
 
-*See also*: xref:certificate[certificate], xref:certificate-authorities[Certificate Authorities], xref:directory-server[Directory Server]
+*See also*: xref:certificate[certificate], xref:certificate-authorities[certificate authorities], xref:directory-server[Directory Server]
 
 [discrete]
 [[blueprint]]
@@ -111,11 +111,11 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[Certificate Authorities]
+*See also*: xref:certificate-authorities[certificate authorities]
 
 [discrete]
 [[certificate-authorities]]
-==== image:images/yes.png[yes] Certificate Authorities (noun)
+==== image:images/yes.png[yes] certificate authorities (noun)
 *Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`, the IdM CA. The `ipa` CA certificate is one of the following types:
 --
 * Self-signed. In this case, the `ipa` CA is the root CA.
@@ -152,7 +152,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 
 *Incorrect forms*:
 
-*See also*: xref:ostree[ostree]
+*See also*: xref:ostree[OSTree]
 
 [discrete]
 [[compose]]
@@ -350,7 +350,7 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 
 *Incorrect forms*:
 
-*See also*: xref:id-mapping[id mapping]
+*See also*: xref:id-mapping[ID mapping]
 
 [discrete]
 [[id-views]]
@@ -379,7 +379,7 @@ Alternative names: *CA server*
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[Certificate Authorities]
+*See also*: xref:certificate-authorities[certificate authorities]
 
 [discrete]
 [[idm-deployment]]
@@ -421,7 +421,7 @@ There is no functional difference between the first server that was installed an
 
 *Incorrect forms*: master CA
 
-*See also*: xref:certificate-authorities[Certificate Authorities]
+*See also*: xref:certificate-authorities[certificate authorities]
 
 [discrete]
 [[idm-crl-publisher-server]]
@@ -432,7 +432,7 @@ There is no functional difference between the first server that was installed an
 
 *Incorrect forms*:
 
-*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authorities[Certificate Authorities]
+*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authorities[certificate authorities]
 
 [discrete]
 [[idm-topology]]
@@ -512,7 +512,7 @@ There is no functional difference between the first server that was installed an
 ==== image:images/yes.png[yes] Kerberos principal (noun)
 *Description*:  Unique Kerberos principals identify each user, service, and host in a Kerberos realm. Kerberos principals adhere to the following naming conventions:
 
-* For users: `identifier@REALM`, such as `admin@EXAMPLE.COM`.
+* For users: `identifier@REALM`, such as `admin@EXAMPLE.COM`
 * For services: `service/fully-qualified-hostname@REALM`, such as `http/server.example.com@EXAMPLE.COM`
 * For hosts: `host/fully-qualified-hostname@REALM` such as `host/client.example.com@EXAMPLE.COM`
 
@@ -557,7 +557,7 @@ There is no functional difference between the first server that was installed an
 
 [discrete]
 [[key-distribution-center]]
-==== image:images/yes.png[yes] Key Distribution Center (KDC) (noun)
+==== image:images/yes.png[yes] Key Distribution Center (noun)
 *Description*: The Kerberos Key Distribution Center (KDC) is a service that acts as the central, trusted authority that manages Kerberos credential information. The KDC issues Kerberos tickets and ensures the authenticity of data originating from entities within the IdM network.
 
 *Use it*: yes
@@ -586,7 +586,7 @@ There is no functional difference between the first server that was installed an
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[Certificate Authorities]
+*See also*: xref:certificate-authorities[certificate authorities]
 
 [discrete]
 [[managed-nodes]]
@@ -672,7 +672,7 @@ These attributes identify users and groups as separate entities.
 
 *Incorrect forms*:
 
-*See also*: xref:ostree[ostree]
+*See also*: xref:ostree[OSTree]
 
 [discrete]
 [[remote]]
@@ -683,7 +683,7 @@ These attributes identify users and groups as separate entities.
 
 *Incorrect forms*:
 
-*See also*: xref:ostree[ostree]
+*See also*: xref:ostree[OSTree]
 
 [discrete]
 [[replication-agreement]]
@@ -706,7 +706,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Incorrect forms*:
 
-*See also*: xref:ostree[ostree]
+*See also*: xref:ostree[OSTree]
 
 [discrete]
 [[rpm-ostree]]
@@ -717,7 +717,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Incorrect forms*:
 
-*See also*: xref:ostree[ostree]
+*See also*: xref:ostree[OSTree]
 
 [discrete]
 [[smart-card]]
@@ -742,9 +742,9 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 *See also*:
 
 [discrete]
-[[sssd-backend]]
-==== image:images/yes.png[yes] SSSD backend (noun)
-*Description*: An System Security Services Daemon backend, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
+[[sssd-back-end]]
+==== image:images/yes.png[yes] SSSD back end (noun)
+*Description*: An System Security Services Daemon back end, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
 
 *Use it*: yes
 
@@ -761,7 +761,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Incorrect forms*:
 
-*See also*: xref:ostree[ostree], xref:commit[commit]
+*See also*: xref:ostree[OSTree], xref:commit[commit]
 
 [discrete]
 [[target-kernel]]
@@ -787,7 +787,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [discrete]
 [[ticket-granting-ticket]]
-==== image:images/yes.png[yes] ticket-granting ticket (TGT) (noun)
+==== image:images/yes.png[yes] ticket-granting ticket (noun)
 *Description*: After authenticating to a Kerberos Key Distribution Center (KDC), a user receives a ticket-granting ticket (TGT), which is a temporary set of credentials that can be used to request access tickets to other services, such as websites and email.
 You can use a TGT to request further access, and provide the user with a Single Sign-On experience, as the user only needs to authenticate once in order to access multiple services. TGTs are renewable, and Kerberos ticket policies determine ticket renewal limits and access control.
 
@@ -828,4 +828,4 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *Incorrect forms*:
 
-*See also*: xref:directory-server[Directory Server], xref:certificate-authorities[Certificate Authorities]
+*See also*: xref:directory-server[Directory Server], xref:certificate-authorities[certificate authorities]
