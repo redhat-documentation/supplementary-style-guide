@@ -11,7 +11,7 @@ Bold all graphical user interface elements, including, but not limited to, menu 
 
 .Example AsciiDoc
 ----
-Click *Metering* on the *Installed Operators* page.
+On the *Installed Operators* page, click *Metering*.
 ----
 
 [[text-entry]]
@@ -21,5 +21,5 @@ To indicate that a user should input text, use "enter" as opposed to "type" or "
 
 .Example AsciiDoc
 ----
-Enter `test-postgresql` in the *Name* field.
+In the *Name* field, enter `test-postgresql`.
 ----
