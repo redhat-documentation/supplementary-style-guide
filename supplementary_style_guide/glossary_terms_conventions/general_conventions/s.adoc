@@ -408,11 +408,11 @@
 [discrete]
 [[ssl-tls]]
 ==== image:images/yes.png[yes] SSL/TLS (noun)
-*Description*: SSL/TLS refers to the Secure Socket Layer protocol (SSL) and its successor, the Transport Layer Security protocol (TLS). As both of these protocols are frequently called "SSL", always use "SSL/TLS" to avoid confusion.
+*Description*: SSL/TLS refers to the Secure Socket Layer protocol (SSL) and its successor, the Transport Layer Security protocol (TLS). Both of these protocols are frequently called "SSL", so use SSL/TLS in high-level documentation entries, such as headings, to establish context with encryption protocols. In other documentation areas, use TLS and document the supported version of the TLS protocol for your product.
 
 *Use it*: yes
 
-*Incorrect forms*: SSL, TLS, TLS/SSL
+*Incorrect forms*: TLS/SSL
 
 *See also*:
 
