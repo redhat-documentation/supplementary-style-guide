@@ -16,7 +16,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 [discrete]
 [[active-directory-global-catalog]]
 ==== image:images/yes.png[yes] Active Directory global catalog (noun)
-*Description*: The global catalog is a feature of Active Directory (AD) that allows a domain controller to provide information on any object in the forest, regardless of whether the object is a member of the domain controller’s domain. Domain controllers with the global catalog feature enabled are referred to as global catalog servers.  The global catalog provides a searchable catalog of all objects in every domain in a multi-domain Active Directory Domain Services (AD DS).
+*Description*: The global catalog is a feature of Active Directory (AD) that allows a domain controller to provide information on any object in the forest, regardless of whether the object is a member of the domain controller’s domain. Domain controllers with the global catalog feature enabled are referred to as global catalog servers. The global catalog provides a searchable catalog of all objects in every domain in a multi-domain Active Directory Domain Services (AD DS).
 
 *Use it*: yes
 
