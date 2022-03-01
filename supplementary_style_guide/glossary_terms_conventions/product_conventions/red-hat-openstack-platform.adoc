@@ -11,7 +11,7 @@ For documentation questions, contact rhos-docs@redhat.com.
 [discrete]
 [[director]]
 ==== image:images/yes.png[yes] director (noun)
-*Description*: The Red Hat OpenStack Platform (RHOSP) director is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: _Use director to create a RHOSP environment._
+*Description*: The Red Hat OpenStack Platform (RHOSP) director is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
 
 *Use it*: yes
 
@@ -22,7 +22,7 @@ For documentation questions, contact rhos-docs@redhat.com.
 [discrete]
 [[instance]]
 ==== image:images/yes.png[yes] instance (noun)
-*Description*: A running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term _instance_ instead of _virtual machine_ unless specifically called out in the user interface or a configuration file.
+*Description*: An _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
 
 *Use it*: yes
 
@@ -35,13 +35,13 @@ For documentation questions, contact rhos-docs@redhat.com.
 ==== image:images/yes.png[yes] OpenStack services (noun)
 *Description*: For definitions of all upstream OpenStack services, see the {openstack-glossary}. The following RHOSP documentation conventions apply:
 
-* Use the component name instead of the code name. For example: _Block Storage_ instead of _cinder_. Exception: _heat templates_ as opposed to _Orchestration service templates_.
+* Use the component name instead of the code name. For example: "Block Storage" instead of "cinder". Exception: "heat templates" as opposed to "Orchestration service templates".
 * Write the component name in uppercase.
-* Write _service_ in lowercase if the component name includes _service_.
-* Write the code name in lowercase in parentheses after the component name, and after _service_, on the first use of the component name in a module.
-* Include the word _OpenStack_ before the component name only if necessary to differentiate from other product services.
+* Write "service" in lowercase if the component name includes "service".
+* Write the code name in lowercase in parentheses after the component name, and after "service", on the first use of the component name in a module.
+* Include the word "OpenStack" before the component name only if necessary to differentiate from other product services.
 
-Examples of correct usage: _Networking service (neutron)_, _Shared File Systems service (manila)_, _Identity service_, _OpenStack Networking service_.
+Examples of correct usage: Networking service (neutron), Shared File Systems service (manila), Identity service, OpenStack Networking service.
 
 *Use it*: yes
 
@@ -74,7 +74,7 @@ Examples of correct usage: _Networking service (neutron)_, _Shared File Systems 
 [discrete]
 [[red-hat-openstack-platform]]
 ==== image:images/yes.png[yes] Red Hat OpenStack Platform (noun)
-*Description*: On first use in a module, use the complete product name and the abbreviation in parentheses: _Red Hat OpenStack Platform (RHOSP)_. After the first instance, use _RHOSP_. This product name applies to RHOSP 8 and later versions. If you need to use the indefinite article before _RHOSP_, use _a_ not _an_.
+*Description*: On first use in a module, use the complete product name and the abbreviation in parentheses: "Red Hat OpenStack Platform (RHOSP)". After the first instance, use "RHOSP". This product name applies to RHOSP version 8 and later. If you need to use the indefinite article before "RHOSP", use 'a' not 'an'.
 
 *Use it*: yes
 
