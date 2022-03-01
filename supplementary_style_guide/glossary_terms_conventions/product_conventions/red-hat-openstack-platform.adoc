@@ -37,8 +37,8 @@ For documentation questions, contact rhos-docs@redhat.com.
 
 * Use the component name instead of the code name. For example: _Block Storage_ instead of _cinder_. Exception: _heat templates_ as opposed to _Orchestration service templates_.
 * Write the component name in uppercase.
-* If the component name includes _service_, write _service_ in lowercase.
-* On the first use of the component name in a module, write the code name in lowercase in parentheses after the component name and after _service_.
+* Write _service_ in lowercase if the component name includes _service_.
+* Write the code name in lowercase in parentheses after the component name, and after _service_, on the first use of the component name in a module.
 * Include the word _OpenStack_ before the component name only if necessary to differentiate from other product services.
 
 Examples of correct usage: _Networking service (neutron)_, _Shared File Systems service (manila)_, _Identity service_, _OpenStack Networking service_.
@@ -52,7 +52,7 @@ Examples of correct usage: _Networking service (neutron)_, _Shared File Systems 
 [discrete]
 [[overcloud]]
 ==== image:images/yes.png[yes] overcloud (noun)
-*Description*: The overcloud is the resulting RHOSP environment created by using the undercloud. Write in lowercase.
+*Description*: The overcloud is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
 
 *Use it*: yes
 
