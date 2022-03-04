@@ -208,5 +208,8 @@ include::glossary_terms_conventions/product_conventions/red-hat-openstack-platfo
 ==== Red Hat Satellite 6
 include::glossary_terms_conventions/product_conventions/red-hat-satellite6.adoc[leveloffset=+1]
 
+==== Red Hat Single Sign-On
+include::glossary_terms_conventions/product_conventions/red-hat-single-sign-on.adoc[leveloffset=+1]
+
 ==== Red Hat Virtualization
 include::glossary_terms_conventions/product_conventions/red-hat-virtualization.adoc[leveloffset=+1]
