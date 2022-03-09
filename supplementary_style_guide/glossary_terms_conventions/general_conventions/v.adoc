@@ -47,7 +47,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[vi]]
 ==== image:images/yes.png[yes] vi (noun)
-*Description*: "vi" is a screen-oriented text editor originally created for the Unix operating system. Do not use "VI."
+*Description*: "vi" is a screen-oriented text editor originally created for the UNIX operating system. Do not use "VI."
 
 *Use it*: yes
 
@@ -69,7 +69,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[vim]]
 ==== image:images/yes.png[yes] Vim (noun)
-*Description*: "Vim" is an acronym for Vi IMproved. In the original 1991 release for the Amiga platform, the acronym was derived from Vi IMitation. It became Vi IMproved when ported to various Unix-based operating systems in 1992. Despite being an acronym, and despite the first word of the "About" text that is displayed when you launch the editor, the standard, proper noun-derived, mixed-case spelling has been in use since its release on the Amiga.
+*Description*: "Vim" is an acronym for Vi IMproved. In the original 1991 release for the Amiga platform, the acronym was derived from Vi IMitation. It became Vi IMproved in 1992, when ported to the UNIX system and similar operating systems. Despite being an acronym, and despite the first word of the "About" text that is displayed when you launch the editor, the standard, proper noun-derived, mixed-case spelling has been in use since its release on the Amiga.
 
 *Use it*: yes
 

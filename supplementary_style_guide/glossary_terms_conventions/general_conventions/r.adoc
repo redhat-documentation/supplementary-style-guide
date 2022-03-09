@@ -23,7 +23,7 @@
 [discrete]
 [[raw]]
 ==== image:images/yes.png[yes] raw (adjective)
-*Description*: In computing terms, "raw" means unprocessed. The term refers to data that is passed to an I/O device without being interpreted. In contrast, "cooked" refers to data that is processed before being passed to the I/O device. The term comes from Unix, which supports cooked and raw modes for data output to a terminal. In cooked mode, special characters, such as erase and kill, are processed by the device driver before being sent to the output device.
+*Description*: In computing terms, "raw" means unprocessed. The term refers to data that is passed to an I/O device without being interpreted. In contrast, "cooked" refers to data that is processed before being passed to the I/O device. The term comes from the UNIX system, which supports cooked and raw modes for data output to a terminal. In cooked mode, special characters, such as erase and kill, are processed by the device driver before being sent to the output device.
 
 *Use it*: yes
 
@@ -335,7 +335,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 [discrete]
 [[runlevel]]
 ==== image:images/yes.png[yes] runlevel (noun)
-*Description*: A "runlevel" is a preset operating state on a Unix-like operating system. A system can be booted in to (that is, started up in to) any of several runlevels, each of which is represented by a single-digit integer. Each runlevel designates a different system configuration and allows access to a different combination of processes (that is, instances of executing programs). There are differences in the runlevels according to the operating system. Seven runlevels are supported in the standard Linux kernel.
+*Description*: A "runlevel" is a preset operating state on a UNIX system and similar operating systems. A system can be booted in to (that is, started up in to) any of several runlevels, each of which is represented by a single-digit integer. Each runlevel designates a different system configuration and allows access to a different combination of processes (that is, instances of executing programs). There are differences in the runlevels according to the operating system. Seven runlevels are supported in the standard Linux kernel.
 
 *Use it*: yes
 

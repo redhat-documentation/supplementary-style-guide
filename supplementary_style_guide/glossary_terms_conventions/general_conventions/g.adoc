@@ -112,7 +112,7 @@
 [discrete]
 [[gdb]]
 ==== image:images/yes.png[yes] GDB (noun)
-*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many Unix-like systems and works for many programming languages. When referring to the program, use "GDB."
+*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the program, use "GDB."
 
 *Use it*: yes
 
@@ -123,7 +123,7 @@
 [discrete]
 [[gdb-command]]
 ==== image:images/yes.png[yes] gdb (noun)
-*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many Unix-like systems and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
+*Description*: "GDB" is an acronym for "GNU Debugger," the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
 
 *Use it*: yes
 
@@ -178,7 +178,7 @@
 [discrete]
 [[gnome]]
 ==== image:images/yes.png[yes] GNOME (noun)
-*Description*: "GNOME" is an open source desktop environment for Unix systems.
+*Description*: "GNOME" is an open source desktop environment for operating systems that are similar to the UNIX system.
 
 *Use it*: yes
 
@@ -200,7 +200,7 @@
 [discrete]
 [[gnu]]
 ==== image:images/yes.png[yes] GNU (noun)
-*Description*: "GNU" is a recursive acronym for "GNU's Not Unix." GNU is a Unix-like, open-source operating system. Do not use "Gnu" or "gnu."
+*Description*: "GNU" is a recursive acronym for "GNU's Not UNIX." GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu."
 
 *Use it*: yes
 
