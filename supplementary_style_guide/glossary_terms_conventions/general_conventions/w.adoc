@@ -12,7 +12,7 @@
 [discrete]
 [[want]]
 ==== image:images/yes.png[yes] want (verb)
-*Description*: Use "want" instead of "wish" or "would like." It is better to avoid it entirely by rewriting the sentence.
+*Description*: Use "want" instead of "wish" or "would like". It is better to avoid it entirely by rewriting the sentence.
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[wca]]
 ==== image:images/yes.png[yes] WCA (noun)
-*Description*: "WCA" is an acronym for web clipping application, which is an application that allows users to extract static information from a web server and load that data onto a web-enabled PDA. WCAs are also called query applications.
+*Description*: "WCA" is an abbreviation for web clipping application, which is an application that allows users to extract static information from a web server and load that data onto a web-enabled PDA. WCAs are also called query applications.
 
 *Use it*: yes
 
@@ -34,7 +34,7 @@
 [discrete]
 [[we-suggest]]
 ==== image:images/no.png[no] we suggest (verb)
-*Description*: Do not use "we suggest." Use a more direct construction or use "recommend." For example, instead of "We suggest that you make a backup of your data disk," write "Back up your data disk," or "It is recommended that you back up your data disk."
+*Description*: Do not use "we suggest". Use a more direct construction or use "recommend". For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk", or "It is recommended that you back up your data disk".
 
 *Use it*: no
 
@@ -45,7 +45,7 @@
 [discrete]
 [[web-ui]]
 ==== image:images/yes.png[yes] web UI (noun)
-*Description*: Use "web UI" to refer to a browser-based interface to a software application, even if that application has no connection to the web. If necessary, spell out web UI on first use. Do not hyphenate the acronym or use the one-word form.
+*Description*: Use "web UI" to refer to a browser-based interface to a software application, even if that application has no connection to the web. If necessary, spell out web UI on first use. Do not hyphenate the abbreviation or use the one-word form.
 
 *Use it*: yes
 

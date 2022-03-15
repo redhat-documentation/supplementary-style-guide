@@ -1,7 +1,7 @@
 [discrete]
 [[KB]]
 ==== image:images/yes.png[yes] KB (noun)
-*Description*: "KB" is acromyn for "kilobyte." One KB equals 1024 bytes.
+*Description*: "KB" is an abbreviation for "kilobyte". One KB equals 1024 bytes.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[kB]]
 ==== image:images/yes.png[yes] kB (noun)
-*Description*: "kB" is an acronym for "kilobyte." One kB equals 1000 bytes.
+*Description*: "kB" is an abbreviation for "kilobyte". One kB equals 1000 bytes.
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[kerberize]]
 ==== image:images/no.png[no] kerberize (verb)
-*Description*: Do not use "kerberize" or other variants to refer to applications or services that use Kerberos authentication. Refer to such applications as "Kerberos-aware" or "Kerberos-enabled," or rewrite the sentence.
+*Description*: Do not use "kerberize" or other variants to refer to applications or services that use Kerberos authentication. Refer to such applications as "Kerberos-aware" or "Kerberos-enabled", or rewrite the sentence.
 
 *Use it*: no
 
@@ -34,7 +34,7 @@
 [discrete]
 [[kerberized]]
 ==== image:images/no.png[no] kerberized (adjective)
-*Description*: Do not use "kerberized" or other variants to refer to applications or services that use Kerberos authentication. Refer to such applications as "Kerberos-aware" or "Kerberos-enabled," or rewrite the sentence.
+*Description*: Do not use "kerberized" or other variants to refer to applications or services that use Kerberos authentication. Refer to such applications as "Kerberos-aware" or "Kerberos-enabled", or rewrite the sentence.
 
 *Use it*: no
 
@@ -80,7 +80,7 @@ Do not capitalize the first letter.
 [discrete]
 [[kernel-panic]]
 ==== image:images/yes.png[yes] kernel panic (noun)
-*Description*: Numerous circumstances can cause a "kernel panic." Unlike a "kernel oops," when confronted with a kernel panic, the operating system shuts down to prevent the possibility of further damage or security breaches.
+*Description*: Numerous circumstances can cause a "kernel panic". Unlike a "kernel oops", when confronted with a kernel panic, the operating system shuts down to prevent the possibility of further damage or security breaches.
 
 *Use it*: yes
 
@@ -102,7 +102,7 @@ Do not capitalize the first letter.
 [discrete]
 [[kernel-space-ad]]
 ==== image:images/yes.png[yes] kernel-space (adjective)
-*Description*: "Kernel space" is that part of the system memory where the kernel executes and provides its services. When used as modifier, use the hyphenated form "kernel-space."
+*Description*: "Kernel space" is that part of the system memory where the kernel executes and provides its services. When used as modifier, use the hyphenated form "kernel-space".
 
 *Use it*: yes
 
@@ -124,7 +124,7 @@ Do not capitalize the first letter.
 [discrete]
 [[knowledge-base]]
 ==== image:images/yes.png[yes] knowledge base (noun)
-*Description*: Use the two-word "knowledge base" unless referring specifically to the "Red Hat Knowledgebase."
+*Description*: Use the two-word "knowledge base" unless referring specifically to the "Red Hat Knowledgebase".
 
 *Use it*: yes
 
@@ -135,7 +135,7 @@ Do not capitalize the first letter.
 [discrete]
 [[knowledgebase]]
 ==== image:images/yes.png[yes] Knowledgebase (noun)
-*Description*: https://access.redhat.com/search/#/knowledgebase[Red Hat Knowledgebase] includes solutions and articles written mainly by GSS support engineers. The proper spelling is "Knowledgebase," not "KnowledgeBase."
+*Description*: https://access.redhat.com/search/#/knowledgebase[Red Hat Knowledgebase] includes solutions and articles written mainly by GSS support engineers. The proper spelling is "Knowledgebase", not "KnowledgeBase".
 
 *Use it*: yes
 
@@ -146,7 +146,7 @@ Do not capitalize the first letter.
 [discrete]
 [[kvm]]
 ==== image:images/yes.png[yes] KVM (noun)
-*Description*: "KVM" is an acronym for "Kernel-based Virtual Machine."
+*Description*: "KVM" is an abbreviation for "Kernel-based Virtual Machine".
 
 *Use it*: yes
 

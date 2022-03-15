@@ -1,7 +1,7 @@
 [discrete]
 [[z-series]]
 ==== image:images/no.png[no] zSeries (noun)
-*Description*: "IBM Z" is the correct usage. Do not use "S/390x," "s390x," "IBM zSeries," or "zSeries."
+*Description*: "IBM Z" is the correct usage. Do not use "S/390x", "s390x", "IBM zSeries", or "zSeries".
 
 *Use it*: no
 

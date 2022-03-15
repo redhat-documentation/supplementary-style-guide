@@ -92,7 +92,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 [discrete]
 [[dotnet]]
 ==== image:images/yes.png[yes] .NET Core (noun)
-*Description*: Microsoft's newest development platform, ".NET Core," is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile backends. All .NET Core applications can run on .NET Core or on the full .NET Framework. Always refer to it as .NET Core; all other variants are incorrect.
+*Description*: Microsoft's newest development platform, ".NET Core", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile backends. All .NET Core applications can run on .NET Core or on the full .NET Framework. Always refer to it as .NET Core; all other variants are incorrect.
 
 *Use it*: yes
 

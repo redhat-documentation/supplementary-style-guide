@@ -276,7 +276,7 @@ See xref:node[node] in the _General Conventions_ chapter.
 [discrete]
 [[routing-rules]]
 ==== image:images/yes.png[yes] routing rules (noun)
-*Description*: Routing rules are declarative statements (written in Java or XML DSL) that define the paths which messages take from their origin (source) to their target destination (sink). Routing rules start with a consumer endpoint (`from`) and typically end with one or more producer endpoints (`to`). Between consumer and producer endpoints, messages can enter various processors, which may transform them or redirect them to other processors or to specific producer endpoints. In Fuse tooling, you can view and edit a project's routing rules on the route editor's Source tab. On the Design tab, you can build and view routing rules graphically.
+*Description*: Routing rules are declarative statements (written in Java or XML DSL) that define the paths which messages take from their origin (source) to their target destination (sink). Routing rules start with a consumer endpoint (`from`) and typically end with one or more producer endpoints (`to`). Between consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints. In Fuse tooling, you can view and edit a project's routing rules on the route editor's Source tab. On the Design tab, you can build and view routing rules graphically.
 
 *Use it*: yes
 

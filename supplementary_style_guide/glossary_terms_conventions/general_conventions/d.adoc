@@ -23,7 +23,7 @@
 [discrete]
 [[data-center]]
 ==== image:images/yes.png[yes] data center (noun)
-*Description*: A "data center" is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter."
+*Description*: A "data center" is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter".
 
 *Use it*: yes
 
@@ -56,7 +56,7 @@
 [discrete]
 [[debug-adj]]
 ==== image:images/yes.png[yes] debug (adjective)
-*Description*: Use "debug" as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script."
+*Description*: Use "debug" as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script".
 
 *Use it*: yes
 
@@ -89,7 +89,7 @@
 [discrete]
 [[denial-of-service-adj]]
 ==== image:images/yes.png[yes] denial-of-service (adjective)
-*Description*: When used as an adjective, spell as "denial-of-service," for example, "denial-of-service attack."
+*Description*: When used as an adjective, spell as "denial-of-service", for example, "denial-of-service attack".
 
 *Use it*: yes
 
@@ -100,7 +100,7 @@
 [discrete]
 [[desktop-adj]]
 ==== image:images/yes.png[yes] desktop (adjective)
-*Description*: Use "desktop" as an adjective when describing a type of computer, for example, "desktop computer."
+*Description*: Use "desktop" as an adjective when describing a type of computer, for example, "desktop computer".
 
 *Use it*: yes
 
@@ -133,7 +133,7 @@
 [discrete]
 [[devops-n]]
 ==== image:images/yes.png[yes] DevOps (noun)
-*Description*: "DevOps" is a combination of "Development" and "Operations." It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
+*Description*: "DevOps" is a combination of "Development" and "Operations". It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
 
 *Use it*: yes
 
@@ -177,7 +177,7 @@
 [discrete]
 [[dns]]
 ==== image:images/yes.png[yes] DNS (noun)
-*Description*: "DNS" is an acronym for "Domain Name System" or "Domain Name Service," a service that translates domain names into IP addresses and vice versa.
+*Description*: "DNS" is an abbreviation for "Domain Name System" or "Domain Name Service", a service that translates domain names into IP addresses and vice versa.
 
 *Use it*: yes
 
@@ -188,7 +188,7 @@
 [discrete]
 [[domain-name]]
 ==== image:images/yes.png[yes] domain name (noun)
-*Description*: A "domain name" is a name that identifies one or more IP addresses, for example, "redhat.com."
+*Description*: A "domain name" is a name that identifies one or more IP addresses, for example, "redhat.com".
 
 *Use it*: yes
 
@@ -255,7 +255,7 @@
 [discrete]
 [[DVD-writer]]
 ==== image:images/yes.png[yes] DVD writer (noun)
-*Description*: A "DVD writer" is adevice that records data into the DVD format.
+*Description*: A "DVD writer" is a device that records data into the DVD format.
 
 *Use it*: yes
 

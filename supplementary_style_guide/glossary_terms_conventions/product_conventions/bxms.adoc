@@ -136,7 +136,7 @@ For documentation questions, contact brms-docs@redhat.com.
 [discrete]
 [[drl]]
 ==== image:images/yes.png[yes] DRL (noun)
-*Description*: "DRL" is an acronym for the Drools Rule Language, which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
+*Description*: "DRL" is an abbreviation for the Drools Rule Language, which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
 
 *Use it*: yes
 
@@ -148,7 +148,7 @@ For documentation questions, contact brms-docs@redhat.com.
 [discrete]
 [[dsl]]
 ==== image:images/yes.png[yes]DSL (noun)
-*Description*: "DSL" is an acronym for domain-specific language. DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into DRL files.
+*Description*: "DSL" is an abbreviation for domain-specific language. DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into DRL files.
 
 *Use it*: yes
 
@@ -220,7 +220,7 @@ For documentation questions, contact brms-docs@redhat.com.
 [discrete]
 [[kie]]
 ==== image:images/yes.png[yes]KIE (noun)
-*Description*: "KIE" is an acronym for Knowledge Is Everything. KIE is a knowledge solution for Red Hat JBoss BRMS and JBoss BPM Suite and is used for the generic parts of a unified API, such as building, deploying, and loading.
+*Description*: "KIE" is an abbreviation for Knowledge Is Everything. KIE is a knowledge solution for Red Hat JBoss BRMS and JBoss BPM Suite and is used for the generic parts of a unified API, such as building, deploying, and loading.
 
 *Use it*: yes
 

@@ -23,7 +23,7 @@
 [discrete]
 [[uninterruptible]]
 ==== image:images/yes.png[yes] uninterruptible (adjective)
-*Description*: Although "uninterruptable" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)."
+*Description*: Although "uninterruptible" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)".
 
 *Use it*: yes
 
@@ -45,7 +45,7 @@
 [discrete]
 [[unset]]
 ==== image:images/no.png[no] unset (verb)
-*Description*: Use "clear" instead of "unset," for example, "To disable the *Wobbly Widget*, clear the *Enable Wobbly Widget* check box." Another example is, "This rule only matches TCP packets that have the SYN flag set and the ACK flag cleared."
+*Description*: Use "clear" instead of "unset", for example, "To disable the *Wobbly Widget*, clear the *Enable Wobbly Widget* check box." Another example is, "This rule only matches TCP packets that have the SYN flag set and the ACK flag cleared."
 
 *Use it*: no
 
@@ -145,7 +145,7 @@
 [discrete]
 [[url]]
 ==== image:images/yes.png[yes] URL (noun)
-*Description*: "URL" is an acronym for Uniform Resource Locator. A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
+*Description*: "URL" is an abbreviation for Uniform Resource Locator. A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
 
 *Use it*: yes
 
@@ -156,7 +156,7 @@
 [discrete]
 [[user]]
 ==== image:images/caution.png[with caution] user (noun)
-*Description*: When referring to the reader, use "you" instead of "user." If referring to more than one user, calling the collection "users" is acceptable, such as "Other users might want to access your database."
+*Description*: When referring to the reader, use "you" instead of "user". If referring to more than one user, calling the collection "users" is acceptable, such as "Other users might want to access your database."
 
 *Use it*: with caution
 
@@ -189,7 +189,7 @@
 [discrete]
 [[user-space-adj]]
 ==== image:images/yes.png[yes] user-space (adjective)
-*Description*: When used as a modifier, use the hyphenated form "user-space."
+*Description*: When used as a modifier, use the hyphenated form "user-space".
 
 *Use it*: yes
 

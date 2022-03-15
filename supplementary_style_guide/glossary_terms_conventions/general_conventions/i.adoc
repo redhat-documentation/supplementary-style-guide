@@ -1,7 +1,7 @@
 [discrete]
 [[iaas]]
 ==== image:images/yes.png[yes] IaaS (noun)
-*Description*: "Iaas" is an acronym for "Infrastructure-as-a-Service." Always use hyphens when spelling out the acronym.
+*Description*: "IaaS" is an acronym for "Infrastructure-as-a-Service". Always use hyphens when spelling out the acronym.
 
 *Use it*: yes
 
@@ -24,7 +24,7 @@
 [discrete]
 [[ibm-s-390]]
 ==== image:images/yes.png[yes] IBM S/390 (noun)
-*Description*: The "IBM S/390" is the IBM large server (or mainframe) line of computer systems. Use the full description "IBM S/390."
+*Description*: The "IBM S/390" is the IBM large server (or mainframe) line of computer systems. Use the full description "IBM S/390".
 
 *Use it*: yes
 
@@ -123,7 +123,7 @@
 [discrete]
 [[intel-virtualization-technology]]
 ==== image:images/yes.png[yes] Intel Virtualization Technology (noun)
-*Description*: The first and all prominent uses of "Intel Virtualization Technology" should be spelled out, immediately followed by the acronym, for example, "Intel Virtualization Technology (Intel VT) for Intel 64 or Itanium architecture (Intel VT-i)." Subsequent uses can be abbreviated to "Intel VT-i." Always write the acronym in uppercase letters, accompanied by the Intel mark. Do not use the acronym in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as (TM) or "\(TM).
+*Description*: The first and all prominent uses of "Intel Virtualization Technology" should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64 or Itanium architecture (Intel VT-i)". Subsequent uses can be abbreviated to "Intel VT-i". Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as (TM) or "\(TM).
 
 *Use it*: yes
 
@@ -145,7 +145,7 @@
 [discrete]
 [[interesting]]
 ==== image:images/no.png[no] interesting (adjective)
-*Description*: Avoid using "interesting," as this term is a substitute for showing the reader why something is of interest. Instead of writing, "It is interesting to note...," consider using a "Note" admonition.
+*Description*: Avoid using "interesting", as this term is a substitute for showing the reader why something is of interest. Instead of writing, "It is interesting to note...", consider using a "Note" admonition.
 
 *Use it*: no
 
@@ -156,7 +156,7 @@
 [discrete]
 [[iops]]
 ==== image:images/yes.png[yes] IOPS (noun)
-*Description*: "IOPS" is an acronym for "input/output operations per second."
+*Description*: "IOPS" is an acronym for "input/output operations per second".
 
 *Use it*: yes
 
@@ -167,7 +167,7 @@
 [discrete]
 [[ip]]
 ==== image:images/yes.png[yes] IP (noun)
-*Description*: "IP" is an acronym for "Internet Protocol."
+*Description*: "IP" is an abbreviation for "Internet Protocol".
 
 *Use it*: yes
 
@@ -178,7 +178,7 @@
 [discrete]
 [[ip-masquerade]]
 ==== image:images/yes.png[yes] IP Masquerade (noun)
-*Description*: "IP Masquerade" is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ," allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server's assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.
+*Description*: "IP Masquerade" is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ", allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server's assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.
 
 *Use it*: yes
 
@@ -189,7 +189,7 @@
 [discrete]
 [[ipsec]]
 ==== image:images/yes.png[yes] IPsec (noun)
-*Description*: "IPsec" is an acronym for "Internet Protocol security."
+*Description*: "IPsec" is an abbreviation for "Internet Protocol security".
 
 *Use it*: yes
 
@@ -222,7 +222,7 @@
 [discrete]
 [[iso]]
 ==== image:images/yes.png[yes] ISO (noun)
-*Description*: "ISO" is an acronym for the "International Organization for Standardization," which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.
+*Description*: "ISO" is an acronym for the "International Organization for Standardization", which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.
 
 *Use it*: yes
 
@@ -244,7 +244,7 @@
 [discrete]
 [[it]]
 ==== image:images/yes.png[yes] IT, I.T. (noun)
-*Description*: "IT" and "I.T." are acronyms for "information technology." Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used to clarify that the word is "IT" rather than "it."
+*Description*: "IT" and "I.T." are abbreviations for "information technology". Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used, to clarify that the word is "IT" rather than "it".
 
 *Use it*: yes
 
@@ -266,7 +266,7 @@
 [discrete]
 [[itanium-2]]
 ==== image:images/yes.png[yes] Itanium 2 (noun)
-*Description*: "Itanium 2" is correct. Do not use "Itanium2" without the space between "Itanium" and "2."
+*Description*: "Itanium 2" is correct. Do not use "Itanium2" without the space between "Itanium" and "2".
 
 *Use it*: yes
 

@@ -24,7 +24,7 @@
 ==== image:images/no.png[no] he (pronoun)
 [[he]]
 
-*Description*: Reword the sentence to avoid using "he" or "she."
+*Description*: Reword the sentence to avoid using "he" or "she".
 
 *Use it*: no
 
@@ -36,7 +36,7 @@
 [discrete]
 [[health-check]]
 ==== image:images/yes.png[yes] health check (noun)
-*Description*: A "health check" identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check." Do not capitalize "health check" when referring to those services in a general way, for example, "A health check ensures your systems perform at their best."
+*Description*: A "health check" identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way, for example, "A health check ensures your systems perform at their best."
 
 *Use it*: yes
 
@@ -58,7 +58,7 @@
 [discrete]
 [[hertz]]
 ==== image:images/yes.png[yes] hertz (noun)
-*Description*: A "hertz" is a unit of frequency. Capitalize the initial "H" only at the beginning of a sentence. The correct abbreviation is "Hz."
+*Description*: A "hertz" is a unit of frequency. Capitalize the initial "H" only at the beginning of a sentence. The correct abbreviation is "Hz".
 
 *Use it*: yes
 
@@ -69,7 +69,7 @@
 [discrete]
 [[high-availability]]
 ==== image:images/yes.png[yes] high-availability (adjective)
-*Description*: Use "high-availability" to describe an object that is continuously available, for example, "high-availability cluster."
+*Description*: Use "high-availability" to describe an object that is continuously available, for example, "high-availability cluster".
 
 *Use it*: yes
 
@@ -168,7 +168,7 @@
 [discrete]
 [[html]]
 ==== image:images/yes.png[yes] HTML (noun)
-*Description*: "HTML" is an acronym for "HyperText Markup Language," a markup language for web pages. When referring to the language, use "HTML," such as "To see the HTML version of this documentation." When referring to a web page extension, use "html," such as "The main page is index.html."
+*Description*: "HTML" is an abbreviation for "HyperText Markup Language", a markup language for web pages. When referring to the language, use "HTML", such as "To see the HTML version of this documentation". When referring to a web page extension, use "html", such as "The main page is index.html."
 
 *Use it*: yes
 
@@ -201,7 +201,7 @@
 [discrete]
 [[hyper-threading]]
 ==== image:images/yes.png[yes] Hyper-Threading (noun)
-*Description*: "Hyper-Threading" is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT."
+*Description*: "Hyper-Threading" is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT".
 
 *Use it*: yes
 

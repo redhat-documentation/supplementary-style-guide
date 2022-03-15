@@ -1,7 +1,7 @@
 [discrete]
 [[ram]]
 ==== image:images/yes.png[yes] RAM (noun)
-*Description*: "RAM" is an acronym for "random access memory."
+*Description*: "RAM" is an acronym for "random access memory".
 
 *Use it*: yes
 
@@ -81,7 +81,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 [discrete]
 [[redboot]]
 ==== image:images/yes.png[yes] RedBoot (noun)
-*Description*: "RedBoot" is an acronym for "Red Hat Embedded Debug and Bootstrap" firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
+*Description*: "RedBoot" is an abbreviation for "Red Hat Embedded Debug and Bootstrap" firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
 
 *Use it*: yes
 
@@ -131,7 +131,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 [discrete]
 [[red-hat-network-satellite-server]]
 ==== image:images/yes.png[yes] Red Hat Network Satellite Server (noun)
-*Description*: Use "Red Hat Network Satellite Server" for the first occurrence; use "RHN Satellite Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy," for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy."
+*Description*: Use "Red Hat Network Satellite Server" for the first occurrence; use "RHN Satellite Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
 
 *Use it*: yes
 
@@ -142,7 +142,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 [discrete]
 [[red-hat-network-proxy-server]]
 ==== image:images/yes.png[yes] Red Hat Network Proxy Server (noun)
-*Description*: Use "Red Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy," for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy."
+*Description*: Use "Red Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
 
 *Use it*: yes
 
@@ -234,7 +234,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 [[return]]
 ==== image:images/yes.png[yes] return (verb)
 
-*Description*: When referring to the keyboard key on Solaris or Mac, use "Return" or "return," respectively. See "enter" for other platforms.
+*Description*: When referring to the keyboard key on Solaris or Mac, use "Return" or "return", respectively. See "enter" for other platforms.
 
 *Use it*: yes
 
@@ -245,7 +245,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 [discrete]
 [[rhel]]
 ==== image:images/caution.png[with caution] RHEL (noun)
-*Description*: "RHEL" is an acronym for "Red Hat Enterprise Linux." The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
+*Description*: "RHEL" is an acronym for "Red Hat Enterprise Linux". The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
 
 *Use it*: with caution
 
@@ -267,18 +267,18 @@ Write this name in full the first time that you use it in a document. Subsequent
 [discrete]
 [[rollout]]
 ==== image:images/yes.png[yes] rollout (noun)
-*Description*: In marketing, "rollout" describes a series of related product announcements. When a company installs new equipment or software, this process is also called a "rollout."
+*Description*: In marketing, "rollout" describes a series of related product announcements. When a company installs new equipment or software, this process is also called a "rollout".
 
 *Use it*: yes
 
 *Incorrect forms*: roll out
 
-*See also*: xref:rollout[roll-out]
+*See also*: xref:roll-out[roll-out]
 
 [discrete]
 [[rom]]
 ==== image:images/yes.png[yes] ROM (noun)
-*Description*: "ROM" is an acronym for "read-only memory," that is, computer memory on which data has been prerecorded. After data has been written onto a ROM chip, it cannot be removed and can only be read.
+*Description*: "ROM" is an acronym for "read-only memory", that is, computer memory on which data has been prerecorded. After data has been written onto a ROM chip, it cannot be removed and can only be read.
 
 *Use it*: yes
 
@@ -324,7 +324,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 [discrete]
 [[rpm]]
 ==== image:images/yes.png[yes] RPM (noun)
-*Description*: "RPM" is the recursive initialism for the "RPM Package Manager." RPM manages files in the RPM format, known as RPM packages. RPM packages are known informally as rpm files, but this informal usage is not used in Red Hat documentation to avoid confusion with the command name. Files in RPM format are referred to as RPM packages.
+*Description*: "RPM" is the recursive initialism for the "RPM Package Manager". RPM manages files in the RPM format, known as RPM packages. RPM packages are known informally as rpm files, but this informal usage is not used in Red Hat documentation to avoid confusion with the command name. Files in RPM format are referred to as RPM packages.
 
 *Use it*: yes
 

@@ -38,7 +38,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*: thin-provisioned, thinly provisioned, thinly-provisioned
+*Incorrect forms*: thinly provisioned, thinly-provisioned
 
 *See also*:
 
@@ -111,7 +111,7 @@
 [discrete]
 [[totally]]
 ==== image:images/no.png[no] totally (adverb)
-*Description*: Do not use "totally."
+*Description*: Do not use "totally".
 
 *Use it*: no
 
@@ -133,7 +133,7 @@
 [discrete]
 [[ttl]]
 ==== image:images/yes.png[yes] TTL (noun)
-*Description*: "TTL" is an acronym for "time to live" (noun) and "time-to-live" (adjective). The acronym is always in uppercase letters.
+*Description*: "TTL" is an abbreviation for "time to live" (noun) and "time-to-live" (adjective). The abbreviation is always in uppercase letters.
 
 *Use it*: yes
 
