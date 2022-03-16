@@ -200,11 +200,7 @@
 [discrete]
 [[gnu]]
 ==== image:images/yes.png[yes] GNU (noun)
-<<<<<<< HEAD
-*Description*: "GNU" is a recursive acronym for "GNU's Not UNIX." GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu."
-=======
-*Description*: "GNU" is a recursive acronym for "GNU's Not Unix". GNU is a Unix-like, open-source operating system. Do not use "Gnu" or "gnu".
->>>>>>> bd10c89... 3. Moves misplaced punctuation in relation to quotation marks
+*Description*: "GNU" is a recursive acronym for "GNU's Not UNIX". GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu".
 
 *Use it*: yes
 
