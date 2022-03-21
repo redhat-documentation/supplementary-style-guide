@@ -3,6 +3,136 @@
 For documentation questions, contact rhel-docs@redhat.com.
 
 [discrete]
+[[active-directory-forest]]
+==== image:images/yes.png[yes] Active Directory forest (noun)
+*Description*: An Active Directory (AD) forest is a set of one or more domain trees which share a common global catalog, directory schema, logical structure, and directory configuration. The forest represents the security boundary within which users, computers, groups, and other objects are accessible.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[active-directory-global-catalog]]
+==== image:images/yes.png[yes] Active Directory global catalog (noun)
+*Description*: The global catalog is a feature of Active Directory (AD) that allows a domain controller to provide information on any object in the forest, regardless of whether the object is a member of the domain controller’s domain. Domain controllers with the global catalog feature enabled are referred to as global catalog servers. The global catalog provides a searchable catalog of all objects in every domain in a multi-domain Active Directory Domain Services (AD DS).
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:active-directory-forest[Active directory forest]
+
+[discrete]
+[[active-directory-security-identifier]]
+==== image:images/yes.png[yes] Active Directory security identifier (noun)
+*Description*: A security identifier (SID) is a unique ID number assigned to an object in Active Directory, such as a user, group, or host. A SID is the functional equivalent of UIDs and GIDs in Linux.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[anaconda]]
+==== image:images/yes.png[yes] Anaconda (noun)
+*Description*: The operating system installer used in Fedora, Red Hat Enterprise Linux, and their derivatives. Anaconda is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[ansible-play]]
+==== image:images/yes.png[yes] Ansible play (noun)
+*Description*: Ansible plays are the building blocks of Ansible playbooks. The goal of an Ansible play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ansible-playbook[Ansible playbook]
+
+[discrete]
+[[ansible-playbook]]
+==== image:images/yes.png[yes] Ansible playbook (noun)
+*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. An Ansible playbook is a file that contains one or more Ansible plays.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ansible-play[Ansible play]
+
+[discrete]
+[[ansible-task]]
+==== image:images/yes.png[yes] Ansible task (noun)
+*Description*: An Ansible play can contain multiple tasks. Ansible tasks are units of action in Ansible. The goal of each task is to execute a module, with very specific arguments.
+An Ansible task is a set of instructions to achieve a state defined, in its broad terms, by a specific Ansible role or module, and fine-tuned by the variables of that role or module.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[apache-web-server]]
+==== image:images/yes.png[yes] Apache web server (noun)
+*Description*: The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server application, released under the terms of Apache License 2.0. Apache played a key role in the initial growth of the World Wide Web (WWW), and is currently the leading HTTP server. Its process name is `httpd`, which is short for _HTTP daemon_. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:certificate[certificate], xref:certificate-authorities[certificate authorities], xref:directory-server[Directory Server]
+
+[discrete]
+[[blueprint]]
+==== image:images/yes.png[yes] blueprint (noun)
+*Description*: Blueprints are simple text files in Tom's Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
+
+*Use it*: yes
+
+*Incorrect forms*: blue print, BluePrint
+
+*See also*:
+
+[discrete]
+[[certificate]]
+==== image:images/yes.png[yes] certificate (noun)
+*Description*: A certificate is an electronic document used to identify an individual, a server, a company, or other entity and to associate that identity with a public key. A certificate provides generally recognized proof of a person's identity. Public-key cryptography uses certificates to address the problem of impersonation.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:certificate-authorities[certificate authorities]
+
+[discrete]
+[[certificate-authorities]]
+==== image:images/yes.png[yes] certificate authorities (noun)
+*Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`, the IdM CA. The `ipa` CA certificate is one of the following types:
+--
+* Self-signed. In this case, the `ipa` CA is the root CA.
+* Externally signed. In this case, the `ipa` CA is subordinated to the external CA.
+--
+In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certificates are one of the following types:
+
+* Signed by the `ipa` CA.
+* Signed by any of the intermediate CAs between itself and `ipa` CA. The certificate of a sub-CA cannot be self-signed.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:certificate[certificate]
+
+[discrete]
 [[clean-install]]
 ==== image:images/yes.png[yes] clean install (noun)
 *Description*: A clean install removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
@@ -14,9 +144,300 @@ For documentation questions, contact rhel-docs@redhat.com.
 *See also*: xref:upgrade-rhel[upgrade], xref:in-place-upgrade[in-place upgrade]
 
 [discrete]
+[[commit]]
+==== image:images/yes.png[yes] commit (noun)
+*Description*: A release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+[discrete]
+[[compose]]
+==== image:images/yes.png[yes] compose (noun)
+*Description*: Composes are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:blueprint[blueprint]
+
+[discrete]
+[[control-node]]
+==== image:images/yes.png[yes] control node (noun)
+*Description*: Any machine with Ansible installed. You can run commands and playbooks, invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any control node. You can use any computer that has Python installed on it as a control node - laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node. You can have multiple control nodes.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ansible-playbook[Ansible playbook]
+
+[discrete]
 [[conversion]]
 ==== image:images/yes.png[yes] conversion (noun)
 *Description*: An operating system conversion is when you convert your operating system from a different Linux distribution to Red Hat Enterprise Linux.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[cross-forest-trust]]
+==== image:images/yes.png[yes] cross-forest trust (noun)
+*Description*: A trust establishes an access relationship between two Kerberos realms, allowing users and services in one domain to access resources in another domain.
+With a cross-forest trust between an Active Directory (AD) forest root domain and an IdM domain, users from the AD forest domains can interact with Linux machines and services from the IdM domain. From the perspective of AD, Identity Management represents a separate AD forest with a single AD domain.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:active-directory-forest[Active Directory forest]
+
+[discrete]
+[[customization]]
+==== image:images/yes.png[yes] customization (noun)
+*Description*: Customizations are specifications for the system that are not packages. This includes users, groups, and SSH keys.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[directory-server]]
+==== image:images/yes.png[yes] Directory Server (noun)
+*Description*: A Directory Server centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
+Red Hat Directory Server conforms to LDAP standards.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ldap[LDAP]
+
+[discrete]
+[[dns-ptr-records]]
+==== image:images/yes.png[yes] DNS PTR records (noun)
+*Description*: DNS pointer (PTR) records resolve an IP address of a host to a domain or host name. PTR records are the opposite of DNS A and AAAA records, which resolve host names to IP addresses. DNS PTR records enable reverse DNS lookups. PTR records are stored on the DNS server.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[dns-srv-records]]
+==== image:images/yes.png[yes] DNS SRV records (noun)
+*Description*: A DNS service (SRV) record defines the hostname, port number, transport protocol, priority and weight of a service available in a domain. You can use SRV records to locate IdM servers and replicas.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[domain-controller]]
+==== image:images/yes.png[yes] domain controller (noun)
+*Description*: A domain controller (DC) is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[fully-qualified-domain-name]]
+==== image:images/yes.png[yes] fully qualified domain name (noun)
+*Description*: A fully qualified domain name (FQDN) is a domain name that specifies the exact location of a host within the hierarchy of the Domain Name System (DNS). A device with the hostname `myhost` in the parent domain `example.com` has the FQDN `myhost.example.com`. The FQDN uniquely distinguishes the device from any other hosts called `myhost` in other domains.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[greenboot]]
+==== image:images/yes.png[yes] greenboot (noun)
+*Description*: Generic Health Check Framework for systemd on rpm-ostree based systems.
+
+*Use it*: yes
+
+*Incorrect forms*:  Greenboot, green boots
+
+*See also*:
+
+[discrete]
+[[gssapi]]
+==== image:images/yes.png[yes] GSSAPI (noun)
+*Description*: The Generic Security Service Application Program Interface (GSSAPI, or GSS-API) allows developers to abstract how their applications protect data that is sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.
+
+Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat Enterprise Linux and Microsoft Windows Active Directory Kerberos implementations to be API compatible.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[hidden-replica]]
+==== image:images/yes.png[yes] hidden replica (noun)
+*Description*: A hidden replica is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
+
+Hidden replicas are primarily designed for services such as backups, bulk importing and exporting, or actions that require shutting down IdM services. Since no clients use a hidden replica, administrators can temporarily shut down the services on this host without affecting any clients.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:dns-srv-records[DNS SRV records]
+
+[discrete]
+[[host-system]]
+==== image:images/yes.png[yes] host system (noun)
+*Description*: The system on which the instrumentation modules, from SystemTap scripts, are compiled, to be loaded on target systems.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:target-system[target system]
+
+[discrete]
+[[id-mapping]]
+==== image:images/yes.png[yes] ID mapping (noun)
+*Description*: SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
+
+* When SSSD detects a new AD domain, it assigns a range of available IDs to the new domain. Therefore, each AD domain has the same ID range on every SSSD client machine.
+* When an AD user logs in to an SSSD client machine for the first time, SSSD creates an entry for the user in the SSSD cache, including a UID based on the user's SID and the ID range for that domain.
+* Because the IDs for an AD user are generated in a consistent way from the same SID, the user has the same UID and GID when logging in to any Red Hat Enterprise Linux system.
+
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:id-ranges[id ranges], xref:sssd[SSSD]
+
+[discrete]
+[[id-ranges]]
+==== image:images/yes.png[yes] ID ranges (noun)
+*Description*: An ID range is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
+
+* _IdM ID range_
++
+Use this ID range to define the UIDs and GIDs for users and groups in the whole IdM topology. Installing the first IdM server creates the IdM ID range. You cannot modify the IdM ID range after creating it. However, you can create an additional IdM ID range, for example when the original one nears depletion.
+
+* _Distributed Numeric Assignment (DNA) ID range_
++
+Use this ID range to define the UIDs and GIDs a replica uses when creating new users. Adding a new user or host entry to an IdM replica for the first time assigns a DNA ID range to that replica. An administrator can modify the DNA ID range, but the new definition must fit within an existing IdM ID range.
+
+
+Note that the IdM range and the DNA range match, but they are not interconnected. If you change one range, ensure you change the other to match.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:id-mapping[ID mapping]
+
+[discrete]
+[[id-views]]
+==== image:images/yes.png[yes] ID views (noun)
+*Description*: ID views enable you to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
+
+  * Define different attribute values for different environments.
+  * Replace a previously generated attribute value with a different value.
+
+In an IdM-AD trust setup, the `Default Trust View` is an ID view applied to AD users and groups. Using the `Default Trust View`, you can define custom POSIX attributes for AD users and groups, thus overriding the values defined in AD.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:posix-attributes[POSIX attributes]
+
+[discrete]
+[[idm-ca-server]]
+==== image:images/yes.png[yes] IdM CA server (noun)
+*Description*: An IdM server on which the IdM certificate authority (CA) service is installed and running.
+
+Alternative names: *CA server*
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:certificate-authorities[certificate authorities]
+
+[discrete]
+[[idm-deployment]]
+==== image:images/yes.png[yes] IdM deployment (noun)
+*Description*: A term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
+
+* Purpose: whether it is a production environment, as opposed to a testing or development environment.
+* Certificate Authority (CA) configuration: you can use the IdM integrated CA as a self-signed root CA, or as an externally-signed CA. Alternatively, if your environment has an external CA, you do not need to use the IdM integrated CA.
+* DNS: IdM integrated DNS, or external DNS solution.
+* Active Directory (AD) integration: whether you have a purely Linux environment, or if you have configured a trust with a Microsoft AD environment.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[idm-server-and-replicas]]
+==== image:images/yes.png[yes] IdM server and replicas (noun)
+*Description*: To install the first server in an IdM deployment, you must use the `ipa-server-install` command.
+
+Administrators can then use the `ipa-replica-install` command to install *replicas* in addition to the first server that was installed. By default, installing a replica creates a replication agreement with the IdM server from which it was created, enabling receiving and sending updates to the rest of IdM.
+
+There is no functional difference between the first server that was installed and a replica. Both are fully functional read/write IdM servers.
+
+*Use it*: yes
+
+*Incorrect forms*: master server
+
+*See also*:
+
+[discrete]
+[[idm-ca-renewal-server]]
+==== image:images/yes.png[yes] IdM CA renewal server (noun)
+*Description*: If your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the CA renewal server. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the CA renewal server. In a deployment without integrated CA, there is no CA renewal server.
+
+*Use it*: yes
+
+*Incorrect forms*: master CA
+
+*See also*: xref:certificate-authorities[certificate authorities]
+
+[discrete]
+[[idm-crl-publisher-server]]
+==== image:images/yes.png[yes] IdM CRL publisher server (noun)
+*Description*: If your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is responsible for maintaining the CRL. By default, the server that fulfills the *CA renewal server* role also fulfills this role, but you can configure any CA server to be the CRL publisher server. In a deployment without integrated CA, there is no CRL publisher server.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authorities[certificate authorities]
+
+[discrete]
+[[idm-topology]]
+==== image:images/yes.png[yes] IdM topology (noun)
+*Description*: A term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
 
 *Use it*: yes
 
@@ -35,6 +456,149 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *See also*: xref:upgrade-rhel[upgrade], xref:clean-install[clean install]
 
+
+[discrete]
+[[instrumentation-module]]
+==== image:images/yes.png[yes] instrumentation module (noun)
+*Description*: The kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system, and will be loaded on the target kernel of the target system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:host-system[host system], xref:target-kernel[target kernel], xref:target-system[target system]
+
+
+[discrete]
+[[inventory]]
+==== image:images/yes.png[yes] inventory (noun)
+*Description*: A list of managed nodes. An inventory file is also sometimes called a _hostfile_. Your inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:managed-nodes[managed nodes]
+
+[discrete]
+[[kerberos-authentication-indicators]]
+==== image:images/yes.png[yes] Kerberos authentication indicators (noun)
+*Description*: Authentication indicators are attached to Kerberos tickets and represent the initial authentication method used to acquire a ticket:
+
+* `otp` for two-factor authentication (password + one-time password)
+* `radius` for Remote Authentication Dial-In User Service (RADIUS) authentication (commonly for 802.1x authentication)
+* `pkinit` for Public Key Cryptography for Initial Authentication in Kerberos (PKINIT), smart card, or certificate authentication
+* `hardened` for passwords hardened against brute-force attempts
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[kerberos-keytab]]
+==== image:images/yes.png[yes] Kerberos keytab (noun)
+*Description*: While a password is the default authentication method for a user, keytabs are the default authentication method for hosts and services. A Kerberos keytab is a file that contains a list of Kerberos principals and their associated encryption keys, so a service can retrieve its own Kerberos key and verify a user’s identity. For example, every IdM client has an `/etc/krb5.keytab` file that stores information about the `host` principal, which represents the client machine in the Kerberos realm.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:kerberos-principal[Kerberos principal]
+
+[discrete]
+[[kerberos-principal]]
+==== image:images/yes.png[yes] Kerberos principal (noun)
+*Description*:  Unique Kerberos principals identify each user, service, and host in a Kerberos realm. Kerberos principals adhere to the following naming conventions:
+
+* For users: `identifier@REALM`, such as `admin@EXAMPLE.COM`
+* For services: `service/fully-qualified-hostname@REALM`, such as `http/server.example.com@EXAMPLE.COM`
+* For hosts: `host/fully-qualified-hostname@REALM` such as `host/client.example.com@EXAMPLE.COM`
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:kerberos-realm[Kerberos realm]
+
+[discrete]
+[[kerberos-protocol]]
+==== image:images/yes.png[yes] Kerberos protocol (noun)
+*Description*: Kerberos is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography. IdM and Active Directory use Kerberos for authenticating users, hosts and services.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[kerberos-realm]]
+==== image:images/yes.png[yes] Kerberos realm (noun)
+*Description*: A Kerberos realm encompasses all the principals managed by a Kerberos Key Distribution Center (KDC). In an IdM deployment, the Kerberos realm includes all IdM users, hosts, and services.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:idm-deployment[IdM deployment], xref:key-distribution-center[Key Distribution Center]
+
+[discrete]
+[[kerberos-ticket-policies]]
+==== image:images/yes.png[yes] Kerberos ticket policies (noun)
+*Description*: The Kerberos Key Distribution Center (KDC) enforces ticket access control through connection policies, and manages the duration of Kerberos tickets through ticket lifecycle policies. For example, the default global ticket lifetime is one day, and the default global maximum renewal age is one week.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:key-distribution-center[Key Distribution Center]
+
+[discrete]
+[[key-distribution-center]]
+==== image:images/yes.png[yes] Key Distribution Center (noun)
+*Description*: The Kerberos Key Distribution Center (KDC) is a service that acts as the central, trusted authority that manages Kerberos credential information. The KDC issues Kerberos tickets and ensures the authenticity of data originating from entities within the IdM network.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[ldap]]
+==== image:images/yes.png[yes] LDAP (noun)
+*Description*: The Lightweight Directory Access Protocol (LDAP) is an open, vendor-neutral, application protocol for accessing and maintaining distributed directory information services over a network. Part of this specification is a directory information tree (DIT), which represents data in a hierarchical tree-like structure consisting of the Distinguished Names (DNs) of directory service entries. LDAP is a "lightweight" version of the Directory Access Protocol (DAP) described by the ISO X.500 standard for directory services in a network.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[lightweight-sub-ca]]
+==== image:images/yes.png[yes] lightweight sub-CA (noun)
+*Description*: In IdM, a lightweight sub-CA is a certificate authority (CA) whose certificate is signed by an IdM root CA or one of the CAs that are subordinate to it. A lightweight sub-CA issues certificates only for a specific purpose, for example to secure a VPN or HTTP connection.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:certificate-authorities[certificate authorities]
+
+[discrete]
+[[managed-nodes]]
+==== image:images/yes.png[yes] managed nodes (noun)
+*Description*: The network devices, servers, or both that you manage with Ansible. Managed nodes are also sometimes called “hosts”. Ansible is not installed on managed nodes.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[migration]]
 ==== image:images/caution.png[with caution] migration (noun)
@@ -45,6 +609,193 @@ For documentation questions, contact rhel-docs@redhat.com.
 *Incorrect forms*:
 
 *See also*: xref:update[update], xref:upgrade-rhel[upgrade], xref:conversion[conversion]
+
+[discrete]
+[[ostree]]
+==== image:images/yes.png[yes] OSTree (noun)
+*Description*: A tool used for managing Linux-based operating system versions. The OSTree tree view is similar to Git and is based on similar concepts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+
+[discrete]
+[[password-policy]]
+==== image:images/yes.png[yes] password policy (noun)
+*Description*: A password policy is a set of conditions that the passwords of a particular IdM user group must meet. The conditions can include the following parameters:
+
+* The length of the password
+* The number of character classes used
+* The maximum lifetime of a password
+
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[posix-attributes]]
+==== image:images/yes.png[yes] POSIX attributes (noun)
+*Description*: POSIX attributes are user attributes for maintaining compatibility between operating systems.
+In a Red Hat Identity Management environment, POSIX attributes for users include:
+
+  * `cn`, the user's name
+  * `uid`, the account name (login)
+  * `uidNumber`, a user number (UID)
+  * `gidNumber`, the primary group number (GID)
+  * `homeDirectory`, the user's home directory
+
+In a Red Hat Identity Management environment, POSIX attributes for groups include:
+
+  * `cn`, the group's name
+  * `gidNumber`, the group number (GID)
+
+These attributes identify users and groups as separate entities.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[refs]]
+==== image:images/yes.png[yes] refs (noun)
+*Description*: Represents a branch in OSTree. Refs always resolve to the latest commit. For example, `rhel/8/x86_64/edge`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+[discrete]
+[[remote]]
+==== image:images/yes.png[yes] remote (noun)
+*Description*: The HTTP or HTTPS endpoint that hosts the OSTree content. This is analogous to the baseurl for a `yum` or `dnf` repository.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+[discrete]
+[[replication-agreement]]
+==== image:images/yes.png[yes] replication agreement (noun)
+*Description*: A replication agreement is an agreement between two IdM servers in the same IdM deployment. The replication agreement ensures that the data and configuration is continuously replicated between the two servers.
+IdM uses two types of replication agreements: _domain replication_ agreements, which replicate identity information, and _certificate replication_ agreements, which replicate certificate information.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:idm-deployment[IdM deployment]
+
+[discrete]
+[[revision]]
+==== image:images/yes.png[yes] revision (noun)
+*Description*: Revision (Rev) represents SHA-256 for a specific OSTree commit.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+[discrete]
+[[rpm-ostree]]
+==== image:images/yes.png[yes] rpm-ostree (noun)
+*Description*: A hybrid image or system package that hosts operating system updates.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+[discrete]
+[[smart-card]]
+==== image:images/yes.png[yes] smart card (noun)
+*Description*: A smart card is a removable device or card used to control access to a resource. They can be plastic credit card-sized cards with an embedded integrated circuit (IC) chip, small USB devices such as a Yubikey, or other similar devices. Smart cards can provide authentication by allowing users to connect a smart card to a host computer, and software on that host computer interacts with key material stored on the smart card to authenticate the user.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[sssd]]
+==== image:images/yes.png[yes] SSSD (noun)
+*Description*: The System Security Services Daemon (SSSD) is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[sssd-back-end]]
+==== image:images/yes.png[yes] SSSD back end (noun)
+*Description*: An System Security Services Daemon back end, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ldap[LDAP], xref:sssd[SSSD]
+
+[discrete]
+[[static-delta]]
+==== image:images/yes.png[yes] static-delta (noun)
+*Description*: Updates to OSTree images are always delta updates. In case of RHEL for Edge images, the TCP overhead can be higher than expected due to the updates to number of files. To avoid TCP overhead, you can generate static-delta between specific commits, and send the update in a single connection. This optimization helps large deployments with constrained connectivity.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree], xref:commit[commit]
+
+[discrete]
+[[target-kernel]]
+==== image:images/yes.png[yes] target kernel (noun)
+*Description*: The kernel of the target system. This is the kernel that loads and runs the instrumentation module.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:target-system[target system], xref:instrumentation-module[instrumentation module]
+
+[discrete]
+[[target-system]]
+==== image:images/yes.png[yes] target system (noun)
+*Description*: The system in which the instrumentation module is being built from `SystemTap` scripts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:instrumentation-module[instrumentation module]
+
+[discrete]
+[[ticket-granting-ticket]]
+==== image:images/yes.png[yes] ticket-granting ticket (noun)
+*Description*: After authenticating to a Kerberos Key Distribution Center (KDC), a user receives a ticket-granting ticket (TGT), which is a temporary set of credentials that can be used to request access tickets to other services, such as websites and email.
+You can use a TGT to request further access, and provide the user with a Single Sign-On experience, as the user only needs to authenticate once in order to access multiple services. TGTs are renewable, and Kerberos ticket policies determine ticket renewal limits and access control.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:key-distribution-center[Key Distribution Center]
 
 [discrete]
 [[update]]
@@ -67,3 +818,14 @@ For documentation questions, contact rhel-docs@redhat.com.
 *Incorrect forms*:
 
 *See also*: xref:in-place-upgrade[in-place upgrade], xref:clean-install[clean install]
+
+[discrete]
+[[web-server]]
+==== image:images/yes.png[yes] web server (noun)
+*Description*: A web server is computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol used to distribute web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:directory-server[Directory Server], xref:certificate-authorities[certificate authorities]
