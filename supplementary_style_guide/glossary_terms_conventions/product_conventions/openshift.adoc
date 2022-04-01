@@ -432,13 +432,13 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[red-hat-openshift-cluster-manager]]
 ==== image:images/yes.png[yes] Red Hat OpenShift Cluster Manager (noun)
-*Description*: A managed service for Red Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After first mention, you can use OpenShift Cluster Manager. link:https://console.redhat.com/openshift[OpenShift Cluster Manager] is part of Red Hat Hybrid Cloud Console.
+*Description*: A managed service for Red Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After the first mention, you can use OpenShift Cluster Manager. link:https://console.redhat.com/openshift[OpenShift Cluster Manager] is part of the Red Hat Hybrid Cloud Console.
 
 *Use it*: yes
 
 *Incorrect forms*: OCM, Cluster Manager, the OpenShift Cluster Manager, the OpenShift Cluster Manager site
 
-*See also*: The _Technologies_ sheet in the link:https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit#gid=1375785039[Official Red Hat product and solution names list]
+*See also*: 
 
 
 [discrete]
