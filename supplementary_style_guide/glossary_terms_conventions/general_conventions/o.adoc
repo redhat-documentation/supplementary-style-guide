@@ -210,6 +210,28 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 *See also*: xref:api-objects[API objects]
 
 [discrete]
+[[operator-hub]]
+==== image:images/yes.png[yes] OperatorHub (noun)
+*Description*: The "OperatorHub" is a central location where you can find a wide array of useful Operators built by the community.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[operator-lifecycle-manager]]
+==== image:images/yes.png[yes] Operator Lifecycle Manager (OLM) (noun)
+*Description*: "Operator Lifecycle Manager" (OLM) helps users to install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. It is part of the Operator Framework, an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
+
+*Use it*: yes without a preceding "the"
+
+*Incorrect forms*: The Operator Lifecycle Manager
+
+*See also*:
+
+[discrete]
 [[organization-administrator]]
 ==== image:images/yes.png[yes] Organization Administrator (noun)
 *Description*: From https://access.redhat.com/articles/1757953[Roles and Permissions for Red Hat Customer Portal]: Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.

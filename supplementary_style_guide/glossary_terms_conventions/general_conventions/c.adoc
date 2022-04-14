@@ -299,6 +299,15 @@ image repository contains one or more tagged images.
 *See also*: xref:operating-environment[operating environment]
 
 [discrete]
+[[control-plane]]
+==== image:images/yes.png[yes] control plane (noun)
+*Description*: The "control plane", which is composed of control plane machines, manages the OpenShift cluster. The control plane machines manage workloads on the compute machines, which are also known as worker machines.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+[discrete]
 [[convert]]
 ==== image:images/yes.png[yes] convert (verb)
 *Description*: Use "convert" when referring to changing data from one format to another.
