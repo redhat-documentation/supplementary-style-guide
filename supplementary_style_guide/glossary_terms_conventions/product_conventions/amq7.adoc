@@ -1,5 +1,6 @@
 [[red-hat-jboss-amq7-conventions]]
 
+// TODO: All terms have been transferred to the general section. This file can be deleted.
 
 [discrete]
 [[acceptor]]
@@ -606,6 +607,7 @@
 
 *See also*: xref:target[target]
 
+// TODO: Didn't move over since there is already a generalSSL/TLS entry
 [discrete]
 [[brokerless]]
 ==== image:images/yes.png[yes] SSL/TLS (noun)

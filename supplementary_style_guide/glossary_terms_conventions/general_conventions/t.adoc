@@ -1,3 +1,51 @@
+// AMQ: Added "In Red Hat AMQ, a target is"
+[discrete]
+[[target]]
+==== image:images/yes.png[yes] target (noun)
+*Description*: In Red Hat AMQ, a target is a message's destination. This is usually a queue or topic.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:source[source]
+
+// RHEL: Added "In Red Hat Enterprise Linux, the target kernel is"
+[discrete]
+[[target-kernel]]
+==== image:images/yes.png[yes] target kernel (noun)
+*Description*: In Red Hat Enterprise Linux, the target kernel is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:target-system[target system], xref:instrumentation-module[instrumentation module]
+
+// RHEL: Added "In Red Hat Enterprise Linux, the target system is"
+[discrete]
+[[target-system]]
+==== image:images/yes.png[yes] target system (noun)
+*Description*: In Red Hat Enterprise Linux, the target system is the system in which the instrumentation module is being built from `SystemTap` scripts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:instrumentation-module[instrumentation module]
+
+// OCP: Added "In Red Hat OpenShift,"
+[discrete]
+[[template]]
+==== image:images/yes.png[yes] template (noun)
+*Description*: In Red Hat OpenShift, a template describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[terminal-emulation]]
 ==== image:images/yes.png[yes] terminal emulation (noun)
@@ -6,6 +54,17 @@
 *Use it*: yes
 
 *Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[text-mode]]
+==== image:images/yes.png[yes] text mode (noun)
+*Description*: "Text mode" is a video mode in which a display screen is divided into rows and columns of boxes. Each box can contain one character. Text mode is also called character mode.
+
+*Use it*: yes
+
+*Incorrect forms*: textmode, text-mode
 
 *See also*:
 
@@ -20,14 +79,15 @@
 
 *See also*:
 
+// RHSSO: General; removed RHSSO-specific sentence
 [discrete]
-[[text-mode]]
-==== image:images/yes.png[yes] text mode (noun)
-*Description*: "Text mode" is a video mode in which a display screen is divided into rows and columns of boxes. Each box can contain one character. Text mode is also called character mode.
+[[theme]]
+==== image:images/yes.png[yes] theme
+*Description*: A theme defines HTML templates and stylesheets that you can override as you require.
 
 *Use it*: yes
 
-*Incorrect forms*: textmode, text-mode
+*Incorrect forms*:
 
 *See also*:
 
@@ -63,6 +123,19 @@
 *Incorrect forms*: thru
 
 *See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[ticket-granting-ticket]]
+==== image:images/yes.png[yes] ticket-granting ticket (noun)
+*Description*: After authenticating to a Kerberos Key Distribution Center (KDC), a user receives a ticket-granting ticket (TGT), which is a temporary set of credentials that can be used to request access tickets to other services, such as websites and email.
+You can use a TGT to request further access, and provide the user with a Single Sign-On experience, as the user only needs to authenticate once in order to access multiple services. TGTs are renewable, and Kerberos ticket policies determine ticket renewal limits and access control.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:key-distribution-center[Key Distribution Center]
 
 [discrete]
 [[tier-1]]
@@ -108,10 +181,12 @@
 
 *See also*: xref:ttl[TTL], xref:time-to-live-n[time to live]
 
+// RHDS: Duplicated this entry so didn't include it, but incorporated its guidance to "Do not expand the abbreviation on the first usage."
+// Updated anchor to just "tls"
 [discrete]
-[[tls-description]]
+[[tls]]
 ==== image:images/yes.png[yes] TLS (noun)
-*Description*: TLS is an initialism for Transport Layer Security (TLS), and it is the successor to the Secure Sockets Layer (SSL) protocol.
+*Description*: TLS is an initialism for Transport Layer Security (TLS), and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on the first usage.
 
 TLS is a cryptographic protocol that uses the Public Key Infrastructure (PKI) method to encrypt network traffic between two systems. PKI uses asymmetric encryption during a TLS handshake process to authenticate the connection between two systems.
 
@@ -124,7 +199,6 @@ Use "SSL/TLS" in high-level documentation entries, such as headings, to establis
 *Incorrect forms*:
 
 *See also*: xref:ssl[SSL], xref:ssl-tls[SSL/TLS], xref:symmetric-encryption[symmetric encryption], xref:tls-handshake[TLS handshake], xref:trusted-certificate-authority[trusted certificate authority]
-
 
 [discrete]
 [[tls-handshake]]
@@ -139,7 +213,19 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *Incorrect forms*: SSL handshake
 
-*See also*: xref:tls-description[TLS], xref:symmetric-encryption[symmetric encryption], xref:trusted-certificate-authority[trusted certificate authority]
+*See also*: xref:tls[TLS], xref:symmetric-encryption[symmetric encryption], xref:trusted-certificate-authority[trusted certificate authority]
+
+// AMQ: Added "In Red Hat AMQ, a topic is"
+[discrete]
+[[topic]]
+==== image:images/yes.png[yes] topic (noun)
+*Description*: In Red Hat AMQ, a topic is a stored sequence of messages for read-only distribution.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[totally]]
@@ -152,6 +238,18 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *See also*: xref:basically[basically]
 
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[transactions]]
+==== image:images/yes.png[yes] transactions subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "transactions" subsystem is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the transactions subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[trusted-certificate-authority]]
 ==== image:images/yes.png[yes] trusted certificate authority (noun)
@@ -163,7 +261,31 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *Incorrect forms*: self-signed certificate
 
-*See also*: xref:tls-description[TLS]
+*See also*: xref:tls[TLS]
+
+// EAP: General; kept as is
+[discrete]
+[[truststore]]
+==== image:images/yes.png[yes] truststore (noun)
+*Description*: A "truststore" is a repository of trusted security certificates. Write in lowercase as one word. This is in contrast to a "keystore", which stores private and self-certified certificates.
+
+*Use it*: yes
+
+*Incorrect forms*: trust store
+
+*See also*: xref:keystore[keystore]
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[truth-maintenance-system]]
+==== image:images/yes.png[yes] truth maintenance system (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a "truth maintenance system" (TMS) refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[ttl]]

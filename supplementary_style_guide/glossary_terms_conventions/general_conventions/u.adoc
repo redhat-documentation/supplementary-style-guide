@@ -20,6 +20,30 @@
 
 *See also*:
 
+// OpenStack: Added "In Red Hat OpenStack Platform (RHOSP),"
+[discrete]
+[[undercloud]]
+==== image:images/yes.png[yes] undercloud (noun)
+*Description*: In Red Hat OpenStack Platform (RHOSP), the undercloud is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
+
+*Use it*: yes
+
+*Incorrect forms*: Undercloud
+
+*See also*: xref:overcloud[overcloud], xref:node[node]
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[undertow]]
+==== image:images/yes.png[yes] undertow subsystem(noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "undertow" subsystem is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the undertow subsystem in titles and headings. See the xref:webhttp-undertow[WebHTTP - Undertow] entry for the correct usage when referring to the undertow subsystem in the management console.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:webhttp-undertow[WebHTTP - Undertow]
+
 [discrete]
 [[uninterruptible]]
 ==== image:images/yes.png[yes] uninterruptible (adjective)
@@ -64,16 +88,30 @@
 
 *See also*:
 
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[update]]
+==== image:images/yes.png[yes] update (noun)
+*Description*: In Red Hat Enterprise Linux, sometimes called a software patch, an update is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+// Combined two entries into a single entry; removed the "for example, Upgrade the RHEL version" piece of the first description
 [discrete]
 [[upgrade]]
 ==== image:images/yes.png[yes] upgrade (verb)
-*Description*: "Upgrade" means to raise (something) to a higher standard, in particular to improve by adding or replacing components, for example, "Upgrade the RHEL version."
+*Description*: 1) "Upgrade" means to raise (something) to a higher standard, in particular to improve by adding or replacing components. 2) In Red Hat Enterprise Linux, an upgrade is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
 
 *Use it*: yes
 
 *Incorrect forms*: up-grade, up grade
 
-*See also*:
+*See also*: xref:in-place-upgrade[in-place upgrade], xref:clean-install[clean install]
 
 [discrete]
 [[ups]]
@@ -109,17 +147,6 @@
 *See also*:
 
 [discrete]
-[[upstream-n]]
-==== image:images/yes.png[yes] upstream (noun)
-*Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the nominal form.
-
-*Use it*: yes
-
-*Incorrect forms*: up-stream, up stream
-
-*See also*: xref:downstream-n[downstream (noun)], xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)]
-
-[discrete]
 [[upstream-adj]]
 ==== image:images/yes.png[yes] upstream (adjective)
 *Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the adjectival form.
@@ -130,6 +157,16 @@
 
 *See also*: xref:downstream-n[downstream (noun)], xref:downstream-adj[downstream (adjective)], xref:upstream-n[upstream (noun)]
 
+[discrete]
+[[upstream-n]]
+==== image:images/yes.png[yes] upstream (noun)
+*Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the nominal form.
+
+*Use it*: yes
+
+*Incorrect forms*: up-stream, up stream
+
+*See also*: xref:downstream-n[downstream (noun)], xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)]
 
 [discrete]
 [[uptime]]
@@ -142,6 +179,18 @@
 
 *See also*:
 
+// Fuse: General; kept as is; added "In Red Hat Fuse," to later sentence
+[discrete]
+[[uri]]
+==== image:images/yes.png[yes] URI (noun)
+*Description*: Uniform Resource Identifier. A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red Hat Fuse, Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
+
+*Use it*: yes
+
+*Incorrect forms*: uri
+
+*See also*: xref:endpoint[endpoint], xref:urn[URN]
+
 [discrete]
 [[url]]
 ==== image:images/yes.png[yes] URL (noun)
@@ -153,12 +202,36 @@
 
 *See also*:
 
+// Fuse: General; kept as is
+[discrete]
+[[urn]]
+==== image:images/yes.png[yes] URN (noun)
+*Description*: Uniform Resource Name. A URN is a special URI that identifies, by name, a resource located in a specific namespace. A URN can be used to talk about a resource without implying its location or access details.
+
+*Use it*: yes
+
+*Incorrect forms*: urn
+
+*See also*: xref:uri[URI]
+
 [discrete]
 [[user]]
 ==== image:images/caution.png[with caution] user (noun)
 *Description*: When referring to the reader, use "you" instead of "user". If referring to more than one user, calling the collection "users" is acceptable, such as "Other users might want to access your database."
 
 *Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: Added "In Red Hat Single Sign-On, you can"
+[discrete]
+[[user-federation-provider]]
+==== image:images/yes.png[yes] user federation provider
+*Description*: In Red Hat Single Sign-On, you can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
+
+*Use it*: yes
 
 *Incorrect forms*:
 
@@ -175,6 +248,18 @@
 
 *See also*:
 
+// RHSSO: General; kept as is
+[discrete]
+[[user-role-mapping]]
+==== image:images/yes.png[yes] user role mapping
+*Description*: A user role mapping defines a mapping between a role and a user. A user can be associated with zero or more roles. This role mapping information can be encapsulated into tokens and assertions so that applications can decide access permissions on various resources they manage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[user-space-n]]
 ==== image:images/yes.png[yes] user space (noun)
@@ -185,6 +270,18 @@
 *Incorrect forms*: userspace
 
 *See also*: xref:user-space-adj[user-space]
+
+// OCP: Added "In Red Hat OpenShift,"
+[discrete]
+[[user-provisioned-infrastructure]]
+==== image:images/yes.png[yes] user-provisioned infrastructure (noun)
+*Description*: In Red Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a user-provisioned infrastructure installation.
+
+*Use it*: yes
+
+*Incorrect forms*: UPI
+
+*See also*:
 
 [discrete]
 [[user-space-adj]]

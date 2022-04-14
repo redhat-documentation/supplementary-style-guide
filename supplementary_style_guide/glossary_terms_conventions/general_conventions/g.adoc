@@ -42,6 +42,18 @@
 
 *See also*: xref:gas[GAS]
 
+// RHV: Added "In Red Hat Virtualization," and removed later in the sentence
+[discrete]
+[[gather]]
+==== image:images/yes.png[yes] gather (verb)
+*Description*: In Red Hat Virtualization, use "gather" when discussing metrics. Do not use "collect", which is reserved for discussing the Red Hat Virtualization log collector (`ovirt-log-collector`). See the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log] for the discussion regarding this decision.
+
+*Use it*: yes
+
+*Incorrect forms*: collect
+
+*See also*: xref:collect[collect]
+
 [discrete]
 [[gb]]
 ==== image:images/yes.png[yes] GB (noun)
@@ -241,6 +253,30 @@
 
 *See also*:
 
+// RHEL: General; kept as is
+[discrete]
+[[greenboot]]
+==== image:images/yes.png[yes] greenboot (noun)
+*Description*: Generic Health Check Framework for systemd on rpm-ostree based systems.
+
+*Use it*: yes
+
+*Incorrect forms*: Greenboot, green boots
+
+*See also*:
+
+// RHSSO: Added "In Red Hat Single Sign-On,"
+[discrete]
+[[group]]
+==== image:images/yes.png[yes] group
+*Description*: In Red Hat Single Sign-On, a group manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings that group defines.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[grub]]
 ==== image:images/yes.png[yes] GRUB (noun)
@@ -249,6 +285,20 @@
 *Use it*: yes
 
 *Incorrect forms*: Grub
+
+*See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[gssapi]]
+==== image:images/yes.png[yes] GSSAPI (noun)
+*Description*: The Generic Security Service Application Program Interface (GSSAPI, or GSS-API) allows developers to abstract how their applications protect data that is sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.
+
+Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat Enterprise Linux and Microsoft Windows Active Directory Kerberos implementations to be API compatible.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -264,6 +314,17 @@
 *See also*:
 
 [discrete]
+[[guest-operating-system]]
+==== image:images/yes.png[yes] guest operating system (noun)
+*Description*: A "guest operating system" refers to the operating system that is installed in a virtual machine. Do not use "guest" by itself, because it is ambiguous.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[guestfish]]
 ==== image:images/yes.png[yes] Guestfish (noun)
 *Description*: "Guestfish" is an interactive shell that supports commands for accessing and modifying virtual disk images used in platform virtualization. You can use Guestfish for viewing and editing virtual machines (VMs) managed by libvirt.
@@ -274,13 +335,14 @@
 
 *See also*: xref:libvirt[libvirt]
 
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [discrete]
-[[guest-operating-system]]
-==== image:images/yes.png[yes] guest operating system (noun)
-*Description*: A "guest operating system" refers to the operating system that is installed in a virtual machine. Do not use "guest" by itself, because it is ambiguous.
+[[guided-editor]]
+==== image:images/yes.png[yes] guided editor (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "guided editor" is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: Editor, GUI editor, Business Central editor
 
-*See also*:
+*See also*: xref:business-central[Business Central]

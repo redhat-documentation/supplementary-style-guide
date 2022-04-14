@@ -1,3 +1,15 @@
+// Satellite: General; kept as is
+[discrete]
+[[katello]]
+==== image:images/caution.png[with caution] Katello (noun)
+*Description*: The upstream project from which the subscription and repository management functions of Satellite Server are drawn. Use only when required to mention the upstream project.
+
+*Use it*: with caution
+
+*Incorrect forms*: katello
+
+*See also*:
+
 [discrete]
 [[KB]]
 ==== image:images/yes.png[yes] KB (noun)
@@ -42,6 +54,87 @@
 
 *See also*: xref:kerberize[kerberize]
 
+// RHEL: General; kept as is
+[discrete]
+[[kerberos-authentication-indicators]]
+==== image:images/yes.png[yes] Kerberos authentication indicators (noun)
+*Description*: Authentication indicators are attached to Kerberos tickets and represent the initial authentication method used to acquire a ticket:
+
+* `otp` for two-factor authentication (password + one-time password)
+* `radius` for Remote Authentication Dial-In User Service (RADIUS) authentication (commonly for 802.1x authentication)
+* `pkinit` for Public Key Cryptography for Initial Authentication in Kerberos (PKINIT), smart card, or certificate authentication
+* `hardened` for passwords hardened against brute-force attempts
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[kerberos-keytab]]
+==== image:images/yes.png[yes] Kerberos keytab (noun)
+*Description*: While a password is the default authentication method for a user, keytabs are the default authentication method for hosts and services. A Kerberos keytab is a file that contains a list of Kerberos principals and their associated encryption keys, so a service can retrieve its own Kerberos key and verify a user’s identity. For example, every IdM client has an `/etc/krb5.keytab` file that stores information about the `host` principal, which represents the client machine in the Kerberos realm.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:kerberos-principal[Kerberos principal]
+
+// RHEL: General; kept as is
+[discrete]
+[[kerberos-principal]]
+==== image:images/yes.png[yes] Kerberos principal (noun)
+*Description*:  Unique Kerberos principals identify each user, service, and host in a Kerberos realm. Kerberos principals adhere to the following naming conventions:
+
+* For users: `identifier@REALM`, such as `admin@EXAMPLE.COM`
+* For services: `service/fully-qualified-hostname@REALM`, such as `http/server.example.com@EXAMPLE.COM`
+* For hosts: `host/fully-qualified-hostname@REALM` such as `host/client.example.com@EXAMPLE.COM`
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:kerberos-realm[Kerberos realm]
+
+// RHEL: General; kept as is
+[discrete]
+[[kerberos-protocol]]
+==== image:images/yes.png[yes] Kerberos protocol (noun)
+*Description*: Kerberos is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography. IdM and Active Directory use Kerberos for authenticating users, hosts and services.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[kerberos-realm]]
+==== image:images/yes.png[yes] Kerberos realm (noun)
+*Description*: A Kerberos realm encompasses all the principals managed by a Kerberos Key Distribution Center (KDC). In an IdM deployment, the Kerberos realm includes all IdM users, hosts, and services.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:idm-deployment[IdM deployment], xref:key-distribution-center[Key Distribution Center]
+
+// RHEL: General; kept as is
+[discrete]
+[[kerberos-ticket-policies]]
+==== image:images/yes.png[yes] Kerberos ticket policies (noun)
+*Description*: The Kerberos Key Distribution Center (KDC) enforces ticket access control through connection policies, and manages the duration of Kerberos tickets through ticket lifecycle policies. For example, the default global ticket lifetime is one day, and the default global maximum renewal age is one week.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:key-distribution-center[Key Distribution Center]
+
 [discrete]
 [[kernel]]
 ==== image:images/yes.png[yes] kernel (noun)
@@ -54,17 +147,6 @@ Do not capitalize the first letter.
 *Incorrect forms*: Kernel
 
 *See also*: xref:kernel-panic[kernel panic], xref:kernel-space-n[kernel space], xref:kernel-space-ad[kernel-space]
-
-[discrete]
-[[kernel-based-virtual-machine]]
-==== image:images/yes.png[yes] Kernel-based Virtual Machine (noun)
-*Description*: "Kernel-based Virtual Machine" is a loadable kernel module that converts the Linux kernel into a bare-metal hypervisor. Spell out "Kernel-based Virtual Machine" on first occurrence, and use "KVM" thereafter. It is an industry standard and a proper noun.
-
-*Use it*: yes
-
-*Incorrect forms*: kernel-based virtual machine
-
-*See also*: xref:kvm[KVM]
 
 [discrete]
 [[kernel-oops]]
@@ -100,6 +182,17 @@ Do not capitalize the first letter.
 *See also*: xref:kernel[kernel], xref:kernel-space-ad[kernel-space]
 
 [discrete]
+[[kernel-based-virtual-machine]]
+==== image:images/yes.png[yes] Kernel-based Virtual Machine (noun)
+*Description*: "Kernel-based Virtual Machine" is a loadable kernel module that converts the Linux kernel into a bare-metal hypervisor. Spell out "Kernel-based Virtual Machine" on first occurrence, and use "KVM" thereafter. It is an industry standard and a proper noun.
+
+*Use it*: yes
+
+*Incorrect forms*: kernel-based virtual machine
+
+*See also*: xref:kvm[KVM]
+
+[discrete]
 [[kernel-space-ad]]
 ==== image:images/yes.png[yes] kernel-space (adjective)
 *Description*: "Kernel space" is that part of the system memory where the kernel executes and provides its services. When used as modifier, use the hyphenated form "kernel-space".
@@ -110,6 +203,30 @@ Do not capitalize the first letter.
 
 *See also*: xref:kernel[kernel], xref:kernel-space-n[kernel space]
 
+// RHEL: General; kept as is
+[discrete]
+[[key-distribution-center]]
+==== image:images/yes.png[yes] Key Distribution Center (noun)
+*Description*: The Kerberos Key Distribution Center (KDC) is a service that acts as the central, trusted authority that manages Kerberos credential information. The KDC issues Kerberos tickets and ensures the authenticity of data originating from entities within the IdM network.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: General; kept as is
+[discrete]
+[[keystore]]
+==== image:images/yes.png[yes] keystore (noun)
+*Description*: A "keystore" is a repository for private and self-certified security certificates. Write in lowercase as one word. This is in contrast to a "truststore", which stores trusted security certificates.
+
+*Use it*: yes
+
+*Incorrect forms*: key store
+
+*See also*: xref:truststore[truststore]
+
 [discrete]
 [[kickstart]]
 ==== image:images/yes.png[yes] Kickstart (noun)
@@ -118,6 +235,66 @@ Do not capitalize the first letter.
 *Use it*: yes
 
 *Incorrect forms*: kickstart
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[kie]]
+==== image:images/yes.png[yes] KIE (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "KIE" is an abbreviation for Knowledge Is Everything. KIE is a knowledge solution for Red Hat JBoss BRMS and JBoss BPM Suite and is used for the generic parts of a unified API, such as building, deploying, and loading.
+
+*Use it*: yes
+
+*Incorrect forms*: kie, Kie, knowledge
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[kie-api]]
+==== image:images/yes.png[yes] KIE API (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "KIE API" is a knowledge-centric API, where rules and processes are first class citizens. KIE is used for the generic parts of unified API, such as building, deploying, and loading.
+
+*Use it*: yes
+
+*Incorrect forms*: kie, Kie, knowledge API
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[kie-base]]
+==== image:images/yes.png[yes] KIE base (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "KIE base" is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started.
+
+*Use it*: yes
+
+*Incorrect forms*: kbase, knowledge base
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[kie-session]]
+==== image:images/yes.png[yes] KIE session (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a "KIE session" stores runtime data created from a KIE base. The name of the Java object is `KieSession`. After the KIE base is loaded, a session can be created to interact with the engine. The session can then be used to start new processes and signal events.
+
+*Use it*: yes
+
+*Incorrect forms*: ksession, knowledge session
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite," and reorganized the sentences
+[discrete]
+[[kjar]]
+==== image:images/yes.png[yes] KJAR (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "KJARs" are simple jar files that include a descriptor for the KIE system to produce KieBase and KieSession. Red Hat JBoss BPM Suite provides a simplified and complete deployment mechanism that is based entirely on Apache Maven artifacts. The KJAR descriptor is represented as the `kmodule.xml` file.
+
+*Use it*: yes
+
+*Incorrect forms*: kjar, kJAR
 
 *See also*:
 
@@ -132,6 +309,18 @@ Do not capitalize the first letter.
 
 *See also*: xref:knowledgebase[Knowledgebase]
 
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[knowledge-store]]
+==== image:images/yes.png[yes] knowledge store (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "knowledge store" is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[knowledgebase]]
 ==== image:images/yes.png[yes] Knowledgebase (noun)
@@ -142,6 +331,31 @@ Do not capitalize the first letter.
 *Incorrect forms*: KnowledgeBase
 
 *See also*: xref:knowledge-base[knowledge base]
+
+// OCP: Added "In Kubernetes, the kubelet is"
+[discrete]
+[[kubelet]]
+==== image:images/yes.png[yes] kubelet (noun)
+*Description*: In Kubernetes, the kubelet is the agent that controls a Kubernetes node. Each node runs a kubelet, which handles starting and stopping containers on a node, based on the required state defined by the master.
+
+*Use it*: yes
+
+*Incorrect forms*: Kubelet
+
+*See also*:
+
+// OCP: General; kept as is
+// TODO: This term is outdated anyway and should be removed in a future update
+[discrete]
+[[kubernetes-master]]
+==== image:images/yes.png[yes] Kubernetes master (noun)
+*Description*: The Kubernetes-native equivalent to the OpenShift master. An OpenShift system runs OpenShift masters, not Kubernetes masters, and an OpenShift master provides a superset of the functionality of a Kubernetes master, so it is generally preferred to use the term OpenShift master.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:openshift-master[OpenShift master]
 
 [discrete]
 [[kvm]]

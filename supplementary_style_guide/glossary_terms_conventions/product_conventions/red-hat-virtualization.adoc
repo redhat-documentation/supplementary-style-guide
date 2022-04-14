@@ -2,6 +2,8 @@
 
 For documentation questions, contact rhev-docs@redhat.com.
 
+// TODO: All terms have been transferred to the general section. This file can be deleted.
+
 [discrete]
 [[administration-portal]]
 ==== image:images/yes.png[yes] Administration Portal (noun)

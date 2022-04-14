@@ -43,6 +43,241 @@
 
 *See also*:
 
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[id-mapping]]
+==== image:images/yes.png[yes] ID mapping (noun)
+*Description*: In Red Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
+
+* When SSSD detects a new AD domain, it assigns a range of available IDs to the new domain. Therefore, each AD domain has the same ID range on every SSSD client machine.
+* When an AD user logs in to an SSSD client machine for the first time, SSSD creates an entry for the user in the SSSD cache, including a UID based on the user's SID and the ID range for that domain.
+* Because the IDs for an AD user are generated in a consistent way from the same SID, the user has the same UID and GID when logging in to any Red Hat Enterprise Linux system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:id-ranges[id ranges], xref:sssd[SSSD]
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[id-ranges]]
+==== image:images/yes.png[yes] ID ranges (noun)
+*Description*: In Red Hat Enterprise Linux, an ID range is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
+
+* _IdM ID range_
++
+Use this ID range to define the UIDs and GIDs for users and groups in the whole IdM topology. Installing the first IdM server creates the IdM ID range. You cannot modify the IdM ID range after creating it. However, you can create an additional IdM ID range, for example when the original one nears depletion.
+
+* _Distributed Numeric Assignment (DNA) ID range_
++
+Use this ID range to define the UIDs and GIDs a replica uses when creating new users. Adding a new user or host entry to an IdM replica for the first time assigns a DNA ID range to that replica. An administrator can modify the DNA ID range, but the new definition must fit within an existing IdM ID range.
+
+
+Note that the IdM range and the DNA range match, but they are not interconnected. If you change one range, ensure you change the other to match.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:id-mapping[ID mapping]
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[id-views]]
+==== image:images/yes.png[yes] ID views (noun)
+*Description*: In Red Hat Enterprise Linux, ID views enable you to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
+
+  * Define different attribute values for different environments.
+  * Replace a previously generated attribute value with a different value.
+
+In an IdM-AD trust setup, the `Default Trust View` is an ID view applied to AD users and groups. Using the `Default Trust View`, you can define custom POSIX attributes for AD users and groups, thus overriding the values defined in AD.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:posix-attributes[POSIX attributes]
+
+// OCP: General; kept as is
+[discrete]
+[[identity]]
+==== image:images/yes.png[yes] identity (noun)
+*Description*: Both the user name and list of groups the user belongs to.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: General; kept as is
+[discrete]
+[[identity-provider]]
+==== image:images/yes.png[yes] identity provider
+*Description*: An identity provider (IDP) is a service that authenticates a user. Red Hat Single Sign-On is an IDP.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: Added "In Red Hat Single Sign-On, you can" and removed a few other words
+[discrete]
+[[identity-provider-federation]]
+==== image:images/yes.png[yes] identity provider federation
+*Description*: In Red Hat Single Sign-On, you can delegate authentication to one or more IDPs. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: General; kept as is
+[discrete]
+[[identity-provider-mappers]]
+==== image:images/yes.png[yes] identity provider mappers
+*Description*: When doing IDP federation, you can map incoming tokens and assertions to user and session attributes. This helps you propagate identity information from the external IDP to your client requesting authentication.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: General; kept as is
+[discrete]
+[[identity-token]]
+==== image:images/yes.png[yes] identity token
+*Description*: An identity token provides identity information about the user and is part of the OpenID Connect specification.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[idm-ca-renewal-server]]
+==== image:images/yes.png[yes] IdM CA renewal server (noun)
+*Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the CA renewal server. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the CA renewal server. In a deployment without integrated CA, there is no CA renewal server.
+
+*Use it*: yes
+
+*Incorrect forms*: master CA
+
+*See also*: xref:certificate-authorities[certificate authorities]
+
+// RHEL: Added "In Red Hat Enterprise Linux, an IdM CA server is"
+[discrete]
+[[idm-ca-server]]
+==== image:images/yes.png[yes] IdM CA server (noun)
+*Description*: In Red Hat Enterprise Linux, an IdM CA server is an IdM server on which the IdM certificate authority (CA) service is installed and running.
+
+Alternative names: *CA server*
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:certificate-authorities[certificate authorities]
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[idm-crl-publisher-server]]
+==== image:images/yes.png[yes] IdM CRL publisher server (noun)
+*Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is responsible for maintaining the CRL. By default, the server that fulfills the *CA renewal server* role also fulfills this role, but you can configure any CA server to be the CRL publisher server. In a deployment without integrated CA, there is no CRL publisher server.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authorities[certificate authorities]
+
+// RHEL: Added "In Red Hat Enterprise Linux, IdM deployment is"
+[discrete]
+[[idm-deployment]]
+==== image:images/yes.png[yes] IdM deployment (noun)
+*Description*: In Red Hat Enterprise Linux, IdM deployment is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
+
+* Purpose: whether it is a production environment, as opposed to a testing or development environment.
+* Certificate Authority (CA) configuration: you can use the IdM integrated CA as a self-signed root CA, or as an externally-signed CA. Alternatively, if your environment has an external CA, you do not need to use the IdM integrated CA.
+* DNS: IdM integrated DNS, or external DNS solution.
+* Active Directory (AD) integration: whether you have a purely Linux environment, or if you have configured a trust with a Microsoft AD environment.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[idm-server-and-replicas]]
+==== image:images/yes.png[yes] IdM server and replicas (noun)
+*Description*: In Red Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the `ipa-server-install` command.
+
+Administrators can then use the `ipa-replica-install` command to install *replicas* in addition to the first server that was installed. By default, installing a replica creates a replication agreement with the IdM server from which it was created, enabling receiving and sending updates to the rest of IdM.
+
+There is no functional difference between the first server that was installed and a replica. Both are fully functional read/write IdM servers.
+
+*Use it*: yes
+
+*Incorrect forms*: master server
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux, IdM topology is"
+[discrete]
+[[idm-topology]]
+==== image:images/yes.png[yes] IdM topology (noun)
+*Description*: In Red Hat Enterprise Linux, IdM topology is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[iiop-openjdk]]
+==== image:images/yes.png[yes] iiop-openjdk subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "iiop-openjdk" subsystem is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the iiop-openjdk subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCP: General; kept as is
+[discrete]
+[[image]]
+==== image:images/yes.png[yes] image (noun)
+*Description*: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift Container Platform uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift Container Platform. Additionally, OpenShift Container Platform provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift, an image stream is"
+[discrete]
+[[image-stream]]
+==== image:images/yes.png[yes] image stream (noun)
+*Description*: In Red Hat OpenShift, an image stream is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:image[image]
+
 [discrete]
 [[in-memory]]
 ==== image:images/yes.png[yes] in-memory (adjective)
@@ -54,6 +289,42 @@
 
 *See also*:
 
+// RHEL: Added "In Red Hat Enterprise Linux,"; Updated upgrade xref
+[discrete]
+[[in-place-upgrade]]
+==== image:images/yes.png[yes] in-place upgrade (noun)
+*Description*: In Red Hat Enterprise Linux, during an in-place upgrade, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:upgrade[upgrade], xref:clean-install[clean install]
+
+// Ceph: General; kept as is
+[discrete]
+[[indexless-bucket]]
+==== image:images/yes.png[yes] indexless bucket (noun)
+*Description*: A bucket that does not maintain an index.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:bucket-index[bucket index]
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[inference-engine]]
+==== image:images/yes.png[yes] inference engine (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "inference engine" is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
+
+*Use it*: yes
+
+*Incorrect forms*: BRMS engine, engine
+
+*See also*:
+
 [discrete]
 [[infiniband]]
 ==== image:images/yes.png[yes] InfiniBand (noun)
@@ -62,6 +333,30 @@
 *Use it*: yes
 
 *Incorrect forms*: Open InfiniBand, Infiniband
+
+*See also*:
+
+// Data Grid: General; kept as is
+[discrete]
+[[infinispan]]
+==== image:images/yes.png[yes] Infinispan (noun)
+*Description*: Infinispan is the open-source, community project on which Red Hat Data Grid is built.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCP: General; kept as is
+[discrete]
+[[init-container]]
+==== image:images/yes.png[yes] init container (noun)
+*Description*: A container that you can use to reorganize configuration scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -95,6 +390,54 @@
 *Use it*: yes
 
 *Incorrect forms*: the installer
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift,"
+[discrete]
+[[installer-provisioned-infrastructure]]
+==== image:images/yes.png[yes] installer-provisioned infrastructure (noun)
+*Description*: In Red Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an installer-provisioned infrastructure installation.
+
+*Use it*: yes
+
+*Incorrect forms*: IPI
+
+*See also*:
+
+// OpenStack: Added "In Red Hat OpenStack Platform"
+[discrete]
+[[instance]]
+==== image:images/yes.png[yes] instance (noun)
+*Description*: In Red Hat OpenStack Platform, an _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[instrumentation-module]]
+==== image:images/yes.png[yes] instrumentation module (noun)
+*Description*: In Red Hat Enterprise Linux, the kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system, and will be loaded on the target kernel of the target system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:host-system[host system], xref:target-kernel[target kernel], xref:target-system[target system]
+
+// Fuse: Added "In Red Hat Fuse," and removed "in Fuse Ignite"
+[discrete]
+[[integration]]
+==== image:images/yes.png[yes] integration (noun)
+*Description*: In Red Hat Fuse, an integration is a Camel route created.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -142,12 +485,48 @@
 
 *See also*:
 
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[intelligent-process-server]]
+==== image:images/yes.png[yes] Intelligent Process Server (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Intelligent Process Server" is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
+
+*Use it*: yes
+
+*Incorrect forms*: Kie server
+
+*See also*:
+
 [discrete]
 [[interesting]]
 ==== image:images/no.png[no] interesting (adjective)
 *Description*: Avoid using "interesting", as this term is a substitute for showing the reader why something is of interest. Instead of writing, "It is interesting to note...", consider using a "Note" admonition.
 
 *Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux, an inventory is"
+[discrete]
+[[inventory]]
+==== image:images/yes.png[yes] inventory (noun)
+*Description*: In Red Hat Enterprise Linux, an inventory is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. Your inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:managed-nodes[managed nodes]
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[io]]
+==== image:images/yes.png[yes] io subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "io" subsystem is used to define workers and buffer pools used by other subsystems. In general text, write in lowercase as one word. Use "IO subsystem" when referring to the io subsystem in titles and headings.
+
+*Use it*: yes
 
 *Incorrect forms*:
 
@@ -187,17 +566,6 @@
 *See also*:
 
 [discrete]
-[[ipsec]]
-==== image:images/yes.png[yes] IPsec (noun)
-*Description*: "IPsec" is an abbreviation for "Internet Protocol security".
-
-*Use it*: yes
-
-*Incorrect forms*: IPSec
-
-*See also*:
-
-[discrete]
 [[ip-switching]]
 ==== image:images/yes.png[yes] IP switching (noun)
 *Description*: "IP switching" is a type of IP routing developed by Ipsilon Networks, Inc. Unlike conventional routers, IP switching routers use ATM hardware to speed packets through networks. Although the technology is new, it appears to be considerably faster than older router techniques.
@@ -205,6 +573,17 @@
 *Use it*: yes
 
 *Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[ipsec]]
+==== image:images/yes.png[yes] IPsec (noun)
+*Description*: "IPsec" is an abbreviation for "Internet Protocol security".
+
+*Use it*: yes
+
+*Incorrect forms*: IPSec
 
 *See also*:
 

@@ -1,3 +1,15 @@
+// OCP: Added "In Red Hat OpenShift, labels are"
+[discrete]
+[[label]]
+==== image:images/yes.png[yes] label (noun)
+*Description*: In Red Hat OpenShift, labels are objects used to organize, group, or select API objects. For example, pods are "tagged" with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[lan]]
 ==== image:images/yes.png[yes] LAN (noun)
@@ -20,6 +32,55 @@
 
 *See also*: xref:bandwidth[bandwidth]
 
+// RHEL: Duplicate entry with RHDS; kept RHDS entry
+// RHDS: General; kept as is
+[discrete]
+[[ldap]]
+==== image:images/yes.png[yes] LDAP (noun)
+*Description*: The Lightweight Directory Access Protocol (LDAP) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*: Lightweight Directory Access Protocol
+
+*See also*: xref:ldaps[LDAPS], xref:starttls[STARTTLS]
+
+// RHDS: General; kept as is
+[discrete]
+[[ldaps]]
+==== image:images/yes.png[yes] LDAPS (noun)
+*Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (LDAPS) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*: Lightweight Directory Access Protocol over Secure Socket Layer
+
+*See also*: xref:ldap[LDAP], xref:starttls[STARTTLS]
+
+// Ceph: Added "In Red Hat Ceph Storage, librados is"
+[discrete]
+[[librados]]
+==== image:images/yes.png[yes] librados (noun)
+*Description*: In Red Hat Ceph Storage, librados is a shared library allowing applications to access the RADOS object store.
+
+*Use it*: yes
+
+*Incorrect forms*: Librados, LIBRADOS
+
+*See also*: xref:rados[RADOS]
+
+// Ceph: Added "In Red Hat Ceph Storage, librbd is"
+[discrete]
+[[librbd]]
+==== image:images/yes.png[yes] librbd (noun)
+*Description*: In Red Hat Ceph Storage, librbd is a shared library allowing applications to access Ceph Block Devices.
+
+*Use it*: yes
+
+*Incorrect forms*: Librbd, LIBRBD
+
+*See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:RBD[RBD]
+
 [discrete]
 [[libvirt]]
 ==== image:images/yes.png[yes] libvirt (noun)
@@ -27,11 +88,45 @@
 
 *Use it*: yes
 
-*Class*: noun
-
 *Incorrect forms*: Libvirt
 
 *See also*:  xref:kvm[KVM]
+
+// RHEL: General; kept as is
+[discrete]
+[[lightweight-sub-ca]]
+==== image:images/yes.png[yes] lightweight sub-CA (noun)
+*Description*: In IdM, a lightweight sub-CA is a certificate authority (CA) whose certificate is signed by an IdM root CA or one of the CAs that are subordinate to it. A lightweight sub-CA issues certificates only for a specific purpose, for example to secure a VPN or HTTP connection.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:certificate-authorities[certificate authorities]
+
+// AMQ: Added "In Red Hat AMQ, a link is"
+[discrete]
+[[link]]
+==== image:images/yes.png[yes] link (noun)
+*Description*: In Red Hat AMQ, a link is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, link routing is"
+[discrete]
+[[link-routing]]
+==== image:images/yes.png[yes] link routing (noun)
+*Description*: In Red Hat AMQ, link routing is a routing mechanism in AMQ Interconnect. A link route is a set of links that represent a private message path between a sender and receiver. Link routes can traverse multiple brokers and routers. With link routing, a router makes a routing decision when it receives link-attach frames, and it enables the sender and receiver to use the full AMQP link protocol.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:message-routing[message routing]
 
 [discrete]
 [[linux]]
@@ -41,6 +136,30 @@
 *Use it*: yes
 
 *Incorrect forms*: LINUX, linux
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, a listener is"
+[discrete]
+[[listener]]
+==== image:images/yes.png[yes] listener (noun)
+*Description*: In Red Hat AMQ, a listener is a configurable entity for AMQ routers and messaging APIs. A listener defines a context for accepting multiple, incoming connections on a particular TCP address and port.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:connection[connection]
+
+// AMQ: Added "In Red Hat AMQ,"
+[discrete]
+[[live-only]]
+==== image:images/yes.png[yes] live-only (noun)
+*Description*: In Red Hat AMQ, live-broker is a broker high availability policy for scaling down brokers. If a live-only broker is shut down, its messages and transaction state are copied to another live broker.
+
+*Use it*: yes
+
+*Incorrect forms*: live only
 
 *See also*:
 
@@ -55,10 +174,34 @@
 
 *See also*:
 
+// EAP: General; kept as is
+[discrete]
+[[load-balance]]
+==== image:images/yes.png[yes] load balance (verb)
+*Description*: The compound verb "load balance" means to distribute processing requests among a set of servers.
+
+*Use it*: yes
+
+*Incorrect forms*: load-balance, load-balancing
+
+*See also*:
+
 [discrete]
 [[load-balancing]]
 ==== image:images/yes.png[yes] load balancing (noun)
 *Description*: "Load balancing" distributes processing and communications activity evenly across a computer network so that no single device is overwhelmed. Load balancing is especially important for networks, where it is difficult to predict the number of requests that might be issued to a server. Busy websites typically employ two or more web servers in a load-balancing scheme. If one server starts to get swamped, requests are forwarded to another server with more capacity. Load balancing can also refer to the communications channels themselves.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[logging]]
+==== image:images/yes.png[yes] logging subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "logging" subsystem is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -76,17 +219,6 @@
 *Incorrect forms*:
 
 *See also*: xref:physical-topology[physical topology], xref:signal-topology[signal-topology]
-
-[discrete]
-[[lookup-n]]
-==== image:images/caution.png[with caution] lookup (noun)
-*Description*: A "lookup" means an act of searching. The correct noun form is "lookup".
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:look-up-v[look up], xref:look-up-ad[look-up]
 
 [discrete]
 [[look-up-v]]
@@ -111,6 +243,17 @@
 *See also*: xref:look-up-v[look up], xref:lookup-n[lookup]
 
 [discrete]
+[[lookup-n]]
+==== image:images/caution.png[with caution] lookup (noun)
+*Description*: A "lookup" means an act of searching. The correct noun form is "lookup".
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:look-up-v[look up], xref:look-up-ad[look-up]
+
+[discrete]
 [[loopback-address]]
 ==== image:images/yes.png[yes] loopback address (noun)
 *Description*: The "loopback address" is a special IP address (127.0.0.1 for IPv4, ::1 for IPv6) that is designated for the software loopback interface of a machine. The loopback interface has no hardware associated with it, and it is not physically connected to a network. The loopback interface allows IT professionals to test IP software without worrying about broken or corrupted drivers or hardware.
@@ -129,5 +272,19 @@
 *Use it*: yes
 
 *Incorrect forms*:
+
+*See also*:
+
+// RHV: General; kept as is
+[discrete]
+[[lun]]
+==== image:images/yes.png[yes] LUN (noun)
+*Description*: A LUN (logical unit number) is a number used to identify a logical unit, which is a device addressed by the SCSI protocol, or Storage Area Network protocols which encapsulate SCSI, such as Fibre Channel or iSCSI.
+
+Always capitalize as shown, with the exception of UI content.
+
+*Use it*: yes
+
+*Incorrect forms*: Lun, lun
 
 *See also*:

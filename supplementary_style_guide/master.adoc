@@ -43,173 +43,115 @@ include::style_guidelines/links.adoc[leveloffset=+2]
 // Managed cloud services guidelines
 include::style_guidelines/managed-services.adoc[leveloffset=+1]
 
-
-
 [[glossary-terms-conventions]]
 == Glossary of terms and conventions
 
 This glossary is the central location for terms and conventions for technical language in Red Hat’s product documentation and other technical content.
 
-[[general-conventions]]
-=== General conventions
+=== A
 
-==== A
+include::glossary_terms_conventions/general_conventions/a.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/a.adoc[leveloffset=+1]
+=== B
 
-==== B
+include::glossary_terms_conventions/general_conventions/b.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/b.adoc[leveloffset=+1]
+=== C
 
-==== C
+include::glossary_terms_conventions/general_conventions/c.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/c.adoc[leveloffset=+1]
+=== D
 
-==== D
+include::glossary_terms_conventions/general_conventions/d.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/d.adoc[leveloffset=+1]
+=== E
 
-==== E
+include::glossary_terms_conventions/general_conventions/e.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/e.adoc[leveloffset=+1]
+=== F
 
-==== F
+include::glossary_terms_conventions/general_conventions/f.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/f.adoc[leveloffset=+1]
+=== G
 
-==== G
+include::glossary_terms_conventions/general_conventions/g.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/g.adoc[leveloffset=+1]
+=== H
 
-==== H
+include::glossary_terms_conventions/general_conventions/h.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/h.adoc[leveloffset=+1]
+=== I
 
-==== I
+include::glossary_terms_conventions/general_conventions/i.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/i.adoc[leveloffset=+1]
+=== J
 
-==== J
+include::glossary_terms_conventions/general_conventions/j.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/j.adoc[leveloffset=+1]
+=== K
 
-==== K
+include::glossary_terms_conventions/general_conventions/k.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/k.adoc[leveloffset=+1]
+=== L
 
-==== L
+include::glossary_terms_conventions/general_conventions/l.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/l.adoc[leveloffset=+1]
+=== M
 
-==== M
+include::glossary_terms_conventions/general_conventions/m.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/m.adoc[leveloffset=+1]
+=== N
 
-==== N
+include::glossary_terms_conventions/general_conventions/n.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/n.adoc[leveloffset=+1]
+=== O
 
-==== O
+include::glossary_terms_conventions/general_conventions/o.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/o.adoc[leveloffset=+1]
+=== P
 
-==== P
+include::glossary_terms_conventions/general_conventions/p.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/p.adoc[leveloffset=+1]
+=== Q
 
-==== Q
+include::glossary_terms_conventions/general_conventions/q.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/q.adoc[leveloffset=+1]
+=== R
 
-==== R
+include::glossary_terms_conventions/general_conventions/r.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/r.adoc[leveloffset=+1]
+=== S
 
-==== S
+include::glossary_terms_conventions/general_conventions/s.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/s.adoc[leveloffset=+1]
+=== T
 
-==== T
+include::glossary_terms_conventions/general_conventions/t.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/t.adoc[leveloffset=+1]
+=== U
 
-==== U
+include::glossary_terms_conventions/general_conventions/u.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/u.adoc[leveloffset=+1]
+=== V
 
-==== V
+include::glossary_terms_conventions/general_conventions/v.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/v.adoc[leveloffset=+1]
+=== W
 
-==== W
+include::glossary_terms_conventions/general_conventions/w.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/w.adoc[leveloffset=+1]
+=== X
 
-==== X
+include::glossary_terms_conventions/general_conventions/x.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/x.adoc[leveloffset=+1]
+=== Y
 
-==== Y
+include::glossary_terms_conventions/general_conventions/y.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/y.adoc[leveloffset=+1]
+=== Z
 
-==== Z
+include::glossary_terms_conventions/general_conventions/z.adoc[leveloffset=+0]
 
-include::glossary_terms_conventions/general_conventions/z.adoc[leveloffset=+1]
+=== Symbols
 
-==== Symbols
-
-include::glossary_terms_conventions/general_conventions/symbols.adoc[leveloffset=+1]
-
-[[product-specific-conventions]]
-=== Product-specific conventions
-
-include::glossary_terms_conventions/product_conventions/products_conventions_overview.adoc[leveloffset=+1]
-
-==== Azure and .NET Core
-include::glossary_terms_conventions/product_conventions/azure-dotnet.adoc[leveloffset=+1]
-
-==== Red Hat AMQ
-include::glossary_terms_conventions/product_conventions/amq7.adoc[leveloffset=+1]
-
-==== Red Hat Ceph Storage
-include::glossary_terms_conventions/product_conventions/ceph.adoc[leveloffset=+1]
-
-==== Red Hat CloudForms
-include::glossary_terms_conventions/product_conventions/red-hat-cloudforms.adoc[leveloffset=+1]
-
-==== Red Hat Directory Server
-include::glossary_terms_conventions/product_conventions/red-hat-directory-server.adoc[leveloffset=+1]
-
-==== Red Hat Data Grid
-include::glossary_terms_conventions/product_conventions/red-hat-data-grid.adoc[leveloffset=+1]
-
-==== Red Hat Enterprise Linux
-include::glossary_terms_conventions/product_conventions/red-hat-enterprise-linux.adoc[leveloffset=+1]
-
-==== Red Hat JBoss BRMS and Red Hat JBoss BPM Suite
-include::glossary_terms_conventions/product_conventions/bxms.adoc[leveloffset=+1]
-
-==== Red Hat JBoss Enterprise Application Platform
-include::glossary_terms_conventions/product_conventions/jboss-eap.adoc[leveloffset=+1]
-
-==== Red Hat JBoss Fuse
-include::glossary_terms_conventions/product_conventions/fuse.adoc[leveloffset=+1]
-
-==== Red Hat OpenShift
-include::glossary_terms_conventions/product_conventions/openshift.adoc[leveloffset=+1]
-
-==== Red Hat OpenShift Container Storage
-include::glossary_terms_conventions/product_conventions/openshift-container-storage.adoc[leveloffset=+1]
-
-==== Red Hat OpenStack Platform
-include::glossary_terms_conventions/product_conventions/red-hat-openstack-platform.adoc[leveloffset=+1]
-
-==== Red Hat Satellite 6
-include::glossary_terms_conventions/product_conventions/red-hat-satellite6.adoc[leveloffset=+1]
-
-==== Red Hat Single Sign-On
-include::glossary_terms_conventions/product_conventions/red-hat-single-sign-on.adoc[leveloffset=+1]
-
-==== Red Hat Virtualization
-include::glossary_terms_conventions/product_conventions/red-hat-virtualization.adoc[leveloffset=+1]
+include::glossary_terms_conventions/general_conventions/symbols.adoc[leveloffset=+0]

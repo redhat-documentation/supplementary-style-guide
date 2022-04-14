@@ -1,5 +1,6 @@
 [[openshift-conventions]]
 
+ // TODO: All terms (except "API objects") have been transferred to the general section. This file can be deleted if we don't want to include "API objects" guidance
 
 [discrete]
 [[action]]
@@ -12,6 +13,7 @@
 
 *See also*: xref:project[project], xref:verb[verb], xref:resource[resource]
 
+// TODO: Not moving "API objects" over since it's a writing guidance and not a term guidance??
 [discrete]
 [[api-objects]]
 ==== image:images/yes.png[yes] API objects (noun)
@@ -438,7 +440,7 @@ Ensure that you provide context about which type of quick start you are referrin
 
 *Incorrect forms*: OCM, Cluster Manager, the OpenShift Cluster Manager, the OpenShift Cluster Manager site
 
-*See also*: 
+*See also*:
 
 
 [discrete]

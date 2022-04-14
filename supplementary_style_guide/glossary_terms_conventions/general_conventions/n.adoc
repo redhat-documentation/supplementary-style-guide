@@ -1,3 +1,63 @@
+// OCP: Added "In Red Hat OpenShift, namespace is"
+[discrete]
+[[namespace]]
+==== image:images/caution.png[with caution] namespace (noun)
+*Description*: In Red Hat OpenShift, namespace is typically synonymous with project in OpenShift parlance, which is preferred.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:project[project]
+
+// OCS: General; kept as is
+[discrete]
+[[namespace-bucket]]
+==== namespace bucket (noun)
+*Description*: Namespace buckets enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCS: Added "In Red Hat OpenShift Container Storage, a namespace store is"
+[discrete]
+[[namespace-store]]
+==== namespace store (noun)
+*Description*: In Red Hat OpenShift Container Storage, a namespace store is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[naming]]
+==== image:images/yes.png[yes] naming subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "naming" subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[native-interface]]
+==== image:images/no.png[no] native interface (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. See the xref:management-cli[management CLI] entry for the correct usage.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:management-cli[management CLI]
+
 [discrete]
 [[need]]
 ==== image:images/yes.png[yes] need (verb)
@@ -18,6 +78,18 @@
 *Use it*: yes
 
 *Incorrect forms*: neighbour
+
+*See also*:
+
+// Azure: General; kept as is
+[discrete]
+[[dotnet]]
+==== image:images/yes.png[yes] .NET Core (noun)
+*Description*: Microsoft's newest development platform, ".NET Core", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile backends. All .NET Core applications can run on .NET Core or on the full .NET Framework. Always refer to it as .NET Core; all other variants are incorrect.
+
+*Use it*: yes
+
+*Incorrect forms*: dotNet Core, .Net Core, .NET, .Net
 
 *See also*:
 
