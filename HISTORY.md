@@ -4,6 +4,8 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [April 2022](#2022-april)
+* [March 2022](#2022-march)
 * [February 2022](#2022-february)
 * [January 2022](#2022-january)
 * [December 2021](#2021-december)
@@ -20,7 +22,21 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of February 23 2022 -->
+<!-- Updated as of April 25 2022 -->
+
+<a name="2022-april"></a>
+## April 2022
+
+* Added product-specific (OpenShift) glossary entry for [Red Hat OpenShift Cluster Manager](https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-openshift-cluster-manager)
+
+<a name="2022-march"></a>
+## March 2022
+
+* Updated product-specific terminology for [Red Hat OpenStack Platform](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_openstack_platform)
+* Updated product-specific terminology for [Red Hat Enterprise Linux](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_enterprise_linux_2)
+* Updated deprecation and removal notices in [release notes doc texts](https://redhat-documentation.github.io/supplementary-style-guide/#release-notes-doc-texts)
+* Updated product-specific terminology for [Red Hat Virtualization](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_virtualization)
+* Added product-specific terminology for [Red Hat Single Sign-On](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_single_sign_on)
 
 <a name="2022-february"></a>
 ## February 2022
