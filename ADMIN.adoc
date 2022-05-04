@@ -4,7 +4,7 @@
 
 Every 2 weeks a different project member assumes the role of repository administrator.
 Signing up to be an administrator is voluntary.
-To volunteer to be an administrator, contact Andrea Hoffer (link:https://github.com/bergerhoffer[@bergerhoffer]) or Stefan Sitani (link:https://github.com/inoxx03[@inoxx03]).
+To volunteer to be an administrator, contact Andrea Hoffer (link:https://github.com/bergerhoffer[@bergerhoffer]) or Miriam Portman (link:https://github.com/mportman12[@mportman12]).
 Each administrator rotation is marked on the Supplementary Style Guide shared calendar.
 Administrators receive a calendar notification when it is their turn.
 
