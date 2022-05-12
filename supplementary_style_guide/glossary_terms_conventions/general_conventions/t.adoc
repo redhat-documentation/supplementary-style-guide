@@ -109,6 +109,39 @@
 *See also*: xref:ttl[TTL], xref:time-to-live-n[time to live]
 
 [discrete]
+[[tls-description]]
+==== image:images/yes.png[yes] TLS (noun)
+*Description*: TLS is an initialism for Transport Layer Security (TLS), and it is the successor to the Secure Sockets Layer (SSL) protocol.
+
+TLS is a cryptographic protocol that uses the Public Key Infrastructure (PKI) method to encrypt network traffic between two systems. PKI uses asymmetric encryption during a TLS handshake process to authenticate the connection between two systems.
+
+Use "TLS" when referring to protocols that exchange cryptographic keys and secure network connections between two systems. Check for the latest version of the TLS protocol and, if necessary, contact a subject matter expert (SME) to verify the TLS version to note in product documentation.
+
+Use "SSL/TLS" in high-level documentation entries, such as headings, to establish context with encryption protocols.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ssl[SSL], xref:ssl-tls[SSL/TLS], xref:symmetric-encryption[symmetric encryption], xref:tls-handshake[TLS handshake], xref:trusted-certificate-authority[trusted certificate authority]
+
+
+[discrete]
+[[tls-handshake]]
+==== image:images/yes.png[yes] TLS handshake (noun)
+*Description*: The process of a client checking the validity of a certificate on a web server for authentication purposes.
+
+The following example demonstrates a TLS handshake process:
+
+A client requests a certificate from a web server. On receiving the certificate, the client checks that it trusts the certificate authority (CA) that issued the certificate. If the client trusts the CA, it generates a premaster secret and encrypts it by using the web server’s public key. The client sends the encrypted value to the web server. The web server decrypts the value by using its private key. Both client and web server calculate a shared session key by using the premaster secret and other values. Both client and web server then use the session key to encrypt any sent messages during the TLS session.
+
+*Use it*: yes
+
+*Incorrect forms*: SSL handshake
+
+*See also*: xref:tls-description[TLS], xref:symmetric-encryption[symmetric encryption], xref:trusted-certificate-authority[trusted certificate authority]
+
+[discrete]
 [[totally]]
 ==== image:images/no.png[no] totally (adverb)
 *Description*: Do not use "totally".
@@ -121,14 +154,16 @@
 
 [discrete]
 [[trusted-certificate-authority]]
-==== image:images/yes.png[yes] trusted Certificate Authority (noun)
-*Description*: A "trusted Certificate Authority" is a third party that creates SSL certificates (CA certificates) used for authentication. It is not to be confused with self-signed certificates. Note the capitalization of Certificate Authority, commonly abbreviated as CA.
+==== image:images/yes.png[yes] trusted certificate authority (noun)
+*Description*: A trusted certificate authority (CA) is a third-party entity that creates TLS certificates, known as CA certificates, for authentication purposes. A trusted CA is different from a self-signed certificate in that a self-signed certificate has its own private key and does not need to request a key from a public or private CA.
+
+A web server uses its public key to obtain a certificate from a trusted CA. The web server stores this certificate in a keystore. During the TLS handshake process, a client checks the validity of the certificate for authentication purposes.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: self-signed certificate
 
-*See also*:
+*See also*: xref:tls-description[TLS]
 
 [discrete]
 [[ttl]]
