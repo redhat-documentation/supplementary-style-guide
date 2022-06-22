@@ -32,6 +32,20 @@
 *See also*:
 
 [discrete]
+[[permission]]
+==== image:images/yes.png[yes] permission (noun)
+*Description*: A "permission" is a property of an object. The term is usually used in the context of file systems and their objects, such as files and directories.
+Permissions for an object determine which agents, such as a user group, are allowed to access the object and what they can do to that object, such as read, write, or modify it.
+
+When combined with privileges, permissions define a user's or resource's overall access to a system and what the system allows the user or resource to do.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:privilege[privilege]
+
+[discrete]
 [[persistent-storage]]
 ==== image:images/yes.png[yes] persistent storage (noun)
 *Description*: Persistent storage is a type of storage that preserves data even after the computer is turned off or after the process that created the data ends. A hard disk, tape, or flash memory are examples of persistent storage.
@@ -151,6 +165,23 @@
 *Incorrect forms*: Ppp, ppp
 
 *See also*:
+
+[discrete]
+[[privilege]]
+==== image:images/yes.png[yes] privilege (noun)
+*Description*: A "privilege" is a right granted to an agent to perform certain restricted actions. A user is one example of an agent.
+"Privilege" generally refers to an interaction of an agent with the system or with an application rather than with a file system and its objects.
+For example, a user might have privileges granted that allow that user to add or remove user accounts or to install applications.
+Use "privilege" in the context of system actions and the abilities of an agent, such as a user account, to perform non-object-specific tasks.
+
+When combined with permissions, privileges define an agent's overall access to a system and what the system allows the agent to do.
+
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:permission[permission]
 
 [discrete]
 [[prom]]
