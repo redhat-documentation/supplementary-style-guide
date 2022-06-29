@@ -4,75 +4,51 @@
 
 The following guidelines improve findability and search engine optimization.
 
-
-[[technical-best-practices]]
 .Technical best practices
 
-* Use standard hyperlinks:
-`href="http://www.same-domain.com/" title="Keyword Text">Keyword Text`
+* Use hyperlinks consistently.
 * Do not use non hyperlinks.
 * Do not use JavaScript links. 
 * Do not use Flash Links.
 * Do not use links in Frames or iframes.
 * Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
-* Search engines have a soft-cap of crawling around 150 links. Avoid over-linking and consider that the navigational links are crawlable too. 
+* Include links only when necessary.
 
-
-[[link-text-best-practices]]
 .Link text best practices
-* Contextually describe what the user will find at the target.
-* Contextually describe the content at the link location so that the user can decide if they want to leave their current location. 
+
+* Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location. 
 * Avoid irrelevant link text.
 * You can use a sentence or sentence fragment as the link text.
-
 
 
 
 [[internal-links]]
 == Internal links
 
-
-.Benefits of internal linking
-* Users first: Allows users to navigate intuitively.
-* Allows Google to understand architecture of the site.
-* Establishes a quantifiable pathway to recognize topical expertise.
-* Increases site visitation time.
-* Helps Google crawl your site.
-* Builds relevancy and ranking signals for keywords and topics.
-* Builds citation or helps users add context.
+Internal links are links within www.redhat.com.
 
 You can use one of the following example link structures for consistency.
 
 .Example AsciiDoc for internal links
 ----
-For more information about <topic>, see <link>/<xref>[<link_text>].
-----
-----
-For more information, see <link>/<xref>[<link_text>].
+For more information about <topic>, see xref:<link>[<link_text>].
 ----
 
+To link to a separate user story:
+----
+For more information about <topic>, see link:<link>[<link_text>] in _<title_name>_.
+----
 
 
 [[external-links]]
 == External links
 
+External links are links to a domain other than www.redhat.com.
+
+You can use the following example link structure for consistency.
 
 .Example AsciiDoc for external links
-You can use the following example link structures for consistency.
-
-
-To link to a particular module or section:
 ----
-For more information about <topic>, see <link>[<link_text>], in the <_title_name_> guide.
-----
-----
-For more information, see <link>[<link_text>], in the _<title_name>_ guide.
+For more information about <topic>, see link:<link>[<link_text>].
 ----
 
-To link to an entire guide or index of a user story:
-----
-For more information about <topic>, see the <link>[_<title_name>_] guide.
-----
-----
-For more information, see the <link>[_<title_name>_] guide.
-----
