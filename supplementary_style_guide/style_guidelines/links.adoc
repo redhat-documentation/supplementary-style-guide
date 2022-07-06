@@ -9,7 +9,7 @@ The following guidelines improve findability and search engine optimization.
 * Use hyperlinks consistently.
 * Do not use non hyperlinks.
 * Do not use JavaScript links. 
-* Do not use Flash Links.
+* Do not use Flash links.
 * Do not use links in Frames or iframes.
 * Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
 * Include links only when necessary.
