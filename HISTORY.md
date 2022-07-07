@@ -4,6 +4,8 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [June 2022](#2022-june)
+* [May 2022](#2022-may)
 * [April 2022](#2022-april)
 * [March 2022](#2022-march)
 * [February 2022](#2022-february)
@@ -22,7 +24,18 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of April 25 2022 -->
+<!-- Updated as of July 6 2022 -->
+
+<a name="2022-june"></a>
+## June 2022
+
+* Added glossary entries for [permission](https://redhat-documentation.github.io/supplementary-style-guide/#permission) and [privilege](https://redhat-documentation.github.io/supplementary-style-guide/#privilege)
+
+<a name="2022-may"></a>
+## May 2022
+
+* Added glossary entries for [TLS](https://redhat-documentation.github.io/supplementary-style-guide/#tls-description) and [TLS handshake](https://redhat-documentation.github.io/supplementary-style-guide/#tls-handshake)
+* Updated guidance for [SSL/TLS](https://redhat-documentation.github.io/supplementary-style-guide/#ssl-tls)
 
 <a name="2022-april"></a>
 ## April 2022
