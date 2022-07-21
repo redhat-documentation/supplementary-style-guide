@@ -6,13 +6,13 @@ The following guidelines improve findability and search engine optimization.
 
 .Technical best practices
 
-* Use hyperlinks consistently.
-* Do not use non hyperlinks.
+* Include links only when necessary.
+* Use hyperlinks and use them consistently.
 * Do not use JavaScript links. 
 * Do not use Flash links.
 * Do not use links in Frames or iframes.
 * Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
-* Include links only when necessary.
+
 
 .Link text best practices
 
@@ -27,27 +27,44 @@ The following guidelines improve findability and search engine optimization.
 
 Internal links are links within www.redhat.com.
 
-You can use one of the following example link structures for consistency.
-
-.Example AsciiDoc for internal links
+.Example AsciiDoc: Internal links
 ----
 For more information about <topic>, see xref:<link>[<link_text>].
 ----
 
-To link to a separate user story:
+To link to another guide or to a user story within the same guide:
 ----
 For more information about <topic>, see link:<link>[<link_text>] in _<title_name>_.
 ----
+
+[[rh-kb-links]]
+=== Linking to Red Hat Knowledgebase articles
+
+* Use the title of the Knowledgebase article for the link text, or use descriptive running text.
+* Call out that this is a Knowledgebase article when _not_ using running text.
+* When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase)`.
+
+
+.Example: Article title
+
+For a non-cloud environment, you can resize the disk and file system. For more information, see the Red Hat Knowledgebase solution link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?].
+
+.Example: Running text
+
+If your Apache web server configuration enables SSL security, verify that you enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This is because of the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
+
+.Example: Additional resources
+
+* link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?] (Red Hat Knowledgebase)
+
 
 
 [[external-links]]
 == External links
 
-External links are links to a domain other than www.redhat.com.
+External links are links to a domain other than www.redhat.com. Include links to external sites only when necessary. External links can change or be unreliable.
 
-You can use the following example link structure for consistency.
-
-.Example AsciiDoc for external links
+.Example AsciiDoc: External links
 ----
 For more information about <topic>, see link:<link>[<link_text>].
 ----
