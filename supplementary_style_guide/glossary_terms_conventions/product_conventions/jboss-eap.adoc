@@ -1,5 +1,7 @@
 [[red-hat-jboss-eap-conventions]]
 
+ // TODO: All terms have been transferred to the general section. This file can be deleted.
+
 // ***********************
 // Terms starting with 'A'
 // ***********************
@@ -551,6 +553,7 @@
 // Terms starting with 'R'
 // ***********************
 
+// TODO: Already exists in the general section; not adding in again
 [discrete]
 [[red-hat-amq]]
 ==== image:images/yes.png[yes] Red Hat AMQ (noun)

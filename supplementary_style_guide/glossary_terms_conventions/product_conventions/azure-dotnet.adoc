@@ -1,3 +1,5 @@
+// TODO: All terms have been transferred to the general section. This file can be deleted.
+
 [discrete]
 [[cli]]
 ==== image:images/yes.png[yes] Azure CLI 2.0 (noun)

@@ -33,6 +33,18 @@ Use lowercase "v" and uppercase "CPU".
 
 *See also*:
 
+// OCP: Added "In Red Hat OpenShift, a verb is"
+[discrete]
+[[verb]]
+==== image:images/yes.png[yes] verb (noun)
+*Description*: In Red Hat OpenShift, a verb is a get, list, create, or update operation.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:action[action], xref:project[project]
+
 [discrete]
 [[verify]]
 ==== image:images/yes.png[yes] verify (verb)
@@ -125,10 +137,34 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 
 *See also*: xref:virtual-floppy-disk[virtual floppy disk]
 
+// Azure: General; kept as is for the most part. Did have an Azure-specific sentence that I moved "In Microsoft Azure" to the beginning.
+[discrete]
+[[vhd]]
+==== image:images/yes.png[yes] virtual hard drive (noun)
+*Description*: A "virtual hard drive" (VHD) is file format that represents a virtual hard disk drive (HDD). It contains elements typically found on a physical HDD, such as disk partitions and a file system, which in turn can contain files and folders. VHD files have the extension `.vhd`. In Microsoft Azure, VHD is the required image format for all virtual machine images. Do not use virtual hard disk as a synonym.
+
+*Use it*: yes
+
+*Incorrect forms*: virtual hard disk
+
+*See also*:
+
 [discrete]
 [[virtual-machine]]
 ==== image:images/yes.png[yes] virtual machine (noun)
 *Description*: "Virtual machine" refers to virtual hardware that consists of virtual CPUs, memory, devices, and so on. Do not use "guest virtual machine" unless you want to specifically emphasize the fact that it is a guest. Virtual machine can be abbreviated to "VM" as long as the term has been introduced in the same content in its full version first and provided there is no possibility of confusion with other terms, such as "virtual memory". Author discretion is recommended.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// CloudForms: Added "In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the"
+[discrete]
+[[virtual-management-database]]
+==== image:images/yes.png[yes] Virtual Management Database (VMDB) (noun)
+*Description*: In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use Virtual Management Database (VMDB) in the first instance and VMDB in subsequent instances.
 
 *Use it*: yes
 
@@ -179,6 +215,20 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 *Incorrect forms*: vlan, vLAN
 
 *See also*:
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[vm-portal]]
+==== image:images/yes.png[yes] VM Portal (noun)
+*Description*: In Red Hat Virtualization, the VM Portal is a graphical user interface provided by the Red Hat Virtualization Manager. It has limited permissions for managing virtual machine resources and is targeted at end users.
+
+Always use "VM Portal" and capitalize the product name.
+
+*Use it*: yes
+
+*Incorrect forms*: VM portal, vm portal, Virtual Machine Portal, User Portal
+
+*See also*: xref:administration-portal[Administration Portal]
 
 [discrete]
 [[vnic]]

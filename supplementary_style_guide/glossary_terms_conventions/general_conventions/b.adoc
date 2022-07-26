@@ -1,7 +1,31 @@
+// OCS: Added "In Red Hat OpenShift Container Storage, a backing store..."
+[discrete]
+[[backing-store]]
+==== backing store (noun)
+*Description*: In Red Hat OpenShift Container Storage, a backing store is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[backtrace]]
 ==== image:images/yes.png[yes] backtrace (noun)
 *Description*: "Backtrace" is another name for "stack trace" (or "stack backtrace"), which is a report of the active stack frames (function calls) at a certain point in time during the execution of a program. The Python programming language uses the term "traceback", possibly because the stack frames are printed in the opposite order of those presented by gdb, the GNU Debugger. "Traceback" is the preferred term when referring to a Python stack trace.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite"
+[discrete]
+[[backward-chaining]]
+==== image:images/yes.png[yes] backward chaining (verb)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "backward chaining" is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat JBoss BRMS is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
 
 *Use it*: yes
 
@@ -42,12 +66,48 @@
 
 *See also*: xref:bare-metal-n[bare metal (noun)]
 
+// RHDS: General; kept as is
+[discrete]
+[[base-dn]]
+==== image:images/yes.png[yes] base DN (noun)
+*Description*: In an LDAP directory, the base distinguished name (DN) defines the starting point for operations, such as searches.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:distinguished-name[distinguished name]
+
 [discrete]
 [[basically]]
 ==== image:images/no.png[no] basically (adverb)
 *Description*: "Basically" is another term for "in principle" or "fundamentally".
 
 *Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[batch-jberet]]
+==== image:images/yes.png[yes] batch-jberet subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "batch-jberet" subsystem is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the batch-jberet subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[bean-validation]]
+==== image:images/yes.png[yes] bean-validation subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "bean-validation" subsystem is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the bean-validation subsystem in titles and headings.
+
+*Use it*: yes
 
 *Incorrect forms*:
 
@@ -89,17 +149,6 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 *See also*:
 
 [discrete]
-[[biweekly]]
-==== image:images/yes.png[yes] biweekly (adverb)
-*Description*: "Biweekly" means every other week.
-
-*Use it*: yes
-
-*Incorrect forms*: bi-weekly
-
-*See also*:
-
-[discrete]
 [[bind]]
 ==== image:images/yes.png[yes] BIND (noun)
 *Description*: Use "BIND" when referring to the DNS software.
@@ -109,6 +158,18 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 *Incorrect forms*: Bind, bind
 
 *See also*:
+
+// RHDS: General; kept as is
+[discrete]
+[[bind-dn]]
+==== image:images/yes.png[yes] bind DN (noun)
+*Description*: A distinguished name (DN) defines the unique location of an entry in the LDAP directory. You can use the DN of an entry to bind (authenticate) to an LDAP directory. The bind DN is similar to a user name in other systems.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:distinguished-name[distinguished name]
 
 [discrete]
 [[bios]]
@@ -120,6 +181,41 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 *Incorrect forms*: Bios
 
 *See also*:
+
+[discrete]
+[[biweekly]]
+==== image:images/yes.png[yes] biweekly (adverb)
+*Description*: "Biweekly" means every other week.
+
+*Use it*: yes
+
+*Incorrect forms*: bi-weekly
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[blueprint]]
+==== image:images/yes.png[yes] blueprint (noun)
+*Description*: In Red Hat Enterprise Linux, blueprints are simple text files in Tom's Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
+
+*Use it*: yes
+
+*Incorrect forms*: blue print, BluePrint
+
+*See also*:
+
+// Ceph: Added "In Red Hat Ceph Storage,"
+[discrete]
+[[bluestore]]
+==== image:images/yes.png[yes] BlueStore (noun)
+*Description*: In Red Hat Ceph Storage, BlueStore is an OSD back end that uses block devices directly.
+
+*Use it*: yes
+
+*Incorrect forms*: bluestore, Blue Store
+
+*See also*: xref:filestore[FileStore], xref:object-store[Object Store]
 
 [discrete]
 [[boot-disk]]
@@ -209,6 +305,54 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 
 *See also*: xref:broadcast-n[broadcast (noun)]
 
+// AMQ: General; kept as is
+[discrete]
+[[broker-cluster]]
+==== image:images/yes.png[yes] broker cluster (noun)
+*Description*: A group of brokers to be grouped together in order to share message processing load. In JBoss A-MQ 6, this was called a _network of brokers_.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, broker distribution is"
+[discrete]
+[[broker-distribution]]
+==== image:images/yes.png[yes] broker distribution (noun)
+*Description*: In Red Hat AMQ, broker distribution is the platform-independent AMQ Broker archive containing the product binaries and libraries.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:amq-broker[AMQ Broker], xref:broker-instance[broker instance]
+
+// AMQ: Added "In Red Hat AMQ, a broker instance is"
+[discrete]
+[[broker-instance]]
+==== image:images/yes.png[yes] broker instance (noun)
+*Description*: In Red Hat AMQ, a broker instance is a configurable instance of AMQ Broker. Each broker instance is a separate directory containing its own runtime and configuration data. Use this term to refer to the instance, not the product.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:amq-broker[AMQ Broker], xref:broker-distribution[broker distribution]
+
+// AMQ: General; kept as is
+[discrete]
+[[brokered-messaging]]
+==== image:images/yes.png[yes] brokered messaging (noun)
+*Description*: Any messaging configuration that uses a message broker to deliver messages to destinations. Brokered messaging can include brokers only, or a combination of brokers and routers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[btrfs]]
 ==== image:images/yes.png[yes] Btrfs (noun)
@@ -219,6 +363,42 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 *Incorrect forms*: btrfs
 
 *See also*:
+
+// Ceph: General; kept as is
+[discrete]
+[[bucket]]
+==== image:images/yes.png[yes] bucket (noun)
+*Description*: 1) A bucket in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a "container" in the Swift API. 2) The term bucket is also sometimes used in the context of a CRUSH hierarchy, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:container[container]
+
+// Ceph: General; kept as is
+[discrete]
+[[bucket-index]]
+==== image:images/yes.png[yes] bucket index (noun)
+*Description*: A bucket index in the S3 API contains an index of objects within the bucket. The bucket index enables listing the bucket's contents.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// Ceph: General; kept as is
+[discrete]
+[[bucket-sharding]]
+==== image:images/yes.png[yes] bucket sharding (noun)
+*Description*: Bucket sharding is a process of breaking down a bucket index into smaller more manageable shards. Bucket sharding improves performance.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:shard-n[shard]
 
 [discrete]
 [[bug-fix]]
@@ -231,6 +411,30 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 
 *See also*:
 
+// OCP: General; kept as is
+[discrete]
+[[build]]
+==== image:images/yes.png[yes] build (noun)
+*Description*: The process of transforming input parameters into a resulting object. Most often, the process is used to transform input parameters or source code into a runnable image.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift,"
+[discrete]
+[[build-configuration]]
+==== image:images/yes.png[yes] build config (noun)
+*Description*: In Red Hat OpenShift, a build config describes a single build definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:build[build]
+
 [discrete]
 [[built-in]]
 ==== image:images/yes.png[yes] built-in (adjective)
@@ -239,5 +443,65 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 *Use it*: yes
 
 *Incorrect forms*: builtin, built in
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed "in JBoss EAP" later
+[discrete]
+[[built-in-messaging]]
+==== image:images/yes.png[yes] built-in messaging (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, "built-in messaging" is an acceptable term for referring to the built-in messaging system. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
+
+*Use it*: yes
+
+*Incorrect forms*: ActiveMQ, ActiveMQ Artemis
+
+*See also*: xref:jboss-eap-built-in-messaging[JBoss EAP built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite," and removed from later in the sentence
+[discrete]
+[[business-central]]
+==== image:images/yes.png[yes] Business Central (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Business Central" is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
+
+*Use it*: yes
+
+*Incorrect forms*: Central, BC
+
+*See also*:
+
+// BxMS: General; kept as is
+[discrete]
+[[business-process]]
+==== image:images/yes.png[yes] business process (noun)
+*Description*: A "business process" is a collection of related, structured tasks that results in achieving a specific target. It is presented as as a flowchart comprising a sequence steps necessary to achieve business goals.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[business-resource-planner]]
+==== image:images/yes.png[yes] Business Resource Planner (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Business Resource Planner" is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
+
+*Use it*: yes
+
+*Incorrect forms*: Resource Planner, Planner
+
+*See also*:
+
+// BxMS: General; kept as is
+[discrete]
+[[business-rule]]
+==== image:images/yes.png[yes] business rule (noun)
+*Description*: A "business rule" defines a particular aspect of a business that is intended to assert business structure or influence the behaviour of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:

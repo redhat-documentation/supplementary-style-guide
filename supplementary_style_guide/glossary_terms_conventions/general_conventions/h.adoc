@@ -33,6 +33,26 @@
 // TODO: Added link to she. Still need to add link to you
 *See also*: xref:she[she]
 
+// RHV: Added "In Red Hat Virtualization," and added blank line so that first bullet rendered
+[discrete]
+[[header-bar]]
+==== image:images/yes.png[yes] header bar (noun)
+*Description*: Added "In Red Hat Virtualization, the header bar contains the following buttons:
+
+*  collapse/expand text labels in the side bar
+* *Bookmarks*
+* *Tags*
+* *Tasks*
+* *Events and alerts*
+* *Help*/*About*
+* Currently logged in user, SSH key *Options*.
+
+*Use it*: yes
+
+*Incorrect forms*: title bar
+
+*See also*:
+
 [discrete]
 [[health-check]]
 ==== image:images/yes.png[yes] health check (noun)
@@ -66,16 +86,19 @@
 
 *See also*:
 
+// RHEL: Added "In Red Hat Enterprise Linux,"
 [discrete]
-[[high-availability]]
-==== image:images/yes.png[yes] high-availability (adjective)
-*Description*: Use "high-availability" to describe an object that is continuously available, for example, "high-availability cluster".
+[[hidden-replica]]
+==== image:images/yes.png[yes] hidden replica (noun)
+*Description*: In Red Hat Enterprise Linux, a hidden replica is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
+
+Hidden replicas are primarily designed for services such as backups, bulk importing and exporting, or actions that require shutting down IdM services. Since no clients use a hidden replica, administrators can temporarily shut down the services on this host without affecting any clients.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:high-availability-noun[high availability]
+*See also*: xref:dns-srv-records[DNS SRV records]
 
 [discrete]
 [[high-availability-noun]]
@@ -89,6 +112,17 @@
 *See also*: xref:high-availability[high-availability]
 
 [discrete]
+[[high-availability]]
+==== image:images/yes.png[yes] high-availability (adjective)
+*Description*: Use "high-availability" to describe an object that is continuously available, for example, "high-availability cluster".
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:high-availability-noun[high availability]
+
+[discrete]
 [[high-performance-computing]]
 ==== image:images/yes.png[yes] high-performance computing (noun)
 *Description*: "High-performance computing" is the use of parallel processing to obtain much more efficient processing of complex programs. Use standard hyphenation guidelines to maintain clarity.
@@ -98,6 +132,19 @@
 *Incorrect forms*:
 
 *See also*:
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[host-rhv]]
+==== image:images/yes.png[yes] host (noun)
+*Description*: In Red Hat Virtualization, hosts are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
+Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or "virtualization host". When referring to a specific type of host, use "Red Hat Enterprise Linux host" or "Red Hat Virtualization Host".
+
+*Use it*: yes
+
+*Incorrect forms*: hypervisor, hypervisor host, virtualization host
+
+*See also*: xref:red-hat-enterprise-linux-host[Red Hat Enterprise Linux host], xref:red-hat-virtualization-host[Red Hat Virtualization Host]
 
 [discrete]
 [[host-group]]
@@ -109,6 +156,18 @@
 *Incorrect forms*: hostgroup
 
 *See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux, the host system is"
+[discrete]
+[[host-system]]
+==== image:images/yes.png[yes] host system (noun)
+*Description*: In Red Hat Enterprise Linux, the host system is the system on which the instrumentation modules, from SystemTap scripts, are compiled, to be loaded on target systems.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:target-system[target system]
 
 [discrete]
 [[hot-add]]
@@ -122,17 +181,6 @@
 *See also*: xref:hot-plug[hot plug], xref:hot-swap[hot swap]
 
 [discrete]
-[[hotline]]
-==== image:images/yes.png[yes] hotline (noun)
-*Description*: A "hotline" is a direct communications link between two points in which communications are automatically directed to a specific destination without the need for additional routing.
-
-*Use it*: yes
-
-*Incorrect forms*: hot-line
-
-*See also*:
-
-[discrete]
 [[hot-plug]]
 ==== image:images/yes.png[yes] hot plug (verb)
 *Description*: "Hot plug" is the ability to add or remove physical or virtual hardware to or from a running system without the need for downtime.
@@ -142,6 +190,18 @@
 *Incorrect forms*: hotplug, hot-plug
 
 *See also*: xref:hot-add[hot add], xref:hot-swap[hot swap]
+
+// Data Grid: Added "In Red Hat Data Grid," and removed "used in Red Hat Data Grid"
+[discrete]
+[[hot-rod]]
+==== image:images/yes.png[yes] Hot Rod (adjective)
+*Description*: In Red Hat Data Grid, Hot Rod is a binary TCP client-server protocol. Java, C#, C++, Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
+
+*Use it*: yes
+
+*Incorrect forms*: hot rod, HotRod, hotrod
+
+*See also*:
 
 [discrete]
 [[hot-swap]]
@@ -153,6 +213,17 @@
 *Incorrect forms*: hotswap, hot-swap
 
 *See also*: xref:hot-add[hot add], xref:hot-plug[hot plug]
+
+[discrete]
+[[hotline]]
+==== image:images/yes.png[yes] hotline (noun)
+*Description*: A "hotline" is a direct communications link between two points in which communications are automatically directed to a specific destination without the need for additional routing.
+
+*Use it*: yes
+
+*Incorrect forms*: hot-line
+
+*See also*:
 
 [discrete]
 [[hp-proliant]]
@@ -176,16 +247,29 @@
 
 *See also*:
 
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed the definition in the first sentence; just kept the guidance on not using it
 [discrete]
-[[huge-page]]
-==== image:images/yes.png[yes] huge-page (adjective)
-*Description*: Use "huge-page" when referring to page sizes on Linux-based systems larger than the default size of 4096 bytes. Normal hyphenation rules apply. See xref:huge-page-noun[huge page] for capitalization rules.
+[[http-interface]]
+==== image:images/no.png[no] HTTP interface (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. See the xref:management-console[management console] entry for the correct usage.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:management-console[management console]
+
+// RHDS: General; kept as is
+[discrete]
+[[hub]]
+==== image:images/yes.png[yes] hub (noun)
+*Description*: In an LDAP replication environment, hubs receive data from a supplier and replicate the data to consumers.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:huge-page-noun[huge page (noun)]
+*See also*: xref:consumer[consumer]
 
 [discrete]
 [[huge-page-noun]]
@@ -199,6 +283,17 @@
 *See also*: xref:huge-page[huge-page (adjective)]
 
 [discrete]
+[[huge-page]]
+==== image:images/yes.png[yes] huge-page (adjective)
+*Description*: Use "huge-page" when referring to page sizes on Linux-based systems larger than the default size of 4096 bytes. Normal hyphenation rules apply. See xref:huge-page-noun[huge page] for capitalization rules.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:huge-page-noun[huge page (noun)]
+
+[discrete]
 [[hyper-threading]]
 ==== image:images/yes.png[yes] Hyper-Threading (noun)
 *Description*: "Hyper-Threading" is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT".
@@ -208,6 +303,18 @@
 *Incorrect forms*: hyperthreading, hyper-threading
 
 *See also*:
+
+// Azure: Added "In the Microsoft Windows operating system"
+[discrete]
+[[hyperv]]
+==== image:images/yes.png[yes] Hyper-V (noun)
+*Description*: In the Microsoft Windows operating system, "Hyper-V" is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:hypervisor[hypervisor]
 
 [discrete]
 [[hyperconverged]]

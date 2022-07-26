@@ -7,6 +7,7 @@ Upstream references: {openstack-glossary}
 
 For documentation questions, contact rhos-docs@redhat.com.
 
+// TODO: All terms (except "OpenStack services") have been transferred to the general section. This file can be deleted if we don't want to include "OpenStack services"
 
 [discrete]
 [[director]]

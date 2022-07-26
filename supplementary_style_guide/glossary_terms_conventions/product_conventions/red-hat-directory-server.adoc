@@ -2,6 +2,8 @@
 
 For documentation questions, contact rhel-docs@redhat.com.
 
+// TODO: All terms have been transferred to the general section. This file can be deleted.
+
 [discrete]
 [[access-control-instruction]]
 ==== image:images/yes.png[yes] access control instruction (noun)
@@ -86,9 +88,9 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[hub]]
@@ -97,7 +99,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:consumer-rhds[consumer]
 
@@ -130,7 +132,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Use it*: no
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:supplier[supplier]
 
@@ -148,7 +150,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 [discrete]
 [[objectclass]]
 ==== image:images/yes.png[yes] objectClass (noun)
-*Description*: The objectClass attribute in an LDAP entry stores the object classes of this entry. 
+*Description*: The objectClass attribute in an LDAP entry stores the object classes of this entry.
 
 *Use it*: yes
 
@@ -174,9 +176,9 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[slave]]
@@ -185,7 +187,7 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Use it*: no
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:consumer-rhds[consumer], xref:hub[hub]
 
@@ -218,9 +220,9 @@ For documentation questions, contact rhel-docs@redhat.com.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
-*See also*: 
+*See also*:
 
 [discrete]
 [[supplier]]

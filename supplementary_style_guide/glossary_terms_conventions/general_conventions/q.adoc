@@ -20,6 +20,30 @@
 
 *See also*: xref:kvm[KVM]
 
+// AMQ: Added "In Red Hat AMQ, qdmanage is"
+[discrete]
+[[qdmanage]]
+==== image:images/yes.png[yes] qdmanage (noun)
+*Description*: In Red Hat AMQ, qdmanage is a generic AMQP management client used for managing AMQ Interconnect.
+
+*Use it*: yes
+
+*Incorrect forms*: Qdmanage, QDMANAGE
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, qdstat is"
+[discrete]
+[[qdstat]]
+==== image:images/yes.png[yes] qdstat (noun)
+*Description*: In Red Hat AMQ, qdstat is a management client used for monitoring the status of an AMQ Interconnect router network.
+
+*Use it*: yes
+
+*Incorrect forms*: Qdstat, QDSTAT
+
+*See also*:
+
 [discrete]
 [[qeth]]
 ==== image:images/yes.png[yes] qeth (adjective)
@@ -28,6 +52,35 @@
 *Use it*: yes
 
 *Incorrect forms*: Qeth, QETH
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, a queue is"
+[discrete]
+[[queue]]
+==== image:images/yes.png[yes] queue (noun)
+*Description*: In Red Hat AMQ, a queue is a stored sequence of messages. In AMQ, queues are hosted on brokers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift," and removed from later
+[discrete]
+[[quick-start]]
+==== image:images/yes.png[yes] quick start (noun)
+*Description*: In Red Hat OpenShift, there are two types of quick starts:
+
+* Quick starts that provide a guided tutorial in the web console.
+* Quick start templates that enable users to start creating new applications quickly.
+
+Ensure that you provide context about which type of quick start you are referring to.
+
+*Use it*: yes
+
+*Incorrect forms*: quickstart, Quickstart
 
 *See also*:
 

@@ -1,3 +1,75 @@
+// OCS: General; kept as is
+[discrete]
+[[object-bucket]]
+==== object bucket (noun)
+*Description*: A container to store objects.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCS: General; kept as is
+[discrete]
+[[object-bucket-claim]]
+==== object bucket claim (noun)
+*Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use object bucket claim to request an AWS S3 compatible bucket for the workloads.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHDS: General; kept as is
+[discrete]
+[[object-class]]
+==== image:images/yes.png[yes] object class (noun)
+*Description*: Object classes in an entry control which attributes are optional and which are required. Write as two words when you refer to object classes in general.
+
+*Use it*: yes
+
+*Incorrect forms*: objectClass
+
+*See also*: xref:objectclass[objectClass]
+
+// Ceph: Added "In Red Hat Ceph Storage, Object Storage Device is"
+[discrete]
+[[object-storage-device]]
+==== image:images/yes.png[yes] Object Storage Device (noun)
+*Description*: In Red Hat Ceph Storage, Object Storage Device is a storage drive in a Ceph Storage Cluster. Do not confuse Object Storage Device with the Ceph OSD, which is the `ceph-osd` daemon and the underlying data disk.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ceph-osd[ceph-osd], xref:osd[OSD], xref:osd-daemon[OSD daemon]
+
+// Ceph: Added "In Red Hat Ceph Storage, Object Store is"
+[discrete]
+[[object-store]]
+==== image:images/yes.png[yes] Object Store (noun)
+*Description*: In Red Hat Ceph Storage, Object Store is a core component of the Ceph Storage Cluster. Also referred as RADOS.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:rados[RADOS]
+
+// RHDS: General; kept as is
+[discrete]
+[[objectclass]]
+==== image:images/yes.png[yes] objectClass (noun)
+*Description*: The objectClass attribute in an LDAP entry stores the object classes of this entry.
+
+*Use it*: yes
+
+*Incorrect forms*: object class, objectclass
+
+*See also*: xref:object-class[object class]
+
 [discrete]
 [[objective-c]]
 ==== image:images/yes.png[yes] Objective C (noun)
@@ -42,6 +114,18 @@
 
 *See also*:
 
+// OCP: General; kept as is
+[discrete]
+[[okd]]
+==== image:images/yes.png[yes] OKD (noun)
+*Description*: The name of the open source, upstream project of OpenShift Container Platform (previously known as OpenShift Origin before August 3, 2018). OKD is a distribution of Kubernetes optimized for continuous application development and multitenant deployment. Officially, the initialism does not stand for anything.
+
+*Use it*: yes
+
+*Incorrect forms*: O.K.D., okd, OpenShift Kubernetes Distribution, OpenShift Origin
+
+*See also*:
+
 [discrete]
 [[omit]]
 ==== image:images/yes.png[yes] omit (verb)
@@ -65,6 +149,17 @@
 *See also*: xref:onboard[onboard]
 
 [discrete]
+[[on-premise]]
+==== image:images/caution.png[with caution] on-premise (adjective)
+*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise".
+
+*Use it*: with caution
+
+*Incorrect forms*: on premise, on-premises, on-prem
+
+*See also*:
+
+[discrete]
 [[onboard]]
 ==== image:images/caution.png[with caution] onboard (verb)
 *Description*: "Onboard" is usually used to describe the process of introducing a new employee to the company.
@@ -85,17 +180,6 @@
 *Incorrect forms*:
 
 *See also*: xref:offline-backup[offline backup]
-
-[discrete]
-[[on-premise]]
-==== image:images/caution.png[with caution] on-premise (adjective)
-*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise".
-
-*Use it*: with caution
-
-*Incorrect forms*: on premise, on-premises, on-prem
-
-*See also*:
 
 [discrete]
 [[opcodes]]
@@ -131,14 +215,89 @@
 
 *See also*:
 
+// OCP: General; kept as is;
 [discrete]
-[[opex]]
-==== image:images/yes.png[yes] OpEx (noun)
-*Description*: "OpEx" is an abbreviation of "operating expenses".
+[[openshift]]
+==== image:images/yes.png[yes] OpenShift (noun)
+*Description*: The OpenShift product name should be paired with its product distribution or variant name whenever possible. For example:
+
+- OpenShift Container Platform
+- OpenShift Online
+- OpenShift Dedicated
+- OpenShift Kubernetes Engine
+
+Previously, the upstream distribution was called OpenShift Origin, however it is now called OKD; use of the OpenShift Origin name is deprecated.
+
+Avoid using the name "OpenShift" on its own when referring to something that applies to all distributions, as OKD does not have OpenShift in its name. However, the following components currently use "OpenShift" in the name and are allowed for use across all distribution documentation:
+
+- OpenShift Ansible Broker (deprecated in 4.2 / removed in 4.4)
+- OpenShift Pipeline
+- OpenShift SDN
+
+*Use it*: yes, as described above
+
+*Incorrect forms*:
+
+*See also*: xref:okd[OKD]
+
+// OCP: Added "In Red Hat OpenShift,"
+[discrete]
+[[openshift-cli]]
+==== image:images/yes.png[yes] OpenShift CLI (noun)
+*Description*: In Red Hat OpenShift, the `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
 
 *Use it*: yes
 
-*Incorrect forms*: Opex, Opex, OPEX, opEx
+*Incorrect forms*:
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift, the OpenShift Container Registry is" and removed OCP from later in the sentence
+[discrete]
+[[openshift-container-registry]]
+==== image:images/yes.png[yes] OpenShift Container Registry (noun)
+*Description*: In Red Hat OpenShift, the OpenShift Container Registry is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:container-registry[container registry], xref:red-hat-container-catalog[Red Hat Container Catalog]
+
+// OCP: General; kept as is
+// TODO: This term is outdated anyway and should be removed in a future update
+[discrete]
+[[openshift-master]]
+==== image:images/yes.png[yes] OpenShift master (noun)
+*Description*: Provides a REST endpoint for interacting with the system and manages the state of the system, ensuring that all containers expected to be running are actually running and that other requests such as builds and deployments are serviced. New deployments and configurations are created with the REST API, and the state of the system can be interrogated through this endpoint as well. An OpenShift master comprises the API server, scheduler, and SkyDNS.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:endpoint[endpoint], xref:api-server[API server], xref:scheduler[scheduler]
+
+// OCP: General; kept as is
+[discrete]
+[[openshift-origin]]
+==== image:images/no.png[no] OpenShift Origin (noun)
+*Description*: The previous name of the open source, upstream project of OpenShift Container Platform. This project has been renamed OKD.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:okd[OKD]
+
+// AMQ: General; kept as is
+[discrete]
+[[openwire]]
+==== image:images/yes.png[yes] OpenWire (noun)
+*Description*: A cross-language wire protocol that enables JMS clients to communicate with AMQ Broker (http://activemq.apache.org/openwire.html).
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -207,7 +366,18 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Incorrect forms*: Kubernetes operator, operatorize
 
-*See also*: xref:api-objects[API objects]
+*See also*:
+
+[discrete]
+[[opex]]
+==== image:images/yes.png[yes] OpEx (noun)
+*Description*: "OpEx" is an abbreviation of "operating expenses".
+
+*Use it*: yes
+
+*Incorrect forms*: Opex, Opex, OPEX, opEx
+
+*See also*:
 
 [discrete]
 [[organization-administrator]]
@@ -223,6 +393,54 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *See also*:
 
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[organizational-unit]]
+==== image:images/yes.png[yes] organizational unit (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, an "organizational unit" is a directory comprising repositories that store business assets.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// Ceph: Added "In Red Hat Ceph Storage, OSD is"
+[discrete]
+[[osd]]
+==== image:images/yes.png[yes] OSD (noun)
+*Description*: In Red Hat Ceph Storage, OSD is the `ceph-osd` daemon and the underlying data disk.
+
+*Use it*: yes
+
+*Incorrect forms*: xref:ceph-osd[ceph-osd], xref:object-storage-device[Object Storage Device], xref:osd-daemon[OSD daemon]
+
+*See also*:
+
+// Ceph: Added "In Red Hat Ceph Storage, OSD Daemon is"
+[discrete]
+[[osd-daemon]]
+==== image:images/yes.png[yes] OSD Daemon (noun)
+*Description*: In Red Hat Ceph Storage, OSD Daemon is another name of the `ceph-osd` daemon.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ceph-osd[ceph-osd], xref:osd[OSD], xref:object-storage-device[Object Storage Device]
+
+// RHEL: General; kept as is
+[discrete]
+[[ostree]]
+==== image:images/yes.png[yes] OSTree (noun)
+*Description*: A tool used for managing Linux-based operating system versions. The OSTree tree view is similar to Git and is based on similar concepts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[output-device]]
 ==== image:images/yes.png[yes] output device (noun)
@@ -233,6 +451,18 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 *Incorrect forms*:
 
 *See also*:
+
+// OpenStack: Added "In Red Hat OpenStack Platform (RHOSP),"
+[discrete]
+[[overcloud]]
+==== image:images/yes.png[yes] overcloud (noun)
+*Description*: In Red Hat OpenStack Platform (RHOSP), the overcloud is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
+
+*Use it*: yes
+
+*Incorrect forms*: Overcloud
+
+*See also*: xref:undercloud[undercloud]
 
 [discrete]
 [[override]]

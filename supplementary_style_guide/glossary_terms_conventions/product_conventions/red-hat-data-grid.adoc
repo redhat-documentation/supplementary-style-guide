@@ -2,6 +2,8 @@
 
 For documentation questions, contact jdg-docs@redhat.com.
 
+// TODO: All terms have been transferred to the general section. This file can be deleted.
+
 [discrete]
 [[cache-manager]]
 ==== image:images/yes.png[yes] Cache Manager (noun)

@@ -1,3 +1,39 @@
+// Ceph: Added "In Red Hat Ceph Storage, RADOS is"
+[discrete]
+[[rados]]
+==== image:images/yes.png[yes] RADOS (noun)
+*Description*: In Red Hat Ceph Storage, RADOS is an acronym for Reliable Autonomic Distributed Object Storage. A core component of the Ceph Storage Cluster. Do not expand, unless explaining what the acronym means. Also referred as Object Store.
+
+*Use it*: yes
+
+*Incorrect forms*: rados
+
+*See also*: xref:object-store[Object Store]
+
+// Ceph: Added "In Red Hat Ceph Storage, the RADOS Block Device is"
+[discrete]
+[[rados-block-device]]
+==== image:images/caution.png[with caution] RADOS Block Device (noun)
+*Description*: In Red Hat Ceph Storage, the RADOS Block Device is the block storage component of Ceph. Also known as the Ceph Block Device, which is the preferred form. Use RADOS Block Device only when expanding the RBD abbreviation.
+
+*Use it*: with caution
+
+*Incorrect forms*: RADOS block device
+
+*See also*: xref:ceph-block-device[Ceph Block Device], xref:RBD[RBD], xref:rbd[rbd], xref:librbd[librbd]
+
+// Ceph: Added "In Red Hat Ceph Storage, RADOS Gateway is"
+[discrete]
+[[rados-gateway]]
+==== image:images/caution.png[with caution] RADOS Gateway (noun)
+*Description*: In Red Hat Ceph Storage, RADOS Gateway is the S3/Swift component. Also known as the Ceph Object Gateway, which is the preferred form. Use RADOS Gateway only when expanding the RGW abbreviation.
+
+*Use it*: with caution
+
+*Incorrect forms*: RadosGW, RADOS gateway
+
+*See also*: xref:ceph-object-gateway[Ceph Object Gateway], xref:rgw[RGW], xref:ceph-radosgw[ceph-radosgw]
+
 [discrete]
 [[ram]]
 ==== image:images/yes.png[yes] RAM (noun)
@@ -43,16 +79,29 @@
 
 *See also*:
 
+// Ceph: Added "In Red Hat Ceph Storage, RBD is an"
 [discrete]
-[[read-v]]
-==== image:images/yes.png[yes] read (verb)
-*Description*: To "read" means to copy data to a place where it can be used by a program. Read is commonly used to describe copying data from a storage medium, such as a disk, to main memory. It is also used to refer to the act of determining the contents of a variable or parameter.
+[[RBD]]
+==== image:images/yes.png[yes] RBD (noun)
+*Description*: In Red Hat Ceph Storage, RBD is an abbreviation for RADOS Block Device.
+
+*Use it*: yes
+
+*Incorrect forms*: rbd
+
+*See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:rbd[rbd], xref:librbd[librbd]
+
+// Ceph: Added "In Red Hat Ceph Storage, `rbd` is"
+[discrete]
+[[rbd]]
+==== image:images/yes.png[yes] rbd (noun)
+*Description*: In Red Hat Ceph Storage, `rbd` is a command to create, list, introspect, and remove Ceph Block Device images. Always mark it correctly (`rbd`).
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:read-n[read (noun)]
+*See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:RBD[RBD], xref:librbd[librbd]
 
 [discrete]
 [[read-n]]
@@ -64,6 +113,55 @@
 *Incorrect forms*:
 
 *See also*: xref:read-v[read (verb)]
+
+[discrete]
+[[read-v]]
+==== image:images/yes.png[yes] read (verb)
+*Description*: To "read" means to copy data to a place where it can be used by a program. Read is commonly used to describe copying data from a storage medium, such as a disk, to main memory. It is also used to refer to the act of determining the contents of a variable or parameter.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:read-n[read (noun)]
+
+// RHSSO: General; kept as is
+// Ceph: Added "In Red Hat Ceph Storage,"
+// Combined entries
+[discrete]
+[[realm]]
+==== image:images/yes.png[yes] realm
+*Description*: 1) A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control. 2) In Red Hat Ceph Storage, a realm is a namespace context for storing a multisite configuration. The notion of a realm enables Ceph to provide multiple namespaces in the same cluster.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:zone-group[zone group]
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[realtime-decision-server]]
+==== image:images/yes.png[yes] Realtime Decision Server (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Realtime Decision Server" is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.
+
+*Use it*: yes
+
+*Incorrect forms*: Decision Server, Kie Server
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, a receiver is"
+[discrete]
+[[receiver]]
+==== image:images/yes.png[yes] receiver (noun)
+*Description*: In Red Hat AMQ, a receiver is a channel for receiving messages from a source.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:consumer[consumer], xref:source[source], xref:sender[sender]
 
 [discrete]
 [[recommend]]
@@ -78,14 +176,75 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *See also*: xref:we-suggest[we suggest]
 
+// AMQ: General; kept as is
 [discrete]
-[[redboot]]
-==== image:images/yes.png[yes] RedBoot (noun)
-*Description*: "RedBoot" is an abbreviation for "Red Hat Embedded Debug and Bootstrap" firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
+[[red-hat-amq]]
+==== image:images/yes.png[yes] Red Hat AMQ (noun)
+*Description*: A lightweight messaging platform that delivers information and easily integrates applications. It consists of several components (message broker, interconnect router, and clients) that support a variety of configurations. Always use the full product name (Red Hat AMQ) or short product name (AMQ).
 
 *Use it*: yes
 
-*Incorrect forms*: Redboot, Red Boot, red
+*Incorrect forms*: A-MQ, AMQ, Red Hat A-MQ, Red Hat JBoss AMQ
+
+*See also*: xref:jboss-amq[AMQ], xref:jboss-amq-eap[JBoss AMQ]
+
+// Ceph: General; kept as is
+[discrete]
+[[red-hat-ceph-storage]]
+==== image:images/yes.png[yes] Red Hat Ceph Storage (noun)
+*Description*: Red Hat Ceph Storage is a Red Hat offering of the Ceph storage system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ceph[Ceph]
+
+// Azure: General; kept as is
+[discrete]
+[[cloud-access]]
+==== image:images/yes.png[yes] Red Hat Cloud Access (noun)
+*Description*: "Red Hat Cloud Access" is a Red Hat partner program that allows customers to use their Red Hat subscriptions to build resources and import images on qualified Red Hat Certified Cloud and Service Providers (CCSPs).
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// CloudForms: Kept as is
+[discrete]
+[[red-hat-cloudforms]]
+==== image:images/yes.png[yes] Red Hat CloudForms (noun)
+*Description*: Red Hat CloudForms enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.
+
+*Use it*: yes
+
+*Incorrect forms*: CloudForms Management Engine, CFME
+
+*See also*:
+
+// CloudForms: Added "In Red Hat CloudForms, the _Red Hat CloudForms Appliance_ is"
+[discrete]
+[[red-hat-cloudforms-appliance]]
+==== image:images/yes.png[yes] Red Hat CloudForms Appliance (noun)
+*Description*: In Red Hat CloudForms, the _Red Hat CloudForms Appliance_ is a virtual machine where the virtual management database (VMDB) and Red Hat CloudForms reside. Use "Red Hat CloudForms" in the first instance and "the appliance" in subsequent instances.
+
+*Use it*: yes
+
+*Incorrect forms*: CloudForms Management Engine, CFME
+
+*See also*:
+
+// CloudForms: Added "In Red Hat CloudForms, the _Red Hat CloudForms server_ is"
+[discrete]
+[[red-hat-cloudforms-server]]
+==== image:images/yes.png[yes] Red Hat CloudForms server (noun)
+*Description*: In Red Hat CloudForms, the _Red Hat CloudForms server_ is the application that runs on the Red Hat CloudForms appliance and communicates with the SmartProxy and the VMDB.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -102,6 +261,42 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 *See also*: xref:container-registry[container registry], xref:openshift-container-registry[OpenShift Container Registry]
 
+// EAP: General; kept as is
+[discrete]
+[[red-hat-customer-portal]]
+==== image:images/yes.png[yes] Red Hat Customer Portal (noun)
+*Description*: "Red Hat Customer Portal" is the official name of the customer portal at https://access.redhat.com.
+
+*Use it*: yes
+
+*Incorrect forms*: Customer Portal
+
+*See also*:
+
+// Data Grid: General; kept as is
+[discrete]
+[[red-hat-data-grid]]
+==== image:images/yes.png[yes] Red Hat Data Grid (noun)
+*Description*: Red Hat Data Grid is a high-performance, distributed in-memory data store. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. This product name applies to Red Hat Data Grid 7.3 and later versions.
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat JBoss Data Grid, JDG
+
+*See also*: xref:data-grid[Data Grid]
+
+// RHDS: General; kept as is
+[discrete]
+[[red-hat-directory-server]]
+==== image:images/yes.png[yes] Red Hat Directory Server (noun)
+*Description*: Red Hat Directory Server (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
+
+*Use it*: yes
+
+*Incorrect forms*: RHDS
+
+*See also*: xref:directory-server-product[Directory Server]
+
 [discrete]
 [[red-hat-ecosystem-catalog]]
 ==== image:images/yes.png[yes] Red Hat Ecosystem Catalog (noun)
@@ -115,7 +310,6 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:red-hat-container-catalog[Red Hat Container Catalog]
 
-
 [discrete]
 ==== image:images/yes.png[yes] Red Hat Enterprise Linux
 [[red-hat-enterprise-linux]]
@@ -127,6 +321,79 @@ Write this name in full the first time that you use it in a document. Subsequent
 *Incorrect forms*:
 
 *See also*: xref:rhel[RHEL]
+
+// RHV: Added "In Red Hat Virtualization," and removed from later
+[discrete]
+[[red-hat-enterprise-linux-host]]
+==== image:images/yes.png[yes] Red Hat Enterprise Linux host (noun)
+*Description*: In Red Hat Virtualization, you can use Red Hat Enterprise Linux servers that are subscribed to the appropriate entitlements as hosts.
+
+Always spell out the full product name of the host, and do not capitalize the term "host".
+*Use it*: yes
+
+*Incorrect forms*: RHEL host, RHEL-H
+
+*See also*: xref:host-rhv[host]
+
+// OpenStack: General; kept as is
+[discrete]
+[[red-hat-enterprise-linux-openstack-platform]]
+==== image:images/caution.png[with caution] Red Hat Enterprise Linux OpenStack Platform (noun)
+*Description*: Spell out in full. This product name applies to Red Hat Enterprise Linux OpenStack Platform 7 and earlier versions.
+
+*Use it*: with caution
+
+*Incorrect forms*: RHELOSP, RHEL-OSP
+
+*See also*: xref:red-hat-openstack-platform[Red Hat OpenStack Platform]
+
+// BxMS: General; kept as is
+[discrete]
+[[bpms]]
+==== image:images/yes.png[yes] Red Hat JBoss BPM Suite (noun)
+*Description*: "Red Hat JBoss BPM Suite" is the JBoss platform for Business Process Management (BPM). It enables enterprise business and IT users to document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
+
+*Use it*: yes
+
+*Incorrect forms*: BPMS, BPM, JBoss BPMS
+
+*See also*:
+
+// BxMS: General; kept as is
+[discrete]
+[[brms]]
+==== image:images/yes.png[yes] Red Hat JBoss BRMS (noun)
+*Description*: "Red Hat JBoss BRMS" is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). BRMS stands for Business Rules Management System. Organizations can use Red Hat JBoss BRMS to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
+
+*Use it*: yes
+
+*Incorrect forms*: BRMS, BRM, JBoss BRMS
+
+*See also*:
+
+// Data Grid: General; kept as is
+[discrete]
+[[red-hat-jboss-data-grid]]
+==== image:images/no.png[no] Red Hat JBoss Data Grid (noun)
+*Description*: This product name applies to Red Hat Data Grid 7.3 and earlier versions.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:red-hat-data-grid[Red Hat Data Grid]
+
+// EAP: General; kept as is
+[discrete]
+[[red-hat-jboss-enterprise-application-platform]]
+==== image:images/yes.png[yes] Red Hat JBoss Enterprise Application Platform (noun)
+*Description*: "Red Hat JBoss Enterprise Application Platform" is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat JBoss EAP, JBoss Enterprise Application Platform
+
+*See also*: xref:jboss-eap[JBoss EAP]
 
 [discrete]
 [[red-hat-network-satellite-server]]
@@ -150,6 +417,120 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:red-hat-network-satellite-server[Red Hat Network Satellite Server]
 
+// OCP: General; kept as is
+[discrete]
+[[red-hat-openshift-cluster-manager]]
+==== image:images/yes.png[yes] Red Hat OpenShift Cluster Manager (noun)
+*Description*: A managed service for Red Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After the first mention, you can use OpenShift Cluster Manager. link:https://console.redhat.com/openshift[OpenShift Cluster Manager] is part of the Red Hat Hybrid Cloud Console.
+
+*Use it*: yes
+
+*Incorrect forms*: OCM, Cluster Manager, the OpenShift Cluster Manager, the OpenShift Cluster Manager site
+
+*See also*:
+
+// OCP: General; kept as is
+[discrete]
+[[red-hat-openshift-container-platform]]
+==== image:images/yes.png[yes] Red Hat OpenShift Container Platform (noun)
+*Description*: A Red Hat private, on-premise cloud application deployment and hosting platform.
+
+*Use it*: yes
+
+*Incorrect forms*: OpenShift, OpenShift CP, Openshift, OCP
+
+*See also*:
+
+// OCS: General; kept as is
+[discrete]
+[[red-hat-openshift-container-storage]]
+==== Red Hat OpenShift Container Storage (noun)
+*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms.
+
+*Use it*: yes
+
+*Incorrect forms*: OCS
+
+*See also*:
+
+// OCP: General; kept as is
+[discrete]
+[[red-hat-openshift-dedicated]]
+==== image:images/yes.png[yes] Red Hat OpenShift Dedicated (noun)
+*Description*: A Red Hat managed public cloud application deployment and hosting service.
+
+*Use it*: yes
+
+*Incorrect forms*: Openshift, OpenShift, OD, Dedicated
+
+*See also*:
+
+// OCP: General; kept as is
+[discrete]
+[[red-hat-openshift-online]]
+==== image:images/yes.png[yes] Red Hat OpenShift Online (noun)
+*Description*: A Red Hat public cloud application deployment and hosting platform.
+
+*Use it*: yes
+
+*Incorrect forms*: Openshift, OpenShift, Openshift online, OO
+
+*See also*:
+
+// OpenStack: General; kept as is
+[discrete]
+[[red-hat-openstack-platform]]
+==== image:images/yes.png[yes] Red Hat OpenStack Platform (noun)
+*Description*: On first use in a module, use the complete product name and the abbreviation in parentheses: "Red Hat OpenStack Platform (RHOSP)". After the first instance, use "RHOSP". This product name applies to RHOSP version 8 and later. If you need to use the indefinite article before "RHOSP", use 'a' not 'an'.
+
+*Use it*: yes
+
+*Incorrect forms*: OpenStack Platform, RHOS, RH-OSP
+
+*See also*: xref:red-hat-enterprise-linux-openstack-platform[Red Hat Enterprise Linux OpenStack Platform]
+
+// RHV: General; kept as is
+[discrete]
+[[red-hat-virtualization]]
+==== image:images/yes.png[yes] Red Hat Virtualization (noun)
+*Description*: Red Hat Virtualization is an enterprise-grade server and desktop virtualization platform built on Red Hat Enterprise Linux.
+
+Use "Red Hat Virtualization". Always spell out in full, except as part of "RHVH" or when repetition in a single paragraph hampers readability.
+
+*Use it*: yes
+
+*Incorrect forms*: RHV
+
+*See also*: xref:red-hat-virtualization-host[Red Hat Virtualization Host]
+
+// RHV: Added "In Red Hat Virtualization," and removed later
+[discrete]
+[[red-hat-virtualization-host]]
+==== image:images/yes.png[yes] Red Hat Virtualization Host (noun)
+*Description*: In Red Hat Virtualization, Red Hat Virtualization Host is the host. It is a minimal operating system based on Red Hat Enterprise Linux, is distributed as an ISO file from the Customer Portal, and contains only the packages required for the machine to act as a host.
+
+Use "Red Hat Virtualization Host (RHVH)" for the first instance in a section. You can use "RHVH" in subsequent instances. Do not use "the Host" or capitalize the term "host" when it is not used with the full product name..
+
+*Use it*: yes
+
+*Incorrect forms*: RHV-H, Red Hat Virtualization Hypervisor, RHV Host, the Host
+
+*See also*: xref:host-rhv[host]
+
+// RHV: Added "In Red Hat Virtualization," and removed "Red Hat Virtualization" from later
+[discrete]
+[[red-hat-virtualization-manager]]
+==== image:images/yes.png[yes] Red Hat Virtualization Manager (noun)
+*Description*: In Red Hat Virtualization, the Red Hat Virtualization Manager is a server that manages and provides access to the resources in the environment.
+
+Use "Red Hat Virtualization Manager". Spell out in full for the first instance in a section. Use "the Manager" for subsequent instances. Do not use "the engine", which is the oVirt (upstream) term.
+
+*Use it*: yes
+
+*Incorrect forms*: RHVM, RHV-M, RHV Manager, engine
+
+*See also*:
+
 [discrete]
 [[red-hat-way]]
 ==== image:images/yes.png[yes] Red Hat Way (noun)
@@ -163,6 +544,41 @@ Write this name in full the first time that you use it in a document. Subsequent
 *See also*:
 
 [discrete]
+[[redboot]]
+==== image:images/yes.png[yes] RedBoot (noun)
+*Description*: "RedBoot" is an abbreviation for "Red Hat Embedded Debug and Bootstrap" firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
+
+*Use it*: yes
+
+*Incorrect forms*: Redboot, Red Boot, red
+
+*See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[refs]]
+==== image:images/yes.png[yes] refs (noun)
+*Description*: Represents a branch in OSTree. Refs always resolve to the latest commit. For example, `rhel/8/x86_64/edge`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+// Ceph: Added "In Red Hat Ceph Storage,"
+[discrete]
+[[region]]
+==== image:images/yes.png[yes] region (noun)
+*Description*: In Red Hat Ceph Storage, a region is the deprecated term for referring to a zone group. Red Hat Ceph Storage 1.3 uses regions.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:zone-group[zone group]
+
+[discrete]
 [[relative-path]]
 ==== image:images/yes.png[yes] relative path (noun)
 *Description*: The path related to the present working directory. Because it does not provide enough information for a program to locate a file, it must be combined with an additional path to access a file.
@@ -172,6 +588,18 @@ Write this name in full the first time that you use it in a document. Subsequent
 *Incorrect forms*:
 
 *See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[remote]]
+==== image:images/yes.png[yes] remote (noun)
+*Description*: The HTTP or HTTPS endpoint that hosts the OSTree content. This is analogous to the baseurl for a `yum` or `dnf` repository.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
 
 [discrete]
 [[remote-access]]
@@ -195,6 +623,55 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:remote-access[remote access]
 
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[remoting]]
+==== image:images/yes.png[yes] remoting subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "remoting" subsystem is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHDS: Added "In Red Hat Directory Server,"
+[discrete]
+[[replica]]
+==== image:images/yes.png[yes] replica (noun)
+*Description*: In Red Hat Directory Server, a replica is a copy of the Directory Server database on a different host. For example, a consumer can also be called a replica because it has a copy of the data received from the supplier.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[replication-agreement]]
+==== image:images/yes.png[yes] replication agreement (noun)
+*Description*: In Red Hat Enterprise Linux, a replication agreement is an agreement between two IdM servers in the same IdM deployment. The replication agreement ensures that the data and configuration is continuously replicated between the two servers.
+IdM uses two types of replication agreements: _domain replication_ agreements, which replicate identity information, and _certificate replication_ agreements, which replicate certificate information.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:idm-deployment[IdM deployment]
+
+// OCP: Added "In Red Hat OpenShift, a replication controller is"
+[discrete]
+[[replication-controller]]
+==== image:images/yes.png[yes] replication controller (noun)
+*Description*: In Red Hat OpenShift, a replication controller is a Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[repository]]
 ==== image:images/yes.png[yes] repository (noun)
@@ -206,11 +683,35 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:subscription[subscription], xref:entitlement[entitlement]
 
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[request-controller]]
+==== image:images/yes.png[yes] request-controller subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "request-controller" subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[required]]
 ==== image:images/yes.png[yes] required (adjective)
 
 *Description*: "Required" can mean needed, essential, or obligatory. Example 1: "The module is missing essential parts." Example 2: "Filling in the Class field is obligatory."
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: General; kept as is
+[discrete]
+[[required-action]]
+==== image:images/yes.png[yes] required action
+*Description*: A required action is an action that a user must perform during the authentication process. A user cannot complete the authentication process until these actions are complete. For example, an admin might schedule users to reset their passwords every month. An update password required action is set for all these users.
 
 *Use it*: yes
 
@@ -230,6 +731,44 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*:
 
+// RHV: Added "In Red Hat Virtualization," and removed from later
+[discrete]
+[[resource-tab]]
+==== image:images/yes.png[yes] resource tab (noun)
+*Description*: In Red Hat Virtualization, hosts, virtual machines, storage, and other resources can be managed by using their associated tab.
+
+Use the name of the tab when you refer to it, for example, "the *Storage* tab".
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[resource-adapters]]
+==== image:images/yes.png[yes] resource-adapters subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "resource-adapters" subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[results-list]]
+==== image:images/yes.png[yes] results list (noun)
+*Description*: In Red Hat Virtualization, the results list shows the resources managed under each resource tab. For example, the results list for the *Hosts* tab shows all hosts attached to the Red Hat Virtualization Manager.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:resource-tab[resource tab]
+
 [discrete]
 [[return]]
 ==== image:images/yes.png[yes] return (verb)
@@ -242,6 +781,30 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:enter-n[enter]
 
+// RHEL: General; kept as is
+[discrete]
+[[revision]]
+==== image:images/yes.png[yes] revision (noun)
+*Description*: Revision (Rev) represents SHA-256 for a specific OSTree commit.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+// Ceph: Added "In Red Hat Ceph Storage, RGW is an"
+[discrete]
+[[rgw]]
+==== image:images/yes.png[yes] RGW (noun)
+*Description*: In Red Hat Ceph Storage, RGW is an abbreviation for RADOS Gateway.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:rados-gateway[RADOS Gateway], xref:ceph-object-gateway[Ceph Object Gateway]
+
 [discrete]
 [[rhel]]
 ==== image:images/caution.png[with caution] RHEL (noun)
@@ -252,6 +815,18 @@ Write this name in full the first time that you use it in a document. Subsequent
 *Incorrect forms*:
 
 *See also*: xref:red-hat-enterprise-linux[Red Hat Enterprise Linux]
+
+// RHSSO: General; kept as is
+[discrete]
+[[role]]
+==== image:images/yes.png[yes] role
+*Description*: A role identifies a type or category of user. `administrator`, `user`, `manager`, and `employee` are all typical roles that might exist in an organization. Applications often assign access and permissions to specific roles rather than individual users because dealing with users can be too granular and hard to manage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[roll-out]]
@@ -286,16 +861,30 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:prom[PROM]
 
+// OCS: General; kept as is
 [discrete]
-[[roundtable]]
-==== image:images/yes.png[yes] roundtable (noun)
-*Description*: Use "roundtable" when referring to a type of event or gathering.
+[[rook]]
+==== Rook (noun)
+*Description*: Rook is an orchestrator for multiple storage solutions, each with a specialized Kubernetes Operator to automate management.
 
 *Use it*: yes
 
-*Incorrect forms*: round table
+*Incorrect forms*:
 
-*See also*: xref:round-table[round table]
+*See also*:
+
+// OCS: Added "In Red Hat OpenShift Container Storage,"
+[discrete]
+[[rook-ceph-operator]]
+==== Rook-Ceph Operator (noun)
+
+*Description*: In Red Hat OpenShift Container Storage, the Rook-Ceph Operator automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[round-table]]
@@ -310,6 +899,55 @@ Write this name in full the first time that you use it in a document. Subsequent
 *See also*: xref:roundtable[roundtable]
 
 [discrete]
+[[roundtable]]
+==== image:images/yes.png[yes] roundtable (noun)
+*Description*: Use "roundtable" when referring to a type of event or gathering.
+
+*Use it*: yes
+
+*Incorrect forms*: round table
+
+*See also*: xref:round-table[round table]
+
+// OCP: Added "In Red Hat OpenShift,"
+// Fuse: Added "In Red Hat Fuse," and removed "In Camel"
+// Combined
+[discrete]
+[[route]]
+==== image:images/yes.png[yes] route (noun)
+*Description*: 1) In Red Hat OpenShift, a route exposes a service at a hostname, like www.example.com, so that external clients can reach it by name. 2) In Red Hat Fuse, routes specify paths through which messages move. A route is basically a chain of processors that execute actions on messages as they move between the route's consumer and producer endpoints. A routing context can contain multiple routes.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:consumer[consumer], xref:endpoint[endpoint], xref:processor[processor], xref:producer[producer], xref:routing-context[routing context]
+
+// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling"
+[discrete]
+[[route-editor]]
+==== image:images/yes.png[yes] route editor (noun)
+*Description*: In Red Hat Fuse, the route editor is the tool you use to construct the route or routes in your routing context. It provides two methods that you can use interchangeably. You build a context graphically in the Design tab. You code a context in XML in the Source tab.
+
+*Use it*: yes
+
+*Incorrect forms*: Camel editor
+
+*See also*: xref:design-tab[Design tab], xref:source-tab[Source tab]
+
+// AMQ: Added "In Red Hat AMQ, a router is"
+[discrete]
+[[router]]
+==== image:images/yes.png[yes] router (noun)
+*Description*: In Red Hat AMQ, a router is a configurable instance of AMQ Interconnect. Routers are application layer programs that route AMQP messages between message producers and consumers. Routers are typically deployed in networks of multiple routers with redundant paths. When using this term, be careful not to confuse it with network device routers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:amq-interconnect[AMQ Interconnect]
+
+[discrete]
 [[routine]]
 ==== image:images/yes.png[yes] routine (noun)
 
@@ -321,6 +959,54 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*:
 
+// Fuse: Added "In Red Hat Fuse,"
+[discrete]
+[[routing-context]]
+==== image:images/yes.png[yes] routing context (noun)
+*Description*: In Red Hat Fuse, a routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. In Fuse tooling, the routing context is provided in a `.xml` file, the name of which depends on the configuration framework used. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:camel-context[Camel context], xref:routing-rules[routing rules]
+
+// AMQ: Added "In Red Hat AMQ, a routing mechanism is"
+[discrete]
+[[routing-mechanism]]
+==== image:images/yes.png[yes] routing mechanism (noun)
+*Description*: In Red Hat AMQ, a routing mechanism is the type of routing to be used for an address. Routing mechanisms include message routing and link routing.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, a routing pattern is"
+[discrete]
+[[routing-pattern]]
+==== image:images/yes.png[yes] routing pattern (noun)
+*Description*: In Red Hat AMQ, a routing pattern is the path messages sent to a particular address can take across the network. Messages can be distributed in balanced, closest, and multicast routing patterns.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// Fuse: Added "In Red Hat Fuse,"
+[discrete]
+[[routing-rules]]
+==== image:images/yes.png[yes] routing rules (noun)
+*Description*: In Red Hat Fuse, routing rules are declarative statements (written in Java or XML DSL) that define the paths which messages take from their origin (source) to their target destination (sink). Routing rules start with a consumer endpoint (`from`) and typically end with one or more producer endpoints (`to`). Between consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints. In Fuse tooling, you can view and edit a project's routing rules on the route editor's Source tab. On the Design tab, you can build and view routing rules graphically.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:routing-context[routing context], xref:source-tab[Source tab]
+
 [discrete]
 [[rpm]]
 ==== image:images/yes.png[yes] RPM (noun)
@@ -329,6 +1015,54 @@ Write this name in full the first time that you use it in a document. Subsequent
 *Use it*: yes
 
 *Incorrect forms*: rpm
+
+*See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[rpm-ostree]]
+==== image:images/yes.png[yes] rpm-ostree (noun)
+*Description*: A hybrid image or system package that hosts operating system updates.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree]
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[rts]]
+==== image:images/yes.png[yes] rts subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "rts" subsystem is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the rts subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[rule]]
+==== image:images/yes.png[yes] rule (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a "rule" provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
+
+*Use it*: yes
+
+*Incorrect forms*: technical rule
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[rule-template]]
+==== image:images/yes.png[yes] rule template (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a "rule template" enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -342,3 +1076,15 @@ Write this name in full the first time that you use it in a document. Subsequent
 *Incorrect forms*: run level, run-level
 
 *See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[runtime-manager]]
+==== image:images/yes.png[yes] runtime manager (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "runtime manager" is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution.The strategies are singleton, per request, and per process instance.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:kie-api[KIE API]

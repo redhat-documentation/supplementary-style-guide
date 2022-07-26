@@ -1,4 +1,15 @@
 [discrete]
+[[s-record]]
+==== image:images/yes.png[yes] S-record (noun)
+*Description*: "Motorola S-record" is a file format that stores binary information in ASCII hex text form.
+
+*Use it*: yes
+
+*Incorrect forms*: s-record, S-Record, s-Record, SREC, or any other variation
+
+*See also*:
+
+[discrete]
 [[saas]]
 ==== image:images/yes.png[yes] SaaS (noun)
 *Description*: "SaaS" is an acronym for Software-as-a-Service. In the spelled-out version and its variants (for example, Infrastructure-as-a-Service and Platform-as-a-Service), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text (such as banners), use "<VARIANT>-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.
@@ -17,6 +28,54 @@
 *Use it*: yes
 
 *Incorrect forms*: samba, SAMBA
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[sar]]
+==== image:images/yes.png[yes] sar subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "sar" subsystem enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the sar subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// Satellite: Added "In Red Hat Satellite"
+[discrete]
+[[satellite-server]]
+==== image:images/yes.png[yes] Satellite Server (noun)
+*Description*: In Red Hat Satellite, Satellite Server synchronizes the content from Red Hat Customer Portal and other sources, and provides life cycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term 'Satellite' is acceptable thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Satellite server
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift, the scheduler is a" removed "Kubernetes master or OpenShift"
+[discrete]
+[[scheduler]]
+==== image:images/yes.png[yes] scheduler (noun)
+*Description*: In Red Hat OpenShift, the scheduler is a component of the master that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+[discrete]
+[[scorecard]]
+==== image:images/yes.png[yes] Scorecard (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "Scorecard" is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -42,6 +101,54 @@
 
 *See also*:
 
+// Ceph: Added "In Red Hat Ceph Storage,"
+[discrete]
+[[scrubbing]]
+==== image:images/yes.png[yes] scrubbing (noun)
+*Description*: In Red Hat Ceph Storage, scrubbing is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node. See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#scrubbing[Scrubbing] section in the Red Hat Ceph Architecture Guide for details.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[security-elytron]]
+==== image:images/yes.png[yes] Security - Elytron (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the elytron subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:elytron[elytron]
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed "in JBoss EAP" later on
+[discrete]
+[[security]]
+==== image:images/yes.png[yes] security subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the legacy security subsystem is called "security". Write in lowercase in general text. Use "Security subsystem" when referring to the legacy security subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[security-manager]]
+==== image:images/yes.png[yes] security-manager subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "security-manager" subsystem is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the security-manager subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[see]]
 ==== image:images/yes.png[yes] see (verb)
@@ -64,6 +171,34 @@
 
 *See also*: https://access.redhat.com/articles/372743[A Guide for Troubleshooting a Segfault] on the Customer Portal for more information.
 
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[self-hosted-engine]]
+==== image:images/yes.png[yes] self-hosted engine (noun)
+*Description*: In Red Hat Virtualization, a self-hosted engine is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. The virtual machine is created as part of the host configuration, and the Manager is installed and configured in parallel to the host configuration process.
+
+Use all lower case, unless used in a title or at the beginning of a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: hosted engine, hosted-engine
+
+*See also*: xref:self-hosted-engine-node[self-hosted engine node]
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[self-hosted-engine-node]]
+==== image:images/yes.png[yes] self-hosted engine node (noun)
+*Description*: In Red Hat Virtualization, a self-hosted engine is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. A self-hosted engine node is a host that has self-hosted engine packages installed so that it can host the Manager virtual machine. Regular hosts can also be attached to a self-hosted engine environment, but cannot host the Manager virtual machine.
+
+Use all lower case, unless used in a title or at the beginning of a sentence.
+
+*Use it*: yes
+
+*Incorrect forms*: hosted engine host, hosted-engine host, self-hosted engine host, hosted engine node, hosted-engine node
+
+*See also*: xref:self-hosted-engine[self-hosted engine]
+
 [discrete]
 [[selinux]]
 ==== image:images/yes.png[yes] SELinux (noun)
@@ -74,6 +209,18 @@
 *Incorrect forms*: SE-Linux, S-E Linux, SE Linux, selinux
 
 *See also*:
+
+// AMQ: Added "In Red Hat AMQ, a sender is"
+[discrete]
+[[sender]]
+==== image:images/yes.png[yes] sender (noun)
+*Description*: In Red Hat AMQ, a sender is a channel for sending messages to a target.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:producer[producer], xref:target[target], xref:receiver[receiver]
 
 [discrete]
 [[server-cluster]]
@@ -96,6 +243,56 @@
 *Incorrect forms*: computer farm, computer ranch
 
 *See also*: xref:server-cluster[server cluster]
+
+// OCP: Added "In Red Hat OpenShift,"
+[discrete]
+[[service]]
+==== image:images/yes.png[yes] service (noun)
+*Description*: In Red Hat OpenShift, a service functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: Added "In Red Hat Single Sign-On,"
+[discrete]
+[[service-account]]
+==== image:images/yes.png[yes] service account
+*Description*: In Red Hat Single Sign-On, each client has a built-in service account to obtain an access token.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHSSO: Added "In Red Hat Single Sign-On,"
+// AMQ: Added "In Red Hat AMQ, a session is"
+// Combined entries into a single one; used "with caution" since one was "yes" and the other was "with caution"
+[discrete]
+[[session]]
+==== image:images/caution.png[with caution] session
+*Description*: 1) In Red Hat Single Sign-On, when a user logs in, a session is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red Hat AMQ, a session is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:connection[connection]
+
+// Data Grid: Added "In Red Hat Data Grid," and removed "Data Grid"
+[discrete]
+[[session-externalization]]
+==== image:images/yes.png[yes] session externalization (noun)
+*Description*: In Red Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[sha-1]]
@@ -120,17 +317,6 @@
 *See also*: xref:sha-1[SHA-1]
 
 [discrete]
-[[shadowman]]
-==== image:images/yes.png[yes] Shadowman (noun)
-*Description*: "Shadowman" is a Red Hat corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
-
-*Use it*: yes
-
-*Incorrect forms*: Shadow Man, ShadowMan
-
-*See also*: http://brand.redhat.com/logos/shadowman/[Red Hat Brand Standards: Shadowman]
-
-[discrete]
 [[shadow-passwords]]
 ==== image:images/yes.png[yes] shadow passwords (noun)
 *Description*: "Shadow passwords" are a method of improving system security by moving the encrypted passwords (normally found in `/etc/passwd`) to `/etc/shadow`, which is readable only by root. This option is available during installation and is part of the shadow utilities package. Shadow passwords is not a proper noun and is only capitalized at the beginning of a sentence.
@@ -151,6 +337,41 @@
 *Incorrect forms*: Shadow utilities (capitalized)
 
 *See also*:
+
+[discrete]
+[[shadowman]]
+==== image:images/yes.png[yes] Shadowman (noun)
+*Description*: "Shadowman" is a Red Hat corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
+
+*Use it*: yes
+
+*Incorrect forms*: Shadow Man, ShadowMan
+
+*See also*: http://brand.redhat.com/logos/shadowman/[Red Hat Brand Standards: Shadowman]
+
+// Ceph: General; kept as is
+[discrete]
+[[shard-n]]
+==== image:images/yes.png[yes] shard (noun)
+*Description*: A database shard is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a shard or database shard. Each shard is held on a separate database server instance, to spread load.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:bucket-sharding[bucket sharding]
+
+// AMQ: Added "In Red Hat AMQ, a sharded queue is"
+[discrete]
+[[sharded-queue]]
+==== image:images/yes.png[yes] sharded queue (noun)
+*Description*: In Red Hat AMQ, a sharded queue is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:queue[queue]
 
 [discrete]
 [[share-name]]
@@ -207,6 +428,18 @@
 
 *See also*: xref:logical-topology[logical topology], xref:physical-topology[physical topology]
 
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[singleton]]
+==== image:images/yes.png[yes] singleton subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the "singleton" subsystem is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the singleton subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[skill-set]]
 ==== image:images/no.png[no] skill set (noun)
@@ -215,6 +448,54 @@
 *Use it*: no
 
 *Incorrect forms*: skill set, skillset, skill-set, skill-set knowledge
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift, SkyDNS is"
+[discrete]
+[[skydns]]
+==== image:images/yes.png[yes] SkyDNS (noun)
+*Description*: In Red Hat OpenShift, SkyDNS is a component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal hostnames for services and pods.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHDS: General; added "In an LDAP replication environment,"
+[discrete]
+[[slave]]
+==== image:images/no.png[no] slave (noun)
+*Description*: In an LDAP replication environment, do not use "slave" to refer to a consumer or hub.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:consumer[consumer], xref:hub[hub]
+
+// AMQ: Added "In Red Hat AMQ,"
+[discrete]
+[[slave-broker]]
+==== image:images/yes.png[yes] slave broker (noun)
+*Description*: In Red Hat AMQ, in a master-slave group, this is the broker (or brokers) that takes over for the master broker to which it is linked.
+
+*Use it*: yes
+
+*Incorrect forms*: passive broker
+
+*See also*: xref:master-slave-group[master-slave group], xref:master-broker[master broker]
+
+// RHEL: General; kept as is
+[discrete]
+[[smart-card]]
+==== image:images/yes.png[yes] smart card (noun)
+*Description*: A smart card is a removable device or card used to control access to a resource. They can be plastic credit card-sized cards with an embedded integrated circuit (IC) chip, small USB devices such as a Yubikey, or other similar devices. Smart cards can provide authentication by allowing users to connect a smart card to a host computer, and software on that host computer interacts with key material stored on the smart card to authenticate the user.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -228,6 +509,42 @@
 *Incorrect forms*: smart NIC, Smart-NIC
 
 *See also*: xref:nic[NIC], xref:vnic[vNIC]
+
+// CloudForms: Added "In Red Hat CloudForms, the _SmartState analysis_ is a"
+[discrete]
+[[smartstate-analysis]]
+==== image:images/yes.png[yes] SmartState analysis (noun)
+*Description*: In Red Hat CloudForms, the _SmartState analysis_ is a process run by the SmartProxy which collects the details of a virtual machine or instance. Such details include accounts, drivers, network information, hardware, and security patches. This process is also run by the Red Hat CloudForms server on hosts and clusters. The data is stored in the VMDB.
+
+*Use it*: yes
+
+*Incorrect forms*: Smart State, smart state, Smart state, Smartstate, Analysis
+
+*See also*:
+
+// Ceph: Added "In Red Hat Ceph Storage,"
+[discrete]
+[[snap]]
+==== image:images/yes.png[yes] snap (noun)
+*Description*: In Red Hat Ceph Storage, a snap is the snapshot identifier of an object. The only writable version of the object is called `head`. If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:snapshot-set[snapshot set]
+
+// Ceph: Added "In Red Hat Ceph Storage,"
+[discrete]
+[[snapshot-set]]
+==== image:images/yes.png[yes] snapshot set (noun)
+*Description*: In Red Hat Ceph Storage, the snapshot set stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
+
+*Use it*: yes
+
+*Incorrect forms*: snapset, snapsets
+
+*See also*: xref:snap[snap]
 
 [discrete]
 [[snippet]]
@@ -284,6 +601,30 @@
 
 *See also*:
 
+// AMQ: Added "In Red Hat AMQ, source is"
+[discrete]
+[[source]]
+==== image:images/yes.png[yes] source (noun)
+*Description*: In Red Hat AMQ, source is a message's named point of origin.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:target[target]
+
+// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
+[discrete]
+[[source-tab]]
+==== image:images/yes.png[yes] Source tab (noun)
+*Description*: In Red Hat Fuse, the route editor's Source tab displays the XML code that corresponds to the graphical representation of the routing context displayed on the Design tab. You can edit and save changes to the routing context on either tab. Changes saved on one tab are immediately propagated and saved on the other tab.
+
+*Use it*: yes
+
+*Incorrect forms*: Source view
+
+*See also*: xref:configurations-tab[Configurations tab], xref:design-tab[Design tab]
+
 [discrete]
 [[source-navigator]]
 ==== image:images/yes.png[yes] Source-Navigator^TM^ (noun)
@@ -292,6 +633,18 @@
 *Use it*: yes
 
 *Incorrect forms*: Source Navigator (without trademark symbol)
+
+*See also*:
+
+// OCP: General; kept as is
+[discrete]
+[[source-to-image]]
+==== image:images/yes.png[yes] Source-to-Image (S2I) (noun)
+*Description*: A tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image.
+
+*Use it*: yes
+
+*Incorrect forms*: STI, source to image
 
 *See also*:
 
@@ -316,6 +669,46 @@
 *Incorrect forms*:
 
 *See also*: xref:space[space]
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[sparse]]
+==== image:images/yes.png[yes] sparse (adjective)
+*Description*: In Red Hat Virtualization, a disk is sparse when its unused disk space is taken from the virtual machine and returned to the host. In the past, the term sparse has been used to describe thin provisioned storage; however, with the addition of the sparsify feature in Red Hat Virtualization 4.1, these terms should not be used interchangeably as a thin provisioned disk might not be a sparse disk.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:sparsify[sparsify], xref:thin-provisioned[thin provisioned]
+
+// RHV: Added "In Red Hat Virtualization, sparsify means"
+[discrete]
+[[sparsify]]
+==== image:images/yes.png[yes] sparsify (verb)
+*Description*: In Red Hat Virtualization, sparsify means to take unused disk space from a virtual machine and return it to the host.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:sparse[sparse]
+
+// OCP: Added "In Red Hat OpenShift,"
+[discrete]
+[[spec]]
+==== image:images/yes.png[yes] spec (noun)
+*Description*: In Red Hat OpenShift, in addition to "spec file", which is permitted when it relates to RPM spec files, you can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
+
+Example of correct usage:
+
+_Update the `Pod` spec to reflect the changes._
+
+*Use it*: yes
+
+*Incorrect forms*: Spec
+
+*See also*:
 
 [discrete]
 [[spec-file]]
@@ -350,6 +743,20 @@
 
 *See also*:
 
+// RHV: General; kept as is
+[discrete]
+[[spice]]
+==== image:images/yes.png[yes] SPICE (noun)
+*Description*: SPICE stands for "Simple Protocol for Independent Computing Environments". It is a remote connection protocol for viewing a virtual machine in a graphical console from a remote client.
+
+Always capitalize as shown, except in commands, packages, or UI content.
+
+*Use it*: yes
+
+*Incorrect forms*: Spice, spice
+
+*See also*:
+
 [discrete]
 [[sql]]
 ==== image:images/yes.png[yes] SQL (noun)
@@ -360,17 +767,6 @@
 *Incorrect forms*:
 
 *See also*: xref:mysql[MySQL]
-
-[discrete]
-[[s-record]]
-==== image:images/yes.png[yes] S-record (noun)
-*Description*: "Motorola S-record" is a file format that stores binary information in ASCII hex text form.
-
-*Use it*: yes
-
-*Incorrect forms*: s-record, S-Record, s-Record, SREC, or any other variation
-
-*See also*:
 
 [discrete]
 [[ser-iov]]
@@ -394,6 +790,7 @@
 
 *See also*:
 
+// RHDS: Duplicate of this entry so didn't include it; added TLS as a see also xref
 [discrete]
 [[ssl]]
 ==== image:images/no.png[no] SSL (noun)
@@ -403,7 +800,7 @@
 
 *Incorrect forms*:
 
-*See also*: xref:ssl-tls[SSL/TLS]
+*See also*: xref:ssl-tls[SSL/TLS], xref:tls[TLS]
 
 [discrete]
 [[ssl-tls]]
@@ -416,6 +813,30 @@
 
 *See also*:
 
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[sssd]]
+==== image:images/yes.png[yes] SSSD (noun)
+*Description*: In Red Hat Enterprise Linux, the System Security Services Daemon (SSSD) is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[discrete]
+[[sssd-back-end]]
+==== image:images/yes.png[yes] SSSD back end (noun)
+*Description*: In Red Hat Enterprise Linux, an System Security Services Daemon back end, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ldap[LDAP], xref:sssd[SSSD]
+
 [discrete]
 [[standalone]]
 ==== image:images/yes.png[yes] standalone (adjective)
@@ -426,6 +847,42 @@
 *Incorrect forms*: stand-alone
 
 *See also*:
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[standalone-manager]]
+==== image:images/yes.png[yes] standalone Manager (noun)
+*Description*: In Red Hat Virtualization, use "Standalone Manager" specifically, and only, in the context of differentiating between a "regular" Red Hat Virtualization environment and a self-hosted engine environment. Use "the Red Hat Virtualization Manager" or "the Manager" in all other cases. See the link:https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.4/html/product_guide/introduction#Standalone_Manager_Architecture_RHV_intro[_Red Hat Virtualization Product Guide_] for details.
+
+*Use it*: yes
+
+*Incorrect forms*: standard Manager, standard environment
+
+*See also*: xref:self-hosted-engine[self-hosted engine], xref:red-hat-virtualization-manager[Red Hat Virtualization Manager]
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[standalone-mode]]
+==== image:images/no.png[no] standalone mode (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. See the xref:standalone-server[standalone server] entry for the correct usage.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:standalone-server[standalone server]
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[discrete]
+[[standalone-server]]
+==== image:images/yes.png[yes] standalone server (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
+
+*Use it*: yes
+
+*Incorrect forms*: standalone mode
+
+*See also*: xref:standalone-mode[standalone mode]
 
 [discrete]
 [[staroffice]]
@@ -438,6 +895,18 @@
 
 *See also*:
 
+// RHDS: General; kept as is
+[discrete]
+[[starttls]]
+==== image:images/yes.png[yes] STARTTLS (noun)
+*Description*: When an LDAP client wants to use a TLS-encrypted connection after establishing a connection to the unencrypted LDAP port, the client sends the STARTTLS command.
+
+*Use it*: yes
+
+*Incorrect forms*: StartTLS, startTLS
+
+*See also*: xref:ldap[LDAP], xref:ldaps[LDAPS]
+
 [discrete]
 [[startx]]
 ==== image:images/yes.png[yes] startx (noun)
@@ -446,6 +915,56 @@
 *Use it*: yes
 
 *Incorrect forms*: StartX
+
+*See also*:
+
+// RHEL: General; kept as is
+[discrete]
+[[static-delta]]
+==== image:images/yes.png[yes] static-delta (noun)
+*Description*: Updates to OSTree images are always delta updates. In case of RHEL for Edge images, the TCP overhead can be higher than expected due to the updates to number of files. To avoid TCP overhead, you can generate static-delta between specific commits, and send the update in a single connection. This optimization helps large deployments with constrained connectivity.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ostree[OSTree], xref:commit[commit]
+
+// AMQ: General; kept as is
+[discrete]
+[[stomp]]
+==== image:images/yes.png[yes] STOMP (noun)
+*Description*: Simple (or Streaming) Text Oriented Message Protocol. It is a text-oriented wire protocol that enables STOMP clients to communicate with STOMP brokers. AMQ Broker can accept connections from STOMP clients.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCS: Added "In Red Hat OpenShift Container Storage,"
+[discrete]
+[[storage-class]]
+==== storage class (noun)
+*Description*: In Red Hat OpenShift Container Storage, use storage classes to describe the types of storage a product offers. OpenShift Container Storage offers block, shared file system, and object classes.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[storage-pool-manager]]
+==== image:images/yes.png[yes] Storage Pool Manager (noun)
+*Description*: In Red Hat Virtualization, the Storage Pool Manager (SPM) is a role given to one of the hosts in a data center, enabling it to manage the storage domains of the data center.
+
+Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" for subsequent instances.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -468,6 +987,18 @@
 *Use it*: yes
 
 *Incorrect forms*: SU
+
+*See also*:
+
+// RHV: Added "In Red Hat Virtualization,"
+[discrete]
+[[sub-version]]
+==== image:images/yes.png[yes] sub-version (noun)
+*Description*: In Red Hat Virtualization, a template sub-version is a new template version created from an existing template.
+
+*Use it*: yes
+
+*Incorrect forms*: sub version, subversion
 
 *See also*:
 
@@ -526,6 +1057,18 @@
 
 *See also*: xref:entitlement[entitlement], xref:repository[repository]
 
+// Satellite: Added "In Red Hat Satellite"
+[discrete]
+[[subscription-manifest]]
+==== image:images/yes.png[yes] Subscription Manifest (noun)
+*Description*: In Red Hat Satellite, a Subscription Manifest is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word 'manifest' is acceptable thereafter.
+
+*Use it*: yes
+
+*Incorrect forms*: Subscription manifest
+
+*See also*:
+
 [discrete]
 [[sudo]]
 ==== image:images/caution.png[with caution] sudo (noun)
@@ -534,6 +1077,18 @@
 *Use it*: with caution
 
 *Incorrect forms*: SUDO, Sudo
+
+*See also*:
+
+// RHDS: General; kept as is
+[discrete]
+[[suffix]]
+==== image:images/yes.png[yes] suffix (noun)
+*Description*: The name of the entry at the top of the directory tree is called a suffix. In Red Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -547,6 +1102,18 @@
 *Incorrect forms*: super-user, super user
 
 *See also*:
+
+// RHDS: General; kept as is
+[discrete]
+[[supplier]]
+==== image:images/yes.png[yes] supplier (noun)
+*Description*: In an LDAP replication environment, suppliers send data to other servers.
+
+*Use it*: yes
+
+*Incorrect forms*: master
+
+*See also*: xref:consumer[consumer]
 
 [discrete]
 [[swap-space]]
@@ -578,6 +1145,32 @@
 *Use it*: yes
 
 *Incorrect forms*:
+
+*See also*:
+
+// Fuse: General; kept as is
+[discrete]
+[[syndesis]]
+==== image:images/yes.png[yes] Syndesis (noun)
+*Description*: The community name for Fuse Ignite.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:fuse-ignite[Fuse Ignite]
+
+// RHV: General; kept as is
+[discrete]
+[[sysprep]]
+==== image:images/yes.png[yes] sysprep (noun)
+*Description*: Sysprep is a tool that automates the configuration of Windows virtual machines. Red Hat Virtualization enhances Sysprep by building a tailored auto-answer file for each virtual machine.
+
+With the exception of "sysprep file", which has a specific function, use "sysprep" on its own when referring to the tool.
+
+*Use it*: yes
+
+*Incorrect forms*: sysprep tool, sysprep process, sysprep function
 
 *See also*:
 
