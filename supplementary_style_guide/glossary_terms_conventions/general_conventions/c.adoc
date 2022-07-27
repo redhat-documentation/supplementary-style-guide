@@ -859,7 +859,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[cookie]]
 ==== image:images/yes.png[yes] cookie (noun)
-*Description*: A "cookie" is a message given to a web browser by a web server. The browser stores the message in a text file called cookie.txt. The message is then sent back to the server each time the browser requests a page from the server.
+*Description*: A "cookie" is a message given to a web browser by a web server. The browser stores the message. The message is then sent back to the server each time the browser requests a page from the server.
 
 *Use it*: yes
 
