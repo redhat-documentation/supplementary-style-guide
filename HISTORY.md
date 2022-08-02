@@ -4,6 +4,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [July 2022](#2022-july)
 * [June 2022](#2022-june)
 * [May 2022](#2022-may)
 * [April 2022](#2022-april)
@@ -24,7 +25,12 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of July 6 2022 -->
+<!-- Updated as of August 1 2022 -->
+
+<a name="2022-july"></a>
+## July 2022
+
+* Reorganized glossary to remove the product-specific sections. Glossary terms are now in a single alphabetical list.
 
 <a name="2022-june"></a>
 ## June 2022
@@ -45,24 +51,24 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 <a name="2022-march"></a>
 ## March 2022
 
-* Updated product-specific terminology for [Red Hat OpenStack Platform](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_openstack_platform)
-* Updated product-specific terminology for [Red Hat Enterprise Linux](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_enterprise_linux_2)
+* Updated product-specific terminology for Red Hat OpenStack Platform
+* Updated product-specific terminology for Red Hat Enterprise Linux
 * Updated deprecation and removal notices in [release notes doc texts](https://redhat-documentation.github.io/supplementary-style-guide/#release-notes-doc-texts)
-* Updated product-specific terminology for [Red Hat Virtualization](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_virtualization)
-* Added product-specific terminology for [Red Hat Single Sign-On](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_single_sign_on)
+* Updated product-specific terminology for Red Hat Virtualization
+* Added product-specific terminology for Red Hat Single Sign-On
 
 <a name="2022-february"></a>
 ## February 2022
 
 * Added alternatives for the terms [master and slave](https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language) in the conscious language section
 * Added a new section for guidelines specific to [cloud services documentation](https://redhat-documentation.github.io/supplementary-style-guide/#cloud-services)
-* Added product-specific terminology for [Red Hat Directory Server](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_directory_server)
+* Added product-specific terminology for Red Hat Directory Server
 * Council decided to follow _IBM Style Guide_ guidance on Java terms "throw" and "catch"
 
 <a name="2022-january"></a>
 ## January 2022
 
-* Added product-specific terminology for [Red Hat Data Grid](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_data_grid)
+* Added product-specific terminology for Red Hat Data Grid
 * Added guidance for [commands with root privileges](https://redhat-documentation.github.io/supplementary-style-guide/#commands-with-root-privileges)
 
 <a name="2021-december"></a>
@@ -92,14 +98,14 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * Added glossary entry for [Organization Administrator](https://redhat-documentation.github.io/supplementary-style-guide/#organization-administrator)
 * Added product-specific (OpenShift) glossary entry for [quick start](https://redhat-documentation.github.io/supplementary-style-guide/#quick-start)
 * Added guidance for [conscious language](https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language)
-* Added product-specific terminology for [Red Hat OpenShift Container Storage](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_openshift_container_storage)
+* Added product-specific terminology for Red Hat OpenShift Container Storage
 
 <a name="2021-august"></a>
 ## August 2021
 
 * Added guidance for [writing prerequisites](https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites)
 * Added glossary entry for [as expected](https://redhat-documentation.github.io/supplementary-style-guide/#as-expected)
-* Updated product-specific terminology for [Red Hat JBoss Enterprise Application Platform](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_jboss_enterprise_application_platform)
+* Updated product-specific terminology for Red Hat JBoss Enterprise Application Platform
 * Council decided to follow _IBM Style Guide_ "hostname" one word guidance
 
 <a name="2021-july"></a>
@@ -108,7 +114,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * Added icons for yes/no/with caution guidance for glossary entries
 * Added guidance for [avoiding contractions](https://redhat-documentation.github.io/supplementary-style-guide/#contractions)
 * Added guidance for [user-replaced values in XML](https://redhat-documentation.github.io/supplementary-style-guide/#user-replaced-values-xml)
-* Added product-specific terminology for [RHEL](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_enterprise_linux_2)
+* Added product-specific terminology for RHEL
 
 <a name="2021-june"></a>
 ## June 2021
@@ -151,4 +157,4 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 <a name="2020-december"></a>
 ## December 2020
 
-* Updated [Red Hat OpenShift](https://redhat-documentation.github.io/supplementary-style-guide/#_red_hat_openshift) glossary entries for new guidance API object terminology formatting.
+* Updated Red Hat OpenShift glossary entries for new guidance API object terminology formatting.
