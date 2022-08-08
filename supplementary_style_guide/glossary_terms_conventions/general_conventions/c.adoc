@@ -1043,6 +1043,16 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 
 *See also*:
 
+[discrete]
+[[customer]]
+==== image:images/yes.png[yes] customer (noun)
+*Description*: Use "customer" to refer to the people who buy, subscribe to, or use Red Hat products and services.
+
+*Use it*: yes
+
+*Incorrect forms*: client
+
+*See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [discrete]
