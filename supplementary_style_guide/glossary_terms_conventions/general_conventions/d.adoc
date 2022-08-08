@@ -425,6 +425,19 @@ Red Hat Directory Server conforms to LDAP standards.
 *See also*: xref:red-hat-directory-server[Red Hat Directory Server]
 
 [discrete]
+[[disconnected]]
+==== image:images/yes.png[yes] disconnected (adjective)
+*Description*: In Red Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
+
+"Disconnected" is the preferred term over "restricted", "air-gapped", or "offline".
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[disk-druid]]
 ==== image:images/yes.png[yes] Disk Druid (noun)
 *Description*: A "Disk Druid" is a partitioning tool incorporated into Red Hat Enterprise Linux.
