@@ -8,17 +8,19 @@ The following guidelines improve findability and search engine optimization.
 
 * Include links only when necessary.
 * Use hyperlinks and use them consistently.
+* Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
 * Do not use JavaScript links. 
 * Do not use Flash links.
 * Do not use links in Frames or iframes.
-* Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
 
 
 .Link text best practices
 
-* Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location. 
+* Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location.
+* Use a concise sentence or sentence fragment as the link text.
+* Avoid bare URLs. Bare URLs are unhelpful because they have no information about the target location.
 * Avoid irrelevant link text.
-* You can use a sentence or sentence fragment as the link text.
+
 
 
 
@@ -40,8 +42,9 @@ For more information about <topic>, see link:<link>[<link_text>] in _<title_name
 [[rh-kb-links]]
 === Linking to Red Hat Knowledgebase articles
 
+* Ensure that your product team supports linking to Knowledgebase articles.
 * Use the title of the Knowledgebase article for the link text, or use descriptive running text.
-* Call out that this is a Knowledgebase article when _not_ using running text.
+* When not using running text, indicate that the link target is a  Knowledgebase article.
 * When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase)`.
 
 
@@ -51,7 +54,7 @@ For a non-cloud environment, you can resize the disk and file system. For more i
 
 .Example: Running text
 
-If your Apache web server configuration enables SSL security, verify that you enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This is because of the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
+If your Apache web server configuration enables SSL security, enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This is because of the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
 
 .Example: Additional resources
 
@@ -62,7 +65,10 @@ If your Apache web server configuration enables SSL security, verify that you en
 [[external-links]]
 == External links
 
-External links are links to a domain other than www.redhat.com. Include links to external sites only when necessary. External links can change or be unreliable.
+External links are links to a domain other than www.redhat.com.
+
+* Avoid links to external sites if possible. External links can change or be unreliable. 
+* Avoid deep links in particular (to a specific page or image from another company) to prevent an ongoing maintenance responsibility.
 
 .Example AsciiDoc: External links
 ----
