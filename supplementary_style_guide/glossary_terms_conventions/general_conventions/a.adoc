@@ -366,7 +366,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[application]]
 ==== image:images/yes.png[yes] application (noun)
-*Description*: Added "In Red Hat OpenShift, although the term _application_ is not an specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term application might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
+*Description*: In Red Hat OpenShift, although the term "application" is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term "application" might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
 
 *Use it*: yes
 
