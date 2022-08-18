@@ -18,7 +18,7 @@ The following guidelines improve findability and search engine optimization.
 
 * Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location.
 * Use a concise sentence or sentence fragment as the link text.
-* Avoid bare URLs. Bare URLs are unhelpful because they have no information about the target location.
+* Do not use bare URLs. Bare URLs are unhelpful because they do not provide adequate context about the link target.
 * Avoid irrelevant link text.
 
 
@@ -27,7 +27,7 @@ The following guidelines improve findability and search engine optimization.
 [[internal-links]]
 == Internal links
 
-Internal links are links within www.redhat.com.
+Internal links are links within \www.redhat.com.
 
 .Example AsciiDoc: Internal links
 ----
@@ -54,7 +54,7 @@ For a non-cloud environment, you can resize the disk and file system. For more i
 
 .Example: Running text
 
-If your Apache web server configuration enables SSL security, enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This is because of the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
+If your Apache web server configuration enables SSL security, enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This configuration is required because of the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
 
 .Example: Additional resources
 
@@ -65,10 +65,10 @@ If your Apache web server configuration enables SSL security, enable only the TL
 [[external-links]]
 == External links
 
-External links are links to a domain other than www.redhat.com.
+External links are links to a domain other than \www.redhat.com.
 
 * Avoid links to external sites if possible. External links can change or be unreliable. 
-* Avoid deep links in particular (to a specific page or image from another company) to prevent an ongoing maintenance responsibility.
+* Avoid deep links in particular (to a specific page or image from another company) to prevent an ongoing maintenance responsibility and to prevent bypassing a website's legal information.
 
 .Example AsciiDoc: External links
 ----
