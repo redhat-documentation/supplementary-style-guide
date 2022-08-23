@@ -444,10 +444,10 @@ Always spell out the full product name of the host, and do not capitalize the te
 // OCS: General; kept as is
 [discrete]
 [[red-hat-openshift-container-storage]]
-==== Red Hat OpenShift Container Storage (noun)
+==== image:images/no.png[no] Red Hat OpenShift Container Storage (noun)
 *Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, Red Hat OpenShift Container Storage was rebranded as Red Hat OpenShift Data Foundation.
 
-*Use it*: yes
+*Use it*: no
 
 *Incorrect forms*: OCS
 
@@ -456,7 +456,7 @@ Always spell out the full product name of the host, and do not capitalize the te
 // Added entry for ODF and updated OCS entry
 [discrete]
 [[red-hat-openshift-data-foundation]]
-==== Red Hat OpenShift Data Foundation (noun)
+==== image:images/yes.png[yes] Red Hat OpenShift Data Foundation (noun)
 *Description*: Red Hat software-defined, container-native storage that helps to develop and deploy applications quickly and efficiently across cloud platforms. Formerly Red Hat OpenShift Container Storage.
 
 *Use it*: yes
