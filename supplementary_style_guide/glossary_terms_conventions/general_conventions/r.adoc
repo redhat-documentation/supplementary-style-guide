@@ -445,7 +445,7 @@ Always spell out the full product name of the host, and do not capitalize the te
 [discrete]
 [[red-hat-openshift-container-storage]]
 ==== Red Hat OpenShift Container Storage (noun)
-*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, Red Hat OpenShift Container Storage was rebranded to Red Hat OpenShift Data Foundation.
+*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, Red Hat OpenShift Container Storage was rebranded as Red Hat OpenShift Data Foundation.
 
 *Use it*: yes
 
