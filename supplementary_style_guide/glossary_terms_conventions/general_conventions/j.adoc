@@ -99,8 +99,7 @@
 
 *Incorrect forms*:
 
-// TODO: Add links to "Red Hat Way" and "open source way".
-*See also*: Red Hat Way, open source way
+*See also*: xref:red-hat-way[Red Hat Way]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [discrete]
