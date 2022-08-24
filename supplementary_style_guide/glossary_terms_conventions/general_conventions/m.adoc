@@ -11,6 +11,17 @@
 *See also*:
 
 [discrete]
+[[mac-address]]
+==== image:images/yes.png[yes] MAC address (noun)
+*Description*: Hardware vendors assign a unique Media Access Control address (_MAC address_) to each network interface controller, and typically store the MAC address in the device's read-only memory or firmware. MAC addresses are represented as six groups of hexadecimal digits, separated by hyphens or colons. Use "MAC address" instead of "MAC".
+
+*Use it*: yes
+
+*Incorrect forms*: MAC
+
+*See also*:
+
+[discrete]
 [[man-page]]
 ==== image:images/yes.png[yes] man page (noun)
 *Description*: "Man page" is an abbreviation for "manual page".

@@ -45,6 +45,28 @@
 
 *See also*:
 
+[discrete]
+[[ack]]
+==== image:images/no.png[no] ACK (noun)
+*Description*: Do not use _ACK_ as acronym for "acknowledgement" in general. When writing about the acknowledgement flag ("ACK flag") in a TCP packet, use "ACK flag".
+
+*Use it*: no
+
+*Incorrect forms*: ACK
+
+*See also*: xref:ack-flag[ACK flag]
+
+[discrete]
+[[ack-flag]]
+==== image:images/yes.png[yes] ACK flag (noun)
+*Description*: The acknowledgement flag (_ACK flag_) in a TCP packet indicates that the acknowledgement field in the packet is relevant. Do not expand on first usage and write as shown: "ACK flag".
+
+*Use it*: yes
+
+*Incorrect forms*: ack, ACK, ack packet
+
+*See also*:
+
 // OCP: Reworded to put "In Red Hat OpenShift," in front
 [discrete]
 [[action]]
@@ -382,6 +404,17 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *Use it*: yes
 
 *Incorrect forms*: Applix, ApplixWare
+
+*See also*:
+
+[discrete]
+[[arp]]
+==== image:images/yes.png[yes] ARP (noun)
+*Description*: Within a subnet of an Ethernet network, hosts use the Address Resolution Protocol (_ARP_) to discover the Media Access Control (MAC) address that is associated with an IPv4 address. In IPv6 networks, the Neighbor Discovery Protocol (NDP) provides the functionality of ARP.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
