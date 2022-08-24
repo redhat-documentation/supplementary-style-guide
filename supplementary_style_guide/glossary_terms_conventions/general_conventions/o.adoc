@@ -1,3 +1,14 @@
+[discrete]
+[[o-ran]]
+==== image:images/caution.png[with caution] O-RAN (noun)
+*Description*: Write as shown (hyphenated, all uppercase) for specific and official references to the _O-RAN_ Alliance. For generic references to deploying and managing radio access network features by using open interfaces, use "Open RAN". For references to the Telecom Infra Project, use "OpenRAN".
+
+*Use it*: with caution
+
+*Incorrect forms*: ORAN
+
+*See also*: xref:open-ran[Open RAN], xref:openran[OpenRAN]
+
 // OCS: General; kept as is
 [discrete]
 [[object-bucket]]
@@ -205,6 +216,17 @@
 //TODO xref: proprietary[proprietary]
 
 [discrete]
+[[open-ran]]
+==== image:images/caution.png[with caution] Open RAN (noun)
+*Description*: Write as shown (two words, uppercase O, uppercase RAN) for generic references to deploying and managing radio access network features by using open interfaces. For specific and official references to the O-RAN Alliance, use "O-RAN". For references to the Telecom Infra Project, use "OpenRAN".
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:o-ran[O-RAN], xref:openran[OpenRAN]
+
+[discrete]
 [[open-source]]
 ==== image:images/yes.png[yes] open source (noun)
 *Description*: "Open source" means that the source code of a program or utility can be viewed, modified, and shared. See https://opensource.com/resources/what-open-source[What is Open Source] for details.
@@ -214,6 +236,17 @@
 *Incorrect forms*: open-source, OpenSource, opensource
 
 *See also*:
+
+[discrete]
+[[openran]]
+==== image:images/caution.png[with caution] OpenRAN (noun)
+*Description*: Write as shown (one word, uppercase O, uppercase RAN) for references to the Telecom Infra Project. For specific and official references to the O-RAN Alliance, use "O-RAN". For generic references to deploying and managing radio access network features by using open interfaces, use "Open RAN".
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:o-ran[O-RAN], xref:open-ran[Open RAN]
 
 // OCP: General; kept as is;
 [discrete]

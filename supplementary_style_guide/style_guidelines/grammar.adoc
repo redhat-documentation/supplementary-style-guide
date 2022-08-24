@@ -45,6 +45,7 @@ When possible, rewrite documentation to avoid these terms. When it is not possib
 * initiator, requester / responder
 * controller, host / device, worker, proxy
 * director / performer
+* controller / port interface (in networking)
 * You can also use a term that has been agreed by your product team stakeholders.
 
 

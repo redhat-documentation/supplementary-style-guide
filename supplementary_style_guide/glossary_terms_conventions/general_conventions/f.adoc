@@ -95,6 +95,17 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 *See also*: xref:bluestore[BlueStore]
 
 [discrete]
+[[firewalld]]
+==== image:images/yes.png[yes] firewalld (noun)
+*Description*: The _firewalld_ service provides a dynamically managed firewall with support for zones that define the trust level of network connections or interfaces. Write as shown (all lowercase).
+
+*Use it*: yes
+
+*Incorrect forms*: Firewalld, firewallD, FirewallD
+
+*See also*:
+
+[discrete]
 [[firewire]]
 ==== image:images/yes.png[yes] FireWire (noun)
 *Description*: "FireWire" is the Apple name for the IEEE 1394 High Speed Serial Bus, a serial bus architecture for high-speed data transfer.

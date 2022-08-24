@@ -46,6 +46,17 @@
 
 *See also*:
 
+[discrete]
+[[nat]]
+==== image:images/yes.png[yes] NAT (noun)
+*Description*: Network Address Translation (_NAT_) replaces the source or destination IP address in a network packet.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [discrete]
 [[native-interface]]
@@ -105,6 +116,17 @@
 *See also*: xref:dotnet[.NET]
 
 [discrete]
+[[network-bond]]
+==== image:images/yes.png[yes] network bond (noun)
+*Description*: A _network bond_ is a method to combine or aggregate physical and virtual network interfaces to provide a logical interface with higher throughput or redundancy. The main difference to a network team is that, in bonding, the kernel handles all operations exclusively.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[network-interface-card]]
 ==== image:images/no.png[no] network interface card
 *Description*: Do not use "network interface card" for the acronym "NIC". Use "network interface controller" instead.
@@ -125,6 +147,17 @@
 *Incorrect forms*: network interface card
 
 *See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
+
+[discrete]
+[[network-team]]
+==== image:images/yes.png[yes] network team (noun)
+*Description*: A _network team_ is a method to combine or aggregate physical and virtual network interfaces to provide a logical interface with higher throughput or redundancy. The main difference to a network bond is that, in teaming, both a small kernel module and a user-space service process the operations.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[network-transparency]]

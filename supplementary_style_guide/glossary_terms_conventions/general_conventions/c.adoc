@@ -304,6 +304,17 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 *See also*:
 
 [discrete]
+[[cidr]]
+==== image:images/yes.png[yes] CIDR (noun)
+*Description*: Classless Inter-Domain Routing (_CIDR_) is a method to efficiently allocate IP addresses and for IP routing. CIDR replaces the classful network addressing architecture. In CIDR notation, IP addresses contain a suffix that represents the number of bits of the prefix. Expand on first usage, and write it as shown: "Classless Inter-Domain Routing".
+
+*Use it*: yes
+
+*Incorrect forms*: cidr, Classless Interdomain Routing, Classless Inter-domain Routing
+
+*See also*:
+
+[discrete]
 [[ciphertext]]
 ==== image:images/yes.png[yes] ciphertext (noun)
 *Description*: In cryptography, "ciphertext" is the result of encryption performed on plain text using an algorithm, called a cipher.
