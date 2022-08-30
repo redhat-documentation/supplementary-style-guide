@@ -329,3 +329,12 @@ See xref:release-notes[Release notes] for guidelines about deprecation notices.
 image:images/no.png[no] We will fix this issue in the 18.3.4 release next February.
 
 image:images/yes.png[yes] It is anticipated that an upcoming release will include a fix for this issue.
+
+[[references-to-cost]]
+== References to cost
+
+Avoid all references to the costs of Red Hat products. These references can confuse users and cause legal concerns. This information is best left to marketing materials.
+
+.Example phrases
+
+* "at no initial cost" - This phrase was removed from the documentation because while it implies there are further costs, it can also be construed to me the product is free when it isn't.
