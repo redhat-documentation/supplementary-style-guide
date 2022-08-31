@@ -337,4 +337,4 @@ Avoid all references to the costs of Red Hat products. These references can conf
 
 .Example phrases
 
-* "at no initial cost" - This phrase was removed from the documentation because while it implies there are further costs, it can also be construed to me the product is free when it isn't.
+* "at no initial cost" - This phrase was removed from the documentation because while it implies there are further costs, it can also be construed to mean the product is free when it isn't.
