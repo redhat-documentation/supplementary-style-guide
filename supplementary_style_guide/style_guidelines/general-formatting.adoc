@@ -333,8 +333,8 @@ image:images/yes.png[yes] It is anticipated that an upcoming release will includ
 [[references-to-cost]]
 == References to cost
 
-Avoid all references to the costs of Red Hat products. These references can confuse users and cause legal concerns. This information is best left to marketing materials.
+Avoid all references to the costs and charges of Red Hat products. Although the _IBM Style Guide_ recommends against using the term "free", also avoid any references to cost in product documentation because they can confuse users and cause legal concerns. Any cost information is best referenced in marketing materials.
 
-.Example phrases
+.Example problematic phrase
 
-* "at no initial cost" - This phrase was removed from the documentation because while it implies there are further costs, it can also be construed to mean the product is free when it isn't.
+* "at no initial cost" - Avoid this phrase in documentation because, although it implies there are further costs, it can also be construed to mean that the product is free when it is not.
