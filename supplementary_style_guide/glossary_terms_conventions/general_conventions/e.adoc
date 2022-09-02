@@ -2,7 +2,7 @@
 [discrete]
 [[ee]]
 ==== image:images/yes.png[yes] ee subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "ee" subsystem is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the ee subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _ee subsystem_ is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the `ee` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -14,7 +14,7 @@
 [discrete]
 [[eip]]
 ==== image:images/yes.png[yes] EIP (noun)
-*Description*: Enterprise Integration Pattern. A pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Camel implements numerous patterns for asynchronous messaging. In Red Hat Fuse, these patterns are located in the Palette and filed in separate drawers according to function (Routing, Control Flow, Transformation, and Miscellaneous).
+*Description*: _Enterprise Integration Pattern (EIP)_. A pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Camel implements numerous patterns for asynchronous messaging. In Red Hat Fuse, these patterns are located in the Palette and filed in separate drawers according to function (Routing, Control Flow, Transformation, and Miscellaneous).
 
 *Use it*: yes
 
@@ -26,7 +26,7 @@
 [discrete]
 [[ejb3]]
 ==== image:images/yes.png[yes] ejb3 subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "ejb3" subsystem is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the ejb3 subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
 
 *Use it*: yes
 
@@ -38,7 +38,7 @@
 [discrete]
 [[elytron]]
 ==== image:images/yes.png[yes] elytron subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "elytron" subsystem is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the elytron subsystem in titles and headings. See the xref:security-elytron[Security - Elytron] entry for the correct usage when referring to the elytron subsystem in the management console.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. See the xref:security-elytron[Security - Elytron] entry for the correct usage when referring to the `elytron` subsystem in the management console.
 
 *Use it*: yes
 
@@ -49,7 +49,7 @@
 [discrete]
 [[emacs]]
 ==== image:images/yes.png[yes] Emacs (noun)
-*Description*: "Emacs" is a text editor that is available on the UNIX system and similar operating systems. Like vi, Emacs is a screen editor. Unlike vi, Emacs is not an insertion mode editor, meaning that any character typed in Emacs is automatically inserted into the file, unless it includes a command prefix.
+*Description*: _Emacs_ is a text editor that is available on the UNIX system and similar operating systems. Like vi, Emacs is a screen editor. Unlike vi, Emacs is not an insertion mode editor, meaning that any character typed in Emacs is automatically inserted into the file, unless it includes a command prefix.
 
 If referring to the program, use "Emacs", for example, "Source-Navigator supports Emacs or vi commands." If referring to the shell prompt command, use `emacs`. Always mark up the command correctly, for example, "At the prompt, type `emacs`." The complete and correct name is "GNU Emacs".
 
@@ -62,7 +62,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[emit]]
 ==== image:images/yes.png[yes] emit (verb)
-*Description*: "Emit" means to send something out. Do not use "send out" because that is too informal and imprecise. Alternatively, use "issue".
+*Description*: _Emit_ means to send something out. Do not use "send out" because that is too informal and imprecise. Alternatively, use "issue".
 
 *Use it*: yes
 
@@ -76,7 +76,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[endpoint]]
 ==== image:images/caution.png[with caution] endpoint (noun)
-*Description*: 1) The servers that back a service. 2) In Red Hat Fuse, an endpoint provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
+*Description*: 1) The servers that back a service. 2) In Red Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
 
 *Use it*: with caution
 
@@ -98,7 +98,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[entitlement]]
 ==== image:images/caution.png[with caution] entitlement (noun)
-*Description*: "Entitlement" refers to the number of systems that can be attached to an individual subscription. When you use Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription's available entitlements. Do not use "entitlement" and "subscription" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
+*Description*: _Entitlement_ refers to the number of systems that can be attached to an individual subscription. When you use Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription's available entitlements. Do not use "entitlement" and "subscription" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
 
 *Use it*: with caution
 
@@ -109,7 +109,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[environment]]
 ==== image:images/yes.png[yes] environment (noun)
-*Description*: In IT, "environment" refers to the state of a computer, usually determined by which programs are running and basic hardware and software characteristics. For example, when one speaks of running a program in a UNIX "environment", it means running a program on a computer that has the UNIX operating system. One ingredient of an environment is the operating system, but operating systems include a number of different parameters. For example, many operating systems allow you to choose your command prompt or a default command path. All of these parameters taken together comprise the environment.
+*Description*: In IT, _environment_ refers to the state of a computer, usually determined by which programs are running and basic hardware and software characteristics. For example, when one speaks of running a program in a UNIX "environment", it means running a program on a computer that has the UNIX operating system. One ingredient of an environment is the operating system, but operating systems include a number of different parameters. For example, many operating systems allow you to choose your command prompt or a default command path. All of these parameters taken together comprise the environment.
 
 *Use it*: yes
 
@@ -132,7 +132,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[event]]
 ==== image:images/yes.png[yes] event (noun)
-*Description*: 1) An "event" is an action or occurrence detected by a program. Events can be user actions, such as clicking a mouse button or pressing a key, or system occurrences, such as running out of memory. 2) An event is an audit stream that administrators view and connect to.
+*Description*: 1) An _event_ is an action or occurrence detected by a program. Events can be user actions, such as clicking a mouse button or pressing a key, or system occurrences, such as running out of memory. 2) An event is an audit stream that administrators view and connect to.
 
 *Use it*: yes
 
@@ -154,7 +154,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[exec-shield]]
 ==== image:images/yes.png[yes] Exec-Shield (noun)
-*Description*: "Exec-Shield" is a security-enhancing modification to the Linux kernel that makes large parts of specially marked programs including their stack not executable.
+*Description*: _Exec-Shield_ is a security-enhancing modification to the Linux kernel that makes large parts of specially marked programs including their stack not executable.
 
 *Use it*: yes
 
@@ -165,7 +165,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[exif]]
 ==== image:images/yes.png[yes] Exif (noun)
-*Description*: "Exif" is an image file format specification that enables metadata tags to be added to existing JPEG, TIFF, and RIFF files. "Exif" is sometimes referred to as "Exif Print".
+*Description*: _Exif_ is an image file format specification that enables metadata tags to be added to existing JPEG, TIFF, and RIFF files. _Exif_ is sometimes referred to as _Exif Print_.
 
 *Use it*: yes
 
@@ -177,7 +177,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[expansion-pack]]
 ==== image:images/yes.png[yes] Expansion Pack (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, "Expansion Pack" is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
+*Description*: In Red Hat JBoss Enterprise Application Platform, _Expansion Pack_ is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
 
 *Use it*: yes
 
@@ -188,7 +188,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 [discrete]
 [[extranet]]
 ==== image:images/yes.png[yes] extranet (noun)
-*Description*: "Extranet" refers to an "intranet" that is partially accessible to authorized outsiders. Whereas an intranet resides behind a firewall and is accessible only to people who are members of the same company or organization, an extranet provides various levels of accessibility to outsiders. You can access an extranet only if you have a valid user name and password. Your identity determines which parts of the extranet you can view.
+*Description*: _Extranet_ refers to an "intranet" that is partially accessible to authorized outsiders. Whereas an intranet resides behind a firewall and is accessible only to people who are members of the same company or organization, an extranet provides various levels of accessibility to outsiders. You can access an extranet only if you have a valid user name and password. Your identity determines which parts of the extranet you can view.
 
 Capitalize "extranet" only at the beginning of a sentence.
 
