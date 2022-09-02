@@ -2,7 +2,7 @@
 [discrete]
 [[cache-manager]]
 ==== image:images/yes.png[yes] Cache Manager (noun)
-*Description*: In Red Hat Data Grid, Cache Manager is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a Cache Manager. When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
+*Description*: In Red Hat Data Grid, _Cache Manager_ is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a "Cache Manager". When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
 
 *Use it*: yes
 
@@ -14,7 +14,7 @@
 [discrete]
 [[camel-context]]
 ==== image:images/caution.png[with caution] Camel context (noun)
-*Description*: In Red Hat Fuse, every Camel application is based on a `CamelContext` object, which is the Camel runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it, such as components, endpoints, routes, data formats, languages, and registry. In the routing context `.xml` file, the object is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term *routing context* when talking about the application's .xml/DSL file or the file's routing rules.
+*Description*: In Red Hat Fuse, every _Camel application_ is based on a `CamelContext` object, which is the Camel runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it, such as components, endpoints, routes, data formats, languages, and registry. In the routing context `.xml` file, the object is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term "routing context" when talking about the application's `.xml/DSL` file or the file's routing rules.
 
 *Use it*: with caution
 
@@ -26,7 +26,7 @@
 [discrete]
 [[canvas]]
 ==== image:images/yes.png[yes] canvas (noun)
-*Description*: In Red Hat Fuse, the route editor provides a canvas (Design tab) on which to build routes graphically, using components and Enterprise Integration Patterns (EIPs) available in the Palette.
+*Description*: In Red Hat Fuse, the route editor provides a _canvas_ (Design tab) on which to build routes graphically, using components and Enterprise Integration Patterns (EIPs) available in the Palette.
 
 *Use it*: yes
 
@@ -37,7 +37,7 @@
 [discrete]
 [[cap-ex]]
 ==== image:images/yes.png[yes] CapEx (noun)
-*Description*: "CapEx" is an acronym for "capital expenditures".
+*Description*: _CapEx_ is an acronym for "capital expenditures".
 
 *Use it*: yes
 
@@ -49,7 +49,7 @@
 [discrete]
 [[capsule-server]]
 ==== image:images/yes.png[yes] Capsule Server (noun)
-*Description*: In Red Hat Satellite, Capsule Server is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Use the two-word name on first use in a section; the single term 'Capsule' is acceptable thereafter.
+*Description*: In Red Hat Satellite, _Capsule Server_ is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Use the two-word name on first use in a section; the single term 'Capsule' is acceptable thereafter.
 
 *Use it*: yes
 
@@ -60,7 +60,7 @@
 [discrete]
 [[cd-command]]
 ==== image:images/yes.png[yes] cd (noun)
-*Description*: The "change directory" command is "cd".
+*Description*: The _change directory_ command is `cd`.
 
 *Use it*: yes
 
@@ -71,7 +71,7 @@
 [discrete]
 [[compact-disk]]
 ==== image:images/yes.png[yes] CD (noun)
-*Description*: "CD" is an abbreviation for "compact disc".
+*Description*: _CD_ is an abbreviation for _compact disc_.
 
 *Use it*: yes
 
@@ -94,7 +94,7 @@
 [discrete]
 [[cd-writer]]
 ==== image:images/yes.png[yes] CD writer (noun)
-*Description*: A "CD writer" is a device that records data into the CD format.
+*Description*: A _CD writer_ is a device that records data into the CD format.
 
 *Use it*: yes
 
@@ -105,7 +105,7 @@
 [discrete]
 [[cds]]
 ==== image:images/yes.png[yes] CDs (noun)
-*Description*: "CDs" is the plural form of "CD". Use "CDs" to describe multiple compact discs.
+*Description*: _CDs_ is the plural form of _CD_. Use "CDs" to describe multiple compact discs.
 
 *Use it*: yes
 
@@ -117,7 +117,7 @@
 [discrete]
 [[ceph]]
 ==== image:images/yes.png[yes] Ceph (noun)
-*Description*: Ceph is a unified, distributed storage system designed for excellent performance, reliability and scalability.
+*Description*: _Ceph_ is a unified, distributed storage system designed for excellent performance, reliability and scalability.
 
 *Use it*: yes
 
@@ -141,7 +141,7 @@
 [discrete]
 [[ceph-block-device]]
 ==== image:images/yes.png[yes] Ceph Block Device (noun)
-*Description*: In Red Hat Ceph Storage, the Ceph Block Device is the block storage component of Ceph. Also known as the RADOS Block Device, however the term Ceph Block Device is preferred.
+*Description*: In Red Hat Ceph Storage, the _Ceph Block Device_ is the block storage component of Ceph. Also known as the _RADOS Block Device_, however the term "Ceph Block Device" is preferred.
 
 *Use it*: yes
 
@@ -153,7 +153,7 @@
 [discrete]
 [[ceph-file-system]]
 ==== image:images/yes.png[yes] Ceph File System (noun)
-*Description*: In Red Hat Ceph Storage, the Ceph File System is the POSIX file system component of Ceph.
+*Description*: In Red Hat Ceph Storage, the _Ceph File System_ is the POSIX file system component of Ceph.
 
 *Use it*: yes
 
@@ -165,7 +165,7 @@
 [discrete]
 [[ceph-monitor]]
 ==== image:images/yes.png[yes] Ceph Monitor (noun)
-*Description*: In Red Hat Ceph Storage, the Ceph Monitor is a node where the `ceph-mon` daemon is running.
+*Description*: In Red Hat Ceph Storage, the _Ceph Monitor_ is a node where the `ceph-mon` daemon is running.
 
 *Use it*: yes
 
@@ -177,7 +177,7 @@
 [discrete]
 [[ceph-object-gateway]]
 ==== image:images/yes.png[yes] Ceph Object Gateway (noun)
-*Description*: In Red Hat Ceph Storage, the Ceph Object Gateway is the S3/Swift component. Also known as RADOS gateway. However, prefer using the Ceph Object Gateway.
+*Description*: In Red Hat Ceph Storage, the _Ceph Object Gateway_ is the S3/Swift component. Also known as _RADOS gateway_. However, prefer using the "Ceph Object Gateway".
 
 *Use it*: yes
 
@@ -252,7 +252,7 @@
 [discrete]
 [[cephfs]]
 ==== image:images/yes.png[yes] CephFS (noun)
-*Description*: In Red Hat Ceph Storage, CephFS is an initialization for the Ceph File System.
+*Description*: In Red Hat Ceph Storage, _CephFS_ is an initialization for the Ceph File System.
 
 *Use it*: yes
 
@@ -264,7 +264,7 @@
 [discrete]
 [[certificate]]
 ==== image:images/yes.png[yes] certificate (noun)
-*Description*: A certificate is an electronic document used to identify an individual, a server, a company, or other entity and to associate that identity with a public key. A certificate provides generally recognized proof of a person's identity. Public-key cryptography uses certificates to address the problem of impersonation.
+*Description*: A _certificate_ is an electronic document used to identify an individual, a server, a company, or other entity and to associate that identity with a public key. A certificate provides generally recognized proof of a person's identity. Public-key cryptography uses certificates to address the problem of impersonation.
 
 *Use it*: yes
 
@@ -295,7 +295,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[cgroup]]
 ==== image:images/yes.png[yes] cgroup (noun)
-*Description*: The term "cgroup" is a contraction of "control group". Cgroups allow you to allocate resources, such as CPU time, system memory, network bandwidth, or combinations of these resources, among user-defined groups of processes running on a system.
+*Description*: The term _cgroup_ is a contraction of _control group_. Cgroups allow you to allocate resources, such as CPU time, system memory, network bandwidth, or combinations of these resources, among user-defined groups of processes running on a system.
 
 *Use it*: yes
 
@@ -317,7 +317,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[ciphertext]]
 ==== image:images/yes.png[yes] ciphertext (noun)
-*Description*: In cryptography, "ciphertext" is the result of encryption performed on plain text using an algorithm, called a cipher.
+*Description*: In cryptography, _ciphertext_ is the result of encryption performed on plain text using an algorithm, called a _cipher_.
 
 *Use it*: yes
 
@@ -329,7 +329,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[clean-install]]
 ==== image:images/yes.png[yes] clean install (noun)
-*Description*: In Red Hat Enterprise Linux, a clean install removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
+*Description*: In Red Hat Enterprise Linux, a _clean install_ removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
 
 *Use it*: yes
 
@@ -341,7 +341,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[client]]
 ==== image:images/yes.png[yes] client
-*Description*: In Red Hat Single Sign-On, a client is an entity that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
+*Description*: In Red Hat Single Sign-On, a _client_ is an entity that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
 
 *Use it*: yes
 
@@ -352,8 +352,8 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On," and removed from later in the sentence
 [discrete]
 [[client-adapter]]
-==== image:images/yes.png[yes] client adapter (noun)
-*Description*: In Red Hat Single Sign-On, client adapters are libraries that make it easy to secure applications and services. Red Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red Hat does not cover.
+==== image:images/yes.png[yes] client adapter
+*Description*: In Red Hat Single Sign-On, _client adapters_ are libraries that make it easy to secure applications and services. Red Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red Hat does not cover.
 
 *Use it*: yes
 
@@ -365,7 +365,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[client-application]]
 ==== image:images/yes.png[yes] client application (noun)
-*Description*: In Red Hat AMQ, a client application is an application or server that connects to broker instances, routers, or both to send or receive messages. This should not be confused with AMQ Clients, which is the messaging library used to create the client application.
+*Description*: In Red Hat AMQ, a _client application_ is an application or server that connects to broker instances, routers, or both to send or receive messages. This should not be confused with AMQ Clients, which is the messaging library used to create the client application.
 
 *Use it*: yes
 
@@ -376,8 +376,8 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[client-role]]
-==== image:images/yes.png[yes] client role (noun)
-*Description*: In Red Hat Single Sign-On, a client role is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
+==== image:images/yes.png[yes] client role
+*Description*: In Red Hat Single Sign-On, a _client role_ is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
 
 *Use it*: yes
 
@@ -388,8 +388,8 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[client-scope]]
-==== image:images/yes.png[yes] client scope (noun)
-*Description*: In Red Hat Single Sign-On, when a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a client scope so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red Hat Single Sign-On provides the concept of a client scope for this.
+==== image:images/yes.png[yes] client scope
+*Description*: In Red Hat Single Sign-On, when a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a _client scope_ so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red Hat Single Sign-On provides the concept of a client scope for this.
 
 *Use it*: yes
 
@@ -444,7 +444,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[cloudbursting]]
 ==== image:images/yes.png[yes] cloudbursting (verb)
-*Description*: "Cloudbursting" is an event where a private cloud exceeds its capacity and "bursts" into and uses public cloud resources.
+*Description*: _Cloudbursting_ is an event where a private cloud exceeds its capacity and _bursts_ into and uses public cloud resources.
 
 *Use it*: yes
 
@@ -455,7 +455,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[cloudwashing]]
 ==== image:images/yes.png[yes] cloudwashing (verb)
-*Description*: "Cloudwashing" is the process of rebranding legacy products to include the term "cloud" to increase their appeal to the cloud market.
+*Description*: _Cloudwashing_ is the process of rebranding legacy products to include the term "cloud" to increase their appeal to the cloud market.
 
 *Use it*: yes
 
@@ -466,7 +466,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[cluster]]
 ==== image:images/yes.png[yes] cluster (noun)
-*Description*: 1) A "cluster" is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the "High Availability Add-On" in Red Hat Enterprise Linux 6 and later. 2) In Red Hat OpenShift, a "cluster" is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined by the system. 
+*Description*: 1) A _cluster_ is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the _High Availability Add-On_ in Red Hat Enterprise Linux 6 and later. 2) In OpenShift context, a _cluster_ is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
 
 *Use it*: yes
 
@@ -478,7 +478,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[cockpit-web-interface]]
 ==== image:images/yes.png[yes] Cockpit web interface (noun)
-*Description*: Cockpit is a web-based server administration user interface.
+*Description*: _Cockpit_ is a web-based server administration user interface.
 
 *Use it*: yes
 
@@ -489,7 +489,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[code]]
 ==== image:images/yes.png[yes] code (noun)
-*Description*: "Code" refers to programming statements and a set of instructions for a computer. Do not use "code" as a verb.
+*Description*: _Code_ refers to programming statements and a set of instructions for a computer. Do not use "code" as a verb.
 
 *Use it*: yes
 
@@ -512,7 +512,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[colocate]]
 ==== image:images/yes.png[yes] colocate (verb)
-*Description*: "Colocate" means to place two or more items in the same space. Do not hyphenate "colocate".
+*Description*: _Colocate_ means to place two or more items in the same space. Do not hyphenate "colocate".
 
 *Use it*: yes
 
@@ -523,7 +523,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[comma-delimited]]
 ==== image:images/yes.png[yes] comma-delimited (adjective)
-*Description*: "Comma-delimited" is an adjective that refers to a data format in which each piece of data is separated by a comma.
+*Description*: _Comma-delimited_ is an adjective that refers to a data format in which each piece of data is separated by a comma.
 
 *Use it*: yes
 
@@ -534,7 +534,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[comma-separated-values]]
 ==== image:images/yes.png[yes] comma-separated values (noun)
-*Description*: "Comma-separated values" are a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first use; use "CSV" thereafter.
+*Description*: _Comma-separated values_ are a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first use; use "CSV" thereafter.
 
 *Use it*: yes
 
@@ -545,7 +545,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[command-language]]
 ==== image:images/yes.png[yes] command language (noun)
-*Description*: "Command language" is the programming language through which a user communicates with an operating system or an application.
+*Description*: _Command language_ is the programming language through which a user communicates with an operating system or an application.
 
 *Use it*: yes
 
@@ -556,7 +556,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[command-driven]]
 ==== image:images/yes.png[yes] command-driven (adjective)
-*Description*: "Command-driven" is an adjective that refers to programs and operating systems that accept commands in the form of special words or letters.
+*Description*: _Command-driven_ is an adjective that refers to programs and operating systems that accept commands in the form of special words or letters.
 
 *Use it*: yes
 
@@ -568,7 +568,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[commit]]
 ==== image:images/yes.png[yes] commit (noun)
-*Description*: In Red Hat Enterprise Linux, a commit is a release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
+*Description*: In Red Hat Enterprise Linux, a _commit_ is a release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
 
 *Use it*: yes
 
@@ -580,7 +580,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[component]]
 ==== image:images/yes.png[yes] component (noun)
-*Description*: In Red Hat Fuse, a component is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. In Fuse tooling, the Palette's Components drawer contains the Camel components that you can add to your route in the route editor. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
+*Description*: In Red Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. In Fuse tooling, the Palette's Components drawer contains the Camel components that you can add to your route in the route editor. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
 
 *Use it*: yes
 
@@ -592,7 +592,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[compose]]
 ==== image:images/yes.png[yes] compose (noun)
-*Description*: In Red Hat Enterprise Linux, composes are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
+*Description*: In Red Hat Enterprise Linux, _composes_ are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
 
 *Use it*: yes
 
@@ -604,7 +604,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[composite-content-view]]
 ==== image:images/yes.png[yes] Composite Content View (noun)
-*Description*: In Red Hat Satellite, a Composite Content View is a collection of Content Views. Use the three-word name in full on first use in a section; the abbreviation 'CCV' is acceptable thereafter.
+*Description*: In Red Hat Satellite, a _Composite Content View_ is a collection of Content Views. Use the three-word name in full on first use in a section; the abbreviation "CCV" is acceptable thereafter.
 
 *Use it*: yes
 
@@ -615,8 +615,8 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: General; kept as is
 [discrete]
 [[composite-role]]
-==== image:images/yes.png[yes] composite role (noun)
-*Description*: A composite role is a role that can be associated with other roles. For example a `superuser` composite role can be associated with the `sales-admin` and `order-entry-admin` roles. If a user is mapped to the `superuser` role they also inherit the `sales-admin` and `order-entry-admin` roles.
+==== image:images/yes.png[yes] composite role
+*Description*: A _composite role_ is a role that can be associated with other roles. For example a `superuser` composite role can be associated with the `sales-admin` and `order-entry-admin` roles. If a user is mapped to the `superuser` role they also inherit the `sales-admin` and `order-entry-admin` roles.
 
 *Use it*: yes
 
@@ -639,7 +639,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[config-map]]
 ==== image:images/yes.png[yes] config map (noun)
-*Description*: In Red Hat OpenShift, a config map holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
+*Description*: In Red Hat OpenShift, a _config map_ holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
 
 *Use it*: yes
 
@@ -651,7 +651,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[configurations-tab]]
 ==== image:images/yes.png[yes] Configurations tab (noun)
-*Description*: In Red Hat Fuse, the route editor's Configurations tab enables you to add configuration shared globally by all routes in a multiroute routing context. You can select existing endpoints, data formats, or beans from the list or create and add new ones.
+*Description*: In Red Hat Fuse, the route editor's _Configurations tab_ enables you to add configuration shared globally by all routes in a multiroute routing context. You can select existing endpoints, data formats, or beans from the list or create and add new ones.
 
 *Use it*: yes
 
@@ -665,7 +665,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[connection]]
 ==== image:images/yes.png[yes] connection (noun)
-*Description*: 1) In Red Hat AMQ, a connection is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called network connections. 2) In Fuse Ignite, you create a connection using a Fuse Ignite connector. You can then use the connection in a Fuse Ignite integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
+*Description*: 1) In Red Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called network connections. 2) In Fuse Ignite, you create a connection using a Fuse Ignite connector. You can then use the connection in a Fuse Ignite integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
 
 *Use it*: yes
 
@@ -677,7 +677,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[connection-factory]]
 ==== image:images/yes.png[yes] connection factory (noun)
-*Description*: In Red Hat AMQ, a connection factory is an object used by a JMS client to create a connection to a broker.
+*Description*: In Red Hat AMQ, a _connection factory_ is an object used by a JMS client to create a connection to a broker.
 
 *Use it*: yes
 
@@ -688,7 +688,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[connectivity]]
 ==== image:images/yes.png[yes] connectivity (noun)
-*Description*: "Connectivity" is the ability of a program or device to link with other programs and devices.
+*Description*: _Connectivity_ is the ability of a program or device to link with other programs and devices.
 
 *Use it*: yes
 
@@ -702,7 +702,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[connector]]
 ==== image:images/yes.png[yes] connector (noun)
-*Description*: 1) In Red Hat AMQ, a connector is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. 2) In Fuse Ignite, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
+*Description*: 1) In Red Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. 2) In Fuse Ignite, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
 
 *Use it*: yes
 
@@ -713,8 +713,8 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[consent]]
-==== image:images/yes.png[yes] consent (noun)
-*Description*: In Red Hat Single Sign-On, consent is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
+==== image:images/yes.png[yes] consent
+*Description*: In Red Hat Single Sign-On, _consent_ is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
 
 *Use it*: yes
 
@@ -729,7 +729,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[consumer]]
 ==== image:images/yes.png[yes] consumer (noun)
-*Description*: 1) In an LDAP replication environment, consumers receive data from suppliers or hubs. 2) In Red Hat AMQ, a consumer is a client that receives messages. 3) In Red Hat Fuse, a consumer is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
+*Description*: 1) In an LDAP replication environment, _consumers_ receive data from suppliers or hubs. 2) In Red Hat AMQ, a _consumer_ is a client that receives messages. 3) In Red Hat Fuse, a _consumer_ is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
 
 *Use it*: yes
 
@@ -742,7 +742,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[container]]
 ==== image:images/yes.png[yes] container (noun)
-*Description*: 1) A "container" is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). 2) A "container" in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A "container" in the Swift API is synonymous with a "bucket" in the S3 API. 3) In Red Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
+*Description*: 1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). 2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. 3) In Red Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
 
 *Use it*: yes
 
@@ -753,8 +753,8 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[container-registry]]
 ==== image:images/yes.png[yes] container registry (noun)
-*Description*: A "container registry" refers to a service that stores and retrieves Docker-formatted container
-images. A "container registry" is also a registry that contains a collection of one or more image repositories. Each
+*Description*: A _container registry_ refers to a service that stores and retrieves Docker-formatted container
+images. A container registry is also a registry that contains a collection of one or more image repositories. Each
 image repository contains one or more tagged images.
 
 *Use it*: yes
@@ -766,8 +766,8 @@ image repository contains one or more tagged images.
 // OCS: General; kept as is
 [discrete]
 [[container-storage-interface]]
-==== image:images/yes.png[yes] Container Storage Interface (noun)
-*Description*: The Container Storage Interface (CSI) is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
+==== Container Storage Interface (noun)
+*Description*: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
 
 *Use it*: yes
 
@@ -801,7 +801,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[content-view]]
 ==== image:images/yes.png[yes] Content View (noun)
-*Description*: In Red Hat Satellite, a Content View is a subset of Library content created by intelligent filtering. Use the two-word name in full on first use in a section; the abbreviation 'CV' is acceptable thereafter.
+*Description*: In Red Hat Satellite, a _Content View_ is a subset of Library content created by intelligent filtering. Use the two-word name in full on first use in a section; the abbreviation "CV" is acceptable thereafter.
 
 *Use it*: yes
 
@@ -813,7 +813,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[control-node]]
 ==== image:images/yes.png[yes] control node (noun)
-*Description*: Any machine with Ansible installed. You can run commands and playbooks, invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any control node. You can use any computer that has Python installed on it as a control node - laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node. You can have multiple control nodes.
+*Description*: Any machine with Ansible installed. You can run commands and playbooks, invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any _control node_. You can use any computer that has Python installed on it as a control node - laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node. You can have multiple control nodes.
 
 *Use it*: yes
 
@@ -835,7 +835,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[control-program]]
 ==== image:images/yes.png[yes] control program (noun)
-*Description*: A "control program" refers to a program that enhances an operating system by creating an environment in which you can run other programs.
+*Description*: A _control program_ refers to a program that enhances an operating system by creating an environment in which you can run other programs.
 
 *Use it*: yes
 
@@ -847,7 +847,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[controller]]
 ==== image:images/yes.png[yes] controller (noun)
-*Description*: In Red Hat OpenShift, a controller is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
+*Description*: In Red Hat OpenShift, a _controller_ is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
 
 *Use it*: yes
 
@@ -859,7 +859,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[conversion]]
 ==== image:images/yes.png[yes] conversion (noun)
-*Description*: In Red Hat Enterprise Linux, an operating system conversion is when you convert your operating system from a different Linux distribution to Red Hat Enterprise Linux.
+*Description*: In Red Hat Enterprise Linux, an operating system _conversion_ is when you convert your operating system from a different Linux distribution to Red Hat Enterprise Linux.
 
 *Use it*: yes
 
@@ -881,7 +881,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[cooked]]
 ==== image:images/yes.png[yes] cooked (adjective)
-*Description*: "Cooked" is an adjective that refers to data that is processed before being passed to the I/O device.
+*Description*: _Cooked_ is an adjective that refers to data that is processed before being passed to the I/O device.
 
 *Use it*: yes
 
@@ -892,7 +892,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[cookie]]
 ==== image:images/yes.png[yes] cookie (noun)
-*Description*: A "cookie" is a message given to a web browser by a web server. The browser stores the message. The message is then sent back to the server each time the browser requests a page from the server.
+*Description*: A _cookie_ is a message given to a web browser by a web server. The browser stores the message. The message is then sent back to the server each time the browser requests a page from the server.
 
 *Use it*: yes
 
@@ -904,7 +904,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[core-api]]
 ==== image:images/yes.png[yes] Core API (noun)
-*Description*: The "Core API" is an API for the ActiveMQ Artemis Core protocol. It is not supported by AMQ Broker.
+*Description*: The _Core API_ is an API for the ActiveMQ Artemis Core protocol. It is not supported by AMQ Broker.
 
 *Use it*: yes
 
@@ -916,7 +916,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[core-protocol]]
 ==== image:images/yes.png[yes] Core protocol (noun)
-*Description*: The "Core protocol" is the native messaging protocol for ActiveMQ Artemis.
+*Description*: The _Core protocol_ is the native messaging protocol for ActiveMQ Artemis.
 
 *Use it*: yes
 
@@ -928,7 +928,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[core-management]]
 ==== image:images/yes.png[yes] core-management subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "core-management" subsystem is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the core-management subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _core-management subsystem_ is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the `core-management` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -939,7 +939,7 @@ image repository contains one or more tagged images.
 [discrete]
 [[crash]]
 ==== image:images/caution.png[with caution] crash (verb)
-*Description*: When a program "crashes", it terminates unexpectedly. The _IBM Style Guide_ suggests to use a more specific term, such as "fail". However, in Red Hat documentation, it is acceptable to use crash in certain cases: When writing errata descriptions, it is possible to use "crash" instead of "terminate unexpectedly" if "terminate unexpectedly" was used in a previous sentence. For example: A utility terminated unexpectedly because of a bug in the underlying source code. With this update, the utility no longer crashes.
+*Description*: When a program _crashes_, it terminates unexpectedly. The _IBM Style Guide_ suggests to use a more specific term, such as "fail". However, in Red Hat documentation, it is acceptable to use crash in certain cases: When writing errata descriptions, it is possible to use "crash" instead of "terminate unexpectedly" if "terminate unexpectedly" was used in a previous sentence. For example: A utility terminated unexpectedly because of a bug in the underlying source code. With this update, the utility no longer crashes.
 
 *Use it*: with caution
 
@@ -950,8 +950,8 @@ image repository contains one or more tagged images.
 // RHSSO: Added "In Red Hat Single Sign-On," and removed later in the sentence
 [discrete]
 [[credentials]]
-==== image:images/yes.png[yes] credentials (noun)
-*Description*: In Red Hat Single Sign-On, credentials are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
+==== image:images/yes.png[yes] credentials
+*Description*: In Red Hat Single Sign-On, _credentials_ are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
 
 *Use it*: yes
 
@@ -964,7 +964,7 @@ image repository contains one or more tagged images.
 [[cross-forest-trust]]
 ==== image:images/yes.png[yes] cross-forest trust (noun)
 *Description*: A trust establishes an access relationship between two Kerberos realms, allowing users and services in one domain to access resources in another domain.
-With a cross-forest trust between an Active Directory (AD) forest root domain and an IdM domain, users from the AD forest domains can interact with Linux machines and services from the IdM domain. From the perspective of AD, Identity Management represents a separate AD forest with a single AD domain.
+With a _cross-forest trust_ between an Active Directory (AD) forest root domain and an IdM domain, users from the AD forest domains can interact with Linux machines and services from the IdM domain. From the perspective of AD, Identity Management represents a separate AD forest with a single AD domain.
 
 *Use it*: yes
 
@@ -975,7 +975,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[cross-platform]]
 ==== image:images/yes.png[yes] cross-platform (adjective)
-*Description*: Use "cross-platform" as an adjective when referring to the capability of software or hardware to run identically on different platforms.
+*Description*: Use _cross-platform_ as an adjective when referring to the capability of software or hardware to run identically on different platforms.
 
 *Use it*: yes
 
@@ -1010,7 +1010,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[crush]]
 ==== image:images/yes.png[yes] CRUSH (noun)
-*Description*: In Red Hat Ceph Storage, CRUSH is an abbreviation for Controlled Replication Under Scalable Hashing. This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to CRUSH. Do not expand, only when explaining what the abbreviation means. See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush[CRUSH] section in the Red Hat Ceph Storage Architecture Guide for details.
+*Description*: In Red Hat Ceph Storage, _CRUSH_ is an abbreviation for Controlled Replication Under Scalable Hashing. This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to "CRUSH". Do not expand, only when explaining what the abbreviation means. See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush[CRUSH] section in the Red Hat Ceph Storage Architecture Guide for details.
 
 *Use it*: yes
 
@@ -1033,7 +1033,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[csv]]
 ==== image:images/yes.png[yes] CSV (noun)
-*Description*: CSV is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
+*Description*: _CSV_ is an abbreviation for _comma-separated values_, which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
 
 *Use it*: yes
 
@@ -1044,7 +1044,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[ctrl]]
 ==== image:images/yes.png[yes] Ctrl (noun)
-*Description*: "Ctrl" refers to the `Ctrl` key on a keyboard.
+*Description*: _Ctrl_ refers to the `Ctrl` key on a keyboard.
 
 *Use it*: yes
 
@@ -1056,7 +1056,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[custom-resource]]
 ==== image:images/yes.png[yes] custom resource (noun)
-*Description*: In Red Hat OpenShift, a custom resource (CR) is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
+*Description*: In Red Hat OpenShift, a _custom resource (CR)_ is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
 
 *Use it*: yes
 
@@ -1068,7 +1068,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[custom-resource-definition]]
 ==== image:images/yes.png[yes] custom resource definition (noun)
-*Description*: In Red Hat OpenShift, a custom resource definition (CRD) defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
+*Description*: In Red Hat OpenShift, a _custom resource definition (CRD)_ defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
 
 *Use it*: yes
 
@@ -1079,7 +1079,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[customer]]
 ==== image:images/yes.png[yes] customer (noun)
-*Description*: Use "customer" to refer to the people who buy, subscribe to, or use Red Hat products and services.
+*Description*: Use _customer_ to refer to the people who buy, subscribe to, or use Red Hat products and services.
 
 *Use it*: yes
 
@@ -1091,7 +1091,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[customization]]
 ==== image:images/yes.png[yes] customization (noun)
-*Description*: In Red Hat Enterprise Linux, customizations are specifications for the system that are not packages. This includes users, groups, and SSH keys.
+*Description*: In Red Hat Enterprise Linux, _customizations_ are specifications for the system that are not packages. This includes users, groups, and SSH keys.
 
 *Use it*: yes
 
@@ -1102,7 +1102,7 @@ With a cross-forest trust between an Active Directory (AD) forest root domain an
 [discrete]
 [[cygmon]]
 ==== image:images/yes.png[yes] Cygmon (noun)
-*Description*: "Cygmon" is a type of ROM monitor.
+*Description*: _Cygmon_ is a type of ROM monitor.
 
 *Use it*: yes
 

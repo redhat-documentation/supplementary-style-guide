@@ -1,7 +1,7 @@
 [discrete]
 [[daisy-chain-n]]
 ==== image:images/yes.png[yes] daisy chain (noun)
-*Description*: When used as a noun, a "daisy chain" is a hardware configuration in which devices are connected to each other in series.
+*Description*: When used as a noun, a _daisy chain_ is a hardware configuration in which devices are connected to each other in series.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[daisy-chain-v]]
 ==== image:images/yes.png[yes] daisy chain (verb)
-*Description*: When used as a verb "daisy chain" means to connect devices in a daisy-chain pattern, that is, in series.
+*Description*: When used as a verb _daisy chain_ means to connect devices in a daisy-chain pattern, that is, in series.
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[data-center]]
 ==== image:images/yes.png[yes] data center (noun)
-*Description*: A "data center" is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter".
+*Description*: A _data center_ is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter".
 
 *Use it*: yes
 
@@ -35,7 +35,7 @@
 [discrete]
 [[data-enumeration]]
 ==== image:images/yes.png[yes] data enumeration (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "data enumeration" is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
 
 *Use it*: yes
 
@@ -47,7 +47,7 @@
 [discrete]
 [[data-grid]]
 ==== image:images/yes.png[yes] Data Grid (noun)
-*Description*: The short product name for Red Hat Data Grid. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
+*Description*: The short product name for _Red Hat Data Grid_. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
 
 *Use it*: yes
 
@@ -59,7 +59,7 @@
 [discrete]
 [[data-grid-console]]
 ==== image:images/yes.png[yes] Data Grid Console (noun)
-*Description*: In Red Hat Data Grid, the Data Grid Console provides a web interface for creating and managing caches.
+*Description*: In Red Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
 
 *Use it*: yes
 
@@ -71,7 +71,7 @@
 [discrete]
 [[data-grid-server]]
 ==== image:images/yes.png[yes] Data Grid Server (noun)
-*Description*: In Red Hat Data Grid, the Data Grid Server is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a Data Grid Server instance.
+*Description*: In Red Hat Data Grid, the _Data Grid Server_ is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a "Data Grid Server" instance.
 
 *Use it*: yes
 
@@ -82,7 +82,7 @@
 [discrete]
 [[data-mirroring]]
 ==== image:images/yes.png[yes] data mirroring (noun)
-*Description*: "Data mirroring" is the act of copying data from one location to a storage device in real time.
+*Description*: _Data mirroring_ is the act of copying data from one location to a storage device in real time.
 
 *Use it*: yes
 
@@ -94,7 +94,7 @@
 [discrete]
 [[data-model]]
 ==== image:images/yes.png[yes] data model (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "data model" is a model of a data object. A data object is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
 
 *Use it*: yes
 
@@ -106,7 +106,7 @@
 [discrete]
 [[data-modeler]]
 ==== image:images/yes.png[yes] Data Modeler (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Data Modeler" is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
 
 *Use it*: yes
 
@@ -117,7 +117,7 @@
 [discrete]
 [[data-path-n]]
 ==== image:images/yes.png[yes] data path (noun)
-*Description*: A "data path" is a collection of functional units (such as arithmetic logic units or multipliers that perform data processing operations), registers, and buses. Along with the control unit, a "data path" comprises the central processing unit (CPU).
+*Description*: A _data path_ is a collection of functional units (such as arithmetic logic units or multipliers that perform data processing operations), registers, and buses. Along with the control unit, a data path comprises the central processing unit (CPU).
 
 *Use it*: yes
 
@@ -131,7 +131,7 @@
 ==== image:images/yes.png[yes] Data Warehouse (noun)
 *Description*: In Red Hat Virtualization, the Manager includes a comprehensive management history database, which any application can use to extract a range of information at the data center, cluster, and host levels. Installing Data Warehouse creates the `ovirt_engine_history` database, to which the Manager is configured to log information for reporting purposes.
 
-Data Warehouse is mandatory in Red Hat Virtualization.
+_Data Warehouse_ is mandatory in Red Hat Virtualization.
 
 Always spell out in full and capitalize as shown here, unless part of a command. Use "Data Warehouse", not "the Data Warehouse", unless "Data Warehouse" functions as an adjective, for example, "the Data Warehouse package" or "the Data Warehouse service".
 
@@ -145,7 +145,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[datasource]]
 ==== image:images/yes.png[yes] datasource subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "datasource" subsystem is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the datasource subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _datasource subsystem_ is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the `datasource` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -156,7 +156,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[debug-adj]]
 ==== image:images/yes.png[yes] debug (adjective)
-*Description*: Use "debug" as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script".
+*Description*: Use _debug_ as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script".
 
 *Use it*: yes
 
@@ -167,7 +167,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[debug-v]]
 ==== image:images/yes.png[yes] debug (verb)
-*Description*: When used as a verb, "debug" means to find and remove errors from a program or design.
+*Description*: When used as a verb, _debug_ means to find and remove errors from a program or design.
 
 *Use it*: yes
 
@@ -179,7 +179,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[decision-table]]
 ==== image:images/yes.png[yes] decision table (noun)
-*Description*: A "decision table" is a collection of rules stored in either a spreadsheet or in the Red Hat JBoss BRMS user interface.
+*Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat JBoss BRMS user interface.
 
 *Use it*: yes
 
@@ -191,7 +191,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[decision-tree]]
 ==== image:images/yes.png[yes] decision tree (noun)
-*Description*: A "decision tree" is a graphical representation of a decision model in a tree-like manner.
+*Description*: A _decision tree_ is a graphical representation of a decision model in a tree-like manner.
 
 *Use it*: yes
 
@@ -203,7 +203,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[delivery]]
 ==== image:images/yes.png[yes] delivery (noun)
-*Description*: In Red Hat AMQ, delivery is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
+*Description*: In Red Hat AMQ, _delivery_ is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
 
 *Use it*: yes
 
@@ -214,7 +214,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[denial-of-service-n]]
 ==== image:images/yes.png[yes] denial of service (noun)
-*Description*: "Denial of service" is an interruption in a user's access to a computer network, usually caused deliberately and with malicious intent. Use "denial of service (DoS)" on first use and "DoS" thereafter.
+*Description*: _Denial of service_ is an interruption in a user's access to a computer network, usually caused deliberately and with malicious intent. Use "denial of service (DoS)" on first use and "DoS" thereafter.
 
 *Use it*: yes
 
@@ -237,7 +237,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 [discrete]
 [[deployment]]
 ==== image:images/yes.png[yes] deployment (noun)
-*Description*: In Red Hat OpenShift, a deployment is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
+*Description*: In Red Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
 
 The API object for a deployment can be either a Kubernetes-native `Deployment` object (which uses replication controllers) or an OpenShift-specific `DeploymentConfig` object (which uses replica sets).
 
@@ -251,7 +251,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[deployment-scanner]]
 ==== image:images/yes.png[yes] deployment-scanner subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "deployment-scanner" subsystem is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the deployment-scanner subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
 
 *Use it*: yes
 
@@ -263,7 +263,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[design-tab]]
 ==== image:images/yes.png[yes] Design tab (noun)
-*Description*: In Red Hat Fuse, the route editor's Design tab displays a graphical representation of the routing context.
+*Description*: In Red Hat Fuse, the route editor's _Design tab_ displays a graphical representation of the routing context.
 
 *Use it*: yes
 
@@ -274,7 +274,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[desktop-adj]]
 ==== image:images/yes.png[yes] desktop (adjective)
-*Description*: Use "desktop" as an adjective when describing a type of computer, for example, "desktop computer".
+*Description*: Use _desktop_ as an adjective when describing a type of computer, for example, "desktop computer".
 
 *Use it*: yes
 
@@ -285,7 +285,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[desktop-n]]
 ==== image:images/yes.png[yes] desktop (noun)
-*Description*: When used as a noun, "desktop" can refer to a type of computer or the working area of a computer screen.
+*Description*: When used as a noun, _desktop_ can refer to a type of computer or the working area of a computer screen.
 
 *Use it*: yes
 
@@ -297,7 +297,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[destination]]
 ==== image:images/caution.png[with caution] destination (noun)
-*Description*: In JMS, this is a named location for messages, such as a queue or a topic. Clients use destinations to specify the queue or topic from which to send or receive messages. Only use this term in the context of JMS. In all other instances, use _address_.
+*Description*: In JMS, this is a named location for messages, such as a queue or a topic. Clients use _destinations_ to specify the queue or topic from which to send or receive messages. Only use this term in the context of JMS. In all other instances, use _address_.
 
 *Use it*: with caution
 
@@ -309,7 +309,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[details-view]]
 ==== image:images/yes.png[yes] details view (noun)
-*Description*: In Red Hat Virtualization, the details view displays detailed information about a selected item.
+*Description*: In Red Hat Virtualization, the _details view_ displays detailed information about a selected item.
 
 *Use it*: yes
 
@@ -320,7 +320,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[device]]
 ==== image:images/yes.png[yes] device (noun)
-*Description*: A "device" is any machine or component that attaches to a computer.
+*Description*: A _device_ is any machine or component that attaches to a computer.
 
 *Use it*: yes
 
@@ -331,7 +331,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[devops-n]]
 ==== image:images/yes.png[yes] DevOps (noun)
-*Description*: "DevOps" is a combination of "Development" and "Operations". It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
+*Description*: _DevOps_ is a combination of "Development" and "Operations". It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
 
 *Use it*: yes
 
@@ -364,8 +364,8 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 // RHSSO: General; kept as is
 [discrete]
 [[direct-grant]]
-==== image:images/yes.png[yes] direct grant (noun)
-*Description*: A direct grant is a way for a client to obtain an access token on behalf of a user through a REST invocation.
+==== image:images/yes.png[yes] direct grant
+*Description*: A _direct grant_ is a way for a client to obtain an access token on behalf of a user through a REST invocation.
 
 *Use it*: yes
 
@@ -377,7 +377,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[direct-routed-messaging]]
 ==== image:images/yes.png[yes] direct routed messaging (noun)
-*Description*: A messaging configuration that uses routers only to deliver messages to destinations. This can also be called routed messaging.
+*Description*: A messaging configuration that uses routers only to deliver messages to destinations. This can also be called _routed messaging_.
 
 *Use it*: yes
 
@@ -389,7 +389,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[director]]
 ==== image:images/yes.png[yes] director (noun)
-*Description*: In Red Hat OpenStack Platform (RHOSP), director is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
+*Description*: In Red Hat OpenStack Platform (RHOSP), _director_ is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
 
 *Use it*: yes
 
@@ -401,7 +401,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[directory-manager]]
 ==== image:images/yes.png[yes] Directory Manager (noun)
-*Description*: In Red Hat Directory Server, the privileged administrative user is called the Directory Manager. The distinguished name (DN) of this user is cn=Directory Manager.
+*Description*: In Red Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
 
 *Use it*: yes
 
@@ -414,7 +414,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[directory-server]]
 ==== image:images/yes.png[yes] directory server (noun)
-*Description*: In Red Hat Enterprise Linux, a directory server centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
+*Description*: In Red Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
 Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
@@ -427,7 +427,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[directory-server-product]]
 ==== image:images/yes.png[yes] Directory Server (noun)
-*Description*: The short product name of Red Hat Directory Server. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
+*Description*: The short product name of _Red Hat Directory Server_. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
 
 *Use it*: yes
 
@@ -438,7 +438,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[disk-druid]]
 ==== image:images/yes.png[yes] Disk Druid (noun)
-*Description*: A "Disk Druid" is a partitioning tool incorporated into Red Hat Enterprise Linux.
+*Description*: A _Disk Druid_ is a partitioning tool incorporated into Red Hat Enterprise Linux.
 
 *Use it*: yes
 
@@ -449,7 +449,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[disk-label]]
 ==== image:images/yes.png[yes] disk label (noun)
-*Description*: A "disk label" is a record that contains information about the location of the partitions on a disk.
+*Description*: A _disk label_ is a record that contains information about the location of the partitions on a disk.
 
 *Use it*: yes
 
@@ -461,7 +461,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dispatch-router]]
 ==== image:images/caution.png[with caution] Dispatch Router (noun)
-*Description*: The upstream component for AMQ Interconnect (link:https://qpid.apache.org/components/dispatch-router/[Apache Qpid Dispatch Router]). When referring to AMQ Interconnect, always use the Red Hat product name.
+*Description*: The upstream component for AMQ Interconnect (link:https://qpid.apache.org/components/dispatch-router/[Apache Qpid Dispatch Router]). When referring to "AMQ Interconnect", always use the "Red Hat" product name.
 
 *Use it*: with caution
 
@@ -473,7 +473,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[distinguished-name]]
 ==== image:images/yes.png[yes] distinguished name (noun)
-*Description*: A distinguished name (DN) is a sequence of relative distinguished names (RDN) connected by commas. A DN defines the unique location of an entry in the LDAP directory. Use "distinguished name" on the first usage and then the abbreviation "DN" subsequently.
+*Description*: A _distinguished name (DN)_ is a sequence of relative distinguished names (RDN) connected by commas. A DN defines the unique location of an entry in the LDAP directory. Use "distinguished name" on the first usage and then the abbreviation "DN" subsequently.
 
 *Use it*: yes
 
@@ -484,7 +484,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dns]]
 ==== image:images/yes.png[yes] DNS (noun)
-*Description*: "DNS" is an abbreviation for "Domain Name System" or "Domain Name Service", a service that translates domain names into IP addresses and vice versa.
+*Description*: _DNS_ is an abbreviation for _Domain Name System_ or _Domain Name Service_, a service that translates domain names into IP addresses and vice versa.
 
 *Use it*: yes
 
@@ -496,7 +496,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dns-ptr-records]]
 ==== image:images/yes.png[yes] DNS PTR records (noun)
-*Description*: DNS pointer (PTR) records resolve an IP address of a host to a domain or host name. PTR records are the opposite of DNS A and AAAA records, which resolve host names to IP addresses. DNS PTR records enable reverse DNS lookups. PTR records are stored on the DNS server.
+*Description*: _DNS pointer records (PTR)_ resolve an IP address of a host to a domain or host name. PTR records are the opposite of DNS A and AAAA records, which resolve host names to IP addresses. DNS PTR records enable reverse DNS lookups. PTR records are stored on the DNS server.
 
 *Use it*: yes
 
@@ -508,7 +508,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dns-srv-records]]
 ==== image:images/yes.png[yes] DNS SRV records (noun)
-*Description*: A DNS service (SRV) record defines the hostname, port number, transport protocol, priority and weight of a service available in a domain. You can use SRV records to locate IdM servers and replicas.
+*Description*: A _DNS service (SRV)_ record defines the hostname, port number, transport protocol, priority and weight of a service available in a domain. You can use SRV records to locate IdM servers and replicas.
 
 *Use it*: yes
 
@@ -520,7 +520,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dockerfile]]
 ==== image:images/yes.png[yes] Dockerfile (noun)
-*Description*: Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands you would normally execute manually in order to build a Docker image.
+*Description*: Docker can build images automatically by reading the instructions from a Dockerfile. A _Dockerfile_ is a text document that contains all the commands you would normally execute manually in order to build a Docker image.
 
 *Use it*: yes
 
@@ -532,7 +532,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[domain-controller]]
 ==== image:images/yes.png[yes] domain controller (noun)
-*Description*: In Red Hat Enterprise Linux, a domain controller (DC) is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
+*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
 
 *Use it*: yes
 
@@ -555,7 +555,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[domain-name]]
 ==== image:images/yes.png[yes] domain name (noun)
-*Description*: A "domain name" is a name that identifies one or more IP addresses, for example, "redhat.com".
+*Description*: A _domain name_ is a name that identifies one or more IP addresses, for example, "redhat.com".
 
 *Use it*: yes
 
@@ -589,7 +589,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[downstream-adj]]
 ==== image:images/yes.png[yes] downstream (adjective)
-*Description*: "Downstream" as an adjective refers to the Red Hat offerings that are based on upstream community projects.
+*Description*: _Downstream_ as an adjective refers to the Red Hat offerings that are based on upstream community projects.
 
 *Use it*: yes
 
@@ -600,7 +600,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[downstream-n]]
 ==== image:images/yes.png[yes] downstream (noun)
-*Description*: "Downstream" as a noun refers to the Red Hat offerings that are based on upstream community projects.
+*Description*: _Downstream_ as a noun refers to the Red Hat offerings that are based on upstream community projects.
 
 *Use it*: yes
 
@@ -612,7 +612,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[drl]]
 ==== image:images/yes.png[yes] DRL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "DRL" is an abbreviation for the Drools Rule Language, which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DRL_ is an abbreviation for the Drools Rule Language, which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
 
 *Use it*: yes
 
@@ -624,7 +624,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[drools-expert]]
 ==== image:images/yes.png[yes] Drools Expert (noun)
-*Description*: The "Drools Expert" is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
+*Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
 
 *Use it*: yes
 
@@ -636,7 +636,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dsl]]
 ==== image:images/yes.png[yes] DSL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "DSL" is an abbreviation for domain-specific language. DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into DRL files.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DSL_ is an abbreviation for domain-specific language. DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into DRL files.
 
 *Use it*: yes
 
@@ -647,7 +647,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dual-boot]]
 ==== image:images/yes.png[yes] dual-boot (adjective)
-*Description*: A "dual-boot" system is a system in which two operating systems are installed on the same hard drive.
+*Description*: A _dual-boot_ system is a system in which two operating systems are installed on the same hard drive.
 
 *Use it*: yes
 
@@ -658,7 +658,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[DVD-writer]]
 ==== image:images/yes.png[yes] DVD writer (noun)
-*Description*: A "DVD writer" is a device that records data into the DVD format.
+*Description*: A _DVD writer_ is a device that records data into the DVD format.
 
 *Use it*: yes
 
