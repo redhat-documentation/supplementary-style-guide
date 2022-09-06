@@ -1,7 +1,0 @@
-[[product-conventions-overview]]
-
-The following sections contain conventions specific to particular Red Hat products. Product documentation teams are responsible for these sections. Product-specific terms must be defined by the individual writing team responsible for that product, and usage should be consistent within that product documentation. Terms that might be used by more than one product team should be proposed as additions to the General Conventions chapter.
-
-Each product portfolio and product has an official name and an approved abbreviated name. Some products have multiple component names that also have an approved or accepted usage. It is important to use these names consistently when referring to products in the documentation. For information on official product naming, including long- and short-form names, contact brand@redhat.com.
-
-Product teams are not expected to maintain third-party (non-Red Hat) product names and terms in this document, and these names and terms must always be confirmed by checking that third party's own sources (for example, the third party's website or documentation) or by discussion with a third-party representative.

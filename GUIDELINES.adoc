@@ -17,9 +17,9 @@ Use the following template for glossary entries:
 
 *Use it*: <yes/no/with caution>
 
-*Incorrect forms*: <incorrect-form>
+*Incorrect forms*: <incorrect_form>
 
-*See also*: xref:<another-term-id>[<another-term>]
+*See also*: xref:<another_term_id>[<another_term>]
 ----
 
 [cols="1,2,3a",options="header"]
@@ -33,15 +33,15 @@ Use the following template for glossary entries:
 * `\image:images/caution.png[with caution]`
 |`<term>`               |The term to be described.          |
 |`<class>`              |The part of speech of the term.|Possible values: noun, verb, adjective, adverb, pronoun, conjunction, preposition. Use noun for acronyms or abbreviations. Leave the field empty for symbols.
-|`<description>`        |The description of the term.|Use full sentences with periods. If a term has more than one meaning, use numbers to separate them. For example: (1) <first-meaning>. (2) <second-meaning>. Add information about why we should use the term in this form. If we should not use the term, explain why. Alternatively, explain why the terms listed in the *Incorrect forms* field are incorrect.
+|`<description>`        |The description of the term.|Use full sentences with periods. If a term is specific to a particular product, start the description with "In <product_name>,". If a term has more than one meaning, use numbers to separate them. For example: (1) <first_meaning>. (2) <second_meaning>. Add information about why we should or shouldn't use the term in this form. Alternatively, explain why the terms listed in the *Incorrect forms* field are incorrect.
 |`<yes/no/with caution>`|"yes" if the term should be used.
 
 "no" if the term should not be used.
 
 "with caution" if the term should be used sporadically or only in certain cases.|Explain why we should or should not use the term in the *Description* field.
-|`<incorrect-form>`     |The form of the term that we should not use.|If there are multiple incorrect forms, separate them with a comma (",").
-|`<another-term-id>`    |The ID of another term related to this one.|Always verify that this ID already exists in the document; otherwise, it will fail to validate if the ID does not exist. Do not include a space between `<another-term-id>` and `[<another-term>]`.
-|`<another-term>`       |The term related to this one.|To link to another document or a web page, replace `xref:<another-term-id>[<another-term>]` with `<link>[<name-of-the-document/web-page>]`.
+|`<incorrect_form>`     |The form of the term that we should not use.|If there are multiple incorrect forms, separate them with a comma (",").
+|`<another_term_id>`    |The ID of another term related to this one.|Always verify that this ID already exists in the document; otherwise, it will fail to validate if the ID does not exist. Do not include a space between `<another_term_id>` and `[<another_term>]`.
+|`<another_term>`       |The term related to this one.|To link to another document or a web page, replace `xref:<another_term_id>[<another_term>]` with `<link>[<name_of_the_document/web_page>]`.
 |===
 
 .Additional glossary entry guidelines
@@ -58,13 +58,6 @@ Use the following template for glossary entries:
 * If the term has a correct and an incorrect form, always use the correct form instead of `<term>` and list the incorrect form in the *Incorrect forms* field. Remember to explain why the incorrect form is incorrect in the *Description* field.
 
 * If you want to add a term that we should not use and that does not have a correct form, use the incorrect version instead of `<term>` and add "no" to the *Use it* field. Explain why we should not use that term in the *Description* field.
-
-* If you want to list a term in the _Product-specific conventions_ chapter that is already included in the _General conventions_ chapter, add the product-specific meaning to the *Description* field of the term in _General conventions_. Use numbers to separate the meanings. In _Product-specific conventions_ add the following boilerplate text with a link to the entry in _General conventions_:
-+
-----
-==== <icon> <term> (<class>)
-See xref:<id-in-general-conventions>[<term>] in the _General conventions_ section.
-----
 
 * When creating IDs in accordance with the rules described in the template, the resulting IDs might be the same as those for separate entries. For example, the "kernel space" and "kernel-space" entries, or the "kB" and "KB" entries would have the same anchor tag ("kernel-space" and "kb"). If the IDs are not unique, however, it will cause an error in the document.
 +
@@ -91,13 +84,13 @@ Use the following template when adding a new style guide entry:
 .AsciiDoc source for a new style entry
 -----
 [[<id>]]
-== <style-item>
+== <style_item>
 
 <description>
 
 .Example AsciiDoc
 ----
-<example-asciidoc>
+<example_asciidoc>
 ----
 -----
 
@@ -111,7 +104,7 @@ Use the following template when adding a new style guide entry:
 |The style item in lowercase.
 |If the style item consists of more than one word, separate them with a hyphen ("-"). Do not use spaces, capital letters, or special characters (for example, slash "/") in the ID.
 
-|`<style-item>`
+|`<style_item>`
 |The style item to be described.
 |
 
@@ -119,7 +112,7 @@ Use the following template when adding a new style guide entry:
 |The description of the style guidance.
 |Use full sentences with periods. If applicable, add information about why this guidance is recommended.
 
-|`<example-asciidoc>`
+|`<example_asciidoc>`
 |An AsciiDoc example.
 |Only add an AsciiDoc example if it is applicable to the style guidance.
 
