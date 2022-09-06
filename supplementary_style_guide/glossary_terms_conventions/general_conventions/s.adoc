@@ -946,7 +946,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 [discrete]
 [[storage-class]]
 ==== storage class (noun)
-*Description*: In Red Hat OpenShift Container Storage, use storage classes to describe the types of storage a product offers. OpenShift Container Storage offers block, shared file system, and object classes.
+*Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), use storage classes to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.
 
 *Use it*: yes
 

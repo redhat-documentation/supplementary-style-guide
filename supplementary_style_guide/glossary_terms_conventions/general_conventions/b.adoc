@@ -2,7 +2,7 @@
 [discrete]
 [[backing-store]]
 ==== backing store (noun)
-*Description*: In Red Hat OpenShift Container Storage, a backing store is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
+*Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), a backing store is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
 
 *Use it*: yes
 

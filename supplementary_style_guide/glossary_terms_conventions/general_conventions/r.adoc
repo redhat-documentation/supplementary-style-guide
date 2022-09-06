@@ -444,14 +444,26 @@ Always spell out the full product name of the host, and do not capitalize the te
 // OCS: General; kept as is
 [discrete]
 [[red-hat-openshift-container-storage]]
-==== Red Hat OpenShift Container Storage (noun)
-*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms.
+==== image:images/no.png[no] Red Hat OpenShift Container Storage (noun)
+*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, Red Hat OpenShift Container Storage was rebranded as Red Hat OpenShift Data Foundation.
 
-*Use it*: yes
+*Use it*: no
 
 *Incorrect forms*: OCS
 
-*See also*:
+*See also*: xref:red-hat-openshift-data-foundation[Red Hat OpenShift Data Foundation]
+
+// Added entry for ODF and updated OCS entry
+[discrete]
+[[red-hat-openshift-data-foundation]]
+==== image:images/yes.png[yes] Red Hat OpenShift Data Foundation (noun)
+*Description*: Red Hat software-defined, container-native storage that helps to develop and deploy applications quickly and efficiently across cloud platforms. Formerly Red Hat OpenShift Container Storage.
+
+*Use it*: yes
+
+*Incorrect forms*: ODF
+
+*See also*: xref:red-hat-openshift-container-storage[Red Hat OpenShift Container Storage]
 
 // OCP: General; kept as is
 [discrete]
@@ -878,7 +890,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 [[rook-ceph-operator]]
 ==== Rook-Ceph Operator (noun)
 
-*Description*: In Red Hat OpenShift Container Storage, the Rook-Ceph Operator automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
+*Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), the Rook-Ceph Operator automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
 
 *Use it*: yes
 
