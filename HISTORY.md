@@ -4,6 +4,8 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [September 2022](#2022-september)
+* [August 2022](#2022-august)
 * [July 2022](#2022-july)
 * [June 2022](#2022-june)
 * [May 2022](#2022-may)
@@ -25,12 +27,23 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of August 1 2022 -->
+<!-- Updated as of September 7 2022 -->
+
+<a name="2022-september"></a>
+## September 2022
+
+* Added guidance for [avoiding cost references](https://redhat-documentation.github.io/supplementary-style-guide/#references-to-cost)
+* Added glossary entry for [Red Hat OpenShift Data Foundation](https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-openshift-data-foundation) and updated references of "Red Hat OpenShift Container Storage" to "Red Hat OpenShift Data Foundation"
+
+<a name="2022-august"></a>
+## August 2022
+
+* Added glossary entry for [customer](https://redhat-documentation.github.io/supplementary-style-guide/#customer)
 
 <a name="2022-july"></a>
 ## July 2022
 
-* Reorganized glossary to remove the product-specific sections. Glossary terms are now in a single alphabetical list.
+* Reorganized glossary to remove the product-specific sections; glossary terms are now in a single alphabetical list
 
 <a name="2022-june"></a>
 ## June 2022
