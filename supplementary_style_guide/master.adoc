@@ -22,11 +22,14 @@ These recommendations might override existing guidance in the _IBM Style Guide_,
 If applicable, these guidelines provide example formatting in AsciiDoc, which is the markup language that Red Hat Customer Content Services currently uses. However, the guidelines can be applied to any language.
 ====
 
-// General formatting
-include::style_guidelines/general-formatting.adoc[leveloffset=+2]
+// Grammar and language
+include::style_guidelines/grammar.adoc[leveloffset=+2]
 
-// Grammar
-// include::style_guidelines/grammar.adoc[leveloffset=+2]
+// Formatting
+include::style_guidelines/formatting.adoc[leveloffset=+2]
+
+// Structure
+include::style_guidelines/structure.adoc[leveloffset=+2]
 
 // Code examples
 include::style_guidelines/code-commands.adoc[leveloffset=+2]
@@ -34,11 +37,14 @@ include::style_guidelines/code-commands.adoc[leveloffset=+2]
 // Graphical interfaces
 include::style_guidelines/graphical-interfaces.adoc[leveloffset=+2]
 
-// Specific documentation types
-include::style_guidelines/specific-doc-types.adoc[leveloffset=+2]
+// Legal
+include::style_guidelines/legal.adoc[leveloffset=+2]
 
 // Links
 include::style_guidelines/links.adoc[leveloffset=+2]
+
+// Release notes
+include::style_guidelines/release-notes.adoc[leveloffset=+2]
 
 // Managed cloud services guidelines
 include::style_guidelines/managed-services.adoc[leveloffset=+1]

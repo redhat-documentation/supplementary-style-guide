@@ -126,10 +126,12 @@ Use the following template when adding a new style guide entry:
 
 * Avoid linking to other resources to provide the style guidance. Incorporate the guidance from other resources into the entry description.
 
+* Add the new entry alphabetically in its appropriate category file.
+
 * Use single lines with no breaks for each paragraph. In other words, do not hard wrap at 80 characters, for example.
 
 * Use italics when introducing or defining a term. The following examples demonstrate the use of this guideline:
-** A _host group_ is a group of one or more hosts. 
+** A _host group_ is a group of one or more hosts.
 ** _Comma-separated values_ are a set of values in which each value is separated by a comma.
 
 * Use double quotation marks ("") when emphasizing how to write a term. The following examples demonstrate the use of this guideline:

@@ -4,6 +4,16 @@
 
 For more detailed guidance on how to document UI elements, see link:https://www.patternfly.org/v4/ux-writing/about[Patternfly].
 
+[[text-entry]]
+== Text entry
+
+To indicate that a user should input text, use "enter" as opposed to "type" or "input". The text to enter should be in monospace.
+
+.Example AsciiDoc
+----
+In the *Name* field, enter `test-postgresql`.
+----
+
 [[user-interface-elements]]
 == User interface elements
 
@@ -14,12 +24,5 @@ Bold all graphical user interface elements, including, but not limited to, menu 
 On the *Installed Operators* page, click *Metering*.
 ----
 
-[[text-entry]]
-== Text entry
 
-To indicate that a user should input text, use "enter" as opposed to "type" or "input". The text to enter should be in monospace.
-
-.Example AsciiDoc
-----
-In the *Name* field, enter `test-postgresql`.
-----
+// TODO: Add new style entries alphabetically in this file

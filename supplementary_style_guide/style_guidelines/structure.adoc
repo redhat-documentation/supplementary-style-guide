@@ -1,0 +1,79 @@
+[[structure]]
+= Structure
+
+[[admonitions]]
+== Admonitions
+
+Admonitions should draw the reader’s attention to certain information. Keep admonitions to a minimum, and avoid placing multiple admonitions close to one another. If multiple admonitions are necessary, restructure the information by moving the less-important statements into the flow of the main content.
+
+Valid admonition types:
+
+NOTE:: Additional guidance or advice that improves product configuration, performance, or supportability.
+IMPORTANT:: Advisory information essential to the completion of a task. Users must not disregard this information.
+WARNING:: Information about potential system damage, data loss, or a support-related issue if the user disregards this admonition. Explain the problem, cause, and offer a solution that works. If available, offer information to avoid the problem in the future or state where to find more information.
+TIP:: Alternative methods that might not be obvious. Makes applying the techniques and procedures described in the text easier or targets specific needs. Helps users understand the benefits and capabilities of the product. Not essential to using the product.
+
+[IMPORTANT]
+====
+CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red Hat Customer Portal. Do not use this admonition type.
+====
+
+Admonitions should be short and concise. Do not include procedures in an admonition.
+
+Only individual admonitions are allowed, for example, you cannot have a plural *NOTES* heading.
+
+.Example AsciiDoc
+----
+[NOTE]
+====
+Text for note.
+====
+----
+
+[[lead-in-sentences]]
+== Lead-in sentences
+
+A lead-in sentence in this context is the text that directly follows a `Prerequisites` or `Procedure` heading in a task-based module. It is distinct from the module abstract, which describes the goals of the user for the module.
+
+Do not use a lead-in sentence in the `Prerequisites` or `Procedure` sections of a module unless it is necessary to aid navigation or add clarity.
+
+The following examples demonstrate when a lead-in sentence might add value.
+
+* Your module has a long list of prerequisites, and you want to group the prerequisites in sections to make it easier for users to understand what tasks must be performed to complete a procedure.
+* Your module has a complex procedure or set of prerequisites, and you want to emphasize that all steps or prerequisites must be completed.
+
+Use a complete sentence for the lead-in sentence to reduce ambiguity and support translation.
+
+[[prerequisites]]
+== Prerequisites
+
+When writing prerequisites, be as clear and concise as possible. You can use the passive voice, _if necessary_, to achieve that end.
+
+Write prerequisites as checks that are true or that the user must have completed before they begin a procedure. They can be actions that the user, another person, or piece of technology has completed. Prerequisites can also include items that the user must have ready before beginning the procedure.
+
+* The passive voice might be appropriate for a prerequisite that is not completed by the current user. For example, having a configuration enabled by a system admin.
+
+* Avoid using imperative formations.
+
+* Use parallel language when you write prerequisites. For example, if one bullet is a complete sentence, write the other bullets as complete sentences. But one bullet can be passive voice and another active voice.
+
+.Examples of prerequisites
+
+* JDK 11 or later is installed.
++
+Passive voice: the agent is unknown or unimportant.
+
+* A running Kafka instance in {product}.
++
+Not a complete sentence: This prerequisite is acceptable if all the other prerequisites in your list are also not complete sentences.
+
+* You are logged in to the Administration Portal.
+
+* You have validated Thing 1.
+
+.Additional resources
+
+* link:https://redhat-documentation.github.io/modular-docs/#creating-procedure-modules[_Procedure Prerequisites_ in the _Modular Documentation Reference Guide_]
+
+
+// TODO: Add new style entries alphabetically in this file

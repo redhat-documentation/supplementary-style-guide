@@ -1,35 +1,9 @@
 
-[[code-examples]]
-= Code examples
-
-[[code-example-syntax-highlighting]]
-== Code example syntax highlighting
-
-Provide the source language if it is supported by the Red Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It incorrectly interprets the number sign (#) as a comment instead of the prompt for a root command.
-
-.Example AsciiDoc
-
-
-  [source,yaml]
-  ----
-  collections:
-        - name: amazon.aws
-          source: https://galaxy.ansible.com/api/v2/collections
-          version: 1.2.1
-  ----
-
-
-
-// [[callouts-code-examples]]
-// == Callouts in code examples
-
-[[long-code-examples]]
-== Long code examples in procedures
-
-All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables and callouts. The length of the block is irrelevant, within reason, if the code block follows these guidelines.
+[[technical-examples]]
+= Technical examples
 
 [[commands-with-root-privileges]]
-== Commands with root privileges
+== Commands requiring root privileges
 
 Some commands require root privileges to run. Users without root privileges must first do one of the following to run such a command:
 
@@ -52,3 +26,38 @@ If you include a shell prompt to indicate that a user with root privileges must 
 .Additional resources
 * link:https://www.redhat.com/sysadmin/difference-between-sudo-su[Exploring the differences between sudo and su commands in Linux]
 
+[[ip-addresses-and-mac-addresses]]
+== IP addresses and MAC addresses
+
+Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion:
+
+* Reserved IP address ranges: See the _IBM Style Guide_ for the list of reserved IP address ranges to use in documentation.
+
+* Reserved MAC addresses (defined in link:https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2[RFC 7042]):
+
+** For unicast: 00:00:5E:00:53:00 - 00:00:5E:00:53:FF
+** For multicast: 01:00:5E:90:10:00 - 01:00:5E:90:10:FF
+
+[[long-code-examples]]
+== Long code examples
+
+All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables and callouts. The length of the block is irrelevant, within reason, if the code block follows these guidelines.
+
+[[code-example-syntax-highlighting]]
+== Syntax highlighting
+
+Provide the source language if it is supported by the Red Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It incorrectly interprets the number sign (#) as a comment instead of the prompt for a root command.
+
+.Example AsciiDoc
+
+
+  [source,yaml]
+  ----
+  collections:
+        - name: amazon.aws
+          source: https://galaxy.ansible.com/api/v2/collections
+          version: 1.2.1
+  ----
+
+
+// TODO: Add new style entries alphabetically in this file
