@@ -23,7 +23,7 @@
 [discrete]
 [[samba]]
 ==== image:images/yes.png[yes] Samba (noun)
-*Description*: "Samba" is a freeware program that allows end users to access and use files, printers, and other commonly shared resources on a company's intranet or on the internet. Samba can be installed on a variety of operating system platforms, including Linux, most common UNIX platforms, OpenVMS, and OS/2.
+*Description*: Samba provides file, printing, and Active Directory (AD) domain services for Microsoft Windows and other clients that use the Server Message Block (SMB) protocol to access network resources.
 
 *Use it*: yes
 
