@@ -4,17 +4,36 @@
 
 The following guidelines improve findability and search engine optimization.
 
-.Technical best practices
+=== Technical best practices
 
 * Include links only when necessary.
 * Use hyperlinks and use them consistently.
 * Default to followable, crawlable links. Do not use “nofollow” links unless absolutely necessary.
-* Do not use JavaScript links. 
+* Do not use JavaScript links.
++
+Example JavaScript:
+----
+<script type="text/javascript" src="/path/to/script.js"></script>
+----
 * Do not use Flash links.
++
+Example Flash:
++
+----
+on(release)
+{
+getURL("http://www.example.com", "_blank");
+}
+----
 * Do not use links in Frames or iframes.
++
+Example iFrame:
++
+----
+ <iframe src="url" title="description"></iframe> 
+----
 
-
-.Link text best practices
+=== Link text best practices
 
 * Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location.
 * Use a concise sentence or sentence fragment as the link text.
