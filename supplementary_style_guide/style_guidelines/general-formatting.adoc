@@ -338,3 +338,16 @@ Avoid all references to the costs and charges of Red Hat products. Although the 
 .Example problematic phrase
 
 * "at no initial cost" - Avoid this phrase in documentation because, although it implies there are further costs, it can also be construed to mean that the product is free when it is not.
+
+[[ip-addresses-and-mac-addresses]]
+== IP addresses and MAC addresses
+
+Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion:
+
+* Reserved IP address ranges: See the _IBM Style Guide_ for the list of reserved IP address ranges to use in documentation.
+
+* Reserved MAC addresses (defined in link:https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2[RFC 7042]):
+
+** For unicast: 00:00:5E:00:53:00 - 00:00:5E:00:53:FF
+** For multicast: 01:00:5E:90:10:00 - 01:00:5E:90:10:FF
+
