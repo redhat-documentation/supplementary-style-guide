@@ -1,43 +1,8 @@
-
-[[specific-doc-types]]
-= Specific documentation types
-
-[[prerequisites]]
-== Prerequisites
-
-When writing prerequisites, be as clear and concise as possible. You can use the passive voice, _if necessary_, to achieve that end.
-
-Write prerequisites as checks that are true or that the user must have completed before they begin a procedure. They can be actions that the user, another person, or piece of technology has completed. Prerequisites can also include items that the user must have ready before beginning the procedure.
-
-* The passive voice might be appropriate for a prerequisite that is not completed by the current user. For example, having a configuration enabled by a system admin.
-
-* Avoid using imperative formations.
-
-* Use parallel language when you write prerequisites. For example, if one bullet is a complete sentence, write the other bullets as complete sentences. But one bullet can be passive voice and another active voice.
-
-.Examples of prerequisites
-
-* JDK 11 or later is installed.
-+
-Passive voice: the agent is unknown or unimportant.
-
-* A running Kafka instance in {product}.
-+
-Not a complete sentence: This prerequisite is acceptable if all the other prerequisites in your list are also not complete sentences.
-
-* You are logged in to the Administration Portal.
-
-* You have validated Thing 1.
-
-.Additional resources
-
-* link:https://redhat-documentation.github.io/modular-docs/#creating-procedure-modules[_Procedure Prerequisites_ in the _Modular Documentation Reference Guide_]
-
 [[release-notes]]
-== Release notes
+= Release notes
 
 [[release-notes-doc-texts]]
-=== Release notes doc texts
+== Release notes doc texts
 
 A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with the _IBM Style Guide_. You can write doc texts in more than one way, depending on the issue type:
 
@@ -50,7 +15,7 @@ A _doc text_ is a short description of an engineering Bugzilla or Jira issue tha
 Use the following general structure for consistency.
 
 [discrete]
-==== Enhancement
+=== Enhancement
 
 Use present tense in one of the following formats:
 ----
@@ -69,7 +34,7 @@ With this update, you can create application credentials to use keystone to auth
 
 
 [discrete]
-==== Bug fix
+=== Bug fix
 
 Use past tense for the problem and present tense for the solution, in the following format:
 ----
@@ -81,7 +46,7 @@ Before this update, the loopback device for Cinder iSCSI/LVM backend was not rec
 ----
 
 [discrete]
-==== Known issue
+=== Known issue
 
 Use present tense for the issue and the imperative form for the workaround in the following format:
 ----
@@ -99,7 +64,7 @@ Workaround: Rerun the deployment command, or use a local container image registr
 ----
 
 [discrete]
-==== Technology Preview
+=== Technology Preview
 
 Use the following text verbatim, where `<tech_preview_name>` is the name of your product, component, or feature:
 
@@ -124,7 +89,7 @@ The Driver Toolkit is a Technology Preview feature only. Technology Preview feat
 
 
 [discrete]
-==== Deprecated functionality
+=== Deprecated functionality
 Warn users about the following deprecation stages:
 
 * Plan to deprecate
@@ -135,7 +100,7 @@ Warn users about the following deprecation stages:
 If available, inform users of alternative capabilities and workarounds.
 
 [discrete]
-===== Deprecation notice
+==== Deprecation notice
 [subs="+quotes"]
 ----
 In __<product_name> <release>__, __<name_of_capability_or_feature>__ is deprecated and is planned to be removed in the __<deprecation_timeline>__. Red Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed. As an alternative to __<name_of_capability_or_feature>__, you can use __<alternative_capability_or_feature_if_available>__ instead.
@@ -151,12 +116,15 @@ In Red Hat Openstack Platform (RHOSP) 14, the director graphical user interface 
 ----
 
 [discrete]
-===== Removal notice
+==== Removal notice
 [subs="+quotes"]
 ----
-In __<product_name> <current_release>__, __<name of capability or feature>__ has been removed. Bug fixes and support are provided only through the end of the __<previous_release>__ lifecycle. As an alternative to __<name_of_capability_or_feature>__, you can use __<alternative_capability_or_feature_if_available>__ instead. 
+In __<product_name> <current_release>__, __<name of capability or feature>__ has been removed. Bug fixes and support are provided only through the end of the __<previous_release>__ lifecycle. As an alternative to __<name_of_capability_or_feature>__, you can use __<alternative_capability_or_feature_if_available>__ instead.
 ----
 .Example removal notice doc text
 ----
 In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) has been removed. Bug fixes and support are provided only through the end of the RHOSP 15 lifecycle.
 ----
+
+
+// TODO: Add new style entries alphabetically in this file

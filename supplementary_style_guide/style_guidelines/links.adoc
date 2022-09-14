@@ -9,7 +9,7 @@
 // == External links
 
 [[rh-kb-links]]
-== Linking to Red Hat Knowledgebase articles
+== Links to Red Hat Knowledgebase articles
 
 * Use the title of the Knowledgebase article for the link text, or use descriptive running text.
 * Call out that this is a Knowledgebase article when _not_ using running text.
@@ -27,3 +27,5 @@ If your Apache web server configuration enables SSL security, verify that you en
 .Example: Additional resources
 
 * link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?] (Red Hat Knowledgebase)
+
+// TODO: Add new style entries alphabetically in this file

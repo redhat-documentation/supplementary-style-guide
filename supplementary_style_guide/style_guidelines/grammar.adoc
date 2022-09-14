@@ -1,7 +1,86 @@
-
 [[grammar]]
-= Grammar
+= Grammar and language
+
+[[conscious-language]]
+== Conscious language
+
+The Conscious Language Group supports the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red Hat is involved.
+For more information about the Conscious Language Group, see https://github.com/conscious-lang/conscious-lang-docs.
+
+[IMPORTANT]
+====
+To ensure consistency and success, it is imperative for product team stakeholders to align internally. For example, documentation teams should engage in discussions with their engineering leadership to reach an agreement on replacement terms. This ensures that the product documentation matches the code.
+====
+
+=== blacklist and whitelist
+
+When possible, rewrite documentation to avoid these terms.
+When it is not possible to remove the terms _blacklist_ and _whitelist_, replace them with one of the following alternatives:
+
+* blocklist / allowlist: This combination is recommended by _The IBM Style Guide_. Use this combination unless your product area has another specific replacement that is agreed between engineering leadership and your documentation team.
+* denylist / allowlist
+* blocklist / passlist
+* You can also use a term that has been agreed by your product team stakeholders.
+
+.Examples
+* Removing blacklist
++
+image:images/no.png[no] Heat _blacklists_ any servers in the list from receiving updated heat deployments. After the stack operation completes, any blacklisted servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
++
+image:images/yes.png[yes] Heat _excludes_ any servers in the list from receiving updated heat deployments. After the stack operation completes, any excluded servers remain unchanged. You can also power off or stop the `os-collect-config` agents during the operation.
+
+* Removing whitelist
++
+image:images/no.png[no] The following steps demonstrate adding a new rule to _whitelist_ a custom binary.
++
+image:images/yes.png[yes] The following steps demonstrate adding a new rule to _allow_ a custom binary.
 
 
-[[abbreviations-acronyms]]
-== Abbreviations and acronyms
+=== master and slave
+
+When possible, rewrite documentation to avoid these terms. When it is not possible to rewrite, you can use the following alternatives for _master_ / _slave_:
+
+* primary / secondary
+* source / replica
+* initiator, requester / responder
+* controller, host / device, worker, proxy
+* director / performer
+* You can also use a term that has been agreed by your product team stakeholders.
+
+
+.Examples
+* Removing _master_
++
+image:images/no.png[no] A Ceph Monitor maintains the _master_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
++
+image:images/yes.png[yes] A Ceph Monitor maintains the _primary_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
++
+image:images/yes.png[yes] A Ceph Monitor maintains the _main_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
+
+
+* Removing _slave_
++
+image:images/no.png[no] Use the following command to copy the public key to the _slave_ node.
++
+image:images/yes.png[yes] Use the following command to copy the public key to the _secondary_ node.
+
+[[contractions]]
+== Contractions
+
+Avoid contractions in product documentation to leave no ambiguity and to make it easier for translation and international audiences.
+
+If you are writing quick start or other content that uses a more informal xref:#conversational-style[conversational style] (_fairly conversational_ or _more conversational_), you may use contractions. In this case, follow the guidance in the _IBM Style Guide_ on using contractions.
+
+[[conversational-style]]
+== Conversational style
+
+Follow the _IBM Style Guide_ guidance of _less conversational_ style in most cases.
+
+As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
+
+.Example: Less conversational style
+
+Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
+
+
+// TODO: Add new style entries alphabetically in this file

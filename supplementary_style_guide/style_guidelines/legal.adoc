@@ -1,0 +1,38 @@
+[[legal]]
+= Legal
+
+[[references-to-cost]]
+== Cost references
+
+Avoid all references to the costs and charges of Red Hat products. Although the _IBM Style Guide_ recommends against using the term "free", also avoid any references to cost in product documentation because they can confuse users and cause legal concerns. Any cost information is best referenced in marketing materials.
+
+.Example problematic phrase
+
+* "at no initial cost" - Avoid this phrase in documentation because, although it implies there are further costs, it can also be construed to mean that the product is free when it is not.
+
+[[statements-about-the-future]]
+== Future releases or plans
+
+When possible, avoid making statements that predict future releases or plans.
+
+However, some circumstances, such as release notes or deprecation notices, might dictate that you refer to a future release, plan, or event.
+In these situations, follow these guidelines:
+
+* When discussing future plans, use words such as "anticipate", "expect", or "plan".
+* Do not promise that a feature or a fix for a known issue will be included in an upcoming release or according to a specific timeline.
+* Do not refer to a specific future release. For example, do not mention a particular release number or a specific release date.
++
+[NOTE]
+====
+One exception to this rule applies to deprecation notices, which might have to specify a future release in which a feature or functions will be removed.
+
+See xref:release-notes[Release notes] for guidelines about deprecation notices.
+====
+
+.Example: Bug fix statement
+image:images/no.png[no] We will fix this issue in the 18.3.4 release next February.
+
+image:images/yes.png[yes] It is anticipated that an upcoming release will include a fix for this issue.
+
+
+// TODO: Add new style entries alphabetically in this file
