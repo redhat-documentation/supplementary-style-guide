@@ -81,17 +81,28 @@
 
 *See also*:
 
-// Azure: General; kept as is
 [discrete]
 [[dotnet]]
-==== image:images/yes.png[yes] .NET Core (noun)
-*Description*: Microsoft's newest development platform, ".NET Core", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile backends. All .NET Core applications can run on .NET Core or on the full .NET Framework. Always refer to it as .NET Core; all other variants are incorrect.
+==== image:images/yes.png[yes] .NET (noun)
+*Description*: Microsoft's development platform, ".NET", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET applications can run on .NET or on the .NET Framework. For version 5 and later, refer to it as ".NET". For earlier versions, use ".NET Core".
 
 *Use it*: yes
 
+*Incorrect forms*: .Net, dotNet, .NET Core, dotNet Core, .Net Core
+
+*See also*: xref:dotnetcore[.Net Core]
+
+// Azure: General; kept as is
+[discrete]
+[[dotnetcore]]
+==== image:images/no.png[no] .NET Core (noun)
+*Description*: Microsoft's development platform, ".NET Core", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET Core applications can run on .NET Core or on the .NET Framework. For version 3.1 and earlier, refer to it as ".NET Core". In later versions, Microsoft changed the name to ".NET".
+
+*Use it*: no
+
 *Incorrect forms*: dotNet Core, .Net Core, .NET, .Net
 
-*See also*:
+*See also*: xref:dotnet[.NET]
 
 [discrete]
 [[network-interface-card]]
