@@ -134,6 +134,18 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 *See also*:
 
 // RHV: Added "In Red Hat Virtualization,"
+
+[discrete]
+[[horizontal-pod-autoscaler]]
+==== image:images/yes.png[yes] horizontal pod autoscaler (noun)
+*Description*: In Red Hat OpenShift, a horizontal pod autoscaler, also known as HPA, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[host-rhv]]
 ==== image:images/yes.png[yes] host (noun)

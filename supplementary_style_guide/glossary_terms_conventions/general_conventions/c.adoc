@@ -613,6 +613,17 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 
 *See also*:
 
+[discrete]
+[[compute-node]]
+==== image:images/yes.png[yes] compute node (noun)
+*Description*: A  _compute node_ is a node that is responsible for executing workloads for cluster users. Also known as  _worker nodes_. 
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: 
+
 // OCP: Added "In Red Hat OpenShift,"
 [discrete]
 [[config-map]]
@@ -798,6 +809,17 @@ image repository contains one or more tagged images.
 *Incorrect forms*:
 
 *See also*: xref:ansible-playbook[Ansible playbook]
+
+[discrete]
+[[control-plane]]
+==== image:images/yes.png[yes] control plane (noun)
+*Description*: The  _control plane_ is a container orchestration layer that exposes the API and interfaces to define, deploy, and manage the lifecycle of containers. 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [discrete]
 [[control-program]]
