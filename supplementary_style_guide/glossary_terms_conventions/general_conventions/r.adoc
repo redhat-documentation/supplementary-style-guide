@@ -277,13 +277,13 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 [discrete]
 [[red-hat-data-grid]]
 ==== image:images/yes.png[yes] Red Hat Data Grid (noun)
-*Description*: Red Hat Data Grid is a high-performance, distributed in-memory data store. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. This product name applies to Red Hat Data Grid 7.3 and later versions.
+*Description*: Red Hat Data Grid (formerly Red Hat JBoss Data Grid) is a high-performance, distributed, in-memory data store. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. In 2019, Red Hat JBoss Data Grid was rebranded as Red Hat Data Grid.
 
 *Use it*: yes
 
 *Incorrect forms*: Red Hat JBoss Data Grid, JDG
 
-*See also*: xref:data-grid[Data Grid]
+*See also*: xref:data-grid[Data Grid], xref:red-hat-jboss-data-grid[Red Hat JBoss Data Grid]
 
 // RHDS: General; kept as is
 [discrete]
@@ -375,7 +375,7 @@ Always spell out the full product name of the host, and do not capitalize the te
 [discrete]
 [[red-hat-jboss-data-grid]]
 ==== image:images/no.png[no] Red Hat JBoss Data Grid (noun)
-*Description*: This product name applies to Red Hat Data Grid 7.3 and earlier versions.
+*Description*: This product name applies to Red Hat Data Grid 7.2 and earlier versions.
 
 *Use it*: no
 
