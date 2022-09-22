@@ -369,6 +369,39 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 *See also*:
 
 [discrete]
+[[operator-framework]]
+==== image:images/yes.png[yes] Operator Framework (noun)
+*Description*: In Red Hat OpenShift, _Operator Framework_ is a family of tools and capabilities to deliver on the customer experience. It includes open source tools such as Operator SDK, Operator Lifecycle Manager (OLM), Operator Registry, and OperatorHub.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[operator-lifecycle-manager]]
+==== image:images/yes.png[yes] Operator Lifecycle Manager  (noun)
+*Description*: In Red Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. It is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
+
+*Use it*: yes
+
+*Incorrect forms*: The Operator Lifecycle Manager
+
+*See also*:
+
+[discrete]
+[[operator-hub]]
+==== image:images/yes.png[yes] OperatorHub (noun)
+*Description*: In Red Hat OpenShift,  _OperatorHub_ is a central location where you can find a wide array of useful Operators to install.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[opex]]
 ==== image:images/yes.png[yes] OpEx (noun)
 *Description*: "OpEx" is an abbreviation of "operating expenses".
