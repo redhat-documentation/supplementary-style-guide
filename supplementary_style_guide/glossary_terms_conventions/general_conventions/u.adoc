@@ -1,4 +1,15 @@
 [discrete]
+[[udp]]
+==== image:images/yes.png[yes] UDP (noun)
+*Description*: The User Datagram Protocol (_UDP_) is a connection-less protocol. Clients can send datagrams to servers with a service that is listening for UDP traffic without establishing a connection. UDP prefers minimizing time and overhead over ensuring reliability.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[uid]]
 ==== image:images/yes.png[yes] UID (noun)
 *Description*: "UID" is an abbreviation of user identifier. UID is a unique identifier associated with a single entity within a given system.

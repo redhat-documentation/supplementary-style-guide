@@ -34,6 +34,17 @@
 
 *See also*: xref:instrumentation-module[instrumentation module]
 
+[discrete]
+[[tcp]]
+==== image:images/yes.png[yes] TCP (noun)
+*Description*: The Transmission Control Protocol (_TCP_) is a connection-oriented protocol. Clients that are communicating over TCP must establish a connection to a server before data can be sent. TCP prefers reliability over time. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 // OCP: Added "In Red Hat OpenShift,"
 [discrete]
 [[template]]

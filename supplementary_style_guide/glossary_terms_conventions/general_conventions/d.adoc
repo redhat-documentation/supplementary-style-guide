@@ -340,6 +340,17 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *See also*:
 
 [discrete]
+[[dhcp]]
+==== image:images/yes.png[yes] DHCP (noun)
+*Description*: The Dynamic Host Configuration Protocol (_DHCP_) provides an IP address and other configuration information, such as IP addresses of DNS servers and time servers, to clients. DHCP clients use broadcasts to contact a DHCP server. Therefore, a DHCP server or a relay agent must be in the same broadcast domain as the client.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[different]]
 ==== image:images/yes.png[yes] different from (preposition)
 *Description*: Use "different from" when comparing two things. Use "different from" when the next part of the sentence is a noun or pronoun.

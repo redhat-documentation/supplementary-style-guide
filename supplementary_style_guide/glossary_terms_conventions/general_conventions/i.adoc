@@ -568,13 +568,46 @@ There is no functional difference between the first server that was installed an
 [discrete]
 [[ip]]
 ==== image:images/yes.png[yes] IP (noun)
-*Description*: "IP" is an abbreviation for "Internet Protocol".
+*Description*: _IP_ is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on the first usage.
 
 *Use it*: yes
 
 *Incorrect forms*: Ip
 
-*See also*:
+*See also*: xref:ipv4[IPv4], xref:ipv6[IPv6]
+
+[discrete]
+[[ip-address]]
+==== image:images/yes.png[yes] IP address (noun)
+*Description*: Use _IP address_ instead of "IP" when writing about IP addresses.
+
+*Use it*: yes
+
+*Incorrect forms*: IP
+
+*See also*: xref:ip[IP]
+
+[discrete]
+[[ipv4]]
+==== image:images/yes.png[yes] IPv4 (noun)
+*Description*: Use _IPv4_ to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*: ipv4, IPV4, Ipv4
+
+*See also*: xref:ip[IP]
+
+[discrete]
+[[ipv6]]
+==== image:images/yes.png[yes] IPv6 (noun)
+*Description*: Use _IPv6_ to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on the first usage.
+
+*Use it*: yes
+
+*Incorrect forms*: ipv6, IPV6, Ipv6
+
+*See also*: xref:ip[IP]
 
 [discrete]
 [[ip-masquerade]]

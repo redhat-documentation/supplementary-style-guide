@@ -21,6 +21,17 @@
 
 *See also*:
 
+[discrete]
+[[packet]]
+==== image:images/yes.png[yes] packet (noun)
+*Description*: Computers use network _packets_ to transmit data over networks. A packet contains control information and the data.
+
+*Use it*: yes
+
+*Incorrect forms*: package
+
+*See also*:
+
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [discrete]
 [[password-policy]]
