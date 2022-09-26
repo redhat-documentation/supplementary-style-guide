@@ -28,10 +28,10 @@ You can build the guide locally using [Asciidoctor](https://asciidoctor.org/).
 
 ```
 $ cd supplementary_style_guide
-$ asciidoctor master.adoc
+$ asciidoctor main.adoc
 ```
 
-Open the generated `master.html` file in a browser to view the built guide.
+Open the generated `main.html` file in a browser to view the built guide.
 
 ## License
 

@@ -83,10 +83,10 @@ You must have `asciidoctor` installed.
 2. Use the following command to build the guide:
 
    ```
-   $ asciidoctor master.adoc
+   $ asciidoctor main.adoc
    ```
 
-This generates a `master.html` file that you can now view in a browser.
+This generates a `main.html` file that you can now view in a browser.
 
 ## Contributing guidelines
 
