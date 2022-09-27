@@ -34,4 +34,4 @@ You also have the following responsibilities:
 === Maintaining the style guide site on GitHub
 
 * Ensure that the link:https://redhat-documentation.github.io/supplementary-style-guide/[style guide site] is available and displayed correctly.
-* Create pull requests to update the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/README.md[README.md], link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/GUIDELINES.adoc[GUIDELINES.adoc] and the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/master/CONTRIBUTING.md[CONTRIBUTING.md], if necessary.
+* Create pull requests to update the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/README.md[README.md], link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/GUIDELINES.adoc[GUIDELINES.adoc] and the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/CONTRIBUTING.md[CONTRIBUTING.md], if necessary.

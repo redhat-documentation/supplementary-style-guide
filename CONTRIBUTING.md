@@ -41,10 +41,10 @@ To submit an update:
    $ git fetch upstream
    ```
 
-2. Check out a branch from upstream/master
+2. Check out a branch from upstream/main
 
    ```
-   $ git checkout -b <new-branch> upstream/master
+   $ git checkout -b <new-branch> upstream/main
    ```
 
 3. Make your edits.
