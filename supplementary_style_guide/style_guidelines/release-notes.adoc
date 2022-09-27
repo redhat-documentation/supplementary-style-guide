@@ -112,7 +112,7 @@ When citing deprecation timelines, refer to specific releases, such as __the nex
 
 .Example deprecation notice doc text
 ----
-In Red Hat Openstack Platform (RHOSP) 14, the director graphical user interface is deprecated and is planned to be removed in a future release. Red Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed.
+In Red Hat OpenStack Platform (RHOSP) 14, the director graphical user interface is deprecated and is planned to be removed in a future release. Red Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed.
 ----
 
 [discrete]
