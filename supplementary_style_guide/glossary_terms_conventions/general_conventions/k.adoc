@@ -336,26 +336,13 @@ Do not capitalize the first letter.
 [discrete]
 [[kubelet]]
 ==== image:images/yes.png[yes] kubelet (noun)
-*Description*: In Kubernetes, the kubelet is the agent that controls a Kubernetes node. Each node runs a kubelet, which handles starting and stopping containers on a node, based on the required state defined by the master.
+*Description*: In Kubernetes, the kubelet is the agent that controls a Kubernetes node. Each node runs a kubelet, which handles starting and stopping containers on a node, based on the required state defined by the control plane.
 
 *Use it*: yes
 
 *Incorrect forms*: Kubelet
 
 *See also*:
-
-// OCP: General; kept as is
-// TODO: This term is outdated anyway and should be removed in a future update
-[discrete]
-[[kubernetes-master]]
-==== image:images/yes.png[yes] Kubernetes master (noun)
-*Description*: The Kubernetes-native equivalent to the OpenShift master. An OpenShift system runs OpenShift masters, not Kubernetes masters, and an OpenShift master provides a superset of the functionality of a Kubernetes master, so it is generally preferred to use the term OpenShift master.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:openshift-master[OpenShift master]
 
 [discrete]
 [[kvm]]

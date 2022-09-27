@@ -1,7 +1,7 @@
 // OCS: Added "In Red Hat OpenShift Container Storage, a backing store..."
 [discrete]
 [[backing-store]]
-==== backing store (noun)
+==== image:images/yes.png[yes] backing store (noun)
 *Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), a backing store is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
 
 *Use it*: yes
@@ -498,7 +498,7 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 [discrete]
 [[business-rule]]
 ==== image:images/yes.png[yes] business rule (noun)
-*Description*: A "business rule" defines a particular aspect of a business that is intended to assert business structure or influence the behaviour of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
+*Description*: A "business rule" defines a particular aspect of a business that is intended to assert business structure or influence the behavior of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
 
 *Use it*: yes
 

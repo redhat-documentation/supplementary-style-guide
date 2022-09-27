@@ -268,7 +268,7 @@
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[group]]
-==== image:images/yes.png[yes] group
+==== image:images/yes.png[yes] group (noun)
 *Description*: In Red Hat Single Sign-On, a group manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings that group defines.
 
 *Use it*: yes

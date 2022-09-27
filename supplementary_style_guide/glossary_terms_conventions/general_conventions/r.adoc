@@ -130,7 +130,7 @@
 // Combined entries
 [discrete]
 [[realm]]
-==== image:images/yes.png[yes] realm
+==== image:images/yes.png[yes] realm (noun)
 *Description*: 1) A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control. 2) In Red Hat Ceph Storage, a realm is a namespace context for storing a multisite configuration. The notion of a realm enables Ceph to provide multiple namespaces in the same cluster.
 
 *Use it*: yes
@@ -722,7 +722,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 // RHSSO: General; kept as is
 [discrete]
 [[required-action]]
-==== image:images/yes.png[yes] required action
+==== image:images/yes.png[yes] required action (noun)
 *Description*: A required action is an action that a user must perform during the authentication process. A user cannot complete the authentication process until these actions are complete. For example, an admin might schedule users to reset their passwords every month. An update password required action is set for all these users.
 
 *Use it*: yes
@@ -831,7 +831,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 // RHSSO: General; kept as is
 [discrete]
 [[role]]
-==== image:images/yes.png[yes] role
+==== image:images/yes.png[yes] role (noun)
 *Description*: A role identifies a type or category of user. `administrator`, `user`, `manager`, and `employee` are all typical roles that might exist in an organization. Applications often assign access and permissions to specific roles rather than individual users because dealing with users can be too granular and hard to manage.
 
 *Use it*: yes
@@ -876,7 +876,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 // OCS: General; kept as is
 [discrete]
 [[rook]]
-==== Rook (noun)
+==== image:images/yes.png[yes] Rook (noun)
 *Description*: Rook is an orchestrator for multiple storage solutions, each with a specialized Kubernetes Operator to automate management.
 
 *Use it*: yes
@@ -888,7 +888,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 // OCS: Added "In Red Hat OpenShift Container Storage,"
 [discrete]
 [[rook-ceph-operator]]
-==== Rook-Ceph Operator (noun)
+==== image:images/yes.png[yes] Rook-Ceph Operator (noun)
 
 *Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), the Rook-Ceph Operator automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
 
