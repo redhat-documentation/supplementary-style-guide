@@ -2,7 +2,7 @@ sudo: required
 
 branches: # source branch
   only:
-  - master # Name of the branch from which to publish36
+  - main # Name of the branch from which to publish36
 
 services:
   - docker
@@ -27,4 +27,4 @@ deploy:
   github_token: $GH_TOKEN # Set in travis-ci.org dashboard
   local_dir: output
   on:
-    branch: master
+    branch: main
