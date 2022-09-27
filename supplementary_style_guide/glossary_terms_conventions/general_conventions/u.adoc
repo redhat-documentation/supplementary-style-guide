@@ -46,7 +46,7 @@
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [discrete]
 [[undertow]]
-==== image:images/yes.png[yes] undertow subsystem(noun)
+==== image:images/yes.png[yes] undertow subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the "undertow" subsystem is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the undertow subsystem in titles and headings. See the xref:webhttp-undertow[WebHTTP - Undertow] entry for the correct usage when referring to the undertow subsystem in the management console.
 
 *Use it*: yes
@@ -239,7 +239,7 @@
 // RHSSO: Added "In Red Hat Single Sign-On, you can"
 [discrete]
 [[user-federation-provider]]
-==== image:images/yes.png[yes] user federation provider
+==== image:images/yes.png[yes] user federation provider (noun)
 *Description*: In Red Hat Single Sign-On, you can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
 
 *Use it*: yes
@@ -253,7 +253,7 @@
 ==== image:images/yes.png[yes] user name (noun)
 *Description*: Use as shown, two words, except for instances in which the GUI uses the single word form (username).
 
-*Use it*: yes, with exception for GUI.
+*Use it*: yes
 
 *Incorrect forms*:
 
@@ -262,7 +262,7 @@
 // RHSSO: General; kept as is
 [discrete]
 [[user-role-mapping]]
-==== image:images/yes.png[yes] user role mapping
+==== image:images/yes.png[yes] user role mapping (noun)
 *Description*: A user role mapping defines a mapping between a role and a user. A user can be associated with zero or more roles. This role mapping information can be encapsulated into tokens and assertions so that applications can decide access permissions on various resources they manage.
 
 *Use it*: yes

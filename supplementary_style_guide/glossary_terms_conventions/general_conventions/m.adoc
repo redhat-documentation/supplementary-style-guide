@@ -232,7 +232,7 @@
 [discrete]
 [[media]]
 ==== image:images/yes.png[yes] media (noun)
-*Description*: (1) "Media" are objects on which data can be stored. These objects include hard disks, diskettes, CDs, and tapes. (2) In computer networks, "media" refer to the cables linking workstations together. There are many different types of transmission media, the most popular being twisted-pair wire (normal electrical wire), coaxial cable (the type of cable used for cable television), and fiber optic cable (cables made out of glass). (3) "Media" can also mean the form and technology used to communicate information. Multimedia presentations, for example, combine sound, pictures, and videos, all of which are different types of media.
+*Description*: 1) "Media" are objects on which data can be stored. These objects include hard disks, diskettes, CDs, and tapes. 2) In computer networks, "media" refer to the cables linking workstations together. There are many different types of transmission media, the most popular being twisted-pair wire (normal electrical wire), coaxial cable (the type of cable used for cable television), and fiber optic cable (cables made out of glass). 3) "Media" can also mean the form and technology used to communicate information. Multimedia presentations, for example, combine sound, pictures, and videos, all of which are different types of media.
 
 *Use it*: yes
 
@@ -413,7 +413,7 @@
 ==== image:images/yes.png[yes] Microsoft Azure (noun)
 *Description*: "Microsoft Azure" is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: wikipedia). Always refer to it as Microsoft Azure to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
 
-See the https://azure.microsoft.com/en-us/documentation/articles/azure-glossary-cloud-terminology/[Microsoft Azure glossary] for additional terms and definitions.
+See the link:https://learn.microsoft.com/en-us/azure/azure-glossary-cloud-terminology[Microsoft Azure glossary] for additional terms and definitions.
 
 *Use it*: yes
 
@@ -547,7 +547,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 [discrete]
 [[mount]]
 ==== image:images/yes.png[yes] mount (verb)
-*Description*: (1) "Mount" means to make a mass storage device available. In Linux environments, for example, inserting a floppy disk into the drive is called "mounting" the floppy. (2) "Mount" also means to install a device, such as a disk drive or expansion board.
+*Description*: 1) "Mount" means to make a mass storage device available. In Linux environments, for example, inserting a floppy disk into the drive is called "mounting" the floppy. 2) "Mount" also means to install a device, such as a disk drive or expansion board.
 
 *Use it*: yes
 
@@ -614,7 +614,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 // OCS: General; kept as is; removed duplicate description
 [discrete]
 [[multicloud-object-gateway]]
-==== Multicloud Object Gateway (noun)
+==== image:images/yes.png[yes] Multicloud Object Gateway (noun)
 *Description*: Multicloud Object Gateway (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
 
 *Use it*: yes

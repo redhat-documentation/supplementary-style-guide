@@ -24,7 +24,7 @@
 [discrete]
 [[latency]]
 ==== image:images/yes.png[yes] latency (noun)
-*Description*: (1) In general, "latency" is the period of time that one component in a system is waiting for another component, which is wasted time. In accessing data on a disk, latency is the time it takes to position the proper sector under the read/write head. (2) In networking, "latency" is the amount of time it takes a packet to travel from source to destination. Latency and bandwidth define the speed and capacity of a network.
+*Description*: 1) In general, "latency" is the period of time that one component in a system is waiting for another component, which is wasted time. In accessing data on a disk, latency is the time it takes to position the proper sector under the read/write head. 2) In networking, "latency" is the amount of time it takes a packet to travel from source to destination. Latency and bandwidth define the speed and capacity of a network.
 
 *Use it*: yes
 
@@ -166,7 +166,7 @@
 [discrete]
 [[load]]
 ==== image:images/yes.png[yes] load (verb)
-*Description*: (1) To "load" means to copy a program from a storage device into memory. Every program must be loaded into memory before it can be executed. Usually, the loading process is performed invisibly by a part of the operating system called the loader. (2) In programming, "load" means to copy data from main memory into a data register. (3) In networking, "load" refers to the amount of data (traffic) being carried by the network.
+*Description*: 1) To "load" means to copy a program from a storage device into memory. Every program must be loaded into memory before it can be executed. Usually, the loading process is performed invisibly by a part of the operating system called the loader. 2) In programming, "load" means to copy data from main memory into a data register. 3) In networking, "load" refers to the amount of data (traffic) being carried by the network.
 
 *Use it*: yes
 

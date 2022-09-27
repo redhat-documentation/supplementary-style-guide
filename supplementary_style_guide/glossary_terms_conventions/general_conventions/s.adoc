@@ -59,7 +59,7 @@
 [discrete]
 [[scheduler]]
 ==== image:images/yes.png[yes] scheduler (noun)
-*Description*: In Red Hat OpenShift, the scheduler is a component of the master that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
+*Description*: In Red Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
 
 *Use it*: yes
 
@@ -259,7 +259,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[service-account]]
-==== image:images/yes.png[yes] service account
+==== image:images/yes.png[yes] service account (noun)
 *Description*: In Red Hat Single Sign-On, each client has a built-in service account to obtain an access token.
 
 *Use it*: yes
@@ -273,7 +273,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 // Combined entries into a single one; used "with caution" since one was "yes" and the other was "with caution"
 [discrete]
 [[session]]
-==== image:images/caution.png[with caution] session
+==== image:images/caution.png[with caution] session (noun)
 *Description*: 1) In Red Hat Single Sign-On, when a user logs in, a session is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red Hat AMQ, a session is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
 
 *Use it*: with caution
@@ -455,7 +455,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 [discrete]
 [[skydns]]
 ==== image:images/yes.png[yes] SkyDNS (noun)
-*Description*: In Red Hat OpenShift, SkyDNS is a component of the Kubernetes master or OpenShift master that provides cluster-wide DNS resolution of internal hostnames for services and pods.
+*Description*: In Red Hat OpenShift 3.11, _SkyDNS_ is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.
 
 *Use it*: yes
 
@@ -945,7 +945,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 // OCS: Added "In Red Hat OpenShift Container Storage,"
 [discrete]
 [[storage-class]]
-==== storage class (noun)
+==== image:images/yes.png[yes] storage class (noun)
 *Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), use storage classes to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.
 
 *Use it*: yes

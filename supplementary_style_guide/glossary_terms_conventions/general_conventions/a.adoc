@@ -36,7 +36,7 @@
 // RHSSO: General; kept as is
 [discrete]
 [[access-token]]
-==== image:images/yes.png[yes] access token
+==== image:images/yes.png[yes] access token (noun)
 *Description*: An access token is a token that can be provided as part of an HTTP request that grants access to the service being invoked on. This is part of the OpenID Connect and OAuth 2.0 specification.
 
 *Use it*: yes
@@ -444,7 +444,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 // RHSSO: General; kept as is
 [discrete]
 [[assertion]]
-==== image:images/yes.png[yes] assertion
+==== image:images/yes.png[yes] assertion (noun)
 *Description*: An assertion provides information about a user. This usually pertains to an XML blob that is included in a SAML authentication response that provided identity metadata about an authenticated user.
 
 *Use it*: yes
@@ -491,7 +491,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 // RHSSO: General; kept as is
 [discrete]
 [[authentication]]
-==== image:images/yes.png[yes] authentication
+==== image:images/yes.png[yes] authentication (noun)
 *Description*: Authentication is the process of identifying and validating a user.
 
 *Use it*: yes
@@ -503,7 +503,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 // RHSSO: General; kept as is
 [discrete]
 [[authentication-flow]]
-==== image:images/yes.png[yes] authentication flow
+==== image:images/yes.png[yes] authentication flow (noun)
 *Description*: An authentication flow is a workflow that a user must perform when interacting with certain aspects of the system. A login flow can define what credential types are required. A registration flow defines what profile information a user must enter and whether something like reCAPTCHA must be used to filter out bots. Credential reset flow defines what actions a user must take before they can reset their password.
 
 *Use it*: yes

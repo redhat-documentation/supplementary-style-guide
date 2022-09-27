@@ -364,7 +364,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 // RHSSO: General; kept as is
 [discrete]
 [[direct-grant]]
-==== image:images/yes.png[yes] direct grant
+==== image:images/yes.png[yes] direct grant (noun)
 *Description*: A direct grant is a way for a client to obtain an access token on behalf of a user through a REST invocation.
 
 *Use it*: yes
