@@ -83,5 +83,19 @@ As needed, adjust the conversational to _fairly conversational_ for an audience 
 
 Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
 
+[[homographs]]
+== Homographs
+A homograph is a word that is spelled the same as another word but has a different meaning when used as a different part of speech.
+Using homographs close together in a sentence or paragraph might confuse readers. 
+Therefore, be aware of this potential issue, and, when possible, avoid writing sentences that use homographs close to one another provided that you can do so without changing the technical meaning.
+
+The following list includes homographs that might commonly appear in technical documentation:
+
+* attribute
+* block
+* coordinates
+* number
+* object
+* project
 
 // TODO: Add new style entries alphabetically in this file
