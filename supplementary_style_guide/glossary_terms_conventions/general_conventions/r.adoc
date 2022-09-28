@@ -347,6 +347,18 @@ Always spell out the full product name of the host, and do not capitalize the te
 
 *See also*: xref:red-hat-openstack-platform[Red Hat OpenStack Platform]
 
+// Fuse: Added new entry for "Red Hat Fuse Online" (Breda)
+[discrete]
+[[red-hat-fuse-online]]
+==== image:images/yes.png[yes] Red Hat Fuse Online (noun)
+*Description*: The distribution of Red Hat Fuse for non-expert integrators with a simplified workflow accessed through a browser-based UI.
+
+*Use it*: yes
+
+*Incorrect forms*: Ignite, Fuse Ignite
+
+*See also*: xref:syndesis[Syndesis], xref:fuse-online[Fuse Online]
+
 // BxMS: General; kept as is
 [discrete]
 [[bpms]]
