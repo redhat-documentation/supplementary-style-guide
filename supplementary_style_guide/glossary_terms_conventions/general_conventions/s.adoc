@@ -613,17 +613,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:target[target]
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
-[discrete]
-[[source-tab]]
-==== image:images/yes.png[yes] Source tab (noun)
-*Description*: In Red Hat Fuse, the route editor's _Source tab_ displays the XML code that corresponds to the graphical representation of the routing context displayed on the Design tab. You can edit and save changes to the routing context on either tab. Changes saved on one tab are immediately propagated and saved on the other tab.
-
-*Use it*: yes
-
-*Incorrect forms*: Source view
-
-*See also*: xref:configurations-tab[Configurations tab], xref:design-tab[Design tab]
+// Fuse: Removed "Source tab" entry (Breda)
 
 [discrete]
 [[source-navigator]]
@@ -1149,16 +1139,19 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 *See also*:
 
 // Fuse: General; kept as is
+// Fuse: Changed "Fuse Ignite" to "Fuse Online" (Breda)
+// Fuse: Added "Ignite" and "Fuse Ignite" to "Incorrect forms" (Breda)
+// Fuse: Changed "Fuse Ignite" to "Fuse Online" in "See also" (Breda)
 [discrete]
 [[syndesis]]
 ==== image:images/yes.png[yes] Syndesis (noun)
-*Description*: _Syndesis_ is the community name for Fuse Ignite.
+*Description*: _Syndesis_ is the community name for Fuse Online.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: Ignite, Fuse Ignite
 
-*See also*: xref:fuse-ignite[Fuse Ignite]
+*See also*: xref:fuse-online[Fuse Online]
 
 // RHV: General; kept as is
 [discrete]
