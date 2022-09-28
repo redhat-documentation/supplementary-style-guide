@@ -182,11 +182,12 @@
 
 *See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
 
+//Fuse: Removed point 4 that refers to Fuse tooling
 [discrete]
 [[node]]
 ==== image:images/yes.png[yes] node (noun)
 
-*Description*: 1) In networks, a "node" is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a node is a point where two or more lines meet. 2) In the context of OpenShift, a "node" provides the runtime environments for containers. 3) In the context of OpenStack, use "node" to refer to a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host". 4) In Fuse tooling, a node is a Camel component or EIP that has been dragged from the Palette and dropped on the route editor's canvas displayed on the Design tab. Selecting a node on the canvas displays its properties in Properties view for editing. Selecting a node on the canvas also displays its usage details on the Documentation tab in Properties view.
+*Description*: 1) In networks, a "node" is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a node is a point where two or more lines meet. 2) In the context of OpenShift, a "node" provides the runtime environments for containers. 3) In the context of OpenStack, use "node" to refer to a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host". 
 
 *Use it*: yes
 
