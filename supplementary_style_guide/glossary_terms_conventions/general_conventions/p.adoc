@@ -201,10 +201,11 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*:
 
 // Fuse: Added "In Red Hat Fuse,"
+// Fuse: Changed "Fuse (Karaf)" to "Red Hat Fuse (Karaf)" (Breda)
 [discrete]
 [[pid]]
 ==== image:images/yes.png[yes] PID (noun)
-*Description*: In Red Hat Fuse, the persistent identifier (PID) of a registered OSGi service is used to identify the service across container restarts. In Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute/value pairs that configure a service. You can edit any `.cfg` file to configure/reconfigure the corresponding OSGi service.
+*Description*: In Red Hat Fuse, the persistent identifier (PID) of a registered OSGi service is used to identify the service across container restarts. In Red Hat Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute/value pairs that configure a service. You can edit any `.cfg` file to configure/reconfigure the corresponding OSGi service.
 
 *Use it*: yes
 
@@ -502,17 +503,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
-[discrete]
-[[properties-view]]
-==== image:images/yes.png[yes] Properties View (noun)
-*Description*: In Red Hat Fuse, Properties view displays, by default, the properties of the node that is selected on the canvas for editing. It also displays the selected node's user documentation on the Documentation tab.
-
-*Use it*: yes
-
-*Incorrect forms*: Properties editor
-
-*See also*:
+// Fuse: Removed the "Properties View" entry (Breda)
 
 // RHSSO: General; kept as is
 [discrete]
