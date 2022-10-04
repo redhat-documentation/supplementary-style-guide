@@ -9,7 +9,7 @@ Technology Preview features provide early access to upcoming product innovations
 When documenting a Technology Preview feature, follow these guidelines:
 
 * Add an admonition labeled IMPORTANT at the beginning of the Technology Preview content.
-* Use initial uppercase capitalization, that is, Technology Preview.
+* Use initial uppercase capitalization, that is, "Technology Preview".
 * Include a brief description of the Technology Preview feature in the Release Notes.
 * Maintain a list of features that are currently in Technology Preview status in the Release Notes.
 
