@@ -15,10 +15,11 @@ When a minor release becomes generally available, remove the IMPORTANT admonitio
 
 Use the following template. Replace _<feature_name>_ with the feature name:
 
+
+[IMPORTANT]
 ====
-IMPORTANT
+<_feature-name_> is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
 ====
-<feature> is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
 
 See link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope] for more information about the support scope of Red Hat Technology Preview features.
 
