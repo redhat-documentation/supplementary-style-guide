@@ -1,0 +1,25 @@
+[[support]]
+= Support
+
+[discrete]
+== Technology Preview
+
+Technology Preview documentation guidelines apply to any form of early access feature that is not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic install and configuration information.
+
+* Add an admonition labeled IMPORTANT at the beginning of the Technology Preview content.
+* Use initial uppercase capitalization, that is, Technology Preview.
+* Include the Technology Preview feature in the Release Notes.
+* Maintain a list of features that are currently in Technology Preview status in the Release
+
+When a minor release becomes generally available, remove the IMPORTANT admonition from the Release Notes and any other document that includes content about the feature.
+
+Use the following template. Replace <feature> with the feature name:
+
+====
+IMPORTANT
+====
+<feature> is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
+
+See link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope] for more information about the support scope of Red Hat Technology Preview features.
+
+// TODO: Add new style entries alphabetically in this file
