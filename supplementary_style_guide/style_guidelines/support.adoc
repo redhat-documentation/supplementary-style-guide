@@ -13,7 +13,7 @@ Technology Preview documentation guidelines apply to any form of early access fe
 
 When a minor release becomes generally available, remove the IMPORTANT admonition from the Release Notes and any other document that includes content about the feature.
 
-Use the following template. Replace <feature> with the feature name:
+Use the following template. Replace _<feature_name>_ with the feature name:
 
 ====
 IMPORTANT
