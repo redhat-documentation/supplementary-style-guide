@@ -45,6 +45,18 @@
 
 *See also*:
 
+[discrete]
+[[technology-preview]]
+==== image:images/yes.png[yes] Technology Preview (noun)
+*Description*: Technology Preview documentation guidelines apply to any form of early access feature that is not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic install and configuration information.
+
+*Use it*: yes
+
+*Incorrect forms*: Technology preview, technology preview
+
+*See also*:
+
+
 // OCP: Added "In Red Hat OpenShift,"
 [discrete]
 [[template]]
