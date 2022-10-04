@@ -13,7 +13,7 @@ When documenting a Technology Preview feature, follow these guidelines:
 * Include a brief description of the Technology Preview feature in the Release Notes.
 * Maintain a list of features that are currently in Technology Preview status in the Release Notes.
 
-When a minor release becomes generally available, remove the IMPORTANT admonition from the Release Notes and any other document that includes content about the feature.
+When the Technology Preview feature becomes generally available, remove the IMPORTANT admonition from the release notes and any other document that includes content about the feature.
 
 Use the following template. Replace _<feature_name>_ with the feature name:
 
