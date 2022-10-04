@@ -4,7 +4,7 @@
 [discrete]
 == Technology Preview
 
-Technology Preview documentation guidelines apply to any form of early access feature that is not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic install and configuration information.
+Technology Preview documentation guidelines apply to any form of early access feature that is not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information.
 
 * Add an admonition labeled IMPORTANT at the beginning of the Technology Preview content.
 * Use initial uppercase capitalization, that is, Technology Preview.
