@@ -48,7 +48,7 @@
 [discrete]
 [[technology-preview]]
 ==== image:images/yes.png[yes] Technology Preview (noun)
-*Description*: Technology Preview documentation guidelines apply to any form of early access feature that is not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic install and configuration information.
+*Description*: Technology Preview documentation guidelines apply to any form of early access feature that is not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information.
 
 *Use it*: yes
 
