@@ -1,7 +1,7 @@
 [[support]]
 = Support
 
-[discrete]
+[[technology-preview]]
 == Technology Preview
 
 Technology Preview features provide early access to upcoming product innovations, enabling customers to test functionality and provide feedback during the development process. However, these features are not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information.
@@ -9,9 +9,9 @@ Technology Preview features provide early access to upcoming product innovations
 When documenting a Technology Preview feature, follow these guidelines:
 
 * Add an admonition labeled IMPORTANT at the beginning of the Technology Preview content.
-* Use initial uppercase capitalization, that is, "Technology Preview".
-* Include a brief description of the Technology Preview feature in the Release Notes.
-* Maintain a list of features that are currently in Technology Preview status in the Release Notes.
+* Use initial uppercase capitalization, that is, Technology Preview.
+* Include a brief description of the Technology Preview feature in the release notes.
+* Maintain a list of features that are currently in Technology Preview status in the release notes.
 
 When the Technology Preview feature becomes generally available, remove the IMPORTANT admonition from the release notes and any other document that includes content about the feature.
 
