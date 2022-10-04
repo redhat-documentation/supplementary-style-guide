@@ -1,7 +1,7 @@
 [[support]]
 = Support
 
-[[technology-preview]]
+[[technology-preview-guidance]]
 == Technology Preview
 
 Technology Preview features provide early access to upcoming product innovations, enabling customers to test functionality and provide feedback during the development process. However, these features are not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information.
