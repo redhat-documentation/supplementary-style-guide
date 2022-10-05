@@ -16,7 +16,7 @@ When documenting a Technology Preview feature, follow these guidelines:
 * When the Technology Preview feature becomes generally available, remove the IMPORTANT admonition from the release notes and any other document that includes content about the feature.
 
 For more information about the support scope of Red Hat Technology Preview
-features, see link:https://access.redhat.com/support/offerings/techpreview/(Technology Preview Features Support Scope).
+features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
 
 
 Use the following template. Replace _<feature_name>_ with the feature name:
