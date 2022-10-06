@@ -174,7 +174,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 [discrete]
 [[bios]]
 ==== image:images/caution.png[with caution] BIOS (noun)
-*Description*: "BIOS" is an abbreviation for Basic Input/Output System. The plural form is "BIOSes". BIOS is the specific name for the motherboard firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI. 
+*Description*: _BIOS_ is an abbreviation for "Basic Input/Output System". The plural form is "BIOSes". BIOS is the specific name for the motherboard firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI.
 
 Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware" or a specific phrase such as "UEFI firmware" or "legacy BIOS" instead.
 
@@ -255,7 +255,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bpp]]
 ==== image:images/yes.png[yes] bpp (noun)
-*Description*: The abbreviation for bits per pixel (_bpp_) is presented in lowercase letters, unless it is at the beginning of a sentence. Use a non-breaking space between the numeral and the units, for example, "16 bpp", not "16bpp".
+*Description*: The abbreviation for "bits per pixel" (_bpp_) is presented in lowercase letters, unless it is at the beginning of a sentence. Use a non-breaking space between the numeral and the units, for example, "16 bpp", not "16bpp".
 
 *Use it*: yes
 
@@ -266,7 +266,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[Bps]]
 ==== image:images/yes.png[yes] Bps (noun)
-*Description*: _Bps_ is an abbreviation for bytes per second.
+*Description*: _Bps_ is an abbreviation for "bytes per second".
 
 *Use it*: yes
 
@@ -277,7 +277,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bps]]
 ==== image:images/yes.png[yes] bps (noun)
-*Description*: The abbreviation for bits per second is _bps_.
+*Description*: The abbreviation for "bits per second" is _bps_.
 
 *Use it*: yes
 
@@ -370,7 +370,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bucket]]
 ==== image:images/yes.png[yes] bucket (noun)
-*Description*: 1) A _bucket_ in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a _container_ in the Swift API. 2) The term bucket is also sometimes used in the context of a _CRUSH hierarchy_, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
+*Description*: 1) A _bucket_ in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a _container_ in the Swift API. 2) The term "bucket" is also sometimes used in the context of a _CRUSH hierarchy_, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
 
 *Use it*: yes
 

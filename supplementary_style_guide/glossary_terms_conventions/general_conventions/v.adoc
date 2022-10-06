@@ -1,7 +1,7 @@
 [discrete]
 [[var]]
 ==== image:images/yes.png[yes] VAR (noun)
-*Description*: "VAR" is an acronym for value-added reseller, which is the equivalent of original equipment manufacturer (OEM).
+*Description*: _VAR_ is an acronym for "value-added reseller", which is the equivalent of original equipment manufacturer (OEM).
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[vcpu]]
 ==== image:images/yes.png[yes] vCPU (noun)
-*Description*: "vCPU" is an abbreviation for a virtual central processing unit, which represents a portion of a physical CPU that is assigned to a virtual machine.
+*Description*: _vCPU_ is an abbreviation for a "virtual central processing unit", which represents a portion of a physical CPU that is assigned to a virtual machine.
 
 Use lowercase "v" and uppercase "CPU".
 
@@ -25,7 +25,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[vdsm]]
 ==== image:images/yes.png[yes] VDSM (noun)
-*Description*: "VDSM" is an abbreviation for Virtual Desktop Server Management. Do not spell out this abbreviation. Using the term "virtual desktop" in this context has negative marketing implications.
+*Description*: _VDSM_ is an abbreviation for "Virtual Desktop Server Management". Do not spell out this abbreviation. Using the term "virtual desktop" in this context has negative marketing implications.
 
 *Use it*: yes
 
@@ -37,7 +37,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[verb]]
 ==== image:images/yes.png[yes] verb (noun)
-*Description*: In Red Hat OpenShift, a verb is a get, list, create, or update operation.
+*Description*: In Red Hat OpenShift, a _verb_ is a `get`, `list`, `create`, or `update` operation.
 
 *Use it*: yes
 
@@ -48,7 +48,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[verify]]
 ==== image:images/yes.png[yes] verify (verb)
-*Description*: "Verify" means to check that something is correct.
+*Description*: _Verify_ means to check that something is correct.
 
 *Use it*: yes
 
@@ -59,7 +59,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[vi]]
 ==== image:images/yes.png[yes] vi (noun)
-*Description*: "vi" is a screen-oriented text editor originally created for the UNIX operating system. Do not use "VI".
+*Description*: _vi_ is a screen-oriented text editor originally created for the UNIX operating system. Do not use "VI".
 
 *Use it*: yes
 
@@ -70,7 +70,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[video-mode]]
 ==== image:images/yes.png[yes] video mode (noun)
-*Description*: "Video mode" is the setting of a video adapter. Most video adapters can run in either text mode or graphics mode. In text mode, a monitor can display only ASCII characters. In graphics mode, a monitor can display any bit-mapped image. In addition to the text and graphics modes, video adapters offer different modes of resolution and color depth.
+*Description*: _Video mode_ is the setting of a video adapter. Most video adapters can run in either text mode or graphics mode. In text mode, a monitor can display only ASCII characters. In graphics mode, a monitor can display any bit-mapped image. In addition to the text and graphics modes, video adapters offer different modes of resolution and color depth.
 
 *Use it*: yes
 
@@ -81,7 +81,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[vim]]
 ==== image:images/yes.png[yes] Vim (noun)
-*Description*: "Vim" is an acronym for Vi IMproved. In the original 1991 release for the Amiga platform, the acronym was derived from Vi IMitation. It became Vi IMproved in 1992, when ported to the UNIX system and similar operating systems. Despite being an acronym, and despite the first word of the "About" text that is displayed when you launch the editor, the standard, proper noun-derived, mixed-case spelling has been in use since its release on the Amiga.
+*Description*: _Vim_ is an acronym for "Vi IMproved". In the original 1991 release for the Amiga platform, the acronym was derived from Vi IMitation. It became Vi IMproved in 1992, when ported to the UNIX system and similar operating systems. Despite being an acronym, and despite the first word of the "About" text that is displayed when you launch the editor, the standard, proper noun-derived, mixed-case spelling has been in use since its release on the Amiga.
 
 *Use it*: yes
 
@@ -92,7 +92,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[virtual]]
 ==== image:images/yes.png[yes] virtual (adjective)
-*Description*: "Virtual" is an adjective describing computer systems with hardware functions partially carried out in the software layer. It is preferred over virtualized, as it is simple, direct, and unambiguous.
+*Description*: _Virtual_ is an adjective describing computer systems with hardware functions partially carried out in the software layer. It is preferred over virtualized, as it is simple, direct, and unambiguous.
 
 *Use it*: yes
 
@@ -114,7 +114,7 @@ Use lowercase "v" and uppercase "CPU".
 [discrete]
 [[virtual-floppy-disk]]
 ==== image:images/yes.png[yes] virtual floppy disk (noun)
-*Description*: A "virtual floppy disk" is an alternative to the traditional floppy. It is an image file rather than a physical disk.
+*Description*: A _virtual floppy disk_ is an alternative to the traditional floppy. It is an image file rather than a physical disk.
 
 Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy disk", this term is outdated and refers to the physical disk. In the context of virtualization, "floppy disk" is the preferred term; the file extension, for example, is ".vfd".
 
@@ -127,7 +127,7 @@ Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy di
 [discrete]
 [[virtual-floppy-drive]]
 ==== image:images/yes.png[yes] virtual floppy drive (noun)
-*Description*: A "virtual floppy drive" is the virtual hardware used to mount a floppy disk image.
+*Description*: A _virtual floppy drive_ is the virtual hardware used to mount a floppy disk image.
 
 Although the _IBM Style Guide_ recommends using "diskette drive" instead of "floppy drive", this term is outdated and refers to the physical hardware. In the context of virtualization, "floppy drive" is the preferred term.
 
@@ -141,7 +141,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[vhd]]
 ==== image:images/yes.png[yes] virtual hard drive (noun)
-*Description*: A "virtual hard drive" (VHD) is file format that represents a virtual hard disk drive (HDD). It contains elements typically found on a physical HDD, such as disk partitions and a file system, which in turn can contain files and folders. VHD files have the extension `.vhd`. In Microsoft Azure, VHD is the required image format for all virtual machine images. Do not use virtual hard disk as a synonym.
+*Description*: A _virtual hard drive (VHD)_ is file format that represents a virtual hard disk drive (HDD). It contains elements typically found on a physical HDD, such as disk partitions and a file system, which in turn can contain files and folders. VHD files have the extension `.vhd`. In Microsoft Azure, VHD is the required image format for all virtual machine images. Do not use "virtual hard disk" as a synonym.
 
 *Use it*: yes
 
@@ -152,7 +152,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[virtual-machine]]
 ==== image:images/yes.png[yes] virtual machine (noun)
-*Description*: "Virtual machine" refers to virtual hardware that consists of virtual CPUs, memory, devices, and so on. Do not use "guest virtual machine" unless you want to specifically emphasize the fact that it is a guest. Virtual machine can be abbreviated to "VM" as long as the term has been introduced in the same content in its full version first and provided there is no possibility of confusion with other terms, such as "virtual memory". Author discretion is recommended.
+*Description*: _Virtual machine_ refers to virtual hardware that consists of virtual CPUs, memory, devices, and so on. Do not use "guest virtual machine" unless you want to specifically emphasize the fact that it is a guest. Virtual machine can be abbreviated to "VM" as long as the term has been introduced in the same content in its full version first and provided there is no possibility of confusion with other terms, such as "virtual memory".
 
 *Use it*: yes
 
@@ -164,7 +164,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[virtual-management-database]]
 ==== image:images/yes.png[yes] Virtual Management Database (VMDB) (noun)
-*Description*: In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use Virtual Management Database (VMDB) in the first instance and VMDB in subsequent instances.
+*Description*: In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use "Virtual Management Database (VMDB)" in the first instance and "VMDB" in subsequent instances.
 
 *Use it*: yes
 
@@ -175,7 +175,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[virtual-router]]
 ==== image:images/yes.png[yes] virtual router (noun)
-*Description*: A "virtual router" is an abstract object managed by the virtual router redundancy protocol (VRRP) that acts as a default router for hosts on a shared LAN. It consists of a Virtual Router Identifier and a set of associated IP addresses across a common LAN.
+*Description*: A _virtual router_ is an abstract object managed by the virtual router redundancy protocol (VRRP) that acts as a default router for hosts on a shared LAN. It consists of a Virtual Router Identifier and a set of associated IP addresses across a common LAN.
 
 *Use it*: yes
 
@@ -186,7 +186,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[virtualized]]
 ==== image:images/yes.png[yes] virtualized (adjective)
-*Description*: "Virtualized" is an adjective and a past-tense verb. It implies having undergone or been produced by a process. The distinction implies the possibility of a real (not virtual) counterpart.
+*Description*: _Virtualized_ is an adjective and a past-tense verb. It implies having undergone or been produced by a process. The distinction implies the possibility of a real (not virtual) counterpart.
 
 *Use it*: yes
 
@@ -197,7 +197,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[virtualized-guest]]
 ==== image:images/caution.png[with caution] virtualized guest (noun)
-*Description*: A "virtualized guest" is a virtual machine (VM). Use virtualized guest only when comparing a "fully virtualized guest" with a "paravirtualized guest".
+*Description*: A _virtualized guest_ is a virtual machine (VM). Use "virtualized guest" only when comparing a _fully virtualized guest_ with a _paravirtualized guest_.
 
 *Use it*: with caution
 
@@ -208,7 +208,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[vlan]]
 ==== image:images/yes.png[yes] VLAN (noun)
-*Description*: "VLAN" is an abbreviation for virtual local area network. Use uppercase for all letters.
+*Description*: _VLAN_ is an abbreviation for "virtual local area network". Use uppercase for all letters.
 
 *Use it*: yes
 
@@ -220,7 +220,7 @@ Although the _IBM Style Guide_ recommends using "diskette drive" instead of "flo
 [discrete]
 [[vm-portal]]
 ==== image:images/yes.png[yes] VM Portal (noun)
-*Description*: In Red Hat Virtualization, the VM Portal is a graphical user interface provided by the Red Hat Virtualization Manager. It has limited permissions for managing virtual machine resources and is targeted at end users.
+*Description*: In Red Hat Virtualization, the _VM Portal_ is a graphical user interface provided by the Red Hat Virtualization Manager. It has limited permissions for managing virtual machine resources and is targeted at end users.
 
 Always use "VM Portal" and capitalize the product name.
 
@@ -233,7 +233,7 @@ Always use "VM Portal" and capitalize the product name.
 [discrete]
 [[vnic]]
 ==== image:images/yes.png[yes] vNIC (noun)
-*Description*: "vNIC" is an abbreviation for virtual network interface controller. Use lowercase v and uppercase NIC for the abbreviation, but all lowercase for the expansion, except at the beginning of a sentence.
+*Description*: _vNIC_ is an abbreviation for "virtual network interface controller". Use lowercase "v" and uppercase "NIC" for the abbreviation, but all lowercase for the expansion, except at the beginning of a sentence.
 
 *Use it*: yes
 
@@ -244,7 +244,7 @@ Always use "VM Portal" and capitalize the product name.
 [discrete]
 [[vnuma]]
 ==== image:images/yes.png[yes] vNUMA node (noun)
-*Description*: A virtual non-uniform memory access (vNUMA) node optimizes performance for a virtual machine (VM) by pinning vNUMA nodes on the VM to specific NUMA nodes on the host. You can optionally use virtual NUMA node instead of vNUMA node.
+*Description*: A _virtual non-uniform memory access (vNUMA)_ node optimizes performance for a virtual machine (VM) by pinning vNUMA nodes on the VM to specific NUMA nodes on the host. You can optionally use "virtual NUMA node" instead of "vNUMA node".
 
 *Use it*: yes
 
@@ -255,7 +255,7 @@ Always use "VM Portal" and capitalize the product name.
 [discrete]
 [[volatile-storage]]
 ==== image:images/yes.png[yes] volatile storage (noun)
-*Description*: Volatile storage is temporary storage, for example, random access memory (RAM) that requires power to maintain the stored information. The stored data is lost when the device is turned off or restarts.
+*Description*: _Volatile storage_ is temporary storage, for example, random access memory (RAM) that requires power to maintain the stored information. The stored data is lost when the device is turned off or restarts.
 
 *Use it*: yes
 
@@ -266,7 +266,7 @@ Always use "VM Portal" and capitalize the product name.
 [discrete]
 [[vpn]]
 ==== image:images/yes.png[yes] VPN (noun)
-*Description*: "VPN" is an abbreviation for virtual private network, which is a network that is constructed by using public wires to connect nodes. For example, there are a number of systems that enable you to create networks using the internet as the medium for transporting data. These systems use encryption and other security mechanisms to ensure that only authorized users can access the network and that the data cannot be intercepted.
+*Description*: _VPN_ is an abbreviation for "virtual private network", which is a network that is constructed by using public wires to connect nodes. For example, there are a number of systems that enable you to create networks using the internet as the medium for transporting data. These systems use encryption and other security mechanisms to ensure that only authorized users can access the network and that the data cannot be intercepted.
 
 *Use it*: yes
 

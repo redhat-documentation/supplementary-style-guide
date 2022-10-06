@@ -14,7 +14,7 @@
 [discrete]
 [[eip]]
 ==== image:images/yes.png[yes] EIP (noun)
-*Description*: _Enterprise Integration Pattern (EIP)_. A pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Camel implements numerous patterns for asynchronous messaging. In Red Hat Fuse, these patterns are located in the Palette and filed in separate drawers according to function (Routing, Control Flow, Transformation, and Miscellaneous).
+*Description*: _EIP_ is an initialism for "Enterprise Integration Pattern". EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Camel implements numerous patterns for asynchronous messaging. In Red Hat Fuse, these patterns are located in the Palette and filed in separate drawers according to function (Routing, Control Flow, Transformation, and Miscellaneous).
 
 *Use it*: yes
 

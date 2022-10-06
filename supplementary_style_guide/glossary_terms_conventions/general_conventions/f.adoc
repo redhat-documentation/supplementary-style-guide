@@ -177,7 +177,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 [discrete]
 [[fqdn]]
 ==== image:images/yes.png[yes] FQDN (noun)
-*Description*: _FQDN_ is an abbreviation for fully qualified domain name. A FQDN consists of a host and domain name, including top-level domain. For example, www.redhat.com is a fully qualified domain name. www is the host, redhat is the second-level domain, and .com is the top-level domain. A FQDN always starts with a hostname and continues all the way up to the top-level domain name, so www.parc.xerox.com is also a FQDN.
+*Description*: _FQDN_ is an abbreviation for "fully qualified domain name". A FQDN consists of a host and domain name, including top-level domain. For example, www.redhat.com is a fully qualified domain name. www is the host, redhat is the second-level domain, and .com is the top-level domain. A FQDN always starts with a hostname and continues all the way up to the top-level domain name, so www.parc.xerox.com is also a FQDN.
 
 *Use it*: yes
 
@@ -236,7 +236,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 [discrete]
 [[futex]]
 ==== image:images/yes.png[yes] futex (noun)
-*Description*: A __futex_, which is an abbreviation for _fast userspace mutex_, is a Linux kernel system call that programmers can use to implement basic locking or as a building block for higher-level locking abstractions.
+*Description*: A _futex_, which is an abbreviation for "fast userspace mutex", is a Linux kernel system call that programmers can use to implement basic locking or as a building block for higher-level locking abstractions.
 
 *Use it*: yes
 
@@ -247,7 +247,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 [discrete]
 [[futexes]]
 ==== image:images/yes.png[yes] futexes (noun)
-*Description*: _Futex_ is an abbreviation of _fast user-space mutex_. "Futexes" is the correct plural form.
+*Description*: _Futex_ is an abbreviation for "fast user-space mutex". "Futexes" is the correct plural form.
 
 *Use it*: yes
 
