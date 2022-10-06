@@ -15,18 +15,25 @@ When documenting a Technology Preview feature, follow these guidelines:
 * Never use the phrase "supported as a Technology Preview", and avoid using "support" in Technology Preview descriptions. Instead, use neutral words like "available", "provide", "capability", and so on.
 * When the Technology Preview feature becomes generally available, remove the IMPORTANT admonition from the release notes and any other document that includes content about the feature.
 
-For more information about the support scope of Red Hat Technology Preview
-features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
+Use the following template text verbatim, where _<feature_name>_ is your feature name:
 
-
-Use the following template. Replace _<feature_name>_ with the feature name:
-
+.Example AsciiDoc: Technology Preview admonition template
+[source,text,subs="+quotes"]
+----
 [IMPORTANT]
 ====
-_<feature_name>_ is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. 
+_<feature_name>_ is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
 
-For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[https://access.redhat.com/support/offerings/techpreview/].
+For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
 ====
+----
 
+.Examples of possible values for _<feature_name>_
+
+* The Driver Toolkit
+* SSPI connection support on Microsoft Windows
+* Hot-plugging virtual disks
+
+For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
 
 // TODO: Add new style entries alphabetically in this file
