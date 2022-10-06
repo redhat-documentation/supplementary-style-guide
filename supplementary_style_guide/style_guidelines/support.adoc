@@ -1,0 +1,32 @@
+[[support]]
+= Support
+
+[[technology-preview-guidance]]
+== Technology Preview
+
+Technology Preview features provide early access to upcoming product innovations, enabling customers to test functionality and provide feedback during the development process. However, these features are not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information.
+
+When documenting a Technology Preview feature, follow these guidelines:
+
+* Add an admonition labeled IMPORTANT at the beginning of the Technology Preview content and include the template text.
+* Use initial uppercase capitalization, that is, Technology Preview.
+* Include a brief description of the Technology Preview feature in the release notes.
+* Maintain a list of features that are currently in Technology Preview status in the release notes.
+* Never use the phrase "supported as a Technology Preview", and avoid using "support" in Technology Preview descriptions. Instead, use neutral words like "available", "provide", "capability", and so on.
+* When the Technology Preview feature becomes generally available, remove the IMPORTANT admonition from the release notes and any other document that includes content about the feature.
+
+For more information about the support scope of Red Hat Technology Preview
+features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
+
+
+Use the following template. Replace _<feature_name>_ with the feature name:
+
+[IMPORTANT]
+====
+_<feature_name>_ is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process. 
+
+For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[https://access.redhat.com/support/offerings/techpreview/].
+====
+
+
+// TODO: Add new style entries alphabetically in this file

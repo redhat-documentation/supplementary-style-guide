@@ -43,6 +43,9 @@ include::style_guidelines/legal.adoc[leveloffset=+2]
 // Links
 include::style_guidelines/links.adoc[leveloffset=+2]
 
+// Support
+include::style_guidelines/support.adoc[leveloffset=+2]
+
 // Release notes
 include::style_guidelines/release-notes.adoc[leveloffset=+2]
 
