@@ -1,7 +1,7 @@
 [discrete]
 [[udp]]
 ==== image:images/yes.png[yes] UDP (noun)
-*Description*: The User Datagram Protocol (_UDP_) is a connection-less protocol. Clients can send datagrams to servers with a service that is listening for UDP traffic without establishing a connection. UDP prefers minimizing time and overhead over ensuring reliability.
+*Description*: The _User Datagram Protocol (UDP)_ is a connection-less protocol. Clients can send datagrams to servers with a service that is listening for UDP traffic without establishing a connection. UDP prefers minimizing time and overhead over ensuring reliability.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[uid]]
 ==== image:images/yes.png[yes] UID (noun)
-*Description*: "UID" is an abbreviation of user identifier. UID is a unique identifier associated with a single entity within a given system.
+*Description*: _UID_ is an abbreviation of "user identifier". UID is a unique identifier associated with a single entity within a given system.
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[UltraSPARC]]
 ==== image:images/yes.png[yes] UltraSPARC (noun)
-*Description*: "UltraSPARC" is a trademark of SPARC International, Inc. and is used under license by Sun Microsystems, Inc. Products bearing the SPARC trademarks are based upon an architecture developed by Sun Microsystems, Inc.
+*Description*: _UltraSPARC_ is a trademark of SPARC International, Inc. and is used under license by Sun Microsystems, Inc. Products bearing the SPARC trademarks are based upon an architecture developed by Sun Microsystems, Inc.
 
 *Use it*: yes
 
@@ -35,7 +35,7 @@
 [discrete]
 [[undercloud]]
 ==== image:images/yes.png[yes] undercloud (noun)
-*Description*: In Red Hat OpenStack Platform (RHOSP), the undercloud is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
+*Description*: In Red Hat OpenStack Platform (RHOSP), the _undercloud_ is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
 
 *Use it*: yes
 
@@ -47,7 +47,7 @@
 [discrete]
 [[undertow]]
 ==== image:images/yes.png[yes] undertow subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "undertow" subsystem is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the undertow subsystem in titles and headings. See the xref:webhttp-undertow[WebHTTP - Undertow] entry for the correct usage when referring to the undertow subsystem in the management console.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. See the xref:webhttp-undertow[WebHTTP - Undertow] entry for the correct usage when referring to the `undertow` subsystem in the management console.
 
 *Use it*: yes
 
@@ -69,7 +69,7 @@
 [discrete]
 [[unix]]
 ==== image:images/yes.png[yes] UNIX (noun)
-*Description*: UNIX is a registered trademark of The Open Group. Do not use "UNIX-like" or "UNIX-based"; use an expression such as "Linux, UNIX, and similar operating systems" or "UNIX system-based" instead.
+*Description*: _UNIX_ is a registered trademark of The Open Group. Do not use "UNIX-like" or "UNIX-based"; use an expression such as "Linux, UNIX, and similar operating systems" or "UNIX system-based" instead.
 
 *Use it*: yes
 
@@ -103,7 +103,7 @@
 [discrete]
 [[update]]
 ==== image:images/yes.png[yes] update (noun)
-*Description*: In Red Hat Enterprise Linux, sometimes called a software patch, an update is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
+*Description*: In Red Hat Enterprise Linux, sometimes called a software patch, an _update_ is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
 
 *Use it*: yes
 
@@ -116,7 +116,7 @@
 [discrete]
 [[upgrade]]
 ==== image:images/yes.png[yes] upgrade (verb)
-*Description*: 1) "Upgrade" means to raise (something) to a higher standard, in particular to improve by adding or replacing components. 2) In Red Hat Enterprise Linux, an upgrade is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
+*Description*: 1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. 2) In Red Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
 
 *Use it*: yes
 
@@ -127,7 +127,7 @@
 [discrete]
 [[ups]]
 ==== image:images/yes.png[yes] UPS (noun)
-*Description*: "UPS" is an abbreviation of uninterruptible power supply, which is a power supply that includes a battery to maintain power in the event of a power outage.
+*Description*: _UPS_ is an abbreviation of "uninterruptible power supply", which is a power supply that includes a battery to maintain power in the event of a power outage.
 
 *Use it*: yes
 
@@ -138,7 +138,7 @@
 [discrete]
 [[upsell]]
 ==== image:images/yes.png[yes] upsell (verb)
-*Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, "upsell" is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
+*Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, _upsell_ is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
 
 *Use it*: yes
 
@@ -149,7 +149,7 @@
 [discrete]
 [[upselling]]
 ==== image:images/yes.png[yes] upselling (noun)
-*Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, "upselling" is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
+*Description*: As per http://www.ahdictionary.com/word/search.html?q=upsell, _upselling_ is the practice of offering customers additional or more expensive products or services after they have already agreed to buy something. No adjectival form is currently recognized.
 
 *Use it*: yes
 
@@ -160,7 +160,7 @@
 [discrete]
 [[upstream-adj]]
 ==== image:images/yes.png[yes] upstream (adjective)
-*Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the adjectival form.
+*Description*: _Upstream_ is data sent from a customer to a network service provider. Use the one-word form for the adjectival form.
 
 *Use it*: yes
 
@@ -171,7 +171,7 @@
 [discrete]
 [[upstream-n]]
 ==== image:images/yes.png[yes] upstream (noun)
-*Description*: "Upstream" is data sent from a customer to a network service provider. Use the one-word form for the nominal form.
+*Description*: _Upstream_ is data sent from a customer to a network service provider. Use the one-word form for the nominal form.
 
 *Use it*: yes
 
@@ -182,7 +182,7 @@
 [discrete]
 [[uptime]]
 ==== image:images/yes.png[yes] uptime (noun)
-*Description*: "Uptime" is the time during which a computer or server is in operation. Use the one-word form.
+*Description*: _Uptime_ is the time during which a computer or server is in operation. Use the one-word form.
 
 *Use it*: yes
 
@@ -194,7 +194,7 @@
 [discrete]
 [[uri]]
 ==== image:images/yes.png[yes] URI (noun)
-*Description*: Uniform Resource Identifier. A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red Hat Fuse, Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
+*Description*: _URI_ is an initialism for "Uniform Resource Identifier". A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red Hat Fuse, Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
 
 *Use it*: yes
 
@@ -205,7 +205,7 @@
 [discrete]
 [[url]]
 ==== image:images/yes.png[yes] URL (noun)
-*Description*: "URL" is an abbreviation for Uniform Resource Locator. A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
+*Description*: _URL_ is an initialism for "Uniform Resource Locator". A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
 
 *Use it*: yes
 
@@ -217,7 +217,7 @@
 [discrete]
 [[urn]]
 ==== image:images/yes.png[yes] URN (noun)
-*Description*: Uniform Resource Name. A URN is a special URI that identifies, by name, a resource located in a specific namespace. A URN can be used to talk about a resource without implying its location or access details.
+*Description*: _URN_ is an initialism for "Uniform Resource Name". A _URN_ is a special URI that identifies, by name, a resource located in a specific namespace. A URN can be used to talk about a resource without implying its location or access details.
 
 *Use it*: yes
 
@@ -251,7 +251,7 @@
 [discrete]
 [[user-name]]
 ==== image:images/yes.png[yes] user name (noun)
-*Description*: Use as shown, two words, except for instances in which the GUI uses the single word form (username).
+*Description*: Use as shown, two words, except for instances in which the GUI uses the single word form ("username").
 
 *Use it*: yes
 
@@ -263,7 +263,7 @@
 [discrete]
 [[user-role-mapping]]
 ==== image:images/yes.png[yes] user role mapping (noun)
-*Description*: A user role mapping defines a mapping between a role and a user. A user can be associated with zero or more roles. This role mapping information can be encapsulated into tokens and assertions so that applications can decide access permissions on various resources they manage.
+*Description*: A _user role mapping_ defines a mapping between a role and a user. A user can be associated with zero or more roles. This role mapping information can be encapsulated into tokens and assertions so that applications can decide access permissions on various resources they manage.
 
 *Use it*: yes
 
@@ -286,7 +286,7 @@
 [discrete]
 [[user-provisioned-infrastructure]]
 ==== image:images/yes.png[yes] user-provisioned infrastructure (noun)
-*Description*: In Red Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a user-provisioned infrastructure installation.
+*Description*: In Red Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a _user-provisioned infrastructure_ installation.
 
 *Use it*: yes
 

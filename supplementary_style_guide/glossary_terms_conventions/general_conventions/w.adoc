@@ -1,7 +1,7 @@
 [discrete]
 [[wan]]
 ==== image:images/yes.png[yes] WAN (noun)
-*Description*: "WAN" is an acronym for wide-area network, which is a computer network that spans a relatively large geographical area. Typically, a WAN consists of two or more local-area networks (LANs). Computers connected to a wide-area network are often connected through public networks, such as the telephone system. Connections can be through leased lines or satellites. The largest WAN in existence is the internet.
+*Description*: _WAN_ is an acronym for "wide-area network", which is a computer network that spans a relatively large geographical area. Typically, a WAN consists of two or more local-area networks (LANs). Computers connected to a wide-area network are often connected through public networks, such as the telephone system. Connections can be through leased lines or satellites. The largest WAN in existence is the internet.
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[wca]]
 ==== image:images/yes.png[yes] WCA (noun)
-*Description*: "WCA" is an abbreviation for web clipping application, which is an application that allows users to extract static information from a web server and load that data onto a web-enabled PDA. WCAs are also called query applications.
+*Description*: _WCA_ is an abbreviation for "web clipping application", which is an application that allows users to extract static information from a web server and load that data onto a web-enabled PDA. WCAs are also called "query applications".
 
 *Use it*: yes
 
@@ -46,7 +46,7 @@
 [discrete]
 [[web-server]]
 ==== image:images/yes.png[yes] web server (noun)
-*Description*: A web server is computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol used to distribute web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
+*Description*: A _web server_ is computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol used to distribute web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
 
 *Use it*: yes
 
@@ -81,7 +81,7 @@
 [discrete]
 [[webhttp-undertow]]
 ==== image:images/yes.png[yes] WebHTTP - Undertow (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the undertow subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
+*Description*: In Red Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the `undertow` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
 
 *Use it*: yes
 
@@ -93,7 +93,7 @@
 [discrete]
 [[webservices]]
 ==== image:images/yes.png[yes] webservices subsystem (noun)
-*Description*: Added "In Red Hat JBoss Enterprise Application Platform, the "webservices" subsystem is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the webservices subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -105,7 +105,7 @@
 [discrete]
 [[weld]]
 ==== image:images/yes.png[yes] weld subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "weld" subsystem is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the weld subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _weld subsystem_ is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the `weld` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -149,7 +149,7 @@
 [discrete]
 [[window-maker]]
 ==== image:images/yes.png[yes] Window Maker (noun)
-*Description*: "Window Maker" is a window manager for the X Window System. Do not combine Window Maker into one word or hyphenate the two words.
+*Description*: _Window Maker_ is a window manager for the X Window System. Do not combine "Window Maker" into one word or hyphenate the two words.
 
 *Use it*: yes
 
@@ -185,7 +185,7 @@
 [discrete]
 [[working-memory]]
 ==== image:images/yes.png[yes] working memory (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "working memory" is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
 
 *Use it*: yes
 

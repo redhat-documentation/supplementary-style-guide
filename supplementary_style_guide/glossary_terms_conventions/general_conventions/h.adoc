@@ -37,7 +37,7 @@
 [discrete]
 [[header-bar]]
 ==== image:images/yes.png[yes] header bar (noun)
-*Description*: Added "In Red Hat Virtualization, the header bar contains the following buttons:
+*Description*: In Red Hat Virtualization, the header bar contains the following buttons:
 
 *  collapse/expand text labels in the side bar
 * *Bookmarks*
