@@ -308,6 +308,17 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *See also*:
 
 [discrete]
+[[developer-preview]]
+==== image:images/yes.png[yes] Developer Preview (noun)
+*Description*: Developer Preview software provides early access to upcoming product software in advance of its possible inclusion in a Red Hat product offering, enabling customers to test functionality and provide feedback during the development process. The software might not have any documentation, is subject to change or removal at any time, and testing is limited. Developer Preview software is not supported by Red Hat in any way and is not functionally complete or production-ready.
+
+*Use it*: yes
+
+*Incorrect forms*: Development Preview, Developer preview, dev preview
+
+*See also*:
+
+[discrete]
 [[device]]
 ==== image:images/yes.png[yes] device (noun)
 *Description*: A _device_ is any machine or component that attaches to a computer.

@@ -56,7 +56,6 @@
 
 *See also*:
 
-
 // OCP: Added "In Red Hat OpenShift,"
 [discrete]
 [[template]]
