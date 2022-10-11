@@ -1,7 +1,7 @@
 [discrete]
 [[o-ran]]
 ==== image:images/caution.png[with caution] O-RAN (noun)
-*Description*: Write as shown (hyphenated, all uppercase) for specific and official references to the _O-RAN_ Alliance. For generic references to deploying and managing radio access network features by using open interfaces, use "Open RAN". For references to the Telecom Infra Project, use "OpenRAN".
+*Description*: Write as shown (hyphenated, all uppercase) for specific and official references to the "O-RAN" Alliance. For generic references to deploying and managing radio access network features by using open interfaces, use "Open RAN". For references to the Telecom Infra Project, use "OpenRAN".
 
 *Use it*: with caution
 
@@ -12,7 +12,7 @@
 // OCS: General; kept as is
 [discrete]
 [[object-bucket]]
-==== image:images/yes.png[yes] object bucket (noun)
+==== object bucket (noun)
 *Description*: A container to store objects.
 
 *Use it*: yes
@@ -24,8 +24,8 @@
 // OCS: General; kept as is
 [discrete]
 [[object-bucket-claim]]
-==== image:images/yes.png[yes] object bucket claim (noun)
-*Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use object bucket claim to request an AWS S3 compatible bucket for the workloads.
+==== object bucket claim (noun)
+*Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use "object bucket claim" to request an AWS S3 compatible bucket for the workloads.
 
 *Use it*: yes
 
@@ -37,7 +37,7 @@
 [discrete]
 [[object-class]]
 ==== image:images/yes.png[yes] object class (noun)
-*Description*: Object classes in an entry control which attributes are optional and which are required. Write as two words when you refer to object classes in general.
+*Description*: _Object classes_ in an entry that controls attributes that are either optional or required. Write as two words when you refer to object classes in general.
 
 *Use it*: yes
 
@@ -49,7 +49,7 @@
 [discrete]
 [[object-storage-device]]
 ==== image:images/yes.png[yes] Object Storage Device (noun)
-*Description*: In Red Hat Ceph Storage, Object Storage Device is a storage drive in a Ceph Storage Cluster. Do not confuse Object Storage Device with the Ceph OSD, which is the `ceph-osd` daemon and the underlying data disk.
+*Description*: In Red Hat Ceph Storage, _Object Storage Device_ is a storage drive in a Ceph Storage Cluster. Do not confuse "Object Storage Device" with the "Ceph OSD", which is the `ceph-osd` daemon and the underlying data disk.
 
 *Use it*: yes
 
@@ -61,7 +61,7 @@
 [discrete]
 [[object-store]]
 ==== image:images/yes.png[yes] Object Store (noun)
-*Description*: In Red Hat Ceph Storage, Object Store is a core component of the Ceph Storage Cluster. Also referred as RADOS.
+*Description*: In Red Hat Ceph Storage, _Object Store_ is a core component of the Ceph Storage Cluster. Also referred as "RADOS".
 
 *Use it*: yes
 
@@ -73,7 +73,7 @@
 [discrete]
 [[objectclass]]
 ==== image:images/yes.png[yes] objectClass (noun)
-*Description*: The objectClass attribute in an LDAP entry stores the object classes of this entry.
+*Description*: The `objectClass` attribute in an LDAP entry stores the object classes of this entry.
 
 *Use it*: yes
 
@@ -129,7 +129,7 @@
 [discrete]
 [[okd]]
 ==== image:images/yes.png[yes] OKD (noun)
-*Description*: The name of the open source, upstream project of OpenShift Container Platform (previously known as OpenShift Origin before August 3, 2018). OKD is a distribution of Kubernetes optimized for continuous application development and multitenant deployment. Officially, the initialism does not stand for anything.
+*Description*: The name of the open source, upstream project of OpenShift Container Platform (previously known as OpenShift Origin before August 3, 2018). _OKD_ is a distribution of Kubernetes optimized for continuous application development and multitenant deployment. Officially, the initialism does not stand for anything.
 
 *Use it*: yes
 
@@ -195,7 +195,7 @@
 [discrete]
 [[opcodes]]
 ==== image:images/yes.png[yes] opcode (noun)
-*Description*: An "opcode" is the portion of a machine language instruction that specifies the operation to be performed.
+*Description*: An _opcode_ is the portion of a machine language instruction that specifies the operation to be performed.
 
 *Use it*: yes
 
@@ -206,7 +206,7 @@
 [discrete]
 [[open-architecture]]
 ==== image:images/yes.png[yes] open architecture (noun)
-*Description*: An "open architecture" is an architecture whose specifications are public. This includes officially approved standards as well as privately designed architectures whose specifications are made public by the designers. The opposite of "open architecture" is "closed architecture" or "proprietary architecture".
+*Description*: An _open architecture_ is an architecture whose specifications are public. This includes officially approved standards and privately designed architectures whose specifications are made public by the designers. The opposite of "open architecture" is "closed architecture" or "proprietary architecture".
 
 *Use it*: yes
 
@@ -218,7 +218,7 @@
 [discrete]
 [[open-ran]]
 ==== image:images/caution.png[with caution] Open RAN (noun)
-*Description*: Write as shown (two words, uppercase O, uppercase RAN) for generic references to deploying and managing radio access network features by using open interfaces. For specific and official references to the O-RAN Alliance, use "O-RAN". For references to the Telecom Infra Project, use "OpenRAN".
+*Description*: Write as shown (two words, uppercase "O", uppercase "RAN") for generic references to deploying and managing radio access network features by using open interfaces. For specific and official references to the O-RAN Alliance, use "O-RAN". For references to the Telecom Infra Project, use "OpenRAN".
 
 *Use it*: with caution
 
@@ -240,7 +240,7 @@
 [discrete]
 [[openran]]
 ==== image:images/caution.png[with caution] OpenRAN (noun)
-*Description*: Write as shown (one word, uppercase O, uppercase RAN) for references to the Telecom Infra Project. For specific and official references to the O-RAN Alliance, use "O-RAN". For generic references to deploying and managing radio access network features by using open interfaces, use "Open RAN".
+*Description*: Write as shown (one word, uppercase "O", uppercase "RAN") for references to the Telecom Infra Project. For specific and official references to the O-RAN Alliance, use "O-RAN". For generic references to deploying and managing radio access network features by using open interfaces, use "Open RAN".
 
 *Use it*: with caution
 
@@ -251,15 +251,15 @@
 // OCP: General; kept as is;
 [discrete]
 [[openshift]]
-==== image:images/caution.png[with caution] OpenShift (noun)
-*Description*: The OpenShift product name should be paired with its product distribution or variant name whenever possible. For example:
+==== image:images/yes.png[yes] OpenShift (noun)
+*Description*: The "OpenShift" product name should be paired with its product distribution or variant name whenever possible. For example:
 
 - OpenShift Container Platform
 - OpenShift Online
 - OpenShift Dedicated
 - OpenShift Kubernetes Engine
 
-Previously, the upstream distribution was called OpenShift Origin, however it is now called OKD; use of the OpenShift Origin name is deprecated.
+Previously, the upstream distribution was called "OpenShift Origin", however it is now called "OKD"; use of the "OpenShift Origin" name is deprecated.
 
 Avoid using the name "OpenShift" on its own when referring to something that applies to all distributions, as OKD does not have OpenShift in its name. However, the following components currently use "OpenShift" in the name and are allowed for use across all distribution documentation:
 
@@ -267,7 +267,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 - OpenShift Pipeline
 - OpenShift SDN
 
-*Use it*: with caution
+*Use it*: yes, as described above
 
 *Incorrect forms*:
 
@@ -289,7 +289,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 [discrete]
 [[openshift-container-registry]]
 ==== image:images/yes.png[yes] OpenShift Container Registry (noun)
-*Description*: In Red Hat OpenShift, the OpenShift Container Registry is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
+*Description*: In Red Hat OpenShift, the _OpenShift Container Registry_ is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
 
 *Use it*: yes
 
@@ -297,22 +297,24 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *See also*: xref:container-registry[container registry], xref:red-hat-container-catalog[Red Hat Container Catalog]
 
+// OCP: General; kept as is
+// TODO: This term is outdated anyway and should be removed in a future update
 [discrete]
 [[openshift-master]]
-==== image:images/no.png[no] OpenShift master (noun)
-*Description*: In Red Hat OpenShift, do not use the term "OpenShift master". Use "control plane" instead.
+==== image:images/yes.png[yes] OpenShift master (noun)
+*Description*: Provides a REST endpoint for interacting with the system and manages the state of the system, ensuring that all containers expected to be running are actually running and that other requests such as builds and deployments are serviced. New deployments and configurations are created with the REST API, and the state of the system can be interrogated through this endpoint as well. An _OpenShift master_ comprises the API server, scheduler, and SkyDNS.
 
-*Use it*: no
+*Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:control-plane[control plane]
+*See also*: xref:endpoint[endpoint], xref:api-server[API server], xref:scheduler[scheduler]
 
 // OCP: General; kept as is
 [discrete]
 [[openshift-origin]]
 ==== image:images/no.png[no] OpenShift Origin (noun)
-*Description*: The previous name of the open source, upstream project of OpenShift Container Platform. This project has been renamed OKD.
+*Description*: The previous name of the open source, upstream project of OpenShift Container Platform. This project has been renamed "OKD".
 
 *Use it*: no
 
@@ -335,7 +337,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 [discrete]
 [[operating-environment]]
 ==== image:images/yes.png[yes] operating environment (noun)
-*Description*: An "operating environment" is the environment in which a user can run application software. An operating environment consists of a user interface provided by an applications manager and usually includes an application programming interface (API).
+*Description*: An _operating environment_ is the environment in which a user can run application software. An operating environment consists of a user interface provided by an applications manager and usually includes an application programming interface (API).
 
 *Use it*: yes
 
@@ -346,7 +348,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 [discrete]
 [[operating-system]]
 ==== image:images/yes.png[yes] operating system (noun)
-*Description*: From https://en.wikipedia.org/wiki/Operating_system[Wikipedia]: An "operating system" is system software that manages computer hardware and software resources and provides common services for computer programs. All computer programs, excluding firmware, require an operating system to function.
+*Description*: From https://en.wikipedia.org/wiki/Operating_system[Wikipedia]: An _operating system_ is system software that manages computer hardware and software resources and provides common services for computer programs. All computer programs, excluding firmware, require an operating system to function.
 
 *Use it*: yes
 
@@ -357,7 +359,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 [discrete]
 [[operator]]
 ==== image:images/yes.png[yes] Operator (noun)
-*Description*: In the context of Kubernetes, an Operator is a method of packaging, deploying, and managing a
+*Description*: In the context of Kubernetes, an _Operator_ is a method of packaging, deploying, and managing a
 Kubernetes application. A Kubernetes application is an application that is both deployed on a Kubernetes cluster (including OpenShift clusters) and managed using the Kubernetes APIs and `kubectl` or `oc` tooling.
 
 The term "Operator" in the context of Kubernetes is always capitalized to distinguish it from other types of operators, such as human or mathematical operators.
@@ -378,7 +380,7 @@ The following operators and operands are supported in Drools Rule Language:
 ...
 ----
 
-The full name of an Operator must be a proper noun, with each word initially
+The full name of an "Operator" must be a proper noun, with each word initially
 capitalized. If it includes a product name, defer to the product's capitalization
 style guidelines. For example:
 
@@ -402,7 +404,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 [discrete]
 [[operator-framework]]
 ==== image:images/yes.png[yes] Operator Framework (noun)
-*Description*: In Red Hat OpenShift, _Operator Framework_ is a family of tools and capabilities to deliver on the customer experience. It includes open source tools such as Operator SDK, Operator Lifecycle Manager (OLM), Operator Registry, and OperatorHub.
+*Description*: In Red Hat OpenShift, _Operator Framework_ is a family of tools and capabilities to deliver on the customer experience. Operator Framework includes open source tools such as Operator SDK, Operator Lifecycle Manager (OLM), Operator Registry, and OperatorHub.
 
 *Use it*: yes
 
@@ -413,7 +415,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 [discrete]
 [[operator-lifecycle-manager]]
 ==== image:images/yes.png[yes] Operator Lifecycle Manager  (noun)
-*Description*: In Red Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. It is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
+*Description*: In Red Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. OLM is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
 
 *Use it*: yes
 
@@ -461,7 +463,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 [discrete]
 [[organizational-unit]]
 ==== image:images/yes.png[yes] organizational unit (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, an "organizational unit" is a directory comprising repositories that store business assets.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, an _organizational unit_ is a directory comprising repositories that store business assets.
 
 *Use it*: yes
 
@@ -485,7 +487,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 [discrete]
 [[osd-daemon]]
 ==== image:images/yes.png[yes] OSD Daemon (noun)
-*Description*: In Red Hat Ceph Storage, OSD Daemon is another name of the `ceph-osd` daemon.
+*Description*: In Red Hat Ceph Storage, "OSD Daemon" is another name of the `ceph-osd` daemon.
 
 *Use it*: yes
 
@@ -497,7 +499,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 [discrete]
 [[ostree]]
 ==== image:images/yes.png[yes] OSTree (noun)
-*Description*: A tool used for managing Linux-based operating system versions. The OSTree tree view is similar to Git and is based on similar concepts.
+*Description*: A tool used for managing Linux-based operating system versions. The _OSTree_ tree view is similar to Git and is based on similar concepts.
 
 *Use it*: yes
 
@@ -508,7 +510,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 [discrete]
 [[output-device]]
 ==== image:images/yes.png[yes] output device (noun)
-*Description*: An "output device" is any machine capable of representing information from a computer, such as display screens, printers, plotters, and synthesizers.
+*Description*: An _output device_ is any machine capable of representing information from a computer, such as display screens, printers, plotters, and synthesizers.
 
 *Use it*: yes
 
@@ -520,7 +522,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 [discrete]
 [[overcloud]]
 ==== image:images/yes.png[yes] overcloud (noun)
-*Description*: In Red Hat OpenStack Platform (RHOSP), the overcloud is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
+*Description*: In Red Hat OpenStack Platform (RHOSP), the _overcloud_ is the resulting RHOSP environment that is created by using the undercloud. Write in lowercase.
 
 *Use it*: yes
 
