@@ -2,7 +2,7 @@
 [discrete]
 [[namespace]]
 ==== image:images/caution.png[with caution] namespace (noun)
-*Description*: In Red Hat OpenShift, namespace is typically synonymous with project in OpenShift parlance, which is preferred.
+*Description*: In Red Hat OpenShift, "namespace" is typically synonymous with project in OpenShift parlance, which is preferred.
 
 *Use it*: with caution
 
@@ -13,8 +13,8 @@
 // OCS: General; kept as is
 [discrete]
 [[namespace-bucket]]
-==== image:images/yes.png[yes] namespace bucket (noun)
-*Description*: Namespace buckets enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
+==== namespace bucket (noun)
+*Description*: _Namespace buckets_ enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
 
 *Use it*: yes
 
@@ -25,8 +25,8 @@
 // OCS: Added "In Red Hat OpenShift Container Storage, a namespace store is"
 [discrete]
 [[namespace-store]]
-==== image:images/yes.png[yes] namespace store (noun)
-*Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), a namespace store is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
+==== namespace store (noun)
+*Description*: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, a _namespace store_ is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
 
 *Use it*: yes
 
@@ -38,7 +38,7 @@
 [discrete]
 [[naming]]
 ==== image:images/yes.png[yes] naming subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "naming" subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the `naming` subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -72,7 +72,7 @@
 [discrete]
 [[need]]
 ==== image:images/yes.png[yes] need (verb)
-*Description*: Use "need" instead of "desire" or "wish". Use "want" when the reader's actions are optional (that is, one might not need something but might still want something).
+*Description*: Use "need" instead of "desire" or "wish". Use "want" when the reader's actions are optional; that is, one might not need something but might still want something.
 
 *Use it*: yes
 
@@ -95,7 +95,7 @@
 [discrete]
 [[dotnet]]
 ==== image:images/yes.png[yes] .NET (noun)
-*Description*: Microsoft's development platform, ".NET", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET applications can run on .NET or on the .NET Framework. For version 5 and later, refer to it as ".NET". For earlier versions, use ".NET Core".
+*Description*: Microsoft's development platform, _.NET_, is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET applications can run on .NET or on the .NET Framework. For version 5 and later, refer to it as ".NET". For earlier versions, use ".NET Core".
 
 *Use it*: yes
 
@@ -107,7 +107,7 @@
 [discrete]
 [[dotnetcore]]
 ==== image:images/no.png[no] .NET Core (noun)
-*Description*: Microsoft's development platform, ".NET Core", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET Core applications can run on .NET Core or on the .NET Framework. For version 3.1 and earlier, refer to it as ".NET Core". In later versions, Microsoft changed the name to ".NET".
+*Description*: Microsoft's development platform, _.NET Core_, is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET Core applications can run on .NET Core or on the .NET Framework. For version 3.1 and earlier, refer to it as ".NET Core". In later versions, Microsoft changed the name to ".NET".
 
 *Use it*: no
 
@@ -163,7 +163,7 @@
 [[network-transparency]]
 ==== image:images/yes.png[yes] network transparency (noun)
 
-*Description*: "Network transparency" is a condition where an operating system or other service allows the user access to a remote resource through a network without needing to know if the resource is remote or local. For example, Sun Microsystems' NFS, which has become a de facto industry standard, provides access to shared files through an interface called the Virtual File System (VFS) that runs on top of the TCP/IP stack. Users can manipulate shared files as if they were stored locally on the user's hard disk.
+*Description*: _Network transparency_ is a condition where an operating system or other service allows the user access to a remote resource through a network without needing to know if the resource is remote or local. For example, Sun Microsystems' NFS, which has become a de facto industry standard, provides access to shared files through an interface called the Virtual File System (VFS) that runs on top of the TCP/IP stack. Users can manipulate shared files as if they were stored locally on the user's hard disk.
 
 *Use it*: yes
 

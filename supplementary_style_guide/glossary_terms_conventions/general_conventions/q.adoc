@@ -1,7 +1,7 @@
 [discrete]
 [[q-and-a]]
 ==== image:images/yes.png[yes] Q and A (noun)
-*Description*: "Q and A" is an abbreviation for "Question and Answer", as defined by the American Heritage Dictionary. In DocBook XML, the title is defined by the DocBook style sheets for the <qandadiv> element. The relevant generated text in English is "Q & A" and is localized automatically.
+*Description*: _Q and A_ is an abbreviation for _Question and Answer_, as defined by the American Heritage Dictionary. In DocBook XML, the title is defined by the DocBook style sheets for the `<qandadiv>` element. The relevant generated text in English is "Q & A" and is localized automatically.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[qcow2]]
 ==== image:images/yes.png[yes] QCOW2 (noun)
-*Description*: "QCOW2" is an abbreviation for "QEMU Copy On Write version 2". QCOW2 is a file format for disk image files used by QEMU, a hosted virtual machine monitor. Always write this term in uppercase letters.
+*Description*: _QCOW2_ is an abbreviation for _QEMU Copy On Write version 2_. QCOW2 is a file format for disk image files used by QEMU, a hosted virtual machine monitor. Always write this term in uppercase letters.
 
 *Use it*: yes
 
@@ -24,7 +24,7 @@
 [discrete]
 [[qdmanage]]
 ==== image:images/yes.png[yes] qdmanage (noun)
-*Description*: In Red Hat AMQ, qdmanage is a generic AMQP management client used for managing AMQ Interconnect.
+*Description*: In Red Hat AMQ, `qdmanage` is a generic AMQP management client used for managing AMQ Interconnect.
 
 *Use it*: yes
 
@@ -36,7 +36,7 @@
 [discrete]
 [[qdstat]]
 ==== image:images/yes.png[yes] qdstat (noun)
-*Description*: In Red Hat AMQ, qdstat is a management client used for monitoring the status of an AMQ Interconnect router network.
+*Description*: In Red Hat AMQ, `qdstat` is a management client used for monitoring the status of an AMQ Interconnect router network.
 
 *Use it*: yes
 
@@ -47,7 +47,7 @@
 [discrete]
 [[qeth]]
 ==== image:images/yes.png[yes] qeth (adjective)
-*Description*: Messages with a prefix "qeth" are issued by the qeth device driver. The qeth device driver supports a multitude of network connections, for example, connections through Open Systems Adapters (OSA), HiperSockets™, guest LANs, and virtual switches.
+*Description*: Messages with a prefix `qeth` are issued by the `qeth` device driver. The `qet`h device driver supports a multitude of network connections, for example, connections through Open Systems Adapters (OSA), HiperSockets™, guest LANs, and virtual switches.
 
 *Use it*: yes
 
@@ -59,7 +59,7 @@
 [discrete]
 [[queue]]
 ==== image:images/yes.png[yes] queue (noun)
-*Description*: In Red Hat AMQ, a queue is a stored sequence of messages. In AMQ, queues are hosted on brokers.
+*Description*: In Red Hat AMQ, a _queue_ is a stored sequence of messages. In AMQ, queues are hosted on brokers.
 
 *Use it*: yes
 
@@ -71,12 +71,12 @@
 [discrete]
 [[quick-start]]
 ==== image:images/yes.png[yes] quick start (noun)
-*Description*: In Red Hat OpenShift, there are two types of quick starts:
+*Description*: In Red Hat OpenShift, there are two types of _quick starts_:
 
 * Quick starts that provide a guided tutorial in the web console.
 * Quick start templates that enable users to start creating new applications quickly.
 
-Ensure that you provide context about which type of quick start you are referring to.
+Ensure that you provide context about which type of "quick start" you are referring to.
 
 *Use it*: yes
 
@@ -87,7 +87,7 @@ Ensure that you provide context about which type of quick start you are referrin
 [discrete]
 [[quiescent]]
 ==== image:images/no.png[no] quiescent (adjective)
-*Description*: This lofty-sounding word means _at rest_, _quiet_, or _inactive_. With reference to a measurable property or system, it can also mean _not active_. A system can be quiescent, meaning it is inactive, or (by extension) in a known, unchanging state. If this is what you mean, this is what you should write. If a system is, or needs to be inactive, write _inactive_. If a system is, or needs to be safe, write _safe_.
+*Description*: This lofty-sounding word means "at rest", "quiet", or "inactive". With reference to a measurable property or system, it can also mean "not active". A system can be _quiescent_, meaning it is inactive, or, by extension, in a known, unchanging state. If this is what you mean, this is what you should write. If a system is, or needs to be inactive, write "inactive". If a system is, or needs to be safe, write "safe".
 
 *Use it*: no
 
