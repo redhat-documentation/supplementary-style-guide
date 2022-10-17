@@ -105,7 +105,7 @@
 // RHSSO: General; removed RHSSO-specific sentence
 [discrete]
 [[theme]]
-==== image:images/yes.png[yes] theme
+==== image:images/yes.png[yes] theme (noun)
 *Description*: A theme defines HTML templates and stylesheets that you can override as you require.
 
 *Use it*: yes

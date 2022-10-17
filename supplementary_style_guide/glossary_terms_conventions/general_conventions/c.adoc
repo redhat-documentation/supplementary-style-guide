@@ -352,7 +352,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On," and removed from later in the sentence
 [discrete]
 [[client-adapter]]
-==== image:images/yes.png[yes] client adapter
+==== image:images/yes.png[yes] client adapter (noun)
 *Description*: In Red Hat Single Sign-On, client adapters are libraries that make it easy to secure applications and services. Red Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red Hat does not cover.
 
 *Use it*: yes
@@ -376,7 +376,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[client-role]]
-==== image:images/yes.png[yes] client role
+==== image:images/yes.png[yes] client role (noun)
 *Description*: In Red Hat Single Sign-On, a client role is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
 
 *Use it*: yes
@@ -388,7 +388,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[client-scope]]
-==== image:images/yes.png[yes] client scope
+==== image:images/yes.png[yes] client scope (noun)
 *Description*: In Red Hat Single Sign-On, when a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a client scope so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red Hat Single Sign-On provides the concept of a client scope for this.
 
 *Use it*: yes
@@ -466,7 +466,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[cluster]]
 ==== image:images/yes.png[yes] cluster (noun)
-*Description*: 1) A "cluster" is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the "High Availability Add-On" in Red Hat Enterprise Linux 6 and later. 2) In OpenShift context, a "cluster" is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
+*Description*: 1) A "cluster" is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the "High Availability Add-On" in Red Hat Enterprise Linux 6 and later. 2) In Red Hat OpenShift, a "cluster" is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined by the system. 
 
 *Use it*: yes
 
@@ -615,7 +615,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: General; kept as is
 [discrete]
 [[composite-role]]
-==== image:images/yes.png[yes] composite role
+==== image:images/yes.png[yes] composite role (noun)
 *Description*: A composite role is a role that can be associated with other roles. For example a `superuser` composite role can be associated with the `sales-admin` and `order-entry-admin` roles. If a user is mapped to the `superuser` role they also inherit the `sales-admin` and `order-entry-admin` roles.
 
 *Use it*: yes
@@ -713,7 +713,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [discrete]
 [[consent]]
-==== image:images/yes.png[yes] consent
+==== image:images/yes.png[yes] consent (noun)
 *Description*: In Red Hat Single Sign-On, consent is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
 
 *Use it*: yes
@@ -766,7 +766,7 @@ image repository contains one or more tagged images.
 // OCS: General; kept as is
 [discrete]
 [[container-storage-interface]]
-==== Container Storage Interface (noun)
+==== image:images/yes.png[yes] Container Storage Interface (noun)
 *Description*: The Container Storage Interface (CSI) is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
 
 *Use it*: yes
@@ -830,7 +830,7 @@ image repository contains one or more tagged images.
 
 *Incorrect forms*:
 
-*See also*:
+*See also*: xref:api-server[API server], xref:scheduler[scheduler]
 
 [discrete]
 [[control-program]]
@@ -950,7 +950,7 @@ image repository contains one or more tagged images.
 // RHSSO: Added "In Red Hat Single Sign-On," and removed later in the sentence
 [discrete]
 [[credentials]]
-==== image:images/yes.png[yes] credentials
+==== image:images/yes.png[yes] credentials (noun)
 *Description*: In Red Hat Single Sign-On, credentials are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
 
 *Use it*: yes

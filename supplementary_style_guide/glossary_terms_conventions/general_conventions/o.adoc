@@ -12,7 +12,7 @@
 // OCS: General; kept as is
 [discrete]
 [[object-bucket]]
-==== object bucket (noun)
+==== image:images/yes.png[yes] object bucket (noun)
 *Description*: A container to store objects.
 
 *Use it*: yes
@@ -24,7 +24,7 @@
 // OCS: General; kept as is
 [discrete]
 [[object-bucket-claim]]
-==== object bucket claim (noun)
+==== image:images/yes.png[yes] object bucket claim (noun)
 *Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use object bucket claim to request an AWS S3 compatible bucket for the workloads.
 
 *Use it*: yes
@@ -251,7 +251,7 @@
 // OCP: General; kept as is;
 [discrete]
 [[openshift]]
-==== image:images/yes.png[yes] OpenShift (noun)
+==== image:images/caution.png[with caution] OpenShift (noun)
 *Description*: The OpenShift product name should be paired with its product distribution or variant name whenever possible. For example:
 
 - OpenShift Container Platform
@@ -267,7 +267,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 - OpenShift Pipeline
 - OpenShift SDN
 
-*Use it*: yes, as described above
+*Use it*: with caution
 
 *Incorrect forms*:
 
@@ -297,18 +297,16 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *See also*: xref:container-registry[container registry], xref:red-hat-container-catalog[Red Hat Container Catalog]
 
-// OCP: General; kept as is
-// TODO: This term is outdated anyway and should be removed in a future update
 [discrete]
 [[openshift-master]]
-==== image:images/yes.png[yes] OpenShift master (noun)
-*Description*: Provides a REST endpoint for interacting with the system and manages the state of the system, ensuring that all containers expected to be running are actually running and that other requests such as builds and deployments are serviced. New deployments and configurations are created with the REST API, and the state of the system can be interrogated through this endpoint as well. An OpenShift master comprises the API server, scheduler, and SkyDNS.
+==== image:images/no.png[no] OpenShift master (noun)
+*Description*: In Red Hat OpenShift, do not use the term "OpenShift master". Use "control plane" instead.
 
-*Use it*: yes
+*Use it*: no
 
 *Incorrect forms*:
 
-*See also*: xref:endpoint[endpoint], xref:api-server[API server], xref:scheduler[scheduler]
+*See also*: xref:control-plane[control plane]
 
 // OCP: General; kept as is
 [discrete]
