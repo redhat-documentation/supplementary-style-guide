@@ -280,11 +280,11 @@
 [discrete]
 [[grub]]
 ==== image:images/yes.png[yes] GRUB (noun)
-*Description*: "GRUB" is an acronym for "GRand Unified Bootloader", which is a Linux boot loader.
+*Description*: "GRUB" is an acronym for "GRand Unified Bootloader", which is a Linux boot loader. Note that GRUB 2 has replaced what was formerly known as GRUB, which was version 0.9x. GRUB version 0.9x is now known as _GRUB Legacy_.
 
 *Use it*: yes
 
-*Incorrect forms*: Grub
+*Incorrect forms*: Grub, GRUB 2, GRUB2
 
 *See also*:
 
