@@ -176,7 +176,7 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 ==== image:images/yes.png[yes] BIOS (noun)
 *Description*: "BIOS" is an abbreviation for Basic Input/Output System. The plural form is "BIOSes". BIOS is the specific name for the motherboard firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI. 
 
-Do not use _BIOS_ as a generic term to refer to this type of firmware. Use _firmware_ or a specific phrase like "UEFI firmware" or "legacy BIOS" instead.
+Do not use _BIOS_ as a generic term to refer to computer firmware. Use _firmware_ or a specific phrase like "UEFI firmware" or "legacy BIOS" instead.
 
 *Use it*: with caution
 
