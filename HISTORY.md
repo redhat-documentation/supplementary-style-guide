@@ -4,6 +4,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [October 2022](#2022-october)
 * [September 2022](#2022-september)
 * [August 2022](#2022-august)
 * [July 2022](#2022-july)
@@ -27,11 +28,26 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of September 7 2022 -->
+<!-- Updated as of October 26 2022 -->
+
+<a name="2022-october"></a>
+## October 2022
+
+* Updated [GRUB](https://redhat-documentation.github.io/supplementary-style-guide/#grub) entry
+* Added guidance for [cross-references](https://redhat-documentation.github.io/supplementary-style-guide/#cross-references), [external links](https://redhat-documentation.github.io/supplementary-style-guide/#external-links), and [link text](https://redhat-documentation.github.io/supplementary-style-guide/#link-text)
+* Added guidance for [homographs](https://redhat-documentation.github.io/supplementary-style-guide/#homographs)
+* Added glossary entry for [Technology Preview](https://redhat-documentation.github.io/supplementary-style-guide/#technology-preview)
+* Added guidance for documenting [Technology Preview](https://redhat-documentation.github.io/supplementary-style-guide/#technology-preview-guidance) features
 
 <a name="2022-september"></a>
 ## September 2022
 
+* Added glossary entries for networking terms: ACK, ACK flag, ARP, CIDR, DHCP, firewalld, IP address, IPv4, IPv6, MAC address, NAT, network bond, network team, O-RAN, Open RAN, OpenRAN, packet, TCP, and UDP
+* Added glossary entries for additional OpenShift terms: compute node, control plane, horizontal pod autoscaler, Ingress, Ingress Controller, Operator Framework, Operator Lifecycle Manager, and OperatorHub
+* Reorganized style guidelines into new categories
+* Added .NET entry and updated .NET Core entry
+* Added guidance for [IP addresses and MAC addresses](https://redhat-documentation.github.io/supplementary-style-guide/#ip-addresses-and-mac-addresses)
+* Updated [Samba](https://redhat-documentation.github.io/supplementary-style-guide/#samba) entry
 * Added guidance for [avoiding cost references](https://redhat-documentation.github.io/supplementary-style-guide/#references-to-cost)
 * Added glossary entry for [Red Hat OpenShift Data Foundation](https://redhat-documentation.github.io/supplementary-style-guide/#red-hat-openshift-data-foundation) and updated references of "Red Hat OpenShift Container Storage" to "Red Hat OpenShift Data Foundation"
 
