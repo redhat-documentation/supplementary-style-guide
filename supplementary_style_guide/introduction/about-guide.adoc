@@ -2,7 +2,12 @@
 
 This guide provides style guidelines and preferred term usage for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation. It is intended to be used as a supplement to the _IBM Style Guide_, which is the primary source of guidance for Red Hat product documentation.
 
-The Red Hat Customer Content Services team created this guide as part of its responsibility for producing product documentation for Red Hat customers. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide. 
+The Red Hat Customer Content Services team created this guide as part of its responsibility for producing product documentation for Red Hat customers. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide.
+
+[NOTE]
+====
+Other Red Hat technical documentation, including Red Hat training and exam content by Global Learning Services (GLS), follows the link:https://stylepedia.net/[_Red Hat Technical Writing Style Guide_] instead of the _Red Hat supplementary style guide for product documentation_.
+====
 
 == How to use this guide
 
@@ -12,5 +17,5 @@ When looking for style guidance, reference this guide first, because it override
 
 In addition to the _IBM Style Guide_ and the _Red Hat supplementary style guide for product documentation_, Red Hat product documentation uses the following reference guides for technical writers:
 
-* _link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide]_: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc. 
+* _link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide]_: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.
 * _link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference]_: Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.
