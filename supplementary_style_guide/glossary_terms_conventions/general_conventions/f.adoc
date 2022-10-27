@@ -127,7 +127,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Incorrect forms*: firm ware, firm-ware
 
-*See also*:
+*See also*: xref:bios[BIOS]
 
 [discrete]
 [[floating-point]]
