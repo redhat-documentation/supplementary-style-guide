@@ -13,7 +13,7 @@
 [discrete]
 [[acceptor]]
 ==== image:images/yes.png[yes] acceptor (noun)
-*Description*: In Red Hat AMQ, an acceptor defines the way a client can connect to a broker instance.
+*Description*: In Red Hat AMQ, an _acceptor_ defines the way a client can connect to a broker instance.
 
 *Use it*: yes
 
@@ -25,7 +25,7 @@
 [discrete]
 [[access-control-instruction]]
 ==== image:images/yes.png[yes] access control instruction (noun)
-*Description*: In an LDAP directory, an access control instruction (ACI) grants or denies access to entries or attributes. Use "access control instruction" on the first usage and then the abbreviation "ACI" subsequently.
+*Description*: In an LDAP directory, an _access control instruction (ACI)_ grants or denies access to entries or attributes. Use "access control instruction" on the first usage and then the abbreviation "ACI" subsequently.
 
 *Use it*: yes
 
@@ -36,8 +36,8 @@
 // RHSSO: General; kept as is
 [discrete]
 [[access-token]]
-==== image:images/yes.png[yes] access token (noun)
-*Description*: An access token is a token that can be provided as part of an HTTP request that grants access to the service being invoked on. This is part of the OpenID Connect and OAuth 2.0 specification.
+==== image:images/yes.png[yes] access token
+*Description*: An _access token_ is a token that can be provided as part of an HTTP request that grants access to the service being invoked on. This is part of the OpenID Connect and OAuth 2.0 specification.
 
 *Use it*: yes
 
@@ -71,7 +71,7 @@
 [discrete]
 [[action]]
 ==== image:images/yes.png[yes] action (noun)
-*Description*: In Red Hat OpenShift, an authorization action consists of _project_, _verb_, and _resource_.
+*Description*: In Red Hat OpenShift, an authorization _action_ consists of _project_, _verb_, and _resource_.
 
 *Use it*: yes
 
@@ -83,7 +83,7 @@
 [discrete]
 [[active-directory-forest]]
 ==== image:images/yes.png[yes] Active Directory forest (noun)
-*Description*: An Active Directory (AD) forest is a set of one or more domain trees which share a common global catalog, directory schema, logical structure, and directory configuration. The forest represents the security boundary within which users, computers, groups, and other objects are accessible.
+*Description*: An _Active Directory forest (AD)_ is a set of one or more domain trees which share a common global catalog, directory schema, logical structure, and directory configuration. The forest represents the security boundary within which users, computers, groups, and other objects are accessible.
 
 *Use it*: yes
 
@@ -107,7 +107,7 @@
 [discrete]
 [[active-directory-security-identifier]]
 ==== image:images/yes.png[yes] Active Directory security identifier (noun)
-*Description*: A security identifier (SID) is a unique ID number assigned to an object in Active Directory, such as a user, group, or host. A SID is the functional equivalent of UIDs and GIDs in Linux.
+*Description*: An _Active Directory security identifier (SID)_ is a unique ID number assigned to an object in Active Directory, such as a user, group, or host. A SID is the functional equivalent of UIDs and GIDs in Linux.
 
 *Use it*: yes
 
@@ -143,7 +143,7 @@
 [discrete]
 [[administration-portal]]
 ==== image:images/yes.png[yes] Administration Portal (noun)
-*Description*: In Red Hat Virtualization, the Administration Portal is a graphical user interface provided by the Red Hat Virtualization Manager. It can be used to manage all the administrative resources in the environment and can be accessed by any supported web browser.
+*Description*: In Red Hat Virtualization, the _Administration Portal_ is a graphical user interface provided by the Red Hat Virtualization Manager. It can be used to manage all the administrative resources in the environment and can be accessed by any supported web browser.
 
 Always use "Administration Portal", including the capital P. When other departments (or upstream) use "webadmin" or "Administrator portal", this is what they are referring to.
 
@@ -156,7 +156,7 @@ Always use "Administration Portal", including the capital P. When other departme
 [discrete]
 [[agnostic]]
 ==== image:images/no.png[no] agnostic (adjective)
-*Description*: "Agnostic" denotes or relates to hardware or software that is compatible with many types of platforms or operating systems. For example, many common file formats (JPEG, MP3, and others) are platform agnostic. Use "neutral" instead.
+*Description*: _Agnostic_ denotes or relates to hardware or software that is compatible with many types of platforms or operating systems. For example, many common file formats (JPEG, MP3, and others) are platform agnostic. Use "neutral" instead.
 
 *Use it*: no
 
@@ -167,7 +167,7 @@ Always use "Administration Portal", including the capital P. When other departme
 [discrete]
 [[air-gap]]
 ==== image:images/yes.png[yes] air gap (noun)
-*Description*: "Air gap" is the physical segregation and isolation of a system as a security measure.
+*Description*: _Air gap_ is the physical segregation and isolation of a system as a security measure.
 
 *Use it*: yes
 
@@ -178,7 +178,7 @@ Always use "Administration Portal", including the capital P. When other departme
 [discrete]
 [[alright]]
 ==== image:images/no.png[no] alright (adjective)
-*Description*: "Alright" is the colloquial form of "correct".
+*Description*: _Alright_ is the colloquial form of _correct_.
 
 *Use it*: no
 
@@ -189,7 +189,7 @@ Always use "Administration Portal", including the capital P. When other departme
 [discrete]
 [[AMD64]]
 ==== image:images/yes.png[yes] AMD64 (noun)
-*Description*: "AMD64" is the AMD implementation of a 64-bit version of the x86 architecture.
+*Description*: _AMD64_ is the AMD implementation of a 64-bit version of the x86 architecture.
 
 *Use it*: yes
 
@@ -199,7 +199,7 @@ Always use "Administration Portal", including the capital P. When other departme
 
 [NOTE]
 ====
-The AMD64 logo is trademarked; the term "AMD64" is not trademarked. For more information about AMD trademarks, see the http://www.amd.com/us/aboutamd/Pages/trademarks.aspx[AMD Trademark Information] page.
+The AMD64 logo is trademarked; the term _AMD64_ is not trademarked. For more information about AMD trademarks, see the http://www.amd.com/us/aboutamd/Pages/trademarks.aspx[AMD Trademark Information] page.
 
 For more information about Intel® trademarks, see the http://www.intel.com/content/www/us/en/legal/trademarks.html[Trademark Information] and http://www.intel.com/content/www/us/en/trademarks/trademarks.html[Usage Guidelines for Customers, Licensees, and Other Third Parties] pages.
 ====
@@ -220,7 +220,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[amq-broker]]
 ==== image:images/yes.png[yes] AMQ Broker (noun)
-*Description*: In Red Hat AMQ, AMQ Broker is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
+*Description*: In Red Hat AMQ, _AMQ Broker_ is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
 
 *Use it*: yes
 
@@ -232,7 +232,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[amq-clients]]
 ==== image:images/yes.png[yes] AMQ Clients (noun)
-*Description*: In Red Hat AMQ, AMQ Clients is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red Hat AMQ.
+*Description*: In Red Hat AMQ, _AMQ Clients_ is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red Hat AMQ.
 
 *Use it*: yes
 
@@ -244,7 +244,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[amq-console]]
 ==== image:images/yes.png[yes] AMQ Console (noun)
-*Description*: In Red Hat AMQ, the AMQ Console is a management tool for administering AMQ brokers and routers in a single graphical interface.
+*Description*: In Red Hat AMQ, the _AMQ Console_ is a management tool for administering AMQ brokers and routers in a single graphical interface.
 
 *Use it*: yes
 
@@ -256,7 +256,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[amq-core-protocol-jms]]
 ==== image:images/yes.png[yes] AMQ Core Protocol JMS (noun)
-*Description*: In Red Hat AMQ, the "AMQ Core Protocol JMS" is an implementation of the Java Message Service (JMS) using the ActiveMQ Artemis Core protocol. This is sometimes called Core JMS.
+*Description*: In Red Hat AMQ, the _AMQ Core Protocol JMS_ is an implementation of the Java Message Service (JMS) using the ActiveMQ Artemis Core protocol. This is sometimes called _Core JMS_.
 
 *Use it*: yes
 
@@ -280,7 +280,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[amqp]]
 ==== image:images/yes.png[yes] AMQP (noun)
-*Description*: Advanced Message Queuing Protocol. It is an open standard for passing business messages between applications or organizations (https://www.amqp.org/about/what). AMQ Broker supports AMQP, and AMQ Interconnect uses AMQP to route messages and links.
+*Description*: _Advanced Message Queuing Protocol_. It is an open standard for passing business messages between applications or organizations (https://www.amqp.org/about/what). AMQ Broker supports AMQP, and AMQ Interconnect uses AMQP to route messages and links.
 
 *Use it*: yes
 
@@ -292,7 +292,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[anaconda]]
 ==== image:images/yes.png[yes] Anaconda (noun)
-*Description*: The operating system installer used in Fedora, Red Hat Enterprise Linux, and their derivatives. Anaconda is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
+*Description*: The operating system installer used in Fedora, Red Hat Enterprise Linux, and their derivatives. _Anaconda_ is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
 
 *Use it*: yes
 
@@ -304,7 +304,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[ansible-play]]
 ==== image:images/yes.png[yes] Ansible play (noun)
-*Description*: Ansible plays are the building blocks of Ansible playbooks. The goal of an Ansible play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
+*Description*: _Ansible plays_ are the building blocks of Ansible playbooks. The goal of an Ansible play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
 
 *Use it*: yes
 
@@ -316,7 +316,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[ansible-playbook]]
 ==== image:images/yes.png[yes] Ansible playbook (noun)
-*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. An Ansible playbook is a file that contains one or more Ansible plays.
+*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. An _Ansible playbook_ is a file that contains one or more Ansible plays.
 
 *Use it*: yes
 
@@ -328,7 +328,7 @@ For more information about Intel® trademarks, see the http://www.intel.com/cont
 [discrete]
 [[ansible-task]]
 ==== image:images/yes.png[yes] Ansible task (noun)
-*Description*: An Ansible play can contain multiple tasks. Ansible tasks are units of action in Ansible. The goal of each task is to execute a module, with very specific arguments.
+*Description*: An Ansible play can contain multiple tasks. _Ansible tasks_ are units of action in Ansible. The goal of each task is to execute a module, with very specific arguments.
 An Ansible task is a set of instructions to achieve a state defined, in its broad terms, by a specific Ansible role or module, and fine-tuned by the variables of that role or module.
 
 *Use it*: yes
@@ -341,7 +341,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[apache-web-server]]
 ==== image:images/yes.png[yes] Apache web server (noun)
-*Description*: The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server application, released under the terms of Apache License 2.0. Apache played a key role in the initial growth of the World Wide Web (WWW), and is currently the leading HTTP server. Its process name is `httpd`, which is short for _HTTP daemon_. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
+*Description*: The _Apache HTTP Server_, colloquially called _Apache_, is a free and open-source cross-platform web server application, released under the terms of Apache License 2.0. Apache played a key role in the initial growth of the World Wide Web (WWW), and is currently the leading HTTP server. Its process name is `httpd`, which is short for _HTTP daemon_. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
 
 *Use it*: yes
 
@@ -353,7 +353,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[api-server]]
 ==== image:images/yes.png[yes] API server (noun)
-*Description*: In Red Hat OpenShift, the API server is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
+*Description*: In Red Hat OpenShift, the _API server_ is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
 
 *Use it*: yes
 
@@ -376,7 +376,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[appliance-console]]
 ==== image:images/yes.png[yes] Appliance console (noun)
-*Description*: In Red Hat CloudForms, the appliance console is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.
+*Description*: In Red Hat CloudForms, the _appliance console_ is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.
 
 *Use it*: yes
 
@@ -388,7 +388,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[application]]
 ==== image:images/yes.png[yes] application (noun)
-*Description*: In Red Hat OpenShift, although the term "application" is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term "application" might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
+*Description*: In Red Hat OpenShift, although the term _application_ is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term _application_ might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
 
 *Use it*: yes
 
@@ -399,7 +399,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[applixware]]
 ==== image:images/yes.png[yes] Applixware (noun)
-*Description*: "Applixware" is a suite of proprietary modular applications for Linux.
+*Description*: _Applixware_ is a suite of proprietary modular applications for Linux.
 
 *Use it*: yes
 
@@ -422,7 +422,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[artemis]]
 ==== image:images/caution.png[with caution] Artemis (noun)
-*Description*: The upstream project for AMQ Broker (link:https://activemq.apache.org/artemis/[Apache ActiveMQ Artemis]). When referring to AMQ Broker, always use the Red Hat product name.
+*Description*: The upstream project for AMQ Broker (link:https://activemq.apache.org/artemis/[Apache ActiveMQ Artemis]). When referring to AMQ Broker, always use the "Red Hat" product name.
 
 *Use it*: with caution
 
@@ -444,8 +444,8 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 // RHSSO: General; kept as is
 [discrete]
 [[assertion]]
-==== image:images/yes.png[yes] assertion (noun)
-*Description*: An assertion provides information about a user. This usually pertains to an XML blob that is included in a SAML authentication response that provided identity metadata about an authenticated user.
+==== image:images/yes.png[yes] assertion
+*Description*: An _assertion_ provides information about a user. This usually pertains to an XML blob that is included in a SAML authentication response that provided identity metadata about an authenticated user.
 
 *Use it*: yes
 
@@ -457,7 +457,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[asset]]
 ==== image:images/yes.png[yes] asset (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, an "asset" is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
 
 *Use it*: yes
 
@@ -468,7 +468,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[asynchronous-transfer-mode]]
 ==== image:images/yes.png[yes] Asynchronous Transfer Mode (noun)
-*Description*: "Asynchronous Transfer Mode" (ATM) is a network technology based on transferring data in cells or packets of a fixed size. The cell size used with ATM is relatively small compared to units used with older technologies.
+*Description*: _Asynchronous Transfer Mode (ATM)_ is a network technology based on transferring data in cells or packets of a fixed size. The cell size used with ATM is relatively small compared to units used with older technologies.
 
 *Use it*: yes
 
@@ -491,8 +491,8 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 // RHSSO: General; kept as is
 [discrete]
 [[authentication]]
-==== image:images/yes.png[yes] authentication (noun)
-*Description*: Authentication is the process of identifying and validating a user.
+==== image:images/yes.png[yes] authentication
+*Description*: _Authentication_ is the process of identifying and validating a user.
 
 *Use it*: yes
 
@@ -503,8 +503,8 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 // RHSSO: General; kept as is
 [discrete]
 [[authentication-flow]]
-==== image:images/yes.png[yes] authentication flow (noun)
-*Description*: An authentication flow is a workflow that a user must perform when interacting with certain aspects of the system. A login flow can define what credential types are required. A registration flow defines what profile information a user must enter and whether something like reCAPTCHA must be used to filter out bots. Credential reset flow defines what actions a user must take before they can reset their password.
+==== image:images/yes.png[yes] authentication flow
+*Description*: An _authentication flow_ is a workflow that a user must perform when interacting with certain aspects of the system. A login flow can define what credential types are required. A registration flow defines what profile information a user must enter and whether something like reCAPTCHA must be used to filter out bots. Credential reset flow defines what actions a user must take before they can reset their password.
 
 *Use it*: yes
 
@@ -516,7 +516,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[authorization]]
 ==== image:images/yes.png[yes] authorization (noun)
-*Description*: An authorization determines whether an _identity_ is allowed to perform any _action_. It consists of identity and action.
+*Description*: An _authorization_ determines whether an _identity_ is allowed to perform any _action_. It consists of identity and action.
 
 *Use it*: yes
 
@@ -527,7 +527,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[auto-detect]]
 ==== image:images/yes.png[yes] auto-detect (verb)
-*Description*: "Auto-detect" means to automatically detect threats, new hardware, software updates, and so on.
+*Description*: _Auto-detect_ means to automatically detect threats, new hardware, software updates, and so on.
 
 *Use it*: yes
 
@@ -539,7 +539,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[autolink]]
 ==== image:images/yes.png[yes] autolink (noun)
-*Description*: In Red Hat AMQ, autolink is an AMQ Interconnect configurable entity that defines a link between the router and a queue, topic, or service in an external broker.
+*Description*: In Red Hat AMQ, _autolink_ is an AMQ Interconnect configurable entity that defines a link between the router and a queue, topic, or service in an external broker.
 
 *Use it*: yes
 
@@ -551,7 +551,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[cli]]
 ==== image:images/yes.png[yes] Azure CLI 2.0 (noun)
-*Description*: In Microsoft Azure, the "Azure CLI 2.0" is a set of open source commands for managing Microsoft Azure platform resources. Typing `az` at the CLI command prompt lists each of the many Microsoft Azure subcommands. Azure CLI 2.0 is the most current command-line interface and is replacing Microsoft Azure Xplat-CLI.
+*Description*: In Microsoft Azure, the _Azure CLI 2.0_ is a set of open source commands for managing Microsoft Azure platform resources. Typing `az` at the CLI command prompt lists each of the many Microsoft Azure subcommands. Azure CLI 2.0 is the most current command-line interface and is replacing Microsoft Azure Xplat-CLI.
 
 *Use it*: yes
 
@@ -563,7 +563,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[arm]]
 ==== image:images/yes.png[yes] Azure Resource Manager (noun)
-*Description*: In Microsoft Azure, the "Azure Resource Manager" (ARM) is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
+*Description*: In Microsoft Azure, the _Azure Resource Manager (ARM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
 
 *Use it*: yes
 
@@ -575,7 +575,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[asm]]
 ==== image:images/yes.png[yes] Azure Service Management (noun)
-*Description*: In Microsoft Azure, "Azure Service Management" (ASM) is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. The Azure Resource Manager (ARM) has replaced ASM as the preferred method for managing Azure resources.
+*Description*: In Microsoft Azure, _Azure Service Management (ASM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. The Azure Resource Manager (ARM) has replaced ASM as the preferred method for managing Azure resources.
 
 *Use it*: yes
 

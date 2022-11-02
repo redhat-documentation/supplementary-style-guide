@@ -1,8 +1,8 @@
 // OCS: Added "In Red Hat OpenShift Container Storage, a backing store..."
 [discrete]
 [[backing-store]]
-==== image:images/yes.png[yes] backing store (noun)
-*Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), a backing store is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
+==== backing store (noun)
+*Description*: In Red Hat OpenShift Container Storage, a _backing store_ is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
 
 *Use it*: yes
 
@@ -13,7 +13,7 @@
 [discrete]
 [[backtrace]]
 ==== image:images/yes.png[yes] backtrace (noun)
-*Description*: "Backtrace" is another name for "stack trace" (or "stack backtrace"), which is a report of the active stack frames (function calls) at a certain point in time during the execution of a program. The Python programming language uses the term "traceback", possibly because the stack frames are printed in the opposite order of those presented by gdb, the GNU Debugger. "Traceback" is the preferred term when referring to a Python stack trace.
+*Description*: _Backtrace_ is another name for _stack trace_ (or _stack backtrace_), which is a report of the active stack frames (function calls) at a certain point in time during the execution of a program. The Python programming language uses the term "traceback", possibly because the stack frames are printed in the opposite order of those presented by gdb, the GNU Debugger. "Traceback" is the preferred term when referring to a Python stack trace.
 
 *Use it*: yes
 
@@ -25,7 +25,7 @@
 [discrete]
 [[backward-chaining]]
 ==== image:images/yes.png[yes] backward chaining (verb)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "backward chaining" is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat JBoss BRMS is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat JBoss BRMS is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
 
 *Use it*: yes
 
@@ -36,7 +36,7 @@
 [discrete]
 [[bandwidth]]
 ==== image:images/yes.png[yes] bandwidth (noun)
-*Description*: "Bandwidth" refers to a range within a band of frequencies or wavelengths, or the amount of data that can be transmitted in a fixed amount of time.
+*Description*: _Bandwidth_ refers to a range within a band of frequencies or wavelengths, or the amount of data that can be transmitted in a fixed amount of time.
 
 *Use it*: yes
 
@@ -47,7 +47,7 @@
 [discrete]
 [[bare-metal-n]]
 ==== image:images/yes.png[yes] bare metal (noun)
-*Description*: "Bare metal" refers to physical hardware as opposed to virtual hardware. Use the two-word form as a noun: "Install on bare metal".
+*Description*: _Bare metal_ refers to physical hardware as opposed to virtual hardware. Use the two-word form as a noun: "Install on bare metal".
 
 *Use it*: yes
 
@@ -58,7 +58,7 @@
 [discrete]
 [[bare-metal-adj]]
 ==== image:images/yes.png[yes] bare-metal (adjective)
-*Description*: "Bare metal" refers to physical hardware as opposed to virtual hardware. Use the hyphenated form as an adjective: "Bare-metal servers".
+*Description*: _Bare metal_ refers to physical hardware as opposed to virtual hardware. Use the hyphenated form as an adjective: "Bare-metal servers".
 
 *Use it*: yes
 
@@ -70,7 +70,7 @@
 [discrete]
 [[base-dn]]
 ==== image:images/yes.png[yes] base DN (noun)
-*Description*: In an LDAP directory, the base distinguished name (DN) defines the starting point for operations, such as searches.
+*Description*: In an LDAP directory, the _base distinguished name (DN)_ defines the starting point for operations, such as searches.
 
 *Use it*: yes
 
@@ -81,7 +81,7 @@
 [discrete]
 [[basically]]
 ==== image:images/no.png[no] basically (adverb)
-*Description*: "Basically" is another term for "in principle" or "fundamentally".
+*Description*: _Basically_ is another term for _in principle_ or _fundamentally_.
 
 *Use it*: no
 
@@ -93,7 +93,7 @@
 [discrete]
 [[batch-jberet]]
 ==== image:images/yes.png[yes] batch-jberet subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "batch-jberet" subsystem is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the batch-jberet subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _batch-jberet subsystem_ is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the `batch-jberet` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -105,7 +105,7 @@
 [discrete]
 [[bean-validation]]
 ==== image:images/yes.png[yes] bean-validation subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "bean-validation" subsystem is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the bean-validation subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _bean-validation subsystem_ is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the `bean-validation` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -127,9 +127,9 @@
 [discrete]
 [[bimodal-it]]
 ==== image:images/caution.png[with caution] bimodal IT (noun)
-*Description*: "Bimodal IT" is the Gartner phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing.
+*Description*: _Bimodal IT_ is the Gartner phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing.
 
-The practice of having both modes together is often referred to as "hybrid", "agile", or "modern" IT. "Hybrid IT" is a more general term; for example, it could mean "on-premise plus public cloud". "Agile" and "modern IT" can both carry an implication of "mode 2". When using those terms, be specific about the exact technology combination you mean.
+The practice of having both modes together is often referred to as _hybrid_, _agile_, or _modern_ IT. "Hybrid IT" is a more general term; for example, it could mean _on-premise plus public cloud_. "Agile" and "modern IT" can both carry an implication of _mode 2_. When using those terms, be specific about the exact technology combination you mean.
 
 *Use it*: with caution
 
@@ -140,7 +140,7 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 [discrete]
 [[bimonthly]]
 ==== image:images/yes.png[yes] bimonthly (adverb)
-*Description*: "Bimonthly" means every other month.
+*Description*: _Bimonthly_ means every other month.
 
 *Use it*: yes
 
@@ -163,7 +163,7 @@ The practice of having both modes together is often referred to as "hybrid", "ag
 [discrete]
 [[bind-dn]]
 ==== image:images/yes.png[yes] bind DN (noun)
-*Description*: A distinguished name (DN) defines the unique location of an entry in the LDAP directory. You can use the DN of an entry to bind (authenticate) to an LDAP directory. The bind DN is similar to a user name in other systems.
+*Description*: A _distinguished name (DN)_ defines the unique location of an entry in the LDAP directory. You can use the DN of an entry to bind (authenticate) to an LDAP directory. The bind DN is similar to a user name in other systems.
 
 *Use it*: yes
 
@@ -187,7 +187,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[biweekly]]
 ==== image:images/yes.png[yes] biweekly (adverb)
-*Description*: "Biweekly" means every other week.
+*Description*: _Biweekly_ means every other week.
 
 *Use it*: yes
 
@@ -199,7 +199,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[blueprint]]
 ==== image:images/yes.png[yes] blueprint (noun)
-*Description*: In Red Hat Enterprise Linux, blueprints are simple text files in Tom's Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
+*Description*: In Red Hat Enterprise Linux, _blueprints_ are simple text files in Tom's Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
 
 *Use it*: yes
 
@@ -211,7 +211,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bluestore]]
 ==== image:images/yes.png[yes] BlueStore (noun)
-*Description*: In Red Hat Ceph Storage, BlueStore is an OSD back end that uses block devices directly.
+*Description*: In Red Hat Ceph Storage, _BlueStore_ is an OSD back end that uses block devices directly.
 
 *Use it*: yes
 
@@ -222,7 +222,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[boot-disk]]
 ==== image:images/yes.png[yes] boot disk (noun)
-*Description*: A "boot disk" is a disk used to start a computer.
+*Description*: A _boot disk_ is a disk used to start a computer.
 
 *Use it*: yes
 
@@ -233,7 +233,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[boot-loader]]
 ==== image:images/yes.png[yes] boot loader (noun)
-*Description*: "Boot loader" is software used to load an operating system when a computer is started.
+*Description*: _Boot loader_ is software used to load an operating system when a computer is started.
 
 *Use it*: yes
 
@@ -244,7 +244,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bottleneck]]
 ==== image:images/yes.png[yes] bottleneck (noun)
-*Description*: A "bottleneck" is a limitation in the capacity of software or hardware caused by a single component.
+*Description*: A _bottleneck_ is a limitation in the capacity of software or hardware caused by a single component.
 
 *Use it*: yes
 
@@ -255,7 +255,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bpp]]
 ==== image:images/yes.png[yes] bpp (noun)
-*Description*: The abbreviation for bits per pixel ("bpp") is presented in lowercase letters, unless it is at the beginning of a sentence. Use a non-breaking space between the numeral and the units, for example, "16 bpp", not "16bpp".
+*Description*: The abbreviation for bits per pixel (_bpp_) is presented in lowercase letters, unless it is at the beginning of a sentence. Use a non-breaking space between the numeral and the units, for example, "16 bpp", not "16bpp".
 
 *Use it*: yes
 
@@ -266,7 +266,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[Bps]]
 ==== image:images/yes.png[yes] Bps (noun)
-*Description*: "Bps" is an abbreviation for bytes per second.
+*Description*: _Bps_ is an abbreviation for bytes per second.
 
 *Use it*: yes
 
@@ -277,7 +277,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bps]]
 ==== image:images/yes.png[yes] bps (noun)
-*Description*: The abbreviation for bits per second is "bps".
+*Description*: The abbreviation for bits per second is _bps_.
 
 *Use it*: yes
 
@@ -288,7 +288,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[broadcast-n]]
 ==== image:images/yes.png[yes] broadcast (noun)
-*Description*: When used as a noun, a "broadcast" is a message sent simultaneously to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
+*Description*: When used as a noun, a _broadcast_ is a message sent simultaneously to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
 
 *Use it*: yes
 
@@ -299,7 +299,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[broadcast-v]]
 ==== image:images/yes.png[yes] broadcast (verb)
-*Description*: When used as a verb, "broadcast" means to simultaneously send the same message to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
+*Description*: When used as a verb, _broadcast_ means to simultaneously send the same message to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
 
 *Use it*: yes
 
@@ -323,7 +323,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[broker-distribution]]
 ==== image:images/yes.png[yes] broker distribution (noun)
-*Description*: In Red Hat AMQ, broker distribution is the platform-independent AMQ Broker archive containing the product binaries and libraries.
+*Description*: In Red Hat AMQ, _broker distribution_ is the platform-independent AMQ Broker archive containing the product binaries and libraries.
 
 *Use it*: yes
 
@@ -335,7 +335,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[broker-instance]]
 ==== image:images/yes.png[yes] broker instance (noun)
-*Description*: In Red Hat AMQ, a broker instance is a configurable instance of AMQ Broker. Each broker instance is a separate directory containing its own runtime and configuration data. Use this term to refer to the instance, not the product.
+*Description*: In Red Hat AMQ, a _broker instance_ is a configurable instance of AMQ Broker. Each broker instance is a separate directory containing its own runtime and configuration data. Use this term to refer to the instance, not the product.
 
 *Use it*: yes
 
@@ -347,7 +347,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[brokered-messaging]]
 ==== image:images/yes.png[yes] brokered messaging (noun)
-*Description*: Any messaging configuration that uses a message broker to deliver messages to destinations. Brokered messaging can include brokers only, or a combination of brokers and routers.
+*Description*: Any messaging configuration that uses a message broker to deliver messages to destinations. _Brokered messaging_ can include brokers only, or a combination of brokers and routers.
 
 *Use it*: yes
 
@@ -358,7 +358,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[btrfs]]
 ==== image:images/yes.png[yes] Btrfs (noun)
-*Description*: "Btrfs" is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. See the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page for more information on this file system. See  the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page for a list of file system names and how to present them.
+*Description*: _Btrfs_ is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. See the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page for more information on this file system. See  the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page for a list of file system names and how to present them.
 
 *Use it*: yes
 
@@ -370,7 +370,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bucket]]
 ==== image:images/yes.png[yes] bucket (noun)
-*Description*: 1) A bucket in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a "container" in the Swift API. 2) The term bucket is also sometimes used in the context of a CRUSH hierarchy, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
+*Description*: 1) A _bucket_ in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a _container_ in the Swift API. 2) The term bucket is also sometimes used in the context of a _CRUSH hierarchy_, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
 
 *Use it*: yes
 
@@ -382,7 +382,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bucket-index]]
 ==== image:images/yes.png[yes] bucket index (noun)
-*Description*: A bucket index in the S3 API contains an index of objects within the bucket. The bucket index enables listing the bucket's contents.
+*Description*: A _bucket index_ in the S3 API contains an index of objects within the bucket. The bucket index enables listing the bucket's contents.
 
 *Use it*: yes
 
@@ -394,7 +394,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bucket-sharding]]
 ==== image:images/yes.png[yes] bucket sharding (noun)
-*Description*: Bucket sharding is a process of breaking down a bucket index into smaller more manageable shards. Bucket sharding improves performance.
+*Description*: _Bucket sharding_ is a process of breaking down a bucket index into smaller more manageable shards. Bucket sharding improves performance.
 
 *Use it*: yes
 
@@ -405,7 +405,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[bug-fix]]
 ==== image:images/yes.png[yes] bug fix (noun)
-*Description*: A "bug fix" is the resolution to a bug.
+*Description*: A _bug fix_ is the resolution to a bug.
 
 *Use it*: yes
 
@@ -429,7 +429,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[build-configuration]]
 ==== image:images/yes.png[yes] build config (noun)
-*Description*: In Red Hat OpenShift, a build config describes a single build definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
+*Description*: In Red Hat OpenShift, a _build config_ describes a single build definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
 
 *Use it*: yes
 
@@ -452,7 +452,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[built-in-messaging]]
 ==== image:images/yes.png[yes] built-in messaging (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, "built-in messaging" is an acceptable term for referring to the built-in messaging system. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
+*Description*: In Red Hat JBoss Enterprise Application Platform, _built-in messaging_ is an acceptable term for referring to the built-in messaging system. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
 
 *Use it*: yes
 
@@ -464,7 +464,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[business-central]]
 ==== image:images/yes.png[yes] Business Central (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Business Central" is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Business Central_ is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
 
 *Use it*: yes
 
@@ -476,7 +476,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[business-process]]
 ==== image:images/yes.png[yes] business process (noun)
-*Description*: A "business process" is a collection of related, structured tasks that results in achieving a specific target. It is presented as as a flowchart comprising a sequence steps necessary to achieve business goals.
+*Description*: A _business process_ is a collection of related, structured tasks that results in achieving a specific target. It is presented as as a flowchart comprising a sequence steps necessary to achieve business goals.
 
 *Use it*: yes
 
@@ -488,7 +488,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[business-resource-planner]]
 ==== image:images/yes.png[yes] Business Resource Planner (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Business Resource Planner" is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Business Resource Planner_ is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
 
 *Use it*: yes
 
@@ -500,7 +500,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[business-rule]]
 ==== image:images/yes.png[yes] business rule (noun)
-*Description*: A "business rule" defines a particular aspect of a business that is intended to assert business structure or influence the behavior of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
+*Description*: A _business rule_ defines a particular aspect of a business that is intended to assert business structure or influence the behaviour of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
 
 *Use it*: yes
 
