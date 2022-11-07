@@ -259,6 +259,41 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
+[discrete]
+[[plugin-adj]]
+==== image:images/yes.png[yes] plugin (adjective)
+*Description*: Use to distinguish software code separate from the core application or service that adds new features or extends the functionality. 
+Use "plugin" rather than "plug-in", unless you are updating existing content that uses the hyphenated form.
+
+*Use it*: yes
+
+*Incorrect forms*: plug in, plug-in
+
+*See also*: xref:plugin[plugin]
+
+[discrete]
+[[plugin]]
+==== image:images/yes.png[yes] plugin (noun)
+*Description*: A _plugin_ is a software component that adds new features or extends the functionality of an existing application or service.
+Use "plugin" rather than "plug-in", unless you are updating existing content that uses the hyphenated form.
+
+*Use it*: yes
+
+*Incorrect forms*: plug in, plug-in
+
+*See also*: xref:plug-in[plug-in]
+
+[discrete]
+[[plug-in]]
+==== image:images/caution.png[with caution] plug-in (noun)
+*Description*: Use with caution. Write as shown only when updating existing content that uses the hyphenated form. For new content, use "plugin".
+
+*Use it*: with caution
+
+*Incorrect forms*: plug in
+
+*See also*: xref:plugin[plugin]
+
 // OCP: Added "In Kubernetes," and removed first sentence
 [discrete]
 [[pod]]
