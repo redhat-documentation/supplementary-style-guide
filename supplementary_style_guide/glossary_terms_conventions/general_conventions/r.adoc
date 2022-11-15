@@ -591,6 +591,28 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 *See also*: xref:zone-group[zone group]
 
 [discrete]
+[[regex]]
+==== image:images/no.png[no] regex (noun)
+*Description*: _Regex_ is an abbreviation for "regular expression". Do not use "regex" as a replacement for "regular expression".
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:regular-expression[regular expression]
+
+[discrete]
+[[regular-expression]]
+==== image:images/yes.png[yes] regular expression (noun)
+*Description*: A _regular expression_ is a string of letters, numbers, and symbols that defines a pattern. When searching a body of text, software can use this pattern to match characters or groups of characters and return results.
+
+*Use it*: yes
+
+*Incorrect forms*: regex
+
+*See also*: xref:regex[regex]
+
+[discrete]
 [[relative-path]]
 ==== image:images/yes.png[yes] relative path (noun)
 *Description*: The path related to the present working directory. Because it does not provide enough information for a program to locate a file, it must be combined with an additional path to access a file.
