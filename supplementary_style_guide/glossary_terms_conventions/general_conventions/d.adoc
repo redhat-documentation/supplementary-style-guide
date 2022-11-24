@@ -331,7 +331,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 [discrete]
 [[devops-n]]
 ==== image:images/yes.png[yes] DevOps (noun)
-*Description*: _DevOps_ is a combination of "Development" and "Operations". It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
+*Description*: _DevOps_ is an abbreviation for "Development" and "Operations". It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
 
 *Use it*: yes
 
@@ -484,7 +484,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dns]]
 ==== image:images/yes.png[yes] DNS (noun)
-*Description*: _DNS_ is an abbreviation for _Domain Name System_ or _Domain Name Service_, a service that translates domain names into IP addresses and vice versa.
+*Description*: _DNS_ is an abbreviation for "Domain Name System" or "Domain Name Service", a service that translates domain names into IP addresses and vice versa.
 
 *Use it*: yes
 
@@ -612,7 +612,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[drl]]
 ==== image:images/yes.png[yes] DRL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DRL_ is an abbreviation for the Drools Rule Language, which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
 
 *Use it*: yes
 
@@ -636,7 +636,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dsl]]
 ==== image:images/yes.png[yes] DSL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DSL_ is an abbreviation for domain-specific language. DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into DRL files.
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
 
 *Use it*: yes
 

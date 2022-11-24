@@ -71,7 +71,7 @@
 [discrete]
 [[compact-disk]]
 ==== image:images/yes.png[yes] CD (noun)
-*Description*: _CD_ is an abbreviation for _compact disc_.
+*Description*: _CD_ is an abbreviation for "compact disc".
 
 *Use it*: yes
 
@@ -295,7 +295,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[cgroup]]
 ==== image:images/yes.png[yes] cgroup (noun)
-*Description*: The term _cgroup_ is a contraction of _control group_. Cgroups allow you to allocate resources, such as CPU time, system memory, network bandwidth, or combinations of these resources, among user-defined groups of processes running on a system.
+*Description*: The term _cgroup_ is an abbreviation for "control group". Cgroups allow you to allocate resources, such as CPU time, system memory, network bandwidth, or combinations of these resources, among user-defined groups of processes running on a system.
 
 *Use it*: yes
 
@@ -1010,7 +1010,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 [discrete]
 [[crush]]
 ==== image:images/yes.png[yes] CRUSH (noun)
-*Description*: In Red Hat Ceph Storage, _CRUSH_ is an abbreviation for Controlled Replication Under Scalable Hashing. This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to "CRUSH". Do not expand, only when explaining what the abbreviation means. See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush[CRUSH] section in the Red Hat Ceph Storage Architecture Guide for details.
+*Description*: In Red Hat Ceph Storage, _CRUSH_ is an abbreviation for "Controlled Replication Under Scalable Hashing". This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to "CRUSH". Do not expand, only when explaining what the abbreviation means.
 
 *Use it*: yes
 
@@ -1033,7 +1033,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 [discrete]
 [[csv]]
 ==== image:images/yes.png[yes] CSV (noun)
-*Description*: _CSV_ is an abbreviation for _comma-separated values_, which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
+*Description*: _CSV_ is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
 
 *Use it*: yes
 
