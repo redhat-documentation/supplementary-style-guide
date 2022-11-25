@@ -71,10 +71,10 @@
 
 [discrete]
 [[natively-compiled-code]]
-==== image:images/no.png[no] natively compiled code (noun)
+==== image:images/yes.png[yes] natively compiled code (noun)
 *Description*: _Natively compiled code_ is code written in a programming language that compiles to machine code with a resulting binary executable file. Such code can be run stand-alone.
 
-*Use it*: no
+*Use it*: yes
 
 *Incorrect forms*:
 
