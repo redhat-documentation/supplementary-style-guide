@@ -91,6 +91,17 @@
 *See also*:
 
 [discrete]
+[[scriptlet-directive]]
+==== image:images/yes.png[yes] scriptlet directive (noun)
+*Description*: A _scriptlet_ is a fragment of code in a spec file, usually a shell script, which is executed during build time (build scriptlets) or transaction time (transaction scriptlets) in order to make some additional changes to the user’s system. Build scriptlets are more limited than transaction scriptlets. That is, build scriptlets do not receive arguments and can only be shell scripts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[scrollbar]]
 ==== image:images/yes.png[yes] scrollbar (noun)
 *Description*: A _scrollbar_ is a long, thin rectangle on the edge of the screen that allows a user to view information that does not fit on a single screen display.
@@ -613,6 +624,17 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:target[target]
 
+[discrete]
+[[source-rpm]]
+==== image:images/yes.png[yes] Source RPM (noun)
+*Description*: _Source RPM_, or SRPM, is an RPM package that contains the complete source code, including any patches, and a SPEC file that describes how to build the source code into a binary RPM.
+
+*Use it*: yes
+
+*Incorrect forms*: srpm
+
+*See also*: xref:spec-file[spec file], xref:rpm[RPM]
+
 // Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
 [discrete]
 [[source-tab]]
@@ -719,7 +741,7 @@ _Update the `Pod` spec to reflect the changes._
 
 *Incorrect forms*: specfile
 
-*See also*:
+*See also*: xref:rpm[RPM]
 
 [discrete]
 [[specific]]
