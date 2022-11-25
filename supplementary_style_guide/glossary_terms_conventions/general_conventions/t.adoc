@@ -274,6 +274,17 @@ A client requests a certificate from a web server. On receiving the certificate,
 *See also*:
 
 [discrete]
+[[trigger-directive]]
+==== image:images/yes.png[yes] Trigger directive (noun)
+*Description*: In Red Hat Enterprise Linux, a _Trigger_ is a special form of a transaction scriptlet that is conditionally executed when another specific package is installed or uninstalled.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
 [[trusted-certificate-authority]]
 ==== image:images/yes.png[yes] trusted certificate authority (noun)
 *Description*: A _trusted certificate authority (CA)_ is a third-party entity that creates TLS certificates, known as CA certificates, for authentication purposes. A trusted CA is different from a self-signed certificate in that a self-signed certificate has its own private key and does not need to request a key from a public or private CA.
