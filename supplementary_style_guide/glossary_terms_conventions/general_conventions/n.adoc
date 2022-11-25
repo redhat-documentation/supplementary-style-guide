@@ -187,7 +187,7 @@
 [[node]]
 ==== image:images/yes.png[yes] node (noun)
 
-*Description*: 1) In networks, a "node" is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a node is a point where two or more lines meet. 2) In the context of OpenShift, a "node" provides the runtime environments for containers. 3) In the context of OpenStack, use "node" to refer to a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host". 
+*Description*: 1) In networks, a _node_ is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a _node_ is a point where two or more lines meet. 2) In the context of OpenShift, a _node_ provides the runtime environments for containers. 3) In the context of OpenStack, a _node_ is a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host".
 
 *Use it*: yes
 

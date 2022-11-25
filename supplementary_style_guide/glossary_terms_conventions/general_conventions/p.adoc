@@ -205,7 +205,7 @@ When combined with privileges, permissions define a user's or resource's overall
 [discrete]
 [[pid]]
 ==== image:images/yes.png[yes] PID (noun)
-*Description*: In Red Hat Fuse, the persistent identifier (PID) of a registered OSGi service is used to identify the service across container restarts. In Red Hat Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute/value pairs that configure a service. You can edit any `.cfg` file to configure/reconfigure the corresponding OSGi service.
+*Description*: In Red Hat Fuse, the persistent identifier (_PID_) of a registered OSGi service is used to identify the service across container restarts. In Red Hat Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute-value pairs that configure a service. You can edit any `.cfg` file to configure or reconfigure the corresponding OSGi service.
 
 *Use it*: yes
 
@@ -263,7 +263,7 @@ When combined with privileges, permissions define a user's or resource's overall
 [discrete]
 [[plugin-adj]]
 ==== image:images/yes.png[yes] plugin (adjective)
-*Description*: Use to distinguish software code separate from the core application or service that adds new features or extends the functionality. 
+*Description*: Use to distinguish software code separate from the core application or service that adds new features or extends the functionality.
 Use "plugin" rather than "plug-in", unless you are updating existing content that uses the hyphenated form.
 
 *Use it*: yes
