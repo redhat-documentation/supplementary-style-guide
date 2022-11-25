@@ -70,7 +70,6 @@
 [discrete]
 [[raw-data]]
 ==== image:images/yes.png[yes] raw data (noun)
-
 *Description*: "Raw data" is information that has not been organized, formatted, or analyzed.
 
 *Use it*: yes
@@ -78,6 +77,18 @@
 *Incorrect forms*:
 
 *See also*:
+
+[discrete]
+[[raw-interpreted-program]]
+==== image:images/yes.png[yes] raw-interpreted program (noun)
+
+*Description*: _Raw-interpreted language programs_ are programs that do not need to be compiled and are directly executed by a language interpreter.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:interpreted-code[interpreted code]
 
 // Ceph: Added "In Red Hat Ceph Storage, RBD is an"
 [discrete]
@@ -862,6 +873,16 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *See also*:
 
+[[rolling-stream]]
+==== image:images/yes.png[yes] Rolling stream (noun)
+*Description*: _Rolling Application Streams_ include RHEL tools and applications that move very fast and are updated frequently. Later versions of these streams replace versions released earlier. Therefore, only one version is supported at a time.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [discrete]
 [[roll-out]]
 ==== image:images/yes.png[yes] roll out (verb)
@@ -1044,11 +1065,22 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 [discrete]
 [[rpm]]
 ==== image:images/yes.png[yes] RPM (noun)
-*Description*: "RPM" is the recursive initialism for the "RPM Package Manager". RPM manages files in the RPM format, known as RPM packages. RPM packages are known informally as rpm files, but this informal usage is not used in Red Hat documentation to avoid confusion with the command name. Files in RPM format are referred to as RPM packages.
+*Description*: "RPM" is the recursive acronym for the "RPM Package Manager". RPM manages files in the RPM format, known as RPM packages. RPM packages are known informally as rpm files, but this informal usage is not used in Red Hat documentation to avoid confusion with the command name. Files in RPM format are referred to as RPM packages.
 
 *Use it*: yes
 
 *Incorrect forms*: rpm
+
+*See also*:
+
+[discrete]
+[[rpm-macro]]
+==== image:images/yes.png[yes] RPM macro (noun)
+*Description*: An _RPM macro_ is a straight text substitution that can be conditionally assigned based on the optional evaluation of a statement when certain built-in functionality is used. RPM macros help to make package maintenance simpler and to automate certain repetitive tasks or patterns that are common across all types of packages.  An RPM macro is a fragment of text with an assigned name. Whenever the name is used, it is replaced by the expanded body of the macro. This process is called macro expansion, and it can range from a static text substitution to an arbitrary code execution with side effects.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
