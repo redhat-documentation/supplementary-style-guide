@@ -168,7 +168,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *Incorrect forms*:
 
-*See also*:
+*See also*: xref:rpm[RPM]
 
 [discrete]
 [[bind]]
