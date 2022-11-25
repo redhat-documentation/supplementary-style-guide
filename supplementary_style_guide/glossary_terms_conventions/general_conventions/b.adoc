@@ -79,6 +79,17 @@
 *See also*: xref:distinguished-name[distinguished name]
 
 [discrete]
+[[baseos-repository]]
+==== image:images/yes.png[yes] BaseOS repository (noun)
+*Description*: RHEL content in the _BaseOS repository_ is intended to provide the core set of the underlying OS functionality that provides the foundation for all installations.
+
+*Use it*: yes
+
+*Incorrect forms*: Baseos, baseos, baseOS
+
+*See also*:
+
+[discrete]
 [[basically]]
 ==== image:images/no.png[no] basically (adverb)
 *Description*: _Basically_ is another term for _in principle_ or _fundamentally_.
@@ -145,6 +156,17 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 *Use it*: yes
 
 *Incorrect forms*: bi-monthly
+
+*See also*:
+
+[discrete]
+[[binary-rpm]]
+==== image:images/yes.png[yes] binary RPM (noun)
+*Description*: A _binary RPM_ is an RPM package that contains the binaries built from sources and patches.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -218,6 +240,17 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 *Incorrect forms*: bluestore, Blue Store
 
 *See also*: xref:filestore[FileStore], xref:object-store[Object Store]
+
+[discrete]
+[[boolean-dependencies]]
+==== image:images/yes.png[yes] Boolean dependencies (noun)
+*Description*: _Boolean dependencies_ are Boolean expressions (if, and, or, and other expressions) used in the Requires, Conflicts, and Weak dependency directives. Boolean dependencies are also known as Rich dependencies.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:weak-dependencies[Weak dependencies]
 
 [discrete]
 [[boot-disk]]
@@ -507,3 +540,14 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 *Incorrect forms*:
 
 *See also*:
+
+[discrete]
+[[byte-compiled-program]]
+==== image:images/yes.png[yes] byte-compiled program (noun)
+*Description*: _Byte-compiled programs_ need to be compiled into byte code, which is then executed by a language virtual machine.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:interpreted-code[interpreted code]
