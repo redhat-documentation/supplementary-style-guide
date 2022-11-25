@@ -530,6 +530,17 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
+[discrete]
+[[interpreted-code]]
+==== image:images/yes.png[yes] interpreted code (noun)
+*Description*: In Red Hat Enterprise Linux, _interpreted code_ is source code that is executed step by step, without prior transformations, by a language interpreter or a language virtual machine.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:raw-interpreted-program[raw-interpreted program], xref:byte-compiled-program[byte-compiled program]
+
 // RHEL: Added "In Red Hat Enterprise Linux, an inventory is"
 [discrete]
 [[inventory]]
