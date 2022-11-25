@@ -397,6 +397,17 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*: xref:app[app]
 
 [discrete]
+[[application-stream]]
+==== image:images/yes.png[yes] Application Stream (noun)
+*Description*: _Application Streams_ are multiple versions of RHEL user-space components which are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPMs packages, modules, or Software Collections. Do not confuse with AppStream, which is the repository through which Application Streams are distributed. Note that the AppStream repository contains also components other than Application Streams.
+
+*Use it*: yes
+
+*Incorrect forms*: AppStream, application stream
+
+*See also*: xref:appstream-repository[appstream repository]
+
+[discrete]
 [[applixware]]
 ==== image:images/yes.png[yes] Applixware (noun)
 *Description*: _Applixware_ is a suite of proprietary modular applications for Linux.
@@ -404,6 +415,17 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *Use it*: yes
 
 *Incorrect forms*: Applix, ApplixWare
+
+*See also*:
+
+[discrete]
+[[appstream-repository]]
+==== image:images/yes.png[yes] AppStream repository (noun)
+*Description*: RHEL content in the _AppStream repository_ includes additional user-space applications, runtime languages, and databases in support of the varied workloads and use cases.
+
+*Use it*: yes
+
+*Incorrect forms*: Appstream, appstream
 
 *See also*:
 
