@@ -70,6 +70,17 @@
 *See also*: xref:management-cli[management CLI]
 
 [discrete]
+[[natively-compiled-code]]
+==== image:images/no.png[no] natively compiled code (noun)
+*Description*: _Natively compiled code_ is code written in a programming language that compiles to machine code with a resulting binary executable file. Such code can be run stand-alone.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: 
+
+[discrete]
 [[need]]
 ==== image:images/yes.png[yes] need (verb)
 *Description*: Use "need" instead of "desire" or "wish". Use "want" when the reader's actions are optional (that is, one might not need something but might still want something).
