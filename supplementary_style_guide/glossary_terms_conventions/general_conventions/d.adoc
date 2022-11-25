@@ -482,6 +482,17 @@ Red Hat Directory Server conforms to LDAP standards.
 *See also*:
 
 [discrete]
+[[dnf-automatic]]
+==== image:images/yes.png[yes] DNF Automatic (noun)
+*Description*: Use _DNF Automatic_ to refer to a RHEL command-line interface suited for automatic and regular package updates.
+
+*Use it*: yes
+
+*Incorrect forms*: DNF automatic, dnf automatic
+
+*See also*:
+
+[discrete]
 [[dns]]
 ==== image:images/yes.png[yes] DNS (noun)
 *Description*: _DNS_ is an abbreviation for "Domain Name System" or "Domain Name Service", a service that translates domain names into IP addresses and vice versa.
