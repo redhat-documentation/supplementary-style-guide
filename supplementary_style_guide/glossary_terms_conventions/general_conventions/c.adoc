@@ -497,6 +497,17 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 
 *See also*:
 
+[discrete]
+[[codeready-linux-builder-repository]]
+==== image:images/yes.png[yes] CodeReady Linux Builder (CRB) repository (noun)
+*Description*: The RHEL _CodeReady Linux Builder repository_ provides additional packages for use by developers. Packages included in the CodeReady Linux Builder repository are unsupported.
+
+*Use it*: yes; use it expanded and always mention that packages in this repository are unsupported (even in a release note, for example)
+
+*Incorrect forms*: codeready Linux builder, CRB 
+
+*See also*:
+
 // RHV: Added "In Red Hat Virtualization," and removed from later in the sentence
 [discrete]
 [[collect]]
