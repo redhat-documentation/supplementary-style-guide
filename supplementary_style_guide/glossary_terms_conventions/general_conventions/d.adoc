@@ -259,17 +259,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling"
-[discrete]
-[[design-tab]]
-==== image:images/yes.png[yes] Design tab (noun)
-*Description*: In Red Hat Fuse, the route editor's _Design tab_ displays a graphical representation of the routing context.
-
-*Use it*: yes
-
-*Incorrect forms*: Design view
-
-*See also*: xref:configurations-tab[Configurations tab], xref:routing-context[routing context], xref:source-tab[Source tab]
+// Fuse: Removed "Design tab" entry (Breda)
 
 [discrete]
 [[desktop-adj]]

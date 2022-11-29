@@ -347,6 +347,18 @@ Always spell out the full product name of the host, and do not capitalize the te
 
 *See also*: xref:red-hat-openstack-platform[Red Hat OpenStack Platform]
 
+// Fuse: Added new entry for "Red Hat Fuse Online" (Breda)
+[discrete]
+[[red-hat-fuse-online]]
+==== image:images/yes.png[yes] Red Hat Fuse Online (noun)
+*Description*: The distribution of Red Hat Fuse for non-expert integrators with a simplified workflow that is accessed through a browser-based UI.
+
+*Use it*: yes
+
+*Incorrect forms*: Ignite, Fuse Ignite
+
+*See also*: xref:syndesis[Syndesis], xref:fuse-online[Fuse Online]
+
 // BxMS: General; kept as is
 [discrete]
 [[bpms]]
@@ -957,17 +969,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *See also*: xref:consumer[consumer], xref:endpoint[endpoint], xref:processor[processor], xref:producer[producer], xref:routing-context[routing context]
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling"
-[discrete]
-[[route-editor]]
-==== image:images/yes.png[yes] route editor (noun)
-*Description*: In Red Hat Fuse, the route editor is the tool you use to construct the route or routes in your routing context. It provides two methods that you can use interchangeably. You build a context graphically in the Design tab. You code a context in XML in the Source tab.
-
-*Use it*: yes
-
-*Incorrect forms*: Camel editor
-
-*See also*: xref:design-tab[Design tab], xref:source-tab[Source tab]
+// Fuse: Removed the "route editor" entry (Breda)
 
 // AMQ: Added "In Red Hat AMQ, a router is"
 [discrete]
@@ -994,10 +996,11 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 *See also*:
 
 // Fuse: Added "In Red Hat Fuse,"
+// Fuse: Removed the sentence about Fuse tooling (Breda)
 [discrete]
 [[routing-context]]
 ==== image:images/yes.png[yes] routing context (noun)
-*Description*: In Red Hat Fuse, a routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. In Fuse tooling, the routing context is provided in a `.xml` file, the name of which depends on the configuration framework used. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
+*Description*: In Red Hat Fuse, a routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
 
 *Use it*: yes
 
@@ -1030,16 +1033,18 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 *See also*:
 
 // Fuse: Added "In Red Hat Fuse,"
+// Fuse: Removed two sentences about Fuse tooling (Breda)
+// Fuse: Removed "Source tab" from "See also" (Breda)
 [discrete]
 [[routing-rules]]
 ==== image:images/yes.png[yes] routing rules (noun)
-*Description*: In Red Hat Fuse, routing rules are declarative statements (written in Java or XML DSL) that define the paths which messages take from their origin (source) to their target destination (sink). Routing rules start with a consumer endpoint (`from`) and typically end with one or more producer endpoints (`to`). Between consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints. In Fuse tooling, you can view and edit a project's routing rules on the route editor's Source tab. On the Design tab, you can build and view routing rules graphically.
+*Description*: In Red Hat Fuse, routing rules are declarative statements that define the paths that messages take from their origin to their target destination. The origin is known as the _source_, and the target destination is known as the _sink_. Routing rules, which are written in Java or XML DSL, start with a `from` consumer endpoint, and typically end with one or more `to` producer endpoints. Between the consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:routing-context[routing context], xref:source-tab[Source tab]
+*See also*: xref:routing-context[routing context]
 
 [discrete]
 [[rpm]]
