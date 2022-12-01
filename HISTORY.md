@@ -4,6 +4,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [November 2022](#2022-november)
 * [October 2022](#2022-october)
 * [September 2022](#2022-september)
 * [August 2022](#2022-august)
@@ -28,11 +29,19 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of October 26 2022 -->
+<!-- Updated as of November 29 2022 -->
+
+<a name="2022-november"></a>
+## November 2022
+
+* Added link to the _Red Hat Technical Writing Style Guide_ for training and exam content style guidance.
+* Added glossary entry for [regex](https://redhat-documentation.github.io/supplementary-style-guide/#regex) and [regular expression](https://redhat-documentation.github.io/supplementary-style-guide/#regular-expression)
+* Added glossary entry for [plugin](https://redhat-documentation.github.io/supplementary-style-guide/#plugin)
 
 <a name="2022-october"></a>
 ## October 2022
 
+* Updated [BIOS](https://redhat-documentation.github.io/supplementary-style-guide/#bios) entry
 * Updated [GRUB](https://redhat-documentation.github.io/supplementary-style-guide/#grub) entry
 * Added guidance for [cross-references](https://redhat-documentation.github.io/supplementary-style-guide/#cross-references), [external links](https://redhat-documentation.github.io/supplementary-style-guide/#external-links), and [link text](https://redhat-documentation.github.io/supplementary-style-guide/#link-text)
 * Added guidance for [homographs](https://redhat-documentation.github.io/supplementary-style-guide/#homographs)
