@@ -31,7 +31,7 @@ If you include a shell prompt to indicate that a user with root privileges must 
 
 Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion:
 
-* Reserved IP address ranges: See the _IBM Style Guide_ for the list of reserved IP address ranges to use in documentation.
+* Reserved IP address ranges: See the _IBM Style_ guide for the list of reserved IP address ranges to use in documentation.
 
 * Reserved MAC addresses (defined in link:https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2[RFC 7042]):
 

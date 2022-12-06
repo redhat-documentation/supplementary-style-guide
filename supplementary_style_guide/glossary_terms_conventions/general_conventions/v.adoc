@@ -116,7 +116,7 @@ Use lowercase "v" and uppercase "CPU".
 ==== image:images/yes.png[yes] virtual floppy disk (noun)
 *Description*: A _virtual floppy disk_ is an alternative to the traditional floppy. It is an image file rather than a physical disk.
 
-Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy disk", this term is outdated and refers to the physical disk. In the context of virtualization, "floppy disk" is the preferred term; the file extension, for example, is ".vfd".
+Although the _IBM Style_ guide recommends using "diskette" instead of "floppy disk", this term is outdated and refers to the physical disk. In the context of virtualization, "floppy disk" is the preferred term; the file extension, for example, is ".vfd".
 
 *Use it*: yes
 
@@ -129,7 +129,7 @@ Although the _IBM Style Guide_ recommends using "diskette" instead of "floppy di
 ==== image:images/yes.png[yes] virtual floppy drive (noun)
 *Description*: A _virtual floppy drive_ is the virtual hardware used to mount a floppy disk image.
 
-Although the _IBM Style Guide_ recommends using "diskette drive" instead of "floppy drive", this term is outdated and refers to the physical hardware. In the context of virtualization, "floppy drive" is the preferred term.
+Although the _IBM Style_ guide recommends using "diskette drive" instead of "floppy drive", this term is outdated and refers to the physical hardware. In the context of virtualization, "floppy drive" is the preferred term.
 
 *Use it*: yes
 
