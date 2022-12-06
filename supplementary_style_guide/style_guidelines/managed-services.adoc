@@ -84,7 +84,7 @@ The meaning of content relies on the order in which you present it. For example,
 [[localization]]
 == Localization
 
-Documentation that follows the _IBM Style Guide_ for fairly conversational tone does not present issues with human or machine translation and better aligns with tone in the user interface. Use contractions where appropriate.
+Documentation that follows the _IBM Style_ guide for fairly conversational tone does not present issues with human or machine translation and better aligns with tone in the user interface. Use contractions where appropriate.
 
 [[microcopy]]
 == Microcopy

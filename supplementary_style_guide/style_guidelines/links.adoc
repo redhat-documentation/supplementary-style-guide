@@ -21,7 +21,7 @@ For more information about <topic>, see xref:<link>[<link_text>].
 Follow these guidelines when linking externally:
 
 * Always include link text. Bare URLs (URLs without explanatory information) are unhelpful because they do not provide adequate context about the link target.
-* Use hyperlinks unless the URL is an example URL or is otherwise inaccessible to users. See the _IBM Style Guide_ for information about using addresses in examples.
+* Use hyperlinks unless the URL is an example URL or is otherwise inaccessible to users. See the _IBM Style_ guide for information about using addresses in examples.
 * By default, links are followable and crawlable. Do not use the "nofollow" link option unless absolutely necessary.
 * Avoid links to external sites when possible. External links can change or be unreliable.
 * Avoid deep links (to a specific page or image from another company) to prevent an ongoing maintenance responsibility and to prevent bypassing a website's legal information.
