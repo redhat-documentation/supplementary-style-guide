@@ -17,7 +17,7 @@ To ensure consistency and success, it is imperative for product team stakeholder
 When possible, rewrite documentation to avoid these terms.
 When it is not possible to remove the terms _blacklist_ and _whitelist_, replace them with one of the following alternatives:
 
-* blocklist / allowlist: This combination is recommended by _The IBM Style Guide_. Use this combination unless your product area has another specific replacement that is agreed between engineering leadership and your documentation team.
+* blocklist / allowlist: This combination is recommended by the _IBM Style_ guide. Use this combination unless your product area has another specific replacement that is agreed between engineering leadership and your documentation team.
 * denylist / allowlist
 * blocklist / passlist
 * You can also use a term that has been agreed by your product team stakeholders.
@@ -70,12 +70,12 @@ image:images/yes.png[yes] Use the following command to copy the public key to th
 
 Avoid contractions in product documentation to leave no ambiguity and to make it easier for translation and international audiences.
 
-If you are writing quick start or other content that uses a more informal xref:#conversational-style[conversational style] (_fairly conversational_ or _more conversational_), you may use contractions. In this case, follow the guidance in the _IBM Style Guide_ on using contractions.
+If you are writing quick start or other content that uses a more informal xref:#conversational-style[conversational style] (_fairly conversational_ or _more conversational_), you may use contractions. In this case, follow the guidance in the _IBM Style_ guide on using contractions.
 
 [[conversational-style]]
 == Conversational style
 
-Follow the _IBM Style Guide_ guidance of _less conversational_ style in most cases.
+Follow the _IBM Style_ guide guidance of _less conversational_ style in most cases.
 
 As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
 
@@ -86,7 +86,7 @@ Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation 
 [[homographs]]
 == Homographs
 A homograph is a word that is spelled the same as another word but has a different meaning when used as a different part of speech.
-Using homographs close together in a sentence or paragraph might confuse readers. 
+Using homographs close together in a sentence or paragraph might confuse readers.
 Therefore, be aware of this potential issue, and, when possible, avoid writing sentences that use homographs close to one another provided that you can do so without changing the technical meaning.
 
 The following list includes homographs that might commonly appear in technical documentation:

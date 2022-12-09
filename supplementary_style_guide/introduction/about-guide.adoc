@@ -1,6 +1,6 @@
 = About this guide
 
-This guide provides style guidelines and preferred term usage for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation. It is intended to be used as a supplement to the _IBM Style Guide_, which is the primary source of guidance for Red Hat product documentation.
+This guide provides style guidelines and preferred term usage for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation. It is intended to be used as a supplement to the _IBM Style_ guide, which is the primary source of guidance for Red Hat product documentation.
 
 The Red Hat Customer Content Services team created this guide as part of its responsibility for producing product documentation for Red Hat customers. Upstream communities who want to align more closely with the standards used by Red Hat product documentation can also use this guide.
 
@@ -11,11 +11,11 @@ Other Red Hat technical documentation, including Red Hat training and exam conte
 
 == How to use this guide
 
-When looking for style guidance, reference this guide first, because it overrides certain guidance from the _IBM Style Guide_. If you must deviate from the guidance in either guide, notify the style council by opening an link:https://github.com/redhat-documentation/doc-style/issues[issue]. This way, the deviation can be discussed by the style council and included in this guide.
+When looking for style guidance, reference this guide first, because it overrides certain guidance from the _IBM Style_ guide. If you must deviate from the guidance in either guide, notify the style council by opening an link:https://github.com/redhat-documentation/doc-style/issues[issue]. This way, the deviation can be discussed by the style council and included in this guide.
 
 == Related Red Hat guides
 
-In addition to the _IBM Style Guide_ and the _Red Hat supplementary style guide for product documentation_, Red Hat product documentation uses the following reference guides for technical writers:
+In addition to the _IBM Style_ guide and the _Red Hat supplementary style guide for product documentation_, Red Hat product documentation uses the following reference guides for technical writers:
 
 * _link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide]_: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.
 * _link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference]_: Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.

@@ -4,7 +4,7 @@
 [[references-to-cost]]
 == Cost references
 
-Avoid all references to the costs and charges of Red Hat products. Although the _IBM Style Guide_ recommends against using the term "free", also avoid any references to cost in product documentation because they can confuse users and cause legal concerns. Any cost information is best referenced in marketing materials.
+Avoid all references to the costs and charges of Red Hat products. Although the _IBM Style_ guide recommends against using the term "free", also avoid any references to cost in product documentation because they can confuse users and cause legal concerns. Any cost information is best referenced in marketing materials.
 
 .Example problematic phrase
 
