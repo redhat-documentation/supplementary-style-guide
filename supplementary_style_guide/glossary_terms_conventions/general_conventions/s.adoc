@@ -646,6 +646,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *Incorrect forms*: Source view
 
 *See also*: xref:configurations-tab[Configurations tab], xref:design-tab[Design tab]
+// Fuse: Removed "Source tab" entry (Breda)
 
 [discrete]
 [[source-navigator]]
@@ -1171,16 +1172,19 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 *See also*:
 
 // Fuse: General; kept as is
+// Fuse: Changed "Fuse Ignite" to "Fuse Online" (Breda)
+// Fuse: Added "Ignite" and "Fuse Ignite" to "Incorrect forms" (Breda)
+// Fuse: Changed "Fuse Ignite" to "Fuse Online" in "See also" (Breda)
 [discrete]
 [[syndesis]]
 ==== image:images/yes.png[yes] Syndesis (noun)
-*Description*: _Syndesis_ is the community name for Fuse Ignite.
+*Description*: _Syndesis_ is the community name for Fuse Online.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: Ignite, Fuse Ignite
 
-*See also*: xref:fuse-ignite[Fuse Ignite]
+*See also*: xref:fuse-online[Fuse Online]
 
 // RHV: General; kept as is
 [discrete]

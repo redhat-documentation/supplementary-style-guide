@@ -2,7 +2,7 @@
 [discrete]
 [[namespace]]
 ==== image:images/caution.png[with caution] namespace (noun)
-*Description*: In Red Hat OpenShift, namespace is typically synonymous with project in OpenShift parlance, which is preferred.
+*Description*: In Red Hat OpenShift, "namespace" is typically synonymous with project in OpenShift parlance, which is preferred.
 
 *Use it*: with caution
 
@@ -13,8 +13,8 @@
 // OCS: General; kept as is
 [discrete]
 [[namespace-bucket]]
-==== image:images/yes.png[yes] namespace bucket (noun)
-*Description*: Namespace buckets enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
+==== namespace bucket (noun)
+*Description*: _Namespace buckets_ enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
 
 *Use it*: yes
 
@@ -25,8 +25,8 @@
 // OCS: Added "In Red Hat OpenShift Container Storage, a namespace store is"
 [discrete]
 [[namespace-store]]
-==== image:images/yes.png[yes] namespace store (noun)
-*Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), a namespace store is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
+==== namespace store (noun)
+*Description*: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, a _namespace store_ is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
 
 *Use it*: yes
 
@@ -38,7 +38,7 @@
 [discrete]
 [[naming]]
 ==== image:images/yes.png[yes] naming subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "naming" subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the `naming` subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -83,7 +83,7 @@
 [discrete]
 [[need]]
 ==== image:images/yes.png[yes] need (verb)
-*Description*: Use "need" instead of "desire" or "wish". Use "want" when the reader's actions are optional (that is, one might not need something but might still want something).
+*Description*: Use "need" instead of "desire" or "wish". Use "want" when the reader's actions are optional; that is, one might not need something but might still want something.
 
 *Use it*: yes
 
@@ -106,7 +106,7 @@
 [discrete]
 [[dotnet]]
 ==== image:images/yes.png[yes] .NET (noun)
-*Description*: Microsoft's development platform, ".NET", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET applications can run on .NET or on the .NET Framework. For version 5 and later, refer to it as ".NET". For earlier versions, use ".NET Core".
+*Description*: Microsoft's development platform, _.NET_, is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET applications can run on .NET or on the .NET Framework. For version 5 and later, refer to it as ".NET". For earlier versions, use ".NET Core".
 
 *Use it*: yes
 
@@ -118,7 +118,7 @@
 [discrete]
 [[dotnetcore]]
 ==== image:images/no.png[no] .NET Core (noun)
-*Description*: Microsoft's development platform, ".NET Core", is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET Core applications can run on .NET Core or on the .NET Framework. For version 3.1 and earlier, refer to it as ".NET Core". In later versions, Microsoft changed the name to ".NET".
+*Description*: Microsoft's development platform, _.NET Core_, is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET Core applications can run on .NET Core or on the .NET Framework. For version 3.1 and earlier, refer to it as ".NET Core". In later versions, Microsoft changed the name to ".NET".
 
 *Use it*: no
 
@@ -174,7 +174,7 @@
 [[network-transparency]]
 ==== image:images/yes.png[yes] network transparency (noun)
 
-*Description*: "Network transparency" is a condition where an operating system or other service allows the user access to a remote resource through a network without needing to know if the resource is remote or local. For example, Sun Microsystems' NFS, which has become a de facto industry standard, provides access to shared files through an interface called the Virtual File System (VFS) that runs on top of the TCP/IP stack. Users can manipulate shared files as if they were stored locally on the user's hard disk.
+*Description*: _Network transparency_ is a condition where an operating system or other service allows the user access to a remote resource through a network without needing to know if the resource is remote or local. For example, Sun Microsystems' NFS, which has become a de facto industry standard, provides access to shared files through an interface called the Virtual File System (VFS) that runs on top of the TCP/IP stack. Users can manipulate shared files as if they were stored locally on the user's hard disk.
 
 *Use it*: yes
 
@@ -193,11 +193,12 @@
 
 *See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
 
+//Fuse: Removed point 4 that refers to Fuse tooling
 [discrete]
 [[node]]
 ==== image:images/yes.png[yes] node (noun)
 
-*Description*: 1) In networks, a "node" is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a node is a point where two or more lines meet. 2) In the context of OpenShift, a "node" provides the runtime environments for containers. 3) In the context of OpenStack, use "node" to refer to a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host". 4) In Fuse tooling, a node is a Camel component or EIP that has been dragged from the Palette and dropped on the route editor's canvas displayed on the Design tab. Selecting a node on the canvas displays its properties in Properties view for editing. Selecting a node on the canvas also displays its usage details on the Documentation tab in Properties view.
+*Description*: 1) In networks, a _node_ is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a _node_ is a point where two or more lines meet. 2) In the context of OpenShift, a _node_ provides the runtime environments for containers. 3) In the context of OpenStack, a _node_ is a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host".
 
 *Use it*: yes
 
@@ -213,17 +214,5 @@
 *Use it*: yes
 
 *Incorrect forms*: right now
-
-*See also*:
-
-[discrete]
-[[numbers]]
-==== image:images/caution.png[with caution] numbers (adverb)
-
-*Description*: Spell out the numbers zero through nine. Spell out any number that begins a sentence. Spell out a number that precedes another number (four 6-pound bags or eleven 20-pound bags). Spell out approximations (for example, thousands of ...) and very large values (for example, 4 billion). Use numerals for numbers 10 and greater, negative numbers, fractions, percentages, decimals, measurements, references to book sections (Chapter 3, Table 5, Page 11), and numbers less than 10 if they appear in the same paragraph as numbers of 10 or greater. (You answered 8 out of 14 questions correctly.) Use numerals when referring to registers (such as R1), code (such as x = 6), and release versions (Red Hat Enterprise Linux 6, Source-Navigator 4.5). Do not use commas in numbers with four digits (for example, 1000 rather than 1,000). Use commas in numbers with five or more digits (for example, 10,000). See the _IBM Style Guide_ for detailed information on numbering formats.
-
-*Use it*: with caution
-
-*Incorrect forms*:
 
 *See also*:

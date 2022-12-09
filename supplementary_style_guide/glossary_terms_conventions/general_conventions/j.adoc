@@ -11,7 +11,7 @@
 [discrete]
 [[JavaScript]]
 ==== image:images/yes.png[yes] JavaScript (noun)
-*Description*: "JavaScript" is a trademark of Oracle Corporation and should be used when referring to the scripting language. When referring to a file written using this language, use "javascript".
+*Description*: _JavaScript_ is a trademark of Oracle Corporation and should be used when referring to the scripting language. When referring to a file written using this language, use "javascript".
 
 *Use it*: yes
 
@@ -23,7 +23,7 @@
 [discrete]
 [[jaxrs]]
 ==== image:images/yes.png[yes] jaxrs subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jaxrs" subsystem enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the jaxrs subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jaxrs subsystem_ enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the `jaxrs` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
 
 *Use it*: yes
 
@@ -58,7 +58,7 @@
 [discrete]
 [[jboss-eap]]
 ==== image:images/yes.png[yes] JBoss EAP (noun)
-*Description*: "JBoss EAP" is the approved shortened form of xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform].
+*Description*: _JBoss EAP_ is the approved shortened form of xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform].
 
 *Use it*: yes
 
@@ -70,7 +70,7 @@
 [discrete]
 [[jboss-eap-built-in-messaging]]
 ==== image:images/yes.png[yes] JBoss EAP built-in messaging (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, "JBoss EAP built-in messaging" is an acceptable term for referring to the built-in messaging system. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
+*Description*: In Red Hat JBoss Enterprise Application Platform, _JBoss EAP built-in messaging_ is an acceptable term for referring to the built-in `messaging` system. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
 
 *Use it*: yes
 
@@ -105,7 +105,7 @@
 [discrete]
 [[jca]]
 ==== image:images/yes.png[yes] jca subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jca" subsystem is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the jca subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jca subsystem_ is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the `jca` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -117,7 +117,7 @@
 [discrete]
 [[jdr]]
 ==== image:images/yes.png[yes] jdr subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jdr" subsystem is used to gather diagnostic data to support troubleshooting. In general text, write in lowercase as one word. Use "JDR subsystem" when referring to the jdr subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jdr subsystem_ is used to gather diagnostic data to support troubleshooting. In general text, write in lowercase as one word. Use "JDR subsystem" when referring to the `jdr` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -129,7 +129,7 @@
 [discrete]
 [[jgroups]]
 ==== image:images/yes.png[yes] jgroups subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jgroups" subsystem is used to configure protocol stacks and communication mechanisms for servers in a cluster. In general text, write in lower case as one word. Use "JGroups subsystem" when referring to the jgroups subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'G'.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jgroups subsystem_ is used to configure protocol stacks and communication mechanisms for servers in a cluster. In general text, write in lower case as one word. Use "JGroups subsystem" when referring to the `jgroups` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'G'.
 
 *Use it*: yes
 
@@ -153,7 +153,7 @@
 [discrete]
 [[jmx]]
 ==== image:images/yes.png[yes] jmx subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jmx" subsystem is used to configure remote Java Management Extensions (JMX) access. In general text, write in lowercase as one word. Use "JMX subsystem" when referring to the jmx subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jmx subsystem_ is used to configure remote Java Management Extensions (JMX) access. In general text, write in lowercase as one word. Use "JMX subsystem" when referring to the `jmx` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -164,7 +164,7 @@
 [discrete]
 [[job]]
 ==== image:images/yes.png[yes] job (noun)
-*Description*: A "job" is a task performed by a computer system, for example, printing a file is a job. Jobs can be performed by a single program or by a collection of programs.
+*Description*: A _job_ is a task performed by a computer system, for example, printing a file is a job. Jobs can be performed by a single program or by a collection of programs.
 
 *Use it*: yes
 
@@ -176,7 +176,7 @@
 [discrete]
 [[jpa]]
 ==== image:images/yes.png[yes] jpa subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jpa" subsystem is used to manage requirements of the Java Persistence API. In general text, write in lowercase as one word. Use "JPA subsystem" when referring to the jpa subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jpa subsystem_ is used to manage requirements of the Java Persistence API. In general text, write in lowercase as one word. Use "JPA subsystem" when referring to the `jpa` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -188,7 +188,7 @@
 [discrete]
 [[jsf]]
 ==== image:images/yes.png[yes] jsf subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jsf" subsystem is used to manage JavaServer Faces implementations. In general text, write in lowercase as one word. Use "JSF subsystem" when referring to the jsf subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jsf subsystem_ is used to manage JavaServer Faces implementations. In general text, write in lowercase as one word. Use "JSF subsystem" when referring to the `jsf` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -200,7 +200,7 @@
 [discrete]
 [[jsr77]]
 ==== image:images/yes.png[yes] jsr77 subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the "jsr77" subsystem provides Java EE management capabilities defined by the JSR-77 specification. In general text, write in lowercase as one word. Use "JSR-77 subsystem" when referring to the jsr77 subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JSR' and '77'.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _jsr77 subsystem_ provides Java EE management capabilities defined by the JSR-77 specification. In general text, write in lowercase as one word. Use "JSR-77 subsystem" when referring to the `jsr77` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JSR' and '77'.
 
 *Use it*: yes
 
@@ -211,7 +211,7 @@
 [discrete]
 [[jsvc]]
 ==== image:images/yes.png[yes] jsvc (noun)
-*Description*: The Apache Commons Daemon "jsvc" is a set of libraries and applications for making Java applications run on UNIX systems more easily. Capitalize the initial "J" only at the beginning of a sentence.
+*Description*: The Apache Commons Daemon _jsvc_ is a set of libraries and applications for making Java applications run on UNIX systems more easily. Capitalize the initial "J" only at the beginning of a sentence.
 
 *Use it*: yes
 
@@ -222,7 +222,7 @@
 [discrete]
 [[jvm]]
 ==== image:images/yes.png[yes] JVM (noun)
-*Description*: "JVM" is an abbreviation for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM", or only the noun itself, "virtual machine". You can include JVM for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)".
+*Description*: "JVM" is an abbreviation for "Java Virtual Machine" and a registered trademark of Oracle Corporation. Due to this registration, use the full phrase "Java Virtual Machine" or "Java VM", or only the noun itself, "virtual machine". You can include "JVM" for clarity because most people know it as such, for example, "Java Virtual Machine (JVM)".
 
 *Use it*: yes
 

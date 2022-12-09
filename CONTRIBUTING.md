@@ -41,7 +41,7 @@ To submit an update:
    $ git fetch upstream
    ```
 
-2. Check out a branch from upstream/main
+2. Check out a branch from `upstream/main`.
 
    ```
    $ git checkout -b <new-branch> upstream/main
@@ -73,8 +73,8 @@ To submit an update:
 
    Typically the previous command gives the URL to open a pull request. If not, you can open one from the [Pull requests](https://github.com/redhat-documentation/supplementary-style-guide/pulls) tab of the GitHub UI.
 
-After you submit a pull request, it will be reviewed by members of this project.
-
+After you submit a pull request, at least three repository administrators must review and approve the content changes. 
+When your PR has three such approvals, a repository administrator will merge your PR to the `main` branch.
 ## Building the guide
 
 You must have `asciidoctor` installed.

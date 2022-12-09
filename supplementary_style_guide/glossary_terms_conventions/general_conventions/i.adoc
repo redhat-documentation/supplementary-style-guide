@@ -452,10 +452,11 @@ There is no functional difference between the first server that was installed an
 *See also*: xref:host-system[host system], xref:target-kernel[target kernel], xref:target-system[target system]
 
 // Fuse: Added "In Red Hat Fuse," and removed "in Fuse Ignite"
+// Fuse: Changed "Red Hat Fuse" to "Red Hat Fuse Online" (Breda)
 [discrete]
 [[integration]]
 ==== image:images/yes.png[yes] integration (noun)
-*Description*: In Red Hat Fuse, an integration is a Camel route created.
+*Description*: In Red Hat Fuse Online, an integration is a Camel route created.
 
 *Use it*: yes
 

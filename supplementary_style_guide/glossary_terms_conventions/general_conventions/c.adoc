@@ -22,17 +22,7 @@
 
 *See also*: xref:routing-context[routing context]
 
-// Fuse: Added "In Red Hat Fuse,"
-[discrete]
-[[canvas]]
-==== image:images/yes.png[yes] canvas (noun)
-*Description*: In Red Hat Fuse, the route editor provides a _canvas_ (Design tab) on which to build routes graphically, using components and Enterprise Integration Patterns (EIPs) available in the Palette.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:design-tab[Design tab], xref:eip[EIP]
+// Fuse: Removed entry for "canvas" (Breda)
 
 [discrete]
 [[cap-ex]]
@@ -588,10 +578,11 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 *See also*: xref:ostree[OSTree]
 
 // Fuse: Added "In Red Hat Fuse,"
+// Fuse: Removed sentence about Palette's Components (Breda)
 [discrete]
 [[component]]
 ==== image:images/yes.png[yes] component (noun)
-*Description*: In Red Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. In Fuse tooling, the Palette's Components drawer contains the Camel components that you can add to your route in the route editor. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
+*Description*: In Red Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
 
 *Use it*: yes
 
@@ -658,25 +649,16 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 
 *See also*:
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
-[discrete]
-[[configurations-tab]]
-==== image:images/yes.png[yes] Configurations tab (noun)
-*Description*: In Red Hat Fuse, the route editor's _Configurations tab_ enables you to add configuration shared globally by all routes in a multiroute routing context. You can select existing endpoints, data formats, or beans from the list or create and add new ones.
-
-*Use it*: yes
-
-*Incorrect forms*: Configurations view
-
-*See also*: xref:design-tab[Design tab], xref:routing-context[routing context], xref:source-tab[Source tab]
+// Fuse: Removed entry for "Configurations tab" (Breda)
 
 // AMQ: Added "In Red Hat AMQ, a connection is"
 // Fuse: Added "In Red Hat Fuse,"
 // Combined entries
+// Fuse: Changed "Fuse Ignite" to "Red Hat Fuse Online" or "Fuse Online" (Breda)
 [discrete]
 [[connection]]
 ==== image:images/yes.png[yes] connection (noun)
-*Description*: 1) In Red Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called network connections. 2) In Fuse Ignite, you create a connection using a Fuse Ignite connector. You can then use the connection in a Fuse Ignite integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
+*Description*: 1) In Red Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called network connections. 2) In Red Hat Fuse Online, you create a connection using a Fuse Online connector. You can then use the connection in a Fuse Online integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
 
 *Use it*: yes
 
@@ -710,10 +692,11 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 // AMQ: Added "In Red Hat AMQ, a connector is"
 // Fuse: Added "In Red Hat Fuse,"
 // Combined entries
+// Fuse: Changed "Fuse Ignite" to "Red Hat Fuse Online" (Breda)
 [discrete]
 [[connector]]
 ==== image:images/yes.png[yes] connector (noun)
-*Description*: 1) In Red Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. 2) In Fuse Ignite, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
+*Description*: 1) In Red Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. 2) In Red Hat Fuse Online, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
 
 *Use it*: yes
 
