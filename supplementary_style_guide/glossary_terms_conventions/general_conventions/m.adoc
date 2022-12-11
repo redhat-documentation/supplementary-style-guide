@@ -532,7 +532,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 [discrete]
 [[module-stream]]
 ==== image:images/yes.png[yes] module stream (noun)
-*Description*: In Red Hat Enterprise Linux, _module streams_ are filters that can be imagined as virtual repositories in the AppStream physical repository. Module streams represent versions of the Application Stream components.
+*Description*: In Red Hat Enterprise Linux, _module streams_ are filters that can be thought of as virtual repositories in the AppStream physical repository. Module streams represent versions of the Application Stream components.
 
 *Use it*: yes
 
