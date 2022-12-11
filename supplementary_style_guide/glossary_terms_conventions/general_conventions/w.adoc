@@ -34,7 +34,7 @@
 [discrete]
 [[weak-dependencies]]
 ==== image:images/yes.png[yes] Weak dependencies (noun)
-*Description*: In Red Hat Enterprise Linux, _Weak dependencies_ are variants of the Requires directive that describe dependencies that are not necessary for the package to work but are considered useful by the package author. You can think of them as best served with.
+*Description*: In Red Hat Enterprise Linux, _Weak dependencies_ are variants of the `Requires` directive that describe dependencies that are not necessary for the package to work but are considered useful by the package author.
 
 *Use it*: yes
 
