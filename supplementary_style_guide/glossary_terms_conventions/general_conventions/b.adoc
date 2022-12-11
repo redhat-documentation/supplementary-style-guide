@@ -244,7 +244,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[boolean-dependencies]]
 ==== image:images/yes.png[yes] Boolean dependencies (noun)
-*Description*: _Boolean dependencies_ are Boolean expressions (if, and, or, and other expressions) used in the Requires, Conflicts, and Weak dependency directives. Boolean dependencies are also known as Rich dependencies.
+*Description*: _Boolean dependencies_ are Boolean expressions (`if`, `and`, `or`, and other expressions) used in the Requires, Conflicts, and Weak dependency directives. Boolean dependencies are also known as _Rich dependencies_.
 
 *Use it*: yes
 
