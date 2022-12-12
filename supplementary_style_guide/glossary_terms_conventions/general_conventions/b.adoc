@@ -81,7 +81,7 @@
 [discrete]
 [[baseos-repository]]
 ==== image:images/yes.png[yes] BaseOS repository (noun)
-*Description*: RHEL content in the _BaseOS repository_ is intended to provide the core set of the underlying OS functionality that provides the foundation for all installations.
+*Description*: RHEL content in the _BaseOS repository_ provides the core set of the underlying OS functionality that provides the foundation for all installations.
 
 *Use it*: yes
 
