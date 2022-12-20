@@ -75,7 +75,7 @@ If you are writing quick start or other content that uses a more informal xref:#
 [[conversational-style]]
 == Conversational style
 
-Follow the _IBM Style_ guide guidance of _less conversational_ style in most cases.
+Follow the _IBM Style_ guide advice of _less conversational_ style in most cases.
 
 As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
 
