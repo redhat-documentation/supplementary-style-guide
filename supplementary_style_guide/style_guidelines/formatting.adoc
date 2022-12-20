@@ -4,7 +4,7 @@
 [[date-formats]]
 == Date formats
 
-Follow the _IBM Style_ guide  guidance of _day Month year_ for date formats, for example, 3 October 2019.
+Follow the _IBM Style_ guide advice of _day Month year_ for date formats, for example, 3 October 2019.
 
 When the format _day Month year_ causes a presentation or clarity issue, use _Month day, year_ (for example, October 3, 2019) instead.
 
