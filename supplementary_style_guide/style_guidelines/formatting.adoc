@@ -8,6 +8,16 @@ Follow the _IBM Style_ guide advice of _day Month year_ for date formats, for ex
 
 When the format _day Month year_ causes a presentation or clarity issue, use _Month day, year_ (for example, October 3, 2019) instead.
 
+[[non-breaking-spaces]]
+== Non-breaking spaces
+
+Use a _non-breaking space_ (`+{nbsp}+`) between the words "Red" and "Hat". The non-breaking space prevents an automatic line break from separating the two words onto two lines. 
+
+.Example AsciiDoc: Non-breaking space
+----
+Before you begin to customize the installer, download the Red{nbsp}Hat-provided boot images.
+----
+
 [product-names-versions-ref]]
 == Product names and version references
 
