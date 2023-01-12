@@ -73,6 +73,16 @@ For example, you might combine existing product name attributes to create compou
 :name-spring-reactive: {name-runtime-spring-boot} with {name-runtime-vertx} reactive components
 ----
 
+[[non-breaking-spaces]]
+== Non-breaking spaces
+
+Use a _non-breaking space_ (`+{nbsp}+`) between the words "Red" and "Hat". The non-breaking space prevents an automatic line break from separating the two words onto two lines. 
+
+.Example non-breaking space
+----
+Before you begin to customize the installer, download the Red{nbsp}Hat-provided boot images.
+----
+
 [[single-step-procedures]]
 == Single-step procedures
 
