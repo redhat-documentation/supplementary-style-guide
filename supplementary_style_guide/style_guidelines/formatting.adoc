@@ -13,7 +13,7 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 
 Use a _non-breaking space_ (`+{nbsp}+`) between the words "Red" and "Hat". The non-breaking space prevents an automatic line break from separating the two words onto two lines. 
 
-.Example AsciiDoc: non-breaking space
+.Example AsciiDoc: Non-breaking space
 ----
 Before you begin to customize the installer, download the Red{nbsp}Hat-provided boot images.
 ----
