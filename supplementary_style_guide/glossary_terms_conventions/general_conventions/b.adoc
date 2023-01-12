@@ -79,6 +79,19 @@
 *See also*: xref:distinguished-name[distinguished name]
 
 [discrete]
+[[basic-http-authentication]]
+==== image:images/yes.png[yes] Basic HTTP authentication (noun)
+*Description*: _Basic HTTP authentication_, or _Basic authentication_, is an authorization scheme that uses HTTP to send login credentials encoded in Base64. 
+This scheme is often used by applications to authenticate with servers, services, and API endpoints. 
+On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentication".
+
+*Use it*: yes
+
+*Incorrect forms*: basic authentication, Basic Authentication, basic auth, Basic auth, Basic Auth
+
+*See also*:
+
+[discrete]
 [[basically]]
 ==== image:images/no.png[no] basically (adverb)
 *Description*: _Basically_ is another term for _in principle_ or _fundamentally_.
