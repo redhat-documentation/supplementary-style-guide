@@ -10,6 +10,8 @@
 
 include::introduction/about-guide.adoc[leveloffset=+2]
 
+include::introduction/whats-new.adoc[leveloffset=+2]
+
 include::introduction/contributing.adoc[leveloffset=+2]
 
 [[style-guidelines]]
