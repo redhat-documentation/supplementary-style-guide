@@ -344,6 +344,17 @@ Do not capitalize the first letter.
 
 *See also*:
 
+[discrete]
+[[kubernetes]]
+==== image:images/yes.png[yes] Kubernetes (noun)
+*Description*: _Kubernetes_ is an open-source system for automating deployment, scaling, and management of containerized applications. Do not use "k8s" as an abbreviation unless it is a code or variable reference.
+
+*Use it*: yes
+
+*Incorrect forms*: kubernetes, k8s
+
+*See also*: xref:openshift[OpenShift], xref:okd[OKD]
+
 // OCP: General; kept as is
 // TODO: This term is outdated anyway and should be removed in a future update
 [discrete]
