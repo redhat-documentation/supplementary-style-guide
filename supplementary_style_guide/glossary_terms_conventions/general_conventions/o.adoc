@@ -251,7 +251,7 @@
 // OCP: General; kept as is;
 [discrete]
 [[openshift]]
-==== image:images/yes.png[yes] OpenShift (noun)
+==== image:images/caution.png[with caution] OpenShift (noun)
 *Description*: The "OpenShift" product name should be paired with its product distribution or variant name whenever possible. For example:
 
 - OpenShift Container Platform
@@ -267,7 +267,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 - OpenShift Pipeline
 - OpenShift SDN
 
-*Use it*: yes, as described above
+*Use it*: with caution
 
 *Incorrect forms*:
 
