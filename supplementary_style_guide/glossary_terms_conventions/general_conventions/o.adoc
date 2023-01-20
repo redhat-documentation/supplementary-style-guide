@@ -414,7 +414,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 [discrete]
 [[operator-lifecycle-manager]]
-==== image:images/yes.png[yes] Operator Lifecycle Manager  (noun)
+==== image:images/yes.png[yes] Operator Lifecycle Manager (noun)
 *Description*: In Red Hat OpenShift, _Operator Lifecycle Manager_ (OLM) helps users install, update, and manage the lifecycle of Kubernetes native applications (Operators) and their associated services running across their OpenShift Container Platform clusters. OLM is part of the Operator Framework, which is an open source toolkit designed to manage Operators in an effective, automated, and scalable way.
 
 *Use it*: yes
@@ -479,9 +479,9 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
-*Incorrect forms*: xref:ceph-osd[ceph-osd], xref:object-storage-device[Object Storage Device], xref:osd-daemon[OSD daemon]
+*Incorrect forms*: ceph-osd, Object Storage Device, OSD daemon
 
-*See also*:
+*See also*: xref:ceph-osd[ceph-osd], xref:object-storage-device[Object Storage Device], xref:osd-daemon[OSD daemon]
 
 // Ceph: Added "In Red Hat Ceph Storage, OSD Daemon is"
 [discrete]
