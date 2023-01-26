@@ -1,7 +1,7 @@
 [discrete]
 [[hard-code]]
 ==== image:images/yes.png[yes] hard code (verb)
-*Description*: "Hard code" means to configure values in source code such that it cannot be altered without modifying the code.
+*Description*: _Hard code_ means to configure values in source code such that they cannot be altered without modifying the code.
 
 *Use it*: yes
 
@@ -12,7 +12,7 @@
 [discrete]
 [[hard-coded]]
 ==== image:images/yes.png[yes] hard-coded (adjective)
-*Description*: A "hard-coded" value is a value that is configured in the source code such that it cannot be altered without modifying the code.
+*Description*: A _hard-coded_ value is a value that is configured in the source code such that it cannot be altered without modifying the code.
 
 *Use it*: yes
 
@@ -37,15 +37,15 @@
 [discrete]
 [[header-bar]]
 ==== image:images/yes.png[yes] header bar (noun)
-*Description*: In Red Hat Virtualization, the header bar contains the following buttons:
+*Description*: In Red Hat Virtualization, the _header bar_ contains the following buttons:
 
-*  collapse/expand text labels in the side bar
+* collapse/expand text labels in the side bar
 * *Bookmarks*
 * *Tags*
 * *Tasks*
 * *Events and alerts*
 * *Help*/*About*
-* Currently logged in user, SSH key *Options*.
+* currently logged in user, SSH key *Options*
 
 *Use it*: yes
 
@@ -56,7 +56,7 @@
 [discrete]
 [[health-check]]
 ==== image:images/yes.png[yes] health check (noun)
-*Description*: A "health check" identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way, for example, "A health check ensures your systems perform at their best."
+*Description*: A _health check_ identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."
 
 *Use it*: yes
 
@@ -67,7 +67,7 @@
 [discrete]
 [[help-desk]]
 ==== image:images/yes.png[yes] help desk (noun)
-*Description*: A "help desk" is a service that provides support for computer users.
+*Description*: A _help desk_ is a service that provides support for computer users.
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 [discrete]
 [[hertz]]
 ==== image:images/yes.png[yes] hertz (noun)
-*Description*: A "hertz" is a unit of frequency. Capitalize the initial "H" only at the beginning of a sentence. The correct abbreviation is "Hz".
+*Description*: A _hertz_ is a unit of frequency. Capitalize the initial "H" only at the beginning of a sentence. The correct abbreviation is "Hz".
 
 *Use it*: yes
 
@@ -90,7 +90,7 @@
 [discrete]
 [[hidden-replica]]
 ==== image:images/yes.png[yes] hidden replica (noun)
-*Description*: In Red Hat Enterprise Linux, a hidden replica is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
+*Description*: In Red Hat Enterprise Linux, a _hidden replica_ is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
 
 Hidden replicas are primarily designed for services such as backups, bulk importing and exporting, or actions that require shutting down IdM services. Since no clients use a hidden replica, administrators can temporarily shut down the services on this host without affecting any clients.
 
@@ -103,7 +103,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 [discrete]
 [[high-availability-noun]]
 ==== image:images/yes.png[yes] high availability (noun)
-*Description*: "High availability" is the concept of making a system or service continuously available, even if a particular component experiences a failure. An example is, "Support is available 24x7 to help maintain high availability."
+*Description*: _High availability_ is the concept of making a system or service continuously available, even if a particular component experiences a failure. For example, "Support is available 24x7 to help maintain high availability."
 
 *Use it*: yes
 
@@ -114,7 +114,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 [discrete]
 [[high-availability]]
 ==== image:images/yes.png[yes] high-availability (adjective)
-*Description*: Use "high-availability" to describe an object that is continuously available, for example, "high-availability cluster".
+*Description*: Use _high-availability_ to describe an object that is continuously available, for example, "high-availability cluster".
 
 *Use it*: yes
 
@@ -125,7 +125,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 [discrete]
 [[high-performance-computing]]
 ==== image:images/yes.png[yes] high-performance computing (noun)
-*Description*: "High-performance computing" is the use of parallel processing to obtain much more efficient processing of complex programs. Use standard hyphenation guidelines to maintain clarity.
+*Description*: _High-performance computing_ is the use of parallel processing to obtain more efficient processing of complex programs. Use standard hyphenation guidelines to maintain clarity.
 
 *Use it*: yes
 
@@ -138,7 +138,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 [discrete]
 [[horizontal-pod-autoscaler]]
 ==== image:images/yes.png[yes] horizontal pod autoscaler (noun)
-*Description*: In Red Hat OpenShift, a horizontal pod autoscaler, also known as HPA, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
+*Description*: In Red Hat OpenShift, a _horizontal pod autoscaler_, also known as _HPA_, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
 
 *Use it*: yes
 
@@ -149,7 +149,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 [discrete]
 [[host-rhv]]
 ==== image:images/yes.png[yes] host (noun)
-*Description*: In Red Hat Virtualization, hosts are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
+*Description*: In Red Hat Virtualization, _hosts_ are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
 Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or "virtualization host". When referring to a specific type of host, use "Red Hat Enterprise Linux host" or "Red Hat Virtualization Host".
 
 *Use it*: yes
@@ -161,7 +161,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[host-group]]
 ==== image:images/yes.png[yes] host group (noun)
-*Description*: A "host group" is a group of one or more hosts. Only capitalize the initial "H" at the beginning of a sentence.
+*Description*: A _host group_ is a group of one or more hosts. Only capitalize the initial "H" at the beginning of a sentence.
 
 *Use it*: yes
 
@@ -173,7 +173,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[host-system]]
 ==== image:images/yes.png[yes] host system (noun)
-*Description*: In Red Hat Enterprise Linux, the host system is the system on which the instrumentation modules, from SystemTap scripts, are compiled, to be loaded on target systems.
+*Description*: In Red Hat Enterprise Linux, the _host system_ is the system on which the instrumentation modules, from SystemTap scripts, are compiled to be loaded on target systems.
 
 *Use it*: yes
 
@@ -184,7 +184,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hot-add]]
 ==== image:images/yes.png[yes] hot add (verb)
-*Description*: "Hot add" is the ability to add physical or virtual hardware to a running system without the need for downtime.
+*Description*: _Hot add_ is the ability to add physical or virtual hardware to a running system without the need for downtime.
 
 *Use it*: yes
 
@@ -195,7 +195,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hot-plug]]
 ==== image:images/yes.png[yes] hot plug (verb)
-*Description*: "Hot plug" is the ability to add or remove physical or virtual hardware to or from a running system without the need for downtime.
+*Description*: _Hot plug_ is the ability to add or remove physical or virtual hardware to or from a running system without the need for downtime.
 
 *Use it*: yes
 
@@ -207,7 +207,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hot-rod]]
 ==== image:images/yes.png[yes] Hot Rod (adjective)
-*Description*: In Red Hat Data Grid, Hot Rod is a binary TCP client-server protocol. Java, C#, C++, Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
+*Description*: In Red Hat Data Grid, _Hot Rod_ is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
 
 *Use it*: yes
 
@@ -218,7 +218,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hot-swap]]
 ==== image:images/yes.png[yes] hot swap (verb)
-*Description*: "Hot swap" is the ability to remove and replace physical or virtual hardware on a running system without the need for downtime.
+*Description*: _Hot swap_ is the ability to remove and replace physical or virtual hardware on a running system without the need for downtime.
 
 *Use it*: yes
 
@@ -229,7 +229,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hotline]]
 ==== image:images/yes.png[yes] hotline (noun)
-*Description*: A "hotline" is a direct communications link between two points in which communications are automatically directed to a specific destination without the need for additional routing.
+*Description*: A _hotline_ is a direct communications link between two points in which communications are automatically directed to a specific destination without the need for additional routing.
 
 *Use it*: yes
 
@@ -240,7 +240,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hp-proliant]]
 ==== image:images/yes.png[yes] HP ProLiant (noun)
-*Description*: "HP ProLiant" is a Hewlett-Packard (HP) server. Do not use any other variations.
+*Description*: _HP ProLiant_ is a Hewlett-Packard (HP) server. Do not use any other variations.
 
 *Use it*: yes
 
@@ -251,7 +251,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[html]]
 ==== image:images/yes.png[yes] HTML (noun)
-*Description*: "HTML" is an abbreviation for "HyperText Markup Language", a markup language for web pages. When referring to the language, use "HTML", such as "To see the HTML version of this documentation". When referring to a web page extension, use "html", such as "The main page is index.html."
+*Description*: _HTML_ is an abbreviation for "HyperText Markup Language", a markup language for web pages. When referring to the language, use "HTML", such as "To see the HTML version of this documentation". When referring to a web page file extension, use "html". For example "The main page is `index.html`."
 
 *Use it*: yes
 
@@ -275,13 +275,13 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hub]]
 ==== image:images/yes.png[yes] hub (noun)
-*Description*: In an LDAP replication environment, hubs receive data from a supplier and replicate the data to consumers.
+*Description*: In an LDAP replication environment, a _hub_ receives data from a supplier and replicates the data to consumers.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:consumer[consumer]
+*See also*: xref:consumer[consumer], xref:ldap[LDAP]
 
 [discrete]
 [[huge-page-noun]]
@@ -308,7 +308,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hyper-threading]]
 ==== image:images/yes.png[yes] Hyper-Threading (noun)
-*Description*: "Hyper-Threading" is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT".
+*Description*: _Hyper-Threading_ is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT".
 
 *Use it*: yes
 
@@ -320,7 +320,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hyperv]]
 ==== image:images/yes.png[yes] Hyper-V (noun)
-*Description*: In the Microsoft Windows operating system, "Hyper-V" is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
+*Description*: In the Microsoft Windows operating system, _Hyper-V_ is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
 
 *Use it*: yes
 
@@ -331,7 +331,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hyperconverged]]
 ==== image:images/yes.png[yes] hyperconverged (adjective)
-*Description*: A hyperconverged system combines compute, storage, networking, and management capabilities into a single solution, simplifying deployment and reducing the cost of acquisition and maintenance.
+*Description*: A _hyperconverged_ system combines compute, storage, networking, and management capabilities into a single solution, simplifying deployment and reducing the cost of acquisition and maintenance.
 
 *Use it*: yes
 
@@ -342,7 +342,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[hypervisor]]
 ==== image:images/yes.png[yes] hypervisor (noun)
-*Description*: A "hypervisor" is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red Hat Enterprise Virtualization Hypervisor.
+*Description*: A _hypervisor_ is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red Hat Enterprise Virtualization Hypervisor.
 
 *Use it*: yes
 
