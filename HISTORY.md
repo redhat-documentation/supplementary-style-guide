@@ -4,6 +4,8 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [January 2023](#2023-january)
+* [December 2022](#2022-december)
 * [November 2022](#2022-november)
 * [October 2022](#2022-october)
 * [September 2022](#2022-september)
@@ -29,7 +31,25 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of November 29 2022 -->
+<!-- Updated as of January 26 2023 -->
+
+<a name="2023-january"></a>
+## January 2023
+
+* Removed "through" entry in favor of following the _IBM Style_ guidance on number ranges
+* Added glossary entry for [bytecode](https://redhat-documentation.github.io/supplementary-style-guide/#bytecode)
+* Added guidance for documenting [Developer Preview](https://redhat-documentation.github.io/supplementary-style-guide/#developer-preview-guidance) features
+* Added glossary entry for [Developer Preview](https://redhat-documentation.github.io/supplementary-style-guide/#developer-preview)
+* Added glossary entry for [Kubernetes](https://redhat-documentation.github.io/supplementary-style-guide/#kubernetes)
+* Added glossary entry for [Assisted Installer](https://redhat-documentation.github.io/supplementary-style-guide/#assisted-installer)
+* Added glossary entry for [Basic HTTP authentication](https://redhat-documentation.github.io/supplementary-style-guide/#basic-http-authentication)
+* Added guidance for using [non-breaking spaces between "Red" and "Hat"](https://redhat-documentation.github.io/supplementary-style-guide/#non-breaking-spaces)
+
+<a name="2022-december"></a>
+## December 2022
+
+* Added glossary entry for [disconnected](https://redhat-documentation.github.io/supplementary-style-guide/#disconnected)
+* Removed "numbers" entry in favor of following the _IBM Style_ guidance on numbers.
 
 <a name="2022-november"></a>
 ## November 2022
