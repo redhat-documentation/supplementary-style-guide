@@ -294,6 +294,16 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
+[[session-persistence]]
+==== image:images/yes.png[yes] session persistence (noun)
+*Description*: _Session persistence_, also known as a sticky session, is a process in which a load balancer sends all requests in a user session to a specific network server. Session persistence can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "session persistence" or "sticky session" consistently.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:sticky-session[sticky session]
+
 [discrete]
 [[sha-1]]
 ==== image:images/yes.png[yes] SHA-1 (noun)
@@ -919,6 +929,26 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *Incorrect forms*:
 
 *See also*: xref:ostree[OSTree], xref:commit[commit]
+
+[[sticky-bit]]
+==== image:images/yes.png[yes] sticky bit (noun)
+*Description*: A _sticky bit_ is a user permission set for a directory that limits user access to the directory owner and the root user. 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[sticky-session]]
+==== image:images/yes.png[yes] sticky session (noun)
+*Description*: A _sticky session_, also known as session persistence, is a process in which a load balancer sends all requests in a user session to a specific network server. Sticky sessions can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "sticky session" or "session persistence" consistently.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:session-persistence[session persistence]
 
 // AMQ: General; kept as is
 [discrete]
