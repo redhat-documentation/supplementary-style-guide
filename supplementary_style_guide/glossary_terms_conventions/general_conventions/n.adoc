@@ -72,7 +72,7 @@
 [discrete]
 [[natively-compiled-code]]
 ==== image:images/yes.png[yes] natively compiled code (noun)
-*Description*: _Natively compiled code_ is code written in a programming language that compiles to machine code with a resulting binary executable file. Such code can be run stand-alone.
+*Description*: _Natively compiled code_ is code written in a programming language that compiles to machine code with a resulting binary executable file. Such code can be run standalone.
 
 *Use it*: yes
 
