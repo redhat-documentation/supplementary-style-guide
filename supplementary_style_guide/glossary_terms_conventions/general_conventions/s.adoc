@@ -296,7 +296,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 [[session-persistence]]
 ==== image:images/yes.png[yes] session persistence (noun)
-*Description*: _Session persistence_, also known as a sticky session, is a process in which a load balancer sends all requests in a user session to a specific network server. Session persistence can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "session persistence" or "sticky session" consistently.
+*Description*: _Session persistence_, also known as a _sticky session_, is a process in which a load balancer sends all requests in a user session to a specific network server. Session persistence can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "session persistence" or "sticky session" consistently.
 
 *Use it*: yes
 
@@ -942,7 +942,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[sticky-session]]
 ==== image:images/yes.png[yes] sticky session (noun)
-*Description*: A _sticky session_, also known as session persistence, is a process in which a load balancer sends all requests in a user session to a specific network server. Sticky sessions can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "sticky session" or "session persistence" consistently.
+*Description*: A _sticky session_, also known as _session persistence_, is a process in which a load balancer sends all requests in a user session to a specific network server. Sticky sessions can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "sticky session" or "session persistence" consistently.
 
 *Use it*: yes
 
