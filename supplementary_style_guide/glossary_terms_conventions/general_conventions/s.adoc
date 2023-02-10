@@ -635,17 +635,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:spec-file[spec file], xref:rpm[RPM]
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
-[discrete]
-[[source-tab]]
-==== image:images/yes.png[yes] Source tab (noun)
-*Description*: In Red Hat Fuse, the route editor's _Source tab_ displays the XML code that corresponds to the graphical representation of the routing context displayed on the Design tab. You can edit and save changes to the routing context on either tab. Changes saved on one tab are immediately propagated and saved on the other tab.
-
-*Use it*: yes
-
-*Incorrect forms*: Source view
-
-*See also*: xref:configurations-tab[Configurations tab], xref:design-tab[Design tab]
 // Fuse: Removed "Source tab" entry (Breda)
 
 [discrete]
