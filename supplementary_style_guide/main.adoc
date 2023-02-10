@@ -15,7 +15,7 @@ include::introduction/contributing.adoc[leveloffset=+2]
 [[style-guidelines]]
 == Style guidelines
 
-These recommendations might override existing guidance in the _IBM Style Guide_, or might provide guidance for items not covered in the _IBM Style Guide_.
+These recommendations might override existing guidance in the _IBM Style_ guide, or might provide guidance for items not covered in the _IBM Style_ guide.
 
 [NOTE]
 ====
@@ -55,7 +55,7 @@ include::style_guidelines/managed-services.adoc[leveloffset=+1]
 [[glossary-terms-conventions]]
 == Glossary of terms and conventions
 
-This glossary is the central location for terms and conventions for technical language in Red Hat’s product documentation and other technical content.
+This glossary is the central location for terms and conventions for technical language in Red Hat product documentation and other technical content.
 
 === A
 

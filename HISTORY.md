@@ -4,6 +4,8 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 #### Table of contents
 
+* [January 2023](#2023-january)
+* [December 2022](#2022-december)
 * [November 2022](#2022-november)
 * [October 2022](#2022-october)
 * [September 2022](#2022-september)
@@ -29,7 +31,25 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * [January 2021](#2021-january)
 * [December 2020](#2020-december)
 
-<!-- Updated as of November 29 2022 -->
+<!-- Updated as of January 26 2023 -->
+
+<a name="2023-january"></a>
+## January 2023
+
+* Removed "through" entry in favor of following the _IBM Style_ guidance on number ranges
+* Added glossary entry for [bytecode](https://redhat-documentation.github.io/supplementary-style-guide/#bytecode)
+* Added guidance for documenting [Developer Preview](https://redhat-documentation.github.io/supplementary-style-guide/#developer-preview-guidance) features
+* Added glossary entry for [Developer Preview](https://redhat-documentation.github.io/supplementary-style-guide/#developer-preview)
+* Added glossary entry for [Kubernetes](https://redhat-documentation.github.io/supplementary-style-guide/#kubernetes)
+* Added glossary entry for [Assisted Installer](https://redhat-documentation.github.io/supplementary-style-guide/#assisted-installer)
+* Added glossary entry for [Basic HTTP authentication](https://redhat-documentation.github.io/supplementary-style-guide/#basic-http-authentication)
+* Added guidance for using [non-breaking spaces between "Red" and "Hat"](https://redhat-documentation.github.io/supplementary-style-guide/#non-breaking-spaces)
+
+<a name="2022-december"></a>
+## December 2022
+
+* Added glossary entry for [disconnected](https://redhat-documentation.github.io/supplementary-style-guide/#disconnected)
+* Removed "numbers" entry in favor of following the _IBM Style_ guidance on numbers.
 
 <a name="2022-november"></a>
 ## November 2022
@@ -101,7 +121,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * Added alternatives for the terms [master and slave](https://redhat-documentation.github.io/supplementary-style-guide/#conscious-language) in the conscious language section
 * Added a new section for guidelines specific to [cloud services documentation](https://redhat-documentation.github.io/supplementary-style-guide/#cloud-services)
 * Added product-specific terminology for Red Hat Directory Server
-* Council decided to follow _IBM Style Guide_ guidance on Java terms "throw" and "catch"
+* Council decided to follow _IBM Style_ guide guidance on Java terms "throw" and "catch"
 
 <a name="2022-january"></a>
 ## January 2022
@@ -144,7 +164,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 * Added guidance for [writing prerequisites](https://redhat-documentation.github.io/supplementary-style-guide/#prerequisites)
 * Added glossary entry for [as expected](https://redhat-documentation.github.io/supplementary-style-guide/#as-expected)
 * Updated product-specific terminology for Red Hat JBoss Enterprise Application Platform
-* Council decided to follow _IBM Style Guide_ "hostname" one word guidance
+* Council decided to follow _IBM Style_ guide "hostname" one word guidance
 
 <a name="2021-july"></a>
 ## July 2021
@@ -158,7 +178,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 ## June 2021
 
 * Added glossary entry for [standalone](https://redhat-documentation.github.io/supplementary-style-guide/#standalone)
-* Council decided to follow _IBM Style Guide_ lowercase "internet" guidance
+* Council decided to follow _IBM Style_ guide lowercase "internet" guidance
 * Added guidance for [release notes doc texts](https://redhat-documentation.github.io/supplementary-style-guide/#release-notes-doc-texts)
 * Added guidance to follow [_less conversational_ style](https://redhat-documentation.github.io/supplementary-style-guide/#conversational-style) as default tone
 * Added guidance for [single-step procedures](https://redhat-documentation.github.io/supplementary-style-guide/#single-step-procedures)
@@ -167,12 +187,12 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 ## May 2021
 
 * Added guidance for [using attributes for product names and versions](https://redhat-documentation.github.io/supplementary-style-guide/#_product_names_and_version_references)
-* Council decided to follow _IBM Style Guide_ "lifecycle" one word guidance
+* Council decided to follow _IBM Style_ guide "lifecycle" one word guidance
 
 <a name="2021-april"></a>
 ## April 2021
 
-* Removed glossary entries that were duplicated by the new _IBM Style Guide_
+* Removed glossary entries that were duplicated by the new _IBM Style_ guide
 * Clarified [AMD64](https://redhat-documentation.github.io/supplementary-style-guide/#AMD64) glossary entry
 
 <a name="2021-march"></a>

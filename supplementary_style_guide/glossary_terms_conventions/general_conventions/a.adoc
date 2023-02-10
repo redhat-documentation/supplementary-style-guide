@@ -488,6 +488,17 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*: xref:business-rule[business rule], xref:business-process[business process], xref:decision-table[decision table], xref:data-model[data model], xref:dsl[DSL]
 
 [discrete]
+[[assisted-installer]]
+==== image:images/yes.png[yes] Assisted Installer (noun)
+*Description*: In Red Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations. 
+
+*Use it*: yes
+
+*Incorrect forms*: AI, assisted installer
+
+*See also*:
+
+[discrete]
 [[asynchronous-transfer-mode]]
 ==== image:images/yes.png[yes] Asynchronous Transfer Mode (noun)
 *Description*: _Asynchronous Transfer Mode (ATM)_ is a network technology based on transferring data in cells or packets of a fixed size. The cell size used with ATM is relatively small compared to units used with older technologies.

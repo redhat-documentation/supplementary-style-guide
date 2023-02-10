@@ -56,7 +56,6 @@
 
 *See also*:
 
-
 // OCP: Added "In Red Hat OpenShift,"
 [discrete]
 [[template]]
@@ -126,20 +125,9 @@
 *See also*:
 
 [discrete]
-[[through]]
-==== image:images/yes.png[yes] through (preposition)
-*Description*: Use "through" instead of a hyphen or any other type of dash when expressing a range.
-
-*Use it*: yes
-
-*Incorrect forms*: thru
-
-*See also*:
-
-[discrete]
 [[throughput]]
 ==== image:images/yes.png[yes] throughput (noun)
-*Description*: _Throughput_ is the amount of data transferred from one place to another or processed in a specified amount of time. Data transfer rates for disk drives and networks are measured in terms of throughput. Typically, throughput is measured in kbps, Mbps, or Gbps. See the _IBM Style Guide_ for more information about using measurements and abbreviations.
+*Description*: _Throughput_ is the amount of data transferred from one place to another or processed in a specified amount of time. Data transfer rates for disk drives and networks are measured in terms of throughput. Typically, throughput is measured in kbps, Mbps, or Gbps. See the _IBM Style_ guide for more information about using measurements and abbreviations.
 
 *Use it*: yes
 
