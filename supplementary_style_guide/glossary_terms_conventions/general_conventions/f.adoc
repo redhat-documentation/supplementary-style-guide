@@ -155,7 +155,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 [discrete]
 [[foreman]]
 ==== image:images/caution.png[with caution] Foreman (noun)
-*Description*: The upstream project from which the provisioning and life cycle management functions of Satellite Server are drawn. Use only when required to mention the upstream project. In Red Hat Virtualization, use "Foreman/Satellite" when referring directly to the UI element. Do not use "Foreman" or "Foreman/Satellite" to refer to Red Hat Satellite in other cases. A bug is open to get this element changed to Satellite. (https://bugzilla.redhat.com/show_bug.cgi?id=1428205[BZ#1428205 Change Foreman/Satellite to Satellite])
+*Description*: The upstream project from which the provisioning and life cycle management functions of Satellite Server are drawn. Use only when required to mention the upstream project.
 
 *Use it*: with caution
 
