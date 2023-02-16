@@ -11,10 +11,10 @@
 
 [discrete]
 [[want]]
-==== image:images/yes.png[yes] want (verb)
+==== image:images/caution.png[with caution] want (verb)
 *Description*: Use "want" instead of "wish" or "would like". It is better to avoid it entirely by rewriting the sentence.
 
-*Use it*: yes
+*Use it*: with caution
 
 *Incorrect forms*: wish, would like
 
