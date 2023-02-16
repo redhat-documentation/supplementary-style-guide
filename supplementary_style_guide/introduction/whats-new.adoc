@@ -1,0 +1,42 @@
+[[whats-new]]
+= What's new
+
+////
+Instructions:
+- Wait until a month is over to include its entries
+- Only include updates that are significant, not just cleanup, formatting, or typo fixes.
+- Order entries alphabetically (not chronologically)
+////
+
+Review the history of significant updates to the _Red Hat supplementary style guide for product documentation_.
+
+[NOTE]
+====
+To see the history of changes from 2020 through 2022, view the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md[What's new] page in the GitHub repository.
+====
+
+// [discrete]
+// [[february-2023]]
+// == February 2023
+//
+// .Glossary entries
+// * TODO
+//
+// .Style guidance
+// * TODO
+
+[discrete]
+[[january-2023]]
+== January 2023
+
+.Glossary entries
+* xref:assisted-installer[Assisted Installer]: Added glossary entry
+* xref:basic-http-authentication[Basic HTTP authentication]: Added glossary entry
+* xref:bytecode[bytecode]: Added glossary entry
+* xref:developer-preview[Developer Preview]: Added glossary entry
+* xref:kubernetes[Kubernetes]: Added glossary entry
+* through: Removed glossary entry in favor of following the _IBM Style_ guidance on number ranges
+
+.Style guidance
+* xref:developer-preview-guidance[Developer Preview]: Added guidance on documenting Developer Preview features
+* xref:non-breaking-spaces[Non-breaking spaces]: Added guidance on using a non-breaking space between "Red" and "Hat"
