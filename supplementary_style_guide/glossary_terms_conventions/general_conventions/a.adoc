@@ -1,4 +1,38 @@
 [discrete]
+[[aarch64]]
+==== image:images/yes.png[yes] AArch64 (noun)
+*Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances, for example RHEL, Fedora, CoreOS, and other Linux distributions. Use this format in general cases when referring to system architecture. 
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example:
+
+_When running RHEL with an AArch64 system, run the following command:_
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:_aarch64[aarch64]
+
+[discrete]
+[[_aarch64]]
+==== image:images/yes.png[yes] aarch64 (noun)
+*Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances for example RHEL, Fedora, CoreOS, and other Linux distributions. Use the lowercase format with backticks when referring to objects or parameters. 
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example:
+
+_Specify the system architecture of your cluster, such as `x86_64` or `aarch64`._
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:aarch64[AArch64]
+
+[discrete]
 [[absolute-path]]
 ==== image:images/yes.png[yes] absolute path (noun)
 *Description*: The location of a file or directory from the root directory (/). Provides all information to locate a file or directory.
@@ -189,20 +223,36 @@ Always use "Administration Portal", including the capital P. When other departme
 [discrete]
 [[AMD64]]
 ==== image:images/yes.png[yes] AMD64 (noun)
-*Description*: _AMD64_ is the AMD implementation of a 64-bit version of the x86 architecture.
+*Description*: The AMD 64-bit version of the x86 architecture. Use this term for OpenShift Container Platform (OCP) attributes, Kubernetes, Operators, APIs, or CLI objects. Use this format in general sentences when referring to OCP features. 
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example: 
+
+_This Operator is supported on AMD64 and ARM64 platforms._ 
 
 *Use it*: yes
 
-*Incorrect forms*: Hammer, x86_64, x86-64, x64, 64-bit x86
+*Incorrect forms*: _AMD64_ 
 
-*See also*:
+*See also*: xref:amd64[amd64]
 
-[NOTE]
-====
-The AMD64 logo is trademarked; the term _AMD64_ is not trademarked. For more information about AMD trademarks, see the http://www.amd.com/us/aboutamd/Pages/trademarks.aspx[AMD Trademark Information] page.
+[discrete]
+[[amd64]]
+==== image:images/yes.png[yes] amd64 (noun)
+*Description*: The AMD 64-bit version of the x86 architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, or CLI objects. Use the lowercase format and backticks when referring to objects or parameters.
 
-For more information about Intel® trademarks, see the http://www.intel.com/content/www/us/en/legal/trademarks.html[Trademark Information] and http://www.intel.com/content/www/us/en/trademarks/trademarks.html[Usage Guidelines for Customers, Licensees, and Other Third Parties] pages.
-====
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example:
+
+_Valid values are `amd64`._
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:AMD64[AMD64]
 
 // AMQ: General; kept as is
 [discrete]
@@ -569,6 +619,58 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *Incorrect forms*:
 
 *See also*:  xref:xplat[Microsoft Azure Cross-Platform Command-Line Interface]
+
+[discrete]
+[[arm64]]
+==== image:images/yes.png[yes] ARM64 (noun)
+*Description*: A 64-bit version of the ARM architecture. Use this term for OpenShift Container Platform (OCP) attributes, Kubernetes, Operators, APIs, and CLI objects. Use this format in general sentences when referring to OCP features.
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example: 
+
+_Creating an ARM64 compute machine set._ 
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:arm64[arm64]
+
+[discrete]
+[[_arm64]]
+==== image:images/yes.png[yes] arm64 (noun)
+*Description*: A 64-bit version of the ARM architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, and CLI objects. Use lowercase format and backticks when referring to objects or parameters.
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example: 
+
+_Valid values are `arm64`._
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:ARM64[ARM64]
+
+[discrete]
+[[bit-64-arm]]
+==== image:images/yes.png[yes] 64-bit ARM (noun)
+*Description*: A 64-bit version of the ARM architecture. This term can refer to both AArch66/`aarch64` and ARM64/`arm64`. Use this format in general cases when writing for both names of the architecture and various cloud providers.
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example: 
+
+* _Amazon Web Service (AWS) on 64-bit ARM systems._
+* _Machine types for Azure on 64-bit ARM infrastructures._
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*: xref:aarch64[aarch64], xref:arm64[arm64]
 
 // Azure: Added "In Microsoft Azure" and removed "Microsoft Azure" from later in the sentence
 [discrete]
