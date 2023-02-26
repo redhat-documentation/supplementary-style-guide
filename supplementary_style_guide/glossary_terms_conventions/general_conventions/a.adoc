@@ -399,7 +399,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[application-stream]]
 ==== image:images/yes.png[yes] Application Stream (noun)
-*Description*: _Application Streams_ are multiple versions of RHEL user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse with "AppStream", which is the repository through which Application Streams are distributed. Note that the AppStream repository also contains components other than Application Streams.
+*Description*: _Application Streams_ are multiple versions of Red Hat Enterprise Linux user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse with "AppStream", which is the repository through which Application Streams are distributed. Note that the AppStream repository also contains components other than Application Streams.
 
 *Use it*: yes
 
