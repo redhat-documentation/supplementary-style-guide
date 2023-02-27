@@ -110,7 +110,7 @@ When combined with privileges, permissions define a user's or resource's overall
 // OCS: General; kept as is
 [discrete]
 [[persistent-volume]]
-==== persistent volume (noun)
+==== image:images/yes.png[yes] persistent volume (noun)
 *Description*: A _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.
 
 *Use it*: yes
@@ -122,7 +122,7 @@ When combined with privileges, permissions define a user's or resource's overall
 // OCS: General; kept as is; added "in the cluster"
 [discrete]
 [[persistent-volume-claim]]
-==== persistent volume claim (noun)
+==== image:images/yes.png[yes] persistent volume claim (noun)
 *Description*: A _persistent volume claim_ (PVC) is a request for storage in the cluster by a user.
 
 *Use it*: yes

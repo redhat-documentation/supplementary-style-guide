@@ -614,7 +614,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 // OCS: General; kept as is; removed duplicate description
 [discrete]
 [[multicloud-object-gateway]]
-==== Multicloud Object Gateway (noun)
+==== image:images/yes.png[yes] Multicloud Object Gateway (noun)
 *Description*: _Multicloud Object Gateway_ (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
 
 *Use it*: yes

@@ -749,7 +749,7 @@ image repository contains one or more tagged images.
 // OCS: General; kept as is
 [discrete]
 [[container-storage-interface]]
-==== Container Storage Interface (noun)
+==== image:images/yes.png[yes] Container Storage Interface (noun)
 *Description*: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
 
 *Use it*: yes
