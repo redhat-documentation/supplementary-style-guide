@@ -498,7 +498,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[dnf-automatic]]
 ==== image:images/yes.png[yes] DNF Automatic (noun)
-*Description*: Use _DNF Automatic_ to refer to a RHEL command-line interface suited for automatic and regular package updates.
+*Description*: Use _DNF Automatic_ to refer to a Red Hat Enterprise Linux command-line interface suited for automatic and regular package updates.
 
 *Use it*: yes
 
