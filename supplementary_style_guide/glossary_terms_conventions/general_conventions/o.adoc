@@ -12,7 +12,7 @@
 // OCS: General; kept as is
 [discrete]
 [[object-bucket]]
-==== object bucket (noun)
+==== image:images/yes.png[yes] object bucket (noun)
 *Description*: A container to store objects.
 
 *Use it*: yes
@@ -24,7 +24,7 @@
 // OCS: General; kept as is
 [discrete]
 [[object-bucket-claim]]
-==== object bucket claim (noun)
+==== image:images/yes.png[yes] object bucket claim (noun)
 *Description*: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use "object bucket claim" to request an AWS S3 compatible bucket for the workloads.
 
 *Use it*: yes
