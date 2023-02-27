@@ -1068,7 +1068,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 [discrete]
 [[rpm]]
 ==== image:images/yes.png[yes] RPM (noun)
-*Description*: _RPM_ is the recursive acronym for the _RPM Package Manager_. RPM manages files in the RPM format, known as RPM packages. RPM packages are known informally as rpm files, but this informal usage is not used in Red Hat documentation to avoid confusion with the command name. Files in RPM format are referred to as RPM packages.
+*Description*: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format. Those files are referred to as "RPM packages". Note that even though RPM packages are known informally as `rpm` files, this informal term must not be used in Red Hat documentation to avoid confusion with the command name.
 
 *Use it*: yes
 
