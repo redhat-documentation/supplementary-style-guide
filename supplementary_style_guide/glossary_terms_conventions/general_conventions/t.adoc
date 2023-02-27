@@ -270,7 +270,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *Incorrect forms*:
 
-*See also*:
+*See also*: xref:scriptlet-directive[scriptlet directive]
 
 [discrete]
 [[trusted-certificate-authority]]
