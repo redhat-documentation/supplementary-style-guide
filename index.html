@@ -450,6 +450,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_related_red_hat_guides">Related Red Hat guides</a></li>
 </ul>
 </li>
+<li><a href="#whats-new">What&#8217;s new</a></li>
 <li><a href="#_contributing">Contributing</a>
 <ul class="sectlevel3">
 <li><a href="#_submitting_a_question_or_suggestion">Submitting a question or suggestion</a></li>
@@ -623,6 +624,61 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="whats-new">What&#8217;s new</h3>
+<div class="paragraph">
+<p>Review the history of significant updates to the <em>Red Hat supplementary style guide for product documentation</em>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>To see the history of changes from 2020 through 2022, view the <a href="https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md">What&#8217;s new</a> page in the GitHub repository.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<h4 id="january-2023" class="discrete">January 2023</h4>
+<div class="ulist">
+<div class="title">Glossary entries</div>
+<ul>
+<li>
+<p><a href="#assisted-installer">Assisted Installer</a>: Added glossary entry</p>
+</li>
+<li>
+<p><a href="#basic-http-authentication">Basic HTTP authentication</a>: Added glossary entry</p>
+</li>
+<li>
+<p><a href="#bytecode">bytecode</a>: Added glossary entry</p>
+</li>
+<li>
+<p><a href="#developer-preview">Developer Preview</a>: Added glossary entry</p>
+</li>
+<li>
+<p><a href="#kubernetes">Kubernetes</a>: Added glossary entry</p>
+</li>
+<li>
+<p>through: Removed glossary entry in favor of following the <em>IBM Style</em> guidance on number ranges</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Style guidance</div>
+<ul>
+<li>
+<p><a href="#developer-preview-guidance">Developer Preview</a>: Added guidance on documenting Developer Preview features</p>
+</li>
+<li>
+<p><a href="#non-breaking-spaces">Non-breaking spaces</a>: Added guidance on using a non-breaking space between "Red" and "Hat"</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
@@ -2777,7 +2833,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 </div>
 <div class="sect2">
 <h3 id="_b">B</h3>
-<h4 id="backing-store" class="discrete">backing store (noun)</h4>
+<h4 id="backing-store" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> backing store (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat OpenShift Container Storage, a <em>backing store</em> is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.</p>
 </div>
@@ -4221,7 +4277,7 @@ image repository contains one or more tagged images.</p>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#red-hat-container-catalog">Red Hat Container Catalog</a>, <a href="#openshift-container-registry">OpenShift Container Registry</a></p>
 </div>
-<h4 id="container-storage-interface" class="discrete">Container Storage Interface (noun)</h4>
+<h4 id="container-storage-interface" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Container Storage Interface (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: The <em>Container Storage Interface (CSI)</em> is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.</p>
 </div>
@@ -5795,7 +5851,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="foreman" class="discrete"><span class="image"><img src="images/caution.png" alt="with caution"></span> Foreman (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: The upstream project from which the provisioning and life cycle management functions of Satellite Server are drawn. Use only when required to mention the upstream project. In Red Hat Virtualization, use "Foreman/Satellite" when referring directly to the UI element. Do not use "Foreman" or "Foreman/Satellite" to refer to Red Hat Satellite in other cases. A bug is open to get this element changed to Satellite. (<a href="https://bugzilla.redhat.com/show_bug.cgi?id=1428205">BZ#1428205 Change Foreman/Satellite to Satellite</a>)</p>
+<p><strong>Description</strong>: The upstream project from which the provisioning and life cycle management functions of Satellite Server are drawn. Use only when required to mention the upstream project.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: with caution</p>
@@ -5915,7 +5971,9 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 <h3 id="_g">G</h3>
 <h4 id="gplusplus" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> G++ (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "G" is a C compiler usually operated using the command line. When referring to the program, use "G++".</p>
+<p><strong>Description</strong>: <em>G++</em> is a C compiler usually operated by using the command line.
+When referring to the program, use "G++".
+When referring to the command, use <code>g++</code>, marked up appropriately.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -5924,24 +5982,11 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#gplusplus-command">g++</a></p>
-</div>
-<h4 id="gplusplus-command" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> g++ (noun)</h4>
-<div class="paragraph">
-<p><strong>Description</strong>: "G" is a C compiler usually operated through the command line. When referring to the command, use "g++", marked up appropriately.</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
-</div>
-<div class="paragraph">
-<p><strong>Incorrect forms</strong>:</p>
-</div>
-<div class="paragraph">
-<p><strong>See also</strong>: <a href="#gplusplus">G++</a></p>
+<p><strong>See also</strong>:</p>
 </div>
 <h4 id="gas" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GAS (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GAS" is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the program, use "GAS".</p>
+<p><strong>Description</strong>: <em>GAS</em> is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the program, use "GAS".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -5954,7 +5999,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gas-command" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> gas (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GAS" is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the command, use <code>gas</code>, marked up appropriately.</p>
+<p><strong>Description</strong>: <em>GAS</em> is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the command, use <code>gas</code>, marked up appropriately.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -5980,7 +6025,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gb" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GB (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GB" is an abbreviation for gigabyte. Use a space between the value and the abbreviation, for example, "a 2 GB file".</p>
+<p><strong>Description</strong>: <em>GB</em> is an abbreviation for "gigabyte". Use a space between the value and the abbreviation, for example, "a 2 GB file".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -5993,7 +6038,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gbps" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Gbps (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Gbps" is an abbreviation for Gigabits per second, a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.</p>
+<p><strong>Description</strong>: <em>Gbps</em> is an abbreviation for "gigabits per second", a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6006,7 +6051,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gcc" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GCC (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GCC" is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC".</p>
+<p><strong>Description</strong>: <em>GCC</em> is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6019,7 +6064,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gcc-command" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> gcc (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GCC" is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use <code>gcc</code>, marked up appropriately.</p>
+<p><strong>Description</strong>: <em>GCC</em> is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use <code>gcc</code>, marked up appropriately.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6032,7 +6077,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gcj" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GCJ (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GCJ" is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ".</p>
+<p><strong>Description</strong>: <em>GCJ</em> is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6045,7 +6090,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gcj-command" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> gcj (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GCJ" is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use <code>gcj</code>, marked up appropriately.</p>
+<p><strong>Description</strong>: <em>GCJ</em> is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the command, use <code>gcj</code>, marked up appropriately.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6058,7 +6103,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gdb" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GDB (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GDB" is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the program, use "GDB".</p>
+<p><strong>Description</strong>: <em>GDB</em> is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the program, use "GDB".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6071,7 +6116,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gdb-command" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> gdb (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GDB" is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the command, use <code>gdb</code>, marked up appropriately.</p>
+<p><strong>Description</strong>: <em>GDB</em> is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the command, use <code>gdb</code>, marked up appropriately.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6084,7 +6129,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gid" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GID (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GID" is an abbreviation for "Group ID". Do not use "gid".</p>
+<p><strong>Description</strong>: <em>GID</em> is an abbreviation for "Group ID". Do not use "gid".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6097,7 +6142,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gigabyte" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> gigabyte (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "gigabyte" is 2 to the 30th power (1,073,741,824) bytes. One gigabyte is equal to 1,024 megabytes. When abbreviating gigabyte, use "GB".</p>
+<p><strong>Description</strong>: A <em>gigabyte</em> is 2 to the 30th power (1,073,741,824) bytes. One gigabyte is equal to 1,024 megabytes. When abbreviating gigabyte, use "GB".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6110,7 +6155,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gimp" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GIMP (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GIMP" is an acronym for "GNU Image Manipulation Program". Do not use "Gimp" or "gimp".</p>
+<p><strong>Description</strong>: <em>GIMP</em> is an acronym for "GNU Image Manipulation Program". Do not use "Gimp" or "gimp".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6123,7 +6168,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="git" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Git (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Git is an open source version control system. Use "Git" when referring to the software in general, for example, "Clone the Git repository." Do not use lowercase "git" unless you are referring to the <code>git</code> command; as such, mark it up in monospace.</p>
+<p><strong>Description</strong>: <em>Git</em> is an open source version control system. Use "Git" when referring to the software in general, for example, "Clone the Git repository." Do not use lowercase "git" unless you are referring to the <code>git</code> command, which you should mark up in monospace.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6136,7 +6181,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gnome" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GNOME (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GNOME" is an open source desktop environment for operating systems that are similar to the UNIX system.</p>
+<p><strong>Description</strong>: <em>GNOME</em> is an open source desktop environment for operating systems that are similar to the UNIX system.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6149,7 +6194,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gnome-classic" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GNOME Classic (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as "classic mode" in internal and developer-oriented community documents, we should stay consistent with what is exposed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic". The GNOME "modern mode" (technically, GNOME Shell with the classic mode extensions disabled) is referred to as "GNOME" (on the login screen and elsewhere).</p>
+<p><strong>Description</strong>: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as <em>classic mode</em> in internal and developer-oriented community documents, we should stay consistent with what is displayed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic". Refer to "GNOME modern mode" (technically, GNOME Shell with the classic mode extensions disabled) as "GNOME" (on the login screen and elsewhere).</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6162,7 +6207,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gnu" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GNU (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GNU" is a recursive acronym for "GNU&#8217;s Not UNIX". GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu".</p>
+<p><strong>Description</strong>: <em>GNU</em> is a recursive acronym for "GNU&#8217;s Not UNIX". GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6175,7 +6220,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gnupro" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GNUPro (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GNUPro" Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro".</p>
+<p><strong>Description</strong>: <em>GNUPro</em> Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6188,7 +6233,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gpl" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GPL (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GPL" is an abbreviation for "General Public License". Do not use "Gpl" or "gpl".</p>
+<p><strong>Description</strong>: <em>GPL</em> is an abbreviation for "General Public License". Do not use "Gpl" or "gpl".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6201,7 +6246,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="grayscale" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> grayscale (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Grayscale" is a range of gray shades from white to black, as used in a monochrome display or printout. Do not use "gray-scale" or "gray scale". Only the noun form is currently recognized.</p>
+<p><strong>Description</strong>: <em>Grayscale</em> is a range of gray shades from white to black, as used in a monochrome display or printout. Do not use "gray-scale" or "gray scale". Only the noun form is currently recognized.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6214,20 +6259,20 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="greenboot" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> greenboot (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Generic Health Check Framework for systemd on rpm-ostree based systems.</p>
+<p><strong>Description</strong>: Refer to the Generic Health Check Framework for <code>systemd</code> on <code>rpm-ostree</code> based systems as <em>greenboot</em>.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph">
-<p><strong>Incorrect forms</strong>: Greenboot, green boots</p>
+<p><strong>Incorrect forms</strong>: Greenboot, green boots, GreenBoot</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
 <h4 id="group" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> group (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Single Sign-On, a group manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings that group defines.</p>
+<p><strong>Description</strong>: In Red Hat Single Sign-On, a <em>group</em> manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings in the group&#8217;s definition.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6240,7 +6285,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="grub" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GRUB (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GRUB" is an acronym for "GRand Unified Bootloader", which is a Linux boot loader. Note that GRUB 2 has replaced what was formerly known as GRUB, which was version 0.9x. GRUB version 0.9x is now known as <em>GRUB Legacy</em>.</p>
+<p><strong>Description</strong>: <em>GRUB</em> is an acronym for "GRand Unified Bootloader", which is a Linux boot loader. Note that GRUB 2 has replaced what was formerly known as GRUB, which was version 0.9x. GRUB version 0.9x is now known as "GRUB Legacy".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6253,7 +6298,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gssapi" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GSSAPI (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: The Generic Security Service Application Program Interface (GSSAPI, or GSS-API) allows developers to abstract how their applications protect data that is sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.</p>
+<p><strong>Description</strong>: <em>GSSAPI</em> (or <em>GSS-API</em>) is an abbreviation for "Generic Security Service Application Program Interface". Developers use GSSAPI to abstract how their applications protect data sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.</p>
 </div>
 <div class="paragraph">
 <p>Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat Enterprise Linux and Microsoft Windows Active Directory Kerberos implementations to be API compatible.</p>
@@ -6269,7 +6314,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="gtkplus" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> GTK+ (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "GTK+" is an abbreviation for "GIMP Tool Kit". Do not use "GTK", "Gtk", or "gtk".</p>
+<p><strong>Description</strong>: <em>GTK+</em> is an abbreviation for "GIMP Tool Kit". Do not use "GTK", "Gtk", or "gtk".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6282,20 +6327,20 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="guest-operating-system" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> guest operating system (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "guest operating system" refers to the operating system that is installed in a virtual machine. Do not use "guest" by itself, because it is ambiguous.</p>
+<p><strong>Description</strong>: A <em>guest operating system</em> refers to the operating system installed in a virtual machine. Do not use "guest" on its own.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph">
-<p><strong>Incorrect forms</strong>:</p>
+<p><strong>Incorrect forms</strong>: guest</p>
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
 <h4 id="guestfish" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Guestfish (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Guestfish" is an interactive shell that supports commands for accessing and modifying virtual disk images used in platform virtualization. You can use Guestfish for viewing and editing virtual machines (VMs) managed by libvirt.</p>
+<p><strong>Description</strong>: <em>Guestfish</em> is an interactive shell that supports commands for accessing and modifying virtual disk images used in platform virtualization. You can use Guestfish for viewing and editing virtual machines (VMs) managed by <code>libvirt</code>.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6308,7 +6353,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="guided-editor" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> guided editor (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "guided editor" is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.</p>
+<p><strong>Description</strong>: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the <em>guided editor</em> is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6324,7 +6369,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 <h3 id="_h">H</h3>
 <h4 id="hard-code" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hard code (verb)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Hard code" means to configure values in source code such that it cannot be altered without modifying the code.</p>
+<p><strong>Description</strong>: <em>Hard code</em> means to configure values in source code such that they cannot be altered without modifying the code.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6337,7 +6382,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="hard-coded" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hard-coded (adjective)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "hard-coded" value is a value that is configured in the source code such that it cannot be altered without modifying the code.</p>
+<p><strong>Description</strong>: A <em>hard-coded</em> value is a value that is configured in the source code such that it cannot be altered without modifying the code.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6363,7 +6408,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="header-bar" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> header bar (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, the header bar contains the following buttons:</p>
+<p><strong>Description</strong>: In Red Hat Virtualization, the <em>header bar</em> contains the following buttons:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -6386,7 +6431,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 <p><strong>Help</strong>/<strong>About</strong></p>
 </li>
 <li>
-<p>Currently logged in user, SSH key <strong>Options</strong>.</p>
+<p>currently logged in user, SSH key <strong>Options</strong></p>
 </li>
 </ul>
 </div>
@@ -6401,7 +6446,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="health-check" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> health check (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "health check" identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way, for example, "A health check ensures your systems perform at their best."</p>
+<p><strong>Description</strong>: A <em>health check</em> identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6414,7 +6459,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="help-desk" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> help desk (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "help desk" is a service that provides support for computer users.</p>
+<p><strong>Description</strong>: A <em>help desk</em> is a service that provides support for computer users.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6427,7 +6472,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="hertz" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hertz (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "hertz" is a unit of frequency. Capitalize the initial "H" only at the beginning of a sentence. The correct abbreviation is "Hz".</p>
+<p><strong>Description</strong>: A <em>hertz</em> is a unit of frequency. Capitalize the initial "H" only at the beginning of a sentence. The correct abbreviation is "Hz".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6440,7 +6485,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="hidden-replica" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hidden replica (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, a hidden replica is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, a <em>hidden replica</em> is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.</p>
 </div>
 <div class="paragraph">
 <p>Hidden replicas are primarily designed for services such as backups, bulk importing and exporting, or actions that require shutting down IdM services. Since no clients use a hidden replica, administrators can temporarily shut down the services on this host without affecting any clients.</p>
@@ -6456,7 +6501,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="high-availability-noun" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> high availability (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "High availability" is the concept of making a system or service continuously available, even if a particular component experiences a failure. An example is, "Support is available 24x7 to help maintain high availability."</p>
+<p><strong>Description</strong>: <em>High availability</em> is the concept of making a system or service continuously available, even if a particular component experiences a failure. For example, "Support is available 24x7 to help maintain high availability."</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6469,7 +6514,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="high-availability" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> high-availability (adjective)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Use "high-availability" to describe an object that is continuously available, for example, "high-availability cluster".</p>
+<p><strong>Description</strong>: Use <em>high-availability</em> to describe an object that is continuously available, for example, "high-availability cluster".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6482,7 +6527,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="high-performance-computing" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> high-performance computing (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "High-performance computing" is the use of parallel processing to obtain much more efficient processing of complex programs. Use standard hyphenation guidelines to maintain clarity.</p>
+<p><strong>Description</strong>: <em>High-performance computing</em> is the use of parallel processing to obtain more efficient processing of complex programs. Use standard hyphenation guidelines to maintain clarity.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6495,7 +6540,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="horizontal-pod-autoscaler" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> horizontal pod autoscaler (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat OpenShift, a horizontal pod autoscaler, also known as HPA, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.</p>
+<p><strong>Description</strong>: In Red Hat OpenShift, a <em>horizontal pod autoscaler</em>, also known as <em>HPA</em>, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6508,7 +6553,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="host-rhv" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> host (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, hosts are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
+<p><strong>Description</strong>: In Red Hat Virtualization, <em>hosts</em> are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
 Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or "virtualization host". When referring to a specific type of host, use "Red Hat Enterprise Linux host" or "Red Hat Virtualization Host".</p>
 </div>
 <div class="paragraph">
@@ -6522,7 +6567,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="host-group" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> host group (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "host group" is a group of one or more hosts. Only capitalize the initial "H" at the beginning of a sentence.</p>
+<p><strong>Description</strong>: A <em>host group</em> is a group of one or more hosts. Only capitalize the initial "H" at the beginning of a sentence.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6535,7 +6580,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="host-system" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> host system (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, the host system is the system on which the instrumentation modules, from SystemTap scripts, are compiled, to be loaded on target systems.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, the <em>host system</em> is the system on which the instrumentation modules, from SystemTap scripts, are compiled to be loaded on target systems.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6548,7 +6593,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hot-add" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hot add (verb)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Hot add" is the ability to add physical or virtual hardware to a running system without the need for downtime.</p>
+<p><strong>Description</strong>: <em>Hot add</em> is the ability to add physical or virtual hardware to a running system without the need for downtime.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6561,7 +6606,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hot-plug" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hot plug (verb)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Hot plug" is the ability to add or remove physical or virtual hardware to or from a running system without the need for downtime.</p>
+<p><strong>Description</strong>: <em>Hot plug</em> is the ability to add or remove physical or virtual hardware to or from a running system without the need for downtime.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6574,7 +6619,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hot-rod" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Hot Rod (adjective)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Data Grid, Hot Rod is a binary TCP client-server protocol. Java, C#, C++, Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.</p>
+<p><strong>Description</strong>: In Red Hat Data Grid, <em>Hot Rod</em> is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6587,7 +6632,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hot-swap" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hot swap (verb)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Hot swap" is the ability to remove and replace physical or virtual hardware on a running system without the need for downtime.</p>
+<p><strong>Description</strong>: <em>Hot swap</em> is the ability to remove and replace physical or virtual hardware on a running system without the need for downtime.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6600,7 +6645,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hotline" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hotline (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "hotline" is a direct communications link between two points in which communications are automatically directed to a specific destination without the need for additional routing.</p>
+<p><strong>Description</strong>: A <em>hotline</em> is a direct communications link between two points in which communications are automatically directed to a specific destination without the need for additional routing.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6613,7 +6658,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hp-proliant" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> HP ProLiant (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "HP ProLiant" is a Hewlett-Packard (HP) server. Do not use any other variations.</p>
+<p><strong>Description</strong>: <em>HP ProLiant</em> is a Hewlett-Packard (HP) server. Do not use any other variations.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6626,7 +6671,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="html" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> HTML (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "HTML" is an abbreviation for "HyperText Markup Language", a markup language for web pages. When referring to the language, use "HTML", such as "To see the HTML version of this documentation". When referring to a web page extension, use "html", such as "The main page is index.html."</p>
+<p><strong>Description</strong>: <em>HTML</em> is an abbreviation for "HyperText Markup Language", a markup language for web pages. When referring to the language, use "HTML", such as "To see the HTML version of this documentation". When referring to a web page file extension, use "html". For example "The main page is <code>index.html</code>."</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6652,7 +6697,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hub" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hub (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In an LDAP replication environment, hubs receive data from a supplier and replicate the data to consumers.</p>
+<p><strong>Description</strong>: In an LDAP replication environment, a <em>hub</em> receives data from a supplier and replicates the data to consumers.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6661,7 +6706,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#consumer">consumer</a></p>
+<p><strong>See also</strong>: <a href="#consumer">consumer</a>, <a href="#ldap">LDAP</a></p>
 </div>
 <h4 id="huge-page-noun" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> huge page (noun)</h4>
 <div class="paragraph">
@@ -6691,7 +6736,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hyper-threading" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Hyper-Threading (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Hyper-Threading" is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT".</p>
+<p><strong>Description</strong>: <em>Hyper-Threading</em> is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6704,7 +6749,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hyperv" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Hyper-V (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In the Microsoft Windows operating system, "Hyper-V" is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.</p>
+<p><strong>Description</strong>: In the Microsoft Windows operating system, <em>Hyper-V</em> is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6717,7 +6762,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hyperconverged" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hyperconverged (adjective)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A hyperconverged system combines compute, storage, networking, and management capabilities into a single solution, simplifying deployment and reducing the cost of acquisition and maintenance.</p>
+<p><strong>Description</strong>: A <em>hyperconverged</em> system combines compute, storage, networking, and management capabilities into a single solution, simplifying deployment and reducing the cost of acquisition and maintenance.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6730,7 +6775,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="hypervisor" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> hypervisor (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A "hypervisor" is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red Hat Enterprise Virtualization Hypervisor.</p>
+<p><strong>Description</strong>: A <em>hypervisor</em> is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red Hat Enterprise Virtualization Hypervisor.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6746,7 +6791,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <h3 id="_i">I</h3>
 <h4 id="iaas" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IaaS (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "IaaS" is an acronym for "Infrastructure-as-a-Service". Always use hyphens when spelling out the acronym.</p>
+<p><strong>Description</strong>: <em>IaaS</em> is an acronym for "Infrastructure-as-a-Service". Always use hyphens when spelling out the acronym.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6772,7 +6817,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="ibm-s-390" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM S/390 (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: The "IBM S/390" is the IBM large server (or mainframe) line of computer systems. Use the full description "IBM S/390".</p>
+<p><strong>Description</strong>: The <em>IBM S/390</em> is the IBM large server (or mainframe) line of computer systems. Use the full description "IBM S/390".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6785,7 +6830,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="ibm-z" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IBM Z (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "IBM Z" is the new name for the "IBM z Systems" family of IBM mainframe computers.</p>
+<p><strong>Description</strong>: <em>IBM Z</em> is the new name for the "IBM z Systems" family of IBM mainframe computers.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6824,7 +6869,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="id-ranges" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> ID ranges (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, an ID range is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, an <em>ID range</em> is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -6856,7 +6901,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="id-views" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> ID views (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, ID views enable you to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, you can use <em>ID views</em> to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -6882,7 +6927,8 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="identity" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> identity (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Both the user name and list of groups the user belongs to.</p>
+<p><strong>Description</strong>: <em>Identity</em> refers to both the user name and the list of groups a user belongs to.
+Capitalize it only when it starts a sentence.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6895,7 +6941,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="identity-provider" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> identity provider (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: An identity provider (IDP) is a service that authenticates a user. Red Hat Single Sign-On is an IDP.</p>
+<p><strong>Description</strong>: An <em>identity provider (IDP)</em> is a service that authenticates a user. Red Hat Single Sign-On is an IDP.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6904,11 +6950,11 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#identity-provider-federation">identity provider federation</a>, <a href="#identity-provider-mappers">identity provider mappers</a></p>
 </div>
 <h4 id="identity-provider-federation" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> identity provider federation (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Single Sign-On, you can delegate authentication to one or more IDPs. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.</p>
+<p><strong>Description</strong>: In Red Hat Single Sign-On, you can delegate authentication to one or more IDPs, and this process is referred to as <em>identity provider federation</em>. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6917,11 +6963,11 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#identity-provider">identity provider</a>, <a href="#identity-provider-mappers">identity provider mappers</a></p>
 </div>
 <h4 id="identity-provider-mappers" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> identity provider mappers (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: When doing IDP federation, you can map incoming tokens and assertions to user and session attributes. This helps you propagate identity information from the external IDP to your client requesting authentication.</p>
+<p><strong>Description</strong>: When doing IDP federation, you can map incoming tokens and assertions to user and session attributes, which you refer to as "identity provider mappers". This helps you propagate identity information from the external IDP to your client requesting authentication.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6930,11 +6976,11 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#identity-provider">identity provider</a>, <a href="#identity-provider-federation">identity provider federation</a>, <a href="#identity-token">identity token</a></p>
 </div>
 <h4 id="identity-token" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> identity token (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: An identity token provides identity information about the user and is part of the OpenID Connect specification.</p>
+<p><strong>Description</strong>: An <em>identity token</em> provides identity information about the user and is part of the OpenID Connect specification.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6943,11 +6989,11 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#identity-provider">identity provider</a>, <a href="#identity-provider-mappers">identity provider mappers</a>, <a href="#identity-provider-federation">identity provider federation</a></p>
 </div>
 <h4 id="idm-ca-renewal-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM CA renewal server (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the CA renewal server. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the CA renewal server. In a deployment without integrated CA, there is no CA renewal server.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the <em>IdM CA renewal server</em>. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6960,7 +7006,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="idm-ca-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM CA server (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, an IdM CA server is an IdM server on which the IdM certificate authority (CA) service is installed and running.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, an <em>IdM CA server</em> is an IdM server on which the IdM certificate authority (CA) service is installed and running.</p>
 </div>
 <div class="paragraph">
 <p>Alternative names: <strong>CA server</strong></p>
@@ -6976,7 +7022,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="idm-crl-publisher-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM CRL publisher server (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is responsible for maintaining the CRL. By default, the server that fulfills the <strong>CA renewal server</strong> role also fulfills this role, but you can configure any CA server to be the CRL publisher server. In a deployment without integrated CA, there is no CRL publisher server.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an <em>IdM CRL publisher server</em> and is responsible for maintaining the CRL. By default, the server that fulfills the <code>CA renewal server</code> role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -6989,7 +7035,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="idm-deployment" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM deployment (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, IdM deployment is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, <em>IdM deployment</em> is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -7021,7 +7067,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Description</strong>: In Red Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the <code>ipa-server-install</code> command.</p>
 </div>
 <div class="paragraph">
-<p>Administrators can then use the <code>ipa-replica-install</code> command to install <strong>replicas</strong> in addition to the first server that was installed. By default, installing a replica creates a replication agreement with the IdM server from which it was created, enabling receiving and sending updates to the rest of IdM.</p>
+<p>Administrators can then use the <code>ipa-replica-install</code> command to install <em>replicas</em> in addition to the first <em>server</em> that was installed. By default, installing a replica creates a replication agreement with the IdM server from which it was created, enabling receiving and sending updates to the rest of IdM.</p>
 </div>
 <div class="paragraph">
 <p>There is no functional difference between the first server that was installed and a replica. Both are fully functional read/write IdM servers.</p>
@@ -7037,7 +7083,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="idm-topology" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM topology (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, IdM topology is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, <em>IdM topology</em> is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7050,7 +7096,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="iiop-openjdk" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> iiop-openjdk subsystem (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the "iiop-openjdk" subsystem is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the iiop-openjdk subsystem in titles and headings.</p>
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>iiop-openjdk subsystem</em> is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the <code>iiop-openjdk</code> subsystem in titles and headings.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7063,7 +7109,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="image" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> image (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: An image is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift Container Platform uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift Container Platform. Additionally, OpenShift Container Platform provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.</p>
+<p><strong>Description</strong>: An <em>image</em> is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift Container Platform uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift Container Platform. Additionally, OpenShift Container Platform provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7076,7 +7122,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="image-stream" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> image stream (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat OpenShift, an image stream is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is <code>ImageStream</code>.</p>
+<p><strong>Description</strong>: In Red Hat OpenShift, an <em>image stream</em> is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is <code>ImageStream</code>.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7089,7 +7135,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="in-memory" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> in-memory (adjective)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In-memory systems store data in a computer&#8217;s main memory, random access memory (RAM). Clusters share memory resources, which reduces waste and boosts application performance by providing access to data in the same memory space where code executes.</p>
+<p><strong>Description</strong>: <em>In-memory</em> systems store data in a computer&#8217;s random access memory (RAM). Clusters share memory resources, which reduces waste and boosts application performance by providing access to data in the same memory space where code executes.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7102,7 +7148,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="in-place-upgrade" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> in-place upgrade (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, during an in-place upgrade, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, during an <em>in-place upgrade</em>, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7115,7 +7161,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="indexless-bucket" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> indexless bucket (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A bucket that does not maintain an index.</p>
+<p><strong>Description</strong>: An <em>indexless bucket</em> is a bucket that does not maintain an index.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7128,7 +7174,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="inference-engine" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> inference engine (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "inference engine" is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.</p>
+<p><strong>Description</strong>: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the <em>inference engine</em> is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7141,7 +7187,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="infiniband" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> InfiniBand (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "InfiniBand" is a switched fabric network topology used in high-performance computing. The term is both a service mark and a trademark of the InfiniBand Trade Association. Their rules for using the mark are standard ones: append the &#8482; symbol the first time it is used, and respect the capitalization (including the inter-capped "B") from then on. In ASCII-only circumstances, the "(TM)" string is the acceptable alternative.</p>
+<p><strong>Description</strong>: <em>InfiniBand</em> is a switched fabric network topology used in high-performance computing. The term is both a service mark and a trademark of the InfiniBand Trade Association. Their rules for using the mark are standard ones: append the &#8482; symbol the first time it is used, and respect the capitalization (including the inter-capped "B") from then on. In ASCII-only circumstances, the "(TM)" string is the acceptable alternative.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7154,7 +7200,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="infinispan" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Infinispan (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Infinispan is the open-source, community project on which Red Hat Data Grid is built.</p>
+<p><strong>Description</strong>: <em>Infinispan</em> is the open-source, community project on which Red Hat Data Grid is built.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7167,7 +7213,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="ingress" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Ingress (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat OpenShift, <em>Ingress</em>  is an API object that allows developers to expose services through an HTTP(S) aware load balancing and proxy layer through a public DNS entry. The Ingress resource might further specify TLS options and a certificate, or specify a public CNAME that the OpenShift Ingress Controller should also accept for HTTP and HTTPS traffic. An administrator typically configures their Ingress Controller to be visible outside the cluster firewall and might also add additional security, caching, or traffic controls on the service content.</p>
+<p><strong>Description</strong>: In Red Hat OpenShift, <em>Ingress</em>  is an API object developers can use to expose services through an HTTP(S) aware load balancing and proxy layer through a public DNS entry. The Ingress resource might further specify TLS options and a certificate, or specify a public CNAME that the OpenShift Ingress Controller should also accept for HTTP and HTTPS traffic. An administrator typically configures their Ingress Controller to be visible outside the cluster firewall and might also add additional security, caching, or traffic controls on the service content.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7193,7 +7239,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="init-container" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> init container (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A container that you can use to reorganize configuration scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.</p>
+<p><strong>Description</strong>: An <em>init container</em> is a container that you can use to reorganize configuration scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7206,7 +7252,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="insecure" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> insecure (adjective)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Insecure" refers to something that is unsafe.</p>
+<p><strong>Description</strong>: <em>Insecure</em> refers to something that is unsafe.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7219,7 +7265,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="insight" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Insight (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Insight" is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.</p>
+<p><strong>Description</strong>: <em>Insight</em> is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7228,11 +7274,11 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>: GDBTK</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#gdb">GBD</a>, <a href="#gdb-command">gdb</a></p>
+<p><strong>See also</strong>: <a href="#gdb">GDB</a>, <a href="#gdb-command">gdb</a></p>
 </div>
 <h4 id="installation-program" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> installation program (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: An "installation program" is a program that installs certain software.</p>
+<p><strong>Description</strong>: An <em>installation program</em> is a program that installs certain software.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7245,7 +7291,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="installer-provisioned-infrastructure" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> installer-provisioned infrastructure (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an installer-provisioned infrastructure installation.</p>
+<p><strong>Description</strong>: In Red Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an <em>installer-provisioned infrastructure</em> installation.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7271,7 +7317,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="instrumentation-module" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> instrumentation module (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, the kernel module built from a <code>SystemTap</code> script; the <code>SystemTap</code> module is built on the host system, and will be loaded on the target kernel of the target system.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, an <em>instrumentation module</em> is the kernel module built from a <code>SystemTap</code> script; the <code>SystemTap</code> module is built on the host system and will be loaded on the target kernel of the target system.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7284,7 +7330,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="integration" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> integration (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Fuse Online, an integration is a Camel route created.</p>
+<p><strong>Description</strong>: In Red Hat Fuse Online, an <em>integration</em> is a Camel route created.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7297,7 +7343,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="intel-coretm" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Intel&#174; Core&#8482; (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Intel&#174; Core&#8482;" refers to a line of Intel brand processors.</p>
+<p><strong>Description</strong>: <em>Intel&#174; Core&#8482;</em> refers to a line of Intel brand processors.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7310,7 +7356,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="intel-ep80579-integrated-processor" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Intel&#174; EP80579 Integrated Processor (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Intel&#174; EP80579 Integrated Processor" is the official brand name.</p>
+<p><strong>Description</strong>: <em>Intel&#174; EP80579 Integrated Processor</em> is the official brand name of this Intel processor.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7323,7 +7369,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="intel-virtualization-technology" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Intel Virtualization Technology (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: The first and all prominent uses of "Intel Virtualization Technology" should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64 or Itanium architecture (Intel VT-i)". Subsequent uses can be abbreviated to "Intel VT-i". Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as &#8482; or "(TM).</p>
+<p><strong>Description</strong>: The first and all prominent uses of <em>Intel Virtualization Technology</em> should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64" or "Itanium architecture (Intel VT-i)". Subsequent uses can be abbreviated to "Intel VT-i". Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as "&#8482;" or "(TM)".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7336,7 +7382,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="intel-xeon" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Intel&#174; Xeon&#174; (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Intel&#174; Xeon&#174;" refers to a line of Intel brand processors.</p>
+<p><strong>Description</strong>: <em>Intel&#174; Xeon&#174;</em> refers to a line of Intel brand processors.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7349,7 +7395,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="intelligent-process-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Intelligent Process Server (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the "Intelligent Process Server" is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.</p>
+<p><strong>Description</strong>: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the <em>Intelligent Process Server</em> is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7362,7 +7408,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="interesting" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> interesting (adjective)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Avoid using "interesting", as this term is a substitute for showing the reader why something is of interest. Instead of writing, "It is interesting to note&#8230;&#8203;", consider using a "Note" admonition.</p>
+<p><strong>Description</strong>: Avoid using "interesting" as a substitute for showing the reader why something is of interest. For example, instead of writing, "It is interesting to note&#8230;&#8203;", consider using a "Note" admonition.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: no</p>
@@ -7375,7 +7421,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="inventory" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> inventory (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, an inventory is a list of managed nodes. An inventory file is also sometimes called a <em>hostfile</em>. Your inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, an <em>inventory</em> is a list of managed nodes. An inventory file is also sometimes called a <em>hostfile</em>. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7388,7 +7434,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="io" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> io subsystem (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the "io" subsystem is used to define workers and buffer pools used by other subsystems. In general text, write in lowercase as one word. Use "IO subsystem" when referring to the io subsystem in titles and headings.</p>
+<p><strong>Description</strong>: In Red Hat JBoss Enterprise Application Platform, the <em>io subsystem</em> is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the <code>io</code> subsystem in titles and headings.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7401,7 +7447,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="iops" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IOPS (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "IOPS" is an acronym for "input/output operations per second".</p>
+<p><strong>Description</strong>: <em>IOPS</em> is an acronym for "input/output operations per second".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7466,7 +7512,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="ip-masquerade" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IP Masquerade (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "IP Masquerade" is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ", allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server&#8217;s assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.</p>
+<p><strong>Description</strong>: <em>IP Masquerade</em> is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ", allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server&#8217;s assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7479,7 +7525,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="ip-switching" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IP switching (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "IP switching" is a type of IP routing developed by Ipsilon Networks, Inc. Unlike conventional routers, IP switching routers use ATM hardware to speed packets through networks. Although the technology is new, it appears to be considerably faster than older router techniques.</p>
+<p><strong>Description</strong>: <em>IP switching</em> is a type of IP routing developed by Ipsilon Networks, Inc. Unlike conventional routers, IP switching routers use ATM hardware to speed packets through networks. Although the technology is new, it appears to be considerably faster than older router techniques.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7492,7 +7538,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="ipsec" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IPsec (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "IPsec" is an abbreviation for "Internet Protocol security".</p>
+<p><strong>Description</strong>: <em>IPsec</em> is an abbreviation for "Internet Protocol security".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7518,7 +7564,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="iso" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> ISO (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "ISO" is an acronym for the "International Organization for Standardization", which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.</p>
+<p><strong>Description</strong>: <em>ISO</em> is an acronym for the "International Organization for Standardization", which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7531,7 +7577,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="iso-image" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> ISO image (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: An "ISO image" is a type of disk image comprising the data contents from every written sector on a media disk. ISO image files use the <code>.iso</code> file extension. According to Wikipedia, the ISO name comes from the ISO 9660 file system used with CD-ROM media, but what is known as an ISO image might also contain a UDF (ISO/IEC 13346) file system, which is often used by DVDs and Blu-ray discs.</p>
+<p><strong>Description</strong>: An <em>ISO image</em> is a type of disk image comprising the data contents from every written sector on a media disk. ISO image files use the <code>.iso</code> file extension. According to Wikipedia, the ISO name comes from the ISO 9660 file system used with CD-ROM media, but what is known as an ISO image might also contain a UDF (ISO/IEC 13346) file system, which is often used by DVDs and Blu-ray discs.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7544,7 +7590,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="it" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IT, I.T. (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "IT" and "I.T." are abbreviations for "information technology". Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used, to clarify that the word is "IT" rather than "it".</p>
+<p><strong>Description</strong>: <em>IT</em> and <em>I.T.</em> are abbreviations for "information technology". Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used, to clarify that the word is "IT" rather than "it".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7557,7 +7603,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 </div>
 <h4 id="itanium" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Itanium (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Itanium" is a 64-bit RISC microprocessor and a member of Intel&#8217;s Merced family of processors. Based on the Explicitly Parallel Instruction Computing (EPIC) design philosophy, which states that the compiler should decide which instructions be executed together, Itanium has the highest FPU power available. In 64-bit mode, Itanium is able to calculate two bundles of a maximum of three instructions at a time. In 32-bit mode, it is much slower. Decoders must first translate 32-bit instruction sets into 64-bit instruction sets, which results in extra-clock cycle use. Itanium&#8217;s primary use is driving large applications that require more than 4 GB of memory, such as databases, ERP, and future internet applications.</p>
+<p><strong>Description</strong>: <em>Itanium</em> is a 64-bit RISC microprocessor and a member of the Intel Merced family of processors. Based on the Explicitly Parallel Instruction Computing (EPIC) design philosophy, which states that the compiler should decide which instructions be executed together, Itanium has the highest FPU power available. In 64-bit mode, Itanium is able to calculate two bundles of a maximum of three instructions at a time. In 32-bit mode, it is much slower. Decoders must first translate 32-bit instruction sets into 64-bit instruction sets, which results in extra-clock cycle use. The Itanium processor&#8217;s primary use is driving large applications that require more than 4 GB of memory, such as databases, ERP, and future internet applications.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7566,11 +7612,11 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>: IA64, ia64</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#itanium-2">Itanium 2</a></p>
 </div>
 <h4 id="itanium-2" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Itanium 2 (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Itanium 2" is correct. Do not use "Itanium2" without the space between "Itanium" and "2".</p>
+<p><strong>Description</strong>: <em>Itanium 2</em> is correct. Do not use "Itanium2" without the space between "Itanium" and "2".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7579,7 +7625,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <p><strong>Incorrect forms</strong>: Itanium2</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>:</p>
+<p><strong>See also</strong>: <a href="#itanium">Itanium</a></p>
 </div>
 </div>
 <div class="sect2">
@@ -9314,7 +9360,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#microsoft">Microsoft</a></p>
 </div>
-<h4 id="multicloud-object-gateway" class="discrete">Multicloud Object Gateway (noun)</h4>
+<h4 id="multicloud-object-gateway" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Multicloud Object Gateway (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Multicloud Object Gateway</em> (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.</p>
 </div>
@@ -9434,7 +9480,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#project">project</a></p>
 </div>
-<h4 id="namespace-bucket" class="discrete">namespace bucket (noun)</h4>
+<h4 id="namespace-bucket" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> namespace bucket (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Namespace buckets</em> enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.</p>
 </div>
@@ -9447,7 +9493,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
-<h4 id="namespace-store" class="discrete">namespace store (noun)</h4>
+<h4 id="namespace-store" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> namespace store (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, a <em>namespace store</em> is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.</p>
 </div>
@@ -9671,7 +9717,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#open-ran">Open RAN</a>, <a href="#openran">OpenRAN</a></p>
 </div>
-<h4 id="object-bucket" class="discrete">object bucket (noun)</h4>
+<h4 id="object-bucket" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> object bucket (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: A container to store objects.</p>
 </div>
@@ -9684,7 +9730,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
-<h4 id="object-bucket-claim" class="discrete">object bucket claim (noun)</h4>
+<h4 id="object-bucket-claim" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> object bucket claim (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: Creates a new bucket and an application account in Multicloud Object Gateway or RADOS Gateway (RGW) with permissions to the bucket, including a new access key and secret access key. You can use "object bucket claim" to request an AWS S3 compatible bucket for the workloads.</p>
 </div>
@@ -10454,7 +10500,7 @@ Permissions for an object determine which agents, such as a user group, are allo
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#volatile-storage">volatile storage</a></p>
 </div>
-<h4 id="persistent-volume" class="discrete">persistent volume (noun)</h4>
+<h4 id="persistent-volume" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> persistent volume (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: A <em>persistent volume</em> (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.</p>
 </div>
@@ -10467,7 +10513,7 @@ Permissions for an object determine which agents, such as a user group, are allo
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
-<h4 id="persistent-volume-claim" class="discrete">persistent volume claim (noun)</h4>
+<h4 id="persistent-volume-claim" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> persistent volume claim (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: A <em>persistent volume claim</em> (PVC) is a request for storage in the cluster by a user.</p>
 </div>
@@ -12178,7 +12224,7 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#prom">PROM</a></p>
 </div>
-<h4 id="rook" class="discrete">Rook (noun)</h4>
+<h4 id="rook" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Rook (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: <em>Rook</em> is an orchestrator for multiple storage solutions, each with a specialized Kubernetes Operator to automate management.</p>
 </div>
@@ -12191,7 +12237,7 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
-<h4 id="rook-ceph-operator" class="discrete">Rook-Ceph Operator (noun)</h4>
+<h4 id="rook-ceph-operator" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Rook-Ceph Operator (noun)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, the <em>Rook-Ceph Operator</em> automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.</p>
 </div>
@@ -12745,6 +12791,19 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
+</div>
+<h4 id="session-persistence" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> session persistence (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Session persistence</em>, also known as a <em>sticky session</em>, is a process in which a load balancer sends all requests in a user session to a specific network server. Session persistence can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "session persistence" or "sticky session" consistently.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#sticky-session">sticky session</a></p>
 </div>
 <h4 id="sha-1" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> SHA-1 (noun)</h4>
 <div class="paragraph">
@@ -13456,6 +13515,32 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>: <a href="#ostree">OSTree</a>, <a href="#commit">commit</a></p>
+</div>
+<h4 id="sticky-bit" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sticky bit (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>sticky bit</em> is a user permission set for a directory that limits user access to the directory owner and the root user.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>:</p>
+</div>
+<h4 id="sticky-session" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> sticky session (noun)</h4>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>sticky session</em>, also known as <em>session persistence</em>, is a process in which a load balancer sends all requests in a user session to a specific network server. Sticky sessions can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "sticky session" or "session persistence" consistently.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>:</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#session-persistence">session persistence</a></p>
 </div>
 <h4 id="stomp" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> STOMP (noun)</h4>
 <div class="paragraph">
@@ -14819,12 +14904,12 @@ You can use a TGT to request further access, and provide the user with a Single 
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
 </div>
-<h4 id="want" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> want (verb)</h4>
+<h4 id="want" class="discrete"><span class="image"><img src="images/caution.png" alt="with caution"></span> want (verb)</h4>
 <div class="paragraph">
 <p><strong>Description</strong>: Use "want" instead of "wish" or "would like". It is better to avoid it entirely by rewriting the sentence.</p>
 </div>
 <div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
+<p><strong>Use it</strong>: with caution</p>
 </div>
 <div class="paragraph">
 <p><strong>Incorrect forms</strong>: wish, would like</p>
@@ -14847,7 +14932,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <h4 id="we-suggest" class="discrete"><span class="image"><img src="images/no.png" alt="no"></span> we suggest (verb)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: Do not use "we suggest". Use a more direct construction or use "recommend". For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk", or "It is recommended that you back up your data disk".</p>
+<p><strong>Description</strong>: Do not use "we suggest". Use a more direct construction instead. For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk".</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: no</p>
@@ -15253,7 +15338,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-01-27 18:23:40 UTC
+Last updated 2023-03-01 13:33:47 UTC
 </div>
 </div>
 </body>
