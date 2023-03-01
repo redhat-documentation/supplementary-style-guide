@@ -2,6 +2,8 @@
 
 Review the history of significant updates to the _Red Hat supplementary style guide for product documentation_. You can see the full change history by reviewing the [commits](https://github.com/redhat-documentation/supplementary-style-guide/commits/main).
 
+**NOTE**: History for 2023 and beyond is now documented in the guide: [What's new](https://redhat-documentation.github.io/supplementary-style-guide/#whats-new) section of the _Red Hat supplementary style guide for product documentation_.
+
 #### Table of contents
 
 * [January 2023](#2023-january)
