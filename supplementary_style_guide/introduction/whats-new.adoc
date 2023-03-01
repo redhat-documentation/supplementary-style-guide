@@ -16,14 +16,33 @@ To see the history of changes from 2020 through 2022, view the link:https://gith
 ====
 
 // [discrete]
-// [[february-2023]]
-// == February 2023
+// [[TODO-2023]]
+// == TODO 2023
 //
 // .Glossary entries
 // * TODO
 //
 // .Style guidance
 // * TODO
+//
+// .Other updates
+// * TODO
+
+
+[discrete]
+[[february-2023]]
+== February 2023
+
+.Glossary entries
+* xref:foreman[Foreman]: Updated to remove outdated guidance
+* xref:session-persistence[session persistence]: Added glossary entry
+* xref:sticky-bit[sticky bit]: Added glossary entry
+* xref:sticky-session[sticky session]: Added glossary entry
+* xref:want[want]: Updated to "use with caution"
+* xref:we-suggest[we suggest]: Updated to remove outdated guidance
+
+.Other updates
+* Added a xref:whats-new[What's new] section to list what has changed with this guide each month.
 
 [discrete]
 [[january-2023]]
