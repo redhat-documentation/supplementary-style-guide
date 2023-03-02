@@ -1,6 +1,66 @@
 [[structure]]
 = Structure
 
+[[abstracts-or-shortdesc]]
+== Abstracts or short descriptions
+
+To help readers find the information that they need or to confirm that they are in the right place, every module and assembly must include a short description. In CCS, we have referred to this content as an abstract or introductory paragraph. We plan to standardize on the term *short description*.
+
+This description is usually at least 2-3 sentences long, and you can scan it in a few seconds. It exists between the title and the main content, connecting them and providing context and disambiguation.
+
+Follow these guidelines when writing short descriptions:
+
+[discrete]
+=== Content
+
+* Include user intent:
+** *What* users must do. This content is similar to what is in the title but should not just repeat the same information.
+** *Why* users must complete an action. You must build from the information in the title. This content helps users understand why completing an action is important or beneficial to them.
+*** If the title of your module is “Creating a Kafka instance in OpenShift Streams for Apache Kafka”, your short description could begin something like this: “To connect OpenShift Streams for Apache Kafka to other applications or services [*why*], create and configure a Kafka instance in the web console [*what*].”
+
+* Make modules findable and reusable. Ensure that the product name is either in the title or the short description of a module or assembly.
+* If you are documenting two or more ways of completing the same procedure, explain why users would want to choose one or the other. If possible, link to the other ways. 
+* For complex procedures, your short description can include some of the key tasks that a customer must complete.
+
+[discrete]
+=== Language and style
+
+* Be brief. Include enough content to inform the reader, but make it scannable in a few seconds.
+* As with all content, write in plain English and use simple sentences. You can test the reading level of your sentences by using a readability scoring tool.
+* Use active voice and present tense.
+* Avoid self-referential language:
+** “This topic covers...”
+** “Use this procedure to...”
+** “This chapter describes...”
+* Avoid feature-focused language:
+** Focus on what users can accomplish with a product, not on what a product does.
+** Avoid phrases such as “This product allows you to…”
+* Use customer-centric language:
+** “You can… by…”
+** “When you need to…, you can…”
+** “To…, configure…”
+
+.Examples of short descriptions
+
+
+*Example 1*
+
+Creating a group and adding a system
+
+Group many systems together in the Edge Management application to manage them more easily. For example, you can more easily mitigate vulnerabilities and update systems that are alike. 
+
+*Example 2*
+
+Creating a Kafka instance in OpenShift Streams for Apache Kafka
+
+To connect OpenShift Streams for Apache Kafka to other applications or services, create and configure a Kafka instance in the web console. A Kafka instance in OpenShift Streams for Apache Kafka includes the following items:
+
+* A Kafka cluster
+* A bootstrap server
+* The configurations needed to connect to producer and consumer services
+
+
+
 [[admonitions]]
 == Admonitions
 
