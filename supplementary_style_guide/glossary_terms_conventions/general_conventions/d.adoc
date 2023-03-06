@@ -558,7 +558,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[domain-mode]]
 ==== image:images/no.png[no] domain mode (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. See the xref:managed-domain[managed domain] entry for the correct usage.
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the xref:managed-domain[managed domain] entry.
 
 *Use it*: no
 

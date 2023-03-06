@@ -263,7 +263,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 [discrete]
 [[http-interface]]
 ==== image:images/no.png[no] HTTP interface (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. See the xref:management-console[management console] entry for the correct usage.
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the xref:management-console[management console] entry.
 
 *Use it*: no
 

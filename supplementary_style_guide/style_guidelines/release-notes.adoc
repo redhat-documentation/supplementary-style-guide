@@ -66,7 +66,7 @@ Workaround: Rerun the deployment command, or use a local container image registr
 [discrete]
 === Technology Preview
 
-See the xref:technology-preview-guidance[Technology Preview] section for guidance and the template text to use for Technology Preview features.
+For guidance and the template text to use for Technology Preview features, see the xref:technology-preview-guidance[Technology Preview] section.
 
 [discrete]
 === Deprecated functionality

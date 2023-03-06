@@ -371,7 +371,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[btrfs]]
 ==== image:images/yes.png[yes] Btrfs (noun)
-*Description*: _Btrfs_ is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. See the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page for more information on this file system. See  the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page for a list of file system names and how to present them.
+*Description*: _Btrfs_ is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. For more information about this file system, see the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page. For a list of file system names and how to present them, see the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page.
 
 *Use it*: yes
 
