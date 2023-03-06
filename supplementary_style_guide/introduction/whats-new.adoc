@@ -12,7 +12,7 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 
 [NOTE]
 ====
-To see the history of changes from 2020 through 2022, view the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md[What's new] page in the GitHub repository.
+To view the history of changes from 2020 through 2022, see the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md[What's new] page in the GitHub repository.
 ====
 
 // [discrete]

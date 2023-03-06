@@ -3,7 +3,7 @@
 ==== image:images/yes.png[yes] G++ (noun)
 *Description*: pass:q[_G++_] is a C compiler usually operated by using the command line.
 When referring to the program, use +++"G++"+++.
-When referring to the command, use pass:q[`g++`], marked up appropriately. 
+When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
@@ -37,7 +37,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 [discrete]
 [[gather]]
 ==== image:images/yes.png[yes] gather (verb)
-*Description*: In Red Hat Virtualization, use "gather" when discussing metrics. Do not use "collect", which is reserved for discussing the Red Hat Virtualization log collector (`ovirt-log-collector`). See the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log] for the discussion regarding this decision.
+*Description*: In Red Hat Virtualization, use "gather" when discussing metrics. Do not use "collect", which is reserved for discussing the Red Hat Virtualization log collector (`ovirt-log-collector`). For the discussion regarding this decision, see the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log].
 
 *Use it*: yes
 

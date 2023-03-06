@@ -47,7 +47,7 @@
 [discrete]
 [[undertow]]
 ==== image:images/yes.png[yes] undertow subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. See the xref:webhttp-undertow[WebHTTP - Undertow] entry for the correct usage when referring to the `undertow` subsystem in the management console.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the xref:webhttp-undertow[WebHTTP - Undertow] entry.
 
 *Use it*: yes
 

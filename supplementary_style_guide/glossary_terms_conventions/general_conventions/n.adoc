@@ -61,7 +61,7 @@
 [discrete]
 [[native-interface]]
 ==== image:images/no.png[no] native interface (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. See the xref:management-cli[management CLI] entry for the correct usage.
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the xref:management-cli[management CLI] entry.
 
 *Use it*: no
 

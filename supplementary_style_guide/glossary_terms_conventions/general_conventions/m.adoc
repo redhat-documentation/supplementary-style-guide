@@ -353,7 +353,7 @@
 [discrete]
 [[messaging-subsystem]]
 ==== image:images/yes.png[yes] messaging subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the `messaging-activemq` subsystem in the management console.
+*Description*: In Red Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, for the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry.
 
 *Use it*: yes
 
@@ -365,7 +365,7 @@
 [discrete]
 [[messaging-activemq]]
 ==== image:images/yes.png[yes] messaging-activemq subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. See the xref:messaging-activemq-management[Messaging - ActiveMQ] entry for the correct usage when referring to the `messaging-activemq` subsystem in the management console.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. For the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry.
 
 *Use it*: yes
 
@@ -413,7 +413,7 @@
 ==== image:images/yes.png[yes] Microsoft Azure (noun)
 *Description*: _Microsoft Azure_ is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
 
-See the https://azure.microsoft.com/en-us/documentation/articles/azure-glossary-cloud-terminology/[Microsoft Azure glossary] for additional terms and definitions.
+For additional terms and definitions, see the https://azure.microsoft.com/en-us/documentation/articles/azure-glossary-cloud-terminology/[Microsoft Azure glossary].
 
 *Use it*: yes
 
@@ -463,7 +463,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 [discrete]
 [[microsoft-windows]]
 ==== image:images/no.png[no] Microsoft Windows (noun)
-*Description*: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. See the xref:windows-server[Windows Server] entry for the correct usage.
+*Description*: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. For the correct usage, see the xref:windows-server[Windows Server] entry.
 
 *Use it*: no
 
