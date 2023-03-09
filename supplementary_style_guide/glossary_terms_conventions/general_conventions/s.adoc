@@ -152,7 +152,7 @@
 [discrete]
 [[see]]
 ==== image:images/yes.png[yes] see (verb)
-*Description*: Use "see" to refer readers to another resource, for example, "See the **Red Hat Enterprise Linux Installation Guide** for more information." Avoid using "refer to" in this context.
+*Description*: Use "see" to refer readers to another resource, for example, "For more information, see the _Red Hat Enterprise Linux Installation Guide_." Avoid using "refer to" in this context.
 
 *Use it*: yes
 
@@ -865,7 +865,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 [discrete]
 [[standalone-mode]]
 ==== image:images/no.png[no] standalone mode (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. See the xref:standalone-server[standalone server] entry for the correct usage.
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the xref:standalone-server[standalone server] entry.
 
 *Use it*: no
 
@@ -934,7 +934,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 [discrete]
 [[sticky-bit]]
 ==== image:images/yes.png[yes] sticky bit (noun)
-*Description*: A _sticky bit_ is a user permission set for a directory that limits user access to the directory owner and the root user. 
+*Description*: A _sticky bit_ is a user permission set for a directory that limits user access to the directory owner and the root user.
 
 *Use it*: yes
 

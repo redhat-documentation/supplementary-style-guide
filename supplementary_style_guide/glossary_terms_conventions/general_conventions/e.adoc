@@ -41,7 +41,7 @@
 [discrete]
 [[elytron]]
 ==== image:images/yes.png[yes] elytron subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. See the xref:security-elytron[Security - Elytron] entry for the correct usage when referring to the `elytron` subsystem in the management console.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the xref:security-elytron[Security - Elytron] entry.
 
 *Use it*: yes
 
