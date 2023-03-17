@@ -5,7 +5,7 @@
 Every 2 weeks a different project member assumes the role of repository administrator.
 Signing up to be an administrator is voluntary.
 To volunteer to be an administrator, contact Andrea Hoffer (link:https://github.com/bergerhoffer[@bergerhoffer]) or Miriam Portman (link:https://github.com/mportman12[@mportman12]).
-Each administrator rotation is marked on the Supplementary Style Guide shared calendar.
+Each administrator rotation is marked on the CCS style council shared calendar.
 Administrators receive a calendar notification when it is their turn.
 
 == Administrator responsibilities
@@ -15,7 +15,7 @@ You also have the following responsibilities:
 
 * Driving resolution of open issues
 * Driving completion of pull requests
-* Maintaining the Style Guide site on GitHub
+* Helping to maintain the link:https://redhat-documentation.github.io/supplementary-style-guide/[style guide site]
 
 === Driving resolution of open issues
 
@@ -27,11 +27,10 @@ You also have the following responsibilities:
 
 * Ensure that contributors are submitting link:https://github.com/redhat-documentation/supplementary-style-guide/pulls[pull requests] on prioritized open issues.
 * Also ensure that work on open pull requests is moving forward consistently.
-* Ensure that at least 3 project members review and approve every contribution before it is merged. You can be one of the 3.
+* Ensure that at least 3 link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council/members[project members] review and approve every contribution before it is merged. You can be one of the 3.
 * If a contribution is not reviewed or approved for longer than 1 week, reach out to individual project members and ask them to review and approve the contribution.
-* Merge pull requests with contributions that are approved by 3 or more project members.
+* Merge pull requests with contributions that are approved by 3 or more link:https://github.com/orgs/redhat-documentation/teams/ccs-style-council/members[project members].
 
 === Maintaining the style guide site on GitHub
 
 * Ensure that the link:https://redhat-documentation.github.io/supplementary-style-guide/[style guide site] is available and displayed correctly.
-* Create pull requests to update the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/README.md[README.md], link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/GUIDELINES.adoc[GUIDELINES.adoc] and the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/CONTRIBUTING.md[CONTRIBUTING.md], if necessary.
