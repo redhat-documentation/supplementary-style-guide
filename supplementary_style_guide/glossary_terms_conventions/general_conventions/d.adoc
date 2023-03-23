@@ -318,6 +318,17 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
+discrete]
+[[devfile]]
+==== image:images/yes.png[yes] Devfile (noun)
+*Description*: A _devfile_ is a YAML file that you can include in your local development environment to automate various build processes and apply environment guidelines. Specifically, devfiles can provide guidance for runtime images, example code, build and CI commands, and deployment options like workspace servers and containerization.
+
+*Use it*: yes
+
+*Incorrect forms*: dev file, .dev file, dev-file
+
+*See also*:
+
 [discrete]
 [[device]]
 ==== image:images/yes.png[yes] device (noun)
