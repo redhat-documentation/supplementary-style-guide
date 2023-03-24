@@ -1,9 +1,9 @@
 [[cloud-services]]
 = Cloud services guidelines
 
-Cloud services are applications that run on a platform backed by data storage infrastructure and are hosted and managed by Red Hat on behalf of the customer. Cloud services provide rapid iteration and can more quickly deliver updated product functionality.
+Cloud services are applications that run on a platform backed by data storage infrastructure and are hosted and managed by Red{nbsp}Hat on behalf of the customer. Cloud services provide rapid iteration and can more quickly deliver updated product functionality.
 
-This means a product is no longer running exclusively in the customer’s infrastructure but is a service running in the cloud that is operated and maintained by Red Hat. Red Hat is now responsible for ensuring the service is secure, scalable, performant, and available at all times.
+This means a product is no longer running exclusively in the customer’s infrastructure but is a service running in the cloud that is operated and maintained by Red{nbsp}Hat. Red{nbsp}Hat is now responsible for ensuring the service is secure, scalable, performant, and available at all times.
 
 Cloud services documentation requires a shift from how documentation is typically created for an on-premise product. There is more emphasis on the content delivered within the product's user interface itself, a need to deliver content rapidly without having a set release cadence, and to adapt content to the needs of cloud service users. For example, there might not be a need for upgrade and migration content that’s typical for on-premise products.
 
@@ -89,7 +89,7 @@ Documentation that follows the _IBM Style_ guide for fairly conversational tone 
 [[microcopy]]
 == Microcopy
 
-The words in a user interface, commonly referred to as "UX copy" or "microcopy," are just as important as the components or layouts. UX copy is another element of design, and it can drive better UX decisions and guide users to succeed. Red Hat cloud services are based on Patternfly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.
+The words in a user interface, commonly referred to as "UX copy" or "microcopy," are just as important as the components or layouts. UX copy is another element of design, and it can drive better UX decisions and guide users to succeed. Red{nbsp}Hat cloud services are based on Patternfly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.
 
 See link:https://www.patternfly.org/v4/ux-writing/about[UX writing] in the Patternfly content style guide for comprehensive guidelines when writing for the user interface.
 
