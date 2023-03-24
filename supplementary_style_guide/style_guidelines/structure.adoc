@@ -15,7 +15,7 @@ TIP:: Alternative methods that might not be obvious. Makes applying the techniqu
 
 [IMPORTANT]
 ====
-CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red Hat Customer Portal. Do not use this admonition type.
+CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red{nbsp}Hat Customer Portal. Do not use this admonition type.
 ====
 
 Admonitions should be short and concise. Do not include procedures in an admonition.

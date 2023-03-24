@@ -83,7 +83,7 @@ If available, inform users of alternative capabilities and workarounds.
 ==== Deprecation notice
 [subs="+quotes"]
 ----
-In __<product_name> <release>__, __<name_of_capability_or_feature>__ is deprecated and is planned to be removed in the __<deprecation_timeline>__. Red Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed. As an alternative to __<name_of_capability_or_feature>__, you can use __<alternative_capability_or_feature_if_available>__ instead.
+In __<product_name> <release>__, __<name_of_capability_or_feature>__ is deprecated and is planned to be removed in the __<deprecation_timeline>__. Red{nbsp}Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed. As an alternative to __<name_of_capability_or_feature>__, you can use __<alternative_capability_or_feature_if_available>__ instead.
 ----
 [NOTE]
 ====
@@ -92,7 +92,7 @@ When citing deprecation timelines, refer to specific releases, such as __the nex
 
 .Example deprecation notice doc text
 ----
-In Red Hat OpenStack Platform (RHOSP) 14, the director graphical user interface is deprecated and is planned to be removed in a future release. Red Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed.
+In Red{nbsp}Hat OpenStack Platform (RHOSP) 14, the director graphical user interface is deprecated and is planned to be removed in a future release. Red{nbsp}Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed.
 ----
 
 [discrete]
@@ -103,7 +103,7 @@ In __<product_name> <current_release>__, __<name of capability or feature>__ has
 ----
 .Example removal notice doc text
 ----
-In Red Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) has been removed. Bug fixes and support are provided only through the end of the RHOSP 15 lifecycle.
+In Red{nbsp}Hat OpenStack Platform (RHOSP) 16, the Data Processing service (sahara) has been removed. Bug fixes and support are provided only through the end of the RHOSP 15 lifecycle.
 ----
 
 

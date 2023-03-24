@@ -46,7 +46,7 @@ All code blocks (regardless of length) must be necessary, accurate, and helpful.
 [[code-example-syntax-highlighting]]
 == Syntax highlighting
 
-Provide the source language if it is supported by the Red Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It incorrectly interprets the number sign (#) as a comment instead of the prompt for a root command.
+Provide the source language if it is supported by the Red{nbsp}Hat Customer Portal toolchain. Do not use the `bash` source language for terminal commands. It incorrectly interprets the number sign (#) as a comment instead of the prompt for a root command.
 
 .Example AsciiDoc
 
