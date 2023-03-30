@@ -81,7 +81,7 @@
 [discrete]
 [[baseos-repository]]
 ==== image:images/yes.png[yes] BaseOS repository (noun)
-*Description*: In Red Hat Enterprise Linux, the content in the _BaseOS repository_ provides the core set of the underlying OS functionality that provides the foundation for all installations.
+*Description*: In Red Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying OS functionality that provides the foundation for all installations.
 
 *Use it*: yes
 
@@ -566,7 +566,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[byte-compiled-program]]
 ==== image:images/yes.png[yes] byte-compiled program (noun)
-*Description*: _Byte-compiled programs_ need to be compiled into byte code, which is then executed by a language virtual machine.
+*Description*: _Byte-compiled programs_ are programs that need to be compiled into byte code, which is then executed by a language virtual machine.
 
 *Use it*: yes
 
