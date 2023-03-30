@@ -103,7 +103,7 @@
 [discrete]
 [[kerberos-protocol]]
 ==== image:images/yes.png[yes] Kerberos protocol (noun)
-*Description*: _Kerberos_ is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography. IdM and Active Directory use "Kerberos" for authenticating users, hosts and services.
+*Description*: _Kerberos_ is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography.
 
 *Use it*: yes
 
@@ -115,7 +115,7 @@
 [discrete]
 [[kerberos-realm]]
 ==== image:images/yes.png[yes] Kerberos realm (noun)
-*Description*: A _Kerberos realm_ encompasses all the principals managed by a Kerberos Key Distribution Center (KDC). In an IdM deployment, the Kerberos realm includes all IdM users, hosts, and services.
+*Description*: A _Kerberos realm_ encompasses all the principals managed by a Kerberos Key Distribution Center (KDC).
 
 *Use it*: yes
 

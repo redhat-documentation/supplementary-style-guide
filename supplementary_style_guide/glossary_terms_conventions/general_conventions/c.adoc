@@ -266,15 +266,7 @@
 [discrete]
 [[certificate-authorities]]
 ==== image:images/yes.png[yes] certificate authorities (noun)
-*Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`, the IdM CA. The `ipa` CA certificate is one of the following types:
---
-* Self-signed. In this case, the `ipa` CA is the root CA.
-* Externally signed. In this case, the `ipa` CA is subordinated to the external CA.
---
-In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certificates are one of the following types:
-
-* Signed by the `ipa` CA.
-* Signed by any of the intermediate CAs between itself and `ipa` CA. The certificate of a sub-CA cannot be self-signed.
+*Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`.
 
 *Use it*: yes
 
