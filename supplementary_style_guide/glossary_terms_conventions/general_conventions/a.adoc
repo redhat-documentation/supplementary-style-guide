@@ -405,7 +405,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Incorrect forms*: AppStream, application stream
 
-*See also*: xref:appstream-repository[appstream repository]
+*See also*: xref:appstream-repository[AppStream repository]
 
 [discrete]
 [[applixware]]
@@ -427,7 +427,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Incorrect forms*: Appstream, appstream
 
-*See also*:
+*See also*: xref:application-stream[Application Stream]
 
 [discrete]
 [[arp]]
