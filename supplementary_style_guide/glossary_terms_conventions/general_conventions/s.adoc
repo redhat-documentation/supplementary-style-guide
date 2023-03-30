@@ -93,7 +93,7 @@
 [discrete]
 [[scriptlet-directive]]
 ==== image:images/yes.png[yes] scriptlet directive (noun)
-*Description*: A _scriptlet_ is a fragment of code in a SPEC file, usually a shell script, which is executed during build time (build scriptlets) or transaction time (transaction scriptlets) in order to make some additional changes to the user’s system. Build scriptlets are more limited than transaction scriptlets. That is, build scriptlets do not receive arguments and can only be shell scripts.
+*Description*: A _scriptlet_ is a fragment of code in a SPEC file, usually a shell script, which is executed during build time (build scriptlets) or transaction time (transaction scriptlets) in order to make some additional changes to the user’s system. Build scriptlets are more limited than transaction scriptlets because build scriptlets do not receive arguments and can only be shell scripts.
 
 *Use it*: yes
 
