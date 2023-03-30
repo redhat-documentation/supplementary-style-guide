@@ -264,7 +264,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 [discrete]
 [[trigger-directive]]
 ==== image:images/yes.png[yes] Trigger directive (noun)
-*Description*: In Red Hat Enterprise Linux, a _Trigger_ is a special form of a transaction scriptlet that is conditionally executed when another specific package is installed or uninstalled.
+*Description*: In Red Hat Enterprise Linux, a _Trigger directive_ is a special form of a transaction scriptlet that is conditionally executed when another specific package is installed or uninstalled.
 
 *Use it*: yes
 
