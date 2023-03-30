@@ -97,7 +97,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 [discrete]
 [[file-trigger-directive]]
 ==== image:images/yes.png[yes] File Trigger directive (noun)
-*Description*: In Red Hat Enterprise Linux, a _File Trigger_ is a special form of a transaction scriptlet that is conditionally executed when matching files from other packages are installed or uninstalled.
+*Description*: In Red Hat Enterprise Linux, a _File Trigger directive_ is a special form of a transaction scriptlet that is conditionally executed when matching files from other packages are installed or uninstalled.
 
 *Use it*: yes
 
