@@ -260,12 +260,12 @@
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[certificate authorities]
+*See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: General; kept as is
 [discrete]
-[[certificate-authorities]]
-==== image:images/yes.png[yes] certificate authorities (noun)
+[[certificate-authority]]
+==== image:images/yes.png[yes] certificate authority (noun)
 *Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`.
 
 *Use it*: yes

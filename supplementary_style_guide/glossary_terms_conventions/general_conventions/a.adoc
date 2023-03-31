@@ -347,7 +347,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Incorrect forms*:
 
-*See also*: xref:certificate[certificate], xref:certificate-authorities[certificate authorities], xref:directory-server-product[Directory Server]
+*See also*: xref:certificate[certificate], xref:certificate-authority[certificate authority], xref:directory-server-product[Directory Server]
 
 // OCP: Added "In Red Hat OpenShift, the API server is a..."
 [discrete]
