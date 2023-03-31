@@ -102,7 +102,7 @@
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[certificate authorities]
+*See also*: xref:certificate-authority[certificate authority]
 
 // AMQ: Added "In Red Hat AMQ, a link is"
 [discrete]
