@@ -15,6 +15,8 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 To view the history of changes from 2020 through 2022, see the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md[What's new] page in the GitHub repository.
 ====
 
+// TEMPLATE:
+//
 // [discrete]
 // [[TODO-2023]]
 // == TODO 2023
@@ -28,6 +30,15 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
+[discrete]
+[[march-2023]]
+== March 2023
+
+.Glossary entries
+* xref:devfile[devfile]: Added glossary entry
+
+.Other updates
+* Updated examples throughout the guide to use a consistent order of "For _<information>_, see _<link>_" when referencing other resources.
 
 [discrete]
 [[february-2023]]
