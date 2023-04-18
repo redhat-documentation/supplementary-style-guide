@@ -100,7 +100,7 @@ Follow these guidelines when writing short descriptions:
 --
 ====
 [discrete]
-==== Creating a Kafka instance in OpenShift Streams for Apache Kafka
+==== Creating a group and adding a system
 
 Group many systems together in the Edge Management application [*what*] to manage them more easily [*why*]. For example, you can more easily mitigate vulnerabilities and update systems that are alike. 
 ====
