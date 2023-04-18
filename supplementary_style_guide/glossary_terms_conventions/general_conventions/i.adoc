@@ -170,7 +170,7 @@ Capitalize it only when it starts a sentence.
 
 *Incorrect forms*: master CA
 
-*See also*: xref:certificate-authorities[certificate authorities]
+*See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux, an IdM CA server is"
 [discrete]
@@ -184,7 +184,7 @@ Alternative names: *CA server*
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[certificate authorities]
+*See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [discrete]
@@ -196,7 +196,7 @@ Alternative names: *CA server*
 
 *Incorrect forms*:
 
-*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authorities[certificate authorities]
+*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux, IdM deployment is"
 [discrete]

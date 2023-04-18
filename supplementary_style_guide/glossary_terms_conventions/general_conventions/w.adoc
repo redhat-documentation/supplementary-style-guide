@@ -46,13 +46,12 @@
 [discrete]
 [[web-server]]
 ==== image:images/yes.png[yes] web server (noun)
-*Description*: A _web server_ is computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol used to distribute web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
-
+*Description*: A _web server_ is the computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol for distributing web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent.
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:directory-server-product[Directory Server], xref:certificate-authorities[certificate authorities]
+*See also*: xref:directory-server-product[Directory Server], xref:certificate-authority[certificate authority]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [discrete]

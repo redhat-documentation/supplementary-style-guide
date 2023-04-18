@@ -557,7 +557,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[domain-controller]]
 ==== image:images/yes.png[yes] domain controller (noun)
-*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
+*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain.
 
 *Use it*: yes
 

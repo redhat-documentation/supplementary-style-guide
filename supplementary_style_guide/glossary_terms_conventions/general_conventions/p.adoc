@@ -358,20 +358,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 [[posix-attributes]]
 ==== image:images/yes.png[yes] POSIX attributes (noun)
 *Description*: _POSIX attributes_ are user attributes for maintaining compatibility between operating systems.
-In a Red Hat Identity Management environment, POSIX attributes for users include:
-
-  * `cn`, the user's name
-  * `uid`, the account name (login)
-  * `uidNumber`, a user number (UID)
-  * `gidNumber`, the primary group number (GID)
-  * `homeDirectory`, the user's home directory
-
-In a Red Hat Identity Management environment, POSIX attributes for groups include:
-
-  * `cn`, the group's name
-  * `gidNumber`, the group number (GID)
-
-These attributes identify users and groups as separate entities.
 
 *Use it*: yes
 
