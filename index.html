@@ -2595,7 +2595,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 </div>
 <h4 id="apache-web-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Apache web server (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: The <em>Apache HTTP Server</em>, colloquially called <em>Apache</em>, is a free and open-source cross-platform web server application, released under the terms of Apache License 2.0. Apache played a key role in the initial growth of the World Wide Web (WWW), and is currently the leading HTTP server. Its process name is <code>httpd</code>, which is short for <em>HTTP daemon</em>. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).</p>
+<p><strong>Description</strong>: The <em>Apache HTTP Server</em>, colloquially called <em>Apache</em>, is a free and open-source cross-platform web server application, released under the terms of Apache License 2.0. Apache played a key role in the initial growth of the World Wide Web (WWW), and is currently the leading HTTP server. Its process name is <code>httpd</code>, which is short for <em>HTTP daemon</em>.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -2604,7 +2604,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#certificate">certificate</a>, <a href="#certificate-authorities">certificate authorities</a>, <a href="#directory-server-product">Directory Server</a></p>
+<p><strong>See also</strong>: <a href="#certificate">certificate</a>, <a href="#certificate-authority">certificate authority</a>, <a href="#directory-server-product">Directory Server</a></p>
 </div>
 <h4 id="api-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> API server (noun)</h4>
 <div class="paragraph">
@@ -3775,38 +3775,11 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#certificate-authorities">certificate authorities</a></p>
+<p><strong>See also</strong>: <a href="#certificate-authority">certificate authority</a></p>
 </div>
-<h4 id="certificate-authorities" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> certificate authorities (noun)</h4>
+<h4 id="certificate-authority" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> certificate authority (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is <code>ipa</code>, the IdM CA. The <code>ipa</code> CA certificate is one of the following types:</p>
-</div>
-<div class="openblock">
-<div class="content">
-<div class="ulist">
-<ul>
-<li>
-<p>Self-signed. In this case, the <code>ipa</code> CA is the root CA.</p>
-</li>
-<li>
-<p>Externally signed. In this case, the <code>ipa</code> CA is subordinated to the external CA.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="paragraph">
-<p>In IdM, you can also create multiple <strong>sub-CAs</strong>. Sub-CAs are IdM CAs whose certificates are one of the following types:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Signed by the <code>ipa</code> CA.</p>
-</li>
-<li>
-<p>Signed by any of the intermediate CAs between itself and <code>ipa</code> CA. The certificate of a sub-CA cannot be self-signed.</p>
-</li>
-</ul>
+<p><strong>Description</strong>: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is <code>ipa</code>.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -5346,7 +5319,7 @@ Red Hat Directory Server conforms to LDAP standards.</p>
 </div>
 <h4 id="domain-controller" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> domain controller (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Enterprise Linux, a <em>domain controller (DC)</em> is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.</p>
+<p><strong>Description</strong>: In Red Hat Enterprise Linux, a <em>domain controller (DC)</em> is a host that responds to security authentication requests within a domain and controls access to resources in that domain.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -7064,7 +7037,7 @@ Capitalize it only when it starts a sentence.</p>
 <p><strong>Incorrect forms</strong>: master CA</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#certificate-authorities">certificate authorities</a></p>
+<p><strong>See also</strong>: <a href="#certificate-authority">certificate authority</a></p>
 </div>
 <h4 id="idm-ca-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM CA server (noun)</h4>
 <div class="paragraph">
@@ -7080,7 +7053,7 @@ Capitalize it only when it starts a sentence.</p>
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#certificate-authorities">certificate authorities</a></p>
+<p><strong>See also</strong>: <a href="#certificate-authority">certificate authority</a></p>
 </div>
 <h4 id="idm-crl-publisher-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM CRL publisher server (noun)</h4>
 <div class="paragraph">
@@ -7093,7 +7066,7 @@ Capitalize it only when it starts a sentence.</p>
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#idm-ca-renewal-server">IdM CA renewal server</a>, <a href="#certificate-authorities">certificate authorities</a></p>
+<p><strong>See also</strong>: <a href="#idm-ca-renewal-server">IdM CA renewal server</a>, <a href="#certificate-authority">certificate authority</a></p>
 </div>
 <h4 id="idm-deployment" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> IdM deployment (noun)</h4>
 <div class="paragraph">
@@ -8090,7 +8063,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="kerberos-protocol" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Kerberos protocol (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>Kerberos</em> is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography. IdM and Active Directory use "Kerberos" for authenticating users, hosts and services.</p>
+<p><strong>Description</strong>: <em>Kerberos</em> is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -8103,7 +8076,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="kerberos-realm" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Kerberos realm (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A <em>Kerberos realm</em> encompasses all the principals managed by a Kerberos Key Distribution Center (KDC). In an IdM deployment, the Kerberos realm includes all IdM users, hosts, and services.</p>
+<p><strong>Description</strong>: A <em>Kerberos realm</em> encompasses all the principals managed by a Kerberos Key Distribution Center (KDC).</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -8521,7 +8494,7 @@ Capitalize it only when it starts a sentence.</p>
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#certificate-authorities">certificate authorities</a></p>
+<p><strong>See also</strong>: <a href="#certificate-authority">certificate authority</a></p>
 </div>
 <h4 id="link" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> link (noun)</h4>
 <div class="paragraph">
@@ -10839,43 +10812,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 </div>
 <h4 id="posix-attributes" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> POSIX attributes (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>POSIX attributes</em> are user attributes for maintaining compatibility between operating systems.
-In a Red Hat Identity Management environment, POSIX attributes for users include:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><code>cn</code>, the user&#8217;s name</p>
-</li>
-<li>
-<p><code>uid</code>, the account name (login)</p>
-</li>
-<li>
-<p><code>uidNumber</code>, a user number (UID)</p>
-</li>
-<li>
-<p><code>gidNumber</code>, the primary group number (GID)</p>
-</li>
-<li>
-<p><code>homeDirectory</code>, the user&#8217;s home directory</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>In a Red Hat Identity Management environment, POSIX attributes for groups include:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><code>cn</code>, the group&#8217;s name</p>
-</li>
-<li>
-<p><code>gidNumber</code>, the group number (GID)</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>These attributes identify users and groups as separate entities.</p>
+<p><strong>Description</strong>: <em>POSIX attributes</em> are user attributes for maintaining compatibility between operating systems.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -15007,16 +14944,14 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <h4 id="web-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> web server (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: A <em>web server</em> is computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol used to distribute web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).</p>
-</div>
-<div class="paragraph">
-<p><strong>Use it</strong>: yes</p>
+<p><strong>Description</strong>: A <em>web server</em> is the computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol for distributing web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent.
+<strong>Use it</strong>: yes</p>
 </div>
 <div class="paragraph">
 <p><strong>Incorrect forms</strong>:</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#directory-server-product">Directory Server</a>, <a href="#certificate-authorities">certificate authorities</a></p>
+<p><strong>See also</strong>: <a href="#directory-server-product">Directory Server</a>, <a href="#certificate-authority">certificate authority</a></p>
 </div>
 <h4 id="web-services" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Web services (noun)</h4>
 <div class="paragraph">
@@ -15400,7 +15335,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-04-18 13:24:01 UTC
+Last updated 2023-04-18 15:08:14 UTC
 </div>
 </div>
 </body>
