@@ -112,6 +112,7 @@ Ensure that user-replaced values have the following characteristics:
 * Lowercase, unless the rest of the related text is uppercase or another capitalization scheme
 * Italicized
 * If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value
+* If the user-replaced value appears in example output, only format the value in the output if the replaceable value was also in the command or if formatting adds value to the customer. Otherwise, leave the replaceable value unformatted as an example.
 
 .Example AsciiDoc: User-replaced value in a paragraph
 
@@ -140,6 +141,29 @@ This renders as:
 [subs="+quotes"]
 ----
 $ oc describe node __<node_name>__
+----
+====
+
+.Example AsciiDoc: User-replaced value in an output example
+
+----
+# *nmcli connection show __<profile_name>__*
+connection.id:              __<profile_name>__
+connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
+connection.type:            802-3-ethernet
+connection.interface-name:  enp7s0
+----
+
+This renders as:
+
+====
+[subs="+quotes"]
+----
+# nmcli connection show __<profile_name>__
+connection.id:              __<profile_name>__
+connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
+connection.type:            802-3-ethernet
+connection.interface-name:  enp7s0
 ----
 ====
 
