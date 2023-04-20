@@ -484,6 +484,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#admonitions">Admonitions</a></li>
 <li><a href="#lead-in-sentences">Lead-in sentences</a></li>
 <li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#shortdesc">Short descriptions</a></li>
 </ul>
 </li>
 <li><a href="#technical-examples">Technical examples</a>
@@ -1378,6 +1379,98 @@ Text for note.
 <p><a href="https://redhat-documentation.github.io/modular-docs/#creating-procedure-modules"><em>Procedure Prerequisites</em> in the <em>Modular Documentation Reference Guide</em></a></p>
 </li>
 </ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="shortdesc">Short descriptions</h4>
+<div class="paragraph">
+<p>To help readers find the information that they need or to confirm that they are in the right place, every module and assembly must include a <em>short description</em>, also called an <em>abstract</em>.</p>
+</div>
+<div class="paragraph">
+<p>This description is usually at least 2-3 sentences long, and you can scan it in a few seconds. It exists between the title and the main content, connecting them and providing context and disambiguation.</p>
+</div>
+<div class="paragraph">
+<p>Follow these guidelines when writing short descriptions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Include user intent:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>What</strong> users must do. This content is similar to what is in the title but should not just repeat the same information.</p>
+</li>
+<li>
+<p><strong>Why</strong> users must complete an action. You must build from the information in the title. This content helps users understand why completing an action is important or beneficial to them.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Make modules findable and reusable. Ensure that the product name is either in the title or the short description of a module or assembly.</p>
+</li>
+<li>
+<p>If you are documenting two or more ways of completing the same procedure, explain why users would want to choose one or the other. If possible, link to the other ways.</p>
+</li>
+<li>
+<p>For complex procedures, include some of the key tasks that a customer must complete.</p>
+</li>
+<li>
+<p>Write in plain English and use simple sentences. You can test the reading level of your sentences by using a readability scoring tool.</p>
+</li>
+<li>
+<p>Use active voice and present tense.</p>
+</li>
+<li>
+<p>Avoid self-referential language, such as "This topic covers&#8230;&#8203;" or "Use this procedure to&#8230;&#8203;".</p>
+</li>
+<li>
+<p>Avoid feature-focused language. Focus on what users can accomplish with a product, not on what a product does. For example, avoid phrases such as "This product allows you to&#8230;&#8203;".</p>
+</li>
+<li>
+<p>Use customer-centric language, such as "You can&#8230;&#8203; by&#8230;&#8203;" or "To&#8230;&#8203;, configure&#8230;&#8203;".</p>
+</li>
+</ul>
+</div>
+<div class="openblock">
+<div class="title">Example short description 1</div>
+<div class="content">
+<div class="exampleblock">
+<div class="content">
+<h6 id="_creating_a_group_and_adding_a_system" class="discrete">Creating a group and adding a system</h6>
+<div class="paragraph">
+<p>Group many systems together in the Edge Management application [<strong>what</strong>] to manage them more easily [<strong>why</strong>]. For example, you can more easily mitigate vulnerabilities and update systems that are alike.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="openblock">
+<div class="title">Example short description 2</div>
+<div class="content">
+<div class="exampleblock">
+<div class="content">
+<h6 id="_creating_a_kafka_instance_in_openshift_streams_for_apache_kafka" class="discrete">Creating a Kafka instance in OpenShift Streams for Apache Kafka</h6>
+<div class="paragraph">
+<p>To connect OpenShift Streams for Apache Kafka to other applications or services [<strong>why</strong>], create and configure a Kafka instance in the web console [<strong>what</strong>]. A Kafka instance in OpenShift Streams for Apache Kafka includes the following items:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A Kafka cluster</p>
+</li>
+<li>
+<p>A bootstrap server</p>
+</li>
+<li>
+<p>The configurations needed to connect to producer and consumer services</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -15335,7 +15428,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-04-18 15:08:14 UTC
+Last updated 2023-04-20 19:29:37 UTC
 </div>
 </div>
 </body>
