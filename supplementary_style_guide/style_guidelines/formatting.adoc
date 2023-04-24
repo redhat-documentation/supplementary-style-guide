@@ -112,7 +112,7 @@ Ensure that user-replaced values have the following characteristics:
 * Lowercase, unless the rest of the related text is uppercase or another capitalization scheme
 * Italicized
 * If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value
-* If the user-replaced value appears in example output, only format the value in the output if the replaceable value was also in the command or if formatting adds value to the customer. Otherwise, leave the replaceable value unformatted as an example.
+* If you want to use a user-replaced value in example output, format the replaceable value with italics and in angle brackets. Alternatively, if you choose to use an example value instead, do not italicize the example value or place it in angle brackets.
 
 .Example AsciiDoc: User-replaced value in a paragraph
 
