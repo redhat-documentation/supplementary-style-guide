@@ -45,7 +45,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 .Other updates
 * Added a xref:non-breaking-spaces[non-breaking space] between "Red" and "Hat" in each occurrence within the guide.
-* xref:shortdesc[Short descriptions]: Added guidance on writing short descriptions and abstracts.
+* xref:shortdesc[Short descriptions]: Added guidance on writing _short descriptions_ (also known as _abstracts_).
 
 
 [discrete]
