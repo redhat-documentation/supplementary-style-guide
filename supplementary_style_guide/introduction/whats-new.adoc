@@ -36,7 +36,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 .Glossary entries
 * xref:apache-web-server[Apache web server]: Updated to remove extraneous IdM definitions
-* xref:certificate-authority[certificate authority]: Updated to remove extraneous IdM definitions
+* xref:certificate-authority[certificate authority]: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions
 * xref:domain-controller[domain controller]: Updated to remove extraneous IdM definitions
 * xref:kerberos-protocol[Kerberos protocol]: Updated to remove extraneous IdM definitions
 * xref:kerberos-realm[Kerberos realm]: Updated to remove extraneous IdM definitions
