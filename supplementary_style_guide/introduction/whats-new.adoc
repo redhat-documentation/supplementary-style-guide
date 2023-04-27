@@ -31,6 +31,24 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // * TODO
 
 [discrete]
+[[april-2023]]
+== April 2023
+
+.Glossary entries
+* xref:apache-web-server[Apache web server]: Updated to remove extraneous IdM definitions
+* xref:certificate-authority[certificate authority]: Updated to remove extraneous IdM definitions
+* xref:domain-controller[domain controller]: Updated to remove extraneous IdM definitions
+* xref:kerberos-protocol[Kerberos protocol]: Updated to remove extraneous IdM definitions
+* xref:kerberos-realm[Kerberos realm]: Updated to remove extraneous IdM definitions
+* xref:posix-attributes[POSIX attributes]: Updated to remove extraneous IdM definitions
+* xref:web-server[web server]: Updated to remove extraneous IdM definitions
+
+.Other updates
+* Added xref:non-breaking-spaces[non-breaking spaces] between "Red" and "Hat" within the guide.
+* xref:shortdesc[Short descriptions]: Added guidance on writing short descriptions and abstracts.
+
+
+[discrete]
 [[march-2023]]
 == March 2023
 
