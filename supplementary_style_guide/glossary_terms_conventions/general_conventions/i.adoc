@@ -509,6 +509,23 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
+[discrete]
+[[intel-64]]
+==== image:images/yes.png[yes] Intel 64 (noun)
+*Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Only use in RHEL documentation. 
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example: 
+
+_This feature can run on only Intel 64 processors_ 
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [discrete]
 [[intelligent-process-server]]
