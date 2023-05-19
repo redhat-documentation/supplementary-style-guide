@@ -293,7 +293,7 @@
 [discrete]
 [[message-exchange]]
 ==== image:images/yes.png[yes] message exchange (noun)
-*Description*:  In Red Hat Fuse, _message exchanges_ deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are in route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, a MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.
+*Description*:  In Red Hat Fuse, _message exchanges_ deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are en route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, an MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.
 
 *Use it*: yes
 
@@ -305,7 +305,7 @@
 [discrete]
 [[message-routing]]
 ==== image:images/yes.png[yes] message routing (noun)
-*Description*: In Red Hat AMQ, _message routing_ is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern to be used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.
+*Description*: In Red Hat AMQ, _message routing_ is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.
 
 *Use it*: yes
 
@@ -317,7 +317,7 @@
 [discrete]
 [[message-settlement]]
 ==== image:images/yes.png[yes] message settlement (noun)
-*Description*: In Red Hat AMQ, _message settlement_ the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.
+*Description*: In Red Hat AMQ, _message settlement_ is the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.
 
 *Use it*: yes
 
@@ -377,7 +377,7 @@
 [discrete]
 [[metadata-server]]
 ==== image:images/yes.png[yes] Metadata Server (noun)
-*Description*: In Red Hat Ceph Storage, "Metadata Server" is another name of the `ceph-mds` daemon.
+*Description*: In Red Hat Ceph Storage, "Metadata Server" is another name for the `ceph-mds` daemon.
 
 *Use it*: yes
 
@@ -388,7 +388,7 @@
 [discrete]
 [[micro-release]]
 ==== image:images/caution.png[with caution] micro release (noun)
-*Description*: "Micro release" refers to the *_z_* in an _x.y.z_ product version numbering schema. Use only if required for generic reference to a release and the term is in use already by the product. In all other instances refer to the specific release number.
+*Description*: "Micro release" refers to the *_z_* in an _x.y.z_ product version numbering schema. Use only if required for generic reference to a release and the term is already used by the product. In all other instances refer to the specific release number.
 
 *Use it*: with caution
 
@@ -411,7 +411,7 @@
 [discrete]
 [[azure]]
 ==== image:images/yes.png[yes] Microsoft Azure (noun)
-*Description*: _Microsoft Azure_ is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
+*Description*: _Microsoft Azure_ is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: Wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
 
 For additional terms and definitions, see the https://azure.microsoft.com/en-us/documentation/articles/azure-glossary-cloud-terminology/[Microsoft Azure glossary].
 
@@ -522,7 +522,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 [discrete]
 [[mom]]
 ==== image:images/yes.png[yes] MOM (noun)
-*Description*: In Red Hat Virtualization, ,the _Memory Overcommitment Manager_ is a policy-driven tool that can be used to manage overcommitment on hosts.
+*Description*: In Red Hat Virtualization, the _Memory Overcommitment Manager_ is a policy-driven tool that can be used to manage overcommitment on hosts.
 
 Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, and "MOM" for subsequent instances.
 
