@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.20">
 <title>Red Hat supplementary style guide for product documentation</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -208,13 +208,10 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -393,7 +390,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -9321,7 +9318,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="message-exchange" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> message exchange (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>:  In Red Hat Fuse, <em>message exchanges</em> deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are in route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, a MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.</p>
+<p><strong>Description</strong>:  In Red Hat Fuse, <em>message exchanges</em> deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are en route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, an MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -9334,7 +9331,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="message-routing" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> message routing (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat AMQ, <em>message routing</em> is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern to be used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.</p>
+<p><strong>Description</strong>: In Red Hat AMQ, <em>message routing</em> is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -9347,7 +9344,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="message-settlement" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> message settlement (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat AMQ, <em>message settlement</em> the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.</p>
+<p><strong>Description</strong>: In Red Hat AMQ, <em>message settlement</em> is the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -9412,7 +9409,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="metadata-server" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Metadata Server (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Ceph Storage, "Metadata Server" is another name of the <code>ceph-mds</code> daemon.</p>
+<p><strong>Description</strong>: In Red Hat Ceph Storage, "Metadata Server" is another name for the <code>ceph-mds</code> daemon.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -9425,7 +9422,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="micro-release" class="discrete"><span class="image"><img src="images/caution.png" alt="with caution"></span> micro release (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: "Micro release" refers to the <strong><em>z</em></strong> in an <em>x.y.z</em> product version numbering schema. Use only if required for generic reference to a release and the term is in use already by the product. In all other instances refer to the specific release number.</p>
+<p><strong>Description</strong>: "Micro release" refers to the <strong><em>z</em></strong> in an <em>x.y.z</em> product version numbering schema. Use only if required for generic reference to a release and the term is already used by the product. In all other instances refer to the specific release number.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: with caution</p>
@@ -9451,7 +9448,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="azure" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> Microsoft Azure (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: <em>Microsoft Azure</em> is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.</p>
+<p><strong>Description</strong>: <em>Microsoft Azure</em> is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: Wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.</p>
 </div>
 <div class="paragraph">
 <p>For additional terms and definitions, see the <a href="https://azure.microsoft.com/en-us/documentation/articles/azure-glossary-cloud-terminology/">Microsoft Azure glossary</a>.</p>
@@ -9574,7 +9571,7 @@ Capitalize it only when it starts a sentence.</p>
 </div>
 <h4 id="mom" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> MOM (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Red Hat Virtualization, ,the <em>Memory Overcommitment Manager</em> is a policy-driven tool that can be used to manage overcommitment on hosts.</p>
+<p><strong>Description</strong>: In Red Hat Virtualization, the <em>Memory Overcommitment Manager</em> is a policy-driven tool that can be used to manage overcommitment on hosts.</p>
 </div>
 <div class="paragraph">
 <p>Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, and "MOM" for subsequent instances.</p>
@@ -15677,7 +15674,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-05-05 14:19:59 UTC
+Last updated 2023-05-22 12:40:07 UTC
 </div>
 </div>
 </body>
