@@ -421,7 +421,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[appstream-repository]]
 ==== image:images/yes.png[yes] AppStream repository (noun)
-*Description*: RHEL content in the _AppStream repository_ includes Application Streams, such as additional user-space applications, runtime languages, and databases in support of varied workloads and use cases.
+*Description*: The _AppStream repository_  distributes RHEL content as Application Streams and other components. These Application Streams include additional user-space applications, runtime languages, and databases for various workloads and use cases.
 
 *Use it*: yes
 
