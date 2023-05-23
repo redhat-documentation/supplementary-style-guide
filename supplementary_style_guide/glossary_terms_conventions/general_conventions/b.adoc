@@ -566,7 +566,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[byte-compiled-program]]
 ==== image:images/yes.png[yes] byte-compiled program (noun)
-*Description*: _Byte-compiled programs_ are programs that need to be compiled into byte code, which is then executed by a language virtual machine.
+*Description*: _Byte-compiled programs_ are programs that must be compiled into byte code before they can run in a language virtual machine.
 
 *Use it*: yes
 
