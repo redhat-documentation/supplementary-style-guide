@@ -20,11 +20,25 @@ For more information about <topic>, see xref:<link>[<link_text>].
 
 Follow these guidelines when linking externally:
 
-* Always include link text. Bare URLs (URLs without explanatory information) are unhelpful because they do not provide adequate context about the link target.
-* Use hyperlinks unless the URL is an example URL or is otherwise inaccessible to users. For information about using addresses in examples, see the _IBM Style_ guide.
-* By default, links are followable and crawlable. Do not use the "nofollow" link option unless absolutely necessary.
-* Avoid links to external sites when possible. External links can change or be unreliable.
-* Avoid deep links (to a specific page or image from another company) to prevent an ongoing maintenance responsibility and to prevent bypassing a website's legal information.
+* Avoid unnecessary links to external sites not owned and operated by Red Hat or IBM.
+Links to external sites can change or be unreliable.
+In addition, customers might infer that Red Hat endorses or supports the linked content, even if that is not the intent.
++
+[NOTE]
+====
+Links to upstream sites, such as GitHub, are considered to be external links.
+====
++
+* When possible, link to a top-level page and avoid deep links to a specific page or image.
+Deep links can break more frequently and can inadvertently bypass a site's legal notices.
+* Do not use bare URLs for links.
+Bare URLs are unhelpful because they do not provide adequate context about the link target.
+* Always include meaningful link text.
+Meaningful link text describes to users what content they will see if they click the link.
+* Use hyperlinks unless the URL is an example URL or is otherwise inaccessible to users.
+* By default, links are followable and crawlable. Do not use the `nofollow` link option unless absolutely necessary.
+
+For information about links and web addresses, including using URLs in examples, see the _IBM Style_ guide.
 
 .Example AsciiDoc: External link
 ----
