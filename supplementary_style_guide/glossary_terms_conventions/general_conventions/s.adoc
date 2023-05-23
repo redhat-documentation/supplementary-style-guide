@@ -591,6 +591,17 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 [discrete]
+[[softirq]]
+==== image:images/yes.png[yes] softirq (noun)
+*Description*: A _software interrupt request (softirq)_ is a deferrable kernel routine that performs the required actions in response to an interrupt. For example, softirqs clear the receive ring buffer after a network adapter receives a packet.
+
+*Use it*: yes
+
+*Incorrect forms*: SoftIRQ
+
+*See also*:
+
+[discrete]
 [[software-collection]]
 ==== image:images/yes.png[yes] Software Collection (noun)
 *Description*: A _Software Collection (SCL)_ allows for building and concurrent installation of multiple versions of the same software component on a single system. Always capitalize as shown. The abbreviation "SCL" (plural form "SCLs") is acceptable only for use in technical documents or documents shared with upstream projects.
