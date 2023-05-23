@@ -613,6 +613,24 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 [discrete]
+[[sos-report]]
+==== image:images/yes.png[yes] sos report (noun)
+*Description*: An _sos report_ is an archive of system information, including configuration and diagnostic information.
+Red Hat Support engineers review sos reports when troubleshooting system problems.
+The command to generate an sos report depends on the RHEL version:
+
+* In RHEL 8 and later, run the `sos report` command (that is, the `sos` command with the `report` argument).
+* In RHEL 7 and earlier, run the `sosreport` command.
+
+NOTE: The `sos` command is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess". Therefore, use the indefinite article "an".
+
+*Use it*: yes
+
+*Incorrect forms*: sosreport (correct only for the command name in RHEL 7 and earlier), SOSreport, SOS report, or any other variation
+
+*See also*:
+
+[discrete]
 [[sound-card]]
 ==== image:images/yes.png[yes] sound card (noun)
 *Description*: A _sound card_ is a device slotted into a computer to allow the use of audio components for multimedia applications.
