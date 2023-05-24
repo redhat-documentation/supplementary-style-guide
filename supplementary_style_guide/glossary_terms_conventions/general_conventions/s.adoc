@@ -622,11 +622,11 @@ The command to generate an sos report depends on the RHEL version:
 * In RHEL 8 and later, run the `sos report` command (that is, the `sos` command with the `report` argument).
 * In RHEL 7 and earlier, run the `sosreport` command.
 
-NOTE: The `sos` command is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess". Therefore, use the indefinite article "an".
+The `sos` command is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess". Therefore, use the indefinite article "an" before "sos report".
 
 *Use it*: yes
 
-*Incorrect forms*: sosreport (incorrect except when referring to the command name in RHEL 7 and earlier), SOSreport, SOS report, or any other variation
+*Incorrect forms*: sosreport, SOSreport, SOSREPORT, SOS report, SOS Report, SOS REPORT
 
 *See also*:
 
