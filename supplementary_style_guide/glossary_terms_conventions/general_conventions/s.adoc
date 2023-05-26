@@ -613,22 +613,42 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 [discrete]
-[[sos-report]]
-==== image:images/yes.png[yes] sos report (noun)
-*Description*: An _sos report_ is an archive of system information, including configuration and diagnostic information.
-Red{nbsp}Hat Support engineers review sos reports when troubleshooting system problems.
-The command to generate an sos report depends on the RHEL version:
+[[sos-report-archive]]
+==== image:images/caution.png[with caution] sos report archive (noun)
+*Description*: In RHEL 8 and later, an `_sos report_` _archive_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review `sos report` archives when troubleshooting system problems.
+Write as shown: three words, monospace font for " `sos report` ", regular font for "archive".
+You can use an alternative word such as "file" instead of "archive", but do not use the standalone term " `sos report` " as a noun.
 
-* In RHEL 8 and later, run the `sos report` command (that is, the `sos` command with the `report` argument).
-* In RHEL 7 and earlier, run the `sosreport` command.
+To generate an `sos report` archive, run the `sos report` command (that is, the `sos` command with the `report` argument).
 
-The `sos` command is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess". Therefore, use the indefinite article "an" before "sos report".
+The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
+Therefore, if you need to use the indefinite article before " `sos report` archive", use _an_ not _a_.
 
 *Use it*: yes
 
 *Incorrect forms*: sosreport, SOSreport, SOSREPORT, SOS report, SOS Report, SOS REPORT
 
-*See also*:
+*See also*: xref:sosreport-archive[sosreport archive]
+
+[discrete]
+[[sosreport-archive]]
+==== image:images/caution.png[with caution] sosreport archive (noun)
+*Description*: In RHEL 7 and earlier, an `_sosreport_` _archive_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review `sosreport` archives when troubleshooting system problems.
+Write as shown: two words, monospace font for " `sosreport` ", regular font for "archive".
+You can use an alternative word such as "file" instead of "archive", but do not use the standalone term " `sosreport` " as a noun.
+
+To generate an `sosreport` archive, run the `sosreport` command.
+
+The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
+Therefore, if you need to use the indefinite article before " `sosreport` archive", use _an_ not _a_.
+
+*Use it*: yes
+
+*Incorrect forms*: SOSreport, SOSREPORT, sos report, SOS report, SOS Report, SOS REPORT
+
+*See also*: xref:sos-report-archive[sos report archive]
 
 [discrete]
 [[sound-card]]
