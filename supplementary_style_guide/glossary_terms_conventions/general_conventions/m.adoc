@@ -5,6 +5,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: MAC
 
 *See also*:
@@ -25,6 +27,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: manpage
 
 *See also*: xref:manual-page[manual page]
@@ -36,6 +39,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: domain mode
 
 *See also*: xref:domain-mode[domain mode]
@@ -48,6 +52,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -59,6 +64,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: CLI, native interface
 
 *See also*: xref:native-interface[native interface]
@@ -70,6 +76,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: GUI, HTTP interface
 
 *See also*: xref:http-interface[HTTP interface]
@@ -81,6 +88,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: self-hosted engine virtual machine, engine VM
 
 *See also*: xref:self-hosted-engine[self-hosted engine]
@@ -91,6 +99,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:man-page[man page]
@@ -101,6 +110,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: lots of, bunches of
 
 *See also*:
@@ -112,6 +122,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:supplier[supplier]
@@ -122,6 +133,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:mbr[MBR]
@@ -133,6 +145,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: live broker
 
 *See also*: xref:master-slave-group[master-slave group], xref:slave-broker[slave broker]
@@ -144,6 +157,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: live-backup group
 
 *See also*:
@@ -154,6 +168,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: matrices
 
 *See also*:
@@ -164,6 +179,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:Mb[Mb]
@@ -174,6 +190,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:MB[MB]
@@ -184,6 +201,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -194,6 +212,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:master-boot-record[Master Boot Record]
@@ -205,6 +224,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:metadata-server[Metadata Server], xref:ceph-mds[ceph-mds]
@@ -215,6 +235,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -225,6 +246,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: menu driven, menudriven
 
 *See also*: xref:command-driven[command-driven]
@@ -236,6 +258,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:message-exchange[message exchange]
@@ -249,6 +272,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:message-exchange[message exchange]
@@ -260,6 +284,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:destination[destination]
@@ -271,6 +296,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:message[message], xref:mep[MEP]
@@ -282,6 +308,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:link-routing[link routing]
@@ -293,6 +320,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:delivery[delivery]
@@ -304,6 +332,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-subsystem[messaging subsystem]
@@ -315,6 +344,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amq-clients[AMQ Clients], xref:client-application[client application]
@@ -326,6 +356,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-activemq-management[Messaging - ActiveMQ]
@@ -337,6 +368,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:messaging-activemq-management[Messaging - ActiveMQ], xref:messaging-subsystem[messaging subsystem]
@@ -348,6 +380,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:mds[MDS], xref:ceph-mds[ceph-mds]
@@ -358,6 +391,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:z-stream[z-stream]
@@ -368,6 +402,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: MS, MSFT, MicroSoft
 
 *See also*: xref:ms-dos[MS-DOS]
@@ -381,6 +416,7 @@ For additional terms and definitions, see the https://azure.microsoft.com/en-us/
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Azure
 
 *See also*:
@@ -394,6 +430,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: xplat-cli, x-plat-cli, xplat cli, x-plat cli, X-PLAT CLI, X-PLAT-CLI, XPLAT-CLI, XPLAT CLI
 
 *See also*: xref:cli[Azure CLI 2.0]
@@ -405,6 +442,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: On-Demand Marketplace
 
 *See also*:
@@ -416,6 +454,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Microsoft Azure Portal
 
 *See also*: xref:arm[Azure Resource Manager]
@@ -427,6 +466,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:windows-server[Windows Server]
@@ -438,6 +478,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:update[update], xref:upgrade[upgrade], xref:conversion[conversion]
@@ -449,6 +490,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:node[node]
@@ -459,6 +501,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: mis-configure
 
 *See also*:
@@ -470,6 +513,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -480,6 +524,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -490,6 +535,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:baseos-repository[BaseOS repository]
@@ -500,6 +546,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -513,6 +560,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: MoM, Mom, mom
 
 *See also*:
@@ -524,6 +572,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:data-warehouse[Data Warehouse]
@@ -534,6 +583,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -544,6 +594,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: mouse-button, mousebutton
 
 *See also*:
@@ -554,6 +605,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: firefox
 
 *See also*: xref:mozilla-thunderbird[Mozilla Thunderbird]
@@ -564,6 +616,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: thunderbird
 
 *See also*: xref:mozilla-firefox[Mozilla Firefox]
@@ -575,6 +628,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -585,6 +639,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ms-dos, MSDOS, msdos
 
 *See also*: xref:microsoft[Microsoft]
@@ -596,6 +651,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -606,6 +662,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: multi-processing
 
 *See also*:
@@ -617,6 +674,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: multi site, multi-site
 
 *See also*: xref:federated[federated]
@@ -627,6 +685,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: multi-tenant
 
 *See also*:
@@ -637,6 +696,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:mutual-exclusion[mutual exclusion], xref:mutexes[Mutexes]
@@ -647,6 +707,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:mutual-exclusion[mutual exclusion], xref:mutex[Mutex]
@@ -657,6 +718,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:mutex[Mutex], xref:mutexes[Mutexes]
@@ -667,6 +729,7 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: MYSQL, mySQL
 
 *See also*: xref:sql[SQL]

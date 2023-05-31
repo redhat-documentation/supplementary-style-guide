@@ -5,6 +5,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -26,6 +28,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -36,6 +39,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:latency[latency]
@@ -46,6 +50,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: baremetal, bare-metal
 
 *See also*: xref:bare-metal-adj[bare-metal (adjective)]
@@ -56,6 +61,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: baremetal, bare metal
 
 *See also*: xref:bare-metal-n[bare metal (noun)]
@@ -67,6 +73,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:distinguished-name[distinguished name]
@@ -77,6 +84,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Baseos, baseos, baseOS
 
 *See also*:
@@ -89,6 +97,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: basic authentication, Basic Authentication, basic auth, Basic auth, Basic Auth
 
 *See also*:
@@ -99,6 +108,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -110,6 +120,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -121,10 +132,10 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
-
 
 [[bimodal-it]]
 ==== image:images/caution.png[with caution] bimodal IT (noun)
@@ -134,6 +145,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -144,6 +156,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -154,6 +167,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:rpm[RPM]
@@ -164,6 +178,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Bind, bind
 
 *See also*:
@@ -175,6 +190,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:distinguished-name[distinguished name]
@@ -187,6 +203,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: Bios
 
 *See also*: xref:firmware[firmware]
@@ -197,6 +214,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -208,6 +226,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: blue print, BluePrint
 
 *See also*:
@@ -219,6 +238,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: bluestore, Blue Store
 
 *See also*: xref:filestore[FileStore], xref:object-store[Object Store]
@@ -229,6 +249,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:weak-dependencies[Weak dependencies]
@@ -239,6 +260,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: boot diskette
 
 *See also*:
@@ -249,6 +271,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: bootloader
 
 *See also*:
@@ -259,6 +282,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: bottle neck, bottle-neck
 
 *See also*:
@@ -269,6 +293,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -279,6 +304,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: bps
 
 *See also*: xref:bps[bps]
@@ -289,6 +315,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Bps
 
 *See also*: xref:Bps[Bps]
@@ -299,6 +326,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: broad cast, broad-cast
 
 *See also*: xref:broadcast-v[broadcast (verb)]
@@ -309,6 +337,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: broad cast, broad-cast
 
 *See also*: xref:broadcast-n[broadcast (noun)]
@@ -320,6 +349,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -331,6 +361,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amq-broker[AMQ Broker], xref:broker-instance[broker instance]
@@ -342,6 +373,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amq-broker[AMQ Broker], xref:broker-distribution[broker distribution]
@@ -353,6 +385,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -363,6 +396,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: btrfs
 
 *See also*:
@@ -374,6 +408,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:container[container]
@@ -385,6 +420,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -396,6 +432,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:shard-n[shard]
@@ -406,6 +443,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: bugfix
 
 *See also*:
@@ -417,6 +455,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -428,6 +467,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:build[build]
@@ -438,6 +478,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: builtin, built in
 
 *See also*:
@@ -449,6 +490,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ActiveMQ, ActiveMQ Artemis
 
 *See also*: xref:jboss-eap-built-in-messaging[JBoss EAP built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
@@ -460,6 +502,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Central, BC
 
 *See also*:
@@ -471,6 +514,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -482,6 +526,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Resource Planner, Planner
 
 *See also*:
@@ -493,6 +538,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -503,6 +549,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: byte code
 
 *See also*:
@@ -513,6 +560,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:interpreted-code[interpreted code]

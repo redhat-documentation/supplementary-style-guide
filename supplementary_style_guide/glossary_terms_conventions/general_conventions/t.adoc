@@ -5,6 +5,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:source[source]
@@ -16,6 +17,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:target-system[target system], xref:instrumentation-module[instrumentation module]
@@ -27,6 +29,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:instrumentation-module[instrumentation module]
@@ -37,6 +40,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -47,6 +51,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Technology preview, technology preview
 
 *See also*:
@@ -58,6 +63,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -68,6 +74,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -78,6 +85,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: textmode, text-mode
 
 *See also*:
@@ -88,6 +96,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: text based
 
 *See also*:
@@ -99,6 +108,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -109,6 +119,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: thinly provisioned, thinly-provisioned
 
 *See also*:
@@ -119,6 +130,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: thru
 
 *See also*:
@@ -131,6 +143,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:key-distribution-center[Key Distribution Center]
@@ -141,6 +154,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: tier-one, tier 1
 
 *See also*:
@@ -151,6 +165,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: timeframe, time-frame
 
 *See also*:
@@ -161,6 +176,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ttl[TTL], xref:time-to-live-adj[time-to-live]
@@ -171,6 +187,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ttl[TTL], xref:time-to-live-n[time to live]
@@ -189,6 +206,7 @@ Use "SSL/TLS" in high-level documentation entries, such as headings, to establis
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ssl[SSL], xref:ssl-tls[SSL/TLS], xref:symmetric-encryption[symmetric encryption], xref:tls-handshake[TLS handshake], xref:trusted-certificate-authority[trusted certificate authority]
@@ -203,6 +221,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: SSL handshake
 
 *See also*: xref:tls[TLS], xref:symmetric-encryption[symmetric encryption], xref:trusted-certificate-authority[trusted certificate authority]
@@ -214,6 +233,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -224,6 +244,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:basically[basically]
@@ -235,6 +256,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -245,6 +267,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:scriptlet-directive[scriptlet directive]
@@ -257,6 +280,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: self-signed certificate
 
 *See also*: xref:tls[TLS]
@@ -268,6 +292,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: trust store
 
 *See also*: xref:keystore[keystore]
@@ -279,6 +304,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -289,6 +315,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ttl
 
 *See also*: xref:time-to-live-adj[time-to-live], xref:time-to-live-n[time to live]

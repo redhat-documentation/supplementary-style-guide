@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:paas[PaaS], xref:saas[SaaS]
@@ -14,6 +15,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IBM Cloud® Bare Metal (Classic), IBM Cloud VPC
 
 *See also*: xref:ibm-cloud-bare-metal[IBM Cloud® Bare Metal (Classic)]
@@ -45,6 +47,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: pSeries
 
 *See also*: xref:ibm-power[IBM Power®]
@@ -55,6 +58,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IBM LinuxONE, LinuxONE, linuxone
 
 *See also*: xref:ibm-z[IBM Z®], xref:s390x[s390x]
@@ -65,6 +69,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: pSeries, System P, Power Systems
 
 *See also*:
@@ -75,6 +80,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: S/390, S90
 
 *See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:ibm-z[IBM Z®], xref:s390x[s390x]
@@ -85,6 +91,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IBM zSystems, Z, S/390
 
 *See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:s390x[s390x]
@@ -100,6 +107,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:id-ranges[id ranges], xref:sssd[SSSD]
@@ -122,6 +130,7 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:id-mapping[ID mapping]
@@ -138,6 +147,7 @@ In an IdM-AD trust setup, the `Default Trust View` is an ID view applied to AD u
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:posix-attributes[POSIX attributes]
@@ -150,6 +160,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -161,6 +172,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider-federation[identity provider federation], xref:identity-provider-mappers[identity provider mappers]
@@ -172,6 +184,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers]
@@ -183,6 +196,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-federation[identity provider federation], xref:identity-token[identity token]
@@ -194,6 +208,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers], xref:identity-provider-federation[identity provider federation]
@@ -205,6 +220,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: master CA
 
 *See also*: xref:certificate-authority[certificate authority]
@@ -218,6 +234,7 @@ Alternative names: *CA server*
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:certificate-authority[certificate authority]
@@ -229,6 +246,7 @@ Alternative names: *CA server*
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authority[certificate authority]
@@ -245,6 +263,7 @@ Alternative names: *CA server*
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -260,6 +279,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: master server
 
 *See also*:
@@ -271,6 +291,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -282,6 +303,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -293,6 +315,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -304,6 +327,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:image[image]
@@ -314,6 +338,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -325,6 +350,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:upgrade[upgrade], xref:clean-install[clean install]
@@ -336,6 +362,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:bucket-index[bucket index]
@@ -347,6 +374,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: BRMS engine, engine
 
 *See also*:
@@ -357,6 +385,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Open InfiniBand, Infiniband
 
 *See also*:
@@ -368,6 +397,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -378,6 +408,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -388,6 +419,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -399,19 +431,20 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
 
 [[inject]]
 ==== image:images/yes.png[yes] inject (verb)
-*Description*: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences. 
+*Description*: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences.
 
 Red Hat Trusted Application Pipeline users can configure secrets to inject sensitive data into an application in the form of files or environment variables.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:
 
@@ -421,6 +454,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: nonsecure, non-secure
 
 *See also*:
@@ -431,6 +465,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: GDBTK
 
 *See also*: xref:gdb[GDB], xref:gdb-command[gdb]
@@ -441,6 +476,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: the installer
 
 *See also*:
@@ -452,6 +488,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IPI
 
 *See also*:
@@ -463,6 +500,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -474,6 +512,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:host-system[host system], xref:target-kernel[target kernel], xref:target-system[target system]
@@ -486,6 +525,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -496,6 +536,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -506,6 +547,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Tolapai, Intel Tolapai
 
 *See also*:
@@ -516,6 +558,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VT-i, VT
 
 *See also*:
@@ -526,6 +569,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -542,6 +586,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -553,6 +598,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Kie server
 
 *See also*:
@@ -563,6 +609,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -573,6 +620,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:raw-interpreted-program[raw-interpreted program], xref:byte-compiled-program[byte-compiled program]
@@ -584,6 +632,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:managed-nodes[managed nodes]
@@ -595,6 +644,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -605,6 +655,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Iops, IOPs
 
 *See also*:
@@ -615,6 +666,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ip
 
 *See also*: xref:ipv4[IPv4], xref:ipv6[IPv6]
@@ -625,6 +677,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IP
 
 *See also*: xref:ip[IP]
@@ -635,6 +688,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ipv4, IPV4, Ipv4
 
 *See also*: xref:ip[IP]
@@ -645,6 +699,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ipv6, IPV6, Ipv6
 
 *See also*: xref:ip[IP]
@@ -655,6 +710,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -665,6 +721,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -675,6 +732,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IPSec
 
 *See also*:
@@ -685,6 +743,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: ISeries
 
 *See also*: xref:ibm-power[IBM Power®], xref:ibm-eserver-system-i[IBM eServer System i]
@@ -695,6 +754,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: iso
 
 *See also*:
@@ -705,6 +765,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: iso image
 
 *See also*:
@@ -715,6 +776,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -725,6 +787,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IA64, ia64
 
 *See also*: xref:itanium-2[Itanium 2]
@@ -735,6 +798,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Itanium2
 
 *See also*: xref:itanium[Itanium]

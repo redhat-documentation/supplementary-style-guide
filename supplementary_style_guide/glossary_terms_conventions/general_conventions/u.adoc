@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -14,6 +15,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: uid
 
 *See also*:
@@ -24,6 +26,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ULTRASPARC, UltraSparc, or other variations.
 
 *See also*:
@@ -35,6 +38,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Undercloud
 
 *See also*: xref:overcloud[overcloud], xref:node[node]
@@ -46,6 +50,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:webhttp-undertow[WebHTTP - Undertow]
@@ -56,6 +61,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -66,6 +72,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Unix, unix, UNIX-like, UNIX-based
 
 *See also*:
@@ -76,6 +83,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -86,6 +94,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -97,6 +106,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -109,6 +119,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: up-grade, up grade
 
 *See also*: xref:in-place-upgrade[in-place upgrade], xref:clean-install[clean install]
@@ -119,6 +130,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -129,6 +141,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: up-sell
 
 *See also*:
@@ -139,6 +152,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: up-selling, up selling
 
 *See also*:
@@ -149,6 +163,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: up-stream, up stream
 
 *See also*: xref:downstream-n[downstream (noun)], xref:downstream-adj[downstream (adjective)], xref:upstream-n[upstream (noun)]
@@ -159,6 +174,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: up-stream, up stream
 
 *See also*: xref:downstream-n[downstream (noun)], xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)]
@@ -169,6 +185,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: up-time, up time
 
 *See also*:
@@ -180,6 +197,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: uri
 
 *See also*: xref:endpoint[endpoint], xref:urn[URN]
@@ -190,6 +208,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: url
 
 *See also*:
@@ -201,6 +220,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: urn
 
 *See also*: xref:uri[URI]
@@ -211,6 +231,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -222,6 +243,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -232,6 +254,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -243,6 +266,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -253,6 +277,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: userspace
 
 *See also*: xref:user-space-adj[user-space]
@@ -264,6 +289,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: UPI
 
 *See also*:
@@ -274,6 +300,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: userspace
 
 *See also*: xref:user-space-n[user space]

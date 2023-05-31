@@ -16,6 +16,7 @@ Use the following template for glossary entries:
 
 *Use it*: <yes/no/with caution>
 
+[.vale-ignore]
 *Incorrect forms*: <incorrect_form>
 
 *See also*: xref:<another_term_id>[<another_term>]
