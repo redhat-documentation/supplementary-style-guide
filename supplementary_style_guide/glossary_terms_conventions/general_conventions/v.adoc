@@ -101,6 +101,16 @@ Use lowercase "v" and uppercase "CPU".
 
 *See also*:
 
+[[virtual-disk]]
+==== image:images/yes.png[yes] virtual disk (noun)
+*Description*: A _virtual disk_ is a file or set of files that presents as a physical disk to a virtualized operating system.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:physical-disk[physical disk]
+
 [[virtual-floppy-disk]]
 ==== image:images/yes.png[yes] virtual floppy disk (noun)
 *Description*: A _virtual floppy disk_ is an alternative to the traditional floppy. It is an image file rather than a physical disk.
@@ -239,6 +249,26 @@ Always use "VM Portal" and capitalize the product name.
 *Incorrect forms*:
 
 *See also*: xref:persistent-storage[persistent storage]
+
+[[volume-file]]
+==== image:images/yes.png[yes] volume file (noun)
+*Description*: In Red Hat Gluster Storage, a _volume file_ is a configuration file that determines the behavior of the trusted storage pool.
+
+*Use it*: yes
+
+*Incorrect forms*: volfile
+
+*See also*:
+
+[[volume-group]]
+==== image:images/yes.png[yes] volume group (noun)
+*Description*: A _volume group_ is a combination of physical volumes, which creates a pool of disk space out of which logical volumes can be allocated.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [[vpn]]
 ==== image:images/yes.png[yes] VPN (noun)

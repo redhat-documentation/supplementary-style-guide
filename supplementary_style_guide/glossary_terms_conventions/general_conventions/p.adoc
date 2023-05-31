@@ -101,7 +101,7 @@ When combined with privileges, permissions define a user's or resource's overall
 // OCS: General; kept as is
 [[persistent-volume]]
 ==== image:images/yes.png[yes] persistent volume (noun)
-*Description*: A _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.
+*Description*: 1) Generically, a _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision. 2) A storage volume for data in an Red Hat OpenShift cluster that remains available and usable after the pod that created it has been destroyed. A persistent volume provides persistent storage to Red Hat OpenShift applications, as distinct from the ephemeral storage provided by default. This term is sometimes abbreviated as _PV_, so it is important to clearly distinguish this term from _physical volume_ in contexts where logical volume management is discussed, such as when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
 
 *Use it*: yes
 
@@ -131,6 +131,16 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*: xref:placement-group[placement group]
 
+[[phase]]
+==== image:images/yes.png[yes] phase (noun)
+*Description*: A _phase_ is the state of an object (storage or otherwise) in Red Hat OpenShift. For example, an object's phase can be `available`, `bound`, `released`, or `failed`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [[php]]
 ==== image:images/yes.png[yes] PHP (noun)
 *Description*: Use _PHP_ when referring to the programming language in general. Use `php` when referring to the specific command or some other literal use. See http://www.php.net/ for specific PHP language information. See http://en.wikipedia.org/wiki/PHP for more general information.
@@ -141,6 +151,16 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
+[[physical-disk]]
+==== image:images/yes.png[yes] physical disk (noun)
+*Description*: A _physical disk_ is a hardware component that stores data, such as a hard disk or solid-state drive.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:virtual-disk[virtual disk]
+
 [[physical-topology]]
 ==== image:images/yes.png[yes] physical topology (noun)
 *Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The _physical topology_ is the way that the workstations are connected to the network through the actual cables that transmit data.
@@ -150,6 +170,16 @@ When combined with privileges, permissions define a user's or resource's overall
 *Incorrect forms*:
 
 *See also*: xref:logical-topology[logical topology], xref:signal-topology[signal topology]
+
+[[physical-volume]]
+==== image:images/yes.png[yes] physical volume (noun)
+*Description*: A _physical volume_ is a storage unit, a partition, or a whole disk that has been configured for use by Logical Volume Manager. Before this configuration, the physical volume is just a block device. This term is sometimes abbreviated as _PV_, so be sure that you clearly distinguish this term from _persistent volume_ in contexts where Red Hat OpenShift is discussed, such as when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[picketlink-federation]]
@@ -225,6 +255,16 @@ When combined with privileges, permissions define a user's or resource's overall
 *Use it*: yes
 
 *Incorrect forms*: plaintext, plain-text, cleartext, clear text
+
+*See also*:
+
+[[platform]]
+==== image:images/caution.png[with caution] platform (noun)
+*Description*: A _platform_ is a set of technological building blocks, such as hardware and an operating system, that is used to develop and run applications, software, services, workflows, and so forth.
+
+*Use it*: with caution - this term is vague.
+
+*Incorrect forms*:
 
 *See also*:
 
@@ -364,6 +404,32 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
+[[primary-cluster]]
+==== image:images/yes.png[yes] primary cluster (noun)
+*Description*: In Red Hat Gluster Storage, a _primary cluster_ is the storage cluster in active or production use.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[primary-node]]
+==== image:images/yes.png[yes] primary node (noun)
+*Description*: Generically, a _primary node_ is the machine that contains or runs the main components of a product.
+
+Use _control plane node_ for the OpenShift Container Platform node that manages other nodes in its Kubernetes cluster and schedules pods to run on nodes.
+
+Use _controller node_ for the Ansible node from which jobs are executed.
+
+Use _source node_ for the node in the active cluster when discussing geo-replication in Red Hat Gluster Storage.
+
+*Use it*: with caution
+
+*Incorrect forms*: master node
+
+*See also*: xref:control-plane-node[control plane node], xref:controller-node[controller node], xref:source-node[source node], 
+
 // Fuse: Added "In Red Hat Fuse," and moved "in a Camel route" to the end of the sentence
 [[processor]]
 ==== image:images/yes.png[yes] processor (noun)
@@ -470,12 +536,32 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
+[[provision]]
+==== image:images/caution.png[with caution] provision (verb)
+*Description*: To _provision_ is to create, configure, and assign a resource for use. For example, you can provision more storage to ensure you have sufficient storage space in a cluster.
+
+*Use it*: with caution - this term can have different meanings in different contexts.
+
+*Incorrect forms*:
+
+*See also*:
+
 // Azure: General for the most part; has an Azure-specific second sentence, but that already includes "In Microsoft Azure"; kept as is
 [[provisioning]]
 ==== image:images/yes.png[yes] provisioning (verb)
 *Description*: When discussing virtual machines (VMs), "provisioning" refers to a set of actions to prepare a VM with appropriate configuration options, data, and software to make it ready for operating in a cloud environment. In Microsoft Azure, RHEL VMs are provisioned using Azure CLI 2.0 or using the Azure Resource Manager (ARM) in the Microsoft Azure portal.
 
 *Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[proxy]]
+==== image:images/caution.png[with caution] proxy (noun)
+*Description*: A _proxy_ is a production environment that denies direct access to the Internet and provides an available HTTP or HTTPS proxy instead.
+
+*Use it*: with caution - support levels vary, so the exact method and limitations must be explained clearly.
 
 *Incorrect forms*:
 

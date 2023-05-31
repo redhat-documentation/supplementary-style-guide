@@ -341,6 +341,16 @@
 
 *See also*: xref:messaging-activemq-management[Messaging - ActiveMQ], xref:messaging-subsystem[messaging subsystem]
 
+[[metadata]]
+==== image:images/yes.png[yes] metadata (noun)
+*Description*: _Metadata is a generic term for data that provides information about one or more other pieces of data.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 // Ceph: Added "In Red Hat Ceph Storage, Metadata Server is"
 [[metadata-server]]
 ==== image:images/yes.png[yes] Metadata Server (noun)
@@ -430,6 +440,17 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *Incorrect forms*:
 
 *See also*: xref:windows-server[Windows Server]
+
+[[migrate]]
+==== image:images/caution.png[with caution] migrate (verb)
+*Description*:  To _migrate_ data is to move data automatically from one location to another, usually to proactively or reactively improve cluster performance. OpenShift Container Platform uses the phrases _auto-migrate_ or _automatically migrate_ in this use case.
+In virtualization, _live migration_ refers specifically to a virtual machine being moved from one host to another while remaining operational.
+
+*Use it*: with caution - for clarity, use the full term first before shortening to _migrate_.
+
+*Incorrect forms*:
+
+*See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"; Updated upgrade xref
 [[migration]]
@@ -595,6 +616,16 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 *Description*: _Multicloud Object Gateway_ (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
 
 *Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[multipath]]
+==== image:images/caution.png[with caution] multipath (noun)
+*Description*: Device Mapper _Multipath_ Input Output (DM-MPIO), also known as DM _Multipathing_ or _multipath_, is a Linux utility that enables multiple input/output paths between server nodes and storage arrays to be configured into a single device path to provide redundancy and improve performance.
+
+*Use it*: with caution - this term may be unclear on its own.
 
 *Incorrect forms*:
 

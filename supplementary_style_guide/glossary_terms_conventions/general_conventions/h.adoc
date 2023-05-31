@@ -112,6 +112,16 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*: xref:high-availability-noun[high availability]
 
+[[high-availability-cluster]]
+==== image:images/yes.png[yes] high-availability cluster (noun)
+*Description*: A _high-availability cluster_ is a group of physical or virtual machines that can share work between themselves in order to allow services and resources to be available even if one or more machines in the cluster is offline.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:availability[availability]
+
 [[high-performance-computing]]
 ==== image:images/yes.png[yes] high-performance computing (noun)
 *Description*: _High-performance computing_ is the use of parallel processing to obtain more efficient processing of complex programs. Use standard hyphenation guidelines to maintain clarity.
@@ -317,5 +327,15 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 *Use it*: yes
 
 *Incorrect forms*: HyperVisor, Hyperviser
+
+*See also*:
+
+[[hyperconverged-cluster]]
+==== image:images/yes.png[yes] hyperconverged cluster (noun)
+*Description*: A _hyperconverged cluster_ is a generic phrase that refers to the set of physical machines providing compute and storage capabilities in a Red Hat Hyperconverged Infrastructure for Virtualization (RHHI-V) or Red Hat Hyperconverged Infrastructure for Cloud (RHHI-C) cluster.
+
+*Use it*: yes
+
+*Incorrect forms*: hyper converged cluster, hyper-converged cluster
 
 *See also*:

@@ -60,6 +60,16 @@
 
 *See also*: xref:bare-metal-n[bare metal (noun)]
 
+[[bare-metal-service]]
+==== image:images/yes.png[yes] Bare Metal service (noun)
+*Description*: The _Bare Metal service_ is a Red Hat OpenStack Platform product that provisions bare metal machines.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 // RHDS: General; kept as is
 [[base-dn]]
 ==== image:images/yes.png[yes] base DN (noun)
@@ -186,7 +196,16 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *Incorrect forms*:
 
-*See also*: xref:distinguished-name[distinguished name]
+*See also*: xref:distinguished-name[distinguished name], xref:bind-v[bind (verb)]
+
+[[bind-v]]
+==== image:images/yes.png[yes] bind (verb)
+*Description*: To _bind_ is to associate two or more objects in a particular scope. For example, in OpenShift Container Storage, when a Persistent Volume Claim is created, a Persistent Volume that matches the claim's requirements is bound to the Persistent Volume Claim.
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:bind-n[bind (noun)]
 
 [[bios]]
 ==== image:images/caution.png[with caution] BIOS (noun)
@@ -211,6 +230,37 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
+
+[[block-device]]
+==== image:images/caution.png[with caution] block device (noun)
+*Description*: A _block device_ is a physical storage device that supports reading and writing data in groups (blocks) of bytes in any order. Do not confuse this term with _block storage_ (cloud storage) or _block volume_ (OpenShift Virtualization).
+
+*Use it*: with caution
+
+*Incorrect forms*: block storage, block volume
+
+*See also*:
+
+[[block-storage]]
+==== image:images/caution.png[with caution] block storage (noun)
+*Description*: _Block storage_, as distinct from file storage and object storage, breaks data into chunks that are arbitrarily organized and distributed. These chunks can then be further partitioned and treated as individual storage devices. Do not confuse this term with _block device_ (generic) or _block volume_ (OpenShift Virtualization).
+
+*Use it*: with caution
+
+*Incorrect forms*: block device, block volume
+
+*See also*:
+
+[[block-volume]]
+==== image:images/caution.png[with caution] block volume (noun)
+*Description*: A _block volume_ is a physical volume that supports `Block` as opposed to `Filesystem` data formats. Block data are raw chunks of data that are not compatible with any predefined file system mechanism such as NFS. Do not confuse this term with _block device_ (generic) or _block storage_ (cloud storage).
+
+*Use it*: with caution
+
+*Incorrect forms*: block device, block storage
+
+*See also*:
+
 [[blueprint]]
 ==== image:images/yes.png[yes] blueprint (noun)
 *Description*: In Red Hat Enterprise Linux, _blueprints_ are simple text files in Tom's Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
@@ -262,6 +312,16 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *See also*:
 
+[[boot-source]]
+==== image:images/yes.png[yes] boot source (noun)
+*Description*: A _boot source_ is a system image containing a bootable operating system (OS) and all of the configuration settings for the OS, such as drivers. Boot sources can be used to create virtual machine templates with specific configurations. These templates can be used to create any number of available virtual machines.
+
+*Use it*: yes
+
+*Incorrect forms*: bootsource, boot-source
+
+*See also*:
+
 [[bottleneck]]
 ==== image:images/yes.png[yes] bottleneck (noun)
 *Description*: A _bottleneck_ is a limitation in the capacity of software or hardware caused by a single component.
@@ -301,6 +361,16 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 *Incorrect forms*: Bps
 
 *See also*: xref:Bps[Bps]
+
+[[brick]]
+==== image:images/yes.png[yes] brick (noun)
+*Description*: A _brick_ is the basic unit of storage in Red Hat Gluster Storage. A _brick_ is an exported directory on a server that is in a trusted storage pool.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [[broadcast-n]]
 ==== image:images/yes.png[yes] broadcast (noun)

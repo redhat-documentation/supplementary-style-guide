@@ -63,6 +63,17 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*:
 
 // RHSSO: General; kept as is
+
+[[access-mode]]
+==== image:images/yes.png[yes] access mode (noun)
+*Description*: _Access mode_ is the concurrency method used when accessing a storage component, such as `readwriteonce` or `readwritemany`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [[access-token]]
 ==== image:images/yes.png[yes] access token
 *Description*: An _access token_ is a token that can be provided as part of an HTTP request that grants access to the service being invoked on. This is part of the OpenID Connect and OAuth 2.0 specification.
@@ -579,6 +590,29 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // Azure: Added "In Microsoft Azure, the" and removed "Microsoft Azure" from later in the sentence
+
+[[availability]]
+==== image:images/caution.png[with caution] availability (adjective)
+*Description*: _Availability_ is the state of being available to perform work in a system, in the context of high availability or availability zones. That is, _availability_ is the ability of a component to be utilized at a given time.
+
+Ensure that _availability_ is not erroneously used to indicate that a server or disk is online or available. For example, do not say "the server has availability".
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:high-availability[high-availability], xref:availability-zone[availability zone]
+
+[[availability-zone]]
+==== image:images/yes.png[yes] availability zone (noun)
+*Description*: A logical context or geographical region used to provide high availability. This grouping can be defined by a technology or according to unique use cases.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:high-availability[high-availability]
+
 [[cli]]
 ==== image:images/yes.png[yes] Azure CLI 2.0 (noun)
 *Description*: In Microsoft Azure, the _Azure CLI 2.0_ is a set of open source commands for managing Microsoft Azure platform resources. Typing `az` at the CLI command prompt lists each of the many Microsoft Azure subcommands. Azure CLI 2.0 is the most current command-line interface and is replacing Microsoft Azure Xplat-CLI.

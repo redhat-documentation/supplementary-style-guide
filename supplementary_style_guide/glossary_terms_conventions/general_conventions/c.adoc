@@ -295,7 +295,11 @@
 // RHSSO: Added "In Red Hat Single Sign-On,"
 [[client]]
 ==== image:images/yes.png[yes] client
-*Description*: In Red Hat Single Sign-On, a _client_ is an entity that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
+*Description*: _Client_ has multiple meanings, depending on the context:
+
+* Generically, a _client_ is an entity, such as a machine, process, service, or application, that uses a service provided by a server. Avoid using _client_ to refer to an application that manages configuration of such clients or to refer to applications, tools, and so on.
+
+* In Red Hat Single Sign-On, a _client_ is an entity that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
 
 *Use it*: yes
 
@@ -346,6 +350,86 @@
 *Incorrect forms*:
 
 *See also*:
+
+[[client-side-n]]
+==== image:images/yes.png[yes] client side (noun)
+*Description*: Use the two-word form of "client side" as a noun when referring to the client side in a client-server relationship, for example, "This happens on the client side of the relationship."
+
+*Use it*: yes
+
+*Incorrect forms*: client-side
+
+*See also*: xref:client-side-adj[client-side]
+
+[[client-side-adj]]
+==== image:images/yes.png[yes] client-side (adjective)
+*Description*: Use the one-word form "client-side" as an adjective when referring to operations that are performed by the client in a client-server relationship, for example, "This is a client-side service."
+
+*Use it*: yes
+
+*Incorrect forms*: client side
+
+*See also*: xref:client-side-n[client side]
+
+[[clone-n]]
+==== image:images/yes.png[yes] clone (noun)
+*Description*: A _clone_ is a full data copy from an existing volume or disk drive to a new volume or disk drive. This process is not the same as a virtual machine clone, which copies both storage and configuration.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:clone-v[clone (verb)]
+
+[[clone-v]]
+==== image:images/yes.png[yes] clone (verb)
+*Description*: _Cloning_ is the process of making a full data copy from an existing volume or disk drive to a new volume or disk drive.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:clone-n[clone (noun)]
+
+[[cloud-adj]]
+==== image:images/yes.png[yes] cloud (adjective)
+*Description*: Use "cloud" with a lowercase "c" when referring to cloud computing in a general sense.
+
+*Use it*: yes
+
+*Incorrect forms*: Cloud
+
+*See also*: xref:cloud-n[cloud (noun)]
+
+[[cloud-storage]]
+==== image:images/yes.png[yes] cloud storage (noun)
+*Description*: _Cloud storage_ refers to data or objects that are saved, accessed, and managed remotely, such as over a network.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[compression]]
+==== image:images/caution.png[with caution] compression (noun)
+*Description*: Use _compression_ by itself only after first referring to the specific type of compression, for example, network compression, data compression, migration compression.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[[cloud-n]]
+==== image:images/yes.png[yes] cloud (noun)
+*Description*: Use "cloud" with a lowercase "c" when referring to cloud computing in a general sense.
+
+*Use it*: yes
+
+*Incorrect forms*: Cloud
+
+*See also*: xref:cloud-adj[cloud (adjective)]
 
 [[cloudbursting]]
 ==== image:images/yes.png[yes] cloudbursting (verb)
@@ -710,6 +794,16 @@ image repository contains one or more tagged images.
 
 *See also*: xref:api-server[API server], xref:scheduler[scheduler]
 
+[[control-plane-node]]
+==== image:images/yes.png[yes] control plane node (noun)
+*Description*: In OpenShift Container Platform, _control plane node_ refers to the node that manages other nodes in its Kubernetes cluster and schedules pods to run on nodes.
+
+*Use it*: yes
+
+*Incorrect forms*: master node
+
+*See also*: xref:primary-node[primary node]
+
 [[control-program]]
 ==== image:images/yes.png[yes] control program (noun)
 *Description*: A _control program_ refers to a program that enhances an operating system by creating an environment in which you can run other programs.
@@ -721,6 +815,7 @@ image repository contains one or more tagged images.
 *See also*: xref:operating-environment[operating environment]
 
 // OCP: Added "In Red Hat OpenShift, a controller is"
+
 [[controller]]
 ==== image:images/yes.png[yes] controller (noun)
 *Description*: In Red Hat OpenShift, a _controller_ is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
@@ -730,6 +825,16 @@ image repository contains one or more tagged images.
 *Incorrect forms*:
 
 *See also*:
+
+[[controller-node]]
+==== image:images/yes.png[yes] controller node (noun)
+*Description*: A _controller node_ is the Ansible node from which jobs are executed.
+
+*Use it*: yes
+
+*Incorrect forms*: master node
+
+*See also*: xref:primary-node[primary node]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [[conversion]]
@@ -765,6 +870,16 @@ image repository contains one or more tagged images.
 [[cookie]]
 ==== image:images/yes.png[yes] cookie (noun)
 *Description*: A _cookie_ is a message given to a web browser by a web server. The browser stores the message. The message is then sent back to the server each time the browser requests a page from the server.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[copy-v]]
+==== image:images/yes.png[yes] copy (verb)
+*Description*: In a data storage context, to _copy_ is the process of creating a duplicate of a file in a different location.
 
 *Use it*: yes
 

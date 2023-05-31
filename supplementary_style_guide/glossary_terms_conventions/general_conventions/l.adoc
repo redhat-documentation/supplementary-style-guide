@@ -180,10 +180,30 @@
 
 *See also*:
 
+[[local-storage]]
+==== image:images/yes.png[yes] local storage (noun)
+*Description*: _Local storage_ is a method to save, access, and manage data or objects on hardware devices that are part of or closely connected to the machine accessing the data, such as hard drives, solid state drives, or external storage devices. In OpenShift Container Storage, local storage affects scheduling, as local storage can only be accessed by processes running on the node that the storage is physically attached to.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[logging]]
 ==== image:images/yes.png[yes] logging subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _logging subsystem_ is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[logical-cache]]
+==== image:images/yes.png[yes] logical cache (noun)
+*Description*: A _logical cache_ is a caching mechanism used to improve the performance of a logical volume. Typically, a smaller and faster device is used to improve I/O performance of a larger and slower logical volume. A _logical cache_ is also known as a _virtual cache_ or _LVM cache_.
 
 *Use it*: yes
 
@@ -200,6 +220,16 @@
 *Incorrect forms*:
 
 *See also*: xref:physical-topology[physical topology], xref:signal-topology[signal-topology]
+
+[[logical-volume]]
+==== image:images/yes.png[yes] logical volume (noun)
+*Description*: A _logical volume_ is a virtual, block storage device that a file system, database, or application can use. To create a logical volume, physical volumes are combined into a volume group (VG). This process creates a pool of disk space out of which logical volumes (LVs) can be allocated. Note that Logical Volume Manager (LVM) is the device mapper framework that provides logical volume management for the Linux kernel.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [[look-up-v]]
 ==== image:images/caution.png[with caution] look up (verb)

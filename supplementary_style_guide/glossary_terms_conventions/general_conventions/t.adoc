@@ -1,7 +1,7 @@
 // AMQ: Added "In Red Hat AMQ, a target is"
 [[target]]
 ==== image:images/yes.png[yes] target (noun)
-*Description*: In Red Hat AMQ, a _target_ is a message's destination. This is usually a queue or topic.
+*Description*: 1) Generically, a _target_ is synonymous with destination. A _target_ can be a file, a device or any type of location to which data is moved or copied. 2) In Red Hat AMQ, a _target_ is a message's destination. The _target_ is usually a queue or topic.
 
 *Use it*: yes
 
@@ -20,6 +20,7 @@
 
 *See also*: xref:target-system[target system], xref:instrumentation-module[instrumentation module]
 
+
 // RHEL: Added "In Red Hat Enterprise Linux, the target system is"
 [[target-system]]
 ==== image:images/yes.png[yes] target system (noun)
@@ -30,6 +31,16 @@
 *Incorrect forms*:
 
 *See also*: xref:instrumentation-module[instrumentation module]
+
+[[target-volume]]
+==== image:images/yes.png[yes] target volume (noun)
+*Description*:  A _target volume_ is a storage volume that has an administrative action performed against it.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [[tcp]]
 ==== image:images/yes.png[yes] TCP (noun)
@@ -102,6 +113,18 @@
 *Incorrect forms*:
 
 *See also*:
+
+[[thickly-provisioned]]
+==== image:images/yes.png[yes] thickly provisioned (adjective)
+*Description*:  _Thickly provisioned_ is used with reference to disk storage that is pre-allocated so that the total amount of virtual disk storage capacity exists on the physical storage when a virtual disk is created.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+//The PR adding storage terms https://github.com/redhat-documentation/supplementary-style-guide/pull/155# indicates that you use the term "thinly-provisioned. The existing entry below contradicts this."
 
 [[thin-provisioned]]
 ==== image:images/yes.png[yes] thin-provisioned (adjective)
@@ -218,6 +241,16 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *See also*:
 
+[[total-capacity]]
+==== image:images/yes.png[yes] total capacity (noun)
+*Description*: _Total capacity_ is the complete amount of used and unused storage space available on a storage device.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [[totally]]
 ==== image:images/no.png[no] totally (adverb)
 *Description*: Do not use "totally".
@@ -242,6 +275,10 @@ A client requests a certificate from a web server. On receiving the certificate,
 [[trigger-directive]]
 ==== image:images/yes.png[yes] trigger directive (noun)
 *Description*: In Red Hat Enterprise Linux, a _trigger directive_ is a special form of a transaction scriptlet that runs conditionally when another specific package is installed or uninstalled.
+
+[[translator]]
+==== image:images/yes.png[yes] translator (noun)
+*Description*: In Red Hat Gluster Storage, a _translator_ is a software module that converts user requests into a storage operation. Multiple translators may interact with the data in the request, but translators always work in a specific order, with data passed from one to another as appropriate, depending on the Gluster volume configuration.
 
 *Use it*: yes
 

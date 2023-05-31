@@ -41,6 +41,16 @@
 
 *See also*: xref:objectclass[objectClass]
 
+[[object-storage]]
+==== image:images/yes.png[yes] object storage (noun)
+*Description*: _Object storeage_ is a repository of data objects stored in an unstructured way, as distinct from block storage or file storage.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:block-storage[block storage], xref:file-storage[file storage]
+
 // Ceph: Added "In Red Hat Ceph Storage, Object Storage Device is"
 [[object-storage-device]]
 ==== image:images/yes.png[yes] Object Storage Device (noun)
@@ -205,6 +215,16 @@
 *Incorrect forms*:
 
 *See also*: xref:o-ran[O-RAN], xref:openran[OpenRAN]
+
+[[ocp-cluster]]
+==== image:images/yes.png[yes] OpenShift Container Platform cluster (noun)
+*Description*: An _OpenShift Container Platform cluster_ is a group of physical machines that contains the controllers, pods, services, and configurations required to build and run containerized applications.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
 
 [[open-source]]
 ==== image:images/yes.png[yes] open source (noun)

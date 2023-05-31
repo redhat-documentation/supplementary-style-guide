@@ -122,6 +122,16 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gdb[GDB], xref:insight[Insight]
 
+[[geo-replication]]
+==== image:images/caution.png[with caution] geo-replication (noun)
+*Description*: 1) In Red Hat Gluster Storage and related solutions, _geo-replication_ refers to asynchronous replication of data in a Gluster file system from one location to another across a network. 2) In Red Hat Quay, _geo-replication_ refers to replication of data from one central storage engine to other storage engines.
+
+*Use it*: with caution - ensure no cross-over of the above definitions.
+
+*Incorrect forms*:
+
+*See also*:
+
 [[gid]]
 ==== image:images/yes.png[yes] GID (noun)
 *Description*: _GID_ is an abbreviation for "Group ID". Do not use "gid".
@@ -161,6 +171,16 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 *Incorrect forms*: git, GIT
 
 *See also*:
+
+[[gluster-volume]]
+==== image:images/yes.png[yes] gluster volume (noun)
+*Description*: A _gluster volume_ is a logical collection of bricks across one or more servers in a trusted storage pool.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:brick[brick]
 
 [[gnome]]
 ==== image:images/yes.png[yes] GNOME (noun)

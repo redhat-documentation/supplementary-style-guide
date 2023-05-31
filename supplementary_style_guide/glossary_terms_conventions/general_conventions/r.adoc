@@ -683,6 +683,16 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *See also*:
 
+[[replicated-volume]]
+==== image:images/yes.png[yes] replicated volume (noun)
+*Description*: A _replicated volume_ is a Red Hat Gluster Storage volume that clones data on one brick to one or more other bricks.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [[replication-agreement]]
 ==== image:images/yes.png[yes] replication agreement (noun)
@@ -777,6 +787,16 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 [[resource-adapters]]
 ==== image:images/yes.png[yes] resource-adapters subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _resource-adapters_ subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[restore]]
+==== image:images/yes.png[yes] restore (verb)
+*Description*: To _restore_ is to correct or replace data that was lost or corrupted after a problem occurred in the cluster.
 
 *Use it*: yes
 
