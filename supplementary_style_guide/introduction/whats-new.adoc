@@ -31,6 +31,26 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // * TODO
 
 [discrete]
+[[may-2023]]
+== May 2023
+
+.Glossary entries
+* xref:bit-64-arm[64-bit ARM]: Added glossary entry
+* xref:bit-64-x86[64-bit x86]: Added glossary entry
+* xref:aarch64[AArch64]: Added glossary entry
+* xref:_aarch64[aarch64]: Added glossary entry
+* xref:AMD64[AMD64]: Updated description
+* xref:amd64[amd64]: Added glossary entry
+* xref:arm64[ARM64]: Added glossary entry
+* xref:_arm64[arm64]: Added glossary entry
+* xref:intel-64[Intel 64]: Added glossary entry
+* xref:softirq[softirq]: Added glossary entry
+* xref:x86_64[x86_64]: Added glossary entry
+
+.Style guidance
+* xref:external-links[External links]: Updated to clarify what an external link is
+
+[discrete]
 [[april-2023]]
 == April 2023
 
