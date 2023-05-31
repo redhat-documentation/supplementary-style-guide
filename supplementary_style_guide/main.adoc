@@ -59,6 +59,14 @@ include::style_guidelines/managed-services.adoc[leveloffset=+1]
 
 This glossary is the central location for terms and conventions for technical language in Red Hat product documentation and other technical content.
 
+=== Special characters
+
+include::glossary_terms_conventions/general_conventions/symbols.adoc[leveloffset=+0]
+
+=== 0-9
+
+include::glossary_terms_conventions/general_conventions/numbers.adoc[leveloffset=+0]
+
 === A
 
 include::glossary_terms_conventions/general_conventions/a.adoc[leveloffset=+0]
@@ -162,7 +170,3 @@ include::glossary_terms_conventions/general_conventions/y.adoc[leveloffset=+0]
 === Z
 
 include::glossary_terms_conventions/general_conventions/z.adoc[leveloffset=+0]
-
-=== Symbols
-
-include::glossary_terms_conventions/general_conventions/symbols.adoc[leveloffset=+0]
