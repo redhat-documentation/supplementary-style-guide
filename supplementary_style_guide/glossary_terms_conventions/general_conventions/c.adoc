@@ -301,7 +301,11 @@
 
 [[client]]
 ==== image:images/yes.png[yes] client
-*Description*: In Red{nbsp}Hat Single Sign-On, a _client_ is an entity that can request Red{nbsp}Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red{nbsp}Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red{nbsp}Hat Single Sign-On.
+*Description*: _Client_ has multiple meanings, depending on the context:
+
+* Generically, a _client_ is an entity, such as a machine, process, service, or application, that uses a service provided by a server. Avoid using "client" to refer to an application that manages configuration of such clients or to refer to applications, tools, and so on.
+
+* In Red{nbsp}Hat Single Sign-On, a _client_ is an entity that can request Red{nbsp}Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red{nbsp}Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely call other services on the network that are secured by Red{nbsp}Hat Single Sign-On.
 
 *Use it*: yes
 
@@ -354,6 +358,28 @@
 
 *See also*:
 
+[[clone-n]]
+==== image:images/yes.png[yes] clone (noun)
+*Description*: A _clone_ is a full data copy from an existing volume or disk drive to a new volume or disk drive. This process is not the same as a virtual machine clone, which copies both storage and configuration.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:clone-v[clone (verb)]
+
+[[clone-v]]
+==== image:images/yes.png[yes] clone (verb)
+*Description*: _Cloning_ is the process of making a full data copy from an existing volume or disk drive to a new volume or disk drive.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:clone-n[clone (noun)]
+
 [[cloudbursting]]
 ==== image:images/yes.png[yes] cloudbursting (verb)
 *Description*: _Cloudbursting_ is an event where a private cloud exceeds its capacity and _bursts_ into and uses public cloud resources.
@@ -362,6 +388,17 @@
 
 [.vale-ignore]
 *Incorrect forms*: cloud-bursting
+
+*See also*:
+
+[[cloud-storage]]
+==== image:images/yes.png[yes] cloud storage (noun)
+*Description*: _Cloud storage_ refers to data or objects that are saved, accessed, and managed remotely, such as over a network.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:
 
@@ -378,7 +415,7 @@
 
 [[cluster]]
 ==== image:images/yes.png[yes] cluster (noun)
-*Description*: 1) A _cluster_ is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the _High Availability Add-On_ in Red{nbsp}Hat Enterprise Linux 6 and later. 2) In OpenShift context, a _cluster_ is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
+*Description*: (1) A _cluster_ is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the _High Availability Add-On_ in Red{nbsp}Hat Enterprise Linux 6 and later. (2) In OpenShift context, a _cluster_ is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
 
 *Use it*: yes
 
@@ -530,6 +567,17 @@
 
 *See also*:
 
+[[compression]]
+==== image:images/caution.png[with caution] compression (noun)
+*Description*: Use _compression_ by itself only after first referring to the specific type of compression, for example, network compression.
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[compute-node]]
 ==== image:images/yes.png[yes] compute node (noun)
 *Description*: A  _compute node_ is a node that is responsible for executing workloads for cluster users. Also known as  _worker nodes_.
@@ -554,7 +602,7 @@
 
 [[connection]]
 ==== image:images/yes.png[yes] connection (noun)
-*Description*: 1) In Red{nbsp}Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called network connections. 2) In Red{nbsp}Hat Fuse Online, you create a connection using a Fuse Online connector. You can then use the connection in a Fuse Online integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
+*Description*: (1) In Red{nbsp}Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called _network connections_. (2) In Red{nbsp}Hat Fuse Online, you create a connection using a Fuse Online connector. You can then use the connection in a Fuse Online integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
 
 *Use it*: yes
 
@@ -587,7 +635,7 @@
 
 [[connector]]
 ==== image:images/yes.png[yes] connector (noun)
-*Description*: 1) In Red{nbsp}Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. 2) In Red{nbsp}Hat Fuse Online, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
+*Description*: (1) In Red{nbsp}Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. (2) In Red{nbsp}Hat Fuse Online, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
 
 *Use it*: yes
 
@@ -609,7 +657,7 @@
 
 [[consumer]]
 ==== image:images/yes.png[yes] consumer (noun)
-*Description*: 1) In an LDAP replication environment, _consumers_ receive data from suppliers or hubs. 2) In Red{nbsp}Hat AMQ, a _consumer_ is a client that receives messages. 3) In Red{nbsp}Hat Fuse, a _consumer_ is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
+*Description*: (1) In an LDAP replication environment, _consumers_ receive data from suppliers or hubs. (2) In Red{nbsp}Hat AMQ, a _consumer_ is a client that receives messages. (3) In Red{nbsp}Hat Fuse, a _consumer_ is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
 
 *Use it*: yes
 
@@ -620,7 +668,7 @@
 
 [[container]]
 ==== image:images/yes.png[yes] container (noun)
-*Description*: 1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). 2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. 3) In Red{nbsp}Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
+*Description*: (1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). (2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. (3) In Red{nbsp}Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
 
 *Use it*: yes
 
@@ -708,6 +756,17 @@ image repository contains one or more tagged images.
 
 *See also*: xref:api-server[API server], xref:scheduler[scheduler]
 
+[[control-plane-node]]
+==== image:images/yes.png[yes] control plane node (noun)
+*Description*: In OpenShift Container Platform, _control plane node_ refers to the node that manages other nodes in its Kubernetes cluster and schedules pods to run on nodes.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: master node
+
+*See also*: xref:primary-node[primary node]
+
 [[control-program]]
 ==== image:images/yes.png[yes] control program (noun)
 *Description*: A _control program_ refers to a program that enhances an operating system by creating an environment in which you can run other programs.
@@ -729,6 +788,17 @@ image repository contains one or more tagged images.
 *Incorrect forms*:
 
 *See also*:
+
+[[controller-node]]
+==== image:images/yes.png[yes] controller node (noun)
+*Description*: A _controller node_ is the Ansible node from which jobs are executed.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: master node
+
+*See also*: xref:primary-node[primary node]
 
 [[conversion]]
 ==== image:images/yes.png[yes] conversion (noun)
@@ -766,6 +836,17 @@ image repository contains one or more tagged images.
 [[cookie]]
 ==== image:images/yes.png[yes] cookie (noun)
 *Description*: A _cookie_ is a message given to a web browser by a web server. The browser stores the message. The message is then sent back to the server each time the browser requests a page from the server.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[copy-v]]
+==== image:images/yes.png[yes] copy (verb)
+*Description*: In a data storage context, _copying_ is the process of creating a duplicate of a file in a different location.
 
 *Use it*: yes
 

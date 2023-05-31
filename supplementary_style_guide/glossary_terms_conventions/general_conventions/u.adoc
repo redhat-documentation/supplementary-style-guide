@@ -110,7 +110,7 @@
 
 [[upgrade]]
 ==== image:images/yes.png[yes] upgrade (verb)
-*Description*: 1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. 2) In Red{nbsp}Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
+*Description*: (1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. (2) In Red{nbsp}Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
 
 *Use it*: yes
 
@@ -217,6 +217,17 @@
 *Incorrect forms*: urn
 
 *See also*: xref:uri[URI]
+
+[[usable-capacity]]
+==== image:images/yes.png[yes] usable capacity (noun)
+*Description*: _Usable capacity_ is the amount of unused space available on a storage device.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
 
 [[user]]
 ==== image:images/caution.png[with caution] user (noun)
