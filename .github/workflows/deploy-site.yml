@@ -1,9 +1,11 @@
 name: Build and deploy SSG website
 
 on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - main
+    branches: [$default-branch]
+  # Allows you to run the workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,15 +15,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Build Asciidoc
-        uses: docker://asciidoctor/docker-asciidoctor
+      - name: Extract assets
+        run: docker cp $(docker run --detach quay.io/redhat-docs/redhat-docs-template):/assets ./supplementary_style_guide/assets
+
+      - name: Build AsciiDoc
+        uses: docker://quay.io/redhat-docs/redhat-docs-template
         with:
-          args: "asciidoctor supplementary_style_guide/main.adoc -o index.html"
+          args: supplementary_style_guide/main.adoc
 
       - name: Copy output to docs/
         run: |
           mkdir docs
           cp -r supplementary_style_guide/images/ docs/images
+          cp -r supplementary_style_guide/assets/ docs/assets
           mv index.html docs/
 
       - name: Publish to GitHub Pages
