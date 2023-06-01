@@ -152,12 +152,12 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 [discrete]
 [[bimonthly]]
-==== image:images/yes.png[yes] bimonthly (adverb)
-*Description*: _Bimonthly_ means every other month.
+==== image:images/no.png[no] bimonthly (adverb)
+*Description*: Do not use. _Bimonthly_ can mean either twice a month or every two months. Instead, write "twice a month" or "every two months" to remove ambiguity.
 
-*Use it*: yes
+*Use it*: no
 
-*Incorrect forms*: bi-monthly
+*Incorrect forms*:
 
 *See also*:
 
@@ -199,12 +199,12 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 [discrete]
 [[biweekly]]
-==== image:images/yes.png[yes] biweekly (adverb)
-*Description*: _Biweekly_ means every other week.
+==== image:images/no.png[no] biweekly (adverb)
+*Description*: Do not use. _Biweekly_ can mean either twice a week or every two weeks. Instead, write "twice a week" or "every two weeks" to remove ambiguity.
 
-*Use it*: yes
+*Use it*: no
 
-*Incorrect forms*: bi-weekly
+*Incorrect forms*:
 
 *See also*:
 
