@@ -494,6 +494,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#graphical-interfaces">Graphical interfaces</a>
 <ul class="sectlevel3">
+<li><a href="#microcopy">Microcopy</a></li>
+<li><a href="#screenshots">Screenshots</a></li>
 <li><a href="#text-entry">Text entry</a></li>
 <li><a href="#user-interface-elements">User interface elements</a></li>
 </ul>
@@ -523,22 +525,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#release-notes-doc-texts">Release notes doc texts</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#cloud-services">Cloud services guidelines</a>
-<ul class="sectlevel2">
 <li><a href="#accessibility">Accessibility</a>
 <ul class="sectlevel3">
-<li><a href="#cloud-services-images">Images</a></li>
-<li><a href="#cloud-services-links-hypertext">Links and hypertext</a></li>
-<li><a href="#cloud-services-tables">Tables</a></li>
-<li><a href="#cloud-services-visual-info">Colors and other visual information</a></li>
-<li><a href="#html-meaningful-sequence">Well-formed HTML and meaningful sequence</a></li>
+<li><a href="#accessibility-visual-info">Colors and other visual information</a></li>
+<li><a href="#accessibility-images">Images</a></li>
+<li><a href="#accessibility-links-hypertext">Links and hypertext</a></li>
+<li><a href="#accessibility-tables">Tables</a></li>
+<li><a href="#accessibility-html-meaningful-sequence">Well-formed HTML and meaningful sequence</a></li>
 </ul>
 </li>
-<li><a href="#localization">Localization</a></li>
-<li><a href="#microcopy">Microcopy</a></li>
-<li><a href="#screenshots">Screenshots</a></li>
 </ul>
 </li>
 <li><a href="#glossary-terms-conventions">Glossary of terms and conventions</a>
@@ -615,10 +610,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p><em><a href="https://redhat-documentation.github.io/modular-docs/">Modular Documentation Reference Guide</a></em>: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.</p>
+<p><a href="https://redhat-documentation.github.io/modular-docs/"><em>Modular Documentation Reference Guide</em></a>: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.</p>
 </li>
 <li>
-<p><em><a href="https://redhat-documentation.github.io/asciidoc-markup-conventions/">AsciiDoc Mark-up Quick Reference</a></em>: Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.</p>
+<p><a href="https://redhat-documentation.github.io/asciidoc-markup-conventions/"><em>AsciiDoc Mark-up Quick Reference</em></a>: Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.</p>
+</li>
+<li>
+<p><a href="https://redhat-documentation.github.io/accessibility-guide/"><em>Getting started with accessibility for writers</em></a>: Guidance for creating accessible content.</p>
 </li>
 </ul>
 </div>
@@ -991,11 +989,25 @@ When it is not possible to remove the terms <em>blacklist</em> and <em>whitelist
 <p>Follow the <em>IBM Style</em> guide advice of <em>less conversational</em> style in most cases.</p>
 </div>
 <div class="paragraph">
-<p>As needed, adjust the conversational to <em>fairly conversational</em> for an audience of new users or <em>least conversational</em> for API documentation and other very experienced audiences.</p>
-</div>
-<div class="paragraph">
 <div class="title">Example: Less conversational style</div>
 <p>Red&#160;Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.</p>
+</div>
+<div class="paragraph">
+<p>As needed, adjust the conversational to <em>fairly conversational</em> for an audience of new users or <em>least conversational</em> for API documentation and other very experienced audiences.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Documentation for cloud services follows the <em>IBM Style</em> guide for <em>fairly conversational</em> tone. When using <em>fairly conversational</em> tone, use contractions where appropriate.</p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -1667,7 +1679,22 @@ collections:
 <div class="sect2">
 <h3 id="graphical-interfaces">Graphical interfaces</h3>
 <div class="paragraph">
-<p>For more detailed guidance on how to document UI elements, see <a href="https://www.patternfly.org/v4/ux-writing/about">Patternfly</a>.</p>
+<p>For more detailed guidance on how to document UI elements, see <a href="https://www.patternfly.org/v4/ux-writing/about">PatternFly</a>.</p>
+</div>
+<div class="sect3">
+<h4 id="microcopy">Microcopy</h4>
+<div class="paragraph">
+<p>The words in a user interface, commonly referred to as "UX copy" or "microcopy", are just as important as the components or layouts. Microcopy is another element of design, and it can drive better UX decisions and guide users to succeed. Red&#160;Hat cloud services are based on PatternFly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.</p>
+</div>
+<div class="paragraph">
+<p>See <a href="https://www.patternfly.org/v4/ux-writing/about">UX writing</a> in the PatternFly content style guide for comprehensive guidelines about documenting user interfaces.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="screenshots">Screenshots</h4>
+<div class="paragraph">
+<p>Avoid screenshots for both accessibility and localization reasons. If you must use screenshots, use them as judiciously as possible and ensure alt text is unique and descriptive. For more information about proper use of images in user interface documentation, see <a href="#accessibility">Accessibility</a>.</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="text-entry">Text entry</h4>
@@ -2198,30 +2225,36 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="cloud-services">Cloud services guidelines</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Cloud services are applications that run on a platform backed by data storage infrastructure and are hosted and managed by Red&#160;Hat on behalf of the customer. Cloud services provide rapid iteration and can more quickly deliver updated product functionality.</p>
-</div>
-<div class="paragraph">
-<p>This means a product is no longer running exclusively in the customer’s infrastructure but is a service running in the cloud that is operated and maintained by Red&#160;Hat. Red&#160;Hat is now responsible for ensuring the service is secure, scalable, performant, and available at all times.</p>
-</div>
-<div class="paragraph">
-<p>Cloud services documentation requires a shift from how documentation is typically created for an on-premise product. There is more emphasis on the content delivered within the product&#8217;s user interface itself, a need to deliver content rapidly without having a set release cadence, and to adapt content to the needs of cloud service users. For example, there might not be a need for upgrade and migration content that’s typical for on-premise products.</p>
-</div>
-<div class="paragraph">
-<p>This section provides guidelines for creating content for the user interface, emphasizing accessibility, with the intent to provide consistency in how users understand and navigate across different cloud services.</p>
-</div>
 <div class="sect2">
 <h3 id="accessibility">Accessibility</h3>
 <div class="paragraph">
-<p>Ensure that documentation meets Section 508 compliance for accessibility. Accessibility standards are derived from the <a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAGA)</a> and the <a href="https://www.access-board.gov/ict/">ICT Accessibility 508 Standards and 255 Guidelines</a>.</p>
+<p>For full information about writing accessible content at Red Hat, see <a href="https://redhat-documentation.github.io/accessibility-guide/"><em>Getting started with accessibility for writers</em></a>.</p>
 </div>
 <div class="sect3">
-<h4 id="cloud-services-images">Images</h4>
+<h4 id="accessibility-visual-info">Colors and other visual information</h4>
+<div class="paragraph">
+<p>Color should not be used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. The documentation interface must provide at least one visual mode of operation that does not require user perception of color.
+Avoid indicating direction, such as left, right, above and below, since these have no meaning to a screen reader. Instructions provided for understanding and operating the product must not rely solely on sensory characteristics such as shape, size, visual location, or orientation.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Avoid instructions that rely solely on sensory characteristics.</p>
+</li>
+<li>
+<p>Information that is conveyed by color differences must also be provided in text form.</p>
+</li>
+<li>
+<p>For images or diagrams in your document, ensure sufficient contrast between foreground and background text or graphical elements. Graphics and diagrams in your document produced by a CCS graphic designer must meet contrast ratio requirements. If you created a graphic or diagram yourself, use the WCAG reference for <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">Contrast</a>, and the <a href="https://webaim.org/resources/contrastchecker/">Contrast Checker</a> to evaluate contrast compliance.</p>
+</li>
+<li>
+<p>Avoid directional indicators such as left, right, above and below when providing navigational instruction in the user interface.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="accessibility-images">Images</h4>
 <div class="paragraph">
 <p>Use text equivalents for every diagram, image, or other non-text element. Avoid using images of text instead of actual text.</p>
 </div>
@@ -2247,7 +2280,7 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 <div class="sect3">
-<h4 id="cloud-services-links-hypertext">Links and hypertext</h4>
+<h4 id="accessibility-links-hypertext">Links and hypertext</h4>
 <div class="paragraph">
 <p>The purpose of each link can be determined from the link text alone, or from the link text together with the link context. Links must lead to the correct target locations within the document, or to a valid external web page location. Ensure that all links work as expected.</p>
 </div>
@@ -2276,7 +2309,7 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 <div class="sect3">
-<h4 id="cloud-services-tables">Tables</h4>
+<h4 id="accessibility-tables">Tables</h4>
 <div class="paragraph">
 <p>When working with tables, accessibility tools such as a screen reader can programmatically determine the location of the content in each row and column. Screen readers interact with a data table based on the number of columns and rows, and provide table navigation to the user by reading row and column headers in the order they occur.</p>
 </div>
@@ -2305,30 +2338,7 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 <div class="sect3">
-<h4 id="cloud-services-visual-info">Colors and other visual information</h4>
-<div class="paragraph">
-<p>Color should not be used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. The documentation interface must provide at least one visual mode of operation that does not require user perception of color.
-Avoid indicating direction, such as left, right, above and below, since these have no meaning to a screen reader. Instructions provided for understanding and operating the product must not rely solely on sensory characteristics such as shape, size, visual location, or orientation.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Avoid instructions that rely solely on sensory characteristics.</p>
-</li>
-<li>
-<p>Information that is conveyed by color differences must also be provided in text form.</p>
-</li>
-<li>
-<p>For images or diagrams in your document, ensure sufficient contrast between foreground and background text or graphical elements. Graphics and diagrams in your document produced by a CCS graphic designer meet contrast ratio requirements. If you created a graphic or diagram yourself, use the WCAG reference for <a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">Contrast</a>, and the <a href="https://webaim.org/resources/contrastchecker/">Contrast Checker</a> to evaluate contrast compliance.</p>
-</li>
-<li>
-<p>Avoid directional indicators such as left, right, above and below when providing navigational instruction in the user interface.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="html-meaningful-sequence">Well-formed HTML and meaningful sequence</h4>
+<h4 id="accessibility-html-meaningful-sequence">Well-formed HTML and meaningful sequence</h4>
 <div class="paragraph">
 <p>The meaning of content relies on the order in which you present it. For example, English content is arranged from left to right and readers usually look at a left-hand column before a right-hand column. Users who rely on assistive technology (such as a screen reader) to interpret content need the content to be presented in a meaningful order. If content is presented out of sequence, readers might become disoriented and unable to understand the content.</p>
 </div>
@@ -2375,27 +2385,6 @@ Avoid indicating direction, such as left, right, above and below, since these ha
 </li>
 </ul>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="localization">Localization</h3>
-<div class="paragraph">
-<p>Documentation that follows the <em>IBM Style</em> guide for fairly conversational tone does not present issues with human or machine translation and better aligns with tone in the user interface. Use contractions where appropriate.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="microcopy">Microcopy</h3>
-<div class="paragraph">
-<p>The words in a user interface, commonly referred to as "UX copy" or "microcopy," are just as important as the components or layouts. UX copy is another element of design, and it can drive better UX decisions and guide users to succeed. Red&#160;Hat cloud services are based on Patternfly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.</p>
-</div>
-<div class="paragraph">
-<p>See <a href="https://www.patternfly.org/v4/ux-writing/about">UX writing</a> in the Patternfly content style guide for comprehensive guidelines when writing for the user interface.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="screenshots">Screenshots</h3>
-<div class="paragraph">
-<p>Avoid screenshots for both accessibility and localization reasons. If you must use screenshots use them as judiciously as possible and ensure alt text is unique and descriptive. For more information about proper use of images in user interface documentation, see <a href="#accessibility">Accessibility</a>.</p>
 </div>
 </div>
 </div>
@@ -15759,7 +15748,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-06-08 18:28:17 UTC
+Last updated 2023-06-09 01:10:24 UTC
 </div>
 </div>
 </body>
