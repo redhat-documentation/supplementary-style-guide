@@ -77,11 +77,16 @@ If you are writing quick start or other content that uses a more informal xref:#
 
 Follow the _IBM Style_ guide advice of _less conversational_ style in most cases.
 
-As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
-
 .Example: Less conversational style
 
 Red{nbsp}Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
+
+As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
+
+[NOTE]
+====
+Documentation for cloud services follows the _IBM Style_ guide for _fairly conversational_ tone. When using _fairly conversational_ tone, use contractions where appropriate.
+====
 
 [[homographs]]
 == Homographs

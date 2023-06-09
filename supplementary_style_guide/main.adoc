@@ -51,8 +51,8 @@ include::style_guidelines/support.adoc[leveloffset=+2]
 // Release notes
 include::style_guidelines/release-notes.adoc[leveloffset=+2]
 
-// Managed cloud services guidelines
-include::style_guidelines/managed-services.adoc[leveloffset=+1]
+// Accessibility
+include::style_guidelines/accessibility.adoc[leveloffset=+2]
 
 [[glossary-terms-conventions]]
 == Glossary of terms and conventions
