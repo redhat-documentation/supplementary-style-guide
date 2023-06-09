@@ -886,12 +886,12 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 *See also*:
 
 [[rolling-stream]]
-==== image:images/yes.png[yes] Rolling stream (noun)
-*Description*: _Rolling Application Streams_ include Red Hat Enterprise Linux tools and applications that are updated frequently. Later versions of these streams replace earlier versions. Therefore, only one version at a time is supported.
+==== image:images/yes.png[yes] Rolling Stream (noun)
+*Description*: _Rolling Streams_, also reffered to as Rolling Application Streams, include Red Hat Enterprise Linux tools and applications that are updated frequently. Later versions of these streams replace earlier versions. Therefore, only one version at a time is supported.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: rolling stream
 
 *See also*:
 
