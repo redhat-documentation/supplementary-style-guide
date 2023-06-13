@@ -1,0 +1,86 @@
+<!-- Nav bar -->
+<script type="text/javascript">
+const navbar = document.querySelector('.navbar');
+
+let currentPosition = window.scrollY;
+
+// Show navbar on page load
+window.addEventListener("load", (event) => {
+    navbar.classList.add('show');
+});
+
+// Show/hide navbar on scroll
+window.addEventListener('scroll', () => {
+    if (window.scrollY < currentPosition) {
+        //scroll up
+        navbar.classList.remove('show');
+    } else {
+        //scroll down
+        navbar.classList.add('show');
+    }
+    currentPosition = window.scrollY;
+});
+
+// Hide navbar on click event
+document.querySelectorAll('*')
+    .forEach(element => element.addEventListener('click', event => {
+        currentPosition = window.scrollY;
+        navbar.classList.remove('show');
+    }))
+</script>
+
+<!-- Copy code -->
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+    // Only add button if browser supports Clipboard API
+    if (navigator.clipboard) {
+        let button = document.createElement("button");
+
+        button.innerText = copyButtonLabel;
+        block.appendChild(button);
+
+        button.addEventListener("click", async () => {
+            await copyCode(block, button);
+        });
+    }
+});
+
+async function copyCode(block, button) {
+    let code = block.querySelector("code");
+    let text = code.innerText;
+
+    await navigator.clipboard.writeText(text);
+
+    button.innerText = "Copied!";
+
+    setTimeout(() => {
+        button.innerText = copyButtonLabel;
+    }, 400);
+}
+</script>
+
+<!-- Highlight active TOC item -->
+<script type="text/javascript">
+const anchors = $('body').find('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+
+$(window).scroll(function(){
+    var scrollTop = $(document).scrollTop();
+    
+    // highlight the last scrolled-to: set everything inactive first
+    for (var i = 0; i < anchors.length; i++){
+            $('#toc.toc2 a[href="#' + $(anchors[i]).attr('id') + '"]').removeClass('active');
+    }
+    
+    // then iterate backwards, on the first match highlight it and break
+    for (var i = anchors.length-1; i >= 0; i--){
+        if (scrollTop > $(anchors[i]).offset().top - 75) {
+            $('#toc.toc2 a[href="#' + $(anchors[i]).attr('id') + '"]').addClass('active');
+            break;
+        }
+    }
+});
+</script>
