@@ -42,7 +42,7 @@ Before this update,  <X problem> caused <Y situation> (OPTIONAL: under the follo
 ----
 .Example doc text
 ----
-Before this update, the loopback device for Cinder iSCSI/LVM backend was not recreated after a system restart, which prevented the cinder-volume service from restarting. With this update, a systemd service recreates the loopback device and the Cinder iSCSI/LVM backend persists after a restart.
+Before this update, the loopback device for Cinder iSCSI/LVM backend was not re-created after a system restart, which prevented the cinder-volume service from restarting. With this update, a systemd service re-creates the loopback device and the Cinder iSCSI/LVM backend persists after a restart.
 ----
 
 [discrete]
