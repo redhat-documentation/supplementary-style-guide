@@ -2132,7 +2132,7 @@ For more information about the support scope of Red{nbsp}Hat Technology Preview 
 <div class="listingblock">
 <div class="title">Example doc text</div>
 <div class="content">
-<pre>Before this update, the loopback device for Cinder iSCSI/LVM backend was not recreated after a system restart, which prevented the cinder-volume service from restarting. With this update, a systemd service recreates the loopback device and the Cinder iSCSI/LVM backend persists after a restart.</pre>
+<pre>Before this update, the loopback device for Cinder iSCSI/LVM backend was not re-created after a system restart, which prevented the cinder-volume service from restarting. With this update, a systemd service re-creates the loopback device and the Cinder iSCSI/LVM backend persists after a restart.</pre>
 </div>
 </div>
 <h5 id="_known_issue" class="discrete">Known issue</h5>
@@ -11089,7 +11089,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 </div>
 <h4 id="pod" class="discrete"><span class="image"><img src="images/yes.png" alt="yes"></span> pod (noun)</h4>
 <div class="paragraph">
-<p><strong>Description</strong>: In Kubernetes, a <em>pod</em> is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, <code>Pod</code> configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are recreated. The API object for a pod is <code>Pod</code>.</p>
+<p><strong>Description</strong>: In Kubernetes, a <em>pod</em> is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, <code>Pod</code> configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are re-created. The API object for a pod is <code>Pod</code>.</p>
 </div>
 <div class="paragraph">
 <p><strong>Use it</strong>: yes</p>
@@ -15748,7 +15748,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-06-09 01:10:24 UTC
+Last updated 2023-06-13 14:42:54 UTC
 </div>
 </div>
 </body>
