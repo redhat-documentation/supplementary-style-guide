@@ -403,7 +403,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
-*Incorrect forms*: AppStream, application stream
+*Incorrect forms*: AppStream, application stream, Application stream
 
 *See also*: xref:appstream-repository[AppStream repository]
 
