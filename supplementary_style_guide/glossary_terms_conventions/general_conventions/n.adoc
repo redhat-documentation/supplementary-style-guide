@@ -76,7 +76,7 @@
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: natively-compiled code
 
 *See also*: 
 
