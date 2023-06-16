@@ -81,11 +81,13 @@
 [discrete]
 [[baseos-repository]]
 ==== image:images/yes.png[yes] BaseOS repository (noun)
-*Description*: In Red Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying OS functionality that provides the foundation for all installations.
+*Description*: In Red Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying operating system functionality that provides the foundation for all installations.
 
 *Use it*: yes
 
 *Incorrect forms*: Baseos, baseos, baseOS
+
+*See also*:
 
 [discrete]
 [[basic-http-authentication]]
@@ -255,7 +257,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[boolean-dependencies]]
 ==== image:images/yes.png[yes] Boolean dependencies (noun)
-*Description*: _Boolean dependencies_ are Boolean expressions such as `if`, `and`, `or`, and other expressions that are used in the `Requires`, `Conflicts`, and `Weak` dependency directives. Boolean dependencies are also known as _Rich dependencies_.
+*Description*: In Red Hat Enterprise Linux, _Boolean dependencies_ are Boolean expressions such as `if`, `and`, `or`, and other expressions that are used in the `Requires`, `Conflicts`, and `Weak` dependency directives. Boolean dependencies are also known as _Rich dependencies_.
 
 *Use it*: yes
 
@@ -566,7 +568,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[byte-compiled-program]]
 ==== image:images/yes.png[yes] byte-compiled program (noun)
-*Description*: _Byte-compiled programs_ are programs that must be compiled into byte code before they can run in a language virtual machine.
+*Description*: _Byte-compiled programs_ are programs that must be compiled into bytecode before they can run in a language virtual machine.
 
 *Use it*: yes
 
