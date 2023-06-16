@@ -101,7 +101,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
-*Incorrect forms*: filestore, File Store
+*Incorrect forms*:
 
 *See also*:
 
