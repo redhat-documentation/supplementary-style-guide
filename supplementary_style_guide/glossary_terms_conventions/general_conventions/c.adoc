@@ -490,7 +490,9 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[codeready-linux-builder-repository]]
 ==== image:images/caution.png[with caution] CodeReady Linux Builder repository (noun)
-*Description*: In Red Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Packages included in the CodeReady Linux Builder repository are unsupported. Note that you must use this term expanded and always mention that packages in this repository are unsupported.
+*Description*: In Red Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Packages included in the CodeReady Linux Builder repository are unsupported by Red Hat. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
+
+
 
 *Use it*: with caution
 
