@@ -2726,22 +2726,6 @@ h6>a.link:hover:after {
     margin-left: 0.5em
 }
 
-@media only screen and (max-width: 767px) {
-    #toc.toc2 {
-        padding: 0;
-        background: #f3f3f3;
-    }
-
-    #toc.toc2 #toctitle::before {
-        display: none;
-    }
-
-    #toc.toc2 #toctitle {
-        display: none;
-    }
-
-}
-
 /* Top navigation */
 .navbar {
     background-color: #333;
@@ -2812,6 +2796,37 @@ div.listingblock>div>pre.rouge>button {
     }
 }
 
+/* Active TOC item tweak */
+.active {
+    border-right: 3px solid #2e2e2e !important;
+    font-weight: bold;
+    color: #465158;
+    background: #dedede;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    #toc.toc2 {
+        padding: 0;
+        background: #f3f3f3;
+    }
+
+    #toc.toc2 #toctitle::before {
+        display: none;
+    }
+
+    #toc.toc2 #toctitle {
+        display: none;
+    }
+
+    /* Top navigation */
+    .navbar {
+        height: 4.3em;
+        font-size: 0.9em;
+    }
+
+}
+
 @media (max-width:500px) {
     .github-corner:hover .octo-arm {
         animation: none
@@ -2822,11 +2837,4 @@ div.listingblock>div>pre.rouge>button {
     }
 }
 
-/* Active TOC item tweak */
-.active {
-    border-right: 3px solid #2e2e2e;
-    font-weight: bold;
-    color: #465158;
-    background: #dedede;
-    text-decoration: none;
-}
+
