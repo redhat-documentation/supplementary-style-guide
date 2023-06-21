@@ -1,7 +1,7 @@
 [discrete]
 [[aarch64]]
 ==== image:images/yes.png[yes] AArch64 (noun)
-*Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances, for example RHEL, Fedora, CoreOS, and other Linux distributions. Use this format in general cases when referring to system architecture. 
+*Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances, for example RHEL, Fedora, CoreOS, and other Linux distributions. Use this format in general cases when referring to system architecture.
 
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
@@ -18,7 +18,7 @@ _When running RHEL with an AArch64 system, run the following command:_
 [discrete]
 [[_aarch64]]
 ==== image:images/yes.png[yes] aarch64 (noun)
-*Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances for example RHEL, Fedora, CoreOS, and other Linux distributions. Use the lowercase format with backticks when referring to objects or parameters. 
+*Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances for example RHEL, Fedora, CoreOS, and other Linux distributions. Use the lowercase format with backticks when referring to objects or parameters.
 
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
@@ -223,17 +223,17 @@ Always use "Administration Portal", including the capital P. When other departme
 [discrete]
 [[AMD64]]
 ==== image:images/yes.png[yes] AMD64 (noun)
-*Description*: The AMD 64-bit version of the x86 architecture. Use this term for OpenShift Container Platform (OCP) attributes, Kubernetes, Operators, APIs, or CLI objects. Use this format in general sentences when referring to OCP features. 
+*Description*: The AMD 64-bit version of the x86 architecture. Use this term for OpenShift Container Platform (OCP) attributes, Kubernetes, Operators, APIs, or CLI objects. Use this format in general sentences when referring to OCP features.
 
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
-Example: 
+Example:
 
-_This Operator is supported on AMD64 and ARM64 platforms._ 
+_This Operator is supported on AMD64 and ARM64 platforms._
 
 *Use it*: yes
 
-*Incorrect forms*: _AMD64_ 
+*Incorrect forms*: 
 
 *See also*: xref:amd64[amd64]
 
@@ -518,7 +518,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 [discrete]
 [[assisted-installer]]
 ==== image:images/yes.png[yes] Assisted Installer (noun)
-*Description*: In Red Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations. 
+*Description*: In Red Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations.
 
 *Use it*: yes
 
@@ -627,13 +627,13 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
-Example: 
+Example:
 
-_Creating an ARM64 compute machine set._ 
+_Creating an ARM64 compute machine set._
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:arm64[arm64]
 
@@ -644,33 +644,15 @@ _Creating an ARM64 compute machine set._
 
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
-Example: 
+Example:
 
 _Valid values are `arm64`._
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:ARM64[ARM64]
-
-[discrete]
-[[bit-64-arm]]
-==== image:images/yes.png[yes] 64-bit ARM (noun)
-*Description*: A 64-bit version of the ARM architecture. This term can refer to both AArch66/`aarch64` and ARM64/`arm64`. Use this format in general cases when writing for both names of the architecture and various cloud providers.
-
-Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
-
-Example: 
-
-* _Amazon Web Service (AWS) on 64-bit ARM systems._
-* _Machine types for Azure on 64-bit ARM infrastructures._
-
-*Use it*: yes
-
-*Incorrect forms*: 
-
-*See also*: xref:aarch64[aarch64], xref:arm64[arm64]
 
 // Azure: Added "In Microsoft Azure" and removed "Microsoft Azure" from later in the sentence
 [discrete]
