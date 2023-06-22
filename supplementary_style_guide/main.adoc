@@ -2,6 +2,7 @@
 :doctype: book
 :toc: left
 :toclevels: 3
+:sectanchors:
 // Embed images directly into HTML
 // :data-uri:
 
@@ -59,114 +60,116 @@ include::style_guidelines/accessibility.adoc[leveloffset=+2]
 
 This glossary is the central location for terms and conventions for technical language in Red Hat product documentation and other technical content.
 
-=== Special characters
+=== Word usage
 
-include::glossary_terms_conventions/general_conventions/symbols.adoc[leveloffset=+0]
+==== A
 
-=== 0-9
+include::glossary_terms_conventions/general_conventions/a.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/numbers.adoc[leveloffset=+0]
+==== B
 
-=== A
+include::glossary_terms_conventions/general_conventions/b.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/a.adoc[leveloffset=+0]
+==== C
 
-=== B
+include::glossary_terms_conventions/general_conventions/c.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/b.adoc[leveloffset=+0]
+==== D
 
-=== C
+include::glossary_terms_conventions/general_conventions/d.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/c.adoc[leveloffset=+0]
+==== E
 
-=== D
+include::glossary_terms_conventions/general_conventions/e.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/d.adoc[leveloffset=+0]
+==== F
 
-=== E
+include::glossary_terms_conventions/general_conventions/f.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/e.adoc[leveloffset=+0]
+==== G
 
-=== F
+include::glossary_terms_conventions/general_conventions/g.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/f.adoc[leveloffset=+0]
+==== H
 
-=== G
+include::glossary_terms_conventions/general_conventions/h.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/g.adoc[leveloffset=+0]
+==== I
 
-=== H
+include::glossary_terms_conventions/general_conventions/i.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/h.adoc[leveloffset=+0]
+==== J
 
-=== I
+include::glossary_terms_conventions/general_conventions/j.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/i.adoc[leveloffset=+0]
+==== K
 
-=== J
+include::glossary_terms_conventions/general_conventions/k.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/j.adoc[leveloffset=+0]
+==== L
 
-=== K
+include::glossary_terms_conventions/general_conventions/l.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/k.adoc[leveloffset=+0]
+==== M
 
-=== L
+include::glossary_terms_conventions/general_conventions/m.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/l.adoc[leveloffset=+0]
+==== N
 
-=== M
+include::glossary_terms_conventions/general_conventions/n.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/m.adoc[leveloffset=+0]
+==== O
 
-=== N
+include::glossary_terms_conventions/general_conventions/o.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/n.adoc[leveloffset=+0]
+==== P
 
-=== O
+include::glossary_terms_conventions/general_conventions/p.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/o.adoc[leveloffset=+0]
+==== Q
 
-=== P
+include::glossary_terms_conventions/general_conventions/q.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/p.adoc[leveloffset=+0]
+==== R
 
-=== Q
+include::glossary_terms_conventions/general_conventions/r.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/q.adoc[leveloffset=+0]
+==== S
 
-=== R
+include::glossary_terms_conventions/general_conventions/s.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/r.adoc[leveloffset=+0]
+==== T
 
-=== S
+include::glossary_terms_conventions/general_conventions/t.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/s.adoc[leveloffset=+0]
+==== U
 
-=== T
+include::glossary_terms_conventions/general_conventions/u.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/t.adoc[leveloffset=+0]
+==== V
 
-=== U
+include::glossary_terms_conventions/general_conventions/v.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/u.adoc[leveloffset=+0]
+==== W
 
-=== V
+include::glossary_terms_conventions/general_conventions/w.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/v.adoc[leveloffset=+0]
+==== X
 
-=== W
+include::glossary_terms_conventions/general_conventions/x.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/w.adoc[leveloffset=+0]
+==== Y
 
-=== X
+include::glossary_terms_conventions/general_conventions/y.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/x.adoc[leveloffset=+0]
+==== Z
 
-=== Y
+include::glossary_terms_conventions/general_conventions/z.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/y.adoc[leveloffset=+0]
+==== Symbols
 
-=== Z
+include::glossary_terms_conventions/general_conventions/symbols.adoc[leveloffset=+1]
 
-include::glossary_terms_conventions/general_conventions/z.adoc[leveloffset=+0]
+==== Numbers
+
+include::glossary_terms_conventions/general_conventions/numbers.adoc[leveloffset=+1]

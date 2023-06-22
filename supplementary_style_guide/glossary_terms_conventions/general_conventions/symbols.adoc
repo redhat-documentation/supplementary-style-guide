@@ -1,4 +1,3 @@
-[discrete]
 ==== image:images/caution.png[with caution] ampersand (&)
 [[ampersand]]
 *Description*: Ampersands ("&") can be used in design elements and graphics when space is limited and when either referring to or quoting third-party content that uses them. Do not use an ampersand in original body copy.
@@ -9,7 +8,6 @@
 
 *See also*:
 
-[discrete]
 ==== image:images/no.png[no] exclamation point (!)
 [[exclamation-point]]
 *Description*: Do not use exclamation points ("!") at the end of sentences. An exclamation point can be used when referring to a command, such as the bang (!) command.
@@ -20,7 +18,6 @@
 
 *See also*:
 
-[discrete]
 ==== image:images/caution.png[with caution] plus symbol (+)
 [[plus-symbol]]
 *Description*: Plus symbols ("+") can be used in design elements and graphics when space is limited and when either referring to or quoting third-party content that uses them. Do not use a plus symbol in original body copy.
