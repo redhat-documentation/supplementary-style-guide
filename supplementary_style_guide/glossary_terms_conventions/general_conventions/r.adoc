@@ -139,11 +139,11 @@
 
 *See also*: xref:zone-group[zone group]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+// BxMS: Added "In Red Hat Process Automation Manager,"
 [discrete]
 [[realtime-decision-server]]
 ==== image:images/yes.png[yes] Realtime Decision Server (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.
+*Description*: In Red Hat Process Automation Manager, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat Process Automation Manager.
 
 *Use it*: yes
 
@@ -359,29 +359,6 @@ Always spell out the full product name of the host, and do not capitalize the te
 
 *See also*: xref:syndesis[Syndesis], xref:fuse-online[Fuse Online]
 
-// BxMS: General; kept as is
-[discrete]
-[[bpms]]
-==== image:images/yes.png[yes] Red Hat JBoss BPM Suite (noun)
-*Description*: _Red Hat JBoss BPM Suite_ is the JBoss platform for Business Process Management (BPM). The Red Hat JBoss BPM Suite enables enterprise business and IT users to document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
-
-*Use it*: yes
-
-*Incorrect forms*: BPMS, BPM, JBoss BPMS
-
-*See also*:
-
-// BxMS: General; kept as is
-[discrete]
-[[brms]]
-==== image:images/yes.png[yes] Red Hat JBoss BRMS (noun)
-*Description*: _Red Hat JBoss BRMS_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). BRMS stands for Business Rules Management System. Organizations can use Red Hat JBoss BRMS to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
-
-*Use it*: yes
-
-*Incorrect forms*: BRMS, BRM, JBoss BRMS
-
-*See also*:
 
 // Data Grid: General; kept as is
 [discrete]
@@ -512,6 +489,19 @@ Always spell out the full product name of the host, and do not capitalize the te
 *Incorrect forms*: OpenStack Platform, RHOS, RH-OSP
 
 *See also*: xref:red-hat-enterprise-linux-openstack-platform[Red Hat Enterprise Linux OpenStack Platform]
+
+// BxMS: General; kept as is
+[discrete]
+[[red-hat-process-automation-manager]]
+==== image:images/yes.png[yes] Red Hat Process Automation Manager (noun)
+*Description*: _Red Hat Process Automation Manager_ is the Red Hat platform for Business Process Management (BPM). Red Hat Process Automation Manager enables enterprise business and IT users to document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
+
+*Use it*: yes
+
+*Incorrect forms*: BPMS, BPM, JBoss BPMS
+
+*See also*:
+
 
 // RHV: General; kept as is
 [discrete]
@@ -1079,11 +1069,11 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+// BxMS: Added "In Red Hat Process Automation Manager,"
 [discrete]
 [[rule]]
 ==== image:images/yes.png[yes] rule (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
+*Description*: In Red Hat Process Automation Manager, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
 
 *Use it*: yes
 
@@ -1091,11 +1081,11 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+// BxMS: Added "In Red Hat Process Automation Manager,"
 [discrete]
 [[rule-template]]
 ==== image:images/yes.png[yes] rule template (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
+*Description*: In Red Hat Process Automation Manager, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
 
 *Use it*: yes
 
@@ -1114,11 +1104,11 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+// BxMS: Added "In Red Hat Process Automation Manager,"
 [discrete]
 [[runtime-manager]]
 ==== image:images/yes.png[yes] runtime manager (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
+*Description*: In Red Hat Process Automation Manager, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
 
 *Use it*: yes
 

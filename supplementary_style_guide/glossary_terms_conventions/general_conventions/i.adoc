@@ -314,11 +314,11 @@ There is no functional difference between the first server that was installed an
 
 *See also*: xref:bucket-index[bucket index]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+// BxMS: Added "In Red Hat Process Automation Manager,"
 [discrete]
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _inference engine_ is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
+*Description*: In Red Hat Process Automation Manager, the _inference engine_ is a part of the Red Hat Process Automation Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
 
 *Use it*: yes
 
@@ -526,11 +526,11 @@ _This feature can run on only Intel 64 processors_
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+// BxMS: Added "In Red Hat Process Automation Manager,"
 [discrete]
 [[intelligent-process-server]]
 ==== image:images/yes.png[yes] Intelligent Process Server (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
+*Description*: In Red Hat Process Automation Manager, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
 
 *Use it*: yes
 

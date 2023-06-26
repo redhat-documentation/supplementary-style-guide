@@ -21,11 +21,11 @@
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite"
+// BxMS: Added "In Red Hat Process Automation Manager"
 [discrete]
 [[backward-chaining]]
 ==== image:images/yes.png[yes] backward chaining (verb)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat JBoss BRMS is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
+*Description*: In Red Hat Process Automation Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat Process Automation Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
 
 *Use it*: yes
 
@@ -473,11 +473,11 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *See also*: xref:jboss-eap-built-in-messaging[JBoss EAP built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite," and removed from later in the sentence
+// BxMS: Added "In Red Hat Process Automation Manager," and removed from later in the sentence
 [discrete]
 [[business-central]]
 ==== image:images/yes.png[yes] Business Central (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Business Central_ is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
+*Description*: In Red Hat Process Automation Manager, the _Business Central_ is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
 
 *Use it*: yes
 
@@ -497,11 +497,11 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
+// BxMS: Added "In Red Hat Process Automation Manager,"
 [discrete]
 [[business-resource-planner]]
 ==== image:images/yes.png[yes] Business Resource Planner (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Business Resource Planner_ is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
+*Description*: In Red Hat Process Automation Manager, the _Business Resource Planner_ is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
 
 *Use it*: yes
 
