@@ -1080,7 +1080,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 [discrete]
 [[rpm-macro]]
 ==== image:images/yes.png[yes] RPM macro (noun)
-*Description*: An _RPM macro_ is a straight text substitution that can be conditionally assigned based on the optional evaluation of a statement when certain built-in functionality is used. RPM macros help to make package maintenance simpler and to automate certain repetitive tasks or patterns that are common across all types of packages. An RPM macro is a fragment of text with an assigned name. Whenever the name is used, it is replaced by the expanded body of the macro. This process is called "macro expansion" and can range from a static text substitution to arbitrary code running with side effects.
+*Description*: An _RPM macro_ is a straight text substitution that can be conditionally assigned based on the optional evaluation of a statement when certain built-in functionality is used. RPM macros help to make package maintenance simpler and to automate certain repetitive tasks or patterns that are common across all types of packages.
 
 *Use it*: yes
 
