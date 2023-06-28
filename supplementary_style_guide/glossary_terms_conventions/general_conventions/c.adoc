@@ -179,7 +179,7 @@
 [discrete]
 [[ceph-ansible]]
 ==== image:images/yes.png[yes] ceph-ansible (noun)
-*Description*: In Red Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly (`ceph-ansible`).
+*Description*: In Red Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible Playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly (`ceph-ansible`).
 
 *Use it*: yes
 
@@ -799,13 +799,13 @@ image repository contains one or more tagged images.
 [discrete]
 [[control-node]]
 ==== image:images/yes.png[yes] control node (noun)
-*Description*: Any machine with Ansible installed. You can run commands and playbooks, invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any _control node_. You can use any computer that has Python installed on it as a control node - laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node. You can have multiple control nodes.
+*Description*: Any machine with Ansible installed. You can run commands and playbooks, invoking `/usr/bin/ansible` or `/usr/bin/ansible-playbook`, from any _control node_. You can use any computer that has Python installed on it as a control node: laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node. You can have multiple control nodes.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:ansible-playbook[Ansible playbook]
+*See also*: xref:ansible-playbook[Ansible Playbook]
 
 [discrete]
 [[control-plane]]
