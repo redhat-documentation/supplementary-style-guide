@@ -631,7 +631,7 @@ Therefore, if you need to use the indefinite article before " `sos report` ", us
 
 *Incorrect forms*: sosreport, SOSreport, SOSREPORT, SOS report, SOS Report, SOS REPORT
 
-*See also*: xref:sosreport-archive[sosreport archive]
+*See also*: xref:sosreport[sosreport]
 
 [discrete]
 [[sosreport]]
@@ -652,7 +652,7 @@ Therefore, if you need to use the indefinite article before " `sosreport` ", use
 
 *Incorrect forms*: SOSreport, SOSREPORT, sos report, SOS report, SOS Report, SOS REPORT
 
-*See also*: xref:sos-report-archive[sos report archive]
+*See also*: xref:sos-report[sos report]
 
 [discrete]
 [[sound-card]]
