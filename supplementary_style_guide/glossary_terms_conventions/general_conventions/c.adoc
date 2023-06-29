@@ -479,6 +479,17 @@
 
 *See also*:
 
+[discrete]
+[[codebase]]
+==== image:images/yes.png[yes] codebase (noun)
+*Description*: A _codebase_ is a complete collection of source code for a software component, application, or system. Write as shown: one word.
+
+*Use it*: yes
+
+*Incorrect forms*: code base
+
+*See also*:
+
 // RHV: Added "In Red Hat Virtualization," and removed from later in the sentence
 [discrete]
 [[collect]]
