@@ -155,27 +155,16 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 *See also*:
 
 [discrete]
-[[exclude-list]]
-==== image:images/yes.png[with caution] exclude list (noun)
-*Description*: Use _exclude list_ as a synonym for _blocklist_ and _denylist_.
-Write as shown: two words.
+[[excludelist]]
+==== image:images/yes.png[yes] excludelist (noun)
+*Description*: Use _excludelist_ as a synonym for _blocklist_ and _denylist_.
+Write as shown: one word.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: exclude list
 
-*See also*: xref:excludelist[excludelist]
-
-[discrete]
-[[excludelist]]
-==== image:images/caution.png[with caution] excludelist (noun)
-*Description*: Use the one-word term _excludelist_ as a variable name only.
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:exclude-list[exclude list]
+*See also*:
 
 [discrete]
 [[exec-shield]]
