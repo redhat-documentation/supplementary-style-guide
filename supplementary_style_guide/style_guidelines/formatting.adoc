@@ -83,6 +83,11 @@ For example, you might combine existing product name attributes to create compou
 :name-spring-reactive: {name-runtime-spring-boot} with {name-runtime-vertx} reactive components
 ----
 
+[[titles-and-headings]]
+== Titles and headings
+
+Write titles and headings in sentence case, for example, _Composing a customized RHEL system image_. Do not use title case.
+
 [[single-step-procedures]]
 == Single-step procedures
 
