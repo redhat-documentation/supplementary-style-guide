@@ -614,20 +614,18 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 [discrete]
 [[sos-report]]
-==== image:images/caution.png[with caution] sos report (noun, adjective)
-*Description*: In RHEL 8 and later, an `_sos report_` is a collection of files that contain configuration details, system information, and diagnostic data.
-Red{nbsp}Hat Support engineers review an `sos report` when troubleshooting system problems.
+==== image:images/caution.png[with caution] sos report (noun)
+*Description*: In RHEL 8 and later, an _sos report_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review an sos report when troubleshooting system problems.
+To generate the sos report, customers run the `sos report` command; that is, the `sos` command with the `report` argument.
 
-Write as shown: two words, monospace font.
-Optionally, append a noun such as _archive_ or _file_, especially when referring to multiple `_sos report_` files.
-(In RHEL 7 and earlier, use the one-word term `_sosreport_` instead of `_sos report_`.)
-
-To generate an `sos report` archive, run the `sos report` command (that is, the `sos` command with the `report` argument).
+Write as shown: two words.
+(In RHEL 7 and earlier, use the one-word term _sosreport_ instead of _sos report_.)
 
 The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
-Therefore, if you need to use the indefinite article before " `sos report` ", use _an_ not _a_.
+Therefore, if you need to use the indefinite article before "sos report", use _an_ not _a_.
 
-*Use it*: yes
+*Use it*: with caution
 
 *Incorrect forms*: sosreport, SOSreport, SOSREPORT, SOS report, SOS Report, SOS REPORT
 
@@ -635,20 +633,18 @@ Therefore, if you need to use the indefinite article before " `sos report` ", us
 
 [discrete]
 [[sosreport]]
-==== image:images/caution.png[with caution] sosreport (noun, adjective)
-*Description*: In RHEL 7 and earlier, an `_sosreport_` is a collection of files that contain configuration details, system information, and diagnostic data.
-Red{nbsp}Hat Support engineers review an `sosreport` when troubleshooting system problems.
+==== image:images/caution.png[with caution] sosreport (noun)
+*Description*: In RHEL 7 and earlier, an _sosreport_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review an sosreport when troubleshooting system problems.
+To generate the sosreport, customers run the `sosreport` command.
 
-Write as shown: one word, monospace font.
-Optionally, append a noun such as _archive_ or _file_, especially when referring to multiple `_sosreport_` files.
-(In RHEL 8 and later, use the two-word term `_sos report_` instead of `_sosreport_`.)
-
-To generate an `sosreport` archive, run the `sosreport` command.
+Write as shown: one word.
+(In RHEL 8 and later, use the two-word term _sos report_ instead of _sosreport_.)
 
 The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
-Therefore, if you need to use the indefinite article before " `sosreport` ", use _an_ not _a_.
+Therefore, if you need to use the indefinite article before "sosreport", use _an_ not _a_.
 
-*Use it*: yes
+*Use it*: with caution
 
 *Incorrect forms*: SOSreport, SOSREPORT, sos report, SOS report, SOS Report, SOS REPORT
 
