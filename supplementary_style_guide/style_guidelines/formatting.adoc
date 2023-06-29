@@ -83,11 +83,6 @@ For example, you might combine existing product name attributes to create compou
 :name-spring-reactive: {name-runtime-spring-boot} with {name-runtime-vertx} reactive components
 ----
 
-[[titles-and-headings]]
-== Titles and headings
-
-Write titles and headings in sentence case, for example, _Composing a customized RHEL system image_. Do not use title case.
-
 [[single-step-procedures]]
 == Single-step procedures
 
@@ -97,6 +92,16 @@ For example:
 ====
 * Install the `dnf-automatic` package.
 ====
+
+[[titles-and-headings]]
+== Titles and headings
+
+Write all headings, including product documentation guides and KB articles, in sentence-style capitalization. Do not use headline-style capitalization. 
+
+.Examples
+* _Composing a customized RHEL system image_
+* _Configuring the node port service range_
+* _How to perform an unsupported conversion from a RHEL-derived Linux distribution to RHEL_
 
 [[user-replaced-values]]
 == User-replaced values
