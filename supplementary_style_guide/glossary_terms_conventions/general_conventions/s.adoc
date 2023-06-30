@@ -627,7 +627,7 @@ Therefore, if you need to use the indefinite article before "sos report", use _a
 
 *Use it*: with caution
 
-*Incorrect forms*: sosreport, SOSreport, SOSREPORT, SOS report, SOS Report, SOS REPORT
+*Incorrect forms*: sosreport, SoSreport, SOSreport, SOSREPORT, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
 
 *See also*: xref:sosreport[sosreport]
 
@@ -646,7 +646,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: with caution
 
-*Incorrect forms*: SOSreport, SOSREPORT, sos report, SOS report, SOS Report, SOS REPORT
+*Incorrect forms*: SoSreport, SOSreport, SOSREPORT, sos report, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
 
 *See also*: xref:sos-report[sos report]
 
