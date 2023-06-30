@@ -613,6 +613,44 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 [discrete]
+[[sos-report]]
+==== image:images/caution.png[with caution] sos report (noun)
+*Description*: In RHEL 8 and later, an _sos report_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review an sos report when troubleshooting system problems.
+To generate the sos report, customers run the `sos report` command; that is, the `sos` command with the `report` argument.
+
+Write as shown: two words.
+(In RHEL 7 and earlier, use the one-word term _sosreport_ instead of _sos report_.)
+
+The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
+Therefore, if you need to use the indefinite article before "sos report", use _an_ not _a_.
+
+*Use it*: with caution
+
+*Incorrect forms*: sosreport, SoSreport, SOSreport, SOSREPORT, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
+
+*See also*: xref:sosreport[sosreport]
+
+[discrete]
+[[sosreport]]
+==== image:images/caution.png[with caution] sosreport (noun)
+*Description*: In RHEL 7 and earlier, an _sosreport_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review an sosreport when troubleshooting system problems.
+To generate the sosreport, customers run the `sosreport` command.
+
+Write as shown: one word.
+(In RHEL 8 and later, use the two-word term _sos report_ instead of _sosreport_.)
+
+The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
+Therefore, if you need to use the indefinite article before "sosreport", use _an_ not _a_.
+
+*Use it*: with caution
+
+*Incorrect forms*: SoSreport, SOSreport, SOSREPORT, sos report, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
+
+*See also*: xref:sos-report[sos report]
+
+[discrete]
 [[sound-card]]
 ==== image:images/yes.png[yes] sound card (noun)
 *Description*: A _sound card_ is a device slotted into a computer to allow the use of audio components for multimedia applications.
