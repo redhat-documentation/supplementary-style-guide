@@ -96,7 +96,7 @@ For example:
 [[titles-and-headings]]
 == Titles and headings
 
-Write all headings, including product documentation guides and KB articles, in sentence-style capitalization. Do not use headline-style capitalization. 
+Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization. 
 
 .Examples
 * _Composing a customized RHEL system image_
