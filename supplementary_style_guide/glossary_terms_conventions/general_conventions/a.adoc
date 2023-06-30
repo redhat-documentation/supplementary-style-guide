@@ -233,7 +233,7 @@ _This Operator is supported on AMD64 and ARM64 platforms._
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*: xref:amd64[amd64]
 
@@ -354,23 +354,31 @@ _Valid values are `amd64`._
 [discrete]
 [[ansible-play]]
 ==== image:images/yes.png[yes] Ansible play (noun)
-*Description*: _Ansible plays_ are the building blocks of Ansible playbooks. The goal of an Ansible play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
+*Description*: _Ansible plays_ are the building blocks of Ansible Playbooks. The goal of an Ansible play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:ansible-playbook[Ansible playbook]
+*See also*: xref:ansible-playbook[Ansible Playbook]
 
 // RHEL: General; kept as is
 [discrete]
 [[ansible-playbook]]
-==== image:images/yes.png[yes] Ansible playbook (noun)
-*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. An _Ansible playbook_ is a file that contains one or more Ansible plays.
+==== image:images/yes.png[yes] Ansible Playbook (noun)
+*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language.
+Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+An _Ansible Playbook_ is a file that contains one or more Ansible plays.
+Write as shown: uppercase _A_ and uppercase _P_. When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
+
+Examples:
+
+* Run an Ansible Playbook.
+* Run a playbook in Ansible.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: Ansible playbook
 
 *See also*: xref:ansible-play[Ansible play]
 
