@@ -40,6 +40,10 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:bimonthly[bimonthly]: Updated to "do not use" because the term can be ambiguous
 * xref:biweekly[biweekly]: Updated to "do not use" because the term can be ambiguous
 * xref:codebase[codebase]: Added glossary entry
+* xref:bimodal-it[bimodal IT]: Updated glossary entry to include link to the Gartner website
+* xref:ansible-playbook[Ansible Playbook]: Updated glossary entry for preferred spelling
+* xref:sos-report[sos report]: Added glossary entry
+* xref:sosreport[sosreport]: Added glossary entry
 
 .Other updates
 * Added a xref:_0_9[0-9] section and moved entries starting with a number to it.
