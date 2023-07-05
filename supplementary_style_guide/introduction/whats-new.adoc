@@ -37,11 +37,11 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 == June 2023
 
 .Glossary entries
+* xref:ansible-playbook[Ansible Playbook]: Updated glossary entry for preferred spelling
+* xref:bimodal-it[bimodal IT]: Updated glossary entry to include link to the Gartner website
 * xref:bimonthly[bimonthly]: Updated to "do not use" because the term can be ambiguous
 * xref:biweekly[biweekly]: Updated to "do not use" because the term can be ambiguous
 * xref:codebase[codebase]: Added glossary entry
-* xref:bimodal-it[bimodal IT]: Updated glossary entry to include link to the Gartner website
-* xref:ansible-playbook[Ansible Playbook]: Updated glossary entry for preferred spelling
 * xref:sos-report[sos report]: Added glossary entry
 * xref:sosreport[sosreport]: Added glossary entry
 
