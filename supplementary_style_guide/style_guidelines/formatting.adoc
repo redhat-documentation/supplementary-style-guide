@@ -93,6 +93,16 @@ For example:
 * Install the `dnf-automatic` package.
 ====
 
+[[titles-and-headings]]
+== Titles and headings
+
+Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization. 
+
+.Examples
+* _Composing a customized RHEL system image_
+* _Configuring the node port service range_
+* _How to perform an unsupported conversion from a RHEL-derived Linux distribution to RHEL_
+
 [[user-replaced-values]]
 == User-replaced values
 
