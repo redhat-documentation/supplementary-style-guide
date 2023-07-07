@@ -11,37 +11,37 @@
 
 
 [discrete]
-[[ibm-eserver-system-p]]
-==== image:images/yes.png[yes] IBM eServer System p (noun)
-*Description*: Use "IBM eServer System p" for the first reference, and "IBM System p" or "System p" for subsequent references.
+[[ibm-power]]
+==== image:images/yes.png[yes] IBM Power® (noun)
+*Description*: _IBM Power_ represents the family of servers based on Power processors that can include combinations of IBM Power servers and its products. On first use, mark "IBM" Power with a registered trademark icon (®).
 
 *Use it*: yes
 
-*Incorrect forms*: pSeries
+*Incorrect forms*: pSeries, System P, Power Systems
 
 *See also*:
 
 [discrete]
-[[ibm-s-390]]
-==== image:images/yes.png[yes] IBM S/390 (noun)
-*Description*: The _IBM S/390_ is the IBM large server (or mainframe) line of computer systems. Use the full description "IBM S/390".
+[[ibm-linuxone]]
+==== image:images/yes.png[yes] IBM® LinuxONE (noun)
+*Description*: _IBM® LinuxONE_ represents the IBM® LinuxONE platform (`s390x` architecture) and its products. "IBM®" must always precede "LinuxONE" in any context.
 
 *Use it*: yes
 
-*Incorrect forms*: S/390, S90
+*Incorrect forms*: IBM LinuxONE, LinuxONE, linuxone
 
-*See also*:
+*See also*: xref:ibm-z[IBM Z], xref:s390x[s390x]
 
 [discrete]
 [[ibm-z]]
-==== image:images/yes.png[yes] IBM Z (noun)
-*Description*: _IBM Z_ is the new name for the "IBM z Systems" family of IBM mainframe computers.
+==== image:images/yes.png[yes] IBM Z® (noun)
+*Description*: _IBM Z_ represents the IBM mainframe platform (`s390x` architecture) and its products. On first use, mark "IBM Z" with a registered trademark icon (®).
 
 *Use it*: yes
 
-*Incorrect forms*: IBM z Systems
+*Incorrect forms*: IBM zSystems, Z, S/390
 
-*See also*:
+*See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:s390x[s390x]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [discrete]
@@ -512,13 +512,13 @@ There is no functional difference between the first server that was installed an
 [discrete]
 [[intel-64]]
 ==== image:images/yes.png[yes] Intel 64 (noun)
-*Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Only use in RHEL documentation. 
+*Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Use only in RHEL documentation.
 
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
-Example: 
+Example:
 
-_This feature can run on only Intel 64 processors_ 
+_This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
@@ -658,17 +658,6 @@ _This feature can run on only Intel 64 processors_
 *Use it*: yes
 
 *Incorrect forms*: IPSec
-
-*See also*:
-
-[discrete]
-[[iseries]]
-==== image:images/yes.png[yes] ISeries (noun)
-*Description*: Use "IBM eServer System i" for the first reference, and "IBM System i" or "System i" for subsequent references.
-
-*Use it*: yes
-
-*Incorrect forms*: iSeries
 
 *See also*:
 
