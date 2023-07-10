@@ -163,7 +163,7 @@
 [discrete]
 [[see]]
 ==== image:images/yes.png[yes] see (verb)
-*Description*: Use "see" to refer readers to another resource, for example, "See the **Red Hat Enterprise Linux Installation Guide** for more information." Avoid using "refer to" in this context.
+*Description*: Use "see" to refer readers to another resource, for example, "For more information, see the _Red Hat Enterprise Linux Installation Guide_." Avoid using "refer to" in this context.
 
 *Use it*: yes
 
@@ -305,6 +305,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
+[discrete]
 [[session-persistence]]
 ==== image:images/yes.png[yes] session persistence (noun)
 *Description*: _Session persistence_, also known as a _sticky session_, is a process in which a load balancer sends all requests in a user session to a specific network server. Session persistence can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "session persistence" or "sticky session" consistently.
@@ -601,6 +602,17 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 [discrete]
+[[softirq]]
+==== image:images/yes.png[yes] softirq (noun)
+*Description*: A _software interrupt request (softirq)_ is a deferrable kernel routine that performs the required actions in response to an interrupt. For example, softirqs clear the receive ring buffer after a network adapter receives a packet.
+
+*Use it*: yes
+
+*Incorrect forms*: SoftIRQ
+
+*See also*:
+
+[discrete]
 [[software-collection]]
 ==== image:images/yes.png[yes] Software Collection (noun)
 *Description*: A _Software Collection (SCL)_ allows for building and concurrent installation of multiple versions of the same software component on a single system. Always capitalize as shown. The abbreviation "SCL" (plural form "SCLs") is acceptable only for use in technical documents or documents shared with upstream projects.
@@ -610,6 +622,44 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *Incorrect forms*: software collection, collection, Software collection, Collection
 
 *See also*:
+
+[discrete]
+[[sos-report]]
+==== image:images/caution.png[with caution] sos report (noun)
+*Description*: In RHEL 8 and later, an _sos report_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review an sos report when troubleshooting system problems.
+To generate the sos report, customers run the `sos report` command; that is, the `sos` command with the `report` argument.
+
+Write as shown: two words.
+(In RHEL 7 and earlier, use the one-word term _sosreport_ instead of _sos report_.)
+
+The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
+Therefore, if you need to use the indefinite article before "sos report", use _an_ not _a_.
+
+*Use it*: with caution
+
+*Incorrect forms*: sosreport, SoSreport, SOSreport, SOSREPORT, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
+
+*See also*: xref:sosreport[sosreport]
+
+[discrete]
+[[sosreport]]
+==== image:images/caution.png[with caution] sosreport (noun)
+*Description*: In RHEL 7 and earlier, an _sosreport_ is a collection of files that contain configuration details, system information, and diagnostic data.
+Red{nbsp}Hat Support engineers review an sosreport when troubleshooting system problems.
+To generate the sosreport, customers run the `sosreport` command.
+
+Write as shown: one word.
+(In RHEL 8 and later, use the two-word term _sos report_ instead of _sosreport_.)
+
+The `sos` in the command name is an acronym for "son of sysreport", and the official pronunciation is "ess-oh-ess".
+Therefore, if you need to use the indefinite article before "sosreport", use _an_ not _a_.
+
+*Use it*: with caution
+
+*Incorrect forms*: SoSreport, SOSreport, SOSREPORT, sos report, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
+
+*See also*: xref:sos-report[sos report]
 
 [discrete]
 [[sound-card]]
@@ -886,7 +936,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 [discrete]
 [[standalone-mode]]
 ==== image:images/no.png[no] standalone mode (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. See the xref:standalone-server[standalone server] entry for the correct usage.
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the xref:standalone-server[standalone server] entry.
 
 *Use it*: no
 
@@ -952,9 +1002,10 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:ostree[OSTree], xref:commit[commit]
 
+[discrete]
 [[sticky-bit]]
 ==== image:images/yes.png[yes] sticky bit (noun)
-*Description*: A _sticky bit_ is a user permission set for a directory that limits user access to the directory owner and the root user. 
+*Description*: A _sticky bit_ is a user permission set for a directory that limits user access to the directory owner and the root user.
 
 *Use it*: yes
 
@@ -962,6 +1013,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
+[discrete]
 [[sticky-session]]
 ==== image:images/yes.png[yes] sticky session (noun)
 *Description*: A _sticky session_, also known as _session persistence_, is a process in which a load balancer sends all requests in a user session to a specific network server. Sticky sessions can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "sticky session" or "session persistence" consistently.

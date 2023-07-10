@@ -15,7 +15,7 @@ TIP:: Alternative methods that might not be obvious. Makes applying the techniqu
 
 [IMPORTANT]
 ====
-CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red Hat Customer Portal. Do not use this admonition type.
+CAUTION, which is another type of AsciiDoc admonition, is not fully supported by the Red{nbsp}Hat Customer Portal. Do not use this admonition type.
 ====
 
 Admonitions should be short and concise. Do not include procedures in an admonition.
@@ -75,5 +75,49 @@ Not a complete sentence: This prerequisite is acceptable if all the other prereq
 
 * link:https://redhat-documentation.github.io/modular-docs/#creating-procedure-modules[_Procedure Prerequisites_ in the _Modular Documentation Reference Guide_]
 
+[[shortdesc]]
+== Short descriptions
+
+To help readers find the information that they need or to confirm that they are in the right place, every module and assembly must include a _short description_, also called an _abstract_.
+
+This description is usually at least 2-3 sentences long, and you can scan it in a few seconds. It exists between the title and the main content, connecting them and providing context and disambiguation.
+
+Follow these guidelines when writing short descriptions:
+
+* Include user intent:
+** *What* users must do. This content is similar to what is in the title but should not just repeat the same information.
+** *Why* users must complete an action. You must build from the information in the title. This content helps users understand why completing an action is important or beneficial to them.
+* Make modules findable and reusable. Ensure that the product name is either in the title or the short description of a module or assembly.
+* If you are documenting two or more ways of completing the same procedure, explain why users would want to choose one or the other. If possible, link to the other ways. 
+* For complex procedures, include some of the key tasks that a customer must complete.
+* Write in plain English and use simple sentences. You can test the reading level of your sentences by using a readability scoring tool.
+* Use active voice and present tense.
+* Avoid self-referential language, such as "This topic covers..." or "Use this procedure to...".
+* Avoid feature-focused language. Focus on what users can accomplish with a product, not on what a product does. For example, avoid phrases such as "This product allows you to...". 
+* Use customer-centric language, such as "You can... by..." or "To..., configure...".
+
+.Example short description 1
+--
+====
+[discrete]
+==== Creating a group and adding a system
+
+Group many systems together in the Edge Management application [*what*] to manage them more easily [*why*]. For example, you can more easily mitigate vulnerabilities and update systems that are alike. 
+====
+--
+
+.Example short description 2
+--
+====
+[discrete]
+==== Creating a Kafka instance in OpenShift Streams for Apache Kafka
+
+To connect OpenShift Streams for Apache Kafka to other applications or services [*why*], create and configure a Kafka instance in the web console [*what*]. A Kafka instance in OpenShift Streams for Apache Kafka includes the following items:
+
+* A Kafka cluster
+* A bootstrap server
+* The configurations needed to connect to producer and consumer services
+====
+--
 
 // TODO: Add new style entries alphabetically in this file

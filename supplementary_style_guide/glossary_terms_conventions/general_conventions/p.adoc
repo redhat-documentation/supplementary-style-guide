@@ -51,7 +51,7 @@
 [discrete]
 [[pc]]
 ==== image:images/yes.png[yes] PC (noun)
-*Description*: _PC_ is an abbreviation for personal computer. See the _IBM Style_ guide for further information.
+*Description*: _PC_ is an abbreviation for personal computer. For more information, see the _IBM Style_ guide.
 
 *Use it*: yes
 
@@ -110,7 +110,7 @@ When combined with privileges, permissions define a user's or resource's overall
 // OCS: General; kept as is
 [discrete]
 [[persistent-volume]]
-==== persistent volume (noun)
+==== image:images/yes.png[yes] persistent volume (noun)
 *Description*: A _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.
 
 *Use it*: yes
@@ -122,7 +122,7 @@ When combined with privileges, permissions define a user's or resource's overall
 // OCS: General; kept as is; added "in the cluster"
 [discrete]
 [[persistent-volume-claim]]
-==== persistent volume claim (noun)
+==== image:images/yes.png[yes] persistent volume claim (noun)
 *Description*: A _persistent volume claim_ (PVC) is a request for storage in the cluster by a user.
 
 *Use it*: yes
@@ -299,7 +299,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 [discrete]
 [[pod]]
 ==== image:images/yes.png[yes] pod (noun)
-*Description*: In Kubernetes, a _pod_ is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are recreated. The API object for a pod is `Pod`.
+*Description*: In Kubernetes, a _pod_ is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are re-created. The API object for a pod is `Pod`.
 
 *Use it*: yes
 
@@ -358,20 +358,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 [[posix-attributes]]
 ==== image:images/yes.png[yes] POSIX attributes (noun)
 *Description*: _POSIX attributes_ are user attributes for maintaining compatibility between operating systems.
-In a Red Hat Identity Management environment, POSIX attributes for users include:
-
-  * `cn`, the user's name
-  * `uid`, the account name (login)
-  * `uidNumber`, a user number (UID)
-  * `gidNumber`, the primary group number (GID)
-  * `homeDirectory`, the user's home directory
-
-In a Red Hat Identity Management environment, POSIX attributes for groups include:
-
-  * `cn`, the group's name
-  * `gidNumber`, the group number (GID)
-
-These attributes identify users and groups as separate entities.
 
 *Use it*: yes
 

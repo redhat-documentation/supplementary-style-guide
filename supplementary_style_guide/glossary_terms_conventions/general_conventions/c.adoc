@@ -179,7 +179,7 @@
 [discrete]
 [[ceph-ansible]]
 ==== image:images/yes.png[yes] ceph-ansible (noun)
-*Description*: In Red Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly (`ceph-ansible`).
+*Description*: In Red Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible Playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly: `ceph-ansible`.
 
 *Use it*: yes
 
@@ -260,21 +260,13 @@
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[certificate authorities]
+*See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: General; kept as is
 [discrete]
-[[certificate-authorities]]
-==== image:images/yes.png[yes] certificate authorities (noun)
-*Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`, the IdM CA. The `ipa` CA certificate is one of the following types:
---
-* Self-signed. In this case, the `ipa` CA is the root CA.
-* Externally signed. In this case, the `ipa` CA is subordinated to the external CA.
---
-In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certificates are one of the following types:
-
-* Signed by the `ipa` CA.
-* Signed by any of the intermediate CAs between itself and `ipa` CA. The certificate of a sub-CA cannot be self-signed.
+[[certificate-authority]]
+==== image:images/yes.png[yes] certificate authority (noun)
+*Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`.
 
 *Use it*: yes
 
@@ -492,11 +484,22 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 ==== image:images/caution.png[with caution] CodeReady Linux Builder repository (noun)
 *Description*: In Red Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Packages included in the CodeReady Linux Builder repository are unsupported by Red Hat. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
 
-
-
 *Use it*: with caution
 
 *Incorrect forms*: codeready Linux builder, CRB 
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[codebase]]
+==== image:images/yes.png[yes] codebase (noun)
+*Description*: A _codebase_ is a complete collection of source code for a software component, application, or system. Write as shown: one word.
+
+*Use it*: yes
+
+*Incorrect forms*: code base
 
 *See also*:
 
@@ -504,7 +507,7 @@ In IdM, you can also create multiple *sub-CAs*. Sub-CAs are IdM CAs whose certif
 [discrete]
 [[collect]]
 ==== image:images/yes.png[yes] collect (verb)
-*Description*: In Red Hat Virtualization, use "collect" when discussing the log collector (`ovirt-log-collector`). Do not use "gather", which is reserved for discussing Red Hat Virtualization metrics. See the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log] for the discussion regarding this decision.
+*Description*: In Red Hat Virtualization, use "collect" when discussing the log collector (`ovirt-log-collector`). Do not use "gather", which is reserved for discussing Red Hat Virtualization metrics. For the discussion regarding this decision, see the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log].
 
 *Use it*: yes
 
@@ -762,7 +765,7 @@ image repository contains one or more tagged images.
 // OCS: General; kept as is
 [discrete]
 [[container-storage-interface]]
-==== Container Storage Interface (noun)
+==== image:images/yes.png[yes] Container Storage Interface (noun)
 *Description*: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
 
 *Use it*: yes
@@ -809,13 +812,13 @@ image repository contains one or more tagged images.
 [discrete]
 [[control-node]]
 ==== image:images/yes.png[yes] control node (noun)
-*Description*: Any machine with Ansible installed. You can run commands and playbooks, invoking /usr/bin/ansible or /usr/bin/ansible-playbook, from any _control node_. You can use any computer that has Python installed on it as a control node - laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node. You can have multiple control nodes.
+*Description*: Any machine with Ansible installed. You can run commands and playbooks, invoking `/usr/bin/ansible` or `/usr/bin/ansible-playbook`, from any _control node_. You can have multiple control nodes. You can use any computer that has Python installed on it as a control node: laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:ansible-playbook[Ansible playbook]
+*See also*: xref:ansible-playbook[Ansible Playbook]
 
 [discrete]
 [[control-plane]]
@@ -1018,7 +1021,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 [discrete]
 [[crush-map]]
 ==== image:images/yes.png[yes] CRUSH map (noun)
-*Description*: In Red Hat Ceph Storage, a CRUSH map contain a list of OSDs, a list of buckets for aggregating the devices into physical locations, and a list of rules that tell CRUSH how it should replicate data in a Ceph cluster’s pools. See the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush[CRUSH] section in the Red Hat Ceph Storage Architecture Guide for details.
+*Description*: In Red Hat Ceph Storage, a CRUSH map contain a list of OSDs, a list of buckets for aggregating the devices into physical locations, and a list of rules that tell CRUSH how it should replicate data in a Ceph cluster’s pools. For more information, see the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush[CRUSH] section in the Red Hat Ceph Storage Architecture Guide.
 
 *Use it*: yes
 

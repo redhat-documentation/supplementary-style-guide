@@ -10,6 +10,25 @@
 *See also*: xref:xemacs[XEmacs]
 
 [discrete]
+[[x86_64]]
+==== image:images/yes.png[yes] x86_64 (noun)
+*Description*: A 64-bit version of the x86 architecture. Use this term when referring to operating systems and server instances, for example RHEL, Fedora, CoreOS and other Linux distributions. Use this format without backticks in general cases when referring to system architecture. Use this format in backticks when referring to architecture as a value or parameter.
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands or outputs, confer with your SME on the correct format for the specific use case.
+
+Example 1:
+
+* _Specifies the type of architecture for your server, such as x86_64._
+* _Specify the architecture, valid values are `x86_64`._
+
+
+*Use it*: yes
+
+*Incorrect forms*: x64, x86-64, or x86
+
+*See also*: xref:bit-64-x86[64-bit x86]
+
+[discrete]
 [[xemacs]]
 ==== image:images/yes.png[yes] XEmacs (noun)
 *Description*: Use "xemacs" only when referring to a command, such as, "To start XEmacs, type xemacs."

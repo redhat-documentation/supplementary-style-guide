@@ -48,7 +48,7 @@ For example:
 +
 .Example AsciiDoc: Product name attribute
 ----
-:name-product: Red Hat JBoss Enterprise Application Platform
+:name-product: Red{nbsp}Hat JBoss Enterprise Application Platform
 ----
 
 The abbreviated form of the product name:: If it is necessary for your product, you can use an attribute to store a shortened version of the name of your product, for example:
@@ -92,6 +92,16 @@ For example:
 ====
 * Install the `dnf-automatic` package.
 ====
+
+[[titles-and-headings]]
+== Titles and headings
+
+Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization. 
+
+.Examples
+* _Composing a customized RHEL system image_
+* _Configuring the node port service range_
+* _How to perform an unsupported conversion from a RHEL-derived Linux distribution to RHEL_
 
 [[user-replaced-values]]
 == User-replaced values

@@ -11,10 +11,10 @@
 
 [discrete]
 [[want]]
-==== image:images/yes.png[yes] want (verb)
+==== image:images/caution.png[with caution] want (verb)
 *Description*: Use "want" instead of "wish" or "would like". It is better to avoid it entirely by rewriting the sentence.
 
-*Use it*: yes
+*Use it*: with caution
 
 *Incorrect forms*: wish, would like
 
@@ -45,7 +45,7 @@
 [discrete]
 [[we-suggest]]
 ==== image:images/no.png[no] we suggest (verb)
-*Description*: Do not use "we suggest". Use a more direct construction or use "recommend". For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk", or "It is recommended that you back up your data disk".
+*Description*: Do not use "we suggest". Use a more direct construction instead. For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk".
 
 *Use it*: no
 
@@ -57,13 +57,12 @@
 [discrete]
 [[web-server]]
 ==== image:images/yes.png[yes] web server (noun)
-*Description*: A _web server_ is computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol used to distribute web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent. Red Hat Identity Management (IdM) uses the Apache Web Server to display the IdM Web UI, and to coordinate communication between components, such as the Directory Server and the Certificate Authority (CA).
-
+*Description*: A _web server_ is the computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol for distributing web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent.
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:directory-server-product[Directory Server], xref:certificate-authorities[certificate authorities]
+*See also*: xref:directory-server-product[Directory Server], xref:certificate-authority[certificate authority]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [discrete]

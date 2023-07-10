@@ -4,7 +4,7 @@
 [[conscious-language]]
 == Conscious language
 
-The Conscious Language Group supports the Red Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red Hat is involved.
+The Conscious Language Group supports the Red{nbsp}Hat commitment to remove problematic language from our code, documentation, websites, and open source projects with which Red{nbsp}Hat is involved.
 For more information about the Conscious Language Group, see https://github.com/conscious-lang/conscious-lang-docs.
 
 [IMPORTANT]
@@ -52,11 +52,11 @@ When possible, rewrite documentation to avoid these terms. When it is not possib
 .Examples
 * Removing _master_
 +
-image:images/no.png[no] A Ceph Monitor maintains the _master_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
+image:images/no.png[no] A Ceph Monitor maintains the _master_ copy of the Red{nbsp}Hat Ceph Storage cluster map with the current state of the Red{nbsp}Hat Ceph Storage cluster.
 +
-image:images/yes.png[yes] A Ceph Monitor maintains the _primary_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
+image:images/yes.png[yes] A Ceph Monitor maintains the _primary_ copy of the Red{nbsp}Hat Ceph Storage cluster map with the current state of the Red{nbsp}Hat Ceph Storage cluster.
 +
-image:images/yes.png[yes] A Ceph Monitor maintains the _main_ copy of the Red Hat Ceph Storage cluster map with the current state of the Red Hat Ceph Storage cluster.
+image:images/yes.png[yes] A Ceph Monitor maintains the _main_ copy of the Red{nbsp}Hat Ceph Storage cluster map with the current state of the Red{nbsp}Hat Ceph Storage cluster.
 
 
 * Removing _slave_
@@ -77,11 +77,16 @@ If you are writing quick start or other content that uses a more informal xref:#
 
 Follow the _IBM Style_ guide advice of _less conversational_ style in most cases.
 
-As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
-
 .Example: Less conversational style
 
-Red Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
+Red{nbsp}Hat Enterprise Linux 8 delivers a stable, secure, and consistent foundation across hybrid cloud deployments with the tools needed to deliver workloads faster with less effort.
+
+As needed, adjust the conversational to _fairly conversational_ for an audience of new users or _least conversational_ for API documentation and other very experienced audiences.
+
+[NOTE]
+====
+Documentation for cloud services follows the _IBM Style_ guide for _fairly conversational_ tone. When using _fairly conversational_ tone, use contractions where appropriate.
+====
 
 [[homographs]]
 == Homographs

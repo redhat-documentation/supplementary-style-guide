@@ -170,7 +170,7 @@ Capitalize it only when it starts a sentence.
 
 *Incorrect forms*: master CA
 
-*See also*: xref:certificate-authorities[certificate authorities]
+*See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux, an IdM CA server is"
 [discrete]
@@ -184,7 +184,7 @@ Alternative names: *CA server*
 
 *Incorrect forms*:
 
-*See also*: xref:certificate-authorities[certificate authorities]
+*See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [discrete]
@@ -196,7 +196,7 @@ Alternative names: *CA server*
 
 *Incorrect forms*:
 
-*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authorities[certificate authorities]
+*See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux, IdM deployment is"
 [discrete]
@@ -502,6 +502,23 @@ There is no functional difference between the first server that was installed an
 [[intel-xeon]]
 ==== image:images/yes.png[yes] Intel(R) Xeon(R) (noun)
 *Description*: _Intel(R) Xeon(R)_ refers to a line of Intel brand processors.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[discrete]
+[[intel-64]]
+==== image:images/yes.png[yes] Intel 64 (noun)
+*Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Only use in RHEL documentation. 
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example: 
+
+_This feature can run on only Intel 64 processors_ 
 
 *Use it*: yes
 

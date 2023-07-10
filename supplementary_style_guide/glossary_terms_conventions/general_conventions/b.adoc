@@ -1,7 +1,7 @@
 // OCS: Added "In Red Hat OpenShift Container Storage, a backing store..."
 [discrete]
 [[backing-store]]
-==== backing store (noun)
+==== image:images/yes.png[yes] backing store (noun)
 *Description*: In Red Hat OpenShift Container Storage, a _backing store_ is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
 
 *Use it*: yes
@@ -92,8 +92,8 @@
 [discrete]
 [[basic-http-authentication]]
 ==== image:images/yes.png[yes] Basic HTTP authentication (noun)
-*Description*: _Basic HTTP authentication_, or _Basic authentication_, is an authorization scheme that uses HTTP to send login credentials encoded in Base64. 
-This scheme is often used by applications to authenticate with servers, services, and API endpoints. 
+*Description*: _Basic HTTP authentication_, or _Basic authentication_, is an authorization scheme that uses HTTP to send login credentials encoded in Base64.
+This scheme is often used by applications to authenticate with servers, services, and API endpoints.
 On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentication".
 
 *Use it*: yes
@@ -151,7 +151,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 [discrete]
 [[bimodal-it]]
 ==== image:images/caution.png[with caution] bimodal IT (noun)
-*Description*: _Bimodal IT_ is the Gartner phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing.
+*Description*: _Bimodal IT_ is the link:https://www.gartner.com/en/glossary/all-terms[Gartner] phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing.
 
 The practice of having both modes together is often referred to as _hybrid_, _agile_, or _modern_ IT. "Hybrid IT" is a more general term; for example, it could mean _on-premise plus public cloud_. "Agile" and "modern IT" can both carry an implication of _mode 2_. When using those terms, be specific about the exact technology combination you mean.
 
@@ -163,12 +163,12 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 [discrete]
 [[bimonthly]]
-==== image:images/yes.png[yes] bimonthly (adverb)
-*Description*: _Bimonthly_ means every other month.
+==== image:images/no.png[no] bimonthly (adverb)
+*Description*: Do not use. _Bimonthly_ can mean either twice a month or every two months. Instead, write "twice a month" or "every two months" to remove ambiguity.
 
-*Use it*: yes
+*Use it*: no
 
-*Incorrect forms*: bi-monthly
+*Incorrect forms*:
 
 *See also*:
 
@@ -221,12 +221,12 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 [discrete]
 [[biweekly]]
-==== image:images/yes.png[yes] biweekly (adverb)
-*Description*: _Biweekly_ means every other week.
+==== image:images/no.png[no] biweekly (adverb)
+*Description*: Do not use. _Biweekly_ can mean either twice a week or every two weeks. Instead, write "twice a week" or "every two weeks" to remove ambiguity.
 
-*Use it*: yes
+*Use it*: no
 
-*Incorrect forms*: bi-weekly
+*Incorrect forms*:
 
 *See also*:
 
@@ -404,7 +404,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 [discrete]
 [[btrfs]]
 ==== image:images/yes.png[yes] Btrfs (noun)
-*Description*: _Btrfs_ is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. See the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page for more information on this file system. See  the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page for a list of file system names and how to present them.
+*Description*: _Btrfs_ is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. For more information about this file system, see the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page. For a list of file system names and how to present them, see the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page.
 
 *Use it*: yes
 

@@ -1,0 +1,35 @@
+[discrete]
+[[bit-64-arm]]
+==== image:images/yes.png[yes] 64-bit ARM (noun)
+*Description*: A 64-bit version of the ARM architecture. This term can refer to both AArch66/`aarch64` and ARM64/`arm64`. Use this format in general cases when writing for both names of the architecture for various cloud providers.
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
+
+Example:
+
+* _Amazon Web Service (AWS) on 64-bit ARM systems._
+* _Machine types for Azure on 64-bit ARM infrastructures._
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:aarch64[aarch64], xref:arm64[arm64]
+
+[discrete]
+[[bit-64-x86]]
+==== image:images/yes.png[yes] 64-bit x86 (noun)
+*Description*: A 64-bit version of the x86 architecture. This term can refer to both x86_64 and AMD64/`amd64`. Use this format in general cases when writing for both names of the architectures for various cloud providers.
+
+Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands or outputs, confer with your SME on the correct format for the specific use case.
+
+Example:
+
+* _Amazon Web Service (AWS) on 64-bit x86 systems_
+* _Machine types for Azure on 64-bit x86 infrastructures_
+
+*Use it*: yes
+
+*Incorrect forms*: x64, x86-64, or x86
+
+*See also*: xref:x86_64[x86_64]

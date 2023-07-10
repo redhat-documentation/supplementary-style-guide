@@ -1,0 +1,36 @@
+name: Build and deploy SSG website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Extract assets
+        run: docker cp $(docker run --detach quay.io/redhat-docs/redhat-docs-template):/assets ./supplementary_style_guide/assets
+
+      - name: Build AsciiDoc
+        uses: docker://quay.io/redhat-docs/redhat-docs-template
+        with:
+          args: supplementary_style_guide/main.adoc
+
+      - name: Copy output to docs/
+        run: |
+          mkdir docs
+          cp -r supplementary_style_guide/images/ docs/images
+          cp -r supplementary_style_guide/assets/ docs/assets
+          mv index.html docs/
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs

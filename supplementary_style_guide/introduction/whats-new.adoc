@@ -1,0 +1,136 @@
+[[whats-new]]
+= What's new
+
+////
+Instructions:
+- Wait until a month is over to include its entries
+- Only include updates that are significant, not just cleanup, formatting, or typo fixes.
+- Order entries alphabetically (not chronologically)
+////
+
+Review the history of significant updates to the _Red Hat supplementary style guide for product documentation_.
+
+[NOTE]
+====
+To view the history of changes from 2020 through 2022, see the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md[What's new] page in the GitHub repository.
+====
+
+// TEMPLATE:
+//
+// [discrete]
+// [[TODO-2023]]
+// == TODO 2023
+//
+// .Glossary entries
+// * TODO
+//
+// .Style guidance
+// * TODO
+//
+// .Other updates
+// * TODO
+
+// TODO: Call out the ability to link to sections easily in a future month, once we solve the glossary term fix
+
+[discrete]
+[[june-2023]]
+== June 2023
+
+.Glossary entries
+* xref:ansible-playbook[Ansible Playbook]: Updated glossary entry for preferred spelling
+* xref:bimodal-it[bimodal IT]: Updated glossary entry to include link to the Gartner website
+* xref:bimonthly[bimonthly]: Updated to "do not use" because the term can be ambiguous
+* xref:biweekly[biweekly]: Updated to "do not use" because the term can be ambiguous
+* xref:codebase[codebase]: Added glossary entry
+* xref:sos-report[sos report]: Added glossary entry
+* xref:sosreport[sosreport]: Added glossary entry
+
+.Other updates
+* Added a xref:_0_9[0-9] section and moved entries starting with a number to it.
+* Added links to the new Red{nbsp}Hat link:https://redhat-documentation.github.io/accessibility-guide/[_Getting started with accessibility for writers_] guide.
+* Removed the _Cloud services guidelines_ heading, since all guidelines under it were applicable to all product documentation. Redistributed its guidelines to other sections:
+** Moved xref:accessibility[Accessibility] to its own top-level section.
+** Moved the _Localization_ guideline to a note in xref:conversational-style[Conversational style].
+** Moved xref:microcopy[Microcopy] to xref:graphical-interfaces[Graphical interfaces].
+** Moved xref:screenshots[Screenshots] to xref:graphical-interfaces[Graphical interfaces].
+* Renamed _Symbols_ to xref:_special_characters[Special characters].
+* Updated the guide to use a new look and feel.
+
+[discrete]
+[[may-2023]]
+== May 2023
+
+.Glossary entries
+* xref:bit-64-arm[64-bit ARM]: Added glossary entry
+* xref:bit-64-x86[64-bit x86]: Added glossary entry
+* xref:aarch64[AArch64]: Added glossary entry
+* xref:_aarch64[aarch64]: Added glossary entry
+* xref:AMD64[AMD64]: Updated description
+* xref:amd64[amd64]: Added glossary entry
+* xref:arm64[ARM64]: Added glossary entry
+* xref:_arm64[arm64]: Added glossary entry
+* xref:intel-64[Intel 64]: Added glossary entry
+* xref:softirq[softirq]: Added glossary entry
+* xref:x86_64[x86_64]: Added glossary entry
+
+.Style guidance
+* xref:external-links[External links]: Updated to clarify what an external link is
+
+[discrete]
+[[april-2023]]
+== April 2023
+
+.Glossary entries
+* xref:apache-web-server[Apache web server]: Updated to remove extraneous IdM definitions
+* xref:certificate-authority[certificate authority]: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions
+* xref:domain-controller[domain controller]: Updated to remove extraneous IdM definitions
+* xref:kerberos-protocol[Kerberos protocol]: Updated to remove extraneous IdM definitions
+* xref:kerberos-realm[Kerberos realm]: Updated to remove extraneous IdM definitions
+* xref:posix-attributes[POSIX attributes]: Updated to remove extraneous IdM definitions
+* xref:web-server[web server]: Updated to remove extraneous IdM definitions
+
+.Other updates
+* Added a xref:non-breaking-spaces[non-breaking space] between "Red" and "Hat" in each occurrence within the guide.
+* xref:shortdesc[Short descriptions]: Added guidance on writing _short descriptions_ (also known as _abstracts_).
+
+
+[discrete]
+[[march-2023]]
+== March 2023
+
+.Glossary entries
+* xref:devfile[devfile]: Added glossary entry
+
+.Other updates
+* Updated examples throughout the guide to use a consistent order of "For _<information>_, see _<link>_" when referencing other resources.
+
+[discrete]
+[[february-2023]]
+== February 2023
+
+.Glossary entries
+* xref:foreman[Foreman]: Updated to remove outdated guidance
+* xref:session-persistence[session persistence]: Added glossary entry
+* xref:sticky-bit[sticky bit]: Added glossary entry
+* xref:sticky-session[sticky session]: Added glossary entry
+* xref:want[want]: Updated to "use with caution"
+* xref:we-suggest[we suggest]: Updated to remove outdated guidance
+
+.Other updates
+* Added a xref:whats-new[What's new] section to list what has changed with this guide each month.
+
+[discrete]
+[[january-2023]]
+== January 2023
+
+.Glossary entries
+* xref:assisted-installer[Assisted Installer]: Added glossary entry
+* xref:basic-http-authentication[Basic HTTP authentication]: Added glossary entry
+* xref:bytecode[bytecode]: Added glossary entry
+* xref:developer-preview[Developer Preview]: Added glossary entry
+* xref:kubernetes[Kubernetes]: Added glossary entry
+* through: Removed glossary entry in favor of following the _IBM Style_ guidance on number ranges
+
+.Style guidance
+* xref:developer-preview-guidance[Developer Preview]: Added guidance on documenting Developer Preview features
+* xref:non-breaking-spaces[Non-breaking spaces]: Added guidance on using a non-breaking space between "Red" and "Hat"

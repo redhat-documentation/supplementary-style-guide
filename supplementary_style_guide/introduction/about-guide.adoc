@@ -17,5 +17,6 @@ When looking for style guidance, reference this guide first, because it override
 
 In addition to the _IBM Style_ guide and the _Red Hat supplementary style guide for product documentation_, Red Hat product documentation uses the following reference guides for technical writers:
 
-* _link:https://redhat-documentation.github.io/modular-docs/[Modular Documentation Reference Guide]_: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.
-* _link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[AsciiDoc Mark-up Quick Reference]_: Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.
+* link:https://redhat-documentation.github.io/modular-docs/[_Modular Documentation Reference Guide_]: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.
+* link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[_AsciiDoc Mark-up Quick Reference_]: Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.
+* link:https://redhat-documentation.github.io/accessibility-guide/[_Getting started with accessibility for writers_]: Guidance for creating accessible content.

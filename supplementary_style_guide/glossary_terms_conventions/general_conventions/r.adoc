@@ -932,7 +932,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 // OCS: General; kept as is
 [discrete]
 [[rook]]
-==== Rook (noun)
+==== image:images/yes.png[yes] Rook (noun)
 *Description*: _Rook_ is an orchestrator for multiple storage solutions, each with a specialized Kubernetes Operator to automate management.
 
 *Use it*: yes
@@ -944,7 +944,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 // OCS: Added "In Red Hat OpenShift Container Storage,"
 [discrete]
 [[rook-ceph-operator]]
-==== Rook-Ceph Operator (noun)
+==== image:images/yes.png[yes] Rook-Ceph Operator (noun)
 
 *Description*: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, the _Rook-Ceph Operator_ automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
 

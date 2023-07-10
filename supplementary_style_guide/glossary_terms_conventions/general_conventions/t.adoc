@@ -127,7 +127,7 @@
 [discrete]
 [[throughput]]
 ==== image:images/yes.png[yes] throughput (noun)
-*Description*: _Throughput_ is the amount of data transferred from one place to another or processed in a specified amount of time. Data transfer rates for disk drives and networks are measured in terms of throughput. Typically, throughput is measured in kbps, Mbps, or Gbps. See the _IBM Style_ guide for more information about using measurements and abbreviations.
+*Description*: _Throughput_ is the amount of data transferred from one place to another or processed in a specified amount of time. Data transfer rates for disk drives and networks are measured in terms of throughput. Typically, throughput is measured in kbps, Mbps, or Gbps. For more information about using measurements and abbreviations, see the _IBM Style_ guide.
 
 *Use it*: yes
 

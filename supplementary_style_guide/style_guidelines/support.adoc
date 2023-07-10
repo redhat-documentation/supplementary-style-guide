@@ -4,11 +4,11 @@
 [[developer-preview-guidance]]
 == Developer Preview
 
-Developer Preview software provides early access to a technology, component, or feature in advance of its possible inclusion in a Red Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. Documentation is not required for Developer Preview software, but if documentation is provided, it is subject to change or removal at any time. Also, testing is limited for Developer Preview software. Red Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
+Developer Preview software provides early access to a technology, component, or feature in advance of its possible inclusion in a Red{nbsp}Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. Documentation is not required for Developer Preview software, but if documentation is provided, it is subject to change or removal at any time. Also, testing is limited for Developer Preview software. Red{nbsp}Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
 
 [WARNING]
 ====
-Some products, such as Openshift Container Platform,  do not include Developer Preview content in the documentation. Check with your Content Strategist or Support contact to confirm whether you can publish Developer Preview documentation for your product.
+Some products, such as Red Hat Openshift Container Platform, do not include Developer Preview content in the documentation. Check with your Content Strategist or Support contact to confirm whether you can publish Developer Preview documentation for your product.
 ====
 
 When documenting a Developer Preview software, follow these guidelines:
@@ -33,9 +33,9 @@ Use the following template. Replace _<software_name>_ with the software name:
 ----
 [IMPORTANT]
 ====
-_<software_name>_ is Developer Preview software only. Developer Preview software is not supported by Red Hat in any way and is not functionally complete or production-ready. Do not use Developer Preview software for production or business-critical workloads. Developer Preview software provides early access to upcoming product software in advance of its possible inclusion in a Red Hat product offering. Customers can use this software to test functionality and provide feedback during the development process. This software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Red Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
+_<software_name>_ is Developer Preview software only. Developer Preview software is not supported by Red{nbsp}Hat in any way and is not functionally complete or production-ready. Do not use Developer Preview software for production or business-critical workloads. Developer Preview software provides early access to upcoming product software in advance of its possible inclusion in a Red{nbsp}Hat product offering. Customers can use this software to test functionality and provide feedback during the development process. This software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Red{nbsp}Hat might provide ways to submit feedback on Developer Preview software without an associated SLA.
 
-For more information about the support scope of Red Hat Developer Preview software, see link:https://access.redhat.com/support/offerings/devpreview/[Developer Preview Support Scope].
+For more information about the support scope of Red{nbsp}Hat Developer Preview software, see link:https://access.redhat.com/support/offerings/devpreview/[Developer Preview Support Scope].
 ====
 ----
 
@@ -45,7 +45,7 @@ For more information about the support scope of Red Hat Developer Preview softwa
 * Node Health Check Operator
 * CSI inline ephemeral volumes
 
-For more information about the support scope of Red Hat Developer Preview features, see link:https://access.redhat.com/support/offerings/devpreview/[Developer Preview Support Scope]. For a comparison of Developer Preview and Technology Preview features, see link:https://access.redhat.com/articles/6966848[Developer and Technology Previews: How they compare].
+For more information about the support scope of Red{nbsp}Hat Developer Preview features, see link:https://access.redhat.com/support/offerings/devpreview/[Developer Preview Support Scope]. For a comparison of Developer Preview and Technology Preview features, see link:https://access.redhat.com/articles/6966848[Developer and Technology Previews: How they compare].
 
 [[technology-preview-guidance]]
 == Technology Preview
@@ -68,9 +68,9 @@ Use the following template text verbatim, where _<feature_name>_ is your feature
 ----
 [IMPORTANT]
 ====
-_<feature_name>_ is a Technology Preview feature only. Technology Preview features are not supported with Red Hat production service level agreements (SLAs) and might not be functionally complete. Red Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
+_<feature_name>_ is a Technology Preview feature only. Technology Preview features are not supported with Red{nbsp}Hat production service level agreements (SLAs) and might not be functionally complete. Red{nbsp}Hat does not recommend using them in production. These features provide early access to upcoming product features, enabling customers to test functionality and provide feedback during the development process.
 
-For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
+For more information about the support scope of Red{nbsp}Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
 ====
 ----
 
@@ -80,6 +80,6 @@ For more information about the support scope of Red Hat Technology Preview featu
 * SSPI connection support on Microsoft Windows
 * Hot-plugging virtual disks
 
-For more information about the support scope of Red Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope]. For a comparison of Developer Preview and Technology Preview features, see link:https://access.redhat.com/articles/6966848[Developer and Technology Previews: How they compare].
+For more information about the support scope of Red{nbsp}Hat Technology Preview features, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope]. For a comparison of Developer Preview and Technology Preview features, see link:https://access.redhat.com/articles/6966848[Developer and Technology Previews: How they compare].
 
 // TODO: Add new style entries alphabetically in this file

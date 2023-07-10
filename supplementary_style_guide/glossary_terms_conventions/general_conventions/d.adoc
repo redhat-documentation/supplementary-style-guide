@@ -319,6 +319,17 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *See also*:
 
 [discrete]
+[[devfile]]
+==== image:images/yes.png[yes] devfile (noun)
+*Description*: A _devfile_ is a YAML file that you can include in your local development environment to automate various build processes and apply environment guidelines. Specifically, devfiles can provide guidance for runtime images, example code, build and CI commands, and deployment options such as workspace servers and containerization.
+
+*Use it*: yes
+
+*Incorrect forms*: dev file, .dev file, dev-file
+
+*See also*:
+
+[discrete]
 [[device]]
 ==== image:images/yes.png[yes] device (noun)
 *Description*: A _device_ is any machine or component that attaches to a computer.
@@ -557,7 +568,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[domain-controller]]
 ==== image:images/yes.png[yes] domain controller (noun)
-*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
+*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain.
 
 *Use it*: yes
 
@@ -569,7 +580,7 @@ Red Hat Directory Server conforms to LDAP standards.
 [discrete]
 [[domain-mode]]
 ==== image:images/no.png[no] domain mode (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. See the xref:managed-domain[managed domain] entry for the correct usage.
+*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the xref:managed-domain[managed domain] entry.
 
 *Use it*: no
 
