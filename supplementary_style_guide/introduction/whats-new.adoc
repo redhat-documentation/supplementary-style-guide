@@ -17,7 +17,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 // TEMPLATE:
 //
-// // [[TODO-2023]]
+// [[TODO-2023]]
 // == TODO 2023
 //
 // .Glossary entries
@@ -29,7 +29,45 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
-// TODO: Call out the ability to link to sections easily in a future month, once we solve the glossary term fix
+// [[august-2023]]
+// == August 2023
+//
+// // TODO: Didn't mention anything in July for the IBM entries that were removed; they've been added back with "do not use". Show these in August's section
+//
+// .Glossary entries
+// * xref:ibm-eserver-system-p[IBM eServer System p]: Updated to "do not use"; use "IBM Power" instead
+// * xref:ibm-s-390[IBM S/390]: Updated to "do not use"; use "IBM Z" instead
+// * xref:iseries[ISeries]: Updated to "do not use"; use "IBM Power" instead
+// * xref:pseries[pSeries]: Updated to "do not use"; use "IBM Power" instead
+//
+// .Style guidance
+// * TODO
+//
+// .Other updates
+// * TODO
+
+[[july-2023]]
+== July 2023
+
+.Glossary entries
+* xref:elb[Elastic Load Balancing]: Added glossary entry
+* xref:ibm-linuxone[IBM® LinuxONE]: Added glossary entry
+* xref:ibm-power[IBM Power®]: Added glossary entry
+* xref:ibm-z[IBM Z®]: Updated glossary entry
+* xref:red-hat-build-openjdk[Red Hat build of OpenJDK]: Added glossary entry
+* xref:red-hat-java[Red Hat Java]: Added glossary entry
+* xref:red-hat-openjdk[Red Hat OpenJDK]: Added glossary entry
+* xref:s390x[s390x]: Added glossary entry
+
+.Style guidance
+* xref:non-breaking-spaces[Non-breaking spaces]: Updated to clarify why non-breaking spaces should be used
+* xref:titles-and-headings[Titles and headings]: Added guidance to use sentence-style capitalization for titles and headings
+* xref:user-interface-elements[User interface elements]: Updated to clarify not to use bold text if an element is not labeled in the user interface
+* xref:user-replaced-values[User-replaced values]: Updated to provide guidance on using user-replaced values in example output
+
+.Other updates
+* Updated the guide to enable clickable section headings.
+* Added a xref:_pdf_version[downloadable PDF version] of the guide.
 
 [[june-2023]]
 == June 2023
