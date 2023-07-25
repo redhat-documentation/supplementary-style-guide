@@ -38,4 +38,4 @@
 
 *Incorrect forms*: S/390x, s390x, IBM zSeries, zSeries
 
-*See also*: xref:ibm-z[IBM Z], xref:ibm-s-390[IBM S/390]
+*See also*: xref:ibm-z[IBM Z]
