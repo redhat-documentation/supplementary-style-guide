@@ -14,7 +14,6 @@ A _doc text_ is a short description of an engineering Bugzilla or Jira issue tha
 
 Use the following general structure for consistency.
 
-[discrete]
 === Enhancement
 
 Use present tense in one of the following formats:
@@ -33,7 +32,6 @@ With this update, you can create application credentials to use keystone to auth
 ----
 
 
-[discrete]
 === Bug fix
 
 Use past tense for the problem and present tense for the solution, in the following format:
@@ -45,7 +43,6 @@ Before this update,  <X problem> caused <Y situation> (OPTIONAL: under the follo
 Before this update, the loopback device for Cinder iSCSI/LVM backend was not re-created after a system restart, which prevented the cinder-volume service from restarting. With this update, a systemd service re-creates the loopback device and the Cinder iSCSI/LVM backend persists after a restart.
 ----
 
-[discrete]
 === Known issue
 
 Use present tense for the issue and the imperative form for the workaround in the following format:
@@ -63,12 +60,10 @@ The Compute services (nova) might fail to deploy because the `nova_wait_for_comp
 Workaround: Rerun the deployment command, or use a local container image registry on the undercloud.
 ----
 
-[discrete]
 === Technology Preview
 
 For guidance and the template text to use for Technology Preview features, see the xref:technology-preview-guidance[Technology Preview] section.
 
-[discrete]
 === Deprecated functionality
 Warn users about the following deprecation stages:
 
@@ -79,7 +74,6 @@ Warn users about the following deprecation stages:
 
 If available, inform users of alternative capabilities and workarounds.
 
-[discrete]
 ==== Deprecation notice
 [subs="+quotes"]
 ----
@@ -95,7 +89,6 @@ When citing deprecation timelines, refer to specific releases, such as __the nex
 In Red{nbsp}Hat OpenStack Platform (RHOSP) 14, the director graphical user interface is deprecated and is planned to be removed in a future release. Red{nbsp}Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed.
 ----
 
-[discrete]
 ==== Removal notice
 [subs="+quotes"]
 ----

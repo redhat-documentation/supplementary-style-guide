@@ -17,8 +17,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 // TEMPLATE:
 //
-// [discrete]
-// [[TODO-2023]]
+// // [[TODO-2023]]
 // == TODO 2023
 //
 // .Glossary entries
@@ -32,7 +31,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 // TODO: Call out the ability to link to sections easily in a future month, once we solve the glossary term fix
 
-[discrete]
 [[june-2023]]
 == June 2023
 
@@ -56,7 +54,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * Renamed _Symbols_ to xref:_special_characters[Special characters].
 * Updated the guide to use a new look and feel.
 
-[discrete]
 [[may-2023]]
 == May 2023
 
@@ -76,7 +73,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 .Style guidance
 * xref:external-links[External links]: Updated to clarify what an external link is
 
-[discrete]
 [[april-2023]]
 == April 2023
 
@@ -94,7 +90,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:shortdesc[Short descriptions]: Added guidance on writing _short descriptions_ (also known as _abstracts_).
 
 
-[discrete]
 [[march-2023]]
 == March 2023
 
@@ -104,7 +99,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 .Other updates
 * Updated examples throughout the guide to use a consistent order of "For _<information>_, see _<link>_" when referencing other resources.
 
-[discrete]
 [[february-2023]]
 == February 2023
 
@@ -119,7 +113,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 .Other updates
 * Added a xref:whats-new[What's new] section to list what has changed with this guide each month.
 
-[discrete]
 [[january-2023]]
 == January 2023
 
