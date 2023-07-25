@@ -1,4 +1,3 @@
-[discrete]
 [[gplusplus]]
 ==== image:images/yes.png[yes] G++ (noun)
 *Description*: pass:q[_G++_] is a C compiler usually operated by using the command line.
@@ -11,7 +10,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[gas]]
 ==== image:images/yes.png[yes] GAS (noun)
 *Description*: _GAS_ is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the program, use "GAS".
@@ -22,7 +20,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gas-command[gas]
 
-[discrete]
 [[gas-command]]
 ==== image:images/yes.png[yes] gas (noun)
 *Description*: _GAS_ is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the command, use `gas`, marked up appropriately.
@@ -34,7 +31,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 *See also*: xref:gas[GAS]
 
 // RHV: Added "In Red Hat Virtualization," and removed later in the sentence
-[discrete]
 [[gather]]
 ==== image:images/yes.png[yes] gather (verb)
 *Description*: In Red Hat Virtualization, use "gather" when discussing metrics. Do not use "collect", which is reserved for discussing the Red Hat Virtualization log collector (`ovirt-log-collector`). For the discussion regarding this decision, see the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log].
@@ -45,7 +41,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:collect[collect]
 
-[discrete]
 [[gb]]
 ==== image:images/yes.png[yes] GB (noun)
 *Description*: _GB_ is an abbreviation for "gigabyte". Use a space between the value and the abbreviation, for example, "a 2 GB file".
@@ -56,7 +51,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gigabyte[gigabyte]
 
-[discrete]
 [[gbps]]
 ==== image:images/yes.png[yes] Gbps (noun)
 *Description*: _Gbps_ is an abbreviation for "gigabits per second", a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.
@@ -67,7 +61,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[gcc]]
 ==== image:images/yes.png[yes] GCC (noun)
 *Description*: _GCC_ is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the program, use "GCC".
@@ -78,7 +71,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gcc-command[gcc]
 
-[discrete]
 [[gcc-command]]
 ==== image:images/yes.png[yes] gcc (noun)
 *Description*: _GCC_ is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
@@ -89,7 +81,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gcc[GCC]
 
-[discrete]
 [[gcj]]
 ==== image:images/yes.png[yes] GCJ (noun)
 *Description*: _GCJ_ is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ".
@@ -100,7 +91,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gcj-command[gcj], xref:gcc[GCC]
 
-[discrete]
 [[gcj-command]]
 ==== image:images/yes.png[yes] gcj (noun)
 
@@ -112,7 +102,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gcj[GCJ], xref:gcc-command[gcc]
 
-[discrete]
 [[gdb]]
 ==== image:images/yes.png[yes] GDB (noun)
 *Description*: _GDB_ is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the program, use "GDB".
@@ -123,7 +112,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gdb-command[gdb], xref:insight[Insight]
 
-[discrete]
 [[gdb-command]]
 ==== image:images/yes.png[yes] gdb (noun)
 *Description*: _GDB_ is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
@@ -134,7 +122,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gdb[GDB], xref:insight[Insight]
 
-[discrete]
 [[gid]]
 ==== image:images/yes.png[yes] GID (noun)
 *Description*: _GID_ is an abbreviation for "Group ID". Do not use "gid".
@@ -145,7 +132,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[gigabyte]]
 ==== image:images/yes.png[yes] gigabyte (noun)
 *Description*: A _gigabyte_ is 2 to the 30th power (1,073,741,824) bytes. One gigabyte is equal to 1,024 megabytes. When abbreviating gigabyte, use "GB".
@@ -156,7 +142,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gb[GB]
 
-[discrete]
 [[gimp]]
 ==== image:images/yes.png[yes] GIMP (noun)
 *Description*: _GIMP_ is an acronym for "GNU Image Manipulation Program". Do not use "Gimp" or "gimp".
@@ -167,7 +152,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[git]]
 ==== image:images/yes.png[yes] Git (noun)
 *Description*: _Git_ is an open source version control system. Use "Git" when referring to the software in general, for example, "Clone the Git repository." Do not use lowercase "git" unless you are referring to the `git` command, which you should mark up in monospace.
@@ -178,7 +162,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[gnome]]
 ==== image:images/yes.png[yes] GNOME (noun)
 *Description*: _GNOME_ is an open source desktop environment for operating systems that are similar to the UNIX system.
@@ -189,7 +172,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gnome-classic[GNOME Classic]
 
-[discrete]
 [[gnome-classic]]
 ==== image:images/yes.png[yes] GNOME Classic (noun)
 *Description*: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as _classic mode_ in internal and developer-oriented community documents, we should stay consistent with what is displayed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic". Refer to "GNOME modern mode" (technically, GNOME Shell with the classic mode extensions disabled) as "GNOME" (on the login screen and elsewhere).
@@ -200,7 +182,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gnome[GNOME]
 
-[discrete]
 [[gnu]]
 ==== image:images/yes.png[yes] GNU (noun)
 *Description*: _GNU_ is a recursive acronym for "GNU's Not UNIX". GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu".
@@ -211,7 +192,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[gnupro]]
 ==== image:images/yes.png[yes] GNUPro (noun)
 *Description*: _GNUPro_ Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro".
@@ -222,7 +202,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[gpl]]
 ==== image:images/yes.png[yes] GPL (noun)
 *Description*: _GPL_ is an abbreviation for "General Public License". Do not use "Gpl" or "gpl".
@@ -233,7 +212,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[grayscale]]
 ==== image:images/yes.png[yes] grayscale (noun)
 *Description*: _Grayscale_ is a range of gray shades from white to black, as used in a monochrome display or printout. Do not use "gray-scale" or "gray scale". Only the noun form is currently recognized.
@@ -245,7 +223,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[greenboot]]
 ==== image:images/yes.png[yes] greenboot (noun)
 *Description*: Refer to the Generic Health Check Framework for `systemd` on `rpm-ostree` based systems as _greenboot_.
@@ -257,7 +234,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 *See also*:
 
 // RHSSO: Added "In Red Hat Single Sign-On,"
-[discrete]
 [[group]]
 ==== image:images/yes.png[yes] group (noun)
 *Description*: In Red Hat Single Sign-On, a _group_ manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings in the group's definition.
@@ -268,7 +244,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-[discrete]
 [[grub]]
 ==== image:images/yes.png[yes] GRUB (noun)
 *Description*: _GRUB_ is an acronym for "GRand Unified Bootloader", which is a Linux boot loader. Note that GRUB 2 has replaced what was formerly known as GRUB, which was version 0.9x. GRUB version 0.9x is now known as "GRUB Legacy".
@@ -280,7 +255,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[gssapi]]
 ==== image:images/yes.png[yes] GSSAPI (noun)
 *Description*: _GSSAPI_ (or _GSS-API_) is an abbreviation for "Generic Security Service Application Program Interface". Developers use GSSAPI to abstract how their applications protect data sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.
@@ -293,7 +267,6 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *See also*:
 
-[discrete]
 [[gtkplus]]
 ==== image:images/yes.png[yes] GTK+ (noun)
 *Description*: _GTK+_ is an abbreviation for "GIMP Tool Kit". Do not use "GTK", "Gtk", or "gtk".
@@ -304,7 +277,6 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *See also*:
 
-[discrete]
 [[guest-operating-system]]
 ==== image:images/yes.png[yes] guest operating system (noun)
 *Description*: A _guest operating system_ refers to the operating system installed in a virtual machine. Do not use "guest" on its own.
@@ -315,7 +287,6 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *See also*:
 
-[discrete]
 [[guestfish]]
 ==== image:images/yes.png[yes] Guestfish (noun)
 *Description*: _Guestfish_ is an interactive shell that supports commands for accessing and modifying virtual disk images used in platform virtualization. You can use Guestfish for viewing and editing virtual machines (VMs) managed by `libvirt`.
@@ -327,7 +298,6 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 *See also*: xref:libvirt[libvirt]
 
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
 [[guided-editor]]
 ==== image:images/yes.png[yes] guided editor (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
