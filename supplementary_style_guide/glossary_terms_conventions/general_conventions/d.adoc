@@ -1,77 +1,7 @@
-[discrete]
-[[daisy-chain-n]]
-==== image:images/yes.png[yes] daisy chain (noun)
-*Description*: When used as a noun, a _daisy chain_ is a hardware configuration in which devices are connected to each other in series.
-
-*Use it*: yes
-
-*Incorrect forms*: daisy-chain, daisychain
-
-*See also*: xref:daisy-chain-v[daisy chain (verb)]
-
-[discrete]
-[[daisy-chain-v]]
-==== image:images/yes.png[yes] daisy chain (verb)
-*Description*: When used as a verb _daisy chain_ means to connect devices in a daisy-chain pattern, that is, in series.
-
-*Use it*: yes
-
-*Incorrect forms*: daisy-chain, daisychain
-
-*See also*: xref:daisy-chain-n[daisy chain (noun)]
-
-[discrete]
-[[data-center]]
-==== image:images/yes.png[yes] data center (noun)
-*Description*: A _data center_ is a group of networked computer servers used for the remote storage, processing, or distribution of large amounts of data. Note that marketing publications use the one-word form, "datacenter".
-
-*Use it*: yes
-
-*Incorrect forms*: datacenter, data-center, data centre, datacentre
-
-*See also*:
-
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
-[[data-enumeration]]
-==== image:images/yes.png[yes] data enumeration (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
-
-*Use it*: yes
-
-*Incorrect forms*: enum
-
-*See also*:
-
-// Data Grid: General; kept as is
-[discrete]
-[[data-grid]]
-==== image:images/yes.png[yes] Data Grid (noun)
-*Description*: The short product name for _Red Hat Data Grid_. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
-
-*Use it*: yes
-
-*Incorrect forms*: JBoss Data Grid
-
-*See also*: xref:red-hat-data-grid[Red Hat Data Grid]
-
-// Data Grid: Added "In Red Hat Data Grid, the"
-[discrete]
-[[data-grid-console]]
-==== image:images/yes.png[yes] Data Grid Console (noun)
-*Description*: In Red Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
-
-*Use it*: yes
-
-*Incorrect forms*: JBoss Data Grid Administration Console, Data Grid console
-
-*See also*:
-
-// Data Grid: Added "In Red Hat Data Grid, the"
-[discrete]
-[[data-grid-server]]
-==== image:images/yes.png[yes] Data Grid Server (noun)
-*Description*: In Red Hat Data Grid, the _Data Grid Server_ is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a "Data Grid Server" instance.
+// OCS: Added "In Red Hat OpenShift Container Storage, a backing store..."
+[[backing-store]]
+==== image:images/yes.png[yes] backing store (noun)
+*Description*: In Red Hat OpenShift Container Storage, a _backing store_ is a type of storage resource for Multicloud Object Gateway to store data, for example, from RADOS gateway (RGW), Amazon Web Services S3, Azure Blob Storage, IBM Cloud Object Storage.
 
 *Use it*: yes
 
@@ -79,34 +9,9 @@
 
 *See also*:
 
-[discrete]
-[[data-mirroring]]
-==== image:images/yes.png[yes] data mirroring (noun)
-*Description*: _Data mirroring_ is the act of copying data from one location to a storage device in real time.
-
-*Use it*: yes
-
-*Incorrect forms*: datamirroring, data-mirroring
-
-*See also*:
-
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
-[[data-model]]
-==== image:images/yes.png[yes] data model (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
-
-*Use it*: yes
-
-*Incorrect forms*: pojo
-
-*See also*:
-
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
-[[data-modeler]]
-==== image:images/yes.png[yes] Data Modeler (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
+[[backtrace]]
+==== image:images/yes.png[yes] backtrace (noun)
+*Description*: _Backtrace_ is another name for _stack trace_ (or _stack backtrace_), which is a report of the active stack frames (function calls) at a certain point in time during the execution of a program. The Python programming language uses the term "traceback", possibly because the stack frames are printed in the opposite order of those presented by gdb, the GNU Debugger. "Traceback" is the preferred term when referring to a Python stack trace.
 
 *Use it*: yes
 
@@ -114,38 +19,10 @@
 
 *See also*:
 
-[discrete]
-[[data-path-n]]
-==== image:images/yes.png[yes] data path (noun)
-*Description*: A _data path_ is a collection of functional units (such as arithmetic logic units or multipliers that perform data processing operations), registers, and buses. Along with the control unit, a data path comprises the central processing unit (CPU).
-
-*Use it*: yes
-
-*Incorrect forms*: datapath
-
-*See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
-[discrete]
-[[data-warehouse]]
-==== image:images/yes.png[yes] Data Warehouse (noun)
-*Description*: In Red Hat Virtualization, the Manager includes a comprehensive management history database, which any application can use to extract a range of information at the data center, cluster, and host levels. Installing Data Warehouse creates the `ovirt_engine_history` database, to which the Manager is configured to log information for reporting purposes.
-
-_Data Warehouse_ is mandatory in Red Hat Virtualization.
-
-Always spell out in full and capitalize as shown here, unless part of a command. Use "Data Warehouse", not "the Data Warehouse", unless "Data Warehouse" functions as an adjective, for example, "the Data Warehouse package" or "the Data Warehouse service".
-
-*Use it*: yes
-
-*Incorrect forms*: DWH, data warehouse, Dataware House
-
-*See also*: xref:monitoring_portal[Monitoring Portal]
-
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
-[[datasource]]
-==== image:images/yes.png[yes] datasource subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _datasource subsystem_ is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the `datasource` subsystem in titles and headings.
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite"
+[[backward-chaining]]
+==== image:images/yes.png[yes] backward chaining (verb)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat JBoss BRMS is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
 
 *Use it*: yes
 
@@ -153,514 +30,453 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *See also*:
 
-[discrete]
-[[debug-adj]]
-==== image:images/yes.png[yes] debug (adjective)
-*Description*: Use _debug_ as an adjective to describe a type of command or script that is used to find and remove errors from a program or design, for example, a "debug script".
-
-*Use it*: yes
-
-*Incorrect forms*: de-bug
-
-*See also*: xref:debug-v[debug (verb)]
-
-[discrete]
-[[debug-v]]
-==== image:images/yes.png[yes] debug (verb)
-*Description*: When used as a verb, _debug_ means to find and remove errors from a program or design.
-
-*Use it*: yes
-
-*Incorrect forms*: de-bug
-
-*See also*: xref:debug-adj[debug (adjective)]
-
-// BxMS: General; kept as is
-[discrete]
-[[decision-table]]
-==== image:images/yes.png[yes] decision table (noun)
-*Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat JBoss BRMS user interface.
+[[bandwidth]]
+==== image:images/yes.png[yes] bandwidth (noun)
+*Description*: _Bandwidth_ refers to a range within a band of frequencies or wavelengths, or the amount of data that can be transmitted in a fixed amount of time.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*:
+*See also*: xref:latency[latency]
 
-// BxMS: General; kept as is
-[discrete]
-[[decision-tree]]
-==== image:images/yes.png[yes] decision tree (noun)
-*Description*: A _decision tree_ is a graphical representation of a decision model in a tree-like manner.
+[[bare-metal-n]]
+==== image:images/yes.png[yes] bare metal (noun)
+*Description*: _Bare metal_ refers to physical hardware as opposed to virtual hardware. Use the two-word form as a noun: "Install on bare metal".
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: baremetal, bare-metal
 
-*See also*:
+*See also*: xref:bare-metal-adj[bare-metal (adjective)]
 
-// AMQ: Added "In Red Hat AMQ, delivery is"
-[discrete]
-[[delivery]]
-==== image:images/yes.png[yes] delivery (noun)
-*Description*: In Red Hat AMQ, _delivery_ is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
+[[bare-metal-adj]]
+==== image:images/yes.png[yes] bare-metal (adjective)
+*Description*: _Bare metal_ refers to physical hardware as opposed to virtual hardware. Use the hyphenated form as an adjective: "Bare-metal servers".
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: baremetal, bare metal
 
-*See also*: xref:message-settlement[message settlement]
-
-[discrete]
-[[denial-of-service-n]]
-==== image:images/yes.png[yes] denial of service (noun)
-*Description*: _Denial of service_ is an interruption in a user's access to a computer network, usually caused deliberately and with malicious intent. Use "denial of service (DoS)" on first use and "DoS" thereafter.
-
-*Use it*: yes
-
-*Incorrect forms*: Denial of Service
-
-*See also*: xref:denial-of-service-adj[denial of service (adjective)]
-
-[discrete]
-[[denial-of-service-adj]]
-==== image:images/yes.png[yes] denial-of-service (adjective)
-*Description*: When used as an adjective, spell as "denial-of-service", for example, "denial-of-service attack".
-
-*Use it*: yes
-
-*Incorrect forms*: Denial-of-Service
-
-*See also*: xref:denial-of-service-n[denial of service (noun)]
-
-// OCP: Added "In Red Hat OpenShift, a deployment is"
-[discrete]
-[[deployment]]
-==== image:images/yes.png[yes] deployment (noun)
-*Description*: In Red Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
-
-The API object for a deployment can be either a Kubernetes-native `Deployment` object (which uses replication controllers) or an OpenShift-specific `DeploymentConfig` object (which uses replica sets).
-
-*Use it*: yes
-
-*Incorrect forms*: deployment configuration
-
-*See also*:
-
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
-[[deployment-scanner]]
-==== image:images/yes.png[yes] deployment-scanner subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-// Fuse: Removed "Design tab" entry (Breda)
-
-[discrete]
-[[desktop-adj]]
-==== image:images/yes.png[yes] desktop (adjective)
-*Description*: Use _desktop_ as an adjective when describing a type of computer, for example, "desktop computer".
-
-*Use it*: yes
-
-*Incorrect forms*: desk top, desk-top
-
-*See also*: xref:desktop-n[desktop (noun)]
-
-[discrete]
-[[desktop-n]]
-==== image:images/yes.png[yes] desktop (noun)
-*Description*: When used as a noun, _desktop_ can refer to a type of computer or the working area of a computer screen.
-
-*Use it*: yes
-
-*Incorrect forms*: desk top, desk-top
-
-*See also*: xref:desktop-adj[desktop (adjective)]
-
-// AMQ: General; kept as is
-[discrete]
-[[destination]]
-==== image:images/caution.png[with caution] destination (noun)
-*Description*: In JMS, this is a named location for messages, such as a queue or a topic. Clients use _destinations_ to specify the queue or topic from which to send or receive messages. Only use this term in the context of JMS. In all other instances, use _address_.
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:message-address[message address]
-
-// RHV: Added "In Red Hat Virtualization,"
-[discrete]
-[[details-view]]
-==== image:images/yes.png[yes] details view (noun)
-*Description*: In Red Hat Virtualization, the _details view_ displays detailed information about a selected item.
-
-*Use it*: yes
-
-*Incorrect forms*: details pane
-
-*See also*:
-
-[discrete]
-[[developer-preview]]
-==== image:images/yes.png[yes] Developer Preview (noun)
-*Description*: _Developer Preview_ software provides early access to upcoming product software in advance of its possible inclusion in a Red Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. The software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Developer Preview software is not supported by Red Hat in any way and is not functionally complete or production-ready.
-
-*Use it*: yes
-
-*Incorrect forms*: Development Preview, Developer preview, dev preview
-
-*See also*:
-
-[discrete]
-[[devfile]]
-==== image:images/yes.png[yes] devfile (noun)
-*Description*: A _devfile_ is a YAML file that you can include in your local development environment to automate various build processes and apply environment guidelines. Specifically, devfiles can provide guidance for runtime images, example code, build and CI commands, and deployment options such as workspace servers and containerization.
-
-*Use it*: yes
-
-*Incorrect forms*: dev file, .dev file, dev-file
-
-*See also*:
-
-[discrete]
-[[device]]
-==== image:images/yes.png[yes] device (noun)
-*Description*: A _device_ is any machine or component that attaches to a computer.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
-[[devops-n]]
-==== image:images/yes.png[yes] DevOps (noun)
-*Description*: _DevOps_ is an abbreviation for "Development" and "Operations". It refers to a specific method or organizational approach where developers and IT operations staff work together to create the applications that run the business.
-
-*Use it*: yes
-
-*Incorrect forms*: devops, Devops, Dev-Ops, Dev Ops
-
-*See also*:
-
-[discrete]
-[[dhcp]]
-==== image:images/yes.png[yes] DHCP (noun)
-*Description*: The Dynamic Host Configuration Protocol (_DHCP_) provides an IP address and other configuration information, such as IP addresses of DNS servers and time servers, to clients. DHCP clients use broadcasts to contact a DHCP server. Therefore, a DHCP server or a relay agent must be in the same broadcast domain as the client.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
-[[different]]
-==== image:images/yes.png[yes] different from (preposition)
-*Description*: Use "different from" when comparing two things. Use "different from" when the next part of the sentence is a noun or pronoun.
-
-*Use it*: yes
-
-*Incorrect forms*: different than, different to
-
-*See also*:
-
-// RHSSO: General; kept as is
-[discrete]
-[[direct-grant]]
-==== image:images/yes.png[yes] direct grant
-*Description*: A _direct grant_ is a way for a client to obtain an access token on behalf of a user through a REST invocation.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-// AMQ: General; kept as is
-[discrete]
-[[direct-routed-messaging]]
-==== image:images/yes.png[yes] direct routed messaging (noun)
-*Description*: A messaging configuration that uses routers only to deliver messages to destinations. This can also be called _routed messaging_.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-// OpenStack: Changed "The Red Hat OpenStack Platform (RHOSP) director" to "In Red Hat OpenStack Platform (RHOSP), director"
-[discrete]
-[[director]]
-==== image:images/yes.png[yes] director (noun)
-*Description*: In Red Hat OpenStack Platform (RHOSP), _director_ is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
-
-*Use it*: yes
-
-*Incorrect forms*: The director, Director
-
-*See also*:
-
-// RHDS: Added "In Red Hat Directory Server," and removed from later in the sentence
-[discrete]
-[[directory-manager]]
-==== image:images/yes.png[yes] Directory Manager (noun)
-*Description*: In Red Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
-
-*Use it*: yes
-
-*Incorrect forms*: DM, directory manager
-
-*See also*:
-
-// RHEL: Added "In Red Hat Enterprise Linux,"; Lowercased entry to "directory server" and updated in description
-// TODO: See if it was right to lowercase this
-[discrete]
-[[directory-server]]
-==== image:images/yes.png[yes] directory server (noun)
-*Description*: In Red Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
-Red Hat Directory Server conforms to LDAP standards.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:ldap[LDAP]
-
-// RHDS: General; kept as is; updated anchor
-[discrete]
-[[directory-server-product]]
-==== image:images/yes.png[yes] Directory Server (noun)
-*Description*: The short product name of _Red Hat Directory Server_. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
-
-*Use it*: yes
-
-*Incorrect forms*: directory server
-
-*See also*: xref:red-hat-directory-server[Red Hat Directory Server]
-
-[discrete]
-[[disconnected]]
-==== image:images/yes.png[yes] disconnected (adjective)
-*Description*: In Red Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
-
-"Disconnected" is the preferred term over "restricted", "air-gapped", or "offline".
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
-[[disk-druid]]
-==== image:images/yes.png[yes] Disk Druid (noun)
-*Description*: A _Disk Druid_ is a partitioning tool incorporated into Red Hat Enterprise Linux.
-
-*Use it*: yes
-
-*Incorrect forms*: Disk druid, disk druid, diskdruid
-
-*See also*:
-
-[discrete]
-[[disk-label]]
-==== image:images/yes.png[yes] disk label (noun)
-*Description*: A _disk label_ is a record that contains information about the location of the partitions on a disk.
-
-*Use it*: yes
-
-*Incorrect forms*: disklabel, disk-label
-
-*See also*:
-
-// AMQ: General; kept as is
-[discrete]
-[[dispatch-router]]
-==== image:images/caution.png[with caution] Dispatch Router (noun)
-*Description*: The upstream component for AMQ Interconnect (link:https://qpid.apache.org/components/dispatch-router/[Apache Qpid Dispatch Router]). When referring to "AMQ Interconnect", always use the "Red Hat" product name.
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:amq-interconnect[AMQ Interconnect]
+*See also*: xref:bare-metal-n[bare metal (noun)]
 
 // RHDS: General; kept as is
-[discrete]
-[[distinguished-name]]
-==== image:images/yes.png[yes] distinguished name (noun)
-*Description*: A _distinguished name (DN)_ is a sequence of relative distinguished names (RDN) connected by commas. A DN defines the unique location of an entry in the LDAP directory. Use "distinguished name" on the first usage and then the abbreviation "DN" subsequently.
+[[base-dn]]
+==== image:images/yes.png[yes] base DN (noun)
+*Description*: In an LDAP directory, the _base distinguished name (DN)_ defines the starting point for operations, such as searches.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*:
+*See also*: xref:distinguished-name[distinguished name]
 
-[discrete]
-[[dnf-automatic]]
-==== image:images/yes.png[yes] DNF Automatic (noun)
-*Description*: _DNF Automatic_ is an alternative to the DNF package manager for making automatic and regular updates to RPM-based Linux operating systems.
-
-*Use it*: yes
-
-*Incorrect forms*: DNF automatic, dnf automatic
-
-*See also*:
-
-[discrete]
-[[dns]]
-==== image:images/yes.png[yes] DNS (noun)
-*Description*: _DNS_ is an abbreviation for "Domain Name System" or "Domain Name Service", a service that translates domain names into IP addresses and vice versa.
+[[baseos-repository]]
+==== image:images/yes.png[yes] BaseOS repository (noun)
+*Description*: In Red Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying operating system functionality that provides the foundation for all installations.
 
 *Use it*: yes
 
-*Incorrect forms*: dns
+*Incorrect forms*: Baseos, baseos, baseOS
 
 *See also*:
 
-// RHEL: General; kept as is
-[discrete]
-[[dns-ptr-records]]
-==== image:images/yes.png[yes] DNS PTR records (noun)
-*Description*: _DNS pointer records (PTR)_ resolve an IP address of a host to a domain or host name. PTR records are the opposite of DNS A and AAAA records, which resolve host names to IP addresses. DNS PTR records enable reverse DNS lookups. PTR records are stored on the DNS server.
+[[basic-http-authentication]]
+==== image:images/yes.png[yes] Basic HTTP authentication (noun)
+*Description*: _Basic HTTP authentication_, or _Basic authentication_, is an authorization scheme that uses HTTP to send login credentials encoded in Base64.
+This scheme is often used by applications to authenticate with servers, services, and API endpoints.
+On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentication".
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: basic authentication, Basic Authentication, basic auth, Basic auth, Basic Auth
 
 *See also*:
 
-// RHEL: General; kept as is
-[discrete]
-[[dns-srv-records]]
-==== image:images/yes.png[yes] DNS SRV records (noun)
-*Description*: A _DNS service (SRV)_ record defines the hostname, port number, transport protocol, priority and weight of a service available in a domain. You can use SRV records to locate IdM servers and replicas.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-// OCP: General; kept as is
-[discrete]
-[[dockerfile]]
-==== image:images/yes.png[yes] Dockerfile (noun)
-*Description*: Docker can build images automatically by reading the instructions from a Dockerfile. A _Dockerfile_ is a text document that contains all the commands you would normally execute manually in order to build a Docker image.
-
-*Use it*: yes
-
-*Incorrect forms*: dockerfile
-
-*See also*:
-
-// RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
-[[domain-controller]]
-==== image:images/yes.png[yes] domain controller (noun)
-*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*:
-
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
-[[domain-mode]]
-==== image:images/no.png[no] domain mode (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the xref:managed-domain[managed domain] entry.
+[[basically]]
+==== image:images/no.png[no] basically (adverb)
+*Description*: _Basically_ is another term for _in principle_ or _fundamentally_.
 
 *Use it*: no
 
 *Incorrect forms*:
 
-*See also*: xref:managed-domain[managed domain]
+*See also*:
 
-[discrete]
-[[domain-name]]
-==== image:images/yes.png[yes] domain name (noun)
-*Description*: A _domain name_ is a name that identifies one or more IP addresses, for example, "redhat.com".
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[[batch-jberet]]
+==== image:images/yes.png[yes] batch-jberet subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _batch-jberet subsystem_ is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the `batch-jberet` subsystem in titles and headings.
 
 *Use it*: yes
 
-*Incorrect forms*: domainname, domain-name
+*Incorrect forms*:
 
 *See also*:
 
-
-[discrete]
-[[download-n]]
-==== image:images/yes.png[yes] download (noun)
-*Description*: Use "download" as a noun when referring to software, data, and so on that is being retrieved from another computer.
-
-*Use it*: yes
-
-*Incorrect forms*: down-load, down load
-
-*See also*: xref:download-v[download (verb)]
-
-[discrete]
-[[download-v]]
-==== image:images/yes.png[yes] download (verb)
-*Description*: Use "download" as a verb when referring to the act or process of downloading data.
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+[[bean-validation]]
+==== image:images/yes.png[yes] bean-validation subsystem (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _bean-validation subsystem_ is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the `bean-validation` subsystem in titles and headings.
 
 *Use it*: yes
 
-*Incorrect forms*: down-load, down load
+*Incorrect forms*:
 
-*See also*: xref:download-n[download (noun)]
+*See also*:
 
-[discrete]
-[[downstream-adj]]
-==== image:images/yes.png[yes] downstream (adjective)
-*Description*: _Downstream_ as an adjective refers to the Red Hat offerings that are based on upstream community projects.
+[[because]]
+==== image:images/caution.png[with caution] because (conjunction)
+*Description*: Do not use "since" to mean "because". Use "because" to refer to a reason. Use "since" to indicate the passage of time.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[[bimodal-it]]
+==== image:images/caution.png[with caution] bimodal IT (noun)
+*Description*: _Bimodal IT_ is the link:https://www.gartner.com/en/glossary/all-terms[Gartner] phrase for the combination of traditional (mode 1 or type 1) and modern (mode 2 or type 2) IT infrastructure and resources. There are many ways to talk about this combination approach. Using only the Gartner term can alienate other analysts or those not familiar with Gartner's phrasing.
+
+The practice of having both modes together is often referred to as _hybrid_, _agile_, or _modern_ IT. "Hybrid IT" is a more general term; for example, it could mean _on-premise plus public cloud_. "Agile" and "modern IT" can both carry an implication of _mode 2_. When using those terms, be specific about the exact technology combination you mean.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
+[[bimonthly]]
+==== image:images/no.png[no] bimonthly (adverb)
+*Description*: Do not use. _Bimonthly_ can mean either twice a month or every two months. Instead, write "twice a month" or "every two months" to remove ambiguity.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+[[binary-rpm]]
+==== image:images/yes.png[yes] binary RPM (noun)
+*Description*: A _binary RPM_ is an RPM package that contains the binaries built from sources and patches.
 
 *Use it*: yes
 
-*Incorrect forms*: down-stream, down stream
+*Incorrect forms*:
 
-*See also*: xref:downstream-n[downstream (noun)], xref:upstream-adj[upstream (adjective)], xref:upstream-n[upstream (noun)]
+*See also*: xref:rpm[RPM]
 
-[discrete]
-[[downstream-n]]
-==== image:images/yes.png[yes] downstream (noun)
-*Description*: _Downstream_ as a noun refers to the Red Hat offerings that are based on upstream community projects.
-
-*Use it*: yes
-
-*Incorrect forms*: down-stream, down stream
-
-*See also*: xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)], xref:upstream-n[upstream (noun)]
-
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
-[[drl]]
-==== image:images/yes.png[yes] DRL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
+[[bind]]
+==== image:images/yes.png[yes] BIND (noun)
+*Description*: Use "BIND" when referring to the DNS software.
 
 *Use it*: yes
 
-*Incorrect forms*: drl
+*Incorrect forms*: Bind, bind
+
+*See also*:
+
+// RHDS: General; kept as is
+[[bind-dn]]
+==== image:images/yes.png[yes] bind DN (noun)
+*Description*: A _distinguished name (DN)_ defines the unique location of an entry in the LDAP directory. You can use the DN of an entry to bind (authenticate) to an LDAP directory. The bind DN is similar to a user name in other systems.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:distinguished-name[distinguished name]
+
+[[bios]]
+==== image:images/caution.png[with caution] BIOS (noun)
+*Description*: _BIOS_ is an abbreviation for "Basic Input/Output System". The plural form is "BIOSes". BIOS is the specific name for the motherboard firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI.
+
+Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware" or a specific phrase such as "UEFI firmware" or "legacy BIOS" instead.
+
+*Use it*: with caution
+
+*Incorrect forms*: Bios
+
+*See also*: xref:firmware[firmware]
+
+[[biweekly]]
+==== image:images/no.png[no] biweekly (adverb)
+*Description*: Do not use. _Biweekly_ can mean either twice a week or every two weeks. Instead, write "twice a week" or "every two weeks" to remove ambiguity.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*:
+
+// RHEL: Added "In Red Hat Enterprise Linux,"
+[[blueprint]]
+==== image:images/yes.png[yes] blueprint (noun)
+*Description*: In Red Hat Enterprise Linux, _blueprints_ are simple text files in Tom's Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
+
+*Use it*: yes
+
+*Incorrect forms*: blue print, BluePrint
+
+*See also*:
+
+// Ceph: Added "In Red Hat Ceph Storage,"
+[[bluestore]]
+==== image:images/yes.png[yes] BlueStore (noun)
+*Description*: In Red Hat Ceph Storage, _BlueStore_ is an OSD back end that uses block devices directly.
+
+*Use it*: yes
+
+*Incorrect forms*: bluestore, Blue Store
+
+*See also*: xref:filestore[FileStore], xref:object-store[Object Store]
+
+[[boolean-dependencies]]
+==== image:images/yes.png[yes] Boolean dependencies (noun)
+*Description*: In Red Hat Enterprise Linux, _Boolean dependencies_ are Boolean expressions such as `if`, `and`, `or`, and other expressions that are used in the `Requires`, `Conflicts`, and `Weak` dependency directives. Boolean dependencies are also known as _Rich dependencies_.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:weak-dependencies[Weak dependencies]
+
+[[boot-disk]]
+==== image:images/yes.png[yes] boot disk (noun)
+*Description*: A _boot disk_ is a disk used to start a computer.
+
+*Use it*: yes
+
+*Incorrect forms*: boot diskette
+
+*See also*:
+
+[[boot-loader]]
+==== image:images/yes.png[yes] boot loader (noun)
+*Description*: _Boot loader_ is software used to load an operating system when a computer is started.
+
+*Use it*: yes
+
+*Incorrect forms*: bootloader
+
+*See also*:
+
+[[bottleneck]]
+==== image:images/yes.png[yes] bottleneck (noun)
+*Description*: A _bottleneck_ is a limitation in the capacity of software or hardware caused by a single component.
+
+*Use it*: yes
+
+*Incorrect forms*: bottle neck, bottle-neck
+
+*See also*:
+
+[[bpp]]
+==== image:images/yes.png[yes] bpp (noun)
+*Description*: The abbreviation for "bits per pixel" (_bpp_) is presented in lowercase letters, unless it is at the beginning of a sentence. Use a non-breaking space between the numeral and the units, for example, "16 bpp", not "16bpp".
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[Bps]]
+==== image:images/yes.png[yes] Bps (noun)
+*Description*: _Bps_ is an abbreviation for "bytes per second".
+
+*Use it*: yes
+
+*Incorrect forms*: bps
+
+*See also*: xref:bps[bps]
+
+[[bps]]
+==== image:images/yes.png[yes] bps (noun)
+*Description*: The abbreviation for "bits per second" is _bps_.
+
+*Use it*: yes
+
+*Incorrect forms*: Bps
+
+*See also*: xref:Bps[Bps]
+
+[[broadcast-n]]
+==== image:images/yes.png[yes] broadcast (noun)
+*Description*: When used as a noun, a _broadcast_ is a message sent simultaneously to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
+
+*Use it*: yes
+
+*Incorrect forms*: broad cast, broad-cast
+
+*See also*: xref:broadcast-v[broadcast (verb)]
+
+[[broadcast-v]]
+==== image:images/yes.png[yes] broadcast (verb)
+*Description*: When used as a verb, _broadcast_ means to simultaneously send the same message to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
+
+*Use it*: yes
+
+*Incorrect forms*: broad cast, broad-cast
+
+*See also*: xref:broadcast-n[broadcast (noun)]
+
+// AMQ: General; kept as is
+[[broker-cluster]]
+==== image:images/yes.png[yes] broker cluster (noun)
+*Description*: A group of brokers to be grouped together in order to share message processing load. In JBoss A-MQ 6, this was called a _network of brokers_.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// AMQ: Added "In Red Hat AMQ, broker distribution is"
+[[broker-distribution]]
+==== image:images/yes.png[yes] broker distribution (noun)
+*Description*: In Red Hat AMQ, _broker distribution_ is the platform-independent AMQ Broker archive containing the product binaries and libraries.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:amq-broker[AMQ Broker], xref:broker-instance[broker instance]
+
+// AMQ: Added "In Red Hat AMQ, a broker instance is"
+[[broker-instance]]
+==== image:images/yes.png[yes] broker instance (noun)
+*Description*: In Red Hat AMQ, a _broker instance_ is a configurable instance of AMQ Broker. Each broker instance is a separate directory containing its own runtime and configuration data. Use this term to refer to the instance, not the product.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:amq-broker[AMQ Broker], xref:broker-distribution[broker distribution]
+
+// AMQ: General; kept as is
+[[brokered-messaging]]
+==== image:images/yes.png[yes] brokered messaging (noun)
+*Description*: Any messaging configuration that uses a message broker to deliver messages to destinations. _Brokered messaging_ can include brokers only, or a combination of brokers and routers.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[btrfs]]
+==== image:images/yes.png[yes] Btrfs (noun)
+*Description*: _Btrfs_ is a copy-on-write file system for Linux. Use a capital "B" when referring to the file system. When referring to tools, commands, and other utilities related to the file system, be faithful to those utilities. For more information about this file system, see the http://en.wikipedia.org/wiki/Btrfs[Btrfs] wiki page. For a list of file system names and how to present them, see the http://en.wikipedia.org/wiki/List_of_file_systems[List of file systems] wiki page.
+
+*Use it*: yes
+
+*Incorrect forms*: btrfs
+
+*See also*:
+
+// Ceph: General; kept as is
+[[bucket]]
+==== image:images/yes.png[yes] bucket (noun)
+*Description*: 1) A _bucket_ in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a _container_ in the Swift API. 2) The term "bucket" is also sometimes used in the context of a _CRUSH hierarchy_, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:container[container]
+
+// Ceph: General; kept as is
+[[bucket-index]]
+==== image:images/yes.png[yes] bucket index (noun)
+*Description*: A _bucket index_ in the S3 API contains an index of objects within the bucket. The bucket index enables listing the bucket's contents.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// Ceph: General; kept as is
+[[bucket-sharding]]
+==== image:images/yes.png[yes] bucket sharding (noun)
+*Description*: _Bucket sharding_ is a process of breaking down a bucket index into smaller more manageable shards. Bucket sharding improves performance.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:shard-n[shard]
+
+[[bug-fix]]
+==== image:images/yes.png[yes] bug fix (noun)
+*Description*: A _bug fix_ is the resolution to a bug.
+
+*Use it*: yes
+
+*Incorrect forms*: bugfix
+
+*See also*:
+
+// OCP: General; kept as is
+[[build]]
+==== image:images/yes.png[yes] build (noun)
+*Description*: The process of transforming input parameters into a resulting object. Most often, the process is used to transform input parameters or source code into a runnable image.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+// OCP: Added "In Red Hat OpenShift,"
+[[build-configuration]]
+==== image:images/yes.png[yes] build config (noun)
+*Description*: In Red Hat OpenShift, a _build config_ describes a single build definition and a set of triggers for when a new build should be created. The API object for a build config is `BuildConfig`.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:build[build]
+
+[[built-in]]
+==== image:images/yes.png[yes] built-in (adjective)
+*Description*: Use "built-in" when referring to something that is included or incorporated into a larger unit.
+
+*Use it*: yes
+
+*Incorrect forms*: builtin, built in
+
+*See also*:
+
+// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed "in JBoss EAP" later
+[[built-in-messaging]]
+==== image:images/yes.png[yes] built-in messaging (noun)
+*Description*: In Red Hat JBoss Enterprise Application Platform, _built-in messaging_ is an acceptable term for referring to the built-in messaging system. Capitalize "built-in" only at the beginning of a sentence. Other acceptable terms are "JBoss EAP messaging" and "JBoss EAP built-in messaging".
+
+*Use it*: yes
+
+*Incorrect forms*: ActiveMQ, ActiveMQ Artemis
+
+*See also*: xref:jboss-eap-built-in-messaging[JBoss EAP built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
+
+// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite," and removed from later in the sentence
+[[business-central]]
+==== image:images/yes.png[yes] Business Central (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Business Central_ is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
+
+*Use it*: yes
+
+*Incorrect forms*: Central, BC
 
 *See also*:
 
 // BxMS: General; kept as is
-[discrete]
-[[drools-expert]]
-==== image:images/yes.png[yes] Drools Expert (noun)
-*Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
+[[business-process]]
+==== image:images/yes.png[yes] business process (noun)
+*Description*: A _business process_ is a collection of related, structured tasks that results in achieving a specific target. It is presented as as a flowchart comprising a sequence steps necessary to achieve business goals.
 
 *Use it*: yes
 
@@ -669,35 +485,43 @@ Red Hat Directory Server conforms to LDAP standards.
 *See also*:
 
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
-[[dsl]]
-==== image:images/yes.png[yes] DSL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
+[[business-resource-planner]]
+==== image:images/yes.png[yes] Business Resource Planner (noun)
+*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Business Resource Planner_ is a lightweight, embeddable, planning engine that optimizes planning problems. It helps Java TM programmers solve planning problems efficiently, and it combines optimization heuristics and metaheuristics with very efficient score calculations.
 
 *Use it*: yes
 
-*Incorrect forms*: dsl
+*Incorrect forms*: Resource Planner, Planner
 
 *See also*:
 
-[discrete]
-[[dual-boot]]
-==== image:images/yes.png[yes] dual-boot (adjective)
-*Description*: A _dual-boot_ system is a system in which two operating systems are installed on the same hard drive.
+// BxMS: General; kept as is
+[[business-rule]]
+==== image:images/yes.png[yes] business rule (noun)
+*Description*: A _business rule_ defines a particular aspect of a business that is intended to assert business structure or influence the behaviour of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
 
 *Use it*: yes
 
-*Incorrect forms*: dualboot, dual boot
+*Incorrect forms*:
 
 *See also*:
 
-[discrete]
-[[DVD-writer]]
-==== image:images/yes.png[yes] DVD writer (noun)
-*Description*: A _DVD writer_ is a device that records data into the DVD format.
+[[bytecode]]
+==== image:images/yes.png[yes] bytecode (noun)
+*Description*: A _bytecode_ is a non-human-readable instruction set that is generated by a compiler. Bytecode is typically either run by a virtual machine (VM) or recompiled into machine code. For example, Java bytecode is run on the Java Virtual Machine (JVM).
 
 *Use it*: yes
 
-*Incorrect forms*: DVD burner, burner
+*Incorrect forms*: byte code
 
 *See also*:
+
+[[byte-compiled-program]]
+==== image:images/yes.png[yes] byte-compiled program (noun)
+*Description*: _Byte-compiled programs_ are programs that must be compiled into bytecode before they can run in a language virtual machine.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:interpreted-code[interpreted code]

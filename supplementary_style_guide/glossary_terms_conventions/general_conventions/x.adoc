@@ -1,4 +1,3 @@
-[discrete]
 [[x]]
 ==== image:images/caution.png[with caution] X (noun)
 *Description*: _X_ is an alternative reference to the X Window System. Do not use "X" by itself when referring to "XEmacs".
@@ -9,7 +8,6 @@
 
 *See also*: xref:xemacs[XEmacs]
 
-[discrete]
 [[x86_64]]
 ==== image:images/yes.png[yes] x86_64 (noun)
 *Description*: A 64-bit version of the x86 architecture. Use this term when referring to operating systems and server instances, for example RHEL, Fedora, CoreOS and other Linux distributions. Use this format without backticks in general cases when referring to system architecture. Use this format in backticks when referring to architecture as a value or parameter.
@@ -28,7 +26,6 @@ Example 1:
 
 *See also*: xref:bit-64-x86[64-bit x86]
 
-[discrete]
 [[xemacs]]
 ==== image:images/yes.png[yes] XEmacs (noun)
 *Description*: Use "xemacs" only when referring to a command, such as, "To start XEmacs, type xemacs."
@@ -39,7 +36,6 @@ Example 1:
 
 *See also*:
 
-[discrete]
 [[xen]]
 ==== image:images/caution.png[with caution] Xen (adjective)
 *Description*: _Xen Project_ is a hypervisor using a microkernel design, providing services that allow multiple computer operating systems to execute on the same computer hardware concurrently. It was developed by the Linux Foundation and is supported by Intel. Use "Xen Project" when it accurately refers to the original Xen version of the package. If the Xen package we distribute is for all practical purposes the same as the upstream code, we can refer to the package we distribute as "Xen" in a referential way. A referential use is one that describes another entity's goods or services, not our own, such as referring to Microsoft Windows as a technology we compete and integrate with. When referring to another entity's trademark, always use good trademark practices. Only use the trademark as an adjective followed by the noun; do not use a logo form of the trademark; do not make it more prominent than our own marks; and do not incorporate the trademark into our own product names. The proper use is "Xen hypervisor". The Xen Trademark Policy is available at http://www.xenproject.org/trademark-policy.html.
@@ -51,7 +47,6 @@ Example 1:
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[xp]]
 ==== image:images/yes.png[yes] XP (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
@@ -62,7 +57,6 @@ Example 1:
 
 *See also*: xref:expansion-pack[Expansion Pack]
 
-[discrete]
 [[xterm]]
 ==== image:images/yes.png[yes] xterm (noun)
 *Description*: _Xterm_ is the standard terminal emulator for the X Window System. Do not use "Xterm" capitalized unless the word is used at the beginning of a sentence.
@@ -74,7 +68,6 @@ Example 1:
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[xts]]
 ==== image:images/yes.png[yes] xts subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _xts subsystem_ is used to configure settings for coordinating Web services in a transaction. In general text, write in lowercase as one word. Use "XTS subsystem" when referring to the `xts` subsystem in titles and headings.

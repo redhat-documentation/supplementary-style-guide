@@ -11,7 +11,8 @@ When the format _day Month year_ causes a presentation or clarity issue, use _Mo
 [[non-breaking-spaces]]
 == Non-breaking spaces
 
-Use a _non-breaking space_ (`+{nbsp}+`) between the words "Red" and "Hat". The non-breaking space prevents an automatic line break from separating the two words onto two lines. 
+Use a _non-breaking space_ (`+{nbsp}+`) between the words "Red" and "Hat". The non-breaking space prevents an automatic line break from separating the two words onto two lines.
+A _non-breaking space_ prevents the company name from splitting across a line break.
 
 .Example AsciiDoc: Non-breaking space
 ----
@@ -96,7 +97,7 @@ For example:
 [[titles-and-headings]]
 == Titles and headings
 
-Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization. 
+Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization.
 
 .Examples
 * _Composing a customized RHEL system image_

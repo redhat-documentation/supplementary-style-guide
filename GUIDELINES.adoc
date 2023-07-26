@@ -10,7 +10,6 @@ Use the following template for glossary entries:
 
 .AsciiDoc source for a new glossary entry
 ----
-[discrete]
 [[<id>]]
 ==== <icon> <term> (<class>)
 *Description*: <description>

@@ -1,5 +1,4 @@
 // Satellite: General; kept as is
-[discrete]
 [[facter]]
 ==== image:images/yes.png[yes] Facter (noun)
 *Description*: _Facter_ is the Puppet system inventory tool.
@@ -10,7 +9,6 @@
 
 *See also*:
 
-[discrete]
 [[fail]]
 ==== image:images/yes.png[yes] fail (verb)
 *Description*: When a program _fails_, it means that it stops working.
@@ -21,7 +19,6 @@
 
 *See also*: xref:crash[crash]
 
-[discrete]
 [[faq]]
 ==== image:images/yes.png[yes] FAQ (noun)
 *Description*: When referring to a _Frequently Asked Questions (FAQ)_ section of content, refer to it as "an FAQ" (to be read as "an F-A-Q"), not "a FAQ". The plural form is "FAQs".
@@ -32,7 +29,6 @@
 
 *See also*:
 
-[discrete]
 [[fault-tolerance-n]]
 ==== image:images/yes.png[yes] fault tolerance (noun)
 *Description*: _Fault tolerance_ is the ability of a system to respond gracefully to an unexpected hardware or software failure. There are many levels of fault tolerance, the lowest being the ability to continue operation in the event of a power failure.
@@ -45,7 +41,6 @@ Use the two-word "fault tolerance" when using it as a noun.
 
 *See also*: xref:fault-tolerant-adj[fault-tolerant]
 
-[discrete]
 [[fault-tolerant-adj]]
 ==== image:images/yes.png[yes] fault-tolerant (adjective)
 *Description*: _Fault-tolerant_ systems can respond gracefully to an unexpected hardware or software failure. Many fault-tolerant computer systems mirror all operations, that is, every operation is performed on two or more duplicate systems, so if one fails the other can take over.
@@ -59,7 +54,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 *See also*: xref:fault-tolerance-n[fault tolerance]
 
 // Ceph: Already had "In Red Hat Ceph Storage", kept version since am unsure if it's specific to that
-[discrete]
 [[federated]]
 ==== image:images/yes.png[yes] federated (adjective)
 *Description*: In Red Hat Ceph Storage 1.3, you can configure the Ceph Object Gateway to participate in a _federated_ architecture with multiple regions and with multiple zones for a region.
@@ -71,7 +65,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 *See also*: xref:multisite[multisite]
 
 
-[discrete]
 [[fedora-project]]
 ==== image:images/yes.png[yes] Fedora™ Project (noun)
 *Description*: The _Fedora Project_ is a global partnership of free software community members, sponsored by Red Hat. Red Hat Enterprise Linux is based on the Fedora operating system.
@@ -83,7 +76,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 *See also*:
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[filestore]]
 ==== image:images/yes.png[yes] FileStore (noun)
 *Description*: In Red Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
@@ -94,7 +86,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*: xref:bluestore[BlueStore]
 
-[discrete]
 [[file-trigger-directive]]
 ==== image:images/yes.png[yes] file trigger directive (noun)
 *Description*: In Red Hat Enterprise Linux, a _file trigger directive_ is a special form of a transaction scriptlet that runs conditionally when matching files from other packages are installed or uninstalled.
@@ -105,7 +96,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*:
 
-[discrete]
 [[firewalld]]
 ==== image:images/yes.png[yes] firewalld (noun)
 *Description*: The _firewalld_ service provides a dynamically managed firewall with support for zones that define the trust level of network connections or interfaces. Write as shown (all lowercase).
@@ -116,7 +106,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*:
 
-[discrete]
 [[firewire]]
 ==== image:images/yes.png[yes] FireWire (noun)
 *Description*: _FireWire_ is the Apple name for the IEEE 1394 High Speed Serial Bus, a serial bus architecture for high-speed data transfer.
@@ -129,7 +118,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-[discrete]
 [[firmware]]
 ==== image:images/yes.png[yes] firmware (noun)
 *Description*: _Firmware_ is software (programs or data) that has been written onto read-only memory (ROM). Firmware is a combination of software and hardware. ROMs, PROMs (programmable ROMs), and EPROMs (erasable PROMs) that have data or programs recorded on them are firmware.
@@ -140,7 +128,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*: xref:bios[BIOS]
 
-[discrete]
 [[floating-point]]
 ==== image:images/yes.png[yes] floating point (noun)
 *Description*: _Floating point_ derives from the fact that there is no fixed number of digits before and after the decimal point, that is, the decimal point can float.
@@ -151,7 +138,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-[discrete]
 [[foreground]]
 ==== image:images/yes.png[yes] foreground (noun)
 *Description*: In multiprocessing systems, _foreground_ sometimes refers to the process that is currently accepting input from the keyboard or other input device. On display screens, the foreground consists of the characters and pictures that are displayed on the screen. The background is the uniform canvas behind the characters and pictures.
@@ -163,7 +149,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 *See also*:
 
 // Satellite: General; kept as is
-[discrete]
 [[foreman]]
 ==== image:images/caution.png[with caution] Foreman (noun)
 *Description*: The upstream project from which the provisioning and life cycle management functions of Satellite Server are drawn. Use only when required to mention the upstream project.
@@ -174,7 +159,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-[discrete]
 [[fortran]]
 ==== image:images/yes.png[yes] Fortran (noun)
 *Description*: _Fortran_ is a general-purpose, imperative programming language that is especially suited to numeric computation and scientific computing. For earlier versions up to FORTRAN 77, use "FORTRAN". For later versions beginning with Fortran 90, use "Fortran".
@@ -185,7 +169,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-[discrete]
 [[fqdn]]
 ==== image:images/yes.png[yes] FQDN (noun)
 *Description*: _FQDN_ is an abbreviation for "fully qualified domain name". A FQDN consists of a host and domain name, including top-level domain. For example, www.redhat.com is a fully qualified domain name. www is the host, redhat is the second-level domain, and .com is the top-level domain. A FQDN always starts with a hostname and continues all the way up to the top-level domain name, so www.parc.xerox.com is also a FQDN.
@@ -197,7 +180,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[fully-qualified-domain-name]]
 ==== image:images/yes.png[yes] fully qualified domain name (noun)
 *Description*: A _fully qualified domain name (FQDN)_ is a domain name that specifies the exact location of a host within the hierarchy of the Domain Name System (DNS). A device with the hostname `myhost` in the parent domain `example.com` has the FQDN `myhost.example.com`. The FQDN uniquely distinguishes the device from any other hosts called `myhost` in other domains.
@@ -212,7 +194,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 // Fuse: Changed "Fuse Ignite" to "Fuse Online" and changed description (Breda)
 // Fuse: Added "Fuse Ignite" to incorrect forms (Breda)
 // Fuse: Added xref to "Red Hat Fuse Online" (Breda)
-[discrete]
 [[fuse-online]]
 ==== image:images/yes.png[yes] Fuse Online (noun)
 *Description*: _Fuse Online_ is the short product name for "Red Hat Fuse Online".
@@ -226,7 +207,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 // Fuse: Removed entry for "Fuse tooling" (Breda)
 
 // Fuse: Added "In Red Hat Fuse, FUSE_HOME specifies the"
-[discrete]
 [[fuse-home]]
 ==== image:images/yes.png[yes] FUSE_HOME (noun)
 *Description*: In Red Hat Fuse, _FUSE_HOME_ specifies the Fuse installation directory. Use this when describing which directory to use.
@@ -237,7 +217,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-[discrete]
 [[futex]]
 ==== image:images/yes.png[yes] futex (noun)
 *Description*: A _futex_, which is an abbreviation for "fast userspace mutex", is a Linux kernel system call that programmers can use to implement basic locking or as a building block for higher-level locking abstractions.
@@ -248,7 +227,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*: xref:futexes[futexes], xref:mutex[mutex]
 
-[discrete]
 [[futexes]]
 ==== image:images/yes.png[yes] futexes (noun)
 *Description*: _Futex_ is an abbreviation for "fast user-space mutex". "Futexes" is the correct plural form.
@@ -259,7 +237,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*: xref:futex[futex], xref:mutexes[mutexes]
 
-[discrete]
 [[fuzzy]]
 ==== image:images/caution.png[with caution] fuzzy (adjective)
 *Description*: It is only correct to use "fuzzy" as an adjective when referring to "fuzzy searches" (the technique of finding strings that match a pattern approximately, rather than exactly). See http://www.stylepedia.net/#chap-Red_Hat_Technical_Publications-Writing_Style_Guide-Avoiding_Slang_Metaphors_and_Misleading_Language[Avoiding Slang, Metaphors, and Misleading Language] for details and examples.
