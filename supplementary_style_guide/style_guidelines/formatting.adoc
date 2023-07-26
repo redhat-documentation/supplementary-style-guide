@@ -147,7 +147,6 @@ $ oc describe node __<node_name>__
 .Example AsciiDoc: User-replaced value in an output example
 
 ----
-# *nmcli connection show __<profile_name>__*
 connection.id:              __<profile_name>__
 connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
 connection.type:            802-3-ethernet
@@ -159,7 +158,6 @@ This renders as:
 ====
 [subs="+quotes"]
 ----
-# nmcli connection show __<profile_name>__
 connection.id:              __<profile_name>__
 connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
 connection.type:            802-3-ethernet
