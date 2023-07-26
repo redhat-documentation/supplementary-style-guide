@@ -1,4 +1,3 @@
-[discrete]
 [[iaas]]
 ==== image:images/yes.png[yes] IaaS (noun)
 *Description*: _IaaS_ is an acronym for "Infrastructure-as-a-Service". Always use hyphens when spelling out the acronym.
@@ -10,7 +9,6 @@
 *See also*: xref:paas[PaaS], xref:saas[SaaS]
 
 
-[discrete]
 [[ibm-power]]
 ==== image:images/yes.png[yes] IBM Power® (noun)
 *Description*: _IBM Power_ represents the family of servers based on Power processors that can include combinations of IBM Power servers and its products. On first use, mark "IBM" Power with a registered trademark icon (®).
@@ -21,7 +19,6 @@
 
 *See also*:
 
-[discrete]
 [[ibm-linuxone]]
 ==== image:images/yes.png[yes] IBM® LinuxONE (noun)
 *Description*: _IBM® LinuxONE_ represents the IBM® LinuxONE platform (`s390x` architecture) and its products. "IBM®" must always precede "LinuxONE" in any context.
@@ -32,7 +29,6 @@
 
 *See also*: xref:ibm-z[IBM Z], xref:s390x[s390x]
 
-[discrete]
 [[ibm-z]]
 ==== image:images/yes.png[yes] IBM Z® (noun)
 *Description*: _IBM Z_ represents the IBM mainframe platform (`s390x` architecture) and its products. On first use, mark "IBM Z" with a registered trademark icon (®).
@@ -44,7 +40,6 @@
 *See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:s390x[s390x]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[id-mapping]]
 ==== image:images/yes.png[yes] ID mapping (noun)
 *Description*: In Red Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
@@ -60,7 +55,6 @@
 *See also*: xref:id-ranges[id ranges], xref:sssd[SSSD]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[id-ranges]]
 ==== image:images/yes.png[yes] ID ranges (noun)
 *Description*: In Red Hat Enterprise Linux, an _ID range_ is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
@@ -83,7 +77,6 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 *See also*: xref:id-mapping[ID mapping]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[id-views]]
 ==== image:images/yes.png[yes] ID views (noun)
 *Description*: In Red Hat Enterprise Linux, you can use _ID views_ to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
@@ -100,7 +93,6 @@ In an IdM-AD trust setup, the `Default Trust View` is an ID view applied to AD u
 *See also*: xref:posix-attributes[POSIX attributes]
 
 // OCP: General; kept as is
-[discrete]
 [[identity]]
 ==== image:images/yes.png[yes] identity (noun)
 *Description*: _Identity_ refers to both the user name and the list of groups a user belongs to.
@@ -113,7 +105,6 @@ Capitalize it only when it starts a sentence.
 *See also*:
 
 // RHSSO: General; kept as is
-[discrete]
 [[identity-provider]]
 ==== image:images/yes.png[yes] identity provider (noun)
 *Description*: An _identity provider (IDP)_ is a service that authenticates a user. Red Hat Single Sign-On is an IDP.
@@ -125,7 +116,6 @@ Capitalize it only when it starts a sentence.
 *See also*: xref:identity-provider-federation[identity provider federation], xref:identity-provider-mappers[identity provider mappers]
 
 // RHSSO: Added "In Red Hat Single Sign-On, you can" and removed a few other words
-[discrete]
 [[identity-provider-federation]]
 ==== image:images/yes.png[yes] identity provider federation (noun)
 *Description*: In Red Hat Single Sign-On, you can delegate authentication to one or more IDPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.
@@ -137,7 +127,6 @@ Capitalize it only when it starts a sentence.
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers]
 
 // RHSSO: General; kept as is
-[discrete]
 [[identity-provider-mappers]]
 ==== image:images/yes.png[yes] identity provider mappers (noun)
 *Description*: When doing IDP federation, you can map incoming tokens and assertions to user and session attributes, which you refer to as "identity provider mappers". This helps you propagate identity information from the external IDP to your client requesting authentication.
@@ -149,7 +138,6 @@ Capitalize it only when it starts a sentence.
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-federation[identity provider federation], xref:identity-token[identity token]
 
 // RHSSO: General; kept as is
-[discrete]
 [[identity-token]]
 ==== image:images/yes.png[yes] identity token (noun)
 *Description*: An _identity token_ provides identity information about the user and is part of the OpenID Connect specification.
@@ -161,7 +149,6 @@ Capitalize it only when it starts a sentence.
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers], xref:identity-provider-federation[identity provider federation]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[idm-ca-renewal-server]]
 ==== image:images/yes.png[yes] IdM CA renewal server (noun)
 *Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the _IdM CA renewal server_. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.
@@ -173,7 +160,6 @@ Capitalize it only when it starts a sentence.
 *See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux, an IdM CA server is"
-[discrete]
 [[idm-ca-server]]
 ==== image:images/yes.png[yes] IdM CA server (noun)
 *Description*: In Red Hat Enterprise Linux, an _IdM CA server_ is an IdM server on which the IdM certificate authority (CA) service is installed and running.
@@ -187,7 +173,6 @@ Alternative names: *CA server*
 *See also*: xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[idm-crl-publisher-server]]
 ==== image:images/yes.png[yes] IdM CRL publisher server (noun)
 *Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an _IdM CRL publisher server_ and is responsible for maintaining the CRL. By default, the server that fulfills the `CA renewal server` role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.
@@ -199,7 +184,6 @@ Alternative names: *CA server*
 *See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authority[certificate authority]
 
 // RHEL: Added "In Red Hat Enterprise Linux, IdM deployment is"
-[discrete]
 [[idm-deployment]]
 ==== image:images/yes.png[yes] IdM deployment (noun)
 *Description*: In Red Hat Enterprise Linux, _IdM deployment_ is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
@@ -216,7 +200,6 @@ Alternative names: *CA server*
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[idm-server-and-replicas]]
 ==== image:images/yes.png[yes] IdM server and replicas (noun)
 *Description*: In Red Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the `ipa-server-install` command.
@@ -232,7 +215,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux, IdM topology is"
-[discrete]
 [[idm-topology]]
 ==== image:images/yes.png[yes] IdM topology (noun)
 *Description*: In Red Hat Enterprise Linux, _IdM topology_ is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
@@ -244,7 +226,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[iiop-openjdk]]
 ==== image:images/yes.png[yes] iiop-openjdk subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _iiop-openjdk subsystem_ is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the `iiop-openjdk` subsystem in titles and headings.
@@ -256,7 +237,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // OCP: General; kept as is
-[discrete]
 [[image]]
 ==== image:images/yes.png[yes] image (noun)
 *Description*: An _image_ is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift Container Platform uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift Container Platform. Additionally, OpenShift Container Platform provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.
@@ -268,7 +248,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // OCP: Added "In Red Hat OpenShift, an image stream is"
-[discrete]
 [[image-stream]]
 ==== image:images/yes.png[yes] image stream (noun)
 *Description*: In Red Hat OpenShift, an _image stream_ is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
@@ -279,7 +258,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*: xref:image[image]
 
-[discrete]
 [[in-memory]]
 ==== image:images/yes.png[yes] in-memory (adjective)
 *Description*: _In-memory_ systems store data in a computer's random access memory (RAM). Clusters share memory resources, which reduces waste and boosts application performance by providing access to data in the same memory space where code executes.
@@ -291,7 +269,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"; Updated upgrade xref
-[discrete]
 [[in-place-upgrade]]
 ==== image:images/yes.png[yes] in-place upgrade (noun)
 *Description*: In Red Hat Enterprise Linux, during an _in-place upgrade_, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
@@ -303,7 +280,6 @@ There is no functional difference between the first server that was installed an
 *See also*: xref:upgrade[upgrade], xref:clean-install[clean install]
 
 // Ceph: General; kept as is
-[discrete]
 [[indexless-bucket]]
 ==== image:images/yes.png[yes] indexless bucket (noun)
 *Description*: An _indexless bucket_ is a bucket that does not maintain an index.
@@ -315,7 +291,6 @@ There is no functional difference between the first server that was installed an
 *See also*: xref:bucket-index[bucket index]
 
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _inference engine_ is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
@@ -326,7 +301,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[infiniband]]
 ==== image:images/yes.png[yes] InfiniBand (noun)
 *Description*: _InfiniBand_ is a switched fabric network topology used in high-performance computing. The term is both a service mark and a trademark of the InfiniBand Trade Association. Their rules for using the mark are standard ones: append the (TM) symbol the first time it is used, and respect the capitalization (including the inter-capped "B") from then on. In ASCII-only circumstances, the "\(TM)" string is the acceptable alternative.
@@ -338,7 +312,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // Data Grid: General; kept as is
-[discrete]
 [[infinispan]]
 ==== image:images/yes.png[yes] Infinispan (noun)
 *Description*: _Infinispan_ is the open-source, community project on which Red Hat Data Grid is built.
@@ -349,7 +322,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[ingress]]
 ==== image:images/yes.png[yes] Ingress (noun)
 *Description*: In Red Hat OpenShift, _Ingress_  is an API object developers can use to expose services through an HTTP(S) aware load balancing and proxy layer through a public DNS entry. The Ingress resource might further specify TLS options and a certificate, or specify a public CNAME that the OpenShift Ingress Controller should also accept for HTTP and HTTPS traffic. An administrator typically configures their Ingress Controller to be visible outside the cluster firewall and might also add additional security, caching, or traffic controls on the service content.
@@ -360,7 +332,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[ingress-controller]]
 ==== image:images/yes.png[yes] Ingress Controller (noun)
 *Description*: In Red Hat OpenShift, the _Ingress Controller_ is a resource that forwards traffic to endpoints of services.
@@ -372,7 +343,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // OCP: General; kept as is
-[discrete]
 [[init-container]]
 ==== image:images/yes.png[yes] init container (noun)
 *Description*: An _init container_ is a container that you can use to reorganize configuration scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.
@@ -383,7 +353,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[insecure]]
 ==== image:images/yes.png[yes] insecure (adjective)
 *Description*: _Insecure_ refers to something that is unsafe.
@@ -394,7 +363,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[insight]]
 ==== image:images/yes.png[yes] Insight (noun)
 *Description*: _Insight_ is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.
@@ -405,7 +373,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*: xref:gdb[GDB], xref:gdb-command[gdb]
 
-[discrete]
 [[installation-program]]
 ==== image:images/yes.png[yes] installation program (noun)
 *Description*: An _installation program_ is a program that installs certain software.
@@ -417,7 +384,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // OCP: Added "In Red Hat OpenShift,"
-[discrete]
 [[installer-provisioned-infrastructure]]
 ==== image:images/yes.png[yes] installer-provisioned infrastructure (noun)
 *Description*: In Red Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an _installer-provisioned infrastructure_ installation.
@@ -429,7 +395,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // OpenStack: Added "In Red Hat OpenStack Platform"
-[discrete]
 [[instance]]
 ==== image:images/yes.png[yes] instance (noun)
 *Description*: In Red Hat OpenStack Platform, an _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
@@ -441,7 +406,6 @@ There is no functional difference between the first server that was installed an
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[instrumentation-module]]
 ==== image:images/yes.png[yes] instrumentation module (noun)
 *Description*: In Red Hat Enterprise Linux, an _instrumentation module_ is the kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system and will be loaded on the target kernel of the target system.
@@ -454,7 +418,6 @@ There is no functional difference between the first server that was installed an
 
 // Fuse: Added "In Red Hat Fuse," and removed "in Fuse Ignite"
 // Fuse: Changed "Red Hat Fuse" to "Red Hat Fuse Online" (Breda)
-[discrete]
 [[integration]]
 ==== image:images/yes.png[yes] integration (noun)
 *Description*: In Red Hat Fuse Online, an _integration_ is a Camel route created.
@@ -465,7 +428,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[intel-coretm]]
 ==== image:images/yes.png[yes] Intel(R) Core(TM) (noun)
 *Description*: _Intel(R) Core(TM)_ refers to a line of Intel brand processors.
@@ -476,7 +438,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[intel-ep80579-integrated-processor]]
 ==== image:images/yes.png[yes] Intel(R) EP80579 Integrated Processor (noun)
 *Description*: _Intel(R) EP80579 Integrated Processor_ is the official brand name of this Intel processor.
@@ -487,7 +448,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[intel-virtualization-technology]]
 ==== image:images/yes.png[yes] Intel Virtualization Technology (noun)
 *Description*: The first and all prominent uses of _Intel Virtualization Technology_ should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64" or "Itanium architecture (Intel VT-i)". Subsequent uses can be abbreviated to "Intel VT-i". Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as "(TM)" or "\(TM)".
@@ -498,7 +458,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[intel-xeon]]
 ==== image:images/yes.png[yes] Intel(R) Xeon(R) (noun)
 *Description*: _Intel(R) Xeon(R)_ refers to a line of Intel brand processors.
@@ -509,7 +468,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[discrete]
 [[intel-64]]
 ==== image:images/yes.png[yes] Intel 64 (noun)
 *Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Use only in RHEL documentation.
@@ -527,7 +485,6 @@ _This feature can run only on Intel 64 processors_
 *See also*:
 
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
 [[intelligent-process-server]]
 ==== image:images/yes.png[yes] Intelligent Process Server (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
@@ -538,7 +495,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[interesting]]
 ==== image:images/no.png[no] interesting (adjective)
 *Description*: Avoid using "interesting" as a substitute for showing the reader why something is of interest. For example, instead of writing, "It is interesting to note...", consider using a "Note" admonition.
@@ -550,7 +506,6 @@ _This feature can run only on Intel 64 processors_
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux, an inventory is"
-[discrete]
 [[inventory]]
 ==== image:images/yes.png[yes] inventory (noun)
 *Description*: In Red Hat Enterprise Linux, an _inventory_ is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
@@ -562,7 +517,6 @@ _This feature can run only on Intel 64 processors_
 *See also*: xref:managed-nodes[managed nodes]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[io]]
 ==== image:images/yes.png[yes] io subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _io subsystem_ is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the `io` subsystem in titles and headings.
@@ -573,7 +527,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[iops]]
 ==== image:images/yes.png[yes] IOPS (noun)
 *Description*: _IOPS_ is an acronym for "input/output operations per second".
@@ -584,7 +537,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[ip]]
 ==== image:images/yes.png[yes] IP (noun)
 *Description*: _IP_ is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on the first usage.
@@ -595,7 +547,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*: xref:ipv4[IPv4], xref:ipv6[IPv6]
 
-[discrete]
 [[ip-address]]
 ==== image:images/yes.png[yes] IP address (noun)
 *Description*: Use _IP address_ instead of "IP" when writing about IP addresses.
@@ -606,7 +557,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*: xref:ip[IP]
 
-[discrete]
 [[ipv4]]
 ==== image:images/yes.png[yes] IPv4 (noun)
 *Description*: Use _IPv4_ to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on the first usage.
@@ -617,7 +567,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*: xref:ip[IP]
 
-[discrete]
 [[ipv6]]
 ==== image:images/yes.png[yes] IPv6 (noun)
 *Description*: Use _IPv6_ to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on the first usage.
@@ -628,7 +577,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*: xref:ip[IP]
 
-[discrete]
 [[ip-masquerade]]
 ==== image:images/yes.png[yes] IP Masquerade (noun)
 *Description*: _IP Masquerade_ is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ", allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server's assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.
@@ -639,7 +587,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[ip-switching]]
 ==== image:images/yes.png[yes] IP switching (noun)
 *Description*: _IP switching_ is a type of IP routing developed by Ipsilon Networks, Inc. Unlike conventional routers, IP switching routers use ATM hardware to speed packets through networks. Although the technology is new, it appears to be considerably faster than older router techniques.
@@ -650,7 +597,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[ipsec]]
 ==== image:images/yes.png[yes] IPsec (noun)
 *Description*: _IPsec_ is an abbreviation for "Internet Protocol security".
@@ -661,7 +607,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[iso]]
 ==== image:images/yes.png[yes] ISO (noun)
 *Description*: _ISO_ is an acronym for the "International Organization for Standardization", which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.
@@ -672,7 +617,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[iso-image]]
 ==== image:images/yes.png[yes] ISO image (noun)
 *Description*: An _ISO image_ is a type of disk image comprising the data contents from every written sector on a media disk. ISO image files use the `.iso` file extension. According to Wikipedia, the ISO name comes from the ISO 9660 file system used with CD-ROM media, but what is known as an ISO image might also contain a UDF (ISO/IEC 13346) file system, which is often used by DVDs and Blu-ray discs.
@@ -683,7 +627,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[it]]
 ==== image:images/yes.png[yes] IT, I.T. (noun)
 *Description*: _IT_ and _I.T._ are abbreviations for "information technology". Use "I.T." (with periods) only in headlines or subheadings where all uppercase letters are used, to clarify that the word is "IT" rather than "it".
@@ -694,7 +637,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[itanium]]
 ==== image:images/yes.png[yes] Itanium (noun)
 *Description*: _Itanium_ is a 64-bit RISC microprocessor and a member of the Intel Merced family of processors. Based on the Explicitly Parallel Instruction Computing (EPIC) design philosophy, which states that the compiler should decide which instructions be executed together, Itanium has the highest FPU power available. In 64-bit mode, Itanium is able to calculate two bundles of a maximum of three instructions at a time. In 32-bit mode, it is much slower. Decoders must first translate 32-bit instruction sets into 64-bit instruction sets, which results in extra-clock cycle use. The Itanium processor's primary use is driving large applications that require more than 4 GB of memory, such as databases, ERP, and future internet applications.
@@ -705,7 +647,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*: xref:itanium-2[Itanium 2]
 
-[discrete]
 [[itanium-2]]
 ==== image:images/yes.png[yes] Itanium 2 (noun)
 *Description*: _Itanium 2_ is correct. Do not use "Itanium2" without the space between "Itanium" and "2".

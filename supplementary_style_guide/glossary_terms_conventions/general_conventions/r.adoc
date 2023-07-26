@@ -172,7 +172,6 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *See also*: xref:jboss-amq[AMQ], xref:jboss-amq-eap[JBoss AMQ]
 
-[discrete]
 [[red-hat-build-openjdk]]
 ==== image:images/yes.png[yes] Red Hat build of OpenJDK (noun)
 *Description*: _Red Hat build of OpenJDK_ is the Red Hat distribution of the Open Java Development Kit (OpenJDK).
@@ -340,7 +339,6 @@ Always spell out the full product name of the host, and do not capitalize the te
 
 *See also*: xref:syndesis[Syndesis], xref:fuse-online[Fuse Online]
 
-[discrete]
 [[red-hat-java]]
 ==== image:images/no.png[no] Red Hat Java (noun)
 *Description*: Do not use _Red Hat Java_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
@@ -419,7 +417,6 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *See also*: xref:red-hat-network-satellite-server[Red Hat Network Satellite Server]
 
-[discrete]
 [[red-hat-openjdk]]
 ==== image:images/no.png[no] Red Hat OpenJDK (noun)
 *Description*: Do not use _Red Hat OpenJDK_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).

@@ -1,4 +1,3 @@
-[discrete]
 [[s390x]]
 ==== image:images/yes.png[yes] s390x (noun)
 *Description*: A 64-bit version of the IBM z/Architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, and CLI objects. Use lowercase format and backticks when referring to objects or parameters.
@@ -15,7 +14,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:  xref:ibm-z[IBM Z]
 
-[discrete]
 [[s-record]]
 ==== image:images/yes.png[yes] S-record (noun)
 *Description*: Motorola _S-record_ is a file format that stores binary information in ASCII hex text form.
@@ -26,7 +24,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-[discrete]
 [[saas]]
 ==== image:images/yes.png[yes] SaaS (noun)
 *Description*: _SaaS_ is an acronym for "Software-as-a-Service". In the spelled-out version and its variants (for example, Infrastructure-as-a-Service and Platform-as-a-Service), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text (such as banners), use "<VARIANT>-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.
@@ -37,7 +34,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:iaas[IaaS], xref:paas[PaaS]
 
-[discrete]
 [[samba]]
 ==== image:images/yes.png[yes] Samba (noun)
 *Description*: _Samba_ provides file, printing, and Active Directory (AD) domain services for Microsoft Windows and other clients that use the Server Message Block (SMB) protocol to access network resources.
@@ -49,7 +45,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[sar]]
 ==== image:images/yes.png[yes] sar subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _sar subsystem_ enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the `sar` subsystem in titles and headings.
@@ -61,7 +56,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // Satellite: Added "In Red Hat Satellite"
-[discrete]
 [[satellite-server]]
 ==== image:images/yes.png[yes] Satellite Server (noun)
 *Description*: In Red Hat Satellite, _Satellite Server_ synchronizes the content from Red Hat Customer Portal and other sources, and provides lifecycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term "Satellite" is acceptable thereafter.
@@ -73,7 +67,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // OCP: Added "In Red Hat OpenShift, the scheduler is a" removed "Kubernetes master or OpenShift"
-[discrete]
 [[scheduler]]
 ==== image:images/yes.png[yes] scheduler (noun)
 *Description*: In Red Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
@@ -85,7 +78,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
 [[scorecard]]
 ==== image:images/yes.png[yes] Scorecard (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
@@ -96,7 +88,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-[discrete]
 [[screen-saver]]
 ==== image:images/yes.png[yes] screen saver (noun)
 *Description*: A _screen saver_ is an image or animation that replaces a computer's display after a set amount of time without user activity.
@@ -107,7 +98,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-[discrete]
 [[scrollbar]]
 ==== image:images/yes.png[yes] scrollbar (noun)
 *Description*: A _scrollbar_ is a long, thin rectangle on the edge of the screen that allows a user to view information that does not fit on a single screen display.
@@ -119,7 +109,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[scrubbing]]
 ==== image:images/yes.png[yes] scrubbing (noun)
 *Description*: In Red Hat Ceph Storage, _scrubbing_ is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node.
@@ -131,7 +120,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[security-elytron]]
 ==== image:images/yes.png[yes] Security - Elytron (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the `elytron` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
@@ -143,7 +131,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*: xref:elytron[elytron]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed "in JBoss EAP" later on
-[discrete]
 [[security]]
 ==== image:images/yes.png[yes] security subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the legacy security subsystem is called _security_. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy `security` subsystem in titles and headings.
@@ -155,7 +142,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[security-manager]]
 ==== image:images/yes.png[yes] security-manager subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _security-manager subsystem_ is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the `security-manager` subsystem in titles and headings.
@@ -166,7 +152,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-[discrete]
 [[see]]
 ==== image:images/yes.png[yes] see (verb)
 *Description*: Use "see" to refer readers to another resource, for example, "For more information, see the _Red Hat Enterprise Linux Installation Guide_." Avoid using "refer to" in this context.
@@ -177,7 +162,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-[discrete]
 [[segmentation-fault]]
 ==== image:images/yes.png[yes] segmentation fault (noun)
 *Description*:  A _segmentation fault_ occurs when a process tries to access a memory location that it is not allowed to access, or tries to access a memory location in a way that is not allowed (for example, if the process tries to write to a read-only location or to overwrite part of the operating system). Only use the abbreviation "segfault" if absolutely necessary, and never use it as a verb.
@@ -189,7 +173,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *See also*:
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[self-hosted-engine]]
 ==== image:images/yes.png[yes] self-hosted engine (noun)
 *Description*: In Red Hat Virtualization, a _self-hosted engine_ is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. The virtual machine is created as part of the host configuration, and the Manager is installed and configured in parallel to the host configuration process.
@@ -203,7 +186,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:self-hosted-engine-node[self-hosted engine node]
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[self-hosted-engine-node]]
 ==== image:images/yes.png[yes] self-hosted engine node (noun)
 *Description*: In Red Hat Virtualization, a self-hosted engine is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. A _self-hosted engine node_ is a host that has self-hosted engine packages installed so that it can host the Manager virtual machine. Regular hosts can also be attached to a self-hosted engine environment, but cannot host the Manager virtual machine.
@@ -216,7 +198,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:self-hosted-engine[self-hosted engine]
 
-[discrete]
 [[selinux]]
 ==== image:images/yes.png[yes] SELinux (noun)
 *Description*: _SELinux_ is an abbreviation for "Security-Enhanced Linux". SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux", "S-E Linux", or "SE Linux".
@@ -228,7 +209,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 // AMQ: Added "In Red Hat AMQ, a sender is"
-[discrete]
 [[sender]]
 ==== image:images/yes.png[yes] sender (noun)
 *Description*: In Red Hat AMQ, a _sender_ is a channel for sending messages to a target.
@@ -239,7 +219,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:producer[producer], xref:target[target], xref:receiver[receiver]
 
-[discrete]
 [[server-cluster]]
 ==== image:images/yes.png[yes] server cluster (noun)
 *Description*: A _server cluster_ is a group of networked servers housed in one location. This organization of servers streamlines internal processes by distributing the workload between the individual components of the group. It also expedites computing processes by harnessing the power of multiple servers. The clusters rely on load-balancing software that accomplishes tasks such as tracking demand for processing power from different machines, prioritizing the tasks, and scheduling and rescheduling them, depending on priority and demand on the network. When one server in the cluster fails, another server can serve as a backup.
@@ -250,7 +229,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:server-farm[server farm]
 
-[discrete]
 [[server-farm]]
 ==== image:images/yes.png[yes] server farm (noun)
 *Description*: A _server farm_ is a group of networked servers housed in one location. This organization of servers streamlines internal processes by distributing the workload between the individual components of the group. It also expedites computing processes by harnessing the power of multiple servers. The farms rely on load-balancing software that accomplishes tasks such as tracking demand for processing power from different machines, prioritizing the tasks, and scheduling and rescheduling them, depending on priority and demand on the network. When one server in the farm fails, another server can serve as a backup.
@@ -262,7 +240,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:server-cluster[server cluster]
 
 // OCP: Added "In Red Hat OpenShift,"
-[discrete]
 [[service]]
 ==== image:images/yes.png[yes] service (noun)
 *Description*: In Red Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
@@ -274,7 +251,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 // RHSSO: Added "In Red Hat Single Sign-On,"
-[discrete]
 [[service-account]]
 ==== image:images/yes.png[yes] service account (noun)
 *Description*: In Red Hat Single Sign-On, each client has a built-in _service account_ to obtain an access token.
@@ -288,7 +264,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 // RHSSO: Added "In Red Hat Single Sign-On,"
 // AMQ: Added "In Red Hat AMQ, a session is"
 // Combined entries into a single one; used "with caution" since one was "yes" and the other was "with caution"
-[discrete]
 [[session]]
 ==== image:images/caution.png[with caution] session (noun)
 *Description*: 1) In Red Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
@@ -300,7 +275,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:connection[connection]
 
 // Data Grid: Added "In Red Hat Data Grid," and removed "Data Grid"
-[discrete]
 [[session-externalization]]
 ==== image:images/yes.png[yes] session externalization (noun)
 *Description*: In Red Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
@@ -311,7 +285,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[session-persistence]]
 ==== image:images/yes.png[yes] session persistence (noun)
 *Description*: _Session persistence_, also known as a _sticky session_, is a process in which a load balancer sends all requests in a user session to a specific network server. Session persistence can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "session persistence" or "sticky session" consistently.
@@ -322,7 +295,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:sticky-session[sticky session]
 
-[discrete]
 [[sha-1]]
 ==== image:images/yes.png[yes] SHA-1 (noun)
 *Description*: _SHA_ is an acronym for "Secure Hash Algorithm" and is a cryptographic hash function. SHA-1 is an earlier hashing algorithm that is being replaced by SHA-2.
@@ -333,7 +305,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:sha-2[SHA-2]
 
-[discrete]
 [[sha-2]]
 ==== image:images/yes.png[yes] SHA-2 (noun)
 *Description*: _SHA_ is an acronym for "Secure Hash Algorithm" and is a cryptographic hash function. The encryption hash used in SHA-2 is significantly stronger and not subject to the same vulnerabilities as SHA-1. SHA-2 variants are often specified using their digest size, in bits, as the trailing number, instead of 2. "SHA-224", "SHA-256", "SHA-384", and "SHA-512" are all correct when referring to these specific hash functions.
@@ -344,7 +315,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:sha-1[SHA-1]
 
-[discrete]
 [[shadow-passwords]]
 ==== image:images/yes.png[yes] shadow passwords (noun)
 *Description*: _Shadow passwords_ are a method of improving system security by moving the encrypted passwords (normally found in `/etc/passwd`) to `/etc/shadow`, which is readable only by root. This option is available during installation and is part of the shadow utilities package. "Shadow passwords" is not a proper noun and is only capitalized at the beginning of a sentence.
@@ -355,7 +325,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[shadow-utilities]]
 ==== image:images/yes.png[yes] shadow utilities (noun)
 *Description*: _Shadow utilities_ are the specific system programs that operate on the shadow password files. "Shadow utilities" is not a proper noun and is only capitalized at the beginning of a sentence.
@@ -366,7 +335,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[shadowman]]
 ==== image:images/yes.png[yes] Shadowman (noun)
 *Description*: _Shadowman_ is a Red Hat corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
@@ -378,7 +346,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: http://brand.redhat.com/logos/shadowman/[Red Hat Brand Standards: Shadowman]
 
 // Ceph: General; kept as is
-[discrete]
 [[shard-n]]
 ==== image:images/yes.png[yes] shard (noun)
 *Description*: A database _shard_ is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a shard or database shard. Each shard is held on a separate database server instance, to spread load.
@@ -390,7 +357,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:bucket-sharding[bucket sharding]
 
 // AMQ: Added "In Red Hat AMQ, a sharded queue is"
-[discrete]
 [[sharded-queue]]
 ==== image:images/yes.png[yes] sharded queue (noun)
 *Description*: In Red Hat AMQ, a _sharded queue_ is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
@@ -401,7 +367,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:queue[queue]
 
-[discrete]
 [[share-name]]
 ==== image:images/yes.png[yes] share name (noun)
 *Description*: _Share name_ is the name of a shared resource. Use it as two words unless you are quoting the output of commands, such as "smbclient -L".
@@ -412,7 +377,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[she]]
 ==== image:images/no.png[no] she (pronoun)
 *Description*: Reword the sentence to avoid using "he" or "she".
@@ -423,7 +387,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:he[he]
 
-[discrete]
 [[shell]]
 ==== image:images/yes.png[yes] shell (noun)
 *Description*: A _shell_ is a software application (for example, `/bin/bash` or `/bin/sh`) that provides an interface to a computer. Do not use this term to describe the prompt where you type commands.
@@ -434,7 +397,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:shell-prompt[shell prompt]
 
-[discrete]
 [[shell-prompt]]
 ==== image:images/yes.png[yes] shell prompt (noun)
 *Description*:  The _shell prompt_ is the character at the beginning of the command line, for example "$" or "#". It indicates that the shell is ready to accept commands. Do not use "command prompt", "terminal", or "shell".
@@ -445,7 +407,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:shell[shell]
 
-[discrete]
 [[signal-topology]]
 ==== image:images/yes.png[yes] signal topology (noun)
 *Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The _signal topology_ is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices. The signal topology is also called "logical topology".
@@ -457,7 +418,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:logical-topology[logical topology], xref:physical-topology[physical topology]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[singleton]]
 ==== image:images/yes.png[yes] singleton subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
@@ -468,7 +428,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[skill-set]]
 ==== image:images/no.png[no] skill set (noun)
 *Description*: Use "skills" or "knowledge" instead of "skill set" (n) or "skill-set" (adj). For example, "Do you have the right skill set to be an RHCE?" is incorrect. Use "Do you have the right skills to be an RHCE?" instead.
@@ -480,7 +439,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 // OCP: Added "In Red Hat OpenShift, SkyDNS is"
-[discrete]
 [[skydns]]
 ==== image:images/yes.png[yes] SkyDNS (noun)
 *Description*: In Red Hat OpenShift 3.11, _SkyDNS_ is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.
@@ -492,7 +450,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 // RHDS: General; added "In an LDAP replication environment,"
-[discrete]
 [[slave]]
 ==== image:images/no.png[no] slave (noun)
 *Description*: In an LDAP replication environment, do not use "slave" to refer to a consumer or hub.
@@ -504,7 +461,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:consumer[consumer], xref:hub[hub]
 
 // AMQ: Added "In Red Hat AMQ,"
-[discrete]
 [[slave-broker]]
 ==== image:images/yes.png[yes] slave broker (noun)
 *Description*: In Red Hat AMQ, in a master-slave group, _slave broker_ is the broker (or brokers) that takes over for the master broker to which it is linked.
@@ -516,7 +472,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:master-slave-group[master-slave group], xref:master-broker[master broker]
 
 // RHEL: General; kept as is
-[discrete]
 [[smart-card]]
 ==== image:images/yes.png[yes] smart card (noun)
 *Description*: A _smart card_ is a removable device or card used to control access to a resource. They can be plastic credit card-sized cards with an embedded integrated circuit (IC) chip, small USB devices such as a Yubikey, or other similar devices. Smart cards can provide authentication by allowing users to connect a smart card to a host computer, and software on that host computer interacts with key material stored on the smart card to authenticate the user.
@@ -527,7 +482,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[smartnic]]
 ==== image:images/yes.png[yes] SmartNIC
 *Description*: _SmartNIC_ is a type of network interface controller (NIC) that uses its own integrated processor to handle certain low-level networking tasks.
@@ -539,7 +493,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:nic[NIC], xref:vnic[vNIC]
 
 // CloudForms: Added "In Red Hat CloudForms, the _SmartState analysis_ is a"
-[discrete]
 [[smartstate-analysis]]
 ==== image:images/yes.png[yes] SmartState analysis (noun)
 *Description*: In Red Hat CloudForms, the _SmartState analysis_ is a process run by the SmartProxy which collects the details of a virtual machine or instance. Such details include accounts, drivers, network information, hardware, and security patches. This process is also run by the Red Hat CloudForms server on hosts and clusters. The data is stored in the VMDB.
@@ -551,7 +504,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*:
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[snap]]
 ==== image:images/yes.png[yes] snap (noun)
 *Description*: In Red Hat Ceph Storage, a _snap_ is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
@@ -563,7 +515,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 *See also*: xref:snapshot-set[snapshot set]
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[snapshot-set]]
 ==== image:images/yes.png[yes] snapshot set (noun)
 *Description*: In Red Hat Ceph Storage, the _snapshot set_ stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
@@ -574,7 +525,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:snap[snap]
 
-[discrete]
 [[snippet]]
 ==== image:images/no.png[no] snippet (noun)
 *Description*: A _snippet_ is a small piece or brief extract. Use "piece" instead of snippet. Use "excerpt" to refer to samples taken from a more-extensive section of text.
@@ -585,7 +535,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[socks]]
 ==== image:images/yes.png[yes] SOCKS (noun)
 *Description*: _SOCKS_ is an abbreviation for "Socket Secure", which is an internet protocol that exchanges network packets between a client and server through a proxy server. When specifying a SOCKS version, use "SOCKSv4" or "SOCKSv5".
@@ -596,7 +545,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[softcopy]]
 ==== image:images/no.png[no] softcopy (noun)
 *Description*: _Softcopy_ is an electronic copy of some type of data, for example, a file viewed on a computer screen. Use "online" instead of softcopy, for example, "To view the online documentation...​".
@@ -607,7 +555,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[softirq]]
 ==== image:images/yes.png[yes] softirq (noun)
 *Description*: A _software interrupt request (softirq)_ is a deferrable kernel routine that performs the required actions in response to an interrupt. For example, softirqs clear the receive ring buffer after a network adapter receives a packet.
@@ -618,7 +565,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[software-collection]]
 ==== image:images/yes.png[yes] Software Collection (noun)
 *Description*: A _Software Collection (SCL)_ allows for building and concurrent installation of multiple versions of the same software component on a single system. Always capitalize as shown. The abbreviation "SCL" (plural form "SCLs") is acceptable only for use in technical documents or documents shared with upstream projects.
@@ -629,7 +575,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*:
 
-[discrete]
 [[sos-report]]
 ==== image:images/caution.png[with caution] sos report (noun)
 *Description*: In RHEL 8 and later, an _sos report_ is a collection of files that contain configuration details, system information, and diagnostic data.
@@ -648,7 +593,6 @@ Therefore, if you need to use the indefinite article before "sos report", use _a
 
 *See also*: xref:sosreport[sosreport]
 
-[discrete]
 [[sosreport]]
 ==== image:images/caution.png[with caution] sosreport (noun)
 *Description*: In RHEL 7 and earlier, an _sosreport_ is a collection of files that contain configuration details, system information, and diagnostic data.
@@ -667,7 +611,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*: xref:sos-report[sos report]
 
-[discrete]
 [[sound-card]]
 ==== image:images/yes.png[yes] sound card (noun)
 *Description*: A _sound card_ is a device slotted into a computer to allow the use of audio components for multimedia applications.
@@ -679,7 +622,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 *See also*:
 
 // AMQ: Added "In Red Hat AMQ, source is"
-[discrete]
 [[source]]
 ==== image:images/yes.png[yes] source (noun)
 *Description*: In Red Hat AMQ, _source_ is a message's named point of origin.
@@ -692,7 +634,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 // Fuse: Removed "Source tab" entry (Breda)
 
-[discrete]
 [[source-navigator]]
 ==== image:images/yes.png[yes] Source-Navigator^TM^ (noun)
 *Description*: _Source-Navigator^TM^_ is a source code analysis tool and is a Red Hat trademark.
@@ -704,7 +645,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 *See also*:
 
 // OCP: General; kept as is
-[discrete]
 [[source-to-image]]
 ==== image:images/yes.png[yes] Source-to-Image (S2I) (noun)
 *Description*: _Source-to-Image_ is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image.
@@ -715,7 +655,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*:
 
-[discrete]
 [[space]]
 ==== image:images/yes.png[yes] space (noun)
 *Description*: Use "space" to refer to white space, for example, "Ensure there is a space between each command." Use "spacebar" when referring to the keyboard key.
@@ -726,7 +665,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*: xref:spacebar[spacebar]
 
-[discrete]
 [[spacebar]]
 ==== image:images/yes.png[yes] spacebar (noun)
 *Description*: Use "spacebar" when referring to the keyboard key, for example, "Press the spacebar and type the correct number." Use "space" to refer to white space.
@@ -738,7 +676,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 *See also*: xref:space[space]
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[sparse]]
 ==== image:images/yes.png[yes] sparse (adjective)
 *Description*: In Red Hat Virtualization, a disk is _sparse_ when its unused disk space is taken from the virtual machine and returned to the host. In the past, the term sparse has been used to describe thin provisioned storage; however, with the addition of the sparsify feature in Red Hat Virtualization 4.1, these terms should not be used interchangeably as a thin provisioned disk might not be a sparse disk.
@@ -750,7 +687,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 *See also*: xref:sparsify[sparsify], xref:thin-provisioned[thin provisioned]
 
 // RHV: Added "In Red Hat Virtualization, sparsify means"
-[discrete]
 [[sparsify]]
 ==== image:images/yes.png[yes] sparsify (verb)
 *Description*: In Red Hat Virtualization, _sparsify_ means to take unused disk space from a virtual machine and return it to the host.
@@ -762,7 +698,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 *See also*: xref:sparse[sparse]
 
 // OCP: Added "In Red Hat OpenShift,"
-[discrete]
 [[spec]]
 ==== image:images/yes.png[yes] spec (noun)
 *Description*: In Red Hat OpenShift, in addition to "spec file", which is permitted when it relates to RPM spec files, you can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
@@ -777,7 +712,6 @@ _Update the `Pod` spec to reflect the changes._
 
 *See also*:
 
-[discrete]
 [[spec-file]]
 ==== image:images/yes.png[yes] spec file (noun)
 *Description*: _Spec files_ are used as part of rebuilding RPMs. The spec file outlines how to configure and compile the RPM as well as how to install the files later.
@@ -788,7 +722,6 @@ _Update the `Pod` spec to reflect the changes._
 
 *See also*:
 
-[discrete]
 [[specific]]
 ==== image:images/yes.png[yes] specific (noun)
 *Description*: When used as a modifier, put a hyphen before "specific", for example, "Linux-specific" or "chip-specific".
@@ -799,7 +732,6 @@ _Update the `Pod` spec to reflect the changes._
 
 *See also*:
 
-[discrete]
 [[spelled]]
 ==== image:images/yes.png[yes] spelled (verb)
 *Description*: _Spelled_ is the past tense of "to spell" in U.S. English. Do not use the Commonwealth English variant "spelt".
@@ -811,7 +743,6 @@ _Update the `Pod` spec to reflect the changes._
 *See also*:
 
 // RHV: General; kept as is
-[discrete]
 [[spice]]
 ==== image:images/yes.png[yes] SPICE (noun)
 *Description*: _SPICE_ stands for "Simple Protocol for Independent Computing Environments". It is a remote connection protocol for viewing a virtual machine in a graphical console from a remote client.
@@ -824,7 +755,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-[discrete]
 [[sql]]
 ==== image:images/yes.png[yes] SQL (noun)
 *Description*: _SQL_ is an abbreviation for "Structured Query Language". The ISO-standard SQL (ISO 9075 and its descendants) is pronounced "ess queue ell" and takes "an" as its indefinite article. Microsoft's proprietary product, SQL Server, is pronounced as a word ("sequel") and takes "a" as its indefinite article. Oracle also pronounces its SQL-based products (such as PL/SQL) as "sequel". When referring to a specific Relational Database Management System (RDBMS), use the appropriate product name. For example, when discussing Microsoft SQL Server, write out the full name, "Microsoft SQL Server".
@@ -835,7 +765,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:mysql[MySQL]
 
-[discrete]
 [[ser-iov]]
 ==== image:images/yes.png[yes] SR-IOV (noun)
 *Description*: _SR-IOV_ is an abbreviation for "Single-Root I/O Virtualization". It is a virtualization specification that allows a PCIe device to appear to be multiple separate physical PCIe devices.
@@ -846,7 +775,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-[discrete]
 [[ssh]]
 ==== image:images/yes.png[yes] SSH (noun)
 *Description*: _SSH_ is an abbreviation for "Secure Shell", which is a network protocol that allows data exchange using a secure channel. For the protocol, do not use "SSH", "ssh", "Ssh", or other variants. For the command, use "ssh". Do not use "ssh" as a verb; for example, write "Use SSH to connect to the remote server" instead of "ssh to the remote server".
@@ -858,7 +786,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // RHDS: Duplicate of this entry so didn't include it; added TLS as a see also xref
-[discrete]
 [[ssl]]
 ==== image:images/no.png[no] SSL (noun)
 *Description*: _SSL_ is an abbreviation for "Secure Sockets Layer", which is a protocol developed by Netscape for transmitting private documents over the internet. SSL uses a public key to encrypt data that is transferred over the SSL connection. The majority of web browsers support SSL. Many websites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with "https:" instead of "http:".
@@ -869,7 +796,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:ssl-tls[SSL/TLS], xref:tls[TLS]
 
-[discrete]
 [[ssl-tls]]
 ==== image:images/yes.png[yes] SSL/TLS (noun)
 *Description*: _SSL/TLS_ refers to the Secure Socket Layer protocol (SSL) and its successor, the Transport Layer Security protocol (TLS). Both of these protocols are frequently called "SSL", so use "SSL/TLS" in high-level documentation entries, such as headings, to establish context with encryption protocols. In other documentation areas, use TLS and document the supported version of the TLS protocol for your product.
@@ -881,7 +807,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[sssd]]
 ==== image:images/yes.png[yes] SSSD (noun)
 *Description*: In Red Hat Enterprise Linux, the _System Security Services Daemon (SSSD)_ is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
@@ -893,7 +818,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[sssd-back-end]]
 ==== image:images/yes.png[yes] SSSD back end (noun)
 *Description*: In Red Hat Enterprise Linux, a _System Security Services Daemon (SSSD) back end_, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
@@ -904,7 +828,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:ldap[LDAP], xref:sssd[SSSD]
 
-[discrete]
 [[standalone]]
 ==== image:images/yes.png[yes] standalone (adjective)
 *Description*: Use "standalone" instead of "stand-alone" when referring to components that are complete and that operate independently of other components, such as "a standalone distribution" or "a standalone module". However, use two words for a noun phrase, such as "a module must stand alone".
@@ -916,7 +839,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[standalone-manager]]
 ==== image:images/yes.png[yes] standalone Manager (noun)
 *Description*: In Red Hat Virtualization, use "standalone Manager" specifically, and only, in the context of differentiating between a "regular" Red Hat Virtualization environment and a self-hosted engine environment. Use "the Red Hat Virtualization Manager" or "the Manager" in all other cases.
@@ -928,7 +850,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*: xref:self-hosted-engine[self-hosted engine], xref:red-hat-virtualization-manager[Red Hat Virtualization Manager]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[standalone-mode]]
 ==== image:images/no.png[no] standalone mode (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the xref:standalone-server[standalone server] entry.
@@ -940,7 +861,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*: xref:standalone-server[standalone server]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[standalone-server]]
 ==== image:images/yes.png[yes] standalone server (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
@@ -951,7 +871,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:standalone-mode[standalone mode]
 
-[discrete]
 [[staroffice]]
 ==== image:images/yes.png[yes] StarOffice (noun)
 *Description*: _StarOffice_ is a Linux desktop suite.
@@ -963,7 +882,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // RHDS: General; kept as is
-[discrete]
 [[starttls]]
 ==== image:images/yes.png[yes] STARTTLS (noun)
 *Description*: When an LDAP client wants to use a TLS-encrypted connection after establishing a connection to the unencrypted LDAP port, the client sends the `STARTTLS` command.
@@ -974,7 +892,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:ldap[LDAP], xref:ldaps[LDAPS]
 
-[discrete]
 [[startx]]
 ==== image:images/yes.png[yes] startx (noun)
 *Description*: _startx_ begins the xsession, which provides a graphical interface for running the session.
@@ -986,7 +903,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[static-delta]]
 ==== image:images/yes.png[yes] static-delta (noun)
 *Description*: Updates to OSTree images are always delta updates. In case of RHEL for Edge images, the TCP overhead can be higher than expected due to the updates to number of files. To avoid TCP overhead, you can generate _static-delta_ between specific commits, and send the update in a single connection. This optimization helps large deployments with constrained connectivity.
@@ -997,7 +913,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:ostree[OSTree], xref:commit[commit]
 
-[discrete]
 [[sticky-bit]]
 ==== image:images/yes.png[yes] sticky bit (noun)
 *Description*: A _sticky bit_ is a user permission set for a directory that limits user access to the directory owner and the root user.
@@ -1008,7 +923,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-[discrete]
 [[sticky-session]]
 ==== image:images/yes.png[yes] sticky session (noun)
 *Description*: A _sticky session_, also known as _session persistence_, is a process in which a load balancer sends all requests in a user session to a specific network server. Sticky sessions can improve performance and network resource usage. Depending on which term your audience is most familiar with, use either "sticky session" or "session persistence" consistently.
@@ -1020,7 +934,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*: xref:session-persistence[session persistence]
 
 // AMQ: General; kept as is
-[discrete]
 [[stomp]]
 ==== image:images/yes.png[yes] STOMP (noun)
 *Description*: _STOMP_ is an acronym for "Simple (or Streaming) Text Oriented Message Protocol". It is a text-oriented wire protocol that enables STOMP clients to communicate with STOMP brokers. AMQ Broker can accept connections from STOMP clients.
@@ -1032,7 +945,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // OCS: Added "In Red Hat OpenShift Container Storage,"
-[discrete]
 [[storage-class]]
 ==== image:images/yes.png[yes] storage class (noun)
 *Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), use _storage classes_ to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.
@@ -1044,7 +956,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*:
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[storage-pool-manager]]
 ==== image:images/yes.png[yes] Storage Pool Manager (noun)
 *Description*: In Red Hat Virtualization, the _Storage Pool Manager (SPM)_ is a role given to one of the hosts in a data center, enabling it to manage the storage domains of the data center.
@@ -1057,7 +968,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[straightforward]]
 ==== image:images/yes.png[yes] straightforward (adjective)
 *Description*: _Straightforward_ means uncomplicated and easy to understand.
@@ -1068,7 +978,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[su]]
 ==== image:images/yes.png[yes] su (noun)
 *Description*: `su` (superuser, switch user, or substitute user) is a Linux command to change the local user to the root user.
@@ -1080,7 +989,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 *See also*:
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[sub-version]]
 ==== image:images/yes.png[yes] sub-version (noun)
 *Description*: In Red Hat Virtualization, a template _sub-version_ is a new template version created from an existing template.
@@ -1091,7 +999,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[subcommand]]
 ==== image:images/yes.png[yes] subcommand (noun)
 *Description*: A _subcommand_ is a secondary or even tertiary command used with a primary command. Do not confuse subcommands with options or arguments; subcommands operate on more focused objects or entities. In the following command, "hammer" is the primary command, "import" and "organization" are subcommands, and "--help" is an option: `hammer import organization --help`.
@@ -1102,7 +1009,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[subdirectory]]
 ==== image:images/yes.png[yes] subdirectory (noun)
 *Description*: A _subdirectory_ is a directory located within another directory, similar to a folder beneath another folder in a graphical user interface (GUI).
@@ -1113,7 +1019,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[submenu]]
 ==== image:images/yes.png[yes] submenu (noun)
 *Description*: A _submenu_ is a secondary menu contained within another menu.
@@ -1124,7 +1029,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[subpackage]]
 ==== image:images/yes.png[yes] subpackage (noun)
 *Description*: "Subpackage" has a specific, specialized meaning in Red Hat products. An RPM spec file can define more than one package; these additional packages are called _subpackages_. CCS strongly discourages any other use of "subpackage". Subpackages are not the same as dependencies; do not treat them as if they are.
@@ -1135,7 +1039,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[subscription]]
 ==== image:images/yes.png[yes] subscription (noun)
 *Description*: _Subscriptions_ provide access to Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red Hat Network (RHN), where you subscribed to channels. Do not use "subscription" and "entitlement" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
@@ -1147,7 +1050,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 *See also*: xref:entitlement[entitlement], xref:repository[repository]
 
 // Satellite: Added "In Red Hat Satellite"
-[discrete]
 [[subscription-manifest]]
 ==== image:images/yes.png[yes] Subscription Manifest (noun)
 *Description*: In Red Hat Satellite, a _Subscription Manifest_ is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
@@ -1158,7 +1060,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[sudo]]
 ==== image:images/caution.png[with caution] sudo (noun)
 *Description*: `sudo` is a command that allows a user to run a program as another user (the root user by default). When a user requires elevated privileges, use the phrase "as the root user" before a command instead of prefixing commands with `sudo`.
@@ -1170,7 +1071,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 *See also*:
 
 // RHDS: General; kept as is
-[discrete]
 [[suffix]]
 ==== image:images/yes.png[yes] suffix (noun)
 *Description*: The name of the entry at the top of the directory tree is called a _suffix_. In Red Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
@@ -1181,7 +1081,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[superuser]]
 ==== image:images/yes.png[yes] superuser (noun)
 *Description*: _Superuser_ is the same as the root user. The term is more common in Solaris documentation than Linux.
@@ -1193,7 +1092,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 *See also*:
 
 // RHDS: General; kept as is
-[discrete]
 [[supplier]]
 ==== image:images/yes.png[yes] supplier (noun)
 *Description*: In an LDAP replication environment, _suppliers_ send data to other servers.
@@ -1204,7 +1102,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*: xref:consumer[consumer]
 
-[discrete]
 [[swap-space]]
 ==== image:images/yes.png[yes] swap space (noun)
 *Description*:  A Linux system uses _swap space_ when it needs more memory resources and the RAM is full. The system moves inactive pages to the swap space to free memory.
@@ -1215,7 +1112,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[sybase-adaptive-server-enterprise]]
 ==== image:images/yes.png[yes] Sybase Adaptive Server Enterprise (noun)
 *Description*: Sybase Corporation developed _Sybase Adaptive Server Enterprise_ as a relational database management system that became part of SAP AG. Use "SAP Sybase Adaptive Server Enterprise (ASE)" on the first use; on subsequent mentions, use "Sybase ASE". If discussing the high-availability version, use "Sybase ASE and High Availability".
@@ -1226,7 +1122,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*:
 
-[discrete]
 [[symmetric-encryption]]
 ==== image:images/yes.png[yes] symmetric encryption (noun)
 *Description*: _Symmetric encryption_ is a type of encryption where the same key encrypts and decrypts the message. In contrast, asymmetric (or public-key) encryption uses one key to encrypt a message and another to decrypt the message.
@@ -1241,7 +1136,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 // Fuse: Changed "Fuse Ignite" to "Fuse Online" (Breda)
 // Fuse: Added "Ignite" and "Fuse Ignite" to "Incorrect forms" (Breda)
 // Fuse: Changed "Fuse Ignite" to "Fuse Online" in "See also" (Breda)
-[discrete]
 [[syndesis]]
 ==== image:images/yes.png[yes] Syndesis (noun)
 *Description*: _Syndesis_ is the community name for Fuse Online.
@@ -1253,7 +1147,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 *See also*: xref:fuse-online[Fuse Online]
 
 // RHV: General; kept as is
-[discrete]
 [[sysprep]]
 ==== image:images/yes.png[yes] sysprep (noun)
 *Description*: _Sysprep_ is a tool that automates the configuration of Windows virtual machines. Red Hat Virtualization enhances Sysprep by building a tailored auto-answer file for each virtual machine.
@@ -1266,7 +1159,6 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 *See also*:
 
-[discrete]
 [[systemd]]
 ==== image:images/yes.png[yes] systemd (noun)
 *Description*: _Systemd_ is a system and service manager that is used as the default system daemon for Red Hat Enterprise Linux 7 and later.
@@ -1277,7 +1169,6 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 *See also*:
 
-[discrete]
 [[sysv]]
 ==== image:images/yes.png[yes] SysV (noun)
 *Description*: The _SysV_ init runlevel system provides a standard process for controlling which programs init launches or halts when initializing a runlevel.
