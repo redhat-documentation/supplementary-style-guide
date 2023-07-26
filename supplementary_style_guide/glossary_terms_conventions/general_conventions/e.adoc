@@ -34,6 +34,24 @@
 
 *See also*:
 
+[discrete]
+[[elb]]
+==== image:images/yes.png[yes] Elastic Load Balancing (noun)
+*Description*: _Elastic Load Balancing (ELB)_ automatically distributes incoming traffic across multiple targets, such as Amazon Elastic Container Service (ECS) instances, and IP addresses in one or more Availability Zones (AZs). ELB supports the following load balancers:
+
+* Application Load Balancer
+* Classic Load Balancer
+* Gateway Load Balancer
+* Network Load Balancer
+
+Do not abbreviate any of the previously listed load balancer terms.
+
+*Use it*: yes
+
+*Incorrect forms*: Elastic Load Balancer
+
+*See also*:
+
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[elytron]]
 ==== image:images/yes.png[yes] elytron subsystem (noun)
