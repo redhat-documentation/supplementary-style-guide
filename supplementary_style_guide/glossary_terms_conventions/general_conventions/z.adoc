@@ -1,4 +1,3 @@
-[discrete]
 [[z-stream]]
 ==== image:images/caution.png[with caution] z-stream (noun)
 *Description*: _z-stream_ refers to the *_z_* in an _x.y.z_ product version numbering schema. Use only if required for generic reference to a release and the term is in use already by the product. In all other instances refer to the specific release number.
@@ -10,7 +9,6 @@
 *See also*: xref:micro-release[micro release]
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[zone]]
 ==== image:images/yes.png[yes] zone (noun)
 *Description*: In Red Hat Ceph Storage, a _zone_ represents a physical location consisting of a Ceph Storage Cluster and nodes running the Ceph Object Gateway daemons.
@@ -22,7 +20,6 @@
 *See also*: xref:zone-group[zone group]
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[zone-group]]
 ==== image:images/yes.png[yes] zone group (noun)
 *Description*: In Red Hat Ceph Storage, a _zone group_ is a list of zones. A zone group always has one master zone, and can have multiple secondary zones. A realm has one master zone group, which manages users and metadata for the realm.
@@ -33,7 +30,6 @@
 
 *See also*: xref:zone[zone], xref:realm[realm], xref:region[region]
 
-[discrete]
 [[z-series]]
 ==== image:images/no.png[no] zSeries (noun)
 *Description*: "IBM Z" is the correct usage. Do not use "S/390x", "s390x", "IBM zSeries", or "zSeries".
@@ -42,4 +38,4 @@
 
 *Incorrect forms*: S/390x, s390x, IBM zSeries, zSeries
 
-*See also*: xref:ibm-z[IBM Z], xref:ibm-s-390[IBM S/390]
+*See also*: xref:ibm-z[IBM Z]

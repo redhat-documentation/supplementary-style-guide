@@ -2,7 +2,7 @@
 [[graphical-interfaces]]
 = Graphical interfaces
 
-For more detailed guidance on how to document UI elements, see link:https://www.patternfly.org/v4/ux-writing/about[PatternFly].
+For more detailed guidance on how to document user interface (UI) elements, see link:https://www.patternfly.org/v4/ux-writing/about[PatternFly].
 
 [[microcopy]]
 == Microcopy
@@ -29,12 +29,16 @@ In the *Name* field, enter `test-postgresql`.
 [[user-interface-elements]]
 == User interface elements
 
-Bold all graphical user interface elements, including, but not limited to, menu names, menu items, button names, dialog box names, and window names. Bold the item, even if it is not clickable.
+Use bold text for all graphical user interface (GUI) element names, including menus, menu items, buttons, dialog boxes, and windows. Use bold text for the element name if the name appears in the GUI, even if the element is not clickable.
 
 .Example AsciiDoc
 ----
 On the *Installed Operators* page, click *Metering*.
 ----
+
+If an element is not labeled in the GUI, refer to the element by a generic description and do not use bold text. For example, if a search field is not labeled in the GUI, write it as "the search field", not "the *Search* field".
+
+
 
 
 // TODO: Add new style entries alphabetically in this file

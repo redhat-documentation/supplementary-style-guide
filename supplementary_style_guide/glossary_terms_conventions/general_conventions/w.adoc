@@ -1,4 +1,3 @@
-[discrete]
 [[wan]]
 ==== image:images/yes.png[yes] WAN (noun)
 *Description*: _WAN_ is an acronym for "wide-area network", which is a computer network that spans a relatively large geographical area. Typically, a WAN consists of two or more local-area networks (LANs). Computers connected to a wide-area network are often connected through public networks, such as the telephone system. Connections can be through leased lines or satellites. The largest WAN in existence is the internet.
@@ -9,7 +8,6 @@
 
 *See also*:
 
-[discrete]
 [[want]]
 ==== image:images/caution.png[with caution] want (verb)
 *Description*: Use "want" instead of "wish" or "would like". It is better to avoid it entirely by rewriting the sentence.
@@ -20,7 +18,6 @@
 
 *See also*:
 
-[discrete]
 [[wca]]
 ==== image:images/yes.png[yes] WCA (noun)
 *Description*: _WCA_ is an abbreviation for "web clipping application", which is an application that allows users to extract static information from a web server and load that data onto a web-enabled PDA. WCAs are also called "query applications".
@@ -31,7 +28,6 @@
 
 *See also*:
 
-[discrete]
 [[we-suggest]]
 ==== image:images/no.png[no] we suggest (verb)
 *Description*: Do not use "we suggest". Use a more direct construction instead. For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk".
@@ -43,7 +39,6 @@
 *See also*: xref:recommend[recommend]
 
 // RHEL: General; kept as is
-[discrete]
 [[web-server]]
 ==== image:images/yes.png[yes] web server (noun)
 *Description*: A _web server_ is the computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol for distributing web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent.
@@ -54,7 +49,6 @@
 *See also*: xref:directory-server-product[Directory Server], xref:certificate-authority[certificate authority]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[web-services]]
 ==== image:images/yes.png[yes] Web services (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
@@ -65,7 +59,6 @@
 
 *See also*:
 
-[discrete]
 [[web-ui]]
 ==== image:images/yes.png[yes] web UI (noun)
 *Description*: Use "web UI" to refer to a browser-based interface to a software application, even if that application has no connection to the web. If necessary, spell out web UI on first use. Do not hyphenate the abbreviation or use the one-word form.
@@ -77,7 +70,6 @@
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[webhttp-undertow]]
 ==== image:images/yes.png[yes] WebHTTP - Undertow (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the `undertow` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
@@ -89,7 +81,6 @@
 *See also*: xref:undertow[undertow]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[webservices]]
 ==== image:images/yes.png[yes] webservices subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
@@ -101,7 +92,6 @@
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[weld]]
 ==== image:images/yes.png[yes] weld subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _weld subsystem_ is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the `weld` subsystem in titles and headings.
@@ -112,7 +102,6 @@
 
 *See also*:
 
-[discrete]
 [[who]]
 ==== image:images/yes.png[yes] who (pronoun)
 *Description*: Use the pronoun "who" as a subject, for example, "Who owns this?"
@@ -123,7 +112,6 @@
 
 *See also*: xref:whom[whom]
 
-[discrete]
 [[whom]]
 ==== image:images/yes.png[yes] whom (pronoun)
 *Description*: Use the pronoun "whom" as a direct object, an indirect object, or the object of a preposition, for example, "To whom does this belong?"
@@ -134,7 +122,6 @@
 
 *See also*: xref:who[who]
 
-[discrete]
 [[will]]
 ==== image:images/caution.png[with caution] will (verb)
 *Description*: Do not use future tense unless it is absolutely necessary.
@@ -145,7 +132,6 @@
 
 *See also*:
 
-[discrete]
 [[window-maker]]
 ==== image:images/yes.png[yes] Window Maker (noun)
 *Description*: _Window Maker_ is a window manager for the X Window System. Do not combine "Window Maker" into one word or hyphenate the two words.
@@ -157,7 +143,6 @@
 *See also*:
 
 // EAP: General; kept as is
-[discrete]
 [[windows-server]]
 ==== image:images/yes.png[yes] Windows Server (noun)
 *Description*: Use "Windows Server" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. Do not precede the product name with "Microsoft".
@@ -169,7 +154,6 @@
 *See also*: xref:microsoft-windows[Microsoft Windows]
 
 // CloudForms: Added "In Red Hat CloudForms, the _Worker Appliance_ is"
-[discrete]
 [[worker-appliance]]
 ==== image:images/yes.png[yes] Worker Appliance (noun)
 *Description*: In Red Hat CloudForms, the _Worker Appliance_ is a Red Hat CloudForms appliance dedicated to a role other than User Interface or database.
@@ -181,7 +165,6 @@
 *See also*:
 
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-[discrete]
 [[working-memory]]
 ==== image:images/yes.png[yes] working memory (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
@@ -192,7 +175,6 @@
 
 *See also*:
 
-[discrete]
 [[write]]
 ==== image:images/yes.png[yes] write (verb)
 *Description*: Use "write" instead of "code" as a verb.
