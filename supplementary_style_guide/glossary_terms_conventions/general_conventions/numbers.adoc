@@ -1,4 +1,3 @@
-[discrete]
 [[bit-64-arm]]
 ==== image:images/yes.png[yes] 64-bit ARM (noun)
 *Description*: A 64-bit version of the ARM architecture. This term can refer to both AArch66/`aarch64` and ARM64/`arm64`. Use this format in general cases when writing for both names of the architecture for various cloud providers.
@@ -16,7 +15,6 @@ Example:
 
 *See also*: xref:aarch64[aarch64], xref:arm64[arm64]
 
-[discrete]
 [[bit-64-x86]]
 ==== image:images/yes.png[yes] 64-bit x86 (noun)
 *Description*: A 64-bit version of the x86 architecture. This term can refer to both x86_64 and AMD64/`amd64`. Use this format in general cases when writing for both names of the architectures for various cloud providers.

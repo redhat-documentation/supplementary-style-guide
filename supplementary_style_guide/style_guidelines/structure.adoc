@@ -99,7 +99,6 @@ Follow these guidelines when writing short descriptions:
 .Example short description 1
 --
 ====
-[discrete]
 ==== Creating a group and adding a system
 
 Group many systems together in the Edge Management application [*what*] to manage them more easily [*why*]. For example, you can more easily mitigate vulnerabilities and update systems that are alike. 
@@ -109,7 +108,6 @@ Group many systems together in the Edge Management application [*what*] to manag
 .Example short description 2
 --
 ====
-[discrete]
 ==== Creating a Kafka instance in OpenShift Streams for Apache Kafka
 
 To connect OpenShift Streams for Apache Kafka to other applications or services [*why*], create and configure a Kafka instance in the web console [*what*]. A Kafka instance in OpenShift Streams for Apache Kafka includes the following items:

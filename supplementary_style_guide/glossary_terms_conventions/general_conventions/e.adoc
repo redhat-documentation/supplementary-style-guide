@@ -1,5 +1,4 @@
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[ee]]
 ==== image:images/yes.png[yes] ee subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _ee subsystem_ is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the `ee` subsystem in titles and headings.
@@ -14,7 +13,6 @@
 // Fuse: Prefixed second sentence with "In Red Hat Fuse, an EIP is a" (Breda)
 // Fuse: Changed "Camel" to "Red Hat Fuse" (Breda)
 // Fuse: Removed the final sentence about the Palette (Breda)
-[discrete]
 [[eip]]
 ==== image:images/yes.png[yes] EIP (noun)
 *Description*: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red Hat Fuse implements numerous patterns for asynchronous messaging.
@@ -26,7 +24,6 @@
 *See also*: xref:component[component]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[ejb3]]
 ==== image:images/yes.png[yes] ejb3 subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
@@ -37,8 +34,24 @@
 
 *See also*:
 
+[[elb]]
+==== image:images/yes.png[yes] Elastic Load Balancing (noun)
+*Description*: _Elastic Load Balancing (ELB)_ automatically distributes incoming traffic across multiple targets, such as Amazon Elastic Container Service (ECS) instances, and IP addresses in one or more Availability Zones (AZs). ELB supports the following load balancers:
+
+* Application Load Balancer
+* Classic Load Balancer
+* Gateway Load Balancer
+* Network Load Balancer
+
+Do not abbreviate any of the previously listed load balancer terms.
+
+*Use it*: yes
+
+*Incorrect forms*: Elastic Load Balancer
+
+*See also*:
+
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[elytron]]
 ==== image:images/yes.png[yes] elytron subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the xref:security-elytron[Security - Elytron] entry.
@@ -49,7 +62,6 @@
 
 *See also*: xref:security-elytron[Security - Elytron]
 
-[discrete]
 [[emacs]]
 ==== image:images/yes.png[yes] Emacs (noun)
 *Description*: _Emacs_ is a text editor that is available on the UNIX system and similar operating systems. Like vi, Emacs is a screen editor. Unlike vi, Emacs is not an insertion mode editor, meaning that any character typed in Emacs is automatically inserted into the file, unless it includes a command prefix.
@@ -62,7 +74,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-[discrete]
 [[emit]]
 ==== image:images/yes.png[yes] emit (verb)
 *Description*: _Emit_ means to send something out. Do not use "send out" because that is too informal and imprecise. Alternatively, use "issue".
@@ -76,7 +87,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 // OCP: General; kept as is
 // Fuse: Added "In Red Hat Fuse," and removed "In Camel"
 // Combined entries; moved to "with caution" since the Fuse one is with caution
-[discrete]
 [[endpoint]]
 ==== image:images/caution.png[with caution] endpoint (noun)
 *Description*: 1) The servers that back a service. 2) In Red Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
@@ -87,7 +97,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*: xref:component[component], xref:consumer[consumer], xref:producer[producer]
 
-[discrete]
 [[enter-n]]
 ==== image:images/yes.png[yes] Enter (noun)
 *Description*: When referring to the keyboard key, use "Enter". If referring to the keyboard key on Solaris, use "Return".
@@ -98,7 +107,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*: xref:return[return]
 
-[discrete]
 [[entitlement]]
 ==== image:images/caution.png[with caution] entitlement (noun)
 *Description*: _Entitlement_ refers to the number of systems that can be attached to an individual subscription. When you use Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription's available entitlements. Do not use "entitlement" and "subscription" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
@@ -109,7 +117,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*: xref:subscription[subscription], xref:repository[repository]
 
-[discrete]
 [[environment]]
 ==== image:images/yes.png[yes] environment (noun)
 *Description*: In IT, _environment_ refers to the state of a computer, usually determined by which programs are running and basic hardware and software characteristics. For example, when one speaks of running a program in a UNIX "environment", it means running a program on a computer that has the UNIX operating system. One ingredient of an environment is the operating system, but operating systems include a number of different parameters. For example, many operating systems allow you to choose your command prompt or a default command path. All of these parameters taken together comprise the environment.
@@ -120,7 +127,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-[discrete]
 [[essentially]]
 ==== image:images/no.png[no] essentially (adverb)
 *Description*: Do not use "essentially". It does not add anything to the sentence.
@@ -132,7 +138,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 *See also*:
 
 // RHSSO: General; kept as is and combined with other event entry
-[discrete]
 [[event]]
 ==== image:images/yes.png[yes] event (noun)
 *Description*: 1) An _event_ is an action or occurrence detected by a program. Events can be user actions, such as clicking a mouse button or pressing a key, or system occurrences, such as running out of memory. 2) An event is an audit stream that administrators view and connect to.
@@ -143,7 +148,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-[discrete]
 [[examine]]
 ==== image:images/yes.png[yes] examine (verb)
 *Description*: Use "examine" instead of "look at".
@@ -154,7 +158,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-[discrete]
 [[exec-shield]]
 ==== image:images/yes.png[yes] Exec-Shield (noun)
 *Description*: _Exec-Shield_ is a security-enhancing modification to the Linux kernel that makes large parts of specially marked programs including their stack not executable.
@@ -165,7 +168,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-[discrete]
 [[exif]]
 ==== image:images/yes.png[yes] Exif (noun)
 *Description*: _Exif_ is an image file format specification that enables metadata tags to be added to existing JPEG, TIFF, and RIFF files. _Exif_ is sometimes referred to as _Exif Print_.
@@ -177,7 +179,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed one of the "JBoss EAP" instances in the first sentence
-[discrete]
 [[expansion-pack]]
 ==== image:images/yes.png[yes] Expansion Pack (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, _Expansion Pack_ is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
@@ -188,7 +189,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*: xref:xp[XP]
 
-[discrete]
 [[extranet]]
 ==== image:images/yes.png[yes] extranet (noun)
 *Description*: _Extranet_ refers to an "intranet" that is partially accessible to authorized outsiders. Whereas an intranet resides behind a firewall and is accessible only to people who are members of the same company or organization, an extranet provides various levels of accessibility to outsiders. You can access an extranet only if you have a valid user name and password. Your identity determines which parts of the extranet you can view.

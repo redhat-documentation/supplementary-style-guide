@@ -1,5 +1,4 @@
 // AMQ: Added "In Red Hat AMQ, a target is"
-[discrete]
 [[target]]
 ==== image:images/yes.png[yes] target (noun)
 *Description*: In Red Hat AMQ, a _target_ is a message's destination. This is usually a queue or topic.
@@ -11,7 +10,6 @@
 *See also*: xref:source[source]
 
 // RHEL: Added "In Red Hat Enterprise Linux, the target kernel is"
-[discrete]
 [[target-kernel]]
 ==== image:images/yes.png[yes] target kernel (noun)
 *Description*: In Red Hat Enterprise Linux, the _target kernel_ is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
@@ -23,7 +21,6 @@
 *See also*: xref:target-system[target system], xref:instrumentation-module[instrumentation module]
 
 // RHEL: Added "In Red Hat Enterprise Linux, the target system is"
-[discrete]
 [[target-system]]
 ==== image:images/yes.png[yes] target system (noun)
 *Description*: In Red Hat Enterprise Linux, the _target system_ is the system in which the instrumentation module is being built from `SystemTap` scripts.
@@ -34,7 +31,6 @@
 
 *See also*: xref:instrumentation-module[instrumentation module]
 
-[discrete]
 [[tcp]]
 ==== image:images/yes.png[yes] TCP (noun)
 *Description*: The _Transmission Control Protocol (TCP)_ is a connection-oriented protocol. Clients that are communicating over TCP must establish a connection to a server before data can be sent. TCP prefers reliability over time. Do not expand the abbreviation on the first usage.
@@ -45,7 +41,6 @@
 
 *See also*:
 
-[discrete]
 [[technology-preview]]
 ==== image:images/yes.png[yes] Technology Preview (noun)
 *Description*: _Technology Preview_ features provide early access to upcoming product innovations, enabling customers to test functionality and provide feedback during the development process. However, these features are not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information.
@@ -57,7 +52,6 @@
 *See also*:
 
 // OCP: Added "In Red Hat OpenShift,"
-[discrete]
 [[template]]
 ==== image:images/yes.png[yes] template (noun)
 *Description*: In Red Hat OpenShift, a _template_ describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
@@ -68,7 +62,6 @@
 
 *See also*:
 
-[discrete]
 [[terminal-emulation]]
 ==== image:images/yes.png[yes] terminal emulation (noun)
 *Description*: _Terminal emulation_ refers to making a computer respond like a particular type of terminal. Terminal emulation programs allow you to access a mainframe computer or bulletin board service with a personal computer.
@@ -79,7 +72,6 @@
 
 *See also*:
 
-[discrete]
 [[text-mode]]
 ==== image:images/yes.png[yes] text mode (noun)
 *Description*: _Text mode_ is a video mode in which a display screen is divided into rows and columns of boxes. Each box can contain one character. Text mode is also called _character mode_.
@@ -90,7 +82,6 @@
 
 *See also*:
 
-[discrete]
 [[text-based]]
 ==== image:images/yes.png[yes] text-based (adjective)
 *Description*: Use "text-based" as an adjective when referring to a text-based operating system or interface.
@@ -102,7 +93,6 @@
 *See also*:
 
 // RHSSO: General; removed RHSSO-specific sentence
-[discrete]
 [[theme]]
 ==== image:images/yes.png[yes] theme (noun)
 *Description*: A _theme_ defines HTML templates and stylesheets that you can override as you require.
@@ -113,7 +103,6 @@
 
 *See also*:
 
-[discrete]
 [[thin-provisioned]]
 ==== image:images/yes.png[yes] thin-provisioned (adjective)
 *Description*: _Thin-provisioning_ is a mechanism that allocates disk storage space in a flexible manner, based on the minimum space required at any given time. Thin-provisioned storage is also referred to as "sparse" in some contexts.
@@ -124,7 +113,6 @@
 
 *See also*:
 
-[discrete]
 [[throughput]]
 ==== image:images/yes.png[yes] throughput (noun)
 *Description*: _Throughput_ is the amount of data transferred from one place to another or processed in a specified amount of time. Data transfer rates for disk drives and networks are measured in terms of throughput. Typically, throughput is measured in kbps, Mbps, or Gbps. For more information about using measurements and abbreviations, see the _IBM Style_ guide.
@@ -136,7 +124,6 @@
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[ticket-granting-ticket]]
 ==== image:images/yes.png[yes] ticket-granting ticket (noun)
 *Description*: After authenticating to a Kerberos Key Distribution Center (KDC), a user receives a _ticket-granting ticket (TGT)_, which is a temporary set of credentials that can be used to request access tickets to other services, such as websites and email.
@@ -148,7 +135,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *See also*: xref:key-distribution-center[Key Distribution Center]
 
-[discrete]
 [[tier-1]]
 ==== image:images/yes.png[yes] tier-1 (adjective)
 *Description*: Always hyphenate "tier-1" and indicate the number in numeral form. Follow standard capitalization guidelines.
@@ -159,7 +145,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *See also*:
 
-[discrete]
 [[time-frame]]
 ==== image:images/yes.png[yes] time frame (noun)
 *Description*: _Time frame_ is a period of time with respect to some action or project. It is most commonly styled as two words.
@@ -170,7 +155,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *See also*:
 
-[discrete]
 [[time-to-live-n]]
 ==== image:images/yes.png[yes] time to live (noun)
 *Description*: Do not capitalize "time to live" unless you are documenting a GUI field, label, or similar element, in which case you should use the same capitalization. Capitalization at the beginning of a sentence is acceptable.
@@ -181,7 +165,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *See also*: xref:ttl[TTL], xref:time-to-live-adj[time-to-live]
 
-[discrete]
 [[time-to-live-adj]]
 ==== image:images/yes.png[yes] time-to-live (adjective)
 *Description*: Do not capitalize "time-to-live" unless you are documenting a GUI field, label, or similar element, in which case you should use the same capitalization. Capitalization at the beginning of a sentence is acceptable.
@@ -194,7 +177,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 // RHDS: Duplicated this entry so didn't include it, but incorporated its guidance to "Do not expand the abbreviation on the first usage."
 // Updated anchor to just "tls"
-[discrete]
 [[tls]]
 ==== image:images/yes.png[yes] TLS (noun)
 *Description*: _TLS_ is an initialism for "Transport Layer Security (TLS)", and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on the first usage.
@@ -211,7 +193,6 @@ Use "SSL/TLS" in high-level documentation entries, such as headings, to establis
 
 *See also*: xref:ssl[SSL], xref:ssl-tls[SSL/TLS], xref:symmetric-encryption[symmetric encryption], xref:tls-handshake[TLS handshake], xref:trusted-certificate-authority[trusted certificate authority]
 
-[discrete]
 [[tls-handshake]]
 ==== image:images/yes.png[yes] TLS handshake (noun)
 *Description*: A _TLS handshake_ is the process of a client checking the validity of a certificate on a web server for authentication purposes.
@@ -227,7 +208,6 @@ A client requests a certificate from a web server. On receiving the certificate,
 *See also*: xref:tls[TLS], xref:symmetric-encryption[symmetric encryption], xref:trusted-certificate-authority[trusted certificate authority]
 
 // AMQ: Added "In Red Hat AMQ, a topic is"
-[discrete]
 [[topic]]
 ==== image:images/yes.png[yes] topic (noun)
 *Description*: In Red Hat AMQ, a _topic_ is a stored sequence of messages for read-only distribution.
@@ -238,7 +218,6 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *See also*:
 
-[discrete]
 [[totally]]
 ==== image:images/no.png[no] totally (adverb)
 *Description*: Do not use "totally".
@@ -250,7 +229,6 @@ A client requests a certificate from a web server. On receiving the certificate,
 *See also*: xref:basically[basically]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[transactions]]
 ==== image:images/yes.png[yes] transactions subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _transactions subsystem_ is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the `transactions` subsystem in titles and headings.
@@ -261,7 +239,6 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *See also*:
 
-[discrete]
 [[trusted-certificate-authority]]
 ==== image:images/yes.png[yes] trusted certificate authority (noun)
 *Description*: A _trusted certificate authority (CA)_ is a third-party entity that creates TLS certificates, known as CA certificates, for authentication purposes. A trusted CA is different from a self-signed certificate in that a self-signed certificate has its own private key and does not need to request a key from a public or private CA.
@@ -275,7 +252,6 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 *See also*: xref:tls[TLS]
 
 // EAP: General; kept as is
-[discrete]
 [[truststore]]
 ==== image:images/yes.png[yes] truststore (noun)
 *Description*: A _truststore_ is a repository of trusted security certificates. Write in lowercase as one word. This is in contrast to a _keystore_, which stores private and self-certified certificates.
@@ -287,7 +263,6 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 *See also*: xref:keystore[keystore]
 
 // BxMS: Added "In Red Hat Process Automation Manager,"
-[discrete]
 [[truth-maintenance-system]]
 ==== image:images/yes.png[yes] truth maintenance system (noun)
 *Description*: In Red Hat Process Automation Manager, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. A truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the TMS to justify the assertion.
@@ -298,7 +273,6 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *See also*:
 
-[discrete]
 [[ttl]]
 ==== image:images/yes.png[yes] TTL (noun)
 *Description*: _TTL_ is an abbreviation for "time to live" (noun) and "time-to-live" (adjective). The abbreviation is always in uppercase letters.

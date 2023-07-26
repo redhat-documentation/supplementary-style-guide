@@ -1,5 +1,4 @@
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[mail]]
 ==== image:images/yes.png[yes] mail subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `mail` subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lowercase in general text. Use "Mail subsystem" when referring to the mail subsystem in titles and headings.
@@ -10,7 +9,6 @@
 
 *See also*:
 
-[discrete]
 [[mac-address]]
 ==== image:images/yes.png[yes] MAC address (noun)
 *Description*: Hardware vendors assign a unique Media Access Control address (_MAC address_) to each network interface controller, and typically store the MAC address in the device's read-only memory or firmware. MAC addresses are represented as six groups of hexadecimal digits, separated by hyphens or colons. Use "MAC address" instead of "MAC".
@@ -21,7 +19,6 @@
 
 *See also*:
 
-[discrete]
 [[man-page]]
 ==== image:images/yes.png[yes] man page (noun)
 *Description*: "Man page" is an abbreviation for "manual page".
@@ -33,7 +30,6 @@
 *See also*: xref:manual-page[manual page]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[managed-domain]]
 ==== image:images/yes.png[yes] managed domain (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, a "_managed domain_ is a group of JBoss EAP instances managed from a single control point. This is the appropriate way to refer to the managed domain operating mode. For example, "When running the JBoss EAP server in a managed domain".
@@ -46,7 +42,6 @@
 
 
 // RHEL: General; kept as is
-[discrete]
 [[managed-nodes]]
 ==== image:images/yes.png[yes] managed nodes (noun)
 *Description*: The network devices, servers, or both that you manage with Ansible. "Managed nodes" are also sometimes called “hosts”. Ansible is not installed on managed nodes.
@@ -58,7 +53,6 @@
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[management-cli]]
 ==== image:images/yes.png[yes] management CLI (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "management CLI" to refer to the command-line interface for the JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
@@ -70,7 +64,6 @@
 *See also*: xref:native-interface[native interface]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[management-console]]
 ==== image:images/yes.png[yes] management console (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "management console" when referring to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
@@ -82,7 +75,6 @@
 *See also*: xref:http-interface[HTTP interface]
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[manager-virtual-machine]]
 ==== image:images/yes.png[yes] Manager virtual machine (noun)
 *Description*: In Red Hat Virtualization, "Manager virtual machine" refers specifically to the virtual machine created during self-hosted engine deployment. Use this term when referring to the machine (for example, "Log in to the Manager virtual machine"); the Manager itself can still be referred to as such (for example, "Add a host to the Manager").
@@ -93,7 +85,6 @@
 
 *See also*: xref:self-hosted-engine[self-hosted engine]
 
-[discrete]
 [[manual-page]]
 ==== image:images/yes.png[yes] manual page (noun)
 *Description*: A _manual page_ is a form of software documentation tied directly with packages providing that software. It is accessible by using the `man <utility>` command from the command-line interface.
@@ -104,7 +95,6 @@
 
 *See also*: xref:man-page[man page]
 
-[discrete]
 [[many]]
 ==== image:images/yes.png[yes] many (noun)
 *Description*: Use "many" to indicate the number of objects.
@@ -116,7 +106,6 @@
 *See also*:
 
 // RHDS: General; added "In an LDAP replication environment,"
-[discrete]
 [[master]]
 ==== image:images/no.png[no] master (noun)
 *Description*: In an LDAP replication environment, do not use "master" to refer to a supplier.
@@ -127,7 +116,6 @@
 
 *See also*: xref:supplier[supplier]
 
-[discrete]
 [[master-boot-record]]
 ==== image:images/yes.png[yes] Master Boot Record (noun)
 *Description*: _Master Boot Record_ (MBR) is a small program that is executed when a computer boots up. Typically, the MBR resides on the first sector of the hard disk. The program begins the boot process by looking up the partition table to determine which partition to use for booting. The program then transfers program control to the boot sector of that partition, which continues the boot process.
@@ -139,7 +127,6 @@
 *See also*: xref:mbr[MBR]
 
 // AMQ: Added "In Red Hat AMQ, the master broker is"
-[discrete]
 [[master-broker]]
 ==== image:images/yes.png[yes] master broker (noun)
 *Description*: In Red Hat AMQ, the _master broker_ is the broker that serves client requests in a master-slave group.
@@ -151,7 +138,6 @@
 *See also*: xref:master-slave-group[master-slave group], xref:slave-broker[slave broker]
 
 // AMQ: Added "In Red Hat AMQ, a master-slave group is"
-[discrete]
 [[master-slave-group]]
 ==== image:images/yes.png[yes] master-slave group (noun)
 *Description*: In Red Hat AMQ, a _master-slave group_ is a broker high availability configuration in which a master broker is linked to slave brokers. If a failover event occurs, the slave broker(s) take over the master broker's workload.
@@ -162,7 +148,6 @@
 
 *See also*:
 
-[discrete]
 [[matrixes]]
 ==== image:images/yes.png[yes] matrixes (noun)
 *Description*: In mathematics, a _matrix_ is a rectangular array of numbers, symbols, or expressions arranged in rows and columns. The correct plural form for US English spelling is "matrixes".
@@ -173,7 +158,6 @@
 
 *See also*:
 
-[discrete]
 [[MB]]
 ==== image:images/yes.png[yes] MB (noun)
 *Description*: "MB" is an abbreviation for "megabyte", which is 1,000,000 bytes or 1,048,576 bytes, depending on the context.
@@ -184,7 +168,6 @@
 
 *See also*: xref:Mb[Mb]
 
-[discrete]
 [[Mb]]
 ==== image:images/yes.png[yes] Mb (noun)
 *Description*: "Mb" is an abbreviation for "megabit". One megabit equals 1000 kilobits or 1,000,000 bits.
@@ -195,7 +178,6 @@
 
 *See also*: xref:MB[MB]
 
-[discrete]
 [[mbps]]
 ==== image:images/yes.png[yes] MBps (noun)
 *Description*: "MBps" is an abbreviation for "megabytes per second", a measure of data transfer speed. Mass storage devices are generally measured in MBps.
@@ -206,7 +188,6 @@
 
 *See also*:
 
-[discrete]
 [[mbr]]
 ==== image:images/yes.png[yes] MBR (noun)
 *Description*: "MBR" is an abbreviation for "Master Boot Record".
@@ -218,7 +199,6 @@
 *See also*: xref:master-boot-record[Master Boot Record]
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[mds]]
 ==== image:images/yes.png[yes] MDS (noun)
 *Description*: In Red Hat Ceph Storage, "MDS" is an abbreviation for the Ceph Metadata Server.
@@ -229,7 +209,6 @@
 
 *See also*: xref:metadata-server[Metadata Server], xref:ceph-mds[ceph-mds]
 
-[discrete]
 [[media]]
 ==== image:images/yes.png[yes] media (noun)
 *Description*: (1) _Media_ are objects on which data can be stored. These objects include hard disks, diskettes, CDs, and tapes. (2) In computer networks, "media" refer to the cables linking workstations together. There are many different types of transmission media, the most popular being twisted-pair wire (normal electrical wire), coaxial cable (the type of cable used for cable television), and fiber optic cable (cables made out of glass). (3) "Media" can also mean the form and technology used to communicate information. Multimedia presentations, for example, combine sound, pictures, and videos, all of which are different types of media.
@@ -240,7 +219,6 @@
 
 *See also*:
 
-[discrete]
 [[menu-driven]]
 ==== image:images/yes.png[yes] menu-driven (adjective)
 *Description*: Use "menu-driven" to refer to programs whose user interface employs menus rather than command-line interface commands.
@@ -252,7 +230,6 @@
 *See also*: xref:command-driven[command-driven]
 
 // Fuse: Added "In Red Hat Fuse," and removed "In Camel"
-[discrete]
 [[mep]]
 ==== image:images/yes.png[yes] MEP (noun)
 *Description*: Message Exchange Pattern. In Red Hat Fuse, the _MEP_ is the part of the message exchange that selects between one of two messaging modes: one-way (`InOnly`) or request-reply (`InOut`). The default is `InOnly`.
@@ -266,7 +243,6 @@
 // AMQ: Added "In Red Hat AMQ, a message is"
 // Fuse: Added "In Red Hat Fuse," and removed "In Camel"
 // Combined entries
-[discrete]
 [[message]]
 ==== image:images/yes.png[yes] message (noun)
 *Description*: (1) In Red Hat AMQ, a _message_ is a mutable holder of application content. (2) In Red Hat Fuse, the message is the fundamental structure for moving data through a route. A message consists of a body (also known as payload), headers, and attachments (optional). Messages flow in one direction from sender to receiver. Headers contain metadata, such as sender IDs, content encoding hints, and so on. Attachments can be text, image, audio, or video files and are typically used with email and web service components.
@@ -278,7 +254,6 @@
 *See also*: xref:message-exchange[message exchange]
 
 // AMQ: Added "In Red Hat AMQ, a message address is"
-[discrete]
 [[message-address]]
 ==== image:images/caution.png[with caution] message address (noun)
 *Description*: In Red Hat AMQ, a _message address_ is the name of a source or destination endpoint for messages within the messaging network. Message addresses can designate entities, such as queues and topics. The term "address" is also acceptable, but should not be confused with "TCP/IP addresses". In JMS, the term "destination" may be used.
@@ -290,7 +265,6 @@
 *See also*: xref:destination[destination]
 
 // Fuse: Added "In Red Hat Fuse," and removed "In Camel"
-[discrete]
 [[message-exchange]]
 ==== image:images/yes.png[yes] message exchange (noun)
 *Description*:  In Red Hat Fuse, _message exchanges_ deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are en route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, an MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.
@@ -302,7 +276,6 @@
 *See also*: xref:message[message], xref:mep[MEP]
 
 // AMQ: Added "In Red Hat AMQ, message routing is"
-[discrete]
 [[message-routing]]
 ==== image:images/yes.png[yes] message routing (noun)
 *Description*: In Red Hat AMQ, _message routing_ is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.
@@ -314,7 +287,6 @@
 *See also*: xref:link-routing[link routing]
 
 // AMQ: Added "In Red Hat AMQ, message settlement"
-[discrete]
 [[message-settlement]]
 ==== image:images/yes.png[yes] message settlement (noun)
 *Description*: In Red Hat AMQ, _message settlement_ is the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.
@@ -326,7 +298,6 @@
 *See also*: xref:delivery[delivery]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[messaging-activemq-management]]
 ==== image:images/yes.png[yes] Messaging - ActiveMQ (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "Messaging - ActiveMQ" when describing the `messaging-activemq` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "MQ" is also in uppercase.
@@ -338,7 +309,6 @@
 *See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-subsystem[messaging subsystem]
 
 // AMQ: Added "In Red Hat AMQ, the messaging API is"
-[discrete]
 [[messaging-api]]
 ==== image:images/yes.png[yes] messaging API (noun)
 *Description*: In Red Hat AMQ, the _messaging API_ is the client libraries and APIs used to create client applications. These libraries are provided by AMQ Clients.
@@ -350,7 +320,6 @@
 *See also*: xref:amq-clients[AMQ Clients], xref:client-application[client application]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[messaging-subsystem]]
 ==== image:images/yes.png[yes] messaging subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, for the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry.
@@ -362,7 +331,6 @@
 *See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-activemq-management[Messaging - ActiveMQ]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[messaging-activemq]]
 ==== image:images/yes.png[yes] messaging-activemq subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. For the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry.
@@ -374,7 +342,6 @@
 *See also*: xref:messaging-activemq-management[Messaging - ActiveMQ], xref:messaging-subsystem[messaging subsystem]
 
 // Ceph: Added "In Red Hat Ceph Storage, Metadata Server is"
-[discrete]
 [[metadata-server]]
 ==== image:images/yes.png[yes] Metadata Server (noun)
 *Description*: In Red Hat Ceph Storage, "Metadata Server" is another name for the `ceph-mds` daemon.
@@ -385,7 +352,6 @@
 
 *See also*: xref:mds[MDS], xref:ceph-mds[ceph-mds]
 
-[discrete]
 [[micro-release]]
 ==== image:images/caution.png[with caution] micro release (noun)
 *Description*: "Micro release" refers to the *_z_* in an _x.y.z_ product version numbering schema. Use only if required for generic reference to a release and the term is already used by the product. In all other instances refer to the specific release number.
@@ -396,7 +362,6 @@
 
 *See also*: xref:z-stream[z-stream]
 
-[discrete]
 [[microsoft]]
 ==== image:images/yes.png[yes] Microsoft (noun)
 *Description*: _Microsoft_ is a technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and services.
@@ -408,7 +373,6 @@
 *See also*: xref:ms-dos[MS-DOS]
 
 // Azure: General; kept as is; added the note linking to Microsoft's glossary to this term
-[discrete]
 [[azure]]
 ==== image:images/yes.png[yes] Microsoft Azure (noun)
 *Description*: _Microsoft Azure_ is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: Wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
@@ -422,7 +386,6 @@ For additional terms and definitions, see the https://azure.microsoft.com/en-us/
 *See also*:
 
 // Azure: Added "In Microsoft Azure"
-[discrete]
 [[xplat]]
 ==== image:images/yes.png[yes] Microsoft Azure Cross-Platform Command-Line Interface (noun)
 *Description*: In Microsoft Azure, the _Microsoft Azure Cross-Platform Command-Line Interface_ (Xplat-CLI) is a set of open source, cross-platform commands for managing Microsoft Azure platform resources. The Xplat-CLI has several top-level commands that correspond to Microsoft Azure features. Typing `azure` at the Xplat-CLI command prompt lists each of the many Microsoft Azure subcommands. When using the Xplat-CLI, a user can enable ARM mode or ASM mode.
@@ -436,7 +399,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *See also*: xref:cli[Azure CLI 2.0]
 
 // Azure: Added "In Microsoft Azure" and removed "Microsoft Azure" from later in the sentence
-[discrete]
 [[on-demand]]
 ==== image:images/yes.png[yes] Microsoft Azure On-Demand Marketplace (noun)
 *Description*: In Microsoft Azure, the _Microsoft Azure On-Demand Marketplace_ is a storefront where users can locate and quickly install operating systems, programming languages, frameworks, tools, databases, and devices into their Microsoft Azure environment. Red Hat Enterprise Linux is available as a VM image within the Microsoft Azure On-Demand Marketplace, along with other Red Hat open source products. Always preface "On-Demand Marketplace" with "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
@@ -448,7 +410,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *See also*:
 
 // Azure: Added "In Microsoft Azure"
-[discrete]
 [[azure-portal]]
 ==== image:images/yes.png[yes] Microsoft Azure portal (noun)
 *Description*: In Microsoft Azure, the _Microsoft Azure portal_ is a unified console graphical user interface (GUI) that allows users to build, manage, and monitor resources, web apps, and cloud applications. Do not capitalize "portal"; this is how Microsoft presents the portal's name.
@@ -460,7 +421,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *See also*: xref:arm[Azure Resource Manager]
 
 // EAP: General; kept as is
-[discrete]
 [[microsoft-windows]]
 ==== image:images/no.png[no] Microsoft Windows (noun)
 *Description*: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. For the correct usage, see the xref:windows-server[Windows Server] entry.
@@ -472,7 +432,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *See also*: xref:windows-server[Windows Server]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"; Updated upgrade xref
-[discrete]
 [[migration]]
 ==== image:images/caution.png[with caution] migration (noun)
 *Description*: In Red Hat Enterprise Linux, typically, a _migration_ indicates a change of platform: software or hardware. Moving from Windows to Linux is a migration. Moving a user from one laptop to another or a company from one server to another is a migration. However, most "migrations" also involve "upgrades", and sometimes the terms are used interchangeably.
@@ -484,7 +443,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *See also*: xref:update[update], xref:upgrade[upgrade], xref:conversion[conversion]
 
 // OCP: Added "In Red Hat OpenShift, this term is"
-[discrete]
 [[minion]]
 ==== image:images/no.png[no] minion (noun)
 *Description*: In Red Hat OpenShift, this term is deprecated. Use "node" instead.
@@ -495,7 +453,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:node[node]
 
-[discrete]
 [[misconfigure]]
 ==== image:images/caution.png[with caution] misconfigure (verb)
 *Description*: "Misconfigure" means to configure something incorrectly. Avoid using it if possible.
@@ -507,7 +464,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[modcluster]]
 ==== image:images/yes.png[yes] modcluster subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _modcluster subsystem_ is used to configure `modcluster` worker nodes. In general text, write in lowercase as one word. Use "ModCluster subsystem" when referring to the `modcluster` subsystem in titles and headings.
@@ -519,7 +475,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *See also*:
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[mom]]
 ==== image:images/yes.png[yes] MOM (noun)
 *Description*: In Red Hat Virtualization, the _Memory Overcommitment Manager_ is a policy-driven tool that can be used to manage overcommitment on hosts.
@@ -533,7 +488,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 *See also*:
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[monitoring_portal]]
 ==== image:images/yes.png[yes] Monitoring Portal (noun)
 *Description*: In Red Hat Virtualization, the _Monitoring Portal_ is a graphical user interface used to display reports based on data collected from the Data Warehouse PostgreSQL database. The Monitoring Portal is implemented by using the Grafana web-based UI tool to display the reports as dashboards.
@@ -544,7 +498,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*: xref:data-warehouse[Data Warehouse]
 
-[discrete]
 [[mount]]
 ==== image:images/yes.png[yes] mount (verb)
 *Description*: (1) "Mount" means to make a mass storage device available. In Linux environments, for example, inserting a floppy disk into the drive is called "mounting" the floppy. (2) "Mount" also means to install a device, such as a disk drive or expansion board.
@@ -555,7 +508,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*:
 
-[discrete]
 [[mouse-button]]
 ==== image:images/yes.png[yes] mouse button (noun)
 *Description*: Use "mouse button" as two words. If you need to indicate which mouse button to use, use "right", "left", or "center", such as "right mouse button".
@@ -566,7 +518,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*:
 
-[discrete]
 [[mozilla-firefox]]
 ==== image:images/yes.png[yes] Mozilla Firefox (noun)
 *Description*: _Mozilla Firefox_ is an open source web browser. The first reference must be "Mozilla Firefox". Subsequent references can be "Firefox". Do not use "firefox" unless you are referring to the `firefox` command; as such, mark it correctly.
@@ -577,7 +528,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*: xref:mozilla-thunderbird[Mozilla Thunderbird]
 
-[discrete]
 [[mozilla-thunderbird]]
 ==== image:images/yes.png[yes] Mozilla Thunderbird (noun)
 *Description*: _Mozilla Thunderbird_ is a free, open source, cross-platform email, news, RSS, and chat client. The first reference must be "Mozilla Thunderbird". Subsequent references can be "Thunderbird". Do not use "thunderbird" unless you are referring to the `thunderbird` command; as such, mark it correctly.
@@ -589,7 +539,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 *See also*: xref:mozilla-firefox[Mozilla Firefox]
 
 // AMQ: General; kept as is
-[discrete]
 [[mqtt]]
 ==== image:images/yes.png[yes] MQTT (noun)
 *Description*: MQ Telemetry Transport protocol. It is a lightweight, client-to-server, publish/subscribe messaging protocol (http://mqtt.org/). AMQ Broker supports _MQTT_.
@@ -600,7 +549,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*:
 
-[discrete]
 [[ms-dos]]
 ==== image:images/yes.png[yes] MS-DOS (noun)
 *Description*: _MS-DOS_ is an operating system, mostly developed by Microsoft.
@@ -612,7 +560,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 *See also*: xref:microsoft[Microsoft]
 
 // OCS: General; kept as is; removed duplicate description
-[discrete]
 [[multicloud-object-gateway]]
 ==== image:images/yes.png[yes] Multicloud Object Gateway (noun)
 *Description*: _Multicloud Object Gateway_ (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
@@ -623,7 +570,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*:
 
-[discrete]
 [[multiprocessing]]
 ==== image:images/yes.png[yes] multiprocessing (noun)
 *Description*: _Multiprocessing_ is the use of two or more central processing units within a single computer system.
@@ -635,7 +581,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 *See also*:
 
 // Ceph: Added "In Red Hat Ceph Storage,"
-[discrete]
 [[multisite]]
 ==== image:images/yes.png[yes] multisite (adjective)
 *Description*: In Red Hat Ceph Storage, you can configure the Ceph Object Gateway to participate in a _multisite_ architecture that consists of one zone group and multiple zones each zone with one or more `ceph-radosgw` instances.
@@ -646,7 +591,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*: xref:federated[federated]
 
-[discrete]
 [[multitenant]]
 ==== image:images/yes.png[yes] multitenant (adjective)
 *Description*: "Multitenant" describes a mode where a software instance serves multiple tenants. Do not hyphenate "multitenant".
@@ -657,7 +601,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*:
 
-[discrete]
 [[mutex]]
 ==== image:images/yes.png[yes] mutex (noun)
 *Description*: "Mutex" is an abbreviation for "mutual exclusion".
@@ -668,7 +611,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*: xref:mutual-exclusion[mutual exclusion], xref:mutexes[Mutexes]
 
-[discrete]
 [[mutexes]]
 ==== image:images/yes.png[yes] mutexes (noun)
 *Description*: "Mutexes" is the plural form of "mutex".
@@ -679,7 +621,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*: xref:mutual-exclusion[mutual exclusion], xref:mutex[Mutex]
 
-[discrete]
 [[mutual-exclusion]]
 ==== image:images/yes.png[yes] mutual exclusion (noun)
 *Description*: In computer science, "mutual exclusion" is a property of concurrency control, which is instituted for the purpose of preventing race conditions. It is the requirement that one thread of execution never enter its critical section at the same time that another concurrent thread of execution enters its own critical section.
@@ -690,7 +631,6 @@ Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, a
 
 *See also*: xref:mutex[Mutex], xref:mutexes[Mutexes]
 
-[discrete]
 [[mysql]]
 ==== image:images/yes.png[yes] MySQL (noun)
 *Description*: _MySQL_ is the common open source database server and client package from Microsoft. Mark the first mention of MySQL in body text with an r-ball (®) to denote that it is a registered trademark.

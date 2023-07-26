@@ -1,4 +1,3 @@
-[discrete]
 [[paas]]
 ==== image:images/yes.png[yes] PaaS (noun)
 *Description*: _PaaS_ is an acronym for _Platform-as-a-Service_. In the spelled-out version of this term and its variants (for example, "Infrastructure-as-a-Service" and "Software-as-a-Service"), hyphens are always used. Note for Marketing, Brand, or Customer Portal usage: For all-uppercase text, such as banners, use "<VARIANT>-AS-A-SERVICE" for the spelled-out version. The same acronym is used across all groups.
@@ -10,7 +9,6 @@
 *See also*: xref:saas[SaaS], xref:iaas[IaaS]
 
 // BxMS: Added "In Red Hat Process Automation Manager,"
-[discrete]
 [[package]]
 ==== image:images/yes.png[yes] package (noun)
 *Description*: In Red Hat Process Automation Manager, a _package_ is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
@@ -21,7 +19,6 @@
 
 *See also*:
 
-[discrete]
 [[packet]]
 ==== image:images/yes.png[yes] packet (noun)
 *Description*: Computers use network _packets_ to transmit data over networks. A packet contains control information and the data.
@@ -33,7 +30,6 @@
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
-[discrete]
 [[password-policy]]
 ==== image:images/yes.png[yes] password policy (noun)
 *Description*: In Red Hat Enterprise Linux, a _password policy_ is a set of conditions that the passwords of a particular IdM user group must meet. The conditions can include the following parameters:
@@ -48,7 +44,6 @@
 
 *See also*:
 
-[discrete]
 [[pc]]
 ==== image:images/yes.png[yes] PC (noun)
 *Description*: _PC_ is an abbreviation for personal computer. For more information, see the _IBM Style_ guide.
@@ -60,7 +55,6 @@
 *See also*:
 
 // AMQ: General; kept as is
-[discrete]
 [[peer-to-peer-messaging]]
 ==== image:images/yes.png[yes] peer-to-peer messaging (noun)
 *Description*: A messaging operation in which a client sends messages directly to another client without using a broker or router. This term should only be used to refer to client-to-client communication, not direct routed messaging.
@@ -71,7 +65,6 @@
 
 *See also*: xref:direct-routed-messaging[direct routed messaging]
 
-[discrete]
 [[performance-counter]]
 ==== image:images/yes.png[yes] performance counter (noun)
 *Description*: A _performance counter_ is a utility for collecting and analyzing performance data. Always use "performance counter" unless referring to a code element named `perfcounter` and as such, mark it up appropriately (`perfcounter`).
@@ -82,7 +75,6 @@
 
 *See also*:
 
-[discrete]
 [[permission]]
 ==== image:images/yes.png[yes] permission (noun)
 *Description*: A _permission_ is a property of an object. The term is usually used in the context of file systems and their objects, such as files and directories.
@@ -96,7 +88,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*: xref:privilege[privilege]
 
-[discrete]
 [[persistent-storage]]
 ==== image:images/yes.png[yes] persistent storage (noun)
 *Description*: _Persistent storage_ is a type of storage that preserves data even after the computer is turned off or after the process that created the data ends. A hard disk, tape, or flash memory are examples of persistent storage.
@@ -108,7 +99,6 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*: xref:volatile-storage[volatile storage]
 
 // OCS: General; kept as is
-[discrete]
 [[persistent-volume]]
 ==== image:images/yes.png[yes] persistent volume (noun)
 *Description*: A _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.
@@ -120,7 +110,6 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*:
 
 // OCS: General; kept as is; added "in the cluster"
-[discrete]
 [[persistent-volume-claim]]
 ==== image:images/yes.png[yes] persistent volume claim (noun)
 *Description*: A _persistent volume claim_ (PVC) is a request for storage in the cluster by a user.
@@ -132,7 +121,6 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*:
 
 // Ceph: Added "In Red Hat Ceph Storage, PG is"
-[discrete]
 [[pg]]
 ==== image:images/yes.png[yes] PG (noun)
 *Description*: In Red Hat Ceph Storage, _PG_ is an abbreviation for placement group.
@@ -143,7 +131,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*: xref:placement-group[placement group]
 
-[discrete]
 [[php]]
 ==== image:images/yes.png[yes] PHP (noun)
 *Description*: Use _PHP_ when referring to the programming language in general. Use `php` when referring to the specific command or some other literal use. See http://www.php.net/ for specific PHP language information. See http://en.wikipedia.org/wiki/PHP for more general information.
@@ -154,7 +141,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-[discrete]
 [[physical-topology]]
 ==== image:images/yes.png[yes] physical topology (noun)
 *Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The _physical topology_ is the way that the workstations are connected to the network through the actual cables that transmit data.
@@ -166,7 +152,6 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*: xref:logical-topology[logical topology], xref:signal-topology[signal topology]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[picketlink-federation]]
 ==== image:images/yes.png[yes] picketlink-federation subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `picketlink-federation` subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). In general text, write in lowercase as two words separated by a hyphen. Use "PicketLink Federation subsystem" when referring to the picketlink-federation subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
@@ -178,7 +163,6 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[picketlink-identity-management]]
 ==== image:images/yes.png[yes] picketlink-identity-management subsystem(noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `picketlink-identity-management` subsystem is used to configure identity management services. In general text, write in lowercase as three words separated by hyphens. Use "PicketLink Identity Management subsystem" when referring to the `picketlink-identity-management` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
@@ -189,7 +173,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-[discrete]
 [[pico]]
 ==== image:images/yes.png[yes] Pico (noun)
 *Description*: Capitalize "Pico" when referring to the text editor or to the programming language. Do not capitalize "pico" when referring to the SI prefix.
@@ -202,7 +185,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 // Fuse: Added "In Red Hat Fuse,"
 // Fuse: Changed "Fuse (Karaf)" to "Red Hat Fuse (Karaf)" (Breda)
-[discrete]
 [[pid]]
 ==== image:images/yes.png[yes] PID (noun)
 *Description*: In Red Hat Fuse, the _persistent identifier_ (PID) of a registered OSGi service is used to identify the service across container restarts. In Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute/value pairs that configure a service. You can edit any `.cfg` file to configure/reconfigure the corresponding OSGi service.
@@ -214,7 +196,6 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*:
 
 // Ceph: Added "In Red Hat Ceph Storage, a placement group"; fixed incorrect see also from PC to PG
-[discrete]
 [[placement-group]]
 ==== image:images/yes.png[yes] placement group (noun)
 *Description*: In Red Hat Ceph Storage, a _placement group_ aggregates a series of objects into a group, and maps the group into a series of OSDs. Write "Placement Group" (both first letters in uppercase) only when explaining the PC abbreviation, then write "placement group" (in lowercase).
@@ -226,7 +207,6 @@ When combined with privileges, permissions define a user's or resource's overall
 *See also*: xref:pg[PG]
 
 // Ceph: Added "In Red Hat Ceph Storage, a placement target is"
-[discrete]
 [[placement-target]]
 ==== image:images/yes.png[yes] placement target (noun)
 *Description*: In Red Hat Ceph Storage, a _placement target_ is a configurable rule that determines where bucket data is stored.
@@ -238,7 +218,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-[discrete]
 [[plain-text]]
 ==== image:images/yes.png[yes] plain text (adjective)
 *Description*: "Plain text" is correct in almost all cases. We use "plain text" as a plain English denotation of all unencrypted information, whether it is being stored or is being fed to an encryption algorithm. Unless it is necessary to make the cryptographer's distinction, do not use "plaintext" or "cleartext". Cryptographers distinguish between "cleartext" (unencrypted data) and "plaintext" (unencrypted data as input to an encryption algorithm).
@@ -249,7 +228,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-[discrete]
 [[pluggable]]
 ==== image:images/yes.png[yes] pluggable (noun)
 *Description*: "Pluggable" refers to something that is capable of being plugged in, especially in terms of (for example) software modules. "Hot-pluggable" is also widely used with respect to hardware to indicate that it can be connected and recognized without powering down the system.
@@ -260,7 +238,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-[discrete]
 [[plugin-adj]]
 ==== image:images/yes.png[yes] plugin (adjective)
 *Description*: Use to distinguish software code separate from the core application or service that adds new features or extends the functionality.
@@ -272,7 +249,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*: xref:plugin[plugin]
 
-[discrete]
 [[plugin]]
 ==== image:images/yes.png[yes] plugin (noun)
 *Description*: A _plugin_ is a software component that adds new features or extends the functionality of an existing application or service.
@@ -284,7 +260,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*: xref:plug-in[plug-in]
 
-[discrete]
 [[plug-in]]
 ==== image:images/caution.png[with caution] plug-in (noun)
 *Description*: Use with caution. Write as shown only when updating existing content that uses the hyphenated form. For new content, use "plugin".
@@ -296,7 +271,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 *See also*: xref:plugin[plugin]
 
 // OCP: Added "In Kubernetes," and removed first sentence
-[discrete]
 [[pod]]
 ==== image:images/yes.png[yes] pod (noun)
 *Description*: In Kubernetes, a _pod_ is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are re-created. The API object for a pod is `Pod`.
@@ -308,7 +282,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 *See also*: xref:container[container]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[pojo]]
 ==== image:images/yes.png[yes] pojo subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `pojo` subsystem enables deployment of applications containing JBoss Microcontainer services. In general text, write in lowercase as one word. Use "POJO subsystem" when referring to the `pojo` subsystem in titles and headings.
@@ -320,7 +293,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 *See also*:
 
 // Ceph: Added "In Red Hat Ceph Storage, a pool is"
-[discrete]
 [[pool]]
 ==== image:images/yes.png[yes] pool (noun)
 *Description*: In Red Hat Ceph Storage, a _pool_ is a logical unit in which Ceph stores data. You can create pools for particular types of data, such as for Ceph Block Devices, Ceph Object Gateways, or to separate one group of users from another.
@@ -331,7 +303,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
-[discrete]
 [[popup]]
 ==== image:images/yes.png[yes] pop-up (noun)
 *Description*: A _pop-up_ is a graphical user interface (GUI) display area, usually a small window, that is suddenly displayed in the foreground of the visual interface. Pop-ups can be initiated by a single or double mouse click or rollover, which is sometimes called a "mouseover". A "pop-up window" must be smaller than the background window or interface; otherwise, it's a "replacement interface".
@@ -342,7 +313,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
-[discrete]
 [[posix]]
 ==== image:images/yes.png[yes] POSIX (noun)
 *Description*: "POSIX" is an acronym for "Portable Operating System Interface [for UNIX]".
@@ -354,7 +324,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[posix-attributes]]
 ==== image:images/yes.png[yes] POSIX attributes (noun)
 *Description*: _POSIX attributes_ are user attributes for maintaining compatibility between operating systems.
@@ -365,7 +334,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
-[discrete]
 [[postscript]]
 ==== image:images/yes.png[yes] PostScript (noun)
 *Description*: "PostScript" is a registered trademark of Adobe.
@@ -376,7 +344,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
-[discrete]
 [[powerpc]]
 ==== image:images/yes.png[yes] PowerPC (noun)
 *Description*: Depending on context, "PowerPC" refers to either "64-bit PowerPC", which covers most 64-bit PowerPC implementations, or "64-bit IBM POWER Series", which covers the IBM POWER2 and IBM POWER8 series. The _PowerPC_ version of Red Hat Enterprise Linux runs on 64-bit IBM POWER series hardware in almost all cases.
@@ -387,7 +354,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
-[discrete]
 [[ppp]]
 ==== image:images/yes.png[yes] PPP (noun)
 *Description*: "PPP" is an abbreviation for "Point-to-Point Protocol", a data link (layer 2) protocol used to establish a direct connection between two nodes. PPP can provide connection authentication, transmission encryption (using ECP, RFC 1968), and compression.
@@ -399,7 +365,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 *See also*:
 
 // Fuse: Added "In Red Hat Fuse," and moved "in a Camel route" to the end of the sentence
-[discrete]
 [[processor]]
 ==== image:images/yes.png[yes] processor (noun)
 *Description*: In Red Hat Fuse, a _processor_ is a node that is capable of using, creating, or modifying an incoming message exchange in a Camel route. Processors are typically implementations of EIPs, but can be custom made.
@@ -413,7 +378,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 // AMQ: Added "In Red Hat AMQ, a producer is"
 // Fuse: Added "In Red Hat Fuse," and changed "exiting a route" to "exiting a Camel route"
 // Combined entries
-[discrete]
 [[producer]]
 ==== image:images/yes.png[yes] producer (noun)
 *Description*: (1) In Red Hat AMQ, a _producer_ is a client that sends messages. (2) In Red Hat Fuse, a producer is an endpoint that acts as the source of messages exiting a Camel route. It can create and send processed messages to their target destination, such as external systems or services. The producer populates the messages it creates with data that is compatible with the target destination. A route can have multiple producers.
@@ -425,7 +389,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 *See also*: xref:client-application[client application], xref:consumer[consumer]
 
 // Satellite: Added "In Red Hat Satellite" and removed "Red Hat Satellite"
-[discrete]
 [[product]]
 ==== image:images/yes.png[yes] Product (noun)
 *Description*: In Red Hat Satellite, a Product is a collection of repositories.
@@ -439,7 +402,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 // OCP: Added "In Red Hat OpenShift,"
 // BxMS: Added "In Red Hat Process Automation Manager,"
 // Combined into a single entry
-[discrete]
 [[project]]
 ==== image:images/yes.png[yes] project (noun)
 *Description*: (1) In Red Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. Projects organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red Hat Process Automation Manager, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
@@ -450,7 +412,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*: xref:action[action], xref:business-rule[business rule], xref:business-process[business process]
 
-[discrete]
 [[privilege]]
 ==== image:images/yes.png[yes] privilege (noun)
 *Description*: A _privilege_ is a right granted to an agent to perform certain restricted actions. A user is one example of an agent.
@@ -467,7 +428,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*: xref:permission[permission]
 
-[discrete]
 [[prom]]
 ==== image:images/yes.png[yes] PROM (noun)
 *Description*: "PROM" is an acronym for "programmable read-only memory" and is a variation of "ROM". _PROMs_ are manufactured as blank chips on which data can be written with a device called a PROM programmer.
@@ -478,7 +438,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*: xref:rom[ROM]
 
-[discrete]
 [[proof-of-concept]]
 ==== image:images/yes.png[yes] proof of concept (noun)
 *Description*: Use the following rules to form the plural of this phrase: Use "proofs of concept" for multiple proofs but only one concept. Use "proofs of concepts" for multiple proofs and multiple concepts.
@@ -490,7 +449,6 @@ When combined with permissions, privileges define an agent's overall access to a
 *See also*:
 
 // Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
-[discrete]
 [[properties-view]]
 ==== image:images/yes.png[yes] Properties View (noun)
 *Description*: In Red Hat Fuse, _Properties view_ displays, by default, the properties of the node that is selected on the canvas for editing. It also displays the selected node's user documentation on the Documentation tab.
@@ -502,7 +460,6 @@ When combined with permissions, privileges define an agent's overall access to a
 *See also*:
 
 // RHSSO: General; kept as is
-[discrete]
 [[protocol-mapper]]
 ==== image:images/yes.png[yes] protocol mapper
 *Description*: For each client, you can tailor what claims and assertions are stored in the OIDC token or SAML assertion. You do this for each client by creating and configuring protocol mappers.
@@ -514,7 +471,6 @@ When combined with permissions, privileges define an agent's overall access to a
 *See also*:
 
 // Azure: General for the most part; has an Azure-specific second sentence, but that already includes "In Microsoft Azure"; kept as is
-[discrete]
 [[provisioning]]
 ==== image:images/yes.png[yes] provisioning (verb)
 *Description*: When discussing virtual machines (VMs), "provisioning" refers to a set of actions to prepare a VM with appropriate configuration options, data, and software to make it ready for operating in a cloud environment. In Microsoft Azure, RHEL VMs are provisioned using Azure CLI 2.0 or using the Azure Resource Manager (ARM) in the Microsoft Azure portal.
@@ -525,18 +481,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-[discrete]
-[[pseries]]
-==== image:images/no.png[no] pSeries (noun)
-*Description*: Use "IBM eServer System p" for the first reference; use "IBM System p" or "System p" for subsequent references.
-
-*Use it*: no
-
-*Incorrect forms*:
-
-*See also*:
-
-[discrete]
 [[pseudoops]]
 ==== image:images/yes.png[yes] pseudo-ops (noun)
 *Description*: "Pseudo-ops" is an abbreviation for "pseudo operations" and is sometimes called an assembler directive. These keywords do not directly translate to a machine instruction.
@@ -547,7 +491,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-[discrete]
 [[pulldown]]
 ==== image:images/yes.png[yes] pulldown (adjective)
 *Description*: A _pulldown_ is the common type of menu used with a graphical user interface (GUI). Clicking a menu title causes the menu items to drop down from that position and be displayed. Options are selected either by clicking the menu item or by continuing to hold the mouse button down and letting go when the item is highlighted.
@@ -559,7 +502,6 @@ When combined with permissions, privileges define an agent's overall access to a
 *See also*:
 
 // Satellite: General; kept as is
-[discrete]
 [[puppet]]
 ==== image:images/yes.png[yes] Puppet (noun)
 *Description*: _Puppet_ is a tool for applying and managing system configurations.
@@ -571,7 +513,6 @@ When combined with permissions, privileges define an agent's overall access to a
 *See also*:
 
 // Satellite: General; kept as is
-[discrete]
 [[puppet-forge]]
 ==== image:images/yes.png[yes] Puppet Forge (noun)
 *Description*: _Puppet Forge_ is a Puppet Labs Git repository for community supplied Puppet modules.
@@ -583,7 +524,6 @@ When combined with permissions, privileges define an agent's overall access to a
 *See also*:
 
 // Satellite: General; kept as is
-[discrete]
 [[puppetize]]
 ==== image:images/no.png[no] Puppetize (verb)
 *Description*: To apply Puppet manifests and methods to a system. This is unnecessary industry jargon or slang.
@@ -594,7 +534,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*: xref:puppet[Puppet]
 
-[discrete]
 [[pxe]]
 ==== image:images/yes.png[yes] PXE (noun)
 *Description*: "PXE" is an acronym for "Pre-Boot Execution Environment". Pronounced "pixie", PXE is one of the components of the Intel Wired for Management (WfM) specification. It allows a workstation to boot from a server on a network in preference to booting the operating system on the local hard drive. _PXE_ is a mandatory element of the WfM specification. To be considered compliant, PXE must be supported by the computer's BIOS and its NIC.

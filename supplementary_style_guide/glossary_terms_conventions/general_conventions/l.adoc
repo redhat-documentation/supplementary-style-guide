@@ -1,5 +1,4 @@
 // OCP: Added "In Red Hat OpenShift, labels are"
-[discrete]
 [[label]]
 ==== image:images/yes.png[yes] label (noun)
 *Description*: In Red Hat OpenShift, _labels_ are objects used to organize, group, or select API objects. For example, pods are tagged with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
@@ -10,7 +9,6 @@
 
 *See also*:
 
-[discrete]
 [[lan]]
 ==== image:images/yes.png[yes] LAN (noun)
 *Description*: "LAN" is an acronym for "local area network".
@@ -21,7 +19,6 @@
 
 *See also*:
 
-[discrete]
 [[latency]]
 ==== image:images/yes.png[yes] latency (noun)
 *Description*: (1) In general, _latency_ is the period of time that one component in a system is waiting for another component, which is wasted time. In accessing data on a disk, latency is the time it takes to position the proper sector under the read/write head. (2) In networking, _latency_ is the amount of time it takes a packet to travel from source to destination. Latency and bandwidth define the speed and capacity of a network.
@@ -34,7 +31,6 @@
 
 // RHEL: Duplicate entry with RHDS; kept RHDS entry
 // RHDS: General; kept as is
-[discrete]
 [[ldap]]
 ==== image:images/yes.png[yes] LDAP (noun)
 *Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on the first usage.
@@ -46,7 +42,6 @@
 *See also*: xref:ldaps[LDAPS], xref:starttls[STARTTLS]
 
 // RHDS: General; kept as is
-[discrete]
 [[ldaps]]
 ==== image:images/yes.png[yes] LDAPS (noun)
 *Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (_LDAPS_) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on the first usage.
@@ -58,7 +53,6 @@
 *See also*: xref:ldap[LDAP], xref:starttls[STARTTLS]
 
 // Ceph: Added "In Red Hat Ceph Storage, librados is"
-[discrete]
 [[librados]]
 ==== image:images/yes.png[yes] librados (noun)
 *Description*: In Red Hat Ceph Storage, _librados_ is a shared library allowing applications to access the RADOS object store.
@@ -70,7 +64,6 @@
 *See also*: xref:rados[RADOS]
 
 // Ceph: Added "In Red Hat Ceph Storage, librbd is"
-[discrete]
 [[librbd]]
 ==== image:images/yes.png[yes] librbd (noun)
 *Description*: In Red Hat Ceph Storage, _librbd_ is a shared library allowing applications to access Ceph Block Devices.
@@ -81,7 +74,6 @@
 
 *See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:RBD[RBD]
 
-[discrete]
 [[libvirt]]
 ==== image:images/yes.png[yes] libvirt (noun)
 *Description*: _libvirt_ is an open source API, daemon, and management tool for managing platform virtualization. It can manage several types of virtualization technologies, including KVM and QEMU. `libvirt` APIs are used in the orchestration layer of hypervisors in the development of cloud-based environments.
@@ -93,7 +85,6 @@
 *See also*:  xref:kvm[KVM]
 
 // RHEL: General; kept as is
-[discrete]
 [[lightweight-sub-ca]]
 ==== image:images/yes.png[yes] lightweight sub-CA (noun)
 *Description*: In IdM, a _lightweight sub-CA_ is a certificate authority (CA) whose certificate is signed by an IdM root CA or one of the CAs that are subordinate to it. A lightweight sub-CA issues certificates only for a specific purpose, for example to secure a VPN or HTTP connection.
@@ -105,7 +96,6 @@
 *See also*: xref:certificate-authority[certificate authority]
 
 // AMQ: Added "In Red Hat AMQ, a link is"
-[discrete]
 [[link]]
 ==== image:images/yes.png[yes] link (noun)
 *Description*: In Red Hat AMQ, a _link_ is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
@@ -117,7 +107,6 @@
 *See also*:
 
 // AMQ: Added "In Red Hat AMQ, link routing is"
-[discrete]
 [[link-routing]]
 ==== image:images/yes.png[yes] link routing (noun)
 *Description*: In Red Hat AMQ, _link routing_ is a routing mechanism in AMQ Interconnect. A link route is a set of links that represent a private message path between a sender and receiver. Link routes can traverse multiple brokers and routers. With link routing, a router makes a routing decision when it receives link-attach frames, and it enables the sender and receiver to use the full AMQP link protocol.
@@ -128,7 +117,6 @@
 
 *See also*: xref:message-routing[message routing]
 
-[discrete]
 [[linux]]
 ==== image:images/yes.png[yes] Linux (noun)
 *Description*: _Linux_ is an operating system that is similar to the UNIX system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it correctly.
@@ -140,7 +128,6 @@
 *See also*:
 
 // AMQ: Added "In Red Hat AMQ, a listener is"
-[discrete]
 [[listener]]
 ==== image:images/yes.png[yes] listener (noun)
 *Description*: In Red Hat AMQ, a _listener_ is a configurable entity for AMQ routers and messaging APIs. A listener defines a context for accepting multiple, incoming connections on a particular TCP address and port.
@@ -152,7 +139,6 @@
 *See also*: xref:connection[connection]
 
 // AMQ: Added "In Red Hat AMQ,"
-[discrete]
 [[live-only]]
 ==== image:images/yes.png[yes] live-only (noun)
 *Description*: In Red Hat AMQ, _live-broker_ is a broker high availability policy for scaling down brokers. If a `live-only` broker is shut down, its messages and transaction state are copied to another live broker.
@@ -163,7 +149,6 @@
 
 *See also*:
 
-[discrete]
 [[load]]
 ==== image:images/yes.png[yes] load (verb)
 *Description*: (1) To "load" means to copy a program from a storage device into memory. Every program must be loaded into memory before it can be executed. Usually, the loading process is performed invisibly by a part of the operating system called the loader. (2) In programming, "load" means to copy data from main memory into a data register. (3) In networking, "load" refers to the amount of data (traffic) being carried by the network.
@@ -175,7 +160,6 @@
 *See also*:
 
 // EAP: General; kept as is
-[discrete]
 [[load-balance]]
 ==== image:images/yes.png[yes] load balance (verb)
 *Description*: The compound verb "load balance" means to distribute processing requests among a set of servers.
@@ -186,7 +170,6 @@
 
 *See also*:
 
-[discrete]
 [[load-balancing]]
 ==== image:images/yes.png[yes] load balancing (noun)
 *Description*: _Load balancing_ distributes processing and communications activity evenly across a computer network so that no single device is overwhelmed. Load balancing is especially important for networks, where it is difficult to predict the number of requests that might be issued to a server. Busy websites typically employ two or more web servers in a load-balancing scheme. If one server starts to get swamped, requests are forwarded to another server with more capacity. "Load balancing" can also refer to the communications channels themselves.
@@ -198,7 +181,6 @@
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[logging]]
 ==== image:images/yes.png[yes] logging subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _logging subsystem_ is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
@@ -209,7 +191,6 @@
 
 *See also*:
 
-[discrete]
 [[logical-topology]]
 ==== image:images/yes.png[yes] logical topology (noun)
 *Description*: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The _logical topology_ (or _signal topology_) is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices.
@@ -220,7 +201,6 @@
 
 *See also*: xref:physical-topology[physical topology], xref:signal-topology[signal-topology]
 
-[discrete]
 [[look-up-v]]
 ==== image:images/caution.png[with caution] look up (verb)
 *Description*: To "look up" means to search for something. The correct verb form is "look up".
@@ -231,7 +211,6 @@
 
 *See also*: xref:lookup-n[lookup], xref:look-up-ad[look-up]
 
-[discrete]
 [[look-up-ad]]
 ==== image:images/caution.png[with caution] look-up (adjective)
 *Description*: Hyphenate "look-up" when using it as a modifier.
@@ -242,7 +221,6 @@
 
 *See also*: xref:look-up-v[look up], xref:lookup-n[lookup]
 
-[discrete]
 [[lookup-n]]
 ==== image:images/caution.png[with caution] lookup (noun)
 *Description*: A "lookup" means an act of searching. The correct noun form is "lookup".
@@ -253,7 +231,6 @@
 
 *See also*: xref:look-up-v[look up], xref:look-up-ad[look-up]
 
-[discrete]
 [[loopback-address]]
 ==== image:images/yes.png[yes] loopback address (noun)
 *Description*: The _loopback address_ is a special IP address (127.0.0.1 for IPv4, ::1 for IPv6) that is designated for the software loopback interface of a machine. The loopback interface has no hardware associated with it, and it is not physically connected to a network. The loopback interface allows IT professionals to test IP software without worrying about broken or corrupted drivers or hardware.
@@ -264,7 +241,6 @@
 
 *See also*:
 
-[discrete]
 [[lpar]]
 ==== image:images/yes.png[yes] LPAR (noun)
 *Description*: "LPAR" is an acronym for "logical partitioning", a system of taking a computer's total resources (processors, memory, and storage) and splitting them into smaller units that each can be run with its own instance of the operating system and applications. Logical partitioning, which requires specialized hardware circuits, is typically used to separate different functions of a system, such as web serving, database functions, client/server actions, or systems that serve multiple time zones and/or languages. Logical partitioning can also be used to keep testing environments separated from the production environments. Because the logical partitions act as separate physical machines, they can communicate with each other. Logical partitioning was first used in 1976 by IBM.
@@ -276,7 +252,6 @@
 *See also*:
 
 // RHV: General; kept as is
-[discrete]
 [[lun]]
 ==== image:images/yes.png[yes] LUN (noun)
 *Description*: A _LUN_ (logical unit number) is a number used to identify a logical unit, which is a device addressed by the SCSI protocol, or Storage Area Network protocols which encapsulate SCSI, such as Fibre Channel or iSCSI.

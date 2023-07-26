@@ -1,4 +1,3 @@
-[discrete]
 [[aarch64]]
 ==== image:images/yes.png[yes] AArch64 (noun)
 *Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances, for example RHEL, Fedora, CoreOS, and other Linux distributions. Use this format in general cases when referring to system architecture.
@@ -15,7 +14,6 @@ _When running RHEL with an AArch64 system, run the following command:_
 
 *See also*: xref:_aarch64[aarch64]
 
-[discrete]
 [[_aarch64]]
 ==== image:images/yes.png[yes] aarch64 (noun)
 *Description*: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances for example RHEL, Fedora, CoreOS, and other Linux distributions. Use the lowercase format with backticks when referring to objects or parameters.
@@ -32,7 +30,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *See also*: xref:aarch64[AArch64]
 
-[discrete]
 [[absolute-path]]
 ==== image:images/yes.png[yes] absolute path (noun)
 *Description*: The location of a file or directory from the root directory (/). Provides all information to locate a file or directory.
@@ -44,7 +41,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*:
 
 // AMQ: Added "In Red Hat AMQ"
-[discrete]
 [[acceptor]]
 ==== image:images/yes.png[yes] acceptor (noun)
 *Description*: In Red Hat AMQ, an _acceptor_ defines the way a client can connect to a broker instance.
@@ -56,7 +52,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*:
 
 // RHDS: General; kept as is
-[discrete]
 [[access-control-instruction]]
 ==== image:images/yes.png[yes] access control instruction (noun)
 *Description*: In an LDAP directory, an _access control instruction (ACI)_ grants or denies access to entries or attributes. Use "access control instruction" on the first usage and then the abbreviation "ACI" subsequently.
@@ -68,7 +63,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*:
 
 // RHSSO: General; kept as is
-[discrete]
 [[access-token]]
 ==== image:images/yes.png[yes] access token
 *Description*: An _access token_ is a token that can be provided as part of an HTTP request that grants access to the service being invoked on. This is part of the OpenID Connect and OAuth 2.0 specification.
@@ -79,7 +73,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *See also*:
 
-[discrete]
 [[ack]]
 ==== image:images/no.png[no] ACK (noun)
 *Description*: Do not use _ACK_ as acronym for "acknowledgement" in general. When writing about the acknowledgement flag ("ACK flag") in a TCP packet, use "ACK flag".
@@ -90,7 +83,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *See also*: xref:ack-flag[ACK flag]
 
-[discrete]
 [[ack-flag]]
 ==== image:images/yes.png[yes] ACK flag (noun)
 *Description*: The acknowledgement flag (_ACK flag_) in a TCP packet indicates that the acknowledgement field in the packet is relevant. Do not expand on first usage and write as shown: "ACK flag".
@@ -102,7 +94,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*:
 
 // OCP: Reworded to put "In Red Hat OpenShift," in front
-[discrete]
 [[action]]
 ==== image:images/yes.png[yes] action (noun)
 *Description*: In Red Hat OpenShift, an authorization _action_ consists of _project_, _verb_, and _resource_.
@@ -114,7 +105,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*: xref:project[project], xref:verb[verb]
 
 // RHEL: General; kept as is
-[discrete]
 [[active-directory-forest]]
 ==== image:images/yes.png[yes] Active Directory forest (noun)
 *Description*: An _Active Directory forest (AD)_ is a set of one or more domain trees which share a common global catalog, directory schema, logical structure, and directory configuration. The forest represents the security boundary within which users, computers, groups, and other objects are accessible.
@@ -126,7 +116,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[active-directory-global-catalog]]
 ==== image:images/yes.png[yes] Active Directory global catalog (noun)
 *Description*: The global catalog is a feature of Active Directory (AD) that allows a domain controller to provide information on any object in the forest, regardless of whether the object is a member of the domain controller’s domain. Domain controllers with the global catalog feature enabled are referred to as global catalog servers. The global catalog provides a searchable catalog of all objects in every domain in a multi-domain Active Directory Domain Services (AD DS).
@@ -138,7 +127,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*: xref:active-directory-forest[Active directory forest]
 
 // RHEL: General; kept as is
-[discrete]
 [[active-directory-security-identifier]]
 ==== image:images/yes.png[yes] Active Directory security identifier (noun)
 *Description*: An _Active Directory security identifier (SID)_ is a unique ID number assigned to an object in Active Directory, such as a user, group, or host. A SID is the functional equivalent of UIDs and GIDs in Linux.
@@ -150,7 +138,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*:
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[activemq]]
 ==== image:images/no.png[no] ActiveMQ (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
@@ -162,7 +149,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*: xref:activemq-artemis[ActiveMQ Artemis], xref:jboss-eap-messaging[JBoss EAP messaging]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
-[discrete]
 [[activemq-artemis]]
 ==== image:images/caution.png[with caution] ActiveMQ Artemis (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
@@ -174,7 +160,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*: xref:jboss-eap-messaging[JBoss EAP messaging]
 
 // RHV: Added "In Red Hat Virtualization,"
-[discrete]
 [[administration-portal]]
 ==== image:images/yes.png[yes] Administration Portal (noun)
 *Description*: In Red Hat Virtualization, the _Administration Portal_ is a graphical user interface provided by the Red Hat Virtualization Manager. It can be used to manage all the administrative resources in the environment and can be accessed by any supported web browser.
@@ -187,7 +172,6 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *See also*:
 
-[discrete]
 [[agnostic]]
 ==== image:images/no.png[no] agnostic (adjective)
 *Description*: _Agnostic_ denotes or relates to hardware or software that is compatible with many types of platforms or operating systems. For example, many common file formats (JPEG, MP3, and others) are platform agnostic. Use "neutral" instead.
@@ -198,7 +182,6 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *See also*:
 
-[discrete]
 [[air-gap]]
 ==== image:images/yes.png[yes] air gap (noun)
 *Description*: _Air gap_ is the physical segregation and isolation of a system as a security measure.
@@ -209,7 +192,6 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *See also*:
 
-[discrete]
 [[alright]]
 ==== image:images/no.png[no] alright (adjective)
 *Description*: _Alright_ is the colloquial form of _correct_.
@@ -220,7 +202,6 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *See also*:
 
-[discrete]
 [[AMD64]]
 ==== image:images/yes.png[yes] AMD64 (noun)
 *Description*: The AMD 64-bit version of the x86 architecture. Use this term for OpenShift Container Platform (OCP) attributes, Kubernetes, Operators, APIs, or CLI objects. Use this format in general sentences when referring to OCP features.
@@ -237,7 +218,6 @@ _This Operator is supported on AMD64 and ARM64 platforms._
 
 *See also*: xref:amd64[amd64]
 
-[discrete]
 [[amd64]]
 ==== image:images/yes.png[yes] amd64 (noun)
 *Description*: The AMD 64-bit version of the x86 architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, or CLI objects. Use the lowercase format and backticks when referring to objects or parameters.
@@ -255,7 +235,6 @@ _Valid values are `amd64`._
 *See also*: xref:AMD64[AMD64]
 
 // AMQ: General; kept as is
-[discrete]
 [[jboss-amq]]
 ==== image:images/yes.png[yes] AMQ (noun)
 *Description*: The short product name for Red Hat AMQ.
@@ -267,7 +246,6 @@ _Valid values are `amd64`._
 *See also*: xref:red-hat-amq[Red Hat AMQ]
 
 // AMQ: Added "In Red Hat AMQ," and removed "A component of Red Hat AMQ"
-[discrete]
 [[amq-broker]]
 ==== image:images/yes.png[yes] AMQ Broker (noun)
 *Description*: In Red Hat AMQ, _AMQ Broker_ is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
@@ -279,7 +257,6 @@ _Valid values are `amd64`._
 *See also*: xref:broker-distribution[broker distribution], xref:broker-instance[broker instance]
 
 // AMQ: Added "In Red Hat AMQ, AMQ Clients is"
-[discrete]
 [[amq-clients]]
 ==== image:images/yes.png[yes] AMQ Clients (noun)
 *Description*: In Red Hat AMQ, _AMQ Clients_ is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red Hat AMQ.
@@ -291,7 +268,6 @@ _Valid values are `amd64`._
 *See also*: xref:client-application[client application], xref:messaging-api[messaging API]
 
 // AMQ: Added "In Red Hat AMQ, the AMQ Console is"
-[discrete]
 [[amq-console]]
 ==== image:images/yes.png[yes] AMQ Console (noun)
 *Description*: In Red Hat AMQ, the _AMQ Console_ is a management tool for administering AMQ brokers and routers in a single graphical interface.
@@ -303,7 +279,6 @@ _Valid values are `amd64`._
 *See also*:
 
 // AMQ: Added "In Red Hat AMQ,"
-[discrete]
 [[amq-core-protocol-jms]]
 ==== image:images/yes.png[yes] AMQ Core Protocol JMS (noun)
 *Description*: In Red Hat AMQ, the _AMQ Core Protocol JMS_ is an implementation of the Java Message Service (JMS) using the ActiveMQ Artemis Core protocol. This is sometimes called _Core JMS_.
@@ -315,7 +290,6 @@ _Valid values are `amd64`._
 *See also*: xref:jms[JMS], xref:core-protocol[Core protocol]
 
 // AMQ: Added "In Red Hat AMQ," and removed "A component of Red Hat AMQ,"
-[discrete]
 [[amq-interconnect]]
 ==== image:images/yes.png[yes] AMQ Interconnect (noun)
 *Description*: In Red Hat AMQ, it is a messaging router that provides flexible routing of messages between any AMQP-enabled endpoints, whether they are clients, servers, brokers, or any other entity that can send or receive standard AMQP messages.
@@ -327,7 +301,6 @@ _Valid values are `amd64`._
 *See also*: xref:router[router]
 
 // AMQ: General; kept as is
-[discrete]
 [[amqp]]
 ==== image:images/yes.png[yes] AMQP (noun)
 *Description*: _Advanced Message Queuing Protocol_. It is an open standard for passing business messages between applications or organizations (https://www.amqp.org/about/what). AMQ Broker supports AMQP, and AMQ Interconnect uses AMQP to route messages and links.
@@ -339,7 +312,6 @@ _Valid values are `amd64`._
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[anaconda]]
 ==== image:images/yes.png[yes] Anaconda (noun)
 *Description*: The operating system installer used in Fedora, Red Hat Enterprise Linux, and their derivatives. _Anaconda_ is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
@@ -351,31 +323,36 @@ _Valid values are `amd64`._
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[ansible-play]]
 ==== image:images/yes.png[yes] Ansible play (noun)
-*Description*: _Ansible plays_ are the building blocks of Ansible playbooks. The goal of an Ansible play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
+*Description*: _Ansible plays_ are the building blocks of Ansible Playbooks. The goal of an Ansible play is to map a group of hosts to some well-defined roles, represented by Ansible tasks.
 
 *Use it*: yes
 
 *Incorrect forms*:
 
-*See also*: xref:ansible-playbook[Ansible playbook]
+*See also*: xref:ansible-playbook[Ansible Playbook]
 
 // RHEL: General; kept as is
-[discrete]
 [[ansible-playbook]]
-==== image:images/yes.png[yes] Ansible playbook (noun)
-*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language. They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process. An _Ansible playbook_ is a file that contains one or more Ansible plays.
+==== image:images/yes.png[yes] Ansible Playbook (noun)
+*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language.
+Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+An _Ansible Playbook_ is a file that contains one or more Ansible plays.
+Write as shown: uppercase _A_ and uppercase _P_. When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
+
+Examples:
+
+* Run an Ansible Playbook.
+* Run a playbook in Ansible.
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: Ansible playbook
 
 *See also*: xref:ansible-play[Ansible play]
 
 // RHEL: General; kept as is
-[discrete]
 [[ansible-task]]
 ==== image:images/yes.png[yes] Ansible task (noun)
 *Description*: An Ansible play can contain multiple tasks. _Ansible tasks_ are units of action in Ansible. The goal of each task is to execute a module, with very specific arguments.
@@ -388,7 +365,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // RHEL: General; kept as is
-[discrete]
 [[apache-web-server]]
 ==== image:images/yes.png[yes] Apache web server (noun)
 *Description*: The _Apache HTTP Server_, colloquially called _Apache_, is a free and open-source cross-platform web server application, released under the terms of Apache License 2.0. Apache played a key role in the initial growth of the World Wide Web (WWW), and is currently the leading HTTP server. Its process name is `httpd`, which is short for _HTTP daemon_.
@@ -400,7 +376,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*: xref:certificate[certificate], xref:certificate-authority[certificate authority], xref:directory-server-product[Directory Server]
 
 // OCP: Added "In Red Hat OpenShift, the API server is a..."
-[discrete]
 [[api-server]]
 ==== image:images/yes.png[yes] API server (noun)
 *Description*: In Red Hat OpenShift, the _API server_ is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
@@ -411,7 +386,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*: xref:endpoint[endpoint]
 
-[discrete]
 [[app]]
 ==== image:images/yes.png[yes] app (noun)
 *Description*: Acceptable when referring to a mobile or web application.
@@ -423,7 +397,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // CloudForms: Added "In Red Hat CloudForms"
-[discrete]
 [[appliance-console]]
 ==== image:images/yes.png[yes] Appliance console (noun)
 *Description*: In Red Hat CloudForms, the _appliance console_ is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.
@@ -435,7 +408,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // OCP: Added "In Red Hat OpenShift," and removed "OpenShift Container Platform" (twice) from later in the sentence
-[discrete]
 [[application]]
 ==== image:images/yes.png[yes] application (noun)
 *Description*: In Red Hat OpenShift, although the term _application_ is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term _application_ might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
@@ -446,7 +418,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*: xref:app[app]
 
-[discrete]
 [[applixware]]
 ==== image:images/yes.png[yes] Applixware (noun)
 *Description*: _Applixware_ is a suite of proprietary modular applications for Linux.
@@ -457,7 +428,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*:
 
-[discrete]
 [[arp]]
 ==== image:images/yes.png[yes] ARP (noun)
 *Description*: Within a subnet of an Ethernet network, hosts use the Address Resolution Protocol (_ARP_) to discover the Media Access Control (MAC) address that is associated with an IPv4 address. In IPv6 networks, the Neighbor Discovery Protocol (NDP) provides the functionality of ARP.
@@ -469,7 +439,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // AMQ: General; kept as is
-[discrete]
 [[artemis]]
 ==== image:images/caution.png[with caution] Artemis (noun)
 *Description*: The upstream project for AMQ Broker (link:https://activemq.apache.org/artemis/[Apache ActiveMQ Artemis]). When referring to AMQ Broker, always use the "Red Hat" product name.
@@ -480,7 +449,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*: xref:amq-broker[AMQ Broker]
 
-[discrete]
 [[as-expected]]
 ==== image:images/no.png[no] as expected (adverb)
 *Description*: Expectations are relative; use "correctly" instead.
@@ -492,7 +460,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // RHSSO: General; kept as is
-[discrete]
 [[assertion]]
 ==== image:images/yes.png[yes] assertion
 *Description*: An _assertion_ provides information about a user. This usually pertains to an XML blob that is included in a SAML authentication response that provided identity metadata about an authenticated user.
@@ -504,7 +471,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // BxMS: Added "In Red Hat Process Automation Manager"
-[discrete]
 [[asset]]
 ==== image:images/yes.png[yes] asset (noun)
 *Description*: In Red Hat Process Automation Manager, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
@@ -515,7 +481,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*: xref:business-rule[business rule], xref:business-process[business process], xref:decision-table[decision table], xref:data-model[data model], xref:dsl[DSL]
 
-[discrete]
 [[assisted-installer]]
 ==== image:images/yes.png[yes] Assisted Installer (noun)
 *Description*: In Red Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations.
@@ -526,7 +491,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*:
 
-[discrete]
 [[asynchronous-transfer-mode]]
 ==== image:images/yes.png[yes] Asynchronous Transfer Mode (noun)
 *Description*: _Asynchronous Transfer Mode (ATM)_ is a network technology based on transferring data in cells or packets of a fixed size. The cell size used with ATM is relatively small compared to units used with older technologies.
@@ -538,7 +502,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // RHDS: General; kept as is
-[discrete]
 [[attribute]]
 ==== image:images/yes.png[yes] attribute (noun)
 *Description*: Each entry in an LDAP directory contains attributes. Object classes in an entry control which attributes in an entry are optional and which are required.
@@ -550,7 +513,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // RHSSO: General; kept as is
-[discrete]
 [[authentication]]
 ==== image:images/yes.png[yes] authentication
 *Description*: _Authentication_ is the process of identifying and validating a user.
@@ -562,7 +524,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // RHSSO: General; kept as is
-[discrete]
 [[authentication-flow]]
 ==== image:images/yes.png[yes] authentication flow
 *Description*: An _authentication flow_ is a workflow that a user must perform when interacting with certain aspects of the system. A login flow can define what credential types are required. A registration flow defines what profile information a user must enter and whether something like reCAPTCHA must be used to filter out bots. Credential reset flow defines what actions a user must take before they can reset their password.
@@ -574,7 +535,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // OCP: General; kept as is
-[discrete]
 [[authorization]]
 ==== image:images/yes.png[yes] authorization (noun)
 *Description*: An _authorization_ determines whether an _identity_ is allowed to perform any _action_. It consists of identity and action.
@@ -585,7 +545,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*: xref:action[action], xref:identity[identity]
 
-[discrete]
 [[auto-detect]]
 ==== image:images/yes.png[yes] auto-detect (verb)
 *Description*: _Auto-detect_ means to automatically detect threats, new hardware, software updates, and so on.
@@ -597,7 +556,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // AMQ: Added "In Red Hat AMQ, autolink is"
-[discrete]
 [[autolink]]
 ==== image:images/yes.png[yes] autolink (noun)
 *Description*: In Red Hat AMQ, _autolink_ is an AMQ Interconnect configurable entity that defines a link between the router and a queue, topic, or service in an external broker.
@@ -609,7 +567,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *See also*:
 
 // Azure: Added "In Microsoft Azure, the" and removed "Microsoft Azure" from later in the sentence
-[discrete]
 [[cli]]
 ==== image:images/yes.png[yes] Azure CLI 2.0 (noun)
 *Description*: In Microsoft Azure, the _Azure CLI 2.0_ is a set of open source commands for managing Microsoft Azure platform resources. Typing `az` at the CLI command prompt lists each of the many Microsoft Azure subcommands. Azure CLI 2.0 is the most current command-line interface and is replacing Microsoft Azure Xplat-CLI.
@@ -620,7 +577,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*:  xref:xplat[Microsoft Azure Cross-Platform Command-Line Interface]
 
-[discrete]
 [[arm64]]
 ==== image:images/yes.png[yes] ARM64 (noun)
 *Description*: A 64-bit version of the ARM architecture. Use this term for OpenShift Container Platform (OCP) attributes, Kubernetes, Operators, APIs, and CLI objects. Use this format in general sentences when referring to OCP features.
@@ -637,7 +593,6 @@ _Creating an ARM64 compute machine set._
 
 *See also*: xref:arm64[arm64]
 
-[discrete]
 [[_arm64]]
 ==== image:images/yes.png[yes] arm64 (noun)
 *Description*: A 64-bit version of the ARM architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, and CLI objects. Use lowercase format and backticks when referring to objects or parameters.
@@ -655,7 +610,6 @@ _Valid values are `arm64`._
 *See also*: xref:ARM64[ARM64]
 
 // Azure: Added "In Microsoft Azure" and removed "Microsoft Azure" from later in the sentence
-[discrete]
 [[arm]]
 ==== image:images/yes.png[yes] Azure Resource Manager (noun)
 *Description*: In Microsoft Azure, the _Azure Resource Manager (ARM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
@@ -667,7 +621,6 @@ _Valid values are `arm64`._
 *See also*: xref:asm[Azure Service Management]
 
 // Azure: Added "In Microsoft Azure" and removed "Microsoft Azure" from later in the sentence
-[discrete]
 [[asm]]
 ==== image:images/yes.png[yes] Azure Service Management (noun)
 *Description*: In Microsoft Azure, _Azure Service Management (ASM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. The Azure Resource Manager (ARM) has replaced ASM as the preferred method for managing Azure resources.
