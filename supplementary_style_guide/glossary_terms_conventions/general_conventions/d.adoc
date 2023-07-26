@@ -175,8 +175,6 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *See also*: xref:debug-adj[debug (adjective)]
 
-// BxMS: General; kept as is
-[discrete]
 [[decision-table]]
 ==== image:images/yes.png[yes] decision table (noun)
 *Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat Process Automation Manager user interface.
@@ -187,8 +185,6 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *See also*:
 
-// BxMS: General; kept as is
-[discrete]
 [[decision-tree]]
 ==== image:images/yes.png[yes] decision tree (noun)
 *Description*: A _decision tree_ is a graphical representation of a decision model in a tree-like manner.
@@ -645,8 +641,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// BxMS: General; kept as is
-[discrete]
 [[drools-expert]]
 ==== image:images/yes.png[yes] Drools Expert (noun)
 *Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat Process Automation Manager platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.

@@ -313,7 +313,7 @@ Do not capitalize the first letter.
 [discrete]
 [[knowledge-store]]
 ==== image:images/yes.png[yes] knowledge store (noun)
-*Description*: In Red Hat Process Automation Manager, _knowledge store_ is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
+*Description*: In Red Hat Process Automation Manager, _knowledge store_ is a centralized repository for business knowledge. The knowledge store connects to a Git repository to store various knowledge assets and artifacts at a single location.
 
 *Use it*: yes
 

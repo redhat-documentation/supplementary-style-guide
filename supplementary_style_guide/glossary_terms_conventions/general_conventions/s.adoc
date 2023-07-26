@@ -71,7 +71,7 @@
 [discrete]
 [[scorecard]]
 ==== image:images/yes.png[yes] Scorecard (noun)
-*Description*: In Red Hat Process Automation Manager, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat Process Automation Manager supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
+*Description*: In Red Hat Process Automation Manager, _Scorecard_ is a risk management tool that graphically represents a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take when selling a product. Scorecards help predict the likelihood or probability of a certain outcome. Red Hat Process Automation Manager supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
 
 *Use it*: yes
 

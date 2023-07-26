@@ -290,7 +290,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 [discrete]
 [[truth-maintenance-system]]
 ==== image:images/yes.png[yes] truth maintenance system (noun)
-*Description*: In Red Hat Process Automation Manager, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
+*Description*: In Red Hat Process Automation Manager, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. A truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the TMS to justify the assertion.
 
 *Use it*: yes
 

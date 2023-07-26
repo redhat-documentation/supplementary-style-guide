@@ -25,7 +25,7 @@
 [discrete]
 [[backward-chaining]]
 ==== image:images/yes.png[yes] backward chaining (verb)
-*Description*: In Red Hat Process Automation Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat Process Automation Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
+*Description*: In Red Hat Process Automation Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as _derivation queries_. It is not as common compared to reactive systems because Red Hat Process Automation Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
 
 *Use it*: yes
 
@@ -485,8 +485,6 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *See also*:
 
-// BxMS: General; kept as is
-[discrete]
 [[business-process]]
 ==== image:images/yes.png[yes] business process (noun)
 *Description*: A _business process_ is a collection of related, structured tasks that results in achieving a specific target. It is presented as as a flowchart comprising a sequence steps necessary to achieve business goals.
@@ -509,8 +507,6 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 *See also*:
 
-// BxMS: General; kept as is
-[discrete]
 [[business-rule]]
 ==== image:images/yes.png[yes] business rule (noun)
 *Description*: A _business rule_ defines a particular aspect of a business that is intended to assert business structure or influence the behaviour of a business. Business rules often focus on access control issues and pertain to business calculations and policies of an organization.
