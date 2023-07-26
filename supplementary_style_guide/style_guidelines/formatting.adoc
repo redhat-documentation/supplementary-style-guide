@@ -146,12 +146,13 @@ $ oc describe node __<node_name>__
 
 .Example AsciiDoc: User-replaced value in an output example
 
-----
-connection.id:              __<profile_name>__
-connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
-connection.type:            802-3-ethernet
-connection.interface-name:  enp7s0
-----
+  [subs="+quotes"]
+  ----
+  connection.id:              __<profile_name>__
+  connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
+  connection.type:            802-3-ethernet
+  connection.interface-name:  enp7s0
+  ----
 
 This renders as:
 
