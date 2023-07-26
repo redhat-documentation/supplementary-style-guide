@@ -8,7 +8,6 @@
 
 *See also*: xref:paas[PaaS], xref:saas[SaaS]
 
-
 [[ibm-power]]
 ==== image:images/yes.png[yes] IBM Power® (noun)
 *Description*: _IBM Power_ represents the family of servers based on Power processors that can include combinations of IBM Power servers and its products. On first use, mark "IBM" Power with a registered trademark icon (®).
@@ -505,7 +504,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-[discrete]
 [[interpreted-code]]
 ==== image:images/yes.png[yes] interpreted code (noun)
 *Description*: In Red Hat Enterprise Linux, _interpreted code_ is source code that runs step-by-step, without prior transformations by a language interpreter or a language virtual machine.
