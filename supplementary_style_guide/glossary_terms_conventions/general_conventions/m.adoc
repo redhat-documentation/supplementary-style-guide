@@ -474,7 +474,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*:
 
-[discrete]
 [[module]]
 ==== image:images/yes.png[yes] module (noun)
 *Description*: In Red Hat Enterprise Linux, a _module_ is a collection of packages representing a logical unit: an application, a language stack, a database, or a set of tools. These packages are built, tested, and released together.
@@ -485,7 +484,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*:
 
-[discrete]
 [[module-profile]]
 ==== image:images/yes.png[yes] module profile (noun)
 *Description*: In Red Hat Enterprise Linux, a _module profile_ is a list of recommended packages to be installed together for a particular use case such as for a server, client, development, or minimal installation. These package lists can contain packages outside the module stream, usually from the BaseOS repository or the dependencies of the stream.
@@ -496,7 +494,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:baseos-repository[BaseOS repository]
 
-[discrete]
 [[module-stream]]
 ==== image:images/yes.png[yes] module stream (noun)
 *Description*: In Red Hat Enterprise Linux, _module streams_ are filters that can be thought of as virtual repositories in the AppStream physical repository. Module streams represent versions of the Application Stream components.
@@ -506,7 +503,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *Incorrect forms*:
 
 *See also*:
-
 
 // RHV: Added "In Red Hat Virtualization,"
 [[mom]]
