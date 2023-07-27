@@ -20,3 +20,7 @@ In addition to the _IBM Style_ guide and the _Red Hat supplementary style guide 
 * link:https://redhat-documentation.github.io/modular-docs/[_Modular Documentation Reference Guide_]: Guidance for all things connected to modular documentation, including implementing those guidelines in AsciiDoc.
 * link:https://redhat-documentation.github.io/asciidoc-markup-conventions/[_AsciiDoc Mark-up Quick Reference_]: Guidance specific to writing in AsciiDoc. Includes links to complete documentation for AsciiDoc and Asciidoctor.
 * link:https://redhat-documentation.github.io/accessibility-guide/[_Getting started with accessibility for writers_]: Guidance for creating accessible content.
+
+== PDF version
+
+The _Red Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the link:https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf[latest version of the guide as a PDF] from the GitHub releases section of project's GitHub repository.
