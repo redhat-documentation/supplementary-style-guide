@@ -3881,6 +3881,9 @@ For example, you might combine existing product name attributes to create compou
 <li>
 <p>If the user-replaced value is referencing a value in code or in a command that is normally monospace, also use monospace for the user-replaced value</p>
 </li>
+<li>
+<p>If you want to use a user-replaced value in example output, format the replaceable value with italics and in angle brackets. Alternatively, if you choose to use an example value instead, do not italicize the example value and do not place it in angle brackets.</p>
+</li>
 </ul>
 </div>
 <div class="listingblock">
@@ -3919,6 +3922,33 @@ $ oc describe node __&lt;node_name&gt;__
 <div class="listingblock">
 <div class="content">
 <pre>$ oc describe node <em>&lt;node_name&gt;</em></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="literalblock">
+<div class="title">Example AsciiDoc: User-replaced value in an output example</div>
+<div class="content">
+<pre>[subs="+quotes"]
+----
+connection.id:              __&lt;profile_name&gt;__
+connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
+connection.type:            802-3-ethernet
+connection.interface-name:  enp7s0
+----</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This renders as:</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre>connection.id:              <em>&lt;profile_name&gt;</em>
+connection.uuid:            b6cdfa1c-e4ad-46e5-af8b-a75f06b79f76
+connection.type:            802-3-ethernet
+connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 </div>
@@ -20561,7 +20591,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-27 12:40:28 UTC
+Last updated 2023-07-27 19:36:15 UTC
 </div>
 </div>
 <!-- Nav bar -->
