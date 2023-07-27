@@ -440,7 +440,7 @@
 
 [[codeready-linux-builder-repository]]
 ==== image:images/caution.png[with caution] CodeReady Linux Builder repository (noun)
-*Description*: In Red Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Packages included in the CodeReady Linux Builder repository are unsupported by Red Hat. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
+*Description*: In Red Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Red Hat does not support packages included in the CodeReady Linux Builder repository. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
 
 *Use it*: with caution
 
