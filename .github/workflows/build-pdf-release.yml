@@ -13,8 +13,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # copy /pdf-assets from the container before the build
       - name: Extract assets
-        run: docker cp $(docker run --detach quay.io/redhat-docs/redhat-docs-pdf-template):/pdf-assets ./supplementary_style_guide/pdf-assets
+        run: |
+          CONTAINER_ID=$(docker run --detach quay.io/redhat-docs/redhat-docs-pdf-template)
+          docker cp $CONTAINER_ID:/pdf-assets ./supplementary_style_guide/pdf-assets
+          docker cp $CONTAINER_ID:/pdf-assets ./pdf-assets
 
       - name: Build PDF
         uses: docker://quay.io/redhat-docs/redhat-docs-pdf-template
@@ -25,7 +29,7 @@ jobs:
         run: |
           CURRENT_DATE=$(date +'%Y-%m-%d')
           echo v$GITHUB_RUN_NUMBER > version.txt
-          mv main.pdf red-hat-supplementary-style-guide.pdf
+          mv supplementary_style_guide/main.pdf red-hat-supplementary-style-guide.pdf
           gh release create "$CURRENT_DATE""_v$GITHUB_RUN_NUMBER" red-hat-supplementary-style-guide.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
