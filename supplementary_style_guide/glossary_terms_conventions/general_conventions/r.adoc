@@ -74,7 +74,7 @@
 [[raw-interpreted-program]]
 ==== image:images/yes.png[yes] raw-interpreted program (noun)
 
-*Description*: _Raw-interpreted programs_ are programs that do not need to be compiled and are directly run by a language interpreter.
+*Description*: A _Raw-interpreted program_ is a program that does not need to be compiled and is directly run by a language interpreter.
 
 *Use it*: yes
 
