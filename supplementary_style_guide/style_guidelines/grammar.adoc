@@ -103,4 +103,28 @@ The following list includes homographs that might commonly appear in technical d
 * object
 * project
 
+[[minimalism]]
+== Minimalism
+Minimalism is a methodology for creating targeted documentation focused on your readers' needs. If you understand your customers' needs, you can write shorter and simpler documentation specific to what customers want to do. For more information about minimalism, see link:https://source.redhat.com/groups/public/minimalism-quality-initiative[Minimalism in Red Hat documentation].
+
+There are five principles of minimalism:
+
+=== Customer focus and action orientation
+Know what your users do, what their goals are, and why they perform these actions. Minimize how much content customers must wade through to get to something they recognize as real work. Separate conceptual and background information from procedural tasks. 
+
+=== Findability
+Findability covers two areas:
+
+* Make sure your content is findable through Google search and access.redhat.com site searches.
+* Make sure your content is scannable. Use short paragraphs and sentences and bulleted lists where appropriate.
+
+=== Titles and headings
+Have clear titles that use keywords the customer knows. Keep titles and headings to 3-11 words. If headings are  too short, they don’t help customers know what’s in a section. If they’re too long, they don’t show up well in a Google search, and customers can’t absorb them. 
+
+=== Eliminating fluff
+Avoid long introductions and unnecessary context. Shorten unnecessarily long sentences.
+
+=== Error recovery, verification, and troubleshooting
+Recognize that people make mistakes and need to verify that they have completed a task. Be sure to include troubleshooting, error recovery, and verification steps.
+
 // TODO: Add new style entries alphabetically in this file
