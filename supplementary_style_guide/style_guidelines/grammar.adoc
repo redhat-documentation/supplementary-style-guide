@@ -105,9 +105,9 @@ The following list includes homographs that might commonly appear in technical d
 
 [[minimalism]]
 == Minimalism
-Minimalism is a methodology for creating targeted documentation focused on your readers' needs. If you understand your customers' needs, you can write shorter and simpler documentation specific to what customers want to do. For more information about minimalism, see link:https://source.redhat.com/groups/public/minimalism-quality-initiative[Minimalism in Red Hat documentation].
+Minimalism is a methodology for creating targeted documentation focused on your readers' needs. If you understand your customers' needs, you can write shorter and simpler documentation specific to what customers want to do.
 
-There are five principles of minimalism:
+Minimalism has five principles:
 
 === Customer focus and action orientation
 Know what your users do, what their goals are, and why they perform these actions. Minimize how much content customers must wade through to get to something they recognize as real work. Separate conceptual and background information from procedural tasks. 
