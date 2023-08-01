@@ -481,6 +481,16 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
+[[pseries]]
+==== image:images/no.png[no] pSeries (noun)
+*Description*: This is a former product name; instead use the official product name "IBM Power".
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:ibm-power[IBM Power]
+
 [[pseudoops]]
 ==== image:images/yes.png[yes] pseudo-ops (noun)
 *Description*: "Pseudo-ops" is an abbreviation for "pseudo operations" and is sometimes called an assembler directive. These keywords do not directly translate to a machine instruction.
