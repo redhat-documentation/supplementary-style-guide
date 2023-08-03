@@ -172,15 +172,6 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *See also*:
 
-[[agnostic]]
-==== image:images/no.png[no] agnostic (adjective)
-*Description*: _Agnostic_ denotes or relates to hardware or software that is compatible with many types of platforms or operating systems. For example, many common file formats (JPEG, MP3, and others) are platform agnostic. Use "neutral" instead.
-
-*Use it*: no
-
-*Incorrect forms*:
-
-*See also*:
 
 [[air-gap]]
 ==== image:images/yes.png[yes] air gap (noun)
