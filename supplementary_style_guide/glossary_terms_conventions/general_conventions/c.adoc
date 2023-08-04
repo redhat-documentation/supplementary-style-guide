@@ -347,6 +347,46 @@
 
 *See also*:
 
+[[client-side-n]]
+==== image:images/yes.png[yes] client side (noun)
+*Description*: Use the two-word form of "client side" as a noun when referring to the client side in a client-server relationship, for example, "This happens on the client side of the relationship."
+
+*Use it*: yes
+
+*Incorrect forms*: client-side
+
+*See also*: xref:client-side-adj[client-side]
+
+[[client-side-adj]]
+==== image:images/yes.png[yes] client-side (adjective)
+*Description*: Use the one-word form "client-side" as an adjective when referring to operations that are performed by the client in a client-server relationship, for example, "This is a client-side service."
+
+*Use it*: yes
+
+*Incorrect forms*: client side
+
+*See also*: xref:client-side-n[client side]
+
+[[cloud-adj]]
+==== image:images/yes.png[yes] cloud (adjective)
+*Description*: Use "cloud" with a lowercase "c" when referring to cloud computing in a general sense.
+
+*Use it*: yes
+
+*Incorrect forms*: Cloud
+
+*See also*: xref:cloud-n[cloud (noun)]
+
+[[cloud-n]]
+==== image:images/yes.png[yes] cloud (noun)
+*Description*: Use "cloud" with a lowercase "c" when referring to cloud computing in a general sense.
+
+*Use it*: yes
+
+*Incorrect forms*: Cloud
+
+*See also*: xref:cloud-adj[cloud (adjective)]
+
 [[cloudbursting]]
 ==== image:images/yes.png[yes] cloudbursting (verb)
 *Description*: _Cloudbursting_ is an event where a private cloud exceeds its capacity and _bursts_ into and uses public cloud resources.
@@ -419,6 +459,15 @@
 
 *See also*: xref:gather[gather]
 
+[[colocate]]
+==== image:images/yes.png[yes] colocate (verb)
+*Description*: _Colocate_ means to place two or more items in the same space. Do not hyphenate "colocate".
+
+*Use it*: yes
+
+*Incorrect forms*: co-locate, collocate
+
+*See also*:
 
 [[comma-delimited]]
 ==== image:images/yes.png[yes] comma-delimited (adjective)
