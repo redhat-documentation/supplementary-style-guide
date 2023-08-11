@@ -8,6 +8,16 @@
 
 *See also*: xref:paas[PaaS], xref:saas[SaaS]
 
+[[ibm-cloud-bare-metal]]
+==== image:images/yes.png[yes] IBM Cloud® Bare Metal (Classic) (noun)
+*Description*: _IBM Cloud® Bare Metal (Classic)_ refers to a platform where a customer can run an OpenShift Container Platform cluster on an IBM bare-metal server. Ensure that "IBM Cloud®" precedes "Bare Metal (Classic)". On first use, mark "IBM Cloud" Bare Metal (Classic) with a registered trademark icon (®).
+
+*Use it*: yes
+
+*Incorrect forms*: IBM Cloud
+
+*See also*:
+
 [[ibm-eserver-system-p]]
 ==== image:images/no.png[no] IBM eServer System p (noun)
 *Description*: This is a former product name; instead use the official product name "IBM Power".
