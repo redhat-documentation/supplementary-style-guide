@@ -410,6 +410,16 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *See also*:
 
+[[opt-in]]
+==== image:images/yes.png[yes] opt in (verb)
+*Description*: For Amazon Web Services (AWS), _opt in_ refers to manually selecting AWS opt-in Regions, which are usually locations that can offer higher security requirements than default commercial AWS Regions. A Red Hat customer who wants to deploy an OpenShift Container Platform cluster in an AWS Region or AWS Local Zone location must opt in to the location by configuring their AWS management account. For the gerund form of the phrase, use "opting in".
+
+*Use it*: yes
+
+*Incorrect forms*: opt into, opting into
+
+*See also*: xref:aws-opt-in-region[AWS opt-in Region], xref:aws-local-zone[AWS Local Zone]
+
 [[organization-administrator]]
 ==== image:images/yes.png[yes] Organization Administrator (noun)
 *Description*: From https://access.redhat.com/articles/1757953[Roles and Permissions for Red Hat Customer Portal]: Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
