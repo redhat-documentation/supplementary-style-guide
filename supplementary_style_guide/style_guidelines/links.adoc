@@ -8,7 +8,7 @@
 Follow these guidelines when adding cross-references within your documentation:
 
 * Include cross-references only when necessary.
-* When not using running text,, consider including it instead of cross-referencing.
+* When not using running text, consider including it instead of cross-referencing.
 
 .Example AsciiDoc: Cross-reference
 ----
@@ -58,7 +58,8 @@ Follow these guidelines when specifying link text:
 == Links to Red Hat Knowledgebase articles
 
 * Use the title of the Knowledgebase article for the link text, or use descriptive running text.
-* Call out that this is a Knowledgebase article when _not_ using running text.
+*  When not using running text, call out that this is a Knowledgebase article.
+when _not_ using running text.
 * When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase)`.
 
 
