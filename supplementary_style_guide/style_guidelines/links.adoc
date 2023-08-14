@@ -8,7 +8,7 @@
 Follow these guidelines when adding cross-references within your documentation:
 
 * Include cross-references only when necessary.
-* When not using running text, consider including it instead of cross-referencing.
+* If the information is critical, consider including it instead of cross-referencing.
 
 .Example AsciiDoc: Cross-reference
 ----
