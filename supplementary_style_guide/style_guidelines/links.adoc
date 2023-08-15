@@ -62,6 +62,11 @@ Follow these guidelines when specifying link text:
 
 * When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase)`.
 
+.Example: Calling out Knowledgebase Article
+>**Note:** This is a Knowledgebase Article 
+
+For more information about <topic>, see xref:<link>[<link_text>].
+
 
 .Example: Article title
 
