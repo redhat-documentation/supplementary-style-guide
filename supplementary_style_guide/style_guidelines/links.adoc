@@ -59,12 +59,8 @@ Follow these guidelines when specifying link text:
 
 * Use the title of the Knowledgebase article for the link text, or use descriptive running text.
 * When not using running text, call out that this is a Knowledgebase article.
-
-.Example: Calling out Knowledgebase Article
-
 * When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase)`.
 
-For more information about <topic>, see xref:<link>[<link_text>].
 .Example: Article title
 
 For a non-cloud environment, you can resize the disk and file system. For more information, see the Red Hat Knowledgebase solution link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?].
