@@ -182,6 +182,16 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *See also*: xref:jboss-amq[AMQ], xref:jboss-amq-eap[JBoss AMQ]
 
+[[red-hat-build-openjdk]]
+==== image:images/yes.png[yes] Red Hat build of OpenJDK (noun)
+*Description*: _Red Hat build of OpenJDK_ is the Red Hat distribution of the Open Java Development Kit (OpenJDK).
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat Java, Red Hat OpenJDK, RHOJDK
+
+*See also*: xref:red-hat-java[Red Hat Java], xref:red-hat-openjdk[Red Hat OpenJDK]
+
 // Ceph: General; kept as is
 [[red-hat-ceph-storage]]
 ==== image:images/yes.png[yes] Red Hat Ceph Storage (noun)
@@ -339,6 +349,20 @@ Always spell out the full product name of the host, and do not capitalize the te
 
 *See also*: xref:syndesis[Syndesis], xref:fuse-online[Fuse Online]
 
+[[red-hat-java]]
+==== image:images/no.png[no] Red Hat Java (noun)
+*Description*: Do not use _Red Hat Java_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
+
+Java is a registered trademark of Oracle and its affiliates.
+
+Always use the approved product name _Red Hat build of OpenJDK_ instead.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:red-hat-build-openjdk[Red Hat build of OpenJDK], xref:red-hat-openjdk[Red Hat OpenJDK]
+
 // BxMS: General; kept as is
 [[bpms]]
 ==== image:images/yes.png[yes] Red Hat JBoss BPM Suite (noun)
@@ -392,6 +416,20 @@ Always spell out the full product name of the host, and do not capitalize the te
 *Incorrect forms*: Red Hat Satellite (Server)
 
 *See also*: xref:red-hat-network-proxy-server[Red Hat Network Proxy Server]
+
+[[red-hat-openjdk]]
+==== image:images/no.png[no] Red Hat OpenJDK (noun)
+*Description*: Do not use _Red Hat OpenJDK_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
+
+OpenJDK is a registered trademark of Oracle and its affiliates.
+
+Always use the approved product name _Red Hat build of OpenJDK_ instead.
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:red-hat-build-openjdk[Red Hat build of OpenJDK], xref:red-hat-java[Red Hat Java]
 
 [[red-hat-network-proxy-server]]
 ==== image:images/yes.png[yes] Red Hat Network Proxy Server (noun)
