@@ -446,8 +446,6 @@
 
 *Incorrect forms*: codeready Linux builder, CRB 
 
-*Incorrect forms*:
-
 *See also*:
 
 [[codebase]]
