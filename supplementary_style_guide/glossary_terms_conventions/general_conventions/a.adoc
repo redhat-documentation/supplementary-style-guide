@@ -342,7 +342,7 @@ Examples:
 
 *Incorrect forms*: Ansible playbook
 
-*See also*: xref:ansible-play[Ansible play]
+*See also*: xref:ansible-play[Ansible play], xref:playbook[playbook]
 
 [[ansible-rulebook]]
 ==== image:images/yes.png[yes] Ansible Rulebook (noun)
@@ -357,7 +357,7 @@ Examples:
 
 *Incorrect forms*: Ansible rulebook
 
-*See also*: 
+*See also*: xref:rulebook[rulebook]
 
 // RHEL: General; kept as is
 [[ansible-task]]

@@ -228,6 +228,22 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
+[[playbook]]
+==== image:images/yes.png[yes] playbook (noun)
+*Description*: Playbooks are Ansible's configuration, deployment, and orchestration language.
+Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
+
+Examples:
+
+* Run a playbook in Ansible.
+
+*Use it*: yes
+
+*Incorrect forms*: Run a Playbook in Ansible
+
+*See also*: xref:ansible-playbook[Ansible Playbook]
+
 [[pluggable]]
 ==== image:images/yes.png[yes] pluggable (noun)
 *Description*: "Pluggable" refers to something that is capable of being plugged in, especially in terms of (for example) software modules. "Hot-pluggable" is also widely used with respect to hardware to indicate that it can be connected and recognized without powering down the system.

@@ -1079,6 +1079,21 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *See also*:
 
+[[rulebook]]
+==== image:images/yes.png[yes] rulebook (noun)
+*Description*: A _rulebook_ is a YAML file containing a list of rules, event source definitions, and hosts to run against. 
+Rulebooks are used in Event-Driven Ansible. When using the term _rulebook_ without the Ansible prefix, use lowercase _r_.
+
+Examples:
+
+* Use a rulebook in Ansible.
+
+*Use it*: yes
+
+*Incorrect forms*: Use a Rulebook in Ansible.
+
+*See also*: xref:ansible-rulebook[Ansible Rulebook]
+
 [[runlevel]]
 ==== image:images/yes.png[yes] runlevel (noun)
 *Description*: A _runlevel_ is a preset operating state on a UNIX system and similar operating systems. A system can be booted in to (that is, started up in to) any of several runlevels, each of which is represented by a single-digit integer. Each runlevel designates a different system configuration and allows access to a different combination of processes (that is, instances of executing programs). There are differences in the runlevels according to the operating system. Seven runlevels are supported in the standard Linux kernel.
