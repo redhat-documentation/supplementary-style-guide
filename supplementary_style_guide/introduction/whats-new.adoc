@@ -29,20 +29,20 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
-// [[august-2023]]
-// == August 2023
-//
-// // TODO: Didn't mention anything in July for the IBM entries that were removed; they've been added back with "do not use". Show these in August's section
-//
-// .Glossary entries
-// * xref:ibm-eserver-system-p[IBM eServer System p]: Updated to "do not use"; use "IBM Power" instead
-// * xref:ibm-s-390[IBM S/390]: Updated to "do not use"; use "IBM Z" instead
-// * xref:iseries[ISeries]: Updated to "do not use"; use "IBM Power" instead
-// * xref:pseries[pSeries]: Updated to "do not use"; use "IBM Power" instead
-//
-// .Style guidance
-// * TODO
-//
+[[august-2023]]
+== August 2023
+
+.Glossary entries
+* xref:ibm-eserver-system-p[IBM eServer System p]: Updated to "do not use"; use "IBM Power" instead
+* xref:ibm-s-390[IBM S/390]: Updated to "do not use"; use "IBM Z" instead
+* xref:iseries[ISeries]: Updated to "do not use"; use "IBM Power" instead
+* xref:pseries[pSeries]: Updated to "do not use"; use "IBM Power" instead
+* Removed _agnostic_, _client side_, _client-side_, _cloud_, _colocate_, _data center_, and _devops_ glossary entries.
+
+.Style guidance
+* xref:rh-kb-links[Links to Red Hat Knowledgebase articles]: Updated to remove ambiguity
+* xref:minimalism[Minimalism]: Added section with guidance on writing with minimalism 
+
 // .Other updates
 // * TODO
 
