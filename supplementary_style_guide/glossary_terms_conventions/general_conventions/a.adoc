@@ -344,6 +344,21 @@ Examples:
 
 *See also*: xref:ansible-play[Ansible play]
 
+[[ansible-rulebook]]
+==== image:images/yes.png[yes] Ansible Rulebook (noun)
+*Description*: An _Ansible Rulebook_ tells Event-Driven Ansible what sources to monitor for an event and what to do when certain conditions are met. Rulebooks are written in YAML, and are used like Ansible Playbooks. Write as shown: uppercase A and uppercase R. When using the term _rulebook_ without the Ansible prefix, use lowercase r.
+
+Examples:
+
+* Use a rulebook in Ansible.
+* Use an Ansible Rulebook.
+
+*Use it*: yes
+
+*Incorrect forms*: Ansible rulebook
+
+*See also*: 
+
 // RHEL: General; kept as is
 [[ansible-task]]
 ==== image:images/yes.png[yes] Ansible task (noun)
