@@ -63,7 +63,6 @@
 
 [[raw-data]]
 ==== image:images/yes.png[yes] raw data (noun)
-
 *Description*: _Raw data_ is information that has not been organized, formatted, or analyzed.
 
 *Use it*: yes
@@ -71,6 +70,17 @@
 *Incorrect forms*:
 
 *See also*:
+
+[[raw-interpreted-program]]
+==== image:images/yes.png[yes] raw-interpreted program (noun)
+
+*Description*: A _Raw-interpreted program_ is a program that does not need to be compiled and is directly run by a language interpreter.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:interpreted-code[interpreted code]
 
 // Ceph: Added "In Red Hat Ceph Storage, RBD is an"
 [[RBD]]
@@ -407,16 +417,6 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *See also*: xref:red-hat-network-proxy-server[Red Hat Network Proxy Server]
 
-[[red-hat-network-proxy-server]]
-==== image:images/yes.png[yes] Red Hat Network Proxy Server (noun)
-*Description*: Use "Red Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
-
-*Use it*: yes
-
-*Incorrect forms*: Red Hat Proxy (Server)
-
-*See also*: xref:red-hat-network-satellite-server[Red Hat Network Satellite Server]
-
 [[red-hat-openjdk]]
 ==== image:images/no.png[no] Red Hat OpenJDK (noun)
 *Description*: Do not use _Red Hat OpenJDK_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
@@ -430,6 +430,16 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 *Incorrect forms*:
 
 *See also*: xref:red-hat-build-openjdk[Red Hat build of OpenJDK], xref:red-hat-java[Red Hat Java]
+
+[[red-hat-network-proxy-server]]
+==== image:images/yes.png[yes] Red Hat Network Proxy Server (noun)
+*Description*: Use "Red Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
+
+*Use it*: yes
+
+*Incorrect forms*: Red Hat Proxy (Server)
+
+*See also*: xref:red-hat-network-satellite-server[Red Hat Network Satellite Server]
 
 // OCP: General; kept as is
 [[red-hat-openshift-cluster-manager]]
@@ -839,6 +849,16 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *See also*:
 
+[[rolling-stream]]
+==== image:images/yes.png[yes] Rolling Stream (noun)
+*Description*: _Rolling Streams_, also referred to as Rolling Application Streams, include Red Hat Enterprise Linux tools and applications that are updated frequently. Later versions of these streams replace earlier versions. Therefore, only one version at a time is supported.
+
+*Use it*: yes
+
+*Incorrect forms*: rolling stream
+
+*See also*:
+
 [[roll-out]]
 ==== image:images/yes.png[yes] roll out (verb)
 *Description*: In marketing, to _roll out_ a product means to introduce it in stages to the public. In computing, to roll out software means to install a new product across a  network.
@@ -997,11 +1017,21 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 [[rpm]]
 ==== image:images/yes.png[yes] RPM (noun)
-*Description*: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format, known as RPM packages. RPM packages are known informally as `rpm` files, but this informal usage is not used in Red Hat documentation to avoid confusion with the command name. Files in RPM format are referred to as "RPM packages".
+*Description*: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format. Those files are referred to as "RPM packages". Even though RPM packages are known informally as `rpm` files, do not use this informal term in Red Hat documentation to avoid confusion with the command name.
 
 *Use it*: yes
 
 *Incorrect forms*: rpm
+
+*See also*:
+
+[[rpm-macro]]
+==== image:images/yes.png[yes] RPM macro (noun)
+*Description*: An _RPM macro_ is a straight text substitution that can be conditionally assigned based on the optional evaluation of a statement when certain built-in functionality is used. RPM macros help to make package maintenance simpler and to automate certain repetitive tasks or patterns that are common across all types of packages.
+
+*Use it*: yes
+
+*Incorrect forms*:
 
 *See also*:
 

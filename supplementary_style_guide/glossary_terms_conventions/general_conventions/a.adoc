@@ -149,6 +149,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 *See also*: xref:activemq-artemis[ActiveMQ Artemis], xref:jboss-eap-messaging[JBoss EAP messaging]
 
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+
 [[activemq-artemis]]
 ==== image:images/caution.png[with caution] ActiveMQ Artemis (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
@@ -409,6 +410,16 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*: xref:app[app]
 
+[[application-stream]]
+==== image:images/yes.png[yes] Application Stream (noun)
+*Description*: _Application Streams_ are multiple versions of Red Hat Enterprise Linux user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse Application Streams with "AppStream", the repository through which Application Streams and other components are distributed.
+
+*Use it*: yes
+
+*Incorrect forms*: AppStream, application stream, Application stream
+
+*See also*: xref:appstream-repository[AppStream repository]
+
 [[applixware]]
 ==== image:images/yes.png[yes] Applixware (noun)
 *Description*: _Applixware_ is a suite of proprietary modular applications for Linux.
@@ -418,6 +429,16 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *Incorrect forms*: Applix, ApplixWare
 
 *See also*:
+
+[[appstream-repository]]
+==== image:images/yes.png[yes] AppStream repository (noun)
+*Description*: The _AppStream repository_  distributes RHEL content as Application Streams and other components. Do not confuse the AppStream repository with the Application Streams that it distributes.
+
+*Use it*: yes
+
+*Incorrect forms*: Appstream, appstream, Application Stream
+
+*See also*: xref:application-stream[Application Stream]
 
 [[arp]]
 ==== image:images/yes.png[yes] ARP (noun)
@@ -567,6 +588,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 *Incorrect forms*:
 
 *See also*:  xref:xplat[Microsoft Azure Cross-Platform Command-Line Interface]
+
 
 [[arm64]]
 ==== image:images/yes.png[yes] ARM64 (noun)

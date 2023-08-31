@@ -28,6 +28,16 @@
 
 *See also*:
 
+[[weak-dependencies]]
+==== image:images/yes.png[yes] Weak dependencies (noun)
+*Description*: In Red Hat Enterprise Linux, _Weak dependencies_ are variants of the `Requires` directive that describe dependencies that are not necessary for the package to work but are considered useful by the package author.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:boolean-dependencies[Boolean dependencies]
+
 [[we-suggest]]
 ==== image:images/no.png[no] we suggest (verb)
 *Description*: Do not use "we suggest". Use a more direct construction instead. For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk".
