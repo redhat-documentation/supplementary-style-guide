@@ -33,13 +33,13 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 == August 2023
 
 .Glossary entries
-* agnostic: Removed glossary entry in favor of following the IBM Style guidance
-* client side: Removed glossary entry in favor of following the IBM Style guidance
-* client-side: Removed glossary entry in favor of following the IBM Style guidance
-* cloud: Removed glossary entry in favor of following the IBM Style guidance
-* colocate: Removed glossary entry in favor of following the IBM Style guidance
-* data center: Removed glossary entry in favor of following the IBM Style guidance
-* devops: Removed glossary entry in favor of following the IBM Style guidance
+* agnostic: Removed glossary entry because it already exists in the _IBM Style_ guide
+* client side: Removed glossary entry because it already exists in the _IBM Style_ guide
+* client-side: Removed glossary entry because it already exists in the _IBM Style_ guide
+* cloud: Removed glossary entry because it already exists in the _IBM Style_ guide
+* colocate: Removed glossary entry because it already exists in the _IBM Style_ guide
+* data center: Removed glossary entry because it already exists in the _IBM Style_ guide
+* devops: Removed glossary entry because it already exists in the _IBM Style_ guide
 * xref:ibm-eserver-system-p[IBM eServer System p]: Updated to "do not use"; use "IBM Power" instead
 * xref:ibm-s-390[IBM S/390]: Updated to "do not use"; use "IBM Z" instead
 * xref:iseries[ISeries]: Updated to "do not use"; use "IBM Power" instead
