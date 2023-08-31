@@ -328,8 +328,8 @@ _Valid values are `amd64`._
 // RHEL: General; kept as is
 [[ansible-playbook]]
 ==== image:images/yes.png[yes] Ansible Playbook (noun)
-*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language.
-Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+*Description*: Playbooks are the configuration, deployment, and orchestration language for Ansible Automation Platform.
+Playbooks can describe a policy you want your remote systems to enforce or a set of steps in a general IT process.
 An _Ansible Playbook_ is a file that contains one or more Ansible plays.
 Write as shown: uppercase _A_ and uppercase _P_. When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
 
