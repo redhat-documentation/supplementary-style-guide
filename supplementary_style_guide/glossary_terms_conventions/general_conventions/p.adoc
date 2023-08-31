@@ -231,7 +231,7 @@ When combined with privileges, permissions define a user's or resource's overall
 [[playbook]]
 ==== image:images/yes.png[yes] playbook (noun)
 *Description*: Playbooks are the configuration, deployment, and orchestration language for Ansible Automation Platform.
-Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+Playbooks can describe a policy you want your remote systems to enforce or a set of steps in a general IT process.
 When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
 
 Examples:
