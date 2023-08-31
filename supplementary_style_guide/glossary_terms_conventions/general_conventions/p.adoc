@@ -237,6 +237,7 @@ When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
 Examples:
 
 * Run a playbook in Ansible.
+* Run an Ansible Playbook.
 
 *Use it*: yes
 
