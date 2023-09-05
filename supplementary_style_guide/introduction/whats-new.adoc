@@ -34,7 +34,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 .Glossary entries
 * agnostic: Removed glossary entry because it already exists in the _IBM Style_ guide
-* xref:application-stream[application stream]: Added glossary entry
+* xref:application-stream[Application Stream]: Added glossary entry
 * xref:appstream-repository[Appstream repository]: Added glossary entry
 * xref:baseos-repository[BaseOS repository]: Added glossary entry
 * xref:binary-rpm[binary RPM]: Added glossary entry
