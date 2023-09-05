@@ -63,7 +63,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:rolling-stream[Rolling Stream]: Added glossary entry
 * xref:rpm-macro[RPM macro]: Added glossary entry
 * xref:scriptlet-directive[scriptlet directive]: Added glossary entry
-* xref:source-rpm[source RPM]: Added glossary entry
+* xref:source-rpm[Source RPM]: Added glossary entry
 * xref:trigger-directive[trigger directive]: Added glossary entry
 * xref:weak-dependencies[Weak dependencies]: Added glossary entry
 
