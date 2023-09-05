@@ -29,20 +29,47 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
-// [[august-2023]]
-// == August 2023
-//
-// // TODO: Didn't mention anything in July for the IBM entries that were removed; they've been added back with "do not use". Show these in August's section
-//
-// .Glossary entries
-// * xref:ibm-eserver-system-p[IBM eServer System p]: Updated to "do not use"; use "IBM Power" instead
-// * xref:ibm-s-390[IBM S/390]: Updated to "do not use"; use "IBM Z" instead
-// * xref:iseries[ISeries]: Updated to "do not use"; use "IBM Power" instead
-// * xref:pseries[pSeries]: Updated to "do not use"; use "IBM Power" instead
-//
-// .Style guidance
-// * TODO
-//
+[[august-2023]]
+== August 2023
+
+.Glossary entries
+* agnostic: Removed glossary entry because it already exists in the _IBM Style_ guide
+* xref:application-stream[Application Stream]: Added glossary entry
+* xref:appstream-repository[Appstream repository]: Added glossary entry
+* xref:baseos-repository[BaseOS repository]: Added glossary entry
+* xref:binary-rpm[binary RPM]: Added glossary entry
+* xref:boolean-dependencies[Boolean dependencies]: Added glossary entry
+* xref:byte-compiled-program[byte-compiled program]: Added glossary entry
+* client side: Removed glossary entry because it already exists in the _IBM Style_ guide
+* client-side: Removed glossary entry because it already exists in the _IBM Style_ guide
+* cloud: Removed glossary entry because it already exists in the _IBM Style_ guide
+* xref:codeready-linux-builder-repository[CodeReady Linux Builder repository]: Added glossary entry
+* colocate: Removed glossary entry because it already exists in the _IBM Style_ guide
+* data center: Removed glossary entry because it already exists in the _IBM Style_ guide
+* devops: Removed glossary entry because it already exists in the _IBM Style_ guide
+* xref:dnf-automatic[DNF Automatic]: Added glossary entry
+* xref:domain-controller[domain controller]: Updated glossary entry to include IdM-specific information
+* xref:file-trigger-directive[file trigger directive]: Added glossary entry
+* xref:ibm-eserver-system-p[IBM eServer System p]: Updated to "do not use"; use "IBM Power" instead
+* xref:ibm-s-390[IBM S/390]: Updated to "do not use"; use "IBM Z" instead
+* xref:interpreted-code[interpreted code]: Added glossary entry
+* xref:iseries[ISeries]: Updated to "do not use"; use "IBM Power" instead
+* xref:module[module]: Added glossary entry
+* xref:module-profile[module profile]: Added glossary entry
+* xref:module-stream[module stream]: Added glossary entry
+* xref:natively-compiled-code[natively compiled code]: Added glossary entry
+* xref:pseries[pSeries]: Updated to "do not use"; use "IBM Power" instead
+* xref:raw-interpreted-program[raw-interpreted program]: Added glossary entry
+* xref:rolling-stream[Rolling Stream]: Added glossary entry
+* xref:rpm-macro[RPM macro]: Added glossary entry
+* xref:scriptlet-directive[scriptlet directive]: Added glossary entry
+* xref:source-rpm[Source RPM]: Added glossary entry
+* xref:trigger-directive[trigger directive]: Added glossary entry
+* xref:weak-dependencies[Weak dependencies]: Added glossary entry
+
+.Style guidance
+* xref:minimalism[Minimalism]: Added section with guidance on writing with minimalism 
+
 // .Other updates
 // * TODO
 
