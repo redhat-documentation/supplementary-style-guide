@@ -43,7 +43,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * client side: Removed glossary entry because it already exists in the _IBM Style_ guide
 * client-side: Removed glossary entry because it already exists in the _IBM Style_ guide
 * cloud: Removed glossary entry because it already exists in the _IBM Style_ guide
-* xref:codeready-linux-builider-repository[CodeReady Linux Builder repository]: Added glossary entry
+* xref:codeready-linux-builder-repository[CodeReady Linux Builder repository]: Added glossary entry
 * colocate: Removed glossary entry because it already exists in the _IBM Style_ guide
 * data center: Removed glossary entry because it already exists in the _IBM Style_ guide
 * devops: Removed glossary entry because it already exists in the _IBM Style_ guide
