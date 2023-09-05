@@ -59,7 +59,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:module-stream[module stream]: Added glossary entry
 * xref:natively-compiled-code[natively compiled code]: Added glossary entry
 * xref:pseries[pSeries]: Updated to "do not use"; use "IBM Power" instead
-* xref:raw-interpreted-program[Raw-interpreted program]: Added glossary entry
+* xref:raw-interpreted-program[raw-interpreted program]: Added glossary entry
 * xref:rolling-stream[Rolling Stream]: Added glossary entry
 * xref:rpm-macro[RPM macro]: Added glossary entry
 * xref:scriplet-directive[scriplet directive]: Added glossary entry
