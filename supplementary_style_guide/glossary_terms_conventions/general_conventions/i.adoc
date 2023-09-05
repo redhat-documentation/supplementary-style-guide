@@ -382,6 +382,18 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
+[[inject]]
+==== image:images/yes.png[yes] inject (verb)
+*Description*: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences. 
+
+Red Hat Trusted Application Pipeline users can configure secrets to inject sensitive data into an application in the form of files or environment variables.
+
+*Use it*: yes
+
+*Incorrect forms*: 
+
+*See also*:
+
 [[insecure]]
 ==== image:images/yes.png[yes] insecure (adjective)
 *Description*: _Insecure_ refers to something that is unsafe.
