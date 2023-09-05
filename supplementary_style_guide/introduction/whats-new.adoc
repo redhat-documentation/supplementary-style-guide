@@ -46,7 +46,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:codeready-linux-builder-repository[CodeReady Linux Builder repository]: Added glossary entry
 * colocate: Removed glossary entry because it already exists in the _IBM Style_ guide
 * data center: Removed glossary entry because it already exists in the _IBM Style_ guide
-* devops: Removed glossary entry because it already exists in the _IBM Style_ guide
+* DevOps: Removed glossary entry because it already exists in the _IBM Style_ guide
 * xref:dnf-automatic[DNF Automatic]: Added glossary entry
 * xref:domain-controller[domain controller]: Updated glossary entry to include IdM-specific information
 * xref:file-trigger-directive[file trigger directive]: Added glossary entry
@@ -68,7 +68,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:weak-dependencies[Weak dependencies]: Added glossary entry
 
 .Style guidance
-* xref:minimalism[Minimalism]: Added section with guidance on writing with minimalism 
+* xref:minimalism[Minimalism]: Added section with guidance on writing with minimalism
 
 // .Other updates
 // * TODO
