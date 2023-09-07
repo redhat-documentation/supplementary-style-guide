@@ -18,6 +18,16 @@
 
 *See also*:
 
+[[ibm-eserver-system-i]]
+==== image:images/no.png[no] IBM eServer System i (noun)
+*Description*: This is a former product name; instead use the official product name "IBM Power".
+
+*Use it*: no
+
+*Incorrect forms*: IBM eServer System I
+
+*See also*: xref:ibm-power[IBM Power], xref:iseries[iSeries]
+
 [[ibm-eserver-system-p]]
 ==== image:images/no.png[no] IBM eServer System p (noun)
 *Description*: This is a former product name; instead use the official product name "IBM Power".
@@ -647,14 +657,14 @@ _This feature can run only on Intel 64 processors_
 *See also*:
 
 [[iseries]]
-==== image:images/no.png[no] ISeries (noun)
+==== image:images/no.png[no] iSeries (noun)
 *Description*: This is a former product name; instead use the official product name "IBM Power".
 
 *Use it*: no
 
-*Incorrect forms*: iSeries
+*Incorrect forms*: ISeries
 
-*See also*: xref:ibm-power[IBM Power]
+*See also*: xref:ibm-power[IBM Power], xref:ibm-eserver-system-i[IBM eServer System i]
 
 [[iso]]
 ==== image:images/yes.png[yes] ISO (noun)
