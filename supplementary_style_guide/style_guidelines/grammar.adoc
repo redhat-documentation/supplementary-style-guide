@@ -12,14 +12,14 @@ For more information about the Conscious Language Group, see https://github.com/
 To ensure consistency and success, it is imperative for product team stakeholders to align internally. For example, documentation teams should engage in discussions with their engineering leadership to reach an agreement on replacement terms. This ensures that the product documentation matches the code.
 ====
 
-=== blacklist and whitelist
+=== Blacklist and whitelist
 
 When possible, rewrite documentation to avoid these terms.
 When it is not possible to remove the terms _blacklist_ and _whitelist_, replace them with one of the following alternatives:
 
-* blocklist / allowlist: This combination is recommended by the _IBM Style_ guide. Use this combination unless your product area has another specific replacement that is agreed between engineering leadership and your documentation team.
-* denylist / allowlist
-* blocklist / passlist
+* Blocklist / allowlist: This combination is recommended by the _IBM Style_ guide. Use this combination unless your product area has another specific replacement that is agreed between engineering leadership and your documentation team.
+* Denylist / allowlist
+* Blocklist / passlist
 * You can also use a term that has been agreed by your product team stakeholders.
 
 .Examples
@@ -36,16 +36,16 @@ image:images/no.png[no] The following steps demonstrate adding a new rule to _wh
 image:images/yes.png[yes] The following steps demonstrate adding a new rule to _allow_ a custom binary.
 
 
-=== master and slave
+=== Master and slave
 
 When possible, rewrite documentation to avoid these terms. When it is not possible to rewrite, you can use the following alternatives for _master_ / _slave_:
 
-* primary / secondary
-* source / replica
-* initiator, requester / responder
-* controller, host / device, worker, proxy
-* director / performer
-* controller / port interface (in networking)
+* Primary / secondary
+* Source / replica
+* Initiator, requester / responder
+* Controller, host / device, worker, proxy
+* Director / performer
+* Controller / port interface (in networking)
 * You can also use a term that has been agreed by your product team stakeholders.
 
 
@@ -96,12 +96,13 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 
 The following list includes homographs that might commonly appear in technical documentation:
 
-* attribute
-* block
-* coordinates
-* number
-* object
-* project
+* Application
+* Attribute
+* Block
+* Coordinates
+* Number
+* Object
+* Project
 
 [[minimalism]]
 == Minimalism
@@ -110,7 +111,7 @@ Minimalism is a methodology for creating targeted documentation focused on your 
 Minimalism has five principles:
 
 === Principle 1: Customer focus and action orientation
-Know what your users do, what their goals are, and why they perform these actions. Minimize how much content customers must wade through to get to something they recognize as real work. Separate conceptual and background information from procedural tasks. 
+Know what your users do, what their goals are, and why they perform these actions. Minimize how much content customers must wade through to get to something they recognize as real work. Separate conceptual and background information from procedural tasks.
 
 === Principle 2: Findability
 Findability covers two areas:
