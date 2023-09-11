@@ -1090,7 +1090,7 @@ Examples:
 
 *Use it*: yes
 
-*Incorrect forms*: Use a Rulebook in Ansible.
+*Incorrect forms*: Use a Rulebook.
 
 *See also*: xref:ansible-rulebook[Ansible Rulebook]
 
