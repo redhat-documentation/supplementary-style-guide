@@ -241,7 +241,7 @@ Examples:
 
 *Use it*: yes
 
-*Incorrect forms*: Run a Playbook.
+*Incorrect forms*: Playbook
 
 *See also*: xref:ansible-playbook[Ansible Playbook]
 
