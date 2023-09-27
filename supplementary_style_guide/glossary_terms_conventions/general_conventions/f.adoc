@@ -86,6 +86,16 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*: xref:bluestore[BlueStore]
 
+[[file-trigger-directive]]
+==== image:images/yes.png[yes] file trigger directive (noun)
+*Description*: In Red Hat Enterprise Linux, a _file trigger directive_ is a special form of a transaction scriptlet that runs conditionally when matching files from other packages are installed or uninstalled.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [[firewalld]]
 ==== image:images/yes.png[yes] firewalld (noun)
 *Description*: The _firewalld_ service provides a dynamically managed firewall with support for zones that define the trust level of network connections or interfaces. Write as shown (all lowercase).

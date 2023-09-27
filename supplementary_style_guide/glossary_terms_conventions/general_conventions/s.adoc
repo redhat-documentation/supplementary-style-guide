@@ -98,6 +98,16 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
+[[scriptlet-directive]]
+==== image:images/yes.png[yes] scriptlet directive (noun)
+*Description*: A _scriptlet directive_ is a fragment of code in a SPEC file, such as a shell script, that runs during build time ("build scriptlet") or transaction time ("transaction scriptlet") to change the user’s system. Build scriptlets are more limited than transaction scriptlets because build scriptlets do not receive arguments and can only be shell scripts.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
 [[scrollbar]]
 ==== image:images/yes.png[yes] scrollbar (noun)
 *Description*: A _scrollbar_ is a long, thin rectangle on the edge of the screen that allows a user to view information that does not fit on a single screen display.
@@ -164,7 +174,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[segmentation-fault]]
 ==== image:images/yes.png[yes] segmentation fault (noun)
-*Description*:  A _segmentation fault_ occurs when a process tries to access a memory location that it is not allowed to access, or tries to access a memory location in a way that is not allowed (for example, if the process tries to write to a read-only location or to overwrite part of the operating system). Only use the abbreviation "segfault" if absolutely necessary, and never use it as a verb.
+*Description*:  A _segmentation fault_ occurs when a process tries to access a memory location that it is not allowed to access, or tries to access a memory location in a way that is not allowed (for example, if the process tries to write to a read-only location or to overwrite part of the operating system). Do not use the abbreviation "segfault" unless absolutely necessary. Never use the abbreviation "segfault" as a verb.
 
 *Use it*: yes
 
@@ -343,7 +353,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Incorrect forms*: Shadow Man, ShadowMan
 
-*See also*: http://brand.redhat.com/logos/shadowman/[Red Hat Brand Standards: Shadowman]
+*See also*: https://www.redhat.com/en/about/brand/standards/history[Red Hat Brand Standards: Our history]
 
 // Ceph: General; kept as is
 [[shard-n]]
@@ -642,6 +652,16 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*: xref:target[target]
 
+[[source-rpm]]
+==== image:images/yes.png[yes] Source RPM (noun)
+*Description*: _Source RPM_, or SRPM, is an RPM package that contains the complete source code, including any patches, and a SPEC file that describes how to build the source code into a binary RPM.
+
+*Use it*: yes
+
+*Incorrect forms*: srpm
+
+*See also*: xref:spec-file[spec file], xref:rpm[RPM]
+
 // Fuse: Removed "Source tab" entry (Breda)
 
 [[source-navigator]]
@@ -730,7 +750,7 @@ _Update the `Pod` spec to reflect the changes._
 
 *Incorrect forms*: specfile
 
-*See also*:
+*See also*: xref:rpm[RPM]
 
 [[specific]]
 ==== image:images/yes.png[yes] specific (noun)

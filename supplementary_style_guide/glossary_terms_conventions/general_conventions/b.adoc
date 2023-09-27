@@ -71,6 +71,16 @@
 
 *See also*: xref:distinguished-name[distinguished name]
 
+[[baseos-repository]]
+==== image:images/yes.png[yes] BaseOS repository (noun)
+*Description*: In Red Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying operating system functionality that provides the foundation for all installations.
+
+*Use it*: yes
+
+*Incorrect forms*: Baseos, baseos, baseOS
+
+*See also*:
+
 [[basic-http-authentication]]
 ==== image:images/yes.png[yes] Basic HTTP authentication (noun)
 *Description*: _Basic HTTP authentication_, or _Basic authentication_, is an authorization scheme that uses HTTP to send login credentials encoded in Base64.
@@ -138,6 +148,16 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *See also*:
 
+[[binary-rpm]]
+==== image:images/yes.png[yes] binary RPM (noun)
+*Description*: A _binary RPM_ is an RPM package that contains the binaries built from sources and patches.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:rpm[RPM]
+
 [[bind]]
 ==== image:images/yes.png[yes] BIND (noun)
 *Description*: Use "BIND" when referring to the DNS software.
@@ -202,6 +222,16 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 *Incorrect forms*: bluestore, Blue Store
 
 *See also*: xref:filestore[FileStore], xref:object-store[Object Store]
+
+[[boolean-dependencies]]
+==== image:images/yes.png[yes] Boolean dependencies (noun)
+*Description*: In Red Hat Enterprise Linux, _Boolean dependencies_ are Boolean expressions such as `if`, `and`, `or`, and other expressions that are used in the `Requires`, `Conflicts`, and `Weak` dependency directives. Boolean dependencies are also known as _Rich dependencies_.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:weak-dependencies[Weak dependencies]
 
 [[boot-disk]]
 ==== image:images/yes.png[yes] boot disk (noun)
@@ -476,3 +506,13 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 *Incorrect forms*: byte code
 
 *See also*:
+
+[[byte-compiled-program]]
+==== image:images/yes.png[yes] byte-compiled program (noun)
+*Description*: _Byte-compiled programs_ are programs that must be compiled into bytecode before they can run in a language virtual machine.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:interpreted-code[interpreted code]

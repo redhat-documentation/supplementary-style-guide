@@ -221,7 +221,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[deployment-scanner]]
 ==== image:images/yes.png[yes] deployment-scanner subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
 
 *Use it*: yes
 
@@ -369,7 +369,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *See also*:
 
 // RHEL: Added "In Red Hat Enterprise Linux,"; Lowercased entry to "directory server" and updated in description
-// TODO: See if it was right to lowercase this
 [[directory-server]]
 ==== image:images/yes.png[yes] directory server (noun)
 *Description*: In Red Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
@@ -446,6 +445,16 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
+[[dnf-automatic]]
+==== image:images/yes.png[yes] DNF Automatic (noun)
+*Description*: Use _DNF Automatic_ to refer to a Red Hat Enterprise Linux command-line interface suited for automatic and regular package updates.
+
+*Use it*: yes
+
+*Incorrect forms*: DNF automatic, dnf automatic
+
+*See also*:
+
 [[dns]]
 ==== image:images/yes.png[yes] DNS (noun)
 *Description*: _DNS_ is an abbreviation for "Domain Name System" or "Domain Name Service", a service that translates domain names into IP addresses and vice versa.
@@ -492,7 +501,7 @@ Red Hat Directory Server conforms to LDAP standards.
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [[domain-controller]]
 ==== image:images/yes.png[yes] domain controller (noun)
-*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain.
+*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
 
 *Use it*: yes
 
@@ -520,7 +529,6 @@ Red Hat Directory Server conforms to LDAP standards.
 *Incorrect forms*: domainname, domain-name
 
 *See also*:
-
 
 [[download-n]]
 ==== image:images/yes.png[yes] download (noun)
