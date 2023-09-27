@@ -622,6 +622,26 @@ _Valid values are `arm64`._
 
 *See also*: xref:ARM64[ARM64]
 
+[[aws-local-zone]]
+==== image:images/yes.png[yes] AWS Local Zone (noun)
+*Description*: An _Amazon Web Services (AWS) Local Zone_ represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as `us-west-2-lax-1a`. 
+
+*Use it*: yes
+
+*Incorrect forms*: Local Zone, LZ, local zone
+
+*See also*: xref:opt-in[opt in], xref:aws-opt-in-region[AWS opt-in Region]
+
+[[aws-opt-in-region]]
+==== image:images/yes.png[yes] AWS opt-in Region (noun)
+*Description*: An _Amazon Web Services (AWS) opt-in Region_ represents a world-wide location, which hosts Amazon's cloud-computing resources, where a customer must opt in to the AWS Region before they can deploy their OpenShift Container Platform cluster in this location. An AWS Region is represented by a regional service endpoint code, such as `us-east-2`.
+
+*Use it*: yes
+
+*Incorrect forms*: AWS region, AWS opt in Region
+
+*See also*: xref:opt-in[opt in]
+
 // Azure: Added "In Microsoft Azure" and removed "Microsoft Azure" from later in the sentence
 [[arm]]
 ==== image:images/yes.png[yes] Azure Resource Manager (noun)
