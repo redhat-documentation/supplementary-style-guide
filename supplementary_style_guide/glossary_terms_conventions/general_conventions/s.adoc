@@ -417,7 +417,17 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:logical-topology[logical topology], xref:physical-topology[physical topology]
 
+
+[[since]]
+==== image:images/caution.png[with caution] since (conjunction)
+*Description*: Use "since" to indicate the passage of time.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+*See also*:
 [[singleton]]
 ==== image:images/yes.png[yes] singleton subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
