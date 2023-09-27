@@ -547,17 +547,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-[discrete]
-[[pulldown]]
-==== image:images/yes.png[yes] pulldown (adjective)
-*Description*: A _pulldown_ is the common type of menu used with a graphical user interface (GUI). Clicking a menu title causes the menu items to drop down from that position and be displayed. Options are selected either by clicking the menu item or by continuing to hold the mouse button down and letting go when the item is highlighted.
-
-*Use it*: yes
-
-*Incorrect forms*: pull-down
-
-*See also*:
-
 // Satellite: General; kept as is
 [discrete]
 [[puppet]]
