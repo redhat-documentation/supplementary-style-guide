@@ -6220,6 +6220,36 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 </div>
 </div>
 <div class="sect4">
+<h5 id="aws-local-zone"><a class="anchor" href="#aws-local-zone"></a><a class="link" href="#aws-local-zone"><span class="image"><img src="images/yes.png" alt="yes"></span> AWS Local Zone (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: An <em>Amazon Web Services (AWS) Local Zone</em> represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as <code>us-west-2-lax-1a</code>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Local Zone, LZ, local zone</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#opt-in">opt in</a>, <a href="#aws-opt-in-region">AWS opt-in Region</a></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="aws-opt-in-region"><a class="anchor" href="#aws-opt-in-region"></a><a class="link" href="#aws-opt-in-region"><span class="image"><img src="images/yes.png" alt="yes"></span> AWS opt-in Region (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: An <em>Amazon Web Services (AWS) opt-in Region</em> represents a world-wide location, which hosts Amazon&#8217;s cloud-computing resources, where a customer must opt in to the AWS Region before they can deploy their OpenShift Container Platform cluster in this location. An AWS Region is represented by a regional service endpoint code, such as <code>us-east-2</code>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: AWS region, AWS opt in Region</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#opt-in">opt in</a></p>
+</div>
+</div>
+<div class="sect4">
 <h5 id="arm"><a class="anchor" href="#arm"></a><a class="link" href="#arm"><span class="image"><img src="images/yes.png" alt="yes"></span> Azure Resource Manager (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: In Microsoft Azure, the <em>Azure Resource Manager (ARM)</em> is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.</p>
@@ -14945,6 +14975,21 @@ When referring generally to other Kubernetes components, such as pods, nodes, or
 </div>
 </div>
 <div class="sect4">
+<h5 id="opt-in"><a class="anchor" href="#opt-in"></a><a class="link" href="#opt-in"><span class="image"><img src="images/yes.png" alt="yes"></span> opt in (verb)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: For Amazon Web Services (AWS), <em>opt in</em> refers to manually selecting AWS opt-in Regions, which are usually locations that can offer higher security requirements than default commercial AWS Regions. A Red Hat customer who wants to deploy an OpenShift Container Platform cluster in an AWS Region or AWS Local Zone location must opt in to the location by configuring their AWS management account. For the gerund form of the phrase, use "opting in".</p>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: opt into, opting into</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#aws-opt-in-region">AWS opt-in Region</a>, <a href="#aws-local-zone">AWS Local Zone</a></p>
+</div>
+</div>
+<div class="sect4">
 <h5 id="organization-administrator"><a class="anchor" href="#organization-administrator"></a><a class="link" href="#organization-administrator"><span class="image"><img src="images/yes.png" alt="yes"></span> Organization Administrator (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: From <a href="https://access.redhat.com/articles/1757953">Roles and Permissions for Red Hat Customer Portal</a>: Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.</p>
@@ -21088,7 +21133,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-09-05 16:04:08 UTC
+Last updated 2023-09-27 14:46:41 UTC
 </div>
 </div>
 <!-- Nav bar -->
