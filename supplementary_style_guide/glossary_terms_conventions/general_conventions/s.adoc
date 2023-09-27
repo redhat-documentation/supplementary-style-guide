@@ -174,7 +174,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[segmentation-fault]]
 ==== image:images/yes.png[yes] segmentation fault (noun)
-*Description*:  A _segmentation fault_ occurs when a process tries to access a memory location that it is not allowed to access, or tries to access a memory location in a way that is not allowed (for example, if the process tries to write to a read-only location or to overwrite part of the operating system). Only use the abbreviation "segfault" if absolutely necessary, and never use it as a verb.
+*Description*:  A _segmentation fault_ occurs when a process tries to access a memory location that it is not allowed to access, or tries to access a memory location in a way that is not allowed (for example, if the process tries to write to a read-only location or to overwrite part of the operating system). Do not use the abbreviation "segfault" unless absolutely necessary. Never use the abbreviation "segfault" as a verb.
 
 *Use it*: yes
 
