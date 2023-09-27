@@ -353,7 +353,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Incorrect forms*: Shadow Man, ShadowMan
 
-*See also*: http://brand.redhat.com/logos/shadowman/[Red Hat Brand Standards: Shadowman]
+*See also*: https://www.redhat.com/en/about/brand/standards/history[Red Hat Brand Standards: Our history]
 
 // Ceph: General; kept as is
 [[shard-n]]
