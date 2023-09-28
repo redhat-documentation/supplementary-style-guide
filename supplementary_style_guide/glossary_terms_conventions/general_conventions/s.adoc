@@ -644,7 +644,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 [[source-rpm]]
 ==== image:images/yes.png[yes] Source RPM (noun)
-*Description*: _Source RPM_, or SRPM, is an RPM package that contains the complete source code, including any patches, and a SPEC file that describes how to build the source code into a binary RPM.
+*Description*: _Source RPM_, or SRPM, is an RPM package that contains the complete source code, including any patches, and a SPEC file that describes how to build the source code into a binary RPM file.
 
 *Use it*: yes
 
@@ -720,7 +720,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 // OCP: Added "In Red Hat OpenShift,"
 [[spec]]
 ==== image:images/yes.png[yes] spec (noun)
-*Description*: In Red Hat OpenShift, in addition to "spec file", which is permitted when it relates to RPM spec files, you can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
+*Description*: In Red Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
 
 Example of correct usage:
 
@@ -734,7 +734,7 @@ _Update the `Pod` spec to reflect the changes._
 
 [[spec-file]]
 ==== image:images/yes.png[yes] spec file (noun)
-*Description*: _Spec files_ are used as part of rebuilding RPMs. The spec file outlines how to configure and compile the RPM as well as how to install the files later.
+*Description*: The `rpmbuild` tool uses a _spec file_ to build an RPM package. A spec file defines instructions in a series of sections.
 
 *Use it*: yes
 
