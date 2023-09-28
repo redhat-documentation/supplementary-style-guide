@@ -1087,7 +1087,7 @@ Rulebooks are used in Event-Driven Ansible. When using the term _rulebook_ witho
 Examples:
 
 * Use a rulebook in Ansible.
-* Use an Ansible Playbook.
+* Use an Ansible Rulebook.
 
 *Use it*: yes
 
