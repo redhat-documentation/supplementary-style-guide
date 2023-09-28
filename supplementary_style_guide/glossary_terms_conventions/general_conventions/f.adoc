@@ -75,6 +75,17 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*:
 
+//Add FedRAMP terminology Issue #395
+[[fedramp]]
+==== image:images/yes.png[yes] FedRAMP® (noun)
+*Description*: The Federal Risk and Authorization Management Program (FedRAMP®) is managed by the FedRAMP Program Management Office. Use the ® symbol at first usage in a document. For additional information, see the link:https://www.fedramp.gov/assets/resources/documents/FedRAMP_Branding_Guidance.pdf[FedRAMP Brand Guide].
+
+*Use it*: yes
+
+*Incorrect forms*: FedRamp, FEDRAMP
+
+*See also*:
+
 // Ceph: Added "In Red Hat Ceph Storage,"
 [[filestore]]
 ==== image:images/yes.png[yes] FileStore (noun)
