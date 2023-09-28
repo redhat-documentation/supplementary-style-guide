@@ -427,16 +427,8 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:logical-topology[logical topology], xref:physical-topology[physical topology]
 
-
-[[since]]
-==== image:images/caution.png[with caution] since (conjunction)
-*Description*: Use "since" to indicate the passage of time.
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+
 *See also*:
 [[singleton]]
 ==== image:images/yes.png[yes] singleton subsystem (noun)
