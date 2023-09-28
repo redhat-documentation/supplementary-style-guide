@@ -46,7 +46,7 @@
 
 [[pc]]
 ==== image:images/yes.png[yes] PC (noun)
-*Description*: _PC_ is an abbreviation for personal computer. For more information, see the _IBM Style_ guide.
+*Description*: _PC_ is an abbreviation for personal computer.
 
 *Use it*: yes
 
