@@ -1082,7 +1082,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 [[rulebook]]
 ==== image:images/yes.png[yes] rulebook (noun)
 *Description*: A _rulebook_ is a YAML file containing a list of rules, event source definitions, and hosts to run against. 
-Rulebooks are used in Event-Driven Ansible. When using the term _rulebook_ without the Ansible prefix, use lowercase _r_.
+Rulebooks are used in Event-Driven Ansible. When using the term "rulebook" without the Ansible prefix, use lowercase _r_.
 
 Examples:
 

@@ -346,7 +346,7 @@ Examples:
 
 [[ansible-rulebook]]
 ==== image:images/yes.png[yes] Ansible Rulebook (noun)
-*Description*: An _Ansible Rulebook_ tells Event-Driven Ansible what sources to monitor for an event and what to do when certain conditions are met. Rulebooks are written in YAML and are used like Ansible Playbooks. Write as shown: uppercase _A_ and uppercase _R_. When using the term _rulebook_ without the Ansible prefix, use lowercase _r_.
+*Description*: An _Ansible Rulebook_ tells Event-Driven Ansible which sources to monitor for an event and what to do when certain conditions are met. Rulebooks are written in YAML and are used like Ansible Playbooks. Write as shown: uppercase _A_ and uppercase _R_. When using the term "rulebook" without the Ansible prefix, use lowercase _r_.
 
 Examples:
 
