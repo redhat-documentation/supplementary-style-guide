@@ -328,8 +328,8 @@ _Valid values are `amd64`._
 // RHEL: General; kept as is
 [[ansible-playbook]]
 ==== image:images/yes.png[yes] Ansible Playbook (noun)
-*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language.
-Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+*Description*: Playbooks are the configuration, deployment, and orchestration language for Ansible Automation Platform.
+Playbooks can describe a policy you want your remote systems to enforce or a set of steps in a general IT process.
 An _Ansible Playbook_ is a file that contains one or more Ansible plays.
 Write as shown: uppercase _A_ and uppercase _P_. When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
 
@@ -342,7 +342,22 @@ Examples:
 
 *Incorrect forms*: Ansible playbook
 
-*See also*: xref:ansible-play[Ansible play]
+*See also*: xref:ansible-play[Ansible play], xref:playbook[playbook]
+
+[[ansible-rulebook]]
+==== image:images/yes.png[yes] Ansible Rulebook (noun)
+*Description*: An _Ansible Rulebook_ tells Event-Driven Ansible which sources to monitor for an event and what to do when certain conditions are met. Rulebooks are written in YAML and are used like Ansible Playbooks. Write as shown: uppercase _A_ and uppercase _R_. When using the term "rulebook" without the Ansible prefix, use lowercase _r_.
+
+Examples:
+
+* Use a rulebook in Ansible.
+* Use an Ansible Rulebook.
+
+*Use it*: yes
+
+*Incorrect forms*: Ansible rulebook
+
+*See also*: xref:rulebook[rulebook]
 
 // RHEL: General; kept as is
 [[ansible-task]]
