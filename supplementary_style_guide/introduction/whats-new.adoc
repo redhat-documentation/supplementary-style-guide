@@ -29,6 +29,18 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
+[[september-2023]]
+== September 2023
+
+.Glossary entries
+* xref:aws-local-zone[AWS Local Zone]: Added glossary entry
+* xref:aws-opt-in-region[AWS opt-in Region]: Added glossary entry
+* xref:ibm-cloud-bare-metal[IBM Cloud® Bare Metal (Classic)]: Added glossary entry
+* xref:ibm-eserver-system-i[IBM eServer System i]: Added glossary entry with "do not use" guidance
+* xref:inject[inject]: Added glossary entry
+* xref:opt-in[opt in]: Added glossary entry
+* pulldown: Removed glossary entry in favor of following the _IBM Style_ guidance on using "dropdown" and "drop-down"
+
 [[august-2023]]
 == August 2023
 
