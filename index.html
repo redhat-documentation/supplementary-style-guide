@@ -5827,8 +5827,8 @@ Avoid indicating direction, such as left, right, above and below, since these ha
 <div class="sect4">
 <h5 id="ansible-playbook"><a class="anchor" href="#ansible-playbook"></a><a class="link" href="#ansible-playbook"><span class="image"><img src="images/yes.png" alt="yes"></span> Ansible Playbook (noun)</a></h5>
 <div class="paragraph">
-<p><strong>Description</strong>: Playbooks are Ansible’s configuration, deployment, and orchestration language.
-Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+<p><strong>Description</strong>: Playbooks are the configuration, deployment, and orchestration language for Ansible Automation Platform.
+Playbooks can describe a policy you want your remote systems to enforce or a set of steps in a general IT process.
 An <em>Ansible Playbook</em> is a file that contains one or more Ansible plays.
 Write as shown: uppercase <em>A</em> and uppercase <em>P</em>. When using the term <em>playbook</em> without the Ansible prefix, use lowercase <em>p</em>.</p>
 </div>
@@ -5852,7 +5852,35 @@ Write as shown: uppercase <em>A</em> and uppercase <em>P</em>. When using the te
 <p><strong>Incorrect forms</strong>: Ansible playbook</p>
 </div>
 <div class="paragraph">
-<p><strong>See also</strong>: <a href="#ansible-play">Ansible play</a></p>
+<p><strong>See also</strong>: <a href="#ansible-play">Ansible play</a>, <a href="#playbook">playbook</a></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="ansible-rulebook"><a class="anchor" href="#ansible-rulebook"></a><a class="link" href="#ansible-rulebook"><span class="image"><img src="images/yes.png" alt="yes"></span> Ansible Rulebook (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: An <em>Ansible Rulebook</em> tells Event-Driven Ansible which sources to monitor for an event and what to do when certain conditions are met. Rulebooks are written in YAML and are used like Ansible Playbooks. Write as shown: uppercase <em>A</em> and uppercase <em>R</em>. When using the term "rulebook" without the Ansible prefix, use lowercase <em>r</em>.</p>
+</div>
+<div class="paragraph">
+<p>Examples:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Use a rulebook in Ansible.</p>
+</li>
+<li>
+<p>Use an Ansible Rulebook.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Ansible rulebook</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#rulebook">rulebook</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -15511,6 +15539,36 @@ Permissions for an object determine which agents, such as a user group, are allo
 </div>
 </div>
 <div class="sect4">
+<h5 id="playbook"><a class="anchor" href="#playbook"></a><a class="link" href="#playbook"><span class="image"><img src="images/yes.png" alt="yes"></span> playbook (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: <em>Playbooks</em> are the configuration, deployment, and orchestration language for Ansible Automation Platform.
+Playbooks can describe a policy you want your remote systems to enforce or a set of steps in a general IT process.
+When using the term "playbook" without the Ansible prefix, use lowercase <em>p</em>.</p>
+</div>
+<div class="paragraph">
+<p>Examples:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Run a playbook in Ansible.</p>
+</li>
+<li>
+<p>Run an Ansible Playbook.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Playbook</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#ansible-playbook">Ansible Playbook</a></p>
+</div>
+</div>
+<div class="sect4">
 <h5 id="pluggable"><a class="anchor" href="#pluggable"></a><a class="link" href="#pluggable"><span class="image"><img src="images/yes.png" alt="yes"></span> pluggable (noun)</a></h5>
 <div class="paragraph">
 <p><strong>Description</strong>: "Pluggable" refers to something that is capable of being plugged in, especially in terms of (for example) software modules. "Hot-pluggable" is also widely used with respect to hardware to indicate that it can be connected and recognized without powering down the system.</p>
@@ -17595,6 +17653,35 @@ IdM uses two types of replication agreements: <em>domain replication</em> agreem
 </div>
 <div class="paragraph">
 <p><strong>See also</strong>:</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="rulebook"><a class="anchor" href="#rulebook"></a><a class="link" href="#rulebook"><span class="image"><img src="images/yes.png" alt="yes"></span> rulebook (noun)</a></h5>
+<div class="paragraph">
+<p><strong>Description</strong>: A <em>rulebook</em> is a YAML file containing a list of rules, event source definitions, and hosts to run against.
+Rulebooks are used in Event-Driven Ansible. When using the term "rulebook" without the Ansible prefix, use lowercase <em>r</em>.</p>
+</div>
+<div class="paragraph">
+<p>Examples:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Use a rulebook in Ansible.</p>
+</li>
+<li>
+<p>Use an Ansible Rulebook.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Use it</strong>: yes</p>
+</div>
+<div class="paragraph">
+<p><strong>Incorrect forms</strong>: Rulebook</p>
+</div>
+<div class="paragraph">
+<p><strong>See also</strong>: <a href="#ansible-rulebook">Ansible Rulebook</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -21181,7 +21268,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-10-02 18:12:45 UTC
+Last updated 2023-10-02 19:01:43 UTC
 </div>
 </div>
 <!-- Nav bar -->
