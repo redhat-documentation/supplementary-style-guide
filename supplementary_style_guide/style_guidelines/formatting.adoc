@@ -104,6 +104,42 @@ Write all titles and headings, including the titles of product documentation gui
 * _Configuring the node port service range_
 * _How to perform an unsupported conversion from a RHEL-derived Linux distribution to RHEL_
 
+[[commands-in-code-blocks]]
+== Commands in code blocks
+
+As a default, use bold formatting for commands in code blocks, to visually distinguish them from their lead-in sentences and example outputs.
+
+.Example AsciiDoc: Command and its output in a code block
+
+  Verify that the `libvirt` default network is active and configured to start automatically:
+  +
+  [subs="+quotes"]
+  ----
+  # *virsh net-list --all*
+  Name      State    Autostart   Persistent
+  --------------------------------------------
+  default   active   yes         yes
+  ----
+
+
+This renders as:
+
+====
+Verify that the `libvirt` default network is active and configured to start automatically:
+
+[subs="+quotes"]
+----
+# *virsh net-list --all*
+Name      State    Autostart   Persistent
+--------------------------------------------
+default   active   yes         yes
+----
+====
+
+Disregard this guideline for example when the command is not an important part of what you want to show in the given code block.
+
+In addition, both in commands and outputs in code blocks, observe the correct mark-up for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
+
 [[user-replaced-values]]
 == User-replaced values
 
