@@ -168,6 +168,26 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
+[[executable-adj]]
+==== image:images/yes.png[yes] executable (adjective)
+*Description*: _Executable_ describes a file an operating system can run as a program. For directories, having executable permission allows you to navigate into the directory with the `cd` command.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[executable]]
+==== image:images/caution.png[with caution] executable (noun)
+*Description*: When it runs, an _executable_ performs specific operations based on its coded instructions. Write "executable file (executable)" on the first use.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*:
+
 [[exif]]
 ==== image:images/yes.png[yes] Exif (noun)
 *Description*: _Exif_ is an image file format specification that enables metadata tags to be added to existing JPEG, TIFF, and RIFF files. _Exif_ is sometimes referred to as _Exif Print_.
