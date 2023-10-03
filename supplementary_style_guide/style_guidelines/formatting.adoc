@@ -1,6 +1,49 @@
 [[formatting]]
 = Formatting
 
+[[commands-in-code-blocks]]
+== Commands in code blocks
+
+Use a single command per code block per procedure step. This helps with readability and makes it possible for the copy button in code blocks to work correctly.
+
+As a default, use bold formatting for commands in code blocks, to visually distinguish them from their lead-in sentences and example outputs. For consistency, do this even when no output is shown in the code block.
+
+[NOTE]
+====
+To apply formatting in a code block, you must use the `quotes` link:https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/[AsciiDoc substitution].
+====
+
+.Example AsciiDoc: A command and its output in a code block
+
+  Verify that the `libvirt` default network is active and configured to start automatically:
+  
+  [subs="+quotes"]
+  ----
+  # *virsh net-list --all*
+  Name      State    Autostart   Persistent
+  --------------------------------------------
+  default   active   yes         yes
+  ----
+
+
+This example renders as follows in HTML:
+
+====
+Verify that the `libvirt` default network is active and configured to start automatically:
+
+[subs="+quotes"]
+----
+# *virsh net-list --all*
+Name      State    Autostart   Persistent
+--------------------------------------------
+default   active   yes         yes
+----
+====
+
+Do not use bold formatting for the output, unless you need to highlight a specific part of it. When you do emphasize a non-command item in a code block, you are not required to bold the command.
+
+For both commands and outputs in code blocks, observe the correct mark-up for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
+
 [[date-formats]]
 == Date formats
 
@@ -104,41 +147,6 @@ Write all titles and headings, including the titles of product documentation gui
 * _Configuring the node port service range_
 * _How to perform an unsupported conversion from a RHEL-derived Linux distribution to RHEL_
 
-[[commands-in-code-blocks]]
-== Commands in code blocks
-
-As a default, use bold formatting for commands in code blocks, to visually distinguish them from their lead-in sentences and example outputs.
-
-.Example AsciiDoc: Command and its output in a code block
-
-  Verify that the `libvirt` default network is active and configured to start automatically:
-  +
-  [subs="+quotes"]
-  ----
-  # *virsh net-list --all*
-  Name      State    Autostart   Persistent
-  --------------------------------------------
-  default   active   yes         yes
-  ----
-
-
-This renders as:
-
-====
-Verify that the `libvirt` default network is active and configured to start automatically:
-
-[subs="+quotes"]
-----
-# *virsh net-list --all*
-Name      State    Autostart   Persistent
---------------------------------------------
-default   active   yes         yes
-----
-====
-
-Disregard this guideline for example when the command is not an important part of what you want to show in the given code block.
-
-In addition, both in commands and outputs in code blocks, observe the correct mark-up for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
 
 [[user-replaced-values]]
 == User-replaced values
@@ -167,7 +175,7 @@ Ensure that user-replaced values have the following characteristics:
 Create an Ansible inventory file that is named `/_<path>_/inventory/hosts`.
 ----
 
-This renders as:
+This example renders as follows in HTML:
 
 ====
 Create an Ansible inventory file that is named `/_<path>_/inventory/hosts`.
@@ -182,7 +190,7 @@ To italicize a user-replaced value in a code block, you must add an attribute to
   $ *oc describe node __<node_name>__*
   ----
 
-This renders as:
+This example renders as follows in HTML:
 
 ====
 [subs="+quotes"]
@@ -201,7 +209,7 @@ $ *oc describe node __<node_name>__*
   connection.interface-name:  enp7s0
   ----
 
-This renders as:
+This example renders as follows in HTML:
 
 ====
 [subs="+quotes"]
@@ -233,7 +241,7 @@ Ensure that user-replaced values in XML have the following characteristics:
   <ipAddress>__${ip_address}__</ipAddress>
   ----
 
-This renders as:
+This example renders as follows in HTML:
 
 ====
 [source,xml,subs="+quotes"]
@@ -249,7 +257,7 @@ This renders as:
   <oauth2-introspection client-id="__${client_id}__"/>
   ----
 
-This renders as:
+This example renders as follows in HTML:
 
 ====
 [source,xml,subs="+quotes"]
