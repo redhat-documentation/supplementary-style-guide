@@ -125,15 +125,6 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 
 *See also*:
 
-[[because]]
-==== image:images/caution.png[with caution] because (conjunction)
-*Description*: Do not use "since" to mean "because". Use "because" to refer to a reason. Use "since" to indicate the passage of time.
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*:
 
 [[bimodal-it]]
 ==== image:images/caution.png[with caution] bimodal IT (noun)
