@@ -149,8 +149,8 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 *See also*:
 
 [[binary-rpm]]
-==== image:images/yes.png[yes] binary RPM (noun)
-*Description*: A _binary RPM_ is an RPM package that contains the binaries built from sources and patches.
+==== image:images/yes.png[yes] binary RPM file (noun)
+*Description*: A _binary RPM file_ is an RPM package that contains the binaries built from sources and patches.
 
 *Use it*: yes
 
