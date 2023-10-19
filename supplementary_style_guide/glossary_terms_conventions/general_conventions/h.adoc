@@ -20,7 +20,7 @@
 
 [[hashbang]]
 ==== image:images/no.png[no] hashbang (noun)
-*Description*: A _shebang_ such as `#!/bin/bash` is a common term for an _interpreter directive_, which is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as "shebang". Do not use "hashbang". Instead,  on first mention include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs".
+*Description*: Do not use to refer to a computer language construct that controls which interpreter parses and interprets instructions in a computer program. Instead, on first mention include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs".
 *Use it*: no
 
 *Incorrect forms*:
