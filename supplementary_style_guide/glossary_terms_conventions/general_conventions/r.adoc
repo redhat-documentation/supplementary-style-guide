@@ -1038,7 +1038,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 // RHEL: General; kept as is
 [[rpm-ostree]]
 ==== image:images/yes.png[yes] rpm-ostree (noun)
-*Description*: A hybrid image or system package that hosts operating system updates. Use lowercase format and backticks, for example, "`rpm-ostree`".
+*Description*: A hybrid image or system package that hosts operating system updates. Use lowercase format and backticks, for example, &#34;``rpm-ostree``&#34;.
 
 *Use it*: yes
 
