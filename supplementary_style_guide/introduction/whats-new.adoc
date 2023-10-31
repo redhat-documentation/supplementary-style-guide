@@ -43,7 +43,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:segmentation-fault[segmentation fault]: Updated glossary entry for clarity
 * xref:spec-file[spec file]: Updated glossary entry for clarity
 * xref:technology-preview[Technology Preview] Added glossary entry
-//
+
 .Style guidance
 * xref:technology-preview-guidance[Technology Preview]: Added section with guidance on writing Technology Previews
 //
