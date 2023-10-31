@@ -40,12 +40,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:playbook[playbook]: Added glossary entry
 * xref:rulebook[rulebook]: Added glossary entry
 * xref:spec-file[spec file]: Updated glossary entry for clarity
-//
-//.Style guidance
-
-//
-// .Other updates
-// * TODO
 
 [[september-2023]]
 == September 2023
