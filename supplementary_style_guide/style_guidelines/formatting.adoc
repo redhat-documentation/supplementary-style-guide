@@ -42,7 +42,7 @@ default   active   yes         yes
 
 Do not use bold formatting for the output, unless you need to highlight a specific part of it. When you do emphasize a non-command item in a code block, you are not required to bold the command.
 
-For both commands and outputs in code blocks, observe the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
+For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
 
 [[date-formats]]
 == Date formats
