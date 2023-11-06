@@ -6,7 +6,7 @@
 
 Use a single command per code block for each procedure step. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
 
-As a default, use bold formatting for commands in code blocks to visually distinguish them from their lead-in sentences and example outputs. For consistency, do this even when no output is shown in the code block.
+By default, use bold formatting for commands in code blocks to visually distinguish the commands from their lead-in sentences and from the command prompts and example outputs. For consistency, use bold formatting for commands even when no command output is shown in the code block.
 
 [NOTE]
 ====
