@@ -4,7 +4,7 @@
 [[commands-in-code-blocks]]
 == Commands in code blocks
 
-Use a single command per code block for each procedure step. This helps with readability and makes it possible for the copy button in code blocks to work correctly.
+Use a single command per code block for each procedure step. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
 
 As a default, use bold formatting for commands in code blocks to visually distinguish them from their lead-in sentences and example outputs. For consistency, do this even when no output is shown in the code block.
 
