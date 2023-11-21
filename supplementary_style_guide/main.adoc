@@ -28,6 +28,9 @@ If applicable, these guidelines provide example formatting in AsciiDoc, which is
 // Grammar and language
 include::style_guidelines/grammar.adoc[leveloffset=+2]
 
+// Localization
+include::style_guidelines/localization.adoc[leveloffset=+2]
+
 // Formatting
 include::style_guidelines/formatting.adoc[leveloffset=+2]
 

@@ -1,0 +1,18 @@
+[[grammar]]
+= Localization
+
+Localization is crucial for making your technical documentation accessible and understandable globally. By preparing your content for localization to various linguistic and cultural contexts, you help enhance user engagement, extend your documentation's reach, and reduce support costs.
+
+Preparing your content this way makes your documentation more effective and efficient for diverse audiences.
+
+To improve comprehension and facilitate translation, apply the following best practices:
+
+* Prioritize clear, simple language.
+* Avoid jargon and complex sentences.
+* Use active voice.
+* Maintain consistent terminology.
+* Incorporate visual aids like diagrams.
+
+The following sections provide some additional guidelines and examples.
+
+== TBD
