@@ -90,7 +90,7 @@ Documentation for cloud services follows the _IBM Style_ guide for _fairly conve
 
 [[homographs]]
 == Homographs
-A homograph is a word that is spelled the same as another word but has a different meaning when used as a different part of speech.
+A homograph is a word that is spelled the same as another word but also has a different meaning.
 Using homographs close together in a sentence or paragraph might confuse readers.
 Therefore, be aware of this potential issue, and, when possible, avoid writing sentences that use homographs close to one another provided that you can do so without changing the technical meaning.
 
