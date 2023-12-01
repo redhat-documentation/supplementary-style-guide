@@ -29,9 +29,14 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
+[[november-2023]]
+== November 2023
+
+_No glossary or style updates._
+
 [[october-2023]]
 == October 2023
-//
+
 .Glossary entries
 * xref:ansible-rulebook[Ansible Rulebook]: Added glossary entry
 * because: Removed glossary entry because guidance already exists in the _IBM Style_ guidance
