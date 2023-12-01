@@ -8,15 +8,26 @@
 
 *See also*: xref:paas[PaaS], xref:saas[SaaS]
 
-[[ibm-cloud-bare-metal]]
-==== image:images/yes.png[yes] IBM Cloud® Bare Metal (Classic) (noun)
-*Description*: _IBM Cloud® Bare Metal (Classic)_ refers to a platform where a customer can run an OpenShift Container Platform cluster on an IBM bare-metal server. Ensure that "IBM Cloud®" precedes "Bare Metal (Classic)". On first use, mark "IBM Cloud" Bare Metal (Classic) with a registered trademark icon (®).
+[[ibm-cloud]]
+==== image:images/yes.png[yes] IBM Cloud® (noun)
+*Description*: _IBM Cloud®_ refers to a platform where a customer can run an OpenShift Container Platform cluster on hybrid cloud infrastructure. The name IBM Cloud® replaces IBM Cloud VPC.
 
 *Use it*: yes
 
-*Incorrect forms*: IBM Cloud
+*Incorrect forms*: IBM Cloud® Bare Metal (Classic), IBM Cloud VPC
 
-*See also*:
+*See also*: xref:ibm-cloud-bare-metal[IBM Cloud® Bare Metal (Classic)]
+
+
+[[ibm-cloud-bare-metal]]
+==== image:images/yes.png[yes] IBM Cloud® Bare Metal (Classic) (noun)
+*Description*: _IBM Cloud® Bare Metal (Classic)_ refers to a platform where a customer can run an OpenShift Container Platform cluster on an IBM bare-metal server. Ensure that "IBM Cloud®" precedes "Bare Metal (Classic)".
+
+*Use it*: yes
+
+*Incorrect forms*: IBM Cloud®
+
+*See also*: xref:ibm-cloud[IBM Cloud®]
 
 [[ibm-eserver-system-i]]
 ==== image:images/no.png[no] IBM eServer System i (noun)
@@ -26,7 +37,7 @@
 
 *Incorrect forms*: IBM eServer System I
 
-*See also*: xref:ibm-power[IBM Power], xref:iseries[iSeries]
+*See also*: xref:ibm-power[IBM Power®], xref:iseries[iSeries]
 
 [[ibm-eserver-system-p]]
 ==== image:images/no.png[no] IBM eServer System p (noun)
@@ -36,7 +47,7 @@
 
 *Incorrect forms*: pSeries
 
-*See also*: xref:ibm-power[IBM Power]
+*See also*: xref:ibm-power[IBM Power®]
 
 [[ibm-linuxone]]
 ==== image:images/yes.png[yes] IBM® LinuxONE (noun)
@@ -46,11 +57,11 @@
 
 *Incorrect forms*: IBM LinuxONE, LinuxONE, linuxone
 
-*See also*: xref:ibm-z[IBM Z], xref:s390x[s390x]
+*See also*: xref:ibm-z[IBM Z®], xref:s390x[s390x]
 
 [[ibm-power]]
 ==== image:images/yes.png[yes] IBM Power® (noun)
-*Description*: _IBM Power_ represents the family of servers based on Power processors that can include combinations of IBM Power servers and its products. On first use, mark "IBM" Power with a registered trademark icon (®).
+*Description*: _IBM Power®_ represents the family of servers based on Power processors that can include combinations of IBM Power® servers and its products. For sub-products of IBM Power®, do not move the registered trademark symbol's position. For example, _IBM Power® Virtual Server_.
 
 *Use it*: yes
 
@@ -60,17 +71,17 @@
 
 [[ibm-s-390]]
 ==== image:images/no.png[no] IBM S/390 (noun)
-*Description*: This is a former product name; instead use the official product name "IBM Z".
+*Description*: This is a former product name; instead use the official product name "IBM Z®".
 
 *Use it*: no
 
 *Incorrect forms*: S/390, S90
 
-*See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:ibm-z[IBM Z], xref:s390x[s390x]
+*See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:ibm-z[IBM Z®], xref:s390x[s390x]
 
 [[ibm-z]]
 ==== image:images/yes.png[yes] IBM Z® (noun)
-*Description*: _IBM Z_ represents the IBM mainframe platform (`s390x` architecture) and its products. On first use, mark "IBM Z" with a registered trademark icon (®).
+*Description*: _IBM Z®_ represents the IBM mainframe platform (`s390x` architecture) and its products.
 
 *Use it*: yes
 
@@ -670,13 +681,13 @@ _This feature can run only on Intel 64 processors_
 
 [[iseries]]
 ==== image:images/no.png[no] iSeries (noun)
-*Description*: This is a former product name; instead use the official product name "IBM Power".
+*Description*: This is a former product name; instead use the official product name "IBM Power®".
 
 *Use it*: no
 
 *Incorrect forms*: ISeries
 
-*See also*: xref:ibm-power[IBM Power], xref:ibm-eserver-system-i[IBM eServer System i]
+*See also*: xref:ibm-power[IBM Power®], xref:ibm-eserver-system-i[IBM eServer System i]
 
 [[iso]]
 ==== image:images/yes.png[yes] ISO (noun)
