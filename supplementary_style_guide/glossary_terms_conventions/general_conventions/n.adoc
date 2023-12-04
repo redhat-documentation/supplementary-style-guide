@@ -71,7 +71,7 @@
 
 *Incorrect forms*: natively-compiled code
 
-*See also*: 
+*See also*:
 
 [[need]]
 ==== image:images/yes.png[yes] need (verb)
@@ -189,11 +189,13 @@
 *See also*:
 
 [[now]]
-==== image:images/yes.png[yes] now (adverb)
-*Description*: "Now" means at the present time, immediately, or at once.
+==== image:images/caution.png[caution] now (adverb)
+*Description*: In most content, you can use "now" when you mean the present time, immediately, or at once.
 
-*Use it*: yes
+If your release notes are based on the templates in this guide's xref:release-notes[Release notes] section, use "with this update" rather than "now" to refer to the current release. This is because the temporal context of "now"  can cause confusion in release notes that span multiple releases.
+
+*Use it*: with caution
 
 *Incorrect forms*: right now
 
-*See also*:
+*See also*: xref:release-notes[Release notes]
