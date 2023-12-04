@@ -201,36 +201,6 @@
 
 *See also*: xref:physical-topology[physical topology], xref:signal-topology[signal-topology]
 
-[[look-up-v]]
-==== image:images/caution.png[with caution] look up (verb)
-*Description*: To "look up" means to search for something. The correct verb form is "look up".
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:lookup-n[lookup], xref:look-up-ad[look-up]
-
-[[look-up-ad]]
-==== image:images/caution.png[with caution] look-up (adjective)
-*Description*: Hyphenate "look-up" when using it as a modifier.
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:look-up-v[look up], xref:lookup-n[lookup]
-
-[[lookup-n]]
-==== image:images/caution.png[with caution] lookup (noun)
-*Description*: A "lookup" means an act of searching. The correct noun form is "lookup".
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:look-up-v[look up], xref:look-up-ad[look-up]
-
 [[loopback-address]]
 ==== image:images/yes.png[yes] loopback address (noun)
 *Description*: The _loopback address_ is a special IP address (127.0.0.1 for IPv4, ::1 for IPv6) that is designated for the software loopback interface of a machine. The loopback interface has no hardware associated with it, and it is not physically connected to a network. The loopback interface allows IT professionals to test IP software without worrying about broken or corrupted drivers or hardware.
