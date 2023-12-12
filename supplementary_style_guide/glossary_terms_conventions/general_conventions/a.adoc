@@ -10,6 +10,7 @@ _When running RHEL with an AArch64 system, run the following command:_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:_aarch64[aarch64]
@@ -26,6 +27,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:aarch64[AArch64]
@@ -36,6 +38,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -47,6 +50,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -58,6 +62,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -69,6 +74,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -79,6 +85,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: ACK
 
 *See also*: xref:ack-flag[ACK flag]
@@ -89,6 +96,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ack, ACK, ack packet
 
 *See also*:
@@ -100,6 +108,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:project[project], xref:verb[verb]
@@ -111,6 +120,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -122,6 +132,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:active-directory-forest[Active directory forest]
@@ -133,6 +144,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -144,6 +156,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: Active MQ, Active-MQ
 
 *See also*: xref:activemq-artemis[ActiveMQ Artemis], xref:jboss-eap-messaging[JBoss EAP messaging]
@@ -156,6 +169,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: Active MQ Artemis, Active-MQ Artemis
 
 *See also*: xref:jboss-eap-messaging[JBoss EAP messaging]
@@ -169,6 +183,7 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Admin Portal, webadmin, webadmin portal, Administrator Portal, Administration portal
 
 *See also*:
@@ -180,6 +195,8 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *Use it*: yes
 
+[.vale-ignore]
+[.vale-ignore]
 *Incorrect forms*: air wall
 
 *See also*:
@@ -190,6 +207,7 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -206,6 +224,7 @@ _This Operator is supported on AMD64 and ARM64 platforms._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amd64[amd64]
@@ -222,6 +241,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:AMD64[AMD64]
@@ -233,6 +253,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ, JBoss AMQ, Red Hat A-MQ, Red Hat AMQ
 
 *See also*: xref:red-hat-amq[Red Hat AMQ]
@@ -244,6 +265,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ Broker, The AMQ Broker, Red Hat Broker, JBoss Broker
 
 *See also*: xref:broker-distribution[broker distribution], xref:broker-instance[broker instance]
@@ -255,6 +277,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ Clients, Red Hat Clients, JBoss Clients
 
 *See also*: xref:client-application[client application], xref:messaging-api[messaging API]
@@ -266,6 +289,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ Console, Red Hat Console, JBoss Console
 
 *See also*:
@@ -277,6 +301,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:jms[JMS], xref:core-protocol[Core protocol]
@@ -288,6 +313,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Interconnect, Router, A-MQ Interconnect, Red Hat Interconnect, JBoss Interconnect
 
 *See also*: xref:router[router]
@@ -299,6 +325,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -310,6 +337,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -321,6 +349,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ansible-playbook[Ansible Playbook]
@@ -340,6 +369,7 @@ Examples:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ansible playbook
 
 *See also*: xref:ansible-play[Ansible play], xref:playbook[playbook]
@@ -367,6 +397,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -378,6 +409,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:certificate[certificate], xref:certificate-authority[certificate authority], xref:directory-server-product[Directory Server]
@@ -389,6 +421,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:endpoint[endpoint]
@@ -399,6 +432,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: app.
 
 *See also*:
@@ -410,6 +444,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Appliance Console
 
 *See also*:
@@ -421,6 +456,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:app[app]
@@ -431,6 +467,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: AppStream, application stream, Application stream
 
 *See also*: xref:appstream-repository[AppStream repository]
@@ -441,6 +478,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Applix, ApplixWare
 
 *See also*:
@@ -451,6 +489,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Appstream, appstream, Application Stream
 
 *See also*: xref:application-stream[Application Stream]
@@ -461,6 +500,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -472,6 +512,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amq-broker[AMQ Broker]
@@ -482,6 +523,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -493,6 +535,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -504,6 +547,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:business-rule[business rule], xref:business-process[business process], xref:decision-table[decision table], xref:data-model[data model], xref:dsl[DSL]
@@ -514,6 +558,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: AI, assisted installer
 
 *See also*:
@@ -524,6 +569,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -535,6 +581,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -546,6 +593,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -557,6 +605,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -568,6 +617,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:action[action], xref:identity[identity]
@@ -578,7 +628,10 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: autodetect
+
+The term "autodetect" is in the Vale rules and should trigger a GitHub error report.
 
 *See also*:
 
@@ -589,6 +642,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: auto-link, AutoLink
 
 *See also*:
@@ -600,6 +654,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:  xref:xplat[Microsoft Azure Cross-Platform Command-Line Interface]
@@ -617,6 +672,7 @@ _Creating an ARM64 compute machine set._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:arm64[arm64]
@@ -633,6 +689,7 @@ _Valid values are `arm64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ARM64[ARM64]
@@ -664,6 +721,7 @@ _Valid values are `arm64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:asm[Azure Service Management]
@@ -675,6 +733,7 @@ _Valid values are `arm64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:arm[Azure Resource Manager]

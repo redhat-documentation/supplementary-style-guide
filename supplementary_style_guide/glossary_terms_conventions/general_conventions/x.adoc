@@ -4,6 +4,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: X (when referring to XEmacs only)
 
 *See also*: xref:xemacs[XEmacs]
@@ -22,6 +23,7 @@ Example 1:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: x64, x86-64, or x86
 
 *See also*: xref:bit-64-x86[64-bit x86]
@@ -32,6 +34,7 @@ Example 1:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Xemacs
 
 *See also*:
@@ -42,6 +45,7 @@ Example 1:
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -53,6 +57,7 @@ Example 1:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Xp, xp
 
 *See also*: xref:expansion-pack[Expansion Pack]
@@ -63,6 +68,7 @@ Example 1:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Xterm
 
 *See also*:
@@ -74,6 +80,7 @@ Example 1:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:

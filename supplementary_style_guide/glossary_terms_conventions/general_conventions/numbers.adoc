@@ -11,6 +11,7 @@ Example:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:aarch64[aarch64], xref:arm64[arm64]
@@ -28,6 +29,7 @@ Example:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: x64, x86-64, or x86
 
 *See also*: xref:x86_64[x86_64]

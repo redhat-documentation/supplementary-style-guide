@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: daisy-chain, daisychain
 
 *See also*: xref:daisy-chain-v[daisy chain (verb)]
@@ -14,6 +15,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: daisy-chain, daisychain
 
 *See also*: xref:daisy-chain-n[daisy chain (noun)]
@@ -27,6 +29,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: enum
 
 *See also*:
@@ -38,6 +41,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: JBoss Data Grid
 
 *See also*: xref:red-hat-data-grid[Red Hat Data Grid]
@@ -49,6 +53,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: JBoss Data Grid Administration Console, Data Grid console
 
 *See also*:
@@ -60,6 +65,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -70,6 +76,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: datamirroring, data-mirroring
 
 *See also*:
@@ -81,6 +88,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: pojo
 
 *See also*:
@@ -92,6 +100,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -102,6 +111,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: datapath
 
 *See also*:
@@ -117,6 +127,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: DWH, data warehouse, Dataware House
 
 *See also*: xref:monitoring_portal[Monitoring Portal]
@@ -128,6 +139,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -138,6 +150,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: de-bug
 
 *See also*: xref:debug-v[debug (verb)]
@@ -148,6 +161,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: de-bug
 
 *See also*: xref:debug-adj[debug (adjective)]
@@ -159,6 +173,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -170,6 +185,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -181,6 +197,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:message-settlement[message settlement]
@@ -191,6 +208,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Denial of Service
 
 *See also*: xref:denial-of-service-adj[denial of service (adjective)]
@@ -201,6 +219,7 @@ Always spell out in full and capitalize as shown here, unless part of a command.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Denial-of-Service
 
 *See also*: xref:denial-of-service-n[denial of service (noun)]
@@ -214,6 +233,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: deployment configuration
 
 *See also*:
@@ -225,6 +245,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -237,6 +258,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: desk top, desk-top
 
 *See also*: xref:desktop-n[desktop (noun)]
@@ -247,6 +269,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: desk top, desk-top
 
 *See also*: xref:desktop-adj[desktop (adjective)]
@@ -258,6 +281,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:message-address[message address]
@@ -269,6 +293,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: details pane
 
 *See also*:
@@ -279,6 +304,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Development Preview, Developer preview, dev preview
 
 *See also*:
@@ -289,6 +315,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: dev file, .dev file, dev-file
 
 *See also*:
@@ -299,6 +326,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -310,6 +338,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -320,6 +349,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: different than, different to
 
 *See also*:
@@ -331,6 +361,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -342,6 +373,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -353,6 +385,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: The director, Director
 
 *See also*:
@@ -364,6 +397,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: DM, directory manager
 
 *See also*:
@@ -376,6 +410,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ldap[LDAP]
@@ -387,6 +422,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: directory server
 
 *See also*: xref:red-hat-directory-server[Red Hat Directory Server]
@@ -399,6 +435,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -409,6 +446,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Disk druid, disk druid, diskdruid
 
 *See also*:
@@ -419,6 +457,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: disklabel, disk-label
 
 *See also*:
@@ -430,6 +469,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amq-interconnect[AMQ Interconnect]
@@ -441,6 +481,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -451,6 +492,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: DNF automatic, dnf automatic
 
 *See also*:
@@ -461,6 +503,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: dns
 
 *See also*:
@@ -472,6 +515,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -483,6 +527,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -494,6 +539,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: dockerfile
 
 *See also*:
@@ -505,6 +551,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -516,6 +563,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:managed-domain[managed domain]
@@ -526,6 +574,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: domainname, domain-name
 
 *See also*:
@@ -536,6 +585,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: down-load, down load
 
 *See also*: xref:download-v[download (verb)]
@@ -546,6 +596,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: down-load, down load
 
 *See also*: xref:download-n[download (noun)]
@@ -556,6 +607,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: down-stream, down stream
 
 *See also*: xref:downstream-n[downstream (noun)], xref:upstream-adj[upstream (adjective)], xref:upstream-n[upstream (noun)]
@@ -566,6 +618,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: down-stream, down stream
 
 *See also*: xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)], xref:upstream-n[upstream (noun)]
@@ -577,6 +630,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: drl
 
 *See also*:
@@ -588,6 +642,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -599,6 +654,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: dsl
 
 *See also*:
@@ -609,6 +665,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: dualboot, dual boot
 
 *See also*:
@@ -619,6 +676,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: DVD burner, burner
 
 *See also*:

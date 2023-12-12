@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hardcode
 
 *See also*:
@@ -14,6 +15,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hardcoded
 
 *See also*:
@@ -25,6 +27,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 // TODO: Added link to she. Still need to add link to you
@@ -45,6 +48,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: title bar
 
 *See also*:
@@ -55,6 +59,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: healthcheck, health-check
 
 *See also*:
@@ -65,6 +70,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: helpdesk, help-desk
 
 *See also*:
@@ -75,6 +81,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -88,6 +95,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:dns-srv-records[DNS SRV records]
@@ -98,6 +106,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:high-availability[high-availability]
@@ -108,6 +117,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:high-availability-noun[high availability]
@@ -118,6 +128,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -130,6 +141,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -141,6 +153,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hypervisor, hypervisor host, virtualization host
 
 *See also*: xref:red-hat-enterprise-linux-host[Red Hat Enterprise Linux host], xref:red-hat-virtualization-host[Red Hat Virtualization Host]
@@ -151,6 +164,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hostgroup
 
 *See also*:
@@ -162,6 +176,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:target-system[target system]
@@ -172,6 +187,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hotadd, hot-add
 
 *See also*: xref:hot-plug[hot plug], xref:hot-swap[hot swap]
@@ -182,6 +198,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hotplug, hot-plug
 
 *See also*: xref:hot-add[hot add], xref:hot-swap[hot swap]
@@ -193,6 +210,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hot rod, HotRod, hotrod
 
 *See also*:
@@ -203,6 +221,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hotswap, hot-swap
 
 *See also*: xref:hot-add[hot add], xref:hot-plug[hot plug]
@@ -213,6 +232,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hot-line
 
 *See also*:
@@ -223,6 +243,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: HP Proliant
 
 *See also*:
@@ -233,6 +254,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -244,6 +266,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:management-console[management console]
@@ -255,6 +278,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:consumer[consumer], xref:ldap[LDAP]
@@ -265,6 +289,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: large page, super page
 
 *See also*: xref:huge-page[huge-page (adjective)]
@@ -275,6 +300,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:huge-page-noun[huge page (noun)]
@@ -285,6 +311,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hyperthreading, hyper-threading
 
 *See also*:
@@ -296,6 +323,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:hypervisor[hypervisor]
@@ -306,6 +334,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hyper-converged
 
 *See also*:
@@ -316,6 +345,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: HyperVisor, Hyperviser
 
 *See also*:

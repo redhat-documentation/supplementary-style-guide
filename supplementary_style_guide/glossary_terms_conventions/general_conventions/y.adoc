@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: yaml
 
 *See also*:
@@ -14,6 +15,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: I, he, she
 
 *See also*:

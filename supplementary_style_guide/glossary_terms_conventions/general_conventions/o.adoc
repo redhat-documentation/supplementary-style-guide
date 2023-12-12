@@ -4,6 +4,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: ORAN
 
 *See also*: xref:open-ran[Open RAN], xref:openran[OpenRAN]
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -26,6 +28,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -37,6 +40,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: objectClass
 
 *See also*: xref:objectclass[objectClass]
@@ -48,6 +52,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ceph-osd[ceph-osd], xref:osd[OSD], xref:osd-daemon[OSD daemon]
@@ -59,6 +64,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:rados[RADOS]
@@ -70,6 +76,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: object class, objectclass
 
 *See also*: xref:object-class[object class]
@@ -80,6 +87,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Objective-C
 
 *See also*:
@@ -90,6 +98,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -100,6 +109,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: cold backup
 
 *See also*: xref:online-backup[online backup]
@@ -110,6 +120,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: OK button
 
 *See also*:
@@ -121,6 +132,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: O.K.D., okd, OpenShift Kubernetes Distribution, OpenShift Origin
 
 *See also*:
@@ -131,6 +143,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: leave out
 
 *See also*:
@@ -141,6 +154,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:onboard[onboard]
@@ -151,6 +165,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: on premise, on-premises, on-prem
 
 *See also*:
@@ -161,6 +176,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:on-board[on-board]
@@ -171,6 +187,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:offline-backup[offline backup]
@@ -181,6 +198,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: op-code
 
 *See also*:
@@ -191,6 +209,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -202,6 +221,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:o-ran[O-RAN], xref:openran[OpenRAN]
@@ -212,6 +232,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: open-source, OpenSource, opensource
 
 *See also*:
@@ -222,6 +243,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:o-ran[O-RAN], xref:open-ran[Open RAN]
@@ -246,6 +268,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:okd[OKD]
@@ -257,6 +280,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -268,6 +292,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:container-registry[container registry], xref:red-hat-container-catalog[Red Hat Container Catalog]
@@ -280,6 +305,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:endpoint[endpoint], xref:api-server[API server], xref:scheduler[scheduler]
@@ -291,6 +317,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:okd[OKD]
@@ -302,6 +329,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -312,6 +340,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Operating Environment
 
 *See also*: xref:control-program[control program]
@@ -322,6 +351,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: OS, Operating System
 
 *See also*:
@@ -366,6 +396,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Kubernetes operator, operatorize
 
 *See also*:
@@ -376,6 +407,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -386,6 +418,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: The Operator Lifecycle Manager
 
 *See also*:
@@ -396,6 +429,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -406,6 +440,7 @@ NOTE: When referring generally to other Kubernetes components, such as pods, nod
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Opex, Opex, OPEX, opEx
 
 *See also*:
@@ -429,6 +464,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Organization administrator, Org Admin, org admin
 
 *See also*:
@@ -440,6 +476,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -451,6 +488,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ceph-osd, Object Storage Device, OSD daemon
 
 *See also*: xref:ceph-osd[ceph-osd], xref:object-storage-device[Object Storage Device], xref:osd-daemon[OSD daemon]
@@ -462,6 +500,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ceph-osd[ceph-osd], xref:osd[OSD], xref:object-storage-device[Object Storage Device]
@@ -473,6 +512,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -483,6 +523,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -494,6 +535,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Overcloud
 
 *See also*: xref:undercloud[undercloud]
@@ -504,6 +546,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: over-ride, over ride
 
 *See also*:

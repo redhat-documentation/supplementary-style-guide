@@ -3,3 +3,5 @@ main*.html
 index.html
 assets
 pdf-assets
+.vale/styles/AsciiDoc
+.vale/styles/RedHat

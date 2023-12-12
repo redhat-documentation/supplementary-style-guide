@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: var
 
 *See also*: xref:oem[OEM]
@@ -16,6 +17,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VCPU, vcpu
 
 *See also*:
@@ -26,6 +28,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Virtual Desktop Server Management
 
 *See also*:
@@ -37,6 +40,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:action[action], xref:project[project]
@@ -47,6 +51,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: make sure
 
 *See also*:
@@ -57,6 +62,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VI
 
 *See also*: xref:vim[Vim]
@@ -67,6 +73,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: video-mode, videomode
 
 *See also*:
@@ -77,6 +84,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VIM, vim
 
 *See also*: xref:vi[vi]
@@ -87,6 +95,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:virtualized[virtualized]
@@ -97,6 +106,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual-console, Virtual Console
 
 *See also*:
@@ -109,6 +119,7 @@ Although the _IBM Style_ guide recommends using "diskette" instead of "floppy di
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual diskette
 
 *See also*: xref:virtual-floppy-drive[virtual floppy drive]
@@ -121,6 +132,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual diskette drive
 
 *See also*: xref:virtual-floppy-disk[virtual floppy disk]
@@ -132,6 +144,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual hard disk
 
 *See also*:
@@ -142,6 +155,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -153,6 +167,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -163,6 +178,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -173,6 +189,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:virtual[virtual]
@@ -183,6 +200,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:guest-operating-system[guest operating system], xref:virtual-machine[virtual machine]
@@ -193,6 +211,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vlan, vLAN
 
 *See also*:
@@ -206,6 +225,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VM portal, vm portal, Virtual Machine Portal, User Portal
 
 *See also*: xref:administration-portal[Administration Portal]
@@ -216,6 +236,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vnic, VNIC, Virtual Network Interface Card
 
 *See also*:
@@ -226,6 +247,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vnuma, VNUMA
 
 *See also*:
@@ -236,6 +258,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:persistent-storage[persistent storage]
@@ -246,6 +269,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vpn
 
 *See also*:
