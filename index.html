@@ -4620,15 +4620,78 @@ If you include a shell prompt to indicate that a user with root privileges must 
 <div class="sect3">
 <h4 id="ip-addresses-and-mac-addresses"><a class="anchor" href="#ip-addresses-and-mac-addresses"></a><a class="link" href="#ip-addresses-and-mac-addresses">IP addresses and MAC addresses</a></h4>
 <div class="paragraph">
-<p>Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion:</p>
+<p>Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Reserved IP address ranges: See the <em>IBM Style</em> guide for the list of reserved IP address ranges to use in documentation.</p>
-</li>
-<li>
-<p>Reserved MAC addresses (defined in <a href="https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2">RFC 7042</a>):</p>
+<div class="sect4">
+<h5 id="reserved-ip-addresses"><a class="anchor" href="#reserved-ip-addresses"></a><a class="link" href="#reserved-ip-addresses">Reserved IP addresses</a></h5>
+<div class="paragraph">
+<p>Reserved IPv4 addresses for documentation are defined in <a href="https://www.rfc-editor.org/rfc/rfc5737.html">RFC 5737</a>:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Network</th>
+<th class="tableblock halign-left valign-top">Subnet mask</th>
+<th class="tableblock halign-left valign-top">Assignable addresses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">192.0.2.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">192.0.2.1 - 192.0.2.254</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">198.51.100.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">198.51.100.1 - 198.51.100.254</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">203.0.113.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">203.0.113.1 - 203.0.113.254</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Reserved IPv6 addresses for documentation are defined in <a href="https://www.rfc-editor.org/rfc/rfc3849.html">RFC 3849</a>:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Network</th>
+<th class="tableblock halign-left valign-top">Prefix</th>
+<th class="tableblock halign-left valign-top">Assignable addresses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2001:0DB8::
+(long form: 2001:0DB8:0:0:0:0:0:0)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">32</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2001:0db8:0000:0000:0000:0000:0000:0000 - 2001:0db8:ffff:ffff:ffff:ffff:ffff:ffff</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>See the <em>IBM Style</em> guide for additional guidance on using IP addresses in documentation.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="reserved-mac-addresses"><a class="anchor" href="#reserved-mac-addresses"></a><a class="link" href="#reserved-mac-addresses">Reserved MAC addresses</a></h5>
+<div class="paragraph">
+<p>Reserved MAC addresses for documentation are defined in <a href="https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2">RFC 7042</a>:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -4639,8 +4702,6 @@ If you include a shell prompt to indicate that a user with root privileges must 
 </li>
 </ul>
 </div>
-</li>
-</ul>
 </div>
 </div>
 <div class="sect3">
@@ -21320,7 +21381,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-12-12 15:17:29 UTC
+Last updated 2023-12-13 16:31:27 UTC
 </div>
 </div>
 <!-- Nav bar -->
