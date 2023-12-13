@@ -10,6 +10,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:  xref:ibm-z[IBM Z]
@@ -20,6 +21,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: s-record, S-Record, s-Record, SREC, or any other variation
 
 *See also*:
@@ -30,6 +32,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:iaas[IaaS], xref:paas[PaaS]
@@ -40,6 +43,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: samba, SAMBA
 
 *See also*:
@@ -51,6 +55,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -62,6 +67,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Satellite server
 
 *See also*:
@@ -73,6 +79,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -84,6 +91,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -94,6 +102,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: screensaver
 
 *See also*:
@@ -104,6 +113,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -114,6 +124,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: scroll bar, scroll-bar
 
 *See also*:
@@ -125,6 +136,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -136,6 +148,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:elytron[elytron]
@@ -147,6 +160,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -158,6 +172,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -168,6 +183,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: refer to
 
 *See also*:
@@ -178,6 +194,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: segfault as a verb
 
 *See also*:
@@ -191,6 +208,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hosted engine, hosted-engine
 
 *See also*: xref:self-hosted-engine-node[self-hosted engine node]
@@ -204,6 +222,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hosted engine host, hosted-engine host, self-hosted engine host, hosted engine node, hosted-engine node
 
 *See also*: xref:self-hosted-engine[self-hosted engine]
@@ -214,6 +233,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: SE-Linux, S-E Linux, SE Linux, selinux
 
 *See also*:
@@ -225,6 +245,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:producer[producer], xref:target[target], xref:receiver[receiver]
@@ -235,6 +256,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: computer farm, computer ranch
 
 *See also*: xref:server-farm[server farm]
@@ -245,6 +267,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: computer farm, computer ranch
 
 *See also*: xref:server-cluster[server cluster]
@@ -256,6 +279,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -267,6 +291,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -280,6 +305,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:connection[connection]
@@ -291,6 +317,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -301,6 +328,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:sticky-session[sticky session]
@@ -311,6 +339,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:sha-2[SHA-2]
@@ -321,6 +350,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:sha-1[SHA-1]
@@ -331,6 +361,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Shadow passwords
 
 *See also*:
@@ -341,6 +372,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Shadow utilities
 
 *See also*:
@@ -351,6 +383,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Shadow Man, ShadowMan
 
 *See also*: https://www.redhat.com/en/about/brand/standards/history[Red Hat Brand Standards: Our history]
@@ -362,6 +395,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:bucket-sharding[bucket sharding]
@@ -373,6 +407,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:queue[queue]
@@ -383,6 +418,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: sharename, Sharename
 
 *See also*:
@@ -393,6 +429,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:he[he]
@@ -413,6 +450,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:shell-prompt[shell prompt]
@@ -423,6 +461,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: command prompt, terminal, shell
 
 *See also*: xref:shell[shell]
@@ -433,6 +472,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:logical-topology[logical topology], xref:physical-topology[physical topology]
@@ -444,6 +484,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -454,6 +495,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: skill set, skillset, skill-set, skill-set knowledge
 
 *See also*:
@@ -465,6 +507,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -476,6 +519,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:consumer[consumer], xref:hub[hub]
@@ -487,6 +531,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: passive broker
 
 *See also*: xref:master-slave-group[master-slave group], xref:master-broker[master broker]
@@ -498,6 +543,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -508,6 +554,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: smart NIC, Smart-NIC
 
 *See also*: xref:nic[NIC], xref:vnic[vNIC]
@@ -519,6 +566,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Smart State, smart state, Smart state, Smartstate, Analysis
 
 *See also*:
@@ -530,6 +578,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:snapshot-set[snapshot set]
@@ -541,6 +590,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: snapset, snapsets
 
 *See also*: xref:snap[snap]
@@ -551,6 +601,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -561,6 +612,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: socks
 
 *See also*:
@@ -571,6 +623,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -581,6 +634,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: SoftIRQ
 
 *See also*:
@@ -591,6 +645,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: software collection, collection, Software collection, Collection
 
 *See also*:
@@ -609,6 +664,7 @@ Therefore, if you need to use the indefinite article before "sos report", use _a
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: sosreport, SoSreport, SOSreport, SOSREPORT, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
 
 *See also*: xref:sosreport[sosreport]
@@ -627,6 +683,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: SoSreport, SOSreport, SOSREPORT, sos report, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
 
 *See also*: xref:sos-report[sos report]
@@ -637,6 +694,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: soundcard, sound-card
 
 *See also*:
@@ -648,16 +706,18 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:target[target]
 
 [[source-rpm]]
 ==== image:images/yes.png[yes] Source RPM (noun)
-*Description*: _Source RPM_, or SRPM, is an RPM package that contains the complete source code, including any patches, and a SPEC file that describes how to build the source code into a binary RPM.
+*Description*: _Source RPM_, or SRPM, is an RPM package that contains the complete source code, including any patches, and a SPEC file that describes how to build the source code into a binary RPM file.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: srpm
 
 *See also*: xref:spec-file[spec file], xref:rpm[RPM]
@@ -670,6 +730,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Source Navigator (without trademark symbol)
 
 *See also*:
@@ -681,6 +742,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: STI, source to image
 
 *See also*:
@@ -691,6 +753,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:spacebar[spacebar]
@@ -701,6 +764,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:space[space]
@@ -712,6 +776,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:sparsify[sparsify], xref:thin-provisioned[thin provisioned]
@@ -723,6 +788,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:sparse[sparse]
@@ -730,7 +796,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 // OCP: Added "In Red Hat OpenShift,"
 [[spec]]
 ==== image:images/yes.png[yes] spec (noun)
-*Description*: In Red Hat OpenShift, in addition to "spec file", which is permitted when it relates to RPM spec files, you can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
+*Description*: In Red Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
 
 Example of correct usage:
 
@@ -738,16 +804,18 @@ _Update the `Pod` spec to reflect the changes._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Spec
 
 *See also*:
 
 [[spec-file]]
 ==== image:images/yes.png[yes] spec file (noun)
-*Description*: _Spec files_ are used as part of rebuilding RPMs. The spec file outlines how to configure and compile the RPM as well as how to install the files later.
+*Description*: The `rpmbuild` tool uses a _spec file_ to build an RPM package. A spec file defines instructions in a series of sections.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: specfile
 
 *See also*: xref:rpm[RPM]
@@ -758,6 +826,7 @@ _Update the `Pod` spec to reflect the changes._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Linux specific, chip specific, and so on
 
 *See also*:
@@ -768,6 +837,7 @@ _Update the `Pod` spec to reflect the changes._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: spelt
 
 *See also*:
@@ -781,6 +851,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Spice, spice
 
 *See also*:
@@ -791,6 +862,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:mysql[MySQL]
@@ -801,6 +873,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: SR/IOV
 
 *See also*:
@@ -811,6 +884,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: SSH as a verb
 
 *See also*:
@@ -822,6 +896,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ssl-tls[SSL/TLS], xref:tls[TLS]
@@ -832,6 +907,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: TLS/SSL
 
 *See also*:
@@ -843,6 +919,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -854,6 +931,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ldap[LDAP], xref:sssd[SSSD]
@@ -864,6 +942,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: stand-alone
 
 *See also*:
@@ -875,6 +954,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: standard Manager, standard environment
 
 *See also*: xref:self-hosted-engine[self-hosted engine], xref:red-hat-virtualization-manager[Red Hat Virtualization Manager]
@@ -886,6 +966,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:standalone-server[standalone server]
@@ -897,6 +978,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: standalone mode
 
 *See also*: xref:standalone-mode[standalone mode]
@@ -907,6 +989,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Star, Staroffice, Star Office
 
 *See also*:
@@ -918,6 +1001,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: StartTLS, startTLS
 
 *See also*: xref:ldap[LDAP], xref:ldaps[LDAPS]
@@ -928,6 +1012,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: StartX
 
 *See also*:
@@ -939,6 +1024,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ostree[OSTree], xref:commit[commit]
@@ -949,6 +1035,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -959,6 +1046,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:session-persistence[session persistence]
@@ -970,6 +1058,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -981,6 +1070,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -994,6 +1084,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -1004,6 +1095,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: straight forward, straight-forward
 
 *See also*:
@@ -1014,6 +1106,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: SU
 
 *See also*:
@@ -1025,6 +1118,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: sub version, subversion
 
 *See also*:
@@ -1035,6 +1129,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: sub-command
 
 *See also*:
@@ -1045,6 +1140,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: sub-directory
 
 *See also*:
@@ -1055,6 +1151,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: sub-menu
 
 *See also*:
@@ -1065,6 +1162,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: sub-package
 
 *See also*:
@@ -1075,6 +1173,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: entitlement
 
 *See also*: xref:entitlement[entitlement], xref:repository[repository]
@@ -1086,6 +1185,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Subscription manifest
 
 *See also*:
@@ -1096,6 +1196,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: SUDO, Sudo
 
 *See also*:
@@ -1107,6 +1208,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -1117,6 +1219,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: super-user, super user
 
 *See also*:
@@ -1128,6 +1231,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: master
 
 *See also*: xref:consumer[consumer]
@@ -1138,6 +1242,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: swapspace
 
 *See also*:
@@ -1148,6 +1253,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -1158,6 +1264,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -1172,6 +1279,7 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ignite, Fuse Ignite
 
 *See also*: xref:fuse-online[Fuse Online]
@@ -1185,6 +1293,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: sysprep tool, sysprep process, sysprep function
 
 *See also*:
@@ -1195,6 +1304,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: system D, system D, SystemD, system d, Systemd (unless at the start of a sentence).
 
 *See also*:
@@ -1205,6 +1315,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Sys V, System V
 
 *See also*:
