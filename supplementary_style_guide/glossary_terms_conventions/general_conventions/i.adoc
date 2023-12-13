@@ -569,7 +569,8 @@ _This feature can run only on Intel 64 processors_
 // RHEL: Added "In Red Hat Enterprise Linux, an inventory is"
 [[interpreter-directive]]
 ==== image:images/yes.png[yes] interpreter directive (noun)
-*Description*: An _interpreter directive_ such as `#!/bin/bash` is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as "hashbang" and "shebang". On first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs". Do not use "hashbang".
+*Description*: An _interpreter directive_ such as `#!/bin/bash` is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as "hashbang" and "shebang". On first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs...". Do not use "hashbang".
+
 *Use it*: yes
 
 *Incorrect forms*:
