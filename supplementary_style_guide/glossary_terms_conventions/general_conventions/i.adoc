@@ -631,7 +631,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
-*Incorrect forms*:
+*Incorrect forms*: hashbang
 
 *See also*: xref:shebang[shebang], xref:hashbang[hashbang]
 
