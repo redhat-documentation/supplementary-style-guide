@@ -436,7 +436,7 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 [[shebang]]
 ==== image:images/yes.png[yes] shebang (noun)
-*Description*: A _shebang_ such as `#!/bin/bash` is a common term for an _interpreter directive_, which is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as "hashbang". On first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs...". Do not use "hashbang".
+*Description*: A _shebang_ is a common term for an _interpreter directive_, such as `#!/bin/bash`, which is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. On first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs ...". Do not use "hashbang".
 
 *Use it*: yes
 
