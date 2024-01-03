@@ -33,12 +33,7 @@
 // RHV: Added "In Red Hat Virtualization," and added blank line so that first bullet rendered
 [[header-bar]]
 ==== image:images/yes.png[yes] header bar (noun)
-*Description*: In the Red Hat Virtualization VM Portal, the _header bar_ contains the following buttons:
-
-* *Notifications*
-* *Refresh*
-* *Account Settings*
-* *Logged in user*
+*Description*: In the Red Hat Virtualization VM Portal, the _header bar_ contains buttons to help you refresh or manage your display, including notification settings and account settings.
 
 *Use it*: yes
 
