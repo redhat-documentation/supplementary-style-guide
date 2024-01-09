@@ -22,7 +22,7 @@
 
 [[hashbang]]
 ==== image:images/no.png[no] hashbang (noun)
-*Description*: Do not use to refer to a computer language construct that controls which interpreter parses and interprets instructions in a computer program. Instead, on first mention include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs ...".
+*Description*: Do not use this noun when referring to a computer language construct that controls which interpreter parses and interprets instructions in a computer program. Instead, on first mention include both "interpreter directive" and "shebang". For example, "Interpreter directives, also known as shebangs ...".
 
 *Use it*: no
 
