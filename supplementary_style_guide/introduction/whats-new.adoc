@@ -33,14 +33,14 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 == December 2023
 .Glossary entries
 * xref:ibm-cloud[IBM Cloud®]: Added glossary entry
-* xref:now[now]: Updated glossary entry to "use with caution"
 * look up: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
 * look-up: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
 * lookup: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
+* xref:now[now]: Updated glossary entry to "use with caution"
 * xref:previously[previously]: Added glossary entry
 
 .Style guidance
-* xref:https://redhat-documentation.github.io/supplementary-style-guide/#ip-addresses-and-mac-addresses[IP addresses and MAC addresses]: Added examples of reserved IP addresses and MAC addresses
+* xref:ip-addresses-and-mac-addresses[IP addresses and MAC addresses]: Added examples of reserved IP addresses and MAC addresses
 
 [[november-2023]]
 == November 2023
