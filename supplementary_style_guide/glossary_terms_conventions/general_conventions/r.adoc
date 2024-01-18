@@ -286,14 +286,14 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 // EAP: General; kept as is
 [[red-hat-customer-portal]]
 ==== image:images/yes.png[yes] Red Hat Customer Portal (noun)
-*Description*: _Red Hat Customer Portal_ is the official name of the customer portal at https://access.redhat.com.
+*Description*: _Red Hat Customer Portal_ is the official name for https://access.redhat.com. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Customer Portal
+*Incorrect forms*: CP, RHCP, customer portal, portal
 
-*See also*:
+*See also*: xref:customer-portal[Customer Portal]
 
 // Data Grid: General; kept as is
 [[red-hat-data-grid]]
@@ -1179,7 +1179,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 [[rulebook]]
 ==== image:images/yes.png[yes] rulebook (noun)
-*Description*: A _rulebook_ is a YAML file containing a list of rules, event source definitions, and hosts to run against. 
+*Description*: A _rulebook_ is a YAML file containing a list of rules, event source definitions, and hosts to run against.
 Rulebooks are used in Event-Driven Ansible. When using the term "rulebook" without the Ansible prefix, use lowercase _r_.
 
 Examples:
