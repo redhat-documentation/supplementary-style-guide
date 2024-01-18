@@ -20,6 +20,16 @@
 
 *See also*:
 
+[[hashbang]]
+==== image:images/no.png[no] hashbang (noun)
+*Description*: Do not use _hashbang_ when referring to a computer language construct that controls which interpreter parses and interprets instructions in a computer program. Instead, on the first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs ...".
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:interpreter-directive[interpreter directive], xref:shebang[shebang]
+
 ==== image:images/no.png[no] he (pronoun)
 [[he]]
 

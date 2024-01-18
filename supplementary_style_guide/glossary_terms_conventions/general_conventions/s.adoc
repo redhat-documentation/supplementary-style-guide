@@ -434,6 +434,16 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:he[he]
 
+[[shebang]]
+==== image:images/yes.png[yes] shebang (noun)
+*Description*: A _shebang_ is a common term for an _interpreter directive_, such as `#!/bin/bash`, which is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. On the first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs ...". Do not use "hashbang".
+
+*Use it*: yes
+
+*Incorrect forms*: hashbang
+
+*See also*: xref:interpreter-directive[interpreter directive], xref:hashbang[hashbang]
+
 [[shell]]
 ==== image:images/yes.png[yes] shell (noun)
 *Description*: A _shell_ is a software application (for example, `/bin/bash` or `/bin/sh`) that provides an interface to a computer. Do not use this term to describe the prompt where you type commands.
