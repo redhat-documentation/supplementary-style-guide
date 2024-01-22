@@ -442,7 +442,7 @@
 *Use it*: with caution
 
 [.vale-ignore]
-*Incorrect forms*: codeready Linux builder, CRB 
+*Incorrect forms*: codeready Linux builder, CRB
 
 *See also*:
 
@@ -1029,6 +1029,17 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 *Incorrect forms*: client
 
 *See also*:
+
+[[customer-portal]]
+==== image:images/caution.png[with caution] Customer Portal (noun)
+*Description*: _Customer Portal_ is the shortened form of "Red Hat Customer Portal", the official name for https://access.redhat.com. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*: CP, RHCP, customer portal, portal
+
+*See also*: xref:red-hat-customer-portal[Red Hat Customer Portal]
 
 // RHEL: Added "In Red Hat Enterprise Linux,"
 [[customization]]
