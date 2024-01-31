@@ -392,7 +392,7 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*:
+*See also*:xref:egress[egress], xref:ingress-controller[Ingress Controller]
 
 [[ingress-controller]]
 ==== image:images/yes.png[yes] Ingress Controller (noun)
