@@ -17,8 +17,8 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 // TEMPLATE:
 //
-// [[TODO-2023]]
-// == TODO 2023
+// [[TODO-2024]]
+// === TODO 2024
 //
 // .Glossary entries
 // * TODO
@@ -29,8 +29,27 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
+[[year-2024]]
+== 2024
+
+[[january-2024]]
+=== January 2024
+
+.Glossary entries
+* xref:customer-portal[Customer Portal]: Added glossary entry
+* xref:hashbang[hashbang]: Added glossary entry
+* xref:ingress[ingress]: Updated guidance from uppercase "Ingress" to lowercase "ingress"
+* xref:interpreter-directive[interpreter directive]: Added glossary entry
+* xref:shebang[shebang]: Added glossary entry
+
+.Style guidance
+* xref:man-pages[Man page references]: Added guidance on referencing man pages
+
+[[year-2023]]
+== 2023
+
 [[december-2023]]
-== December 2023
+=== December 2023
 .Glossary entries
 * xref:ibm-cloud[IBM Cloud®]: Added glossary entry
 * look up: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
@@ -43,12 +62,12 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * xref:ip-addresses-and-mac-addresses[IP addresses and MAC addresses]: Added examples of reserved IP addresses and MAC addresses
 
 [[november-2023]]
-== November 2023
+=== November 2023
 
 _No glossary or style updates._
 
 [[october-2023]]
-== October 2023
+=== October 2023
 
 .Glossary entries
 * xref:ansible-rulebook[Ansible Rulebook]: Added glossary entry
@@ -60,7 +79,7 @@ _No glossary or style updates._
 * xref:spec-file[spec file]: Updated glossary entry for clarity
 
 [[september-2023]]
-== September 2023
+=== September 2023
 
 .Glossary entries
 * xref:aws-local-zone[AWS Local Zone]: Added glossary entry
@@ -73,7 +92,7 @@ _No glossary or style updates._
 * xref:segmentation-fault[segmentation fault]: Updated glossary entry for clarity
 
 [[august-2023]]
-== August 2023
+=== August 2023
 
 .Glossary entries
 * agnostic: Removed glossary entry because it already exists in the _IBM Style_ guide
@@ -117,7 +136,7 @@ _No glossary or style updates._
 // * TODO
 
 [[july-2023]]
-== July 2023
+=== July 2023
 
 .Glossary entries
 * xref:elb[Elastic Load Balancing]: Added glossary entry
@@ -140,7 +159,7 @@ _No glossary or style updates._
 * Added a xref:_pdf_version[downloadable PDF version] of the guide.
 
 [[june-2023]]
-== June 2023
+=== June 2023
 
 .Glossary entries
 * xref:ansible-playbook[Ansible Playbook]: Updated glossary entry for preferred spelling
@@ -163,7 +182,7 @@ _No glossary or style updates._
 * Updated the guide to use a new look and feel.
 
 [[may-2023]]
-== May 2023
+=== May 2023
 
 .Glossary entries
 * xref:bit-64-arm[64-bit ARM]: Added glossary entry
@@ -182,7 +201,7 @@ _No glossary or style updates._
 * xref:external-links[External links]: Updated to clarify what an external link is
 
 [[april-2023]]
-== April 2023
+=== April 2023
 
 .Glossary entries
 * xref:apache-web-server[Apache web server]: Updated to remove extraneous IdM definitions
@@ -199,7 +218,7 @@ _No glossary or style updates._
 
 
 [[march-2023]]
-== March 2023
+=== March 2023
 
 .Glossary entries
 * xref:devfile[devfile]: Added glossary entry
@@ -208,7 +227,7 @@ _No glossary or style updates._
 * Updated examples throughout the guide to use a consistent order of "For _<information>_, see _<link>_" when referencing other resources.
 
 [[february-2023]]
-== February 2023
+=== February 2023
 
 .Glossary entries
 * xref:foreman[Foreman]: Updated to remove outdated guidance
@@ -222,7 +241,7 @@ _No glossary or style updates._
 * Added a xref:whats-new[What's new] section to list what has changed with this guide each month.
 
 [[january-2023]]
-== January 2023
+=== January 2023
 
 .Glossary entries
 * xref:assisted-installer[Assisted Installer]: Added glossary entry
