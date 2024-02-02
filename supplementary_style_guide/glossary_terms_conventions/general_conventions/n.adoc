@@ -210,7 +210,7 @@
 ==== image:images/caution.png[caution] now (adverb)
 *Description*: In most content, you can use "now" when you mean the present time, immediately, or at once.
 
-If your release notes are based on the templates in this guide's xref:release-notes[Release notes] section, use "with this update" rather than "now" to refer to the current release. This is because the temporal context of "now"  can cause confusion in release notes that span multiple releases.
+If your release notes are based on the templates in this guide's xref:release-notes[Release notes] section, use "with this update" rather than "now" to refer to the current release. This is because the temporal context of "now" can cause confusion in release notes that span multiple releases.
 
 *Use it*: with caution
 

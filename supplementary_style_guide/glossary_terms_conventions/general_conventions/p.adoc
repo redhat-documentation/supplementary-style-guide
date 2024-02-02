@@ -416,7 +416,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 *See also*:
 
 [[previously]]
-==== image:images/caution.png[caution] Previously (adverb)
+==== image:images/caution.png[caution] previously (adverb)
 *Description*: In most content, you can use "previously" to refer to something that was true or in effect at an earlier time but is no longer true or in effect now.
 
 If your release notes are based on the templates in this guide's xref:release-notes[Release notes] section, use "before this update" rather than "previously" to refer to the current release. This is because the temporal context of "previously"  can cause confusion in release notes that span multiple releases.

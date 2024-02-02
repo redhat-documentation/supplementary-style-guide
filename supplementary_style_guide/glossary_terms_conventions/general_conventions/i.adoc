@@ -406,11 +406,12 @@ There is no functional difference between the first server that was installed an
 ==== image:images/yes.png[yes] ingress (noun, adjective)
 *Description*: In Red Hat OpenShift, _Ingress_  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The `Ingress` resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift `IngressController` object can accept for HTTP(S) traffic. Additionally, _ingress_ can also be used to describe the incoming direction of network traffic. In Red Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.
 
+Always use `Ingress` with markup when referencing the `Ingress` resource or `IngressController` object in Red Hat OpenShift. Write in lowercase and omit markup when discussing _ingress_ as a traffic direction.
+
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*:
-_Ingress_ without markup, when referencing the `Ingress` resource or the `IngressController` object. _Ingress_ with markup when used to describe the direction of traffic.
 
 *See also*:
 
