@@ -559,18 +559,6 @@ Use all lower case, unless used in a title or at the beginning of a sentence.
 
 *See also*: xref:nic[NIC], xref:vnic[vNIC]
 
-// CloudForms: Added "In Red Hat CloudForms, the _SmartState analysis_ is a"
-[[smartstate-analysis]]
-==== image:images/yes.png[yes] SmartState analysis (noun)
-*Description*: In Red Hat CloudForms, the _SmartState analysis_ is a process run by the SmartProxy which collects the details of a virtual machine or instance. Such details include accounts, drivers, network information, hardware, and security patches. This process is also run by the Red Hat CloudForms server on hosts and clusters. The data is stored in the VMDB.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: Smart State, smart state, Smart state, Smartstate, Analysis
-
-*See also*:
-
 // Ceph: Added "In Red Hat Ceph Storage,"
 [[snap]]
 ==== image:images/yes.png[yes] snap (noun)

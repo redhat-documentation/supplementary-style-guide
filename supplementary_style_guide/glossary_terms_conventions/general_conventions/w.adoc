@@ -179,18 +179,6 @@
 
 *See also*: xref:microsoft-windows[Microsoft Windows]
 
-// CloudForms: Added "In Red Hat CloudForms, the _Worker Appliance_ is"
-[[worker-appliance]]
-==== image:images/yes.png[yes] Worker Appliance (noun)
-*Description*: In Red Hat CloudForms, the _Worker Appliance_ is a Red Hat CloudForms appliance dedicated to a role other than User Interface or database.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*:
-
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[working-memory]]
 ==== image:images/yes.png[yes] working memory (noun)

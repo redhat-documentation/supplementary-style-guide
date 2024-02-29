@@ -160,18 +160,6 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *See also*:
 
-// CloudForms: Added "In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the"
-[[virtual-management-database]]
-==== image:images/yes.png[yes] Virtual Management Database (VMDB) (noun)
-*Description*: In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use "Virtual Management Database (VMDB)" in the first instance and "VMDB" in subsequent instances.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*:
-
 [[virtual-router]]
 ==== image:images/yes.png[yes] virtual router (noun)
 *Description*: A _virtual router_ is an abstract object managed by the virtual router redundancy protocol (VRRP) that acts as a default router for hosts on a shared LAN. It consists of a Virtual Router Identifier and a set of associated IP addresses across a common LAN.

@@ -437,18 +437,6 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *See also*:
 
-// CloudForms: Added "In Red Hat CloudForms"
-[[appliance-console]]
-==== image:images/yes.png[yes] Appliance console (noun)
-*Description*: In Red Hat CloudForms, the _appliance console_ is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: Appliance Console
-
-*See also*:
-
 // OCP: Added "In Red Hat OpenShift," and removed "OpenShift Container Platform" (twice) from later in the sentence
 [[application]]
 ==== image:images/yes.png[yes] application (noun)
@@ -696,7 +684,7 @@ _Valid values are `arm64`._
 
 [[aws-local-zone]]
 ==== image:images/yes.png[yes] AWS Local Zone (noun)
-*Description*: An _Amazon Web Services (AWS) Local Zone_ represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as `us-west-2-lax-1a`. 
+*Description*: An _Amazon Web Services (AWS) Local Zone_ represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as `us-west-2-lax-1a`.
 
 *Use it*: yes
 
