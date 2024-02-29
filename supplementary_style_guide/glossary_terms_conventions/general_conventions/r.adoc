@@ -234,42 +234,6 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *See also*:
 
-// CloudForms: Kept as is
-[[red-hat-cloudforms]]
-==== image:images/yes.png[yes] Red Hat CloudForms (noun)
-*Description*: _Red Hat CloudForms_ enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: CloudForms Management Engine, CFME
-
-*See also*:
-
-// CloudForms: Added "In Red Hat CloudForms, the _Red Hat CloudForms Appliance_ is"
-[[red-hat-cloudforms-appliance]]
-==== image:images/yes.png[yes] Red Hat CloudForms Appliance (noun)
-*Description*: In Red Hat CloudForms, the _Red Hat CloudForms Appliance_ is a virtual machine where the virtual management database (VMDB) and Red Hat CloudForms reside. Use "Red Hat CloudForms" in the first instance and "the appliance" in subsequent instances.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: CloudForms Management Engine, CFME
-
-*See also*:
-
-// CloudForms: Added "In Red Hat CloudForms, the _Red Hat CloudForms server_ is"
-[[red-hat-cloudforms-server]]
-==== image:images/yes.png[yes] Red Hat CloudForms server (noun)
-*Description*: In Red Hat CloudForms, the _Red Hat CloudForms server_ is the application that runs on the Red Hat CloudForms appliance and communicates with the SmartProxy and the VMDB.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*:
-
 [[red-hat-container-catalog]]
 ==== image:images/no.png[no] Red Hat Container Catalog (noun)
 *Description*: _Red Hat Container Catalog_ was the Red Hat-hosted registry for enterprise-ready containers located at link:https://catalog.redhat.com/[https://catalog.redhat.com/].
