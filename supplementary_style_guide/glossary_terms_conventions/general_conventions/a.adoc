@@ -174,21 +174,6 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *See also*: xref:jboss-eap-messaging[JBoss EAP messaging]
 
-// RHV: Added "In Red Hat Virtualization,"
-[[administration-portal]]
-==== image:images/yes.png[yes] Administration Portal (noun)
-*Description*: In Red Hat Virtualization, the _Administration Portal_ is a graphical user interface provided by the Red Hat Virtualization Manager. It can be used to manage all the administrative resources in the environment and can be accessed by any supported web browser.
-
-Always use "Administration Portal", including the capital P. When other departments (or upstream) use "webadmin" or "Administrator portal", this is what they are referring to.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: Admin Portal, webadmin, webadmin portal, Administrator Portal, Administration portal
-
-*See also*:
-
-
 [[air-gap]]
 ==== image:images/yes.png[yes] air gap (noun)
 *Description*: _Air gap_ is the physical segregation and isolation of a system as a security measure.
@@ -696,7 +681,7 @@ _Valid values are `arm64`._
 
 [[aws-local-zone]]
 ==== image:images/yes.png[yes] AWS Local Zone (noun)
-*Description*: An _Amazon Web Services (AWS) Local Zone_ represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as `us-west-2-lax-1a`. 
+*Description*: An _Amazon Web Services (AWS) Local Zone_ represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as `us-west-2-lax-1a`.
 
 *Use it*: yes
 
