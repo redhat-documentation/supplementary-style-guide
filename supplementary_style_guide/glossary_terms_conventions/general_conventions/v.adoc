@@ -216,20 +216,6 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *See also*:
 
-// RHV: Added "In Red Hat Virtualization,"
-[[vm-portal]]
-==== image:images/yes.png[yes] VM Portal (noun)
-*Description*: In Red Hat Virtualization, the _VM Portal_ is a graphical user interface provided by the Red Hat Virtualization Manager. It has limited permissions for managing virtual machine resources and is targeted at end users.
-
-Always use "VM Portal" and capitalize the product name.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: VM portal, vm portal, Virtual Machine Portal, User Portal
-
-*See also*: xref:administration-portal[Administration Portal]
-
 [[vnic]]
 ==== image:images/yes.png[yes] vNIC (noun)
 *Description*: _vNIC_ is an abbreviation for "virtual network interface controller". Use lowercase "v" and uppercase "NIC" for the abbreviation, but all lowercase for the expansion, except at the beginning of a sentence.

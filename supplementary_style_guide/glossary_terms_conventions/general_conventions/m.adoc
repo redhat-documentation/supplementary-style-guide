@@ -81,18 +81,6 @@
 
 *See also*: xref:http-interface[HTTP interface]
 
-// RHV: Added "In Red Hat Virtualization,"
-[[manager-virtual-machine]]
-==== image:images/yes.png[yes] Manager virtual machine (noun)
-*Description*: In Red Hat Virtualization, "Manager virtual machine" refers specifically to the virtual machine created during self-hosted engine deployment. Use this term when referring to the machine (for example, "Log in to the Manager virtual machine"); the Manager itself can still be referred to as such (for example, "Add a host to the Manager").
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: self-hosted engine virtual machine, engine VM
-
-*See also*: xref:self-hosted-engine[self-hosted engine]
-
 [[manual-page]]
 ==== image:images/yes.png[yes] manual page (noun)
 *Description*: A _manual page_ is a form of software documentation tied directly with packages providing that software. It is accessible by using the `man <utility>` command from the command-line interface.
@@ -550,32 +538,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 *Incorrect forms*:
 
 *See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
-[[mom]]
-==== image:images/yes.png[yes] MOM (noun)
-*Description*: In Red Hat Virtualization, the _Memory Overcommitment Manager_ is a policy-driven tool that can be used to manage overcommitment on hosts.
-
-Use "Memory Overcommitment Manager (MOM)" for the first instance in a section, and "MOM" for subsequent instances.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: MoM, Mom, mom
-
-*See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
-[[monitoring_portal]]
-==== image:images/yes.png[yes] Monitoring Portal (noun)
-*Description*: In Red Hat Virtualization, the _Monitoring Portal_ is a graphical user interface used to display reports based on data collected from the Data Warehouse PostgreSQL database. The Monitoring Portal is implemented by using the Grafana web-based UI tool to display the reports as dashboards.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*: xref:data-warehouse[Data Warehouse]
 
 [[mount]]
 ==== image:images/yes.png[yes] mount (verb)

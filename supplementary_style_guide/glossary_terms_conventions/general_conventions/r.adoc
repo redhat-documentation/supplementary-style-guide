@@ -344,19 +344,6 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:rhel[RHEL]
 
-// RHV: Added "In Red Hat Virtualization," and removed from later
-[[red-hat-enterprise-linux-host]]
-==== image:images/yes.png[yes] Red Hat Enterprise Linux host (noun)
-*Description*: In Red Hat Virtualization, you can use Red Hat Enterprise Linux servers that are subscribed to the appropriate entitlements as hosts.
-
-Always spell out the full product name of the host, and do not capitalize the term "host".
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: RHEL host, RHEL-H
-
-*See also*: xref:host-rhv[host]
-
 // OpenStack: General; kept as is
 [[red-hat-enterprise-linux-openstack-platform]]
 ==== image:images/caution.png[with caution] Red Hat Enterprise Linux OpenStack Platform (noun)
@@ -564,48 +551,6 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 *Incorrect forms*: OpenStack Platform, RHOS, RH-OSP
 
 *See also*: xref:red-hat-enterprise-linux-openstack-platform[Red Hat Enterprise Linux OpenStack Platform]
-
-// RHV: General; kept as is
-[[red-hat-virtualization]]
-==== image:images/yes.png[yes] Red Hat Virtualization (noun)
-*Description*: _Red Hat Virtualization_ is an enterprise-grade server and desktop virtualization platform built on Red Hat Enterprise Linux.
-
-Use "Red Hat Virtualization". Always spell out in full, except as part of "RHVH" or when repetition in a single paragraph hampers readability.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: RHV
-
-*See also*: xref:red-hat-virtualization-host[Red Hat Virtualization Host]
-
-// RHV: Added "In Red Hat Virtualization," and removed later
-[[red-hat-virtualization-host]]
-==== image:images/yes.png[yes] Red Hat Virtualization Host (noun)
-*Description*: In Red Hat Virtualization, _Red Hat Virtualization Host_ is the host. It is a minimal operating system based on Red Hat Enterprise Linux, is distributed as an ISO file from the Customer Portal, and contains only the packages required for the machine to act as a host.
-
-Use "Red Hat Virtualization Host (RHVH)" for the first instance in a section. You can use "RHVH" in subsequent instances. Do not use "the Host" or capitalize the term "host" when it is not used with the full product name..
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: RHV-H, Red Hat Virtualization Hypervisor, RHV Host, the Host
-
-*See also*: xref:host-rhv[host]
-
-// RHV: Added "In Red Hat Virtualization," and removed "Red Hat Virtualization" from later
-[[red-hat-virtualization-manager]]
-==== image:images/yes.png[yes] Red Hat Virtualization Manager (noun)
-*Description*: In Red Hat Virtualization, the _Red Hat Virtualization Manager_ is a server that manages and provides access to the resources in the environment.
-
-Use "Red Hat Virtualization Manager". Spell out in full for the first instance in a section. Use "the Manager" for subsequent instances. Do not use "the engine", which is the oVirt (upstream) term.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: RHVM, RHV-M, RHV Manager, engine
-
-*See also*:
 
 [[red-hat-way]]
 ==== image:images/yes.png[yes] Red Hat Way (noun)
@@ -829,20 +774,6 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// RHV: Added "In Red Hat Virtualization," and removed from later
-[[resource-tab]]
-==== image:images/yes.png[yes] resource tab (noun)
-*Description*: In Red Hat Virtualization, hosts, virtual machines, storage, and other resources can be managed by using their associated tab.
-
-Use the name of the tab when you refer to it, for example, "the *Storage* tab".
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*:
-
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[resource-adapters]]
 ==== image:images/yes.png[yes] resource-adapters subsystem (noun)
@@ -854,18 +785,6 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 *Incorrect forms*:
 
 *See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
-[[results-list]]
-==== image:images/yes.png[yes] results list (noun)
-*Description*: In Red Hat Virtualization, the _results list_ shows the resources managed under each resource tab. For example, the results list for the *Hosts* tab shows all hosts attached to the Red Hat Virtualization Manager.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*: xref:resource-tab[resource tab]
 
 [[return]]
 ==== image:images/yes.png[yes] return (verb)

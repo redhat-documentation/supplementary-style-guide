@@ -412,7 +412,6 @@
 
 *See also*:
 
-// RHV: Removed "and is not exclusive to Red Hat Virtualization"
 [[cockpit-web-interface]]
 ==== image:images/yes.png[yes] Cockpit web interface (noun)
 *Description*: _Cockpit_ is a web-based server administration user interface.
@@ -422,7 +421,7 @@
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:red-hat-enterprise-linux-host[Red Hat Enterprise Linux host], xref:red-hat-virtualization-host[Red Hat Virtualization Host]
+*See also*:
 
 [[code]]
 ==== image:images/yes.png[yes] code (noun)
@@ -456,19 +455,6 @@
 *Incorrect forms*: code base
 
 *See also*:
-
-// RHV: Added "In Red Hat Virtualization," and removed from later in the sentence
-[[collect]]
-==== image:images/yes.png[yes] collect (verb)
-*Description*: In Red Hat Virtualization, use "collect" when discussing the log collector (`ovirt-log-collector`). Do not use "gather", which is reserved for discussing Red Hat Virtualization metrics. For the discussion regarding this decision, see the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log].
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: gather
-
-*See also*: xref:gather[gather]
-
 
 [[comma-delimited]]
 ==== image:images/yes.png[yes] comma-delimited (adjective)

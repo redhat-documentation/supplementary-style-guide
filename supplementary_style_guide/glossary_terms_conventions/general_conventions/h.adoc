@@ -43,18 +43,6 @@
 // TODO: Added link to she. Still need to add link to you
 *See also*: xref:she[she]
 
-// RHV: Added "In Red Hat Virtualization," and added blank line so that first bullet rendered
-[[header-bar]]
-==== image:images/yes.png[yes] header bar (noun)
-*Description*: In the Red Hat Virtualization VM Portal, the _header bar_ contains buttons to help you refresh or manage your display, including notification settings and account settings.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: title bar
-
-*See also*: xref:vm-portal[vm-portal]
-
 [[health-check]]
 ==== image:images/yes.png[yes] health check (noun)
 *Description*: A _health check_ identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."
@@ -135,8 +123,6 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*:
 
-// RHV: Added "In Red Hat Virtualization,"
-
 [[horizontal-pod-autoscaler]]
 ==== image:images/yes.png[yes] horizontal pod autoscaler (noun)
 *Description*: In Red Hat OpenShift, a _horizontal pod autoscaler_, also known as _HPA_, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
@@ -147,18 +133,6 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 *Incorrect forms*:
 
 *See also*:
-
-[[host-rhv]]
-==== image:images/yes.png[yes] host (noun)
-*Description*: In Red Hat Virtualization, _hosts_ are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
-Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or "virtualization host". When referring to a specific type of host, use "Red Hat Enterprise Linux host" or "Red Hat Virtualization Host".
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: hypervisor, hypervisor host, virtualization host
-
-*See also*: xref:red-hat-enterprise-linux-host[Red Hat Enterprise Linux host], xref:red-hat-virtualization-host[Red Hat Virtualization Host]
 
 [[host-group]]
 ==== image:images/yes.png[yes] host group (noun)

@@ -33,18 +33,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*: xref:gas[GAS]
 
-// RHV: Added "In Red Hat Virtualization," and removed later in the sentence
-[[gather]]
-==== image:images/yes.png[yes] gather (verb)
-*Description*: In Red Hat Virtualization, use "gather" when discussing metrics. Do not use "collect", which is reserved for discussing the Red Hat Virtualization log collector (`ovirt-log-collector`). For the discussion regarding this decision, see the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log].
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: collect
-
-*See also*: xref:collect[collect]
-
 [[gb]]
 ==== image:images/yes.png[yes] GB (noun)
 *Description*: _GB_ is an abbreviation for "gigabyte". Use a space between the value and the abbreviation, for example, "a 2 GB file".

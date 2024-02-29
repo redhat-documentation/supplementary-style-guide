@@ -116,22 +116,6 @@
 
 *See also*:
 
-// RHV: Added "In Red Hat Virtualization,"
-[[data-warehouse]]
-==== image:images/yes.png[yes] Data Warehouse (noun)
-*Description*: In Red Hat Virtualization, the Manager includes a comprehensive management history database, which any application can use to extract a range of information at the data center, cluster, and host levels. Installing Data Warehouse creates the `ovirt_engine_history` database, to which the Manager is configured to log information for reporting purposes.
-
-_Data Warehouse_ is mandatory in Red Hat Virtualization.
-
-Always spell out in full and capitalize as shown here, unless part of a command. Use "Data Warehouse", not "the Data Warehouse", unless "Data Warehouse" functions as an adjective, for example, "the Data Warehouse package" or "the Data Warehouse service".
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: DWH, data warehouse, Dataware House
-
-*See also*: xref:monitoring_portal[Monitoring Portal]
-
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[datasource]]
 ==== image:images/yes.png[yes] datasource subsystem (noun)
@@ -285,18 +269,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *Incorrect forms*:
 
 *See also*: xref:message-address[message address]
-
-// RHV: Added "In Red Hat Virtualization,"
-[[details-view]]
-==== image:images/yes.png[yes] details view (noun)
-*Description*: In Red Hat Virtualization, the _details view_ displays detailed information about a selected item.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: details pane
-
-*See also*:
 
 [[developer-preview]]
 ==== image:images/yes.png[yes] Developer Preview (noun)

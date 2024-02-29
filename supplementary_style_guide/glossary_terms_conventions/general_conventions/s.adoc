@@ -199,34 +199,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// RHV: Added "In Red Hat Virtualization,"
-[[self-hosted-engine]]
-==== image:images/yes.png[yes] self-hosted engine (noun)
-*Description*: In Red Hat Virtualization, a _self-hosted engine_ is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. The virtual machine is created as part of the host configuration, and the Manager is installed and configured in parallel to the host configuration process.
-
-Use all lower case, unless used in a title or at the beginning of a sentence.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: hosted engine, hosted-engine
-
-*See also*: xref:self-hosted-engine-node[self-hosted engine node]
-
-// RHV: Added "In Red Hat Virtualization,"
-[[self-hosted-engine-node]]
-==== image:images/yes.png[yes] self-hosted engine node (noun)
-*Description*: In Red Hat Virtualization, a self-hosted engine is a virtualized environment in which the Manager, or engine, runs on a virtual machine on the hosts managed by that Manager. A _self-hosted engine node_ is a host that has self-hosted engine packages installed so that it can host the Manager virtual machine. Regular hosts can also be attached to a self-hosted engine environment, but cannot host the Manager virtual machine.
-
-Use all lower case, unless used in a title or at the beginning of a sentence.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: hosted engine host, hosted-engine host, self-hosted engine host, hosted engine node, hosted-engine node
-
-*See also*: xref:self-hosted-engine[self-hosted engine]
-
 [[selinux]]
 ==== image:images/yes.png[yes] SELinux (noun)
 *Description*: _SELinux_ is an abbreviation for "Security-Enhanced Linux". SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux", "S-E Linux", or "SE Linux".
@@ -769,30 +741,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*: xref:space[space]
 
-// RHV: Added "In Red Hat Virtualization,"
-[[sparse]]
-==== image:images/yes.png[yes] sparse (adjective)
-*Description*: In Red Hat Virtualization, a disk is _sparse_ when its unused disk space is taken from the virtual machine and returned to the host. In the past, the term sparse has been used to describe thin provisioned storage; however, with the addition of the sparsify feature in Red Hat Virtualization 4.1, these terms should not be used interchangeably as a thin provisioned disk might not be a sparse disk.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*: xref:sparsify[sparsify], xref:thin-provisioned[thin provisioned]
-
-// RHV: Added "In Red Hat Virtualization, sparsify means"
-[[sparsify]]
-==== image:images/yes.png[yes] sparsify (verb)
-*Description*: In Red Hat Virtualization, _sparsify_ means to take unused disk space from a virtual machine and return it to the host.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*: xref:sparse[sparse]
-
 // OCP: Added "In Red Hat OpenShift,"
 [[spec]]
 ==== image:images/yes.png[yes] spec (noun)
@@ -947,18 +895,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHV: Added "In Red Hat Virtualization,"
-[[standalone-manager]]
-==== image:images/yes.png[yes] standalone Manager (noun)
-*Description*: In Red Hat Virtualization, use "standalone Manager" specifically, and only, in the context of differentiating between a "regular" Red Hat Virtualization environment and a self-hosted engine environment. Use "the Red Hat Virtualization Manager" or "the Manager" in all other cases.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: standard Manager, standard environment
-
-*See also*: xref:self-hosted-engine[self-hosted engine], xref:red-hat-virtualization-manager[Red Hat Virtualization Manager]
-
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[standalone-mode]]
 ==== image:images/no.png[no] standalone mode (noun)
@@ -1075,20 +1011,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHV: Added "In Red Hat Virtualization,"
-[[storage-pool-manager]]
-==== image:images/yes.png[yes] Storage Pool Manager (noun)
-*Description*: In Red Hat Virtualization, the _Storage Pool Manager (SPM)_ is a role given to one of the hosts in a data center, enabling it to manage the storage domains of the data center.
-
-Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" for subsequent instances.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*:
-
 [[straightforward]]
 ==== image:images/yes.png[yes] straightforward (adjective)
 *Description*: _Straightforward_ means uncomplicated and easy to understand.
@@ -1108,18 +1030,6 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 [.vale-ignore]
 *Incorrect forms*: SU
-
-*See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
-[[sub-version]]
-==== image:images/yes.png[yes] sub-version (noun)
-*Description*: In Red Hat Virtualization, a template _sub-version_ is a new template version created from an existing template.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: sub version, subversion
 
 *See also*:
 
@@ -1284,10 +1194,9 @@ Use "Storage Pool Manager (SPM)" for the first instance in a section, and "SPM" 
 
 *See also*: xref:fuse-online[Fuse Online]
 
-// RHV: General; kept as is
 [[sysprep]]
 ==== image:images/yes.png[yes] sysprep (noun)
-*Description*: _Sysprep_ is a tool that automates the configuration of Windows virtual machines. Red Hat Virtualization enhances Sysprep by building a tailored auto-answer file for each virtual machine.
+*Description*: _Sysprep_ is a tool that automates the configuration of Windows virtual machines.
 
 With the exception of "sysprep file", which has a specific function, use "sysprep" on its own when referring to the tool.
 
