@@ -12,7 +12,7 @@
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[package]]
 ==== image:images/yes.png[yes] package (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, a _package_ is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, a _package_ is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
 
 *Use it*: yes
 
@@ -471,7 +471,7 @@ If your release notes are based on the templates in this guide's xref:release-no
 // Combined into a single entry
 [[project]]
 ==== image:images/yes.png[yes] project (noun)
-*Description*: (1) In Red Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red Hat Decision Manager and Red Hat Process Automatio M, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
+*Description*: (1) In Red Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. Projects organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red Hat Decision Manager and Red Hat Process Automation Manager, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
 
 *Use it*: yes
 

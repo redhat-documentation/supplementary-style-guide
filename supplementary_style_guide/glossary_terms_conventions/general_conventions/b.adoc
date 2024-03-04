@@ -24,7 +24,7 @@
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite"
 [[backward-chaining]]
 ==== image:images/yes.png[yes] backward chaining (verb)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red Hat Decision Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as _derivation queries_. It is not as common compared to reactive systems because Red Hat Decision Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
 
 *Use it*: yes
 

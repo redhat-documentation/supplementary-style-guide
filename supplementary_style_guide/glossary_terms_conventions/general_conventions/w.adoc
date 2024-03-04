@@ -182,7 +182,7 @@
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[working-memory]]
 ==== image:images/yes.png[yes] working memory (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
 
 *Use it*: yes
 

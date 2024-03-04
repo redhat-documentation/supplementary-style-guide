@@ -472,7 +472,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[organizational-unit]]
 ==== image:images/yes.png[yes] organizational unit (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, an _organizational unit_ is a directory comprising repositories that store business assets.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, an _organizational unit_ is a directory comprising repositories that store business assets.
 
 *Use it*: yes
 

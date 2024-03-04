@@ -153,7 +153,7 @@
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[realtime-decision-server]]
 ==== image:images/yes.png[yes] Realtime Decision Server (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat Decision Manager and Red Hat Process Automatio M.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat Decision Manager and Red Hat Process Automation Manager.
 
 *Use it*: yes
 
@@ -350,7 +350,8 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 // BxMS: General; kept as is
 [[bpms]]
 ==== image:images/yes.png[yes] Red Hat Process Automation Manager (noun)
-*Description*: _Red Hat Process Automation Manager_ is the Red Hat platform for Business Process Management (BPM). With Red Hat Process Automation Manager enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
+*Description*: _Red Hat Process Automation Manager_ is the Red Hat platform for Business Process Management (BPM). By using Red Hat Process Automation Manager, enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies.
+
 
 *Use it*: yes
 
@@ -1046,7 +1047,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[rule]]
 ==== image:images/yes.png[yes] rule (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, a _rule_ provides the logic that the rule engine executes against. A rule includes a name, attributes, a “when” statement on the left side of the rule that defines the rule conditions, and a “then” statement on the right side of the rule that defines the rule results.
 
 *Use it*: yes
 
@@ -1058,7 +1059,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[rule-template]]
 ==== image:images/yes.png[yes] rule template (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, a user can define a rule structure using a _rule template_. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
 
 *Use it*: yes
 
@@ -1098,7 +1099,7 @@ Examples:
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[runtime-manager]]
 ==== image:images/yes.png[yes] runtime manager (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
+*Description*: In Red Hat Process Automation Manager, the _runtime manager_ interface enables and simplifies the use of a KIE API within processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
 
 *Use it*: yes
 
