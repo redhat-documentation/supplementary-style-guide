@@ -981,6 +981,17 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 *See also*:
 
+[[currently]]
+==== image:images/yes.png[yes] currently (adverb)
+*Description*: Use "currently" to refer to a situation that might change in the future. For example, you can use "currently" in release notes when a known issue will likely be fixed in an upcoming release. 
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: 
+
+*See also*:
+
 // OCP: Added "In Red Hat OpenShift,"
 [[custom-resource]]
 ==== image:images/yes.png[yes] custom resource (noun)
