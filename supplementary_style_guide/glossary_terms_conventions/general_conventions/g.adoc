@@ -6,6 +6,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -16,6 +17,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gas-command[gas]
@@ -26,20 +28,10 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gas[GAS]
-
-// RHV: Added "In Red Hat Virtualization," and removed later in the sentence
-[[gather]]
-==== image:images/yes.png[yes] gather (verb)
-*Description*: In Red Hat Virtualization, use "gather" when discussing metrics. Do not use "collect", which is reserved for discussing the Red Hat Virtualization log collector (`ovirt-log-collector`). For the discussion regarding this decision, see the comments in link:https://bugzilla.redhat.com/show_bug.cgi?id=1418659[BZ#1418659 Add fluentd configuration for parsing engine.log].
-
-*Use it*: yes
-
-*Incorrect forms*: collect
-
-*See also*: xref:collect[collect]
 
 [[gb]]
 ==== image:images/yes.png[yes] GB (noun)
@@ -47,6 +39,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: gb, Gb
 
 *See also*: xref:gigabyte[gigabyte]
@@ -57,6 +50,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: gbps, GBPS
 
 *See also*:
@@ -67,6 +61,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gcc-command[gcc]
@@ -77,6 +72,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gcc[GCC]
@@ -87,6 +83,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gcj-command[gcj], xref:gcc[GCC]
@@ -98,6 +95,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gcj[GCJ], xref:gcc-command[gcc]
@@ -108,6 +106,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gdb-command[gdb], xref:insight[Insight]
@@ -118,6 +117,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gdb[GDB], xref:insight[Insight]
@@ -128,6 +128,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: gid, Gid
 
 *See also*:
@@ -138,6 +139,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:gb[GB]
@@ -148,6 +150,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Gimp, gimp
 
 *See also*:
@@ -158,6 +161,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: git, GIT
 
 *See also*:
@@ -168,6 +172,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Gnome, gnome
 
 *See also*: xref:gnome-classic[GNOME Classic]
@@ -178,6 +183,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: classic mode
 
 *See also*: xref:gnome[GNOME]
@@ -188,6 +194,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Gnu, gnu
 
 *See also*:
@@ -198,6 +205,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -208,6 +216,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Gpl, gpl
 
 *See also*:
@@ -218,6 +227,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: gray-scale, gray scale
 
 *See also*:
@@ -229,6 +239,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Greenboot, green boots, GreenBoot
 
 *See also*:
@@ -240,6 +251,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -250,6 +262,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Grub, GRUB 2, GRUB2
 
 *See also*:
@@ -263,6 +276,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -273,6 +287,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: GTK, Gtk, gtk
 
 *See also*:
@@ -283,6 +298,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: guest
 
 *See also*:
@@ -293,6 +309,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:libvirt[libvirt]
@@ -304,6 +321,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Editor, GUI editor, Business Central editor
 
 *See also*: xref:business-central[Business Central]

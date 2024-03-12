@@ -2,14 +2,14 @@
 [[graphical-interfaces]]
 = Graphical interfaces
 
-For more detailed guidance on how to document user interface (UI) elements, see link:https://www.patternfly.org/v4/ux-writing/about[PatternFly].
+For more detailed guidance on how to document user interface (UI) elements, see link:https://www.patternfly.org/ux-writing/about[PatternFly].
 
 [[microcopy]]
 == Microcopy
 
 The words in a user interface, commonly referred to as "UX copy" or "microcopy", are just as important as the components or layouts. Microcopy is another element of design, and it can drive better UX decisions and guide users to succeed. Red{nbsp}Hat cloud services are based on PatternFly, an open source design system created to enable consistency and usability across a wide range of applications and use cases.
 
-See link:https://www.patternfly.org/v4/ux-writing/about[UX writing] in the PatternFly content style guide for comprehensive guidelines about documenting user interfaces.
+See link:https://www.patternfly.org/ux-writing/about[UX writing] in the PatternFly content style guide for comprehensive guidelines about documenting user interfaces.
 
 [[screenshots]]
 == Screenshots

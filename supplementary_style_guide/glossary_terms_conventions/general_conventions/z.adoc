@@ -4,6 +4,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:micro-release[micro release]
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:zone-group[zone group]
@@ -26,6 +28,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: zonegroup, zone-group
 
 *See also*: xref:zone[zone], xref:realm[realm], xref:region[region]
@@ -36,6 +39,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: S/390x, s390x, IBM zSeries, zSeries
 
 *See also*: xref:ibm-z[IBM Z]

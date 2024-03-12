@@ -17,8 +17,8 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 // TEMPLATE:
 //
-// [[TODO-2023]]
-// == TODO 2023
+// [[TODO-2024]]
+// === TODO 2024
 //
 // .Glossary entries
 // * TODO
@@ -29,166 +29,267 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * TODO
 
-[[august-2023]]
-== August 2023
+[[year-2024]]
+== 2024
+
+[[february-2024]]
+=== February 2024
 
 .Glossary entries
-* agnostic: Removed glossary entry because it already exists in the _IBM Style_ guide
-* xref:application-stream[Application Stream]: Added glossary entry
-* xref:appstream-repository[Appstream repository]: Added glossary entry
-* xref:baseos-repository[BaseOS repository]: Added glossary entry
-* xref:binary-rpm[binary RPM]: Added glossary entry
-* xref:boolean-dependencies[Boolean dependencies]: Added glossary entry
-* xref:byte-compiled-program[byte-compiled program]: Added glossary entry
-* client side: Removed glossary entry because it already exists in the _IBM Style_ guide
-* client-side: Removed glossary entry because it already exists in the _IBM Style_ guide
-* cloud: Removed glossary entry because it already exists in the _IBM Style_ guide
-* xref:codeready-linux-builder-repository[CodeReady Linux Builder repository]: Added glossary entry
-* colocate: Removed glossary entry because it already exists in the _IBM Style_ guide
-* data center: Removed glossary entry because it already exists in the _IBM Style_ guide
-* DevOps: Removed glossary entry because it already exists in the _IBM Style_ guide
-* xref:dnf-automatic[DNF Automatic]: Added glossary entry
-* xref:domain-controller[domain controller]: Updated glossary entry to include IdM-specific information
-* xref:file-trigger-directive[file trigger directive]: Added glossary entry
-* xref:ibm-eserver-system-p[IBM eServer System p]: Updated to "do not use"; use "IBM Power" instead
-* xref:ibm-s-390[IBM S/390]: Updated to "do not use"; use "IBM Z" instead
-* xref:interpreted-code[interpreted code]: Added glossary entry
-* xref:iseries[ISeries]: Updated to "do not use"; use "IBM Power" instead
-* xref:module[module]: Added glossary entry
-* xref:module-profile[module profile]: Added glossary entry
-* xref:module-stream[module stream]: Added glossary entry
-* xref:natively-compiled-code[natively compiled code]: Added glossary entry
-* xref:pseries[pSeries]: Updated to "do not use"; use "IBM Power" instead
-* xref:raw-interpreted-program[raw-interpreted program]: Added glossary entry
-* xref:rolling-stream[Rolling Stream]: Added glossary entry
-* xref:rpm-macro[RPM macro]: Added glossary entry
-* xref:scriptlet-directive[scriptlet directive]: Added glossary entry
-* xref:source-rpm[Source RPM]: Added glossary entry
-* xref:trigger-directive[trigger directive]: Added glossary entry
-* xref:weak-dependencies[Weak dependencies]: Added glossary entry
+* *Administration Portal*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Appliance console*: Removed glossary entry because Red Hat CloudForms support is ending
+* *collect*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Data Warehouse*: Removed glossary entry because Red Hat Virtualization support is ending
+* *details view*: Removed glossary entry because Red Hat Virtualization support is ending
+* *gather*: Removed glossary entry because Red Hat Virtualization support is ending
+* *header bar*: Removed glossary entry because Red Hat Virtualization support is ending
+* *host*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Manager virtual machine*: Removed glossary entry because Red Hat Virtualization support is ending
+* *MOM*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Monitoring Portal*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Red Hat CloudForms*: Removed glossary entry because Red Hat CloudForms support is ending
+* *Red Hat CloudForms Appliance*: Removed glossary entry because Red Hat CloudForms support is ending
+* *Red Hat CloudForms server*: Removed glossary entry because Red Hat CloudForms support is ending
+* *Red Hat Enterprise Linux host*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Red Hat Virtualization*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Red Hat Virtualization Host*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Red Hat Virtualization Manager*: Removed glossary entry because Red Hat Virtualization support is ending
+* *resource tab*: Removed glossary entry because Red Hat Virtualization support is ending
+* *results list*: Removed glossary entry because Red Hat Virtualization support is ending
+* *self-hosted engine*: Removed glossary entry because Red Hat Virtualization support is ending
+* *self-hosted engine node*: Removed glossary entry because Red Hat Virtualization support is ending
+* *SmartState analysis*: Removed glossary entry because Red Hat CloudForms support is ending
+* *sparse*: Removed glossary entry because Red Hat Virtualization support is ending
+* *sparsify*: Removed glossary entry because Red Hat Virtualization support is ending
+* *standalone Manager*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Storage Pool Manager*: Removed glossary entry because Red Hat Virtualization support is ending
+* *sub-version*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Virtual Management Database*: Removed glossary entry because Red Hat CloudForms support is ending
+* *VM Portal*: Removed glossary entry because Red Hat Virtualization support is ending
+* *Worker Appliance*: Removed glossary entry because Red Hat CloudForms support is ending
 
 .Style guidance
-* xref:minimalism[Minimalism]: Added section with guidance on writing with minimalism
+* *xref:commands-in-code-blocks[Commands in code blocks]*: Added guidance to use bold formatting for commands in code blocks and to show only one command per code block
+
+[[january-2024]]
+=== January 2024
+
+.Glossary entries
+* *xref:customer-portal[Customer Portal]*: Added glossary entry
+* *xref:hashbang[hashbang]*: Added glossary entry
+* *xref:ingress[ingress]*: Updated guidance from uppercase "Ingress" to lowercase "ingress"
+* *xref:interpreter-directive[interpreter directive]*: Added glossary entry
+* *xref:shebang[shebang]*: Added glossary entry
+
+.Style guidance
+* *xref:man-pages[Man page references]*: Added guidance on referencing man pages
+
+[[year-2023]]
+== 2023
+
+[[december-2023]]
+=== December 2023
+.Glossary entries
+* *xref:ibm-cloud[IBM Cloud®]*: Added glossary entry
+* *look up*: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
+* *look-up*: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
+* *lookup*: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
+* *xref:now[now]*: Updated glossary entry to "use with caution"
+* *xref:previously[previously]*: Added glossary entry
+
+.Style guidance
+* *xref:ip-addresses-and-mac-addresses[IP addresses and MAC addresses]*: Added examples of reserved IP addresses and MAC addresses
+
+[[november-2023]]
+=== November 2023
+
+_No glossary or style updates._
+
+[[october-2023]]
+=== October 2023
+
+.Glossary entries
+* *xref:ansible-rulebook[Ansible Rulebook]*: Added glossary entry
+* *because*: Removed glossary entry because guidance already exists in the _IBM Style_ guidance
+* *xref:executable-adj[executable (adjective)]*: Added glossary entry
+* *xref:executable[executable (noun)]*: Added glossary entry
+* *xref:playbook[playbook]*: Added glossary entry
+* *xref:rulebook[rulebook]*: Added glossary entry
+* *xref:spec-file[spec file]*: Updated glossary entry for clarity
+
+[[september-2023]]
+=== September 2023
+
+.Glossary entries
+* *xref:aws-local-zone[AWS Local Zone]*: Added glossary entry
+* *xref:aws-opt-in-region[AWS opt-in Region]*: Added glossary entry
+* *xref:ibm-cloud-bare-metal[IBM Cloud® Bare Metal (Classic)]*: Added glossary entry
+* *xref:ibm-eserver-system-i[IBM eServer System i]*: Added glossary entry with "do not use" guidance
+* *xref:inject[inject]*: Added glossary entry
+* *xref:opt-in[opt in]*: Added glossary entry
+* *pulldown*: Removed glossary entry in favor of following the _IBM Style_ guidance on using "dropdown" and "drop-down"
+* *xref:segmentation-fault[segmentation fault]*: Updated glossary entry for clarity
+
+[[august-2023]]
+=== August 2023
+
+.Glossary entries
+* *agnostic*: Removed glossary entry because it already exists in the _IBM Style_ guide
+* *xref:application-stream[Application Stream]*: Added glossary entry
+* *xref:appstream-repository[Appstream repository]*: Added glossary entry
+* *xref:baseos-repository[BaseOS repository]*: Added glossary entry
+* *xref:binary-rpm[binary RPM]*: Added glossary entry
+* *xref:boolean-dependencies[Boolean dependencies]*: Added glossary entry
+* *xref:byte-compiled-program[byte-compiled program]*: Added glossary entry
+* *client side*: Removed glossary entry because it already exists in the _IBM Style_ guide
+* *client-side*: Removed glossary entry because it already exists in the _IBM Style_ guide
+* *cloud*: Removed glossary entry because it already exists in the _IBM Style_ guide
+* *xref:codeready-linux-builder-repository[CodeReady Linux Builder repository]*: Added glossary entry
+* *colocate*: Removed glossary entry because it already exists in the _IBM Style_ guide
+* *data center*: Removed glossary entry because it already exists in the _IBM Style_ guide
+* *DevOps*: Removed glossary entry because it already exists in the _IBM Style_ guide
+* *xref:dnf-automatic[DNF Automatic]*: Added glossary entry
+* *xref:domain-controller[domain controller]*: Updated glossary entry to include IdM-specific information
+* *xref:file-trigger-directive[file trigger directive]*: Added glossary entry
+* *xref:ibm-eserver-system-p[IBM eServer System p]*: Updated to "do not use"; use "IBM Power" instead
+* *xref:ibm-s-390[IBM S/390]*: Updated to "do not use"; use "IBM Z" instead
+* *xref:interpreted-code[interpreted code]*: Added glossary entry
+* *xref:iseries[ISeries]*: Updated to "do not use"; use "IBM Power" instead
+* *xref:module[module]*: Added glossary entry
+* *xref:module-profile[module profile]*: Added glossary entry
+* *xref:module-stream[module stream]*: Added glossary entry
+* *xref:natively-compiled-code[natively compiled code]*: Added glossary entry
+* *xref:pseries[pSeries]*: Updated to "do not use"; use "IBM Power" instead
+* *xref:raw-interpreted-program[raw-interpreted program]*: Added glossary entry
+* *xref:rolling-stream[Rolling Stream]*: Added glossary entry
+* *xref:rpm-macro[RPM macro]*: Added glossary entry
+* *xref:scriptlet-directive[scriptlet directive]*: Added glossary entry
+* *xref:source-rpm[Source RPM]*: Added glossary entry
+* *xref:trigger-directive[trigger directive]*: Added glossary entry
+* *xref:weak-dependencies[Weak dependencies]*: Added glossary entry
+
+.Style guidance
+* *xref:minimalism[Minimalism]*: Added section with guidance on writing with minimalism
 
 // .Other updates
 // * TODO
 
 [[july-2023]]
-== July 2023
+=== July 2023
 
 .Glossary entries
-* xref:elb[Elastic Load Balancing]: Added glossary entry
-* xref:ibm-linuxone[IBM® LinuxONE]: Added glossary entry
-* xref:ibm-power[IBM Power®]: Added glossary entry
-* xref:ibm-z[IBM Z®]: Updated glossary entry
-* xref:red-hat-build-openjdk[Red Hat build of OpenJDK]: Added glossary entry
-* xref:red-hat-java[Red Hat Java]: Added glossary entry
-* xref:red-hat-openjdk[Red Hat OpenJDK]: Added glossary entry
-* xref:s390x[s390x]: Added glossary entry
+* *xref:elb[Elastic Load Balancing]*: Added glossary entry
+* *xref:ibm-linuxone[IBM® LinuxONE]*: Added glossary entry
+* *xref:ibm-power[IBM Power®]*: Added glossary entry
+* *xref:ibm-z[IBM Z®]*: Updated glossary entry
+* *xref:red-hat-build-openjdk[Red Hat build of OpenJDK]*: Added glossary entry
+* *xref:red-hat-java[Red Hat Java]*: Added glossary entry
+* *xref:red-hat-openjdk[Red Hat OpenJDK]*: Added glossary entry
+* *xref:s390x[s390x]*: Added glossary entry
 
 .Style guidance
-* xref:non-breaking-spaces[Non-breaking spaces]: Updated to clarify why non-breaking spaces should be used
-* xref:titles-and-headings[Titles and headings]: Added guidance to use sentence-style capitalization for titles and headings
-* xref:user-interface-elements[User interface elements]: Updated to clarify not to use bold text if an element is not labeled in the user interface
-* xref:user-replaced-values[User-replaced values]: Updated to provide guidance on using user-replaced values in example output
+* *xref:non-breaking-spaces[Non-breaking spaces]*: Updated to clarify why non-breaking spaces should be used
+* *xref:titles-and-headings[Titles and headings]*: Added guidance to use sentence-style capitalization for titles and headings
+* *xref:user-interface-elements[User interface elements]*: Updated to clarify not to use bold text if an element is not labeled in the user interface
+* *xref:user-replaced-values[User-replaced values]*: Updated to provide guidance on using user-replaced values in example output
 
 .Other updates
 * Updated the guide to enable clickable section headings.
-* Added a xref:_pdf_version[downloadable PDF version] of the guide.
+* Added a *xref:_pdf_version[downloadable PDF version]* of the guide.
 
 [[june-2023]]
-== June 2023
+=== June 2023
 
 .Glossary entries
-* xref:ansible-playbook[Ansible Playbook]: Updated glossary entry for preferred spelling
-* xref:bimodal-it[bimodal IT]: Updated glossary entry to include link to the Gartner website
-* xref:bimonthly[bimonthly]: Updated to "do not use" because the term can be ambiguous
-* xref:biweekly[biweekly]: Updated to "do not use" because the term can be ambiguous
-* xref:codebase[codebase]: Added glossary entry
-* xref:sos-report[sos report]: Added glossary entry
-* xref:sosreport[sosreport]: Added glossary entry
+* *xref:ansible-playbook[Ansible Playbook]*: Updated glossary entry for preferred spelling
+* *xref:bimodal-it[bimodal IT]*: Updated glossary entry to include link to the Gartner website
+* *xref:bimonthly[bimonthly]*: Updated to "do not use" because the term can be ambiguous
+* *xref:biweekly[biweekly]*: Updated to "do not use" because the term can be ambiguous
+* *xref:codebase[codebase]*: Added glossary entry
+* *xref:sos-report[sos report]*: Added glossary entry
+* *xref:sosreport[sosreport]*: Added glossary entry
 
 .Other updates
-* Added a xref:_0_9[0-9] section and moved entries starting with a number to it.
+* Added a *xref:_0_9[0-9]* section and moved entries starting with a number to it.
 * Added links to the new Red{nbsp}Hat link:https://redhat-documentation.github.io/accessibility-guide/[_Getting started with accessibility for writers_] guide.
 * Removed the _Cloud services guidelines_ heading, since all guidelines under it were applicable to all product documentation. Redistributed its guidelines to other sections:
-** Moved xref:accessibility[Accessibility] to its own top-level section.
-** Moved the _Localization_ guideline to a note in xref:conversational-style[Conversational style].
-** Moved xref:microcopy[Microcopy] to xref:graphical-interfaces[Graphical interfaces].
-** Moved xref:screenshots[Screenshots] to xref:graphical-interfaces[Graphical interfaces].
-* Renamed _Symbols_ to xref:_special_characters[Special characters].
+** Moved *xref:accessibility[Accessibility]* to its own top-level section.
+** Moved the _Localization_ guideline to a note in *xref:conversational-style[Conversational style]*.
+** Moved *xref:microcopy[Microcopy]* to *xref:graphical-interfaces[Graphical interfaces]*.
+** Moved *xref:screenshots[Screenshots]* to *xref:graphical-interfaces[Graphical interfaces]*.
+* Renamed _Symbols_ to *xref:_special_characters[Special characters]*.
 * Updated the guide to use a new look and feel.
 
 [[may-2023]]
-== May 2023
+=== May 2023
 
 .Glossary entries
-* xref:bit-64-arm[64-bit ARM]: Added glossary entry
-* xref:bit-64-x86[64-bit x86]: Added glossary entry
-* xref:aarch64[AArch64]: Added glossary entry
-* xref:_aarch64[aarch64]: Added glossary entry
-* xref:AMD64[AMD64]: Updated description
-* xref:amd64[amd64]: Added glossary entry
-* xref:arm64[ARM64]: Added glossary entry
-* xref:_arm64[arm64]: Added glossary entry
-* xref:intel-64[Intel 64]: Added glossary entry
-* xref:softirq[softirq]: Added glossary entry
-* xref:x86_64[x86_64]: Added glossary entry
+* *xref:bit-64-arm[64-bit ARM]*: Added glossary entry
+* *xref:bit-64-x86[64-bit x86]*: Added glossary entry
+* *xref:aarch64[AArch64]*: Added glossary entry
+* *xref:_aarch64[aarch64]*: Added glossary entry
+* *xref:AMD64[AMD64]*: Updated description
+* *xref:amd64[amd64]*: Added glossary entry
+* *xref:arm64[ARM64]*: Added glossary entry
+* *xref:_arm64[arm64]*: Added glossary entry
+* *xref:intel-64[Intel 64]*: Added glossary entry
+* *xref:softirq[softirq]*: Added glossary entry
+* *xref:x86_64[x86_64]*: Added glossary entry
 
 .Style guidance
-* xref:external-links[External links]: Updated to clarify what an external link is
+* *xref:external-links[External links]*: Updated to clarify what an external link is
 
 [[april-2023]]
-== April 2023
+=== April 2023
 
 .Glossary entries
-* xref:apache-web-server[Apache web server]: Updated to remove extraneous IdM definitions
-* xref:certificate-authority[certificate authority]: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions
-* xref:domain-controller[domain controller]: Updated to remove extraneous IdM definitions
-* xref:kerberos-protocol[Kerberos protocol]: Updated to remove extraneous IdM definitions
-* xref:kerberos-realm[Kerberos realm]: Updated to remove extraneous IdM definitions
-* xref:posix-attributes[POSIX attributes]: Updated to remove extraneous IdM definitions
-* xref:web-server[web server]: Updated to remove extraneous IdM definitions
+* *xref:apache-web-server[Apache web server]*: Updated to remove extraneous IdM definitions
+* *xref:certificate-authority[certificate authority]*: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions
+* *xref:domain-controller[domain controller]*: Updated to remove extraneous IdM definitions
+* *xref:kerberos-protocol[Kerberos protocol]*: Updated to remove extraneous IdM definitions
+* *xref:kerberos-realm[Kerberos realm]*: Updated to remove extraneous IdM definitions
+* *xref:posix-attributes[POSIX attributes]*: Updated to remove extraneous IdM definitions
+* *xref:web-server[web server]*: Updated to remove extraneous IdM definitions
 
 .Other updates
-* Added a xref:non-breaking-spaces[non-breaking space] between "Red" and "Hat" in each occurrence within the guide.
-* xref:shortdesc[Short descriptions]: Added guidance on writing _short descriptions_ (also known as _abstracts_).
+* Added a *xref:non-breaking-spaces[non-breaking space]* between "Red" and "Hat" in each occurrence within the guide.
+* *xref:shortdesc[Short descriptions]*: Added guidance on writing _short descriptions_ (also known as _abstracts_).
 
 
 [[march-2023]]
-== March 2023
+=== March 2023
 
 .Glossary entries
-* xref:devfile[devfile]: Added glossary entry
+* *xref:devfile[devfile]*: Added glossary entry
 
 .Other updates
 * Updated examples throughout the guide to use a consistent order of "For _<information>_, see _<link>_" when referencing other resources.
 
 [[february-2023]]
-== February 2023
+=== February 2023
 
 .Glossary entries
-* xref:foreman[Foreman]: Updated to remove outdated guidance
-* xref:session-persistence[session persistence]: Added glossary entry
-* xref:sticky-bit[sticky bit]: Added glossary entry
-* xref:sticky-session[sticky session]: Added glossary entry
-* xref:want[want]: Updated to "use with caution"
-* xref:we-suggest[we suggest]: Updated to remove outdated guidance
+* *xref:foreman[Foreman]*: Updated to remove outdated guidance
+* *xref:session-persistence[session persistence]*: Added glossary entry
+* *xref:sticky-bit[sticky bit]*: Added glossary entry
+* *xref:sticky-session[sticky session]*: Added glossary entry
+* *xref:want[want]*: Updated to "use with caution"
+* *xref:we-suggest[we suggest]*: Updated to remove outdated guidance
 
 .Other updates
-* Added a xref:whats-new[What's new] section to list what has changed with this guide each month.
+* Added a *xref:whats-new[What's new]* section to list what has changed with this guide each month.
 
 [[january-2023]]
-== January 2023
+=== January 2023
 
 .Glossary entries
-* xref:assisted-installer[Assisted Installer]: Added glossary entry
-* xref:basic-http-authentication[Basic HTTP authentication]: Added glossary entry
-* xref:bytecode[bytecode]: Added glossary entry
-* xref:developer-preview[Developer Preview]: Added glossary entry
-* xref:kubernetes[Kubernetes]: Added glossary entry
-* through: Removed glossary entry in favor of following the _IBM Style_ guidance on number ranges
+* *xref:assisted-installer[Assisted Installer]*: Added glossary entry
+* *xref:basic-http-authentication[Basic HTTP authentication]*: Added glossary entry
+* *xref:bytecode[bytecode]*: Added glossary entry
+* *xref:developer-preview[Developer Preview]*: Added glossary entry
+* *xref:kubernetes[Kubernetes]*: Added glossary entry
+* *through*: Removed glossary entry in favor of following the _IBM Style_ guidance on number ranges
 
 .Style guidance
-* xref:developer-preview-guidance[Developer Preview]: Added guidance on documenting Developer Preview features
-* xref:non-breaking-spaces[Non-breaking spaces]: Added guidance on using a non-breaking space between "Red" and "Hat"
+* *xref:developer-preview-guidance[Developer Preview]*: Added guidance on documenting Developer Preview features
+* *xref:non-breaking-spaces[Non-breaking spaces]*: Added guidance on using a non-breaking space between "Red" and "Hat"

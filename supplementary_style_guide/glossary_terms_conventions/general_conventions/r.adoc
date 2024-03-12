@@ -5,6 +5,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: rados
 
 *See also*: xref:object-store[Object Store]
@@ -16,6 +17,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: RADOS block device
 
 *See also*: xref:ceph-block-device[Ceph Block Device], xref:RBD[RBD], xref:rbd[rbd], xref:librbd[librbd]
@@ -27,6 +29,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: RadosGW, RADOS gateway
 
 *See also*: xref:ceph-object-gateway[Ceph Object Gateway], xref:rgw[RGW], xref:ceph-radosgw[ceph-radosgw]
@@ -37,6 +40,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ram, ram
 
 *See also*: xref:ram-disk[RAM disk]
@@ -47,6 +51,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: RAMdisk, ramdisk, RAM-disk
 
 *See also*: xref:ram[RAM]
@@ -57,6 +62,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: RAW
 
 *See also*: xref:cooked[cooked]
@@ -67,6 +73,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -78,6 +85,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:interpreted-code[interpreted code]
@@ -89,6 +97,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: rbd
 
 *See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:rbd[rbd], xref:librbd[librbd]
@@ -100,6 +109,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:RBD[RBD], xref:librbd[librbd]
@@ -110,6 +120,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:read-v[read (verb)]
@@ -120,6 +131,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:read-n[read (noun)]
@@ -133,6 +145,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:zone-group[zone group]
@@ -144,6 +157,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Decision Server, Kie Server
 
 *See also*:
@@ -155,6 +169,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:consumer[consumer], xref:source[source], xref:sender[sender]
@@ -167,6 +182,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: we recommend, we suggest, Red Hat recommends
 
 *See also*: xref:we-suggest[we suggest]
@@ -178,6 +194,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ, AMQ, Red Hat A-MQ, Red Hat JBoss AMQ
 
 *See also*: xref:jboss-amq[AMQ], xref:jboss-amq-eap[JBoss AMQ]
@@ -188,6 +205,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Red Hat Java, Red Hat OpenJDK, RHOJDK
 
 *See also*: xref:red-hat-java[Red Hat Java], xref:red-hat-openjdk[Red Hat OpenJDK]
@@ -199,6 +217,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ceph[Ceph]
@@ -210,39 +229,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 *Use it*: yes
 
-*Incorrect forms*:
-
-*See also*:
-
-// CloudForms: Kept as is
-[[red-hat-cloudforms]]
-==== image:images/yes.png[yes] Red Hat CloudForms (noun)
-*Description*: _Red Hat CloudForms_ enables enterprises to meet insight, control and automation needs in building and managing virtual infrastructure. Use "Red Hat CloudForms" in the first instance and "CloudForms" in all subsequent instances.
-
-*Use it*: yes
-
-*Incorrect forms*: CloudForms Management Engine, CFME
-
-*See also*:
-
-// CloudForms: Added "In Red Hat CloudForms, the _Red Hat CloudForms Appliance_ is"
-[[red-hat-cloudforms-appliance]]
-==== image:images/yes.png[yes] Red Hat CloudForms Appliance (noun)
-*Description*: In Red Hat CloudForms, the _Red Hat CloudForms Appliance_ is a virtual machine where the virtual management database (VMDB) and Red Hat CloudForms reside. Use "Red Hat CloudForms" in the first instance and "the appliance" in subsequent instances.
-
-*Use it*: yes
-
-*Incorrect forms*: CloudForms Management Engine, CFME
-
-*See also*:
-
-// CloudForms: Added "In Red Hat CloudForms, the _Red Hat CloudForms server_ is"
-[[red-hat-cloudforms-server]]
-==== image:images/yes.png[yes] Red Hat CloudForms server (noun)
-*Description*: In Red Hat CloudForms, the _Red Hat CloudForms server_ is the application that runs on the Red Hat CloudForms appliance and communicates with the SmartProxy and the VMDB.
-
-*Use it*: yes
-
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -255,6 +242,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:container-registry[container registry], xref:openshift-container-registry[OpenShift Container Registry]
@@ -262,13 +250,14 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 // EAP: General; kept as is
 [[red-hat-customer-portal]]
 ==== image:images/yes.png[yes] Red Hat Customer Portal (noun)
-*Description*: _Red Hat Customer Portal_ is the official name of the customer portal at https://access.redhat.com.
+*Description*: _Red Hat Customer Portal_ is the official name for https://access.redhat.com. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
 
 *Use it*: yes
 
-*Incorrect forms*: Customer Portal
+[.vale-ignore]
+*Incorrect forms*: CP, RHCP, customer portal, portal
 
-*See also*:
+*See also*: xref:customer-portal[Customer Portal]
 
 // Data Grid: General; kept as is
 [[red-hat-data-grid]]
@@ -277,6 +266,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Red Hat JBoss Data Grid, JDG
 
 *See also*: xref:data-grid[Data Grid], xref:red-hat-jboss-data-grid[Red Hat JBoss Data Grid]
@@ -288,6 +278,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: RHDS
 
 *See also*: xref:directory-server-product[Directory Server]
@@ -300,6 +291,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:red-hat-container-catalog[Red Hat Container Catalog]
@@ -311,21 +303,10 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:rhel[RHEL]
-
-// RHV: Added "In Red Hat Virtualization," and removed from later
-[[red-hat-enterprise-linux-host]]
-==== image:images/yes.png[yes] Red Hat Enterprise Linux host (noun)
-*Description*: In Red Hat Virtualization, you can use Red Hat Enterprise Linux servers that are subscribed to the appropriate entitlements as hosts.
-
-Always spell out the full product name of the host, and do not capitalize the term "host".
-*Use it*: yes
-
-*Incorrect forms*: RHEL host, RHEL-H
-
-*See also*: xref:host-rhv[host]
 
 // OpenStack: General; kept as is
 [[red-hat-enterprise-linux-openstack-platform]]
@@ -334,6 +315,7 @@ Always spell out the full product name of the host, and do not capitalize the te
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: RHELOSP, RHEL-OSP
 
 *See also*: xref:red-hat-openstack-platform[Red Hat OpenStack Platform]
@@ -345,6 +327,7 @@ Always spell out the full product name of the host, and do not capitalize the te
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ignite, Fuse Ignite
 
 *See also*: xref:syndesis[Syndesis], xref:fuse-online[Fuse Online]
@@ -359,6 +342,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:red-hat-build-openjdk[Red Hat build of OpenJDK], xref:red-hat-openjdk[Red Hat OpenJDK]
@@ -370,6 +354,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: BPMS, BPM, JBoss BPMS
 
 *See also*:
@@ -381,6 +366,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: BRMS, BRM, JBoss BRMS
 
 *See also*:
@@ -392,6 +378,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:red-hat-data-grid[Red Hat Data Grid]
@@ -403,6 +390,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Red Hat JBoss EAP, JBoss Enterprise Application Platform
 
 *See also*: xref:jboss-eap[JBoss EAP]
@@ -413,6 +401,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Red Hat Satellite (Server)
 
 *See also*: xref:red-hat-network-proxy-server[Red Hat Network Proxy Server]
@@ -427,6 +416,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:red-hat-build-openjdk[Red Hat build of OpenJDK], xref:red-hat-java[Red Hat Java]
@@ -437,6 +427,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Red Hat Proxy (Server)
 
 *See also*: xref:red-hat-network-satellite-server[Red Hat Network Satellite Server]
@@ -448,6 +439,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: OCM, Cluster Manager, the OpenShift Cluster Manager, the OpenShift Cluster Manager site
 
 *See also*:
@@ -459,6 +451,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: OpenShift, OpenShift CP, Openshift, OCP
 
 *See also*:
@@ -470,6 +463,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: OCS
 
 *See also*: xref:red-hat-openshift-data-foundation[Red Hat OpenShift Data Foundation]
@@ -481,6 +475,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ODF
 
 *See also*: xref:red-hat-openshift-container-storage[Red Hat OpenShift Container Storage]
@@ -492,6 +487,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Openshift, OpenShift, OD, Dedicated
 
 *See also*:
@@ -503,6 +499,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Openshift, OpenShift, Openshift online, OO
 
 *See also*:
@@ -514,48 +511,10 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: OpenStack Platform, RHOS, RH-OSP
 
 *See also*: xref:red-hat-enterprise-linux-openstack-platform[Red Hat Enterprise Linux OpenStack Platform]
-
-// RHV: General; kept as is
-[[red-hat-virtualization]]
-==== image:images/yes.png[yes] Red Hat Virtualization (noun)
-*Description*: _Red Hat Virtualization_ is an enterprise-grade server and desktop virtualization platform built on Red Hat Enterprise Linux.
-
-Use "Red Hat Virtualization". Always spell out in full, except as part of "RHVH" or when repetition in a single paragraph hampers readability.
-
-*Use it*: yes
-
-*Incorrect forms*: RHV
-
-*See also*: xref:red-hat-virtualization-host[Red Hat Virtualization Host]
-
-// RHV: Added "In Red Hat Virtualization," and removed later
-[[red-hat-virtualization-host]]
-==== image:images/yes.png[yes] Red Hat Virtualization Host (noun)
-*Description*: In Red Hat Virtualization, _Red Hat Virtualization Host_ is the host. It is a minimal operating system based on Red Hat Enterprise Linux, is distributed as an ISO file from the Customer Portal, and contains only the packages required for the machine to act as a host.
-
-Use "Red Hat Virtualization Host (RHVH)" for the first instance in a section. You can use "RHVH" in subsequent instances. Do not use "the Host" or capitalize the term "host" when it is not used with the full product name..
-
-*Use it*: yes
-
-*Incorrect forms*: RHV-H, Red Hat Virtualization Hypervisor, RHV Host, the Host
-
-*See also*: xref:host-rhv[host]
-
-// RHV: Added "In Red Hat Virtualization," and removed "Red Hat Virtualization" from later
-[[red-hat-virtualization-manager]]
-==== image:images/yes.png[yes] Red Hat Virtualization Manager (noun)
-*Description*: In Red Hat Virtualization, the _Red Hat Virtualization Manager_ is a server that manages and provides access to the resources in the environment.
-
-Use "Red Hat Virtualization Manager". Spell out in full for the first instance in a section. Use "the Manager" for subsequent instances. Do not use "the engine", which is the oVirt (upstream) term.
-
-*Use it*: yes
-
-*Incorrect forms*: RHVM, RHV-M, RHV Manager, engine
-
-*See also*:
 
 [[red-hat-way]]
 ==== image:images/yes.png[yes] Red Hat Way (noun)
@@ -564,6 +523,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Red Hat way
 
 *See also*:
@@ -574,6 +534,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Redboot, Red Boot, red
 
 *See also*:
@@ -585,6 +546,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ostree[OSTree]
@@ -596,6 +558,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:zone-group[zone group]
@@ -606,6 +569,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:regular-expression[regular expression]
@@ -616,6 +580,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: regex
 
 *See also*: xref:regex[regex]
@@ -626,6 +591,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -637,6 +603,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ostree[OSTree]
@@ -647,6 +614,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: remote-access
 
 *See also*: xref:remote-access-server[remote access server]
@@ -657,6 +625,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: remote-access server
 
 *See also*: xref:remote-access[remote access]
@@ -668,6 +637,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -679,6 +649,7 @@ Use "Red Hat Virtualization Manager". Spell out in full for the first instance i
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -691,6 +662,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:idm-deployment[IdM deployment]
@@ -702,6 +674,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -712,6 +685,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: channel
 
 *See also*: xref:subscription[subscription], xref:entitlement[entitlement]
@@ -723,6 +697,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -734,6 +709,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -745,6 +721,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -756,19 +733,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *Use it*: yes
 
-*Incorrect forms*:
-
-*See also*:
-
-// RHV: Added "In Red Hat Virtualization," and removed from later
-[[resource-tab]]
-==== image:images/yes.png[yes] resource tab (noun)
-*Description*: In Red Hat Virtualization, hosts, virtual machines, storage, and other resources can be managed by using their associated tab.
-
-Use the name of the tab when you refer to it, for example, "the *Storage* tab".
-
-*Use it*: yes
-
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -780,20 +745,10 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
-[[results-list]]
-==== image:images/yes.png[yes] results list (noun)
-*Description*: In Red Hat Virtualization, the _results list_ shows the resources managed under each resource tab. For example, the results list for the *Hosts* tab shows all hosts attached to the Red Hat Virtualization Manager.
-
-*Use it*: yes
-
-*Incorrect forms*:
-
-*See also*: xref:resource-tab[resource tab]
 
 [[return]]
 ==== image:images/yes.png[yes] return (verb)
@@ -802,6 +757,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:enter-n[enter]
@@ -813,6 +769,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ostree[OSTree]
@@ -824,6 +781,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:rados-gateway[RADOS Gateway], xref:ceph-object-gateway[Ceph Object Gateway]
@@ -834,6 +792,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:red-hat-enterprise-linux[Red Hat Enterprise Linux]
@@ -845,6 +804,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -855,6 +815,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: rolling stream
 
 *See also*:
@@ -865,6 +826,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: rollout
 
 *See also*: xref:rollout[rollout]
@@ -875,6 +837,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: roll out
 
 *See also*: xref:roll-out[roll-out]
@@ -885,6 +848,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Rom, rom
 
 *See also*: xref:prom[PROM]
@@ -896,6 +860,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -908,6 +873,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -919,6 +885,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: roundtable
 
 *See also*: xref:roundtable[roundtable]
@@ -929,6 +896,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: round table
 
 *See also*: xref:round-table[round table]
@@ -942,6 +910,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:consumer[consumer], xref:endpoint[endpoint], xref:processor[processor], xref:producer[producer], xref:routing-context[routing context]
@@ -953,6 +922,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amq-interconnect[AMQ Interconnect]
@@ -964,6 +934,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -976,6 +947,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:camel-context[Camel context], xref:routing-rules[routing rules]
@@ -987,6 +959,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -998,6 +971,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -1011,6 +985,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:routing-context[routing context]
@@ -1021,6 +996,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: rpm
 
 *See also*:
@@ -1031,6 +1007,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -1042,6 +1019,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ostree[OSTree]
@@ -1053,6 +1031,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -1064,6 +1043,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: technical rule
 
 *See also*:
@@ -1075,9 +1055,27 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
+
+[[rulebook]]
+==== image:images/yes.png[yes] rulebook (noun)
+*Description*: A _rulebook_ is a YAML file containing a list of rules, event source definitions, and hosts to run against.
+Rulebooks are used in Event-Driven Ansible. When using the term "rulebook" without the Ansible prefix, use lowercase _r_.
+
+Examples:
+
+* Use a rulebook in Ansible.
+* Use an Ansible Rulebook.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: Rulebook
+
+*See also*: xref:ansible-rulebook[Ansible Rulebook]
 
 [[runlevel]]
 ==== image:images/yes.png[yes] runlevel (noun)
@@ -1085,6 +1083,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: run level, run-level
 
 *See also*:
@@ -1096,6 +1095,7 @@ Use the name of the tab when you refer to it, for example, "the *Storage* tab".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:kie-api[KIE API]

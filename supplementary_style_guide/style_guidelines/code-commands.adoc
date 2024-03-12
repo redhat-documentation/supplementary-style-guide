@@ -29,14 +29,56 @@ If you include a shell prompt to indicate that a user with root privileges must 
 [[ip-addresses-and-mac-addresses]]
 == IP addresses and MAC addresses
 
-Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion:
+Use the IP and MAC address ranges that are reserved for documentation purposes to avoid the likelihood of conflicts and confusion.
 
-* Reserved IP address ranges: See the _IBM Style_ guide for the list of reserved IP address ranges to use in documentation.
+[[reserved-ip-addresses]]
+=== Reserved IP addresses
 
-* Reserved MAC addresses (defined in link:https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2[RFC 7042]):
+Reserved IPv4 addresses for documentation are defined in link:https://www.rfc-editor.org/rfc/rfc5737.html[RFC 5737]:
 
-** For unicast: 00:00:5E:00:53:00 - 00:00:5E:00:53:FF
-** For multicast: 01:00:5E:90:10:00 - 01:00:5E:90:10:FF
+[cols="1,1,1", options="header"]
+|===
+|Network
+|Subnet mask
+|Assignable addresses
+
+|192.0.2.0
+|24
+|192.0.2.1 - 192.0.2.254
+
+|198.51.100.0
+|24
+|198.51.100.1 - 198.51.100.254
+
+|203.0.113.0
+|24
+|203.0.113.1 - 203.0.113.254
+|===
+
+Reserved IPv6 addresses for documentation are defined in link:https://www.rfc-editor.org/rfc/rfc3849.html[RFC 3849]:
+
+[cols="1,1,1", options="header"]
+|===
+|Network
+|Prefix
+|Assignable addresses
+
+|2001:0DB8::
+(long form: 2001:0DB8:0:0:0:0:0:0)
+|32
+|2001:0db8:0000:0000:0000:0000:0000:0000 - 2001:0db8:ffff:ffff:ffff:ffff:ffff:ffff
+
+|===
+
+See the _IBM Style_ guide for additional guidance on using IP addresses in documentation.
+
+[[reserved-mac-addresses]]
+=== Reserved MAC addresses
+
+Reserved MAC addresses for documentation are defined in link:https://www.rfc-editor.org/rfc/rfc7042.html#section-2.1.2[RFC 7042]:
+
+* For unicast: 00:00:5E:00:53:00 - 00:00:5E:00:53:FF
+* For multicast: 01:00:5E:90:10:00 - 01:00:5E:90:10:FF
 
 [[long-code-examples]]
 == Long code examples

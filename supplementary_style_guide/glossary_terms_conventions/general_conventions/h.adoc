@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hardcode
 
 *See also*:
@@ -14,9 +15,20 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hardcoded
 
 *See also*:
+
+[[hashbang]]
+==== image:images/no.png[no] hashbang (noun)
+*Description*: Do not use _hashbang_ when referring to a computer language construct that controls which interpreter parses and interprets instructions in a computer program. Instead, on the first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs ...".
+
+*Use it*: no
+
+*Incorrect forms*:
+
+*See also*: xref:interpreter-directive[interpreter directive], xref:shebang[shebang]
 
 ==== image:images/no.png[no] he (pronoun)
 [[he]]
@@ -25,29 +37,11 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 // TODO: Added link to she. Still need to add link to you
 *See also*: xref:she[she]
-
-// RHV: Added "In Red Hat Virtualization," and added blank line so that first bullet rendered
-[[header-bar]]
-==== image:images/yes.png[yes] header bar (noun)
-*Description*: In Red Hat Virtualization, the _header bar_ contains the following buttons:
-
-* collapse/expand text labels in the side bar
-* *Bookmarks*
-* *Tags*
-* *Tasks*
-* *Events and alerts*
-* *Help*/*About*
-* currently logged in user, SSH key *Options*
-
-*Use it*: yes
-
-*Incorrect forms*: title bar
-
-*See also*:
 
 [[health-check]]
 ==== image:images/yes.png[yes] health check (noun)
@@ -55,6 +49,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: healthcheck, health-check
 
 *See also*:
@@ -65,6 +60,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: helpdesk, help-desk
 
 *See also*:
@@ -75,6 +71,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -88,6 +85,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:dns-srv-records[DNS SRV records]
@@ -98,6 +96,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:high-availability[high-availability]
@@ -108,6 +107,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:high-availability-noun[high availability]
@@ -118,11 +118,10 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
 
 [[horizontal-pod-autoscaler]]
 ==== image:images/yes.png[yes] horizontal pod autoscaler (noun)
@@ -130,20 +129,10 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
-
-[[host-rhv]]
-==== image:images/yes.png[yes] host (noun)
-*Description*: In Red Hat Virtualization, _hosts_ are servers that provide the processing capabilities and memory resources used to run virtual machines. There are two types of hosts: Red Hat Enterprise Linux host and Red Hat Virtualization Host.
-Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or "virtualization host". When referring to a specific type of host, use "Red Hat Enterprise Linux host" or "Red Hat Virtualization Host".
-
-*Use it*: yes
-
-*Incorrect forms*: hypervisor, hypervisor host, virtualization host
-
-*See also*: xref:red-hat-enterprise-linux-host[Red Hat Enterprise Linux host], xref:red-hat-virtualization-host[Red Hat Virtualization Host]
 
 [[host-group]]
 ==== image:images/yes.png[yes] host group (noun)
@@ -151,6 +140,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hostgroup
 
 *See also*:
@@ -162,6 +152,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:target-system[target system]
@@ -172,6 +163,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hotadd, hot-add
 
 *See also*: xref:hot-plug[hot plug], xref:hot-swap[hot swap]
@@ -182,6 +174,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hotplug, hot-plug
 
 *See also*: xref:hot-add[hot add], xref:hot-swap[hot swap]
@@ -193,6 +186,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hot rod, HotRod, hotrod
 
 *See also*:
@@ -203,6 +197,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hotswap, hot-swap
 
 *See also*: xref:hot-add[hot add], xref:hot-plug[hot plug]
@@ -213,6 +208,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hot-line
 
 *See also*:
@@ -223,6 +219,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: HP Proliant
 
 *See also*:
@@ -233,6 +230,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -244,6 +242,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:management-console[management console]
@@ -255,6 +254,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:consumer[consumer], xref:ldap[LDAP]
@@ -265,6 +265,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: large page, super page
 
 *See also*: xref:huge-page[huge-page (adjective)]
@@ -275,6 +276,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:huge-page-noun[huge page (noun)]
@@ -285,6 +287,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hyperthreading, hyper-threading
 
 *See also*:
@@ -296,6 +299,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:hypervisor[hypervisor]
@@ -306,6 +310,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: hyper-converged
 
 *See also*:
@@ -316,6 +321,7 @@ Use "host" to refer to hosts in general, not "hypervisor", "hypervisor host", or
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: HyperVisor, Hyperviser
 
 *See also*:

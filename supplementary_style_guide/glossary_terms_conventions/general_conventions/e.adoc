@@ -5,6 +5,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -19,6 +20,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:component[component]
@@ -30,6 +32,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -47,6 +50,7 @@ Do not abbreviate any of the previously listed load balancer terms.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Elastic Load Balancer
 
 *See also*:
@@ -58,6 +62,7 @@ Do not abbreviate any of the previously listed load balancer terms.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:security-elytron[Security - Elytron]
@@ -70,6 +75,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -80,6 +86,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: send out
 
 *See also*:
@@ -93,6 +100,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:component[component], xref:consumer[consumer], xref:producer[producer]
@@ -103,6 +111,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:return[return]
@@ -113,6 +122,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:subscription[subscription], xref:repository[repository]
@@ -123,6 +133,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -133,6 +144,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -144,6 +156,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -154,6 +167,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: look at
 
 *See also*:
@@ -163,6 +177,27 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 *Description*: _Exec-Shield_ is a security-enhancing modification to the Linux kernel that makes large parts of specially marked programs including their stack not executable.
 
 *Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[executable-adj]]
+==== image:images/yes.png[yes] executable (adjective)
+*Description*: _Executable_ describes a file an operating system can run as a program. For directories, having executable permission allows you to navigate into the directory with the `cd` command.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*:
+
+[[executable]]
+==== image:images/caution.png[with caution] executable (noun)
+*Description*: When it runs, an _executable_ performs specific operations based on its coded instructions. Write "executable file (executable)" on the first use.
+
+*Use it*: with caution
 
 *Incorrect forms*:
 
@@ -174,6 +209,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: EXIF, exif
 
 *See also*:
@@ -185,6 +221,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:xp[XP]
@@ -197,6 +234,7 @@ Capitalize "extranet" only at the beginning of a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Extranet
 
 *See also*:

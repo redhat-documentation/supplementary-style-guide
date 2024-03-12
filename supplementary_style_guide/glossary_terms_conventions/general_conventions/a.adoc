@@ -10,6 +10,7 @@ _When running RHEL with an AArch64 system, run the following command:_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:_aarch64[aarch64]
@@ -26,6 +27,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:aarch64[AArch64]
@@ -36,6 +38,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -47,6 +50,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -58,6 +62,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -69,6 +74,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -79,6 +85,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: ACK
 
 *See also*: xref:ack-flag[ACK flag]
@@ -89,6 +96,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ack, ACK, ack packet
 
 *See also*:
@@ -100,6 +108,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:project[project], xref:verb[verb]
@@ -111,6 +120,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -122,6 +132,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:active-directory-forest[Active directory forest]
@@ -133,6 +144,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -144,6 +156,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: Active MQ, Active-MQ
 
 *See also*: xref:activemq-artemis[ActiveMQ Artemis], xref:jboss-eap-messaging[JBoss EAP messaging]
@@ -156,23 +169,10 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: Active MQ Artemis, Active-MQ Artemis
 
 *See also*: xref:jboss-eap-messaging[JBoss EAP messaging]
-
-// RHV: Added "In Red Hat Virtualization,"
-[[administration-portal]]
-==== image:images/yes.png[yes] Administration Portal (noun)
-*Description*: In Red Hat Virtualization, the _Administration Portal_ is a graphical user interface provided by the Red Hat Virtualization Manager. It can be used to manage all the administrative resources in the environment and can be accessed by any supported web browser.
-
-Always use "Administration Portal", including the capital P. When other departments (or upstream) use "webadmin" or "Administrator portal", this is what they are referring to.
-
-*Use it*: yes
-
-*Incorrect forms*: Admin Portal, webadmin, webadmin portal, Administrator Portal, Administration portal
-
-*See also*:
-
 
 [[air-gap]]
 ==== image:images/yes.png[yes] air gap (noun)
@@ -180,6 +180,8 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *Use it*: yes
 
+[.vale-ignore]
+[.vale-ignore]
 *Incorrect forms*: air wall
 
 *See also*:
@@ -190,6 +192,7 @@ Always use "Administration Portal", including the capital P. When other departme
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -206,6 +209,7 @@ _This Operator is supported on AMD64 and ARM64 platforms._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amd64[amd64]
@@ -222,6 +226,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:AMD64[AMD64]
@@ -233,6 +238,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ, JBoss AMQ, Red Hat A-MQ, Red Hat AMQ
 
 *See also*: xref:red-hat-amq[Red Hat AMQ]
@@ -244,6 +250,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ Broker, The AMQ Broker, Red Hat Broker, JBoss Broker
 
 *See also*: xref:broker-distribution[broker distribution], xref:broker-instance[broker instance]
@@ -255,6 +262,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ Clients, Red Hat Clients, JBoss Clients
 
 *See also*: xref:client-application[client application], xref:messaging-api[messaging API]
@@ -266,6 +274,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: A-MQ Console, Red Hat Console, JBoss Console
 
 *See also*:
@@ -277,6 +286,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:jms[JMS], xref:core-protocol[Core protocol]
@@ -288,6 +298,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Interconnect, Router, A-MQ Interconnect, Red Hat Interconnect, JBoss Interconnect
 
 *See also*: xref:router[router]
@@ -299,6 +310,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -310,6 +322,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -321,6 +334,7 @@ _Valid values are `amd64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ansible-playbook[Ansible Playbook]
@@ -328,8 +342,8 @@ _Valid values are `amd64`._
 // RHEL: General; kept as is
 [[ansible-playbook]]
 ==== image:images/yes.png[yes] Ansible Playbook (noun)
-*Description*: Playbooks are Ansible’s configuration, deployment, and orchestration language.
-Playbooks can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process.
+*Description*: Playbooks are the configuration, deployment, and orchestration language for Ansible Automation Platform.
+Playbooks can describe a policy you want your remote systems to enforce or a set of steps in a general IT process.
 An _Ansible Playbook_ is a file that contains one or more Ansible plays.
 Write as shown: uppercase _A_ and uppercase _P_. When using the term _playbook_ without the Ansible prefix, use lowercase _p_.
 
@@ -340,9 +354,25 @@ Examples:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ansible playbook
 
-*See also*: xref:ansible-play[Ansible play]
+*See also*: xref:ansible-play[Ansible play], xref:playbook[playbook]
+
+[[ansible-rulebook]]
+==== image:images/yes.png[yes] Ansible Rulebook (noun)
+*Description*: An _Ansible Rulebook_ tells Event-Driven Ansible which sources to monitor for an event and what to do when certain conditions are met. Rulebooks are written in YAML and are used like Ansible Playbooks. Write as shown: uppercase _A_ and uppercase _R_. When using the term "rulebook" without the Ansible prefix, use lowercase _r_.
+
+Examples:
+
+* Use a rulebook in Ansible.
+* Use an Ansible Rulebook.
+
+*Use it*: yes
+
+*Incorrect forms*: Ansible rulebook
+
+*See also*: xref:rulebook[rulebook]
 
 // RHEL: General; kept as is
 [[ansible-task]]
@@ -352,6 +382,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -363,6 +394,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:certificate[certificate], xref:certificate-authority[certificate authority], xref:directory-server-product[Directory Server]
@@ -374,6 +406,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:endpoint[endpoint]
@@ -384,18 +417,8 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: app.
-
-*See also*:
-
-// CloudForms: Added "In Red Hat CloudForms"
-[[appliance-console]]
-==== image:images/yes.png[yes] Appliance console (noun)
-*Description*: In Red Hat CloudForms, the _appliance console_ is a command-line based interface built into the Red Hat CloudForms appliance used for setup and configuration.
-
-*Use it*: yes
-
-*Incorrect forms*: Appliance Console
 
 *See also*:
 
@@ -406,6 +429,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:app[app]
@@ -416,6 +440,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: AppStream, application stream, Application stream
 
 *See also*: xref:appstream-repository[AppStream repository]
@@ -426,6 +451,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Applix, ApplixWare
 
 *See also*:
@@ -436,6 +462,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Appstream, appstream, Application Stream
 
 *See also*: xref:application-stream[Application Stream]
@@ -446,6 +473,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -457,6 +485,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:amq-broker[AMQ Broker]
@@ -467,6 +496,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -478,6 +508,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -489,6 +520,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:business-rule[business rule], xref:business-process[business process], xref:decision-table[decision table], xref:data-model[data model], xref:dsl[DSL]
@@ -499,6 +531,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: AI, assisted installer
 
 *See also*:
@@ -509,6 +542,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -520,6 +554,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -531,6 +566,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -542,6 +578,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -553,6 +590,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:action[action], xref:identity[identity]
@@ -563,7 +601,10 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: autodetect
+
+The term "autodetect" is in the Vale rules and should trigger a GitHub error report.
 
 *See also*:
 
@@ -574,6 +615,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: auto-link, AutoLink
 
 *See also*:
@@ -585,6 +627,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:  xref:xplat[Microsoft Azure Cross-Platform Command-Line Interface]
@@ -602,6 +645,7 @@ _Creating an ARM64 compute machine set._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:arm64[arm64]
@@ -618,13 +662,14 @@ _Valid values are `arm64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ARM64[ARM64]
 
 [[aws-local-zone]]
 ==== image:images/yes.png[yes] AWS Local Zone (noun)
-*Description*: An _Amazon Web Services (AWS) Local Zone_ represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as `us-west-2-lax-1a`. 
+*Description*: An _Amazon Web Services (AWS) Local Zone_ represents a location that places cloud resources closer to a metropolitan AWS Region. An AWS Local Zone location is prepended by an AWS Region code that is followed by an identifier, such as `us-west-2-lax-1a`.
 
 *Use it*: yes
 
@@ -649,6 +694,7 @@ _Valid values are `arm64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:asm[Azure Service Management]
@@ -660,6 +706,7 @@ _Valid values are `arm64`._
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:arm[Azure Resource Manager]
