@@ -85,7 +85,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 //Add FedRAMP terminology Issue #395
 [[fedramp]]
 ==== image:images/yes.png[yes] FedRAMP® (noun)
-*Description*: The _Federal Risk and Authorization Management Program (FedRAMP®)_ is managed by the FedRAMP Program Management Office. Use the registration symbol (®) on first usage in a document. For more information, see the link:https://www.fedramp.gov/assets/resources/documents/FedRAMP_Branding_Guidance.pdf[FedRAMP Brand Guide].
+*Description*: The _Federal Risk and Authorization Management Program (FedRAMP®)_ is managed by the FedRAMP Program Management Office. Add the registration symbol (®) on first use in a document. For more information, see the link:https://www.fedramp.gov/assets/resources/documents/FedRAMP_Branding_Guidance.pdf[FedRAMP Brand Guide].
 
 *Use it*: yes
 
