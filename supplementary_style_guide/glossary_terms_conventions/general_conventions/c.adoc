@@ -38,7 +38,7 @@
 // Satellite: Added "In Red Hat Satellite"
 [[capsule-server]]
 ==== image:images/yes.png[yes] Capsule Server (noun)
-*Description*: In Red Hat Satellite, _Capsule Server_ is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Use the two-word name on first use in a section; the single term 'Capsule' is acceptable thereafter.
+*Description*: In Red Hat Satellite, _Capsule Server_ is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Write "Capsule Server" on first use. "Capsule" is acceptable after that.
 
 *Use it*: yes
 
@@ -287,7 +287,7 @@
 
 [[cidr]]
 ==== image:images/yes.png[yes] CIDR (noun)
-*Description*: Classless Inter-Domain Routing (_CIDR_) is a method to efficiently allocate IP addresses and for IP routing. CIDR replaces the classful network addressing architecture. In CIDR notation, IP addresses contain a suffix that represents the number of bits of the prefix. Expand on first usage, and write it as shown: "Classless Inter-Domain Routing".
+*Description*: Classless Inter-Domain Routing (_CIDR_) is a method to efficiently allocate IP addresses and for IP routing. CIDR replaces the classful network addressing architecture. In CIDR notation, IP addresses contain a suffix that represents the number of bits of the prefix. Write "Classless Inter-Domain Routing (CIDR)" on first use and "CIDR" after that.
 
 *Use it*: yes
 
@@ -469,7 +469,7 @@
 
 [[comma-separated-values]]
 ==== image:images/yes.png[yes] comma-separated values (noun)
-*Description*: _Comma-separated values_ are a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first use; use "CSV" thereafter.
+*Description*: _Comma-separated values_ are a set of values in which each value is separated by a comma. Write "comma-separated values (CSV)" on first use and "CSV" after that.
 
 *Use it*: yes
 
@@ -540,7 +540,7 @@
 // Satellite: Added "In Red Hat Satellite"
 [[composite-content-view]]
 ==== image:images/yes.png[yes] Composite Content View (noun)
-*Description*: In Red Hat Satellite, a _Composite Content View_ is a collection of Content Views. Use the three-word name in full on first use in a section; the abbreviation "CCV" is acceptable thereafter.
+*Description*: In Red Hat Satellite, a _Composite Content View_ is a collection of Content Views. Write "Composite Content View (CCV)" on first use and "CCV" after that.
 
 *Use it*: yes
 
@@ -729,7 +729,7 @@ image repository contains one or more tagged images.
 // Satellite: Added "In Red Hat Satellite"
 [[content-view]]
 ==== image:images/yes.png[yes] Content View (noun)
-*Description*: In Red Hat Satellite, a _Content View_ is a subset of Library content created by intelligent filtering. Use the two-word name in full on first use in a section; the abbreviation "CV" is acceptable thereafter.
+*Description*: In Red Hat Satellite, a _Content View_ is a subset of Library content created by intelligent filtering. Write "Content View (CV)" on first use and "CV" after that.
 
 *Use it*: yes
 
@@ -961,7 +961,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[csv]]
 ==== image:images/yes.png[yes] CSV (noun)
-*Description*: _CSV_ is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Spell out "comma-separated values" on first occurrence; use "CSV" thereafter.
+*Description*: _CSV_ is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Write "comma-separated values (CSV)" on first use and "CSV" after that.
 
 *Use it*: yes
 
@@ -1029,7 +1029,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[customer-portal]]
 ==== image:images/caution.png[with caution] Customer Portal (noun)
-*Description*: _Customer Portal_ is the shortened form of "Red Hat Customer Portal", the official name for https://access.redhat.com. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
+*Description*: _Customer Portal_ is the shortened form of "Red Hat Customer Portal", the official name for https://access.redhat.com. Write "Red Hat Customer Portal" on first use. You can shorten it to "Customer Portal" after that.
 
 *Use it*: with caution
 

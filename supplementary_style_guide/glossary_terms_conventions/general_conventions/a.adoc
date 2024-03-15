@@ -58,7 +58,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 // RHDS: General; kept as is
 [[access-control-instruction]]
 ==== image:images/yes.png[yes] access control instruction (noun)
-*Description*: In an LDAP directory, an _access control instruction (ACI)_ grants or denies access to entries or attributes. Use "access control instruction" on the first usage and then the abbreviation "ACI" subsequently.
+*Description*: In an LDAP directory, an _access control instruction (ACI)_ grants or denies access to entries or attributes. Write "access control instruction (ACI)" on first use and "ACI" after that.
 
 *Use it*: yes
 
@@ -81,7 +81,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 [[ack]]
 ==== image:images/no.png[no] ACK (noun)
-*Description*: Do not use _ACK_ as acronym for "acknowledgement" in general. When writing about the acknowledgement flag ("ACK flag") in a TCP packet, use "ACK flag".
+*Description*: Do not use _ACK_ as an abbreviation for "acknowledgment". When writing about the acknowledgment flag ("ACK flag") in a TCP packet, use "ACK flag".
 
 *Use it*: no
 
@@ -92,7 +92,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 [[ack-flag]]
 ==== image:images/yes.png[yes] ACK flag (noun)
-*Description*: The acknowledgement flag (_ACK flag_) in a TCP packet indicates that the acknowledgement field in the packet is relevant. Do not expand on first usage and write as shown: "ACK flag".
+*Description*: The acknowledgment flag (_ACK flag_) in a TCP packet indicates that the acknowledgment field in the packet is relevant. Do not expand the abbreviation on first use. Write "ACK flag".
 
 *Use it*: yes
 

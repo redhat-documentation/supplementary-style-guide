@@ -93,7 +93,7 @@
 ==== image:images/yes.png[yes] Basic HTTP authentication (noun)
 *Description*: _Basic HTTP authentication_, or _Basic authentication_, is an authorization scheme that uses HTTP to send login credentials encoded in Base64.
 This scheme is often used by applications to authenticate with servers, services, and API endpoints.
-On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentication".
+Write "Basic HTTP authentication" on first use and "Basic authentication" after that.
 
 *Use it*: yes
 
@@ -116,7 +116,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[batch-jberet]]
 ==== image:images/yes.png[yes] batch-jberet subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _batch-jberet subsystem_ is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Use "Batch subsystem" when referring to the `batch-jberet` subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _batch-jberet subsystem_ is used to configure and manage batch jobs. In general text, write in lowercase as two words separated by a hyphen. Write "Batch subsystem" when referring to the `batch-jberet` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -128,7 +128,7 @@ On first use, use "Basic HTTP authentication"; thereafter, use "Basic authentica
 // EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[bean-validation]]
 ==== image:images/yes.png[yes] bean-validation subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _bean-validation subsystem_ is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Use "Bean Validation subsystem" when referring to the `bean-validation` subsystem in titles and headings.
+*Description*: In Red Hat JBoss Enterprise Application Platform, the _bean-validation subsystem_ is used to configure validation of Java bean object data. In general text, write in lowercase as two words separated by a hyphen. Write "Bean Validation subsystem" when referring to the `bean-validation` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -174,7 +174,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 [[bind]]
 ==== image:images/yes.png[yes] BIND (noun)
-*Description*: Use "BIND" when referring to the DNS software.
+*Description*: Write "BIND" when referring to the DNS software.
 
 *Use it*: yes
 
@@ -197,9 +197,9 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 [[bios]]
 ==== image:images/caution.png[with caution] BIOS (noun)
-*Description*: _BIOS_ is an abbreviation for "Basic Input/Output System". The plural form is "BIOSes". BIOS is the specific name for the motherboard firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI.
+*Description*: _BIOS_ is an abbreviation for "Basic Input/Output System". The plural form is "BIOSes". BIOS is the specific name for the system board firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI.
 
-Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware" or a specific phrase such as "UEFI firmware" or "legacy BIOS" instead.
+Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmware" or a specific phrase such as "UEFI firmware" or "legacy BIOS".
 
 *Use it*: with caution
 
@@ -474,7 +474,7 @@ Do not use "BIOS" as a generic term to refer to computer firmware. Use "firmware
 
 [[built-in]]
 ==== image:images/yes.png[yes] built-in (adjective)
-*Description*: Use "built-in" when referring to something that is included or incorporated into a larger unit.
+*Description*: Write "built-in" when referring to something that is included or incorporated into a larger unit.
 
 *Use it*: yes
 
