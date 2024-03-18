@@ -1015,7 +1015,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 // RHEL: General; kept as is
 [[rpm-ostree]]
 ==== image:images/yes.png[yes] rpm-ostree (noun)
-*Description*: A hybrid image or system package that hosts operating system updates. Use lowercase format and backticks, for example, &#34;``rpm-ostree``&#34;.
+*Description*: A hybrid image or system package that hosts operating system updates. Use lowercase format and backticks.
 
 *Use it*: yes
 
