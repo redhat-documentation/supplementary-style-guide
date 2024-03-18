@@ -5,6 +5,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:project[project]
@@ -16,6 +17,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -27,6 +29,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -38,6 +41,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -48,6 +52,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -59,6 +64,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:management-cli[management CLI]
@@ -69,9 +75,10 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: natively-compiled code
 
-*See also*: 
+*See also*:
 
 [[need]]
 ==== image:images/yes.png[yes] need (verb)
@@ -79,6 +86,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: desire, wish
 
 *See also*: xref:want[want]
@@ -90,6 +98,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: neighbour
 
 *See also*:
@@ -100,6 +109,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: .Net, dotNet, .NET Core, dotNet Core, .Net Core
 
 *See also*: xref:dotnetcore[.Net Core]
@@ -111,6 +121,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: dotNet Core, .Net Core, .NET, .Net
 
 *See also*: xref:dotnet[.NET]
@@ -121,6 +132,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -131,6 +143,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:network-interface-controller[network interface controller]
@@ -141,6 +154,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: network interface card
 
 *See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
@@ -151,6 +165,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -162,6 +177,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -172,6 +188,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
@@ -184,16 +201,20 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
 
 [[now]]
-==== image:images/yes.png[yes] now (adverb)
-*Description*: "Now" means at the present time, immediately, or at once.
+==== image:images/caution.png[caution] now (adverb)
+*Description*: In most content, you can use "now" when you mean the present time, immediately, or at once.
 
-*Use it*: yes
+If your release notes are based on the templates in this guide's xref:release-notes[Release notes] section, use "with this update" rather than "now" to refer to the current release. This is because the temporal context of "now" can cause confusion in release notes that span multiple releases.
 
+*Use it*: with caution
+
+[.vale-ignore]
 *Incorrect forms*: right now
 
-*See also*:
+*See also*: xref:release-notes[Release notes]

@@ -4,19 +4,32 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:paas[PaaS], xref:saas[SaaS]
 
-[[ibm-cloud-bare-metal]]
-==== image:images/yes.png[yes] IBM Cloud® Bare Metal (Classic) (noun)
-*Description*: _IBM Cloud® Bare Metal (Classic)_ refers to a platform where a customer can run an OpenShift Container Platform cluster on an IBM bare-metal server. Ensure that "IBM Cloud®" precedes "Bare Metal (Classic)". On first use, mark "IBM Cloud" Bare Metal (Classic) with a registered trademark icon (®).
+[[ibm-cloud]]
+==== image:images/yes.png[yes] IBM Cloud® (noun)
+*Description*: _IBM Cloud®_ refers to a platform where a customer can run an OpenShift Container Platform cluster on hybrid cloud infrastructure. The name IBM Cloud® replaces IBM Cloud VPC.
 
 *Use it*: yes
 
-*Incorrect forms*: IBM Cloud
+[.vale-ignore]
+*Incorrect forms*: IBM Cloud® Bare Metal (Classic), IBM Cloud VPC
 
-*See also*:
+*See also*: xref:ibm-cloud-bare-metal[IBM Cloud® Bare Metal (Classic)]
+
+
+[[ibm-cloud-bare-metal]]
+==== image:images/yes.png[yes] IBM Cloud® Bare Metal (Classic) (noun)
+*Description*: _IBM Cloud® Bare Metal (Classic)_ refers to a platform where a customer can run an OpenShift Container Platform cluster on an IBM bare-metal server. Ensure that "IBM Cloud®" precedes "Bare Metal (Classic)".
+
+*Use it*: yes
+
+*Incorrect forms*: IBM Cloud®
+
+*See also*: xref:ibm-cloud[IBM Cloud®]
 
 [[ibm-eserver-system-i]]
 ==== image:images/no.png[no] IBM eServer System i (noun)
@@ -26,7 +39,7 @@
 
 *Incorrect forms*: IBM eServer System I
 
-*See also*: xref:ibm-power[IBM Power], xref:iseries[iSeries]
+*See also*: xref:ibm-power[IBM Power®], xref:iseries[iSeries]
 
 [[ibm-eserver-system-p]]
 ==== image:images/no.png[no] IBM eServer System p (noun)
@@ -34,9 +47,10 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: pSeries
 
-*See also*: xref:ibm-power[IBM Power]
+*See also*: xref:ibm-power[IBM Power®]
 
 [[ibm-linuxone]]
 ==== image:images/yes.png[yes] IBM® LinuxONE (noun)
@@ -44,36 +58,40 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IBM LinuxONE, LinuxONE, linuxone
 
-*See also*: xref:ibm-z[IBM Z], xref:s390x[s390x]
+*See also*: xref:ibm-z[IBM Z®], xref:s390x[s390x]
 
 [[ibm-power]]
 ==== image:images/yes.png[yes] IBM Power® (noun)
-*Description*: _IBM Power_ represents the family of servers based on Power processors that can include combinations of IBM Power servers and its products. On first use, mark "IBM" Power with a registered trademark icon (®).
+*Description*: _IBM Power®_ represents the family of servers based on Power processors that can include combinations of IBM Power® servers and its products. For sub-products of IBM Power®, do not move the registered trademark symbol's position. For example, _IBM Power® Virtual Server_.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: pSeries, System P, Power Systems
 
 *See also*:
 
 [[ibm-s-390]]
 ==== image:images/no.png[no] IBM S/390 (noun)
-*Description*: This is a former product name; instead use the official product name "IBM Z".
+*Description*: This is a former product name; instead use the official product name "IBM Z®".
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: S/390, S90
 
-*See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:ibm-z[IBM Z], xref:s390x[s390x]
+*See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:ibm-z[IBM Z®], xref:s390x[s390x]
 
 [[ibm-z]]
 ==== image:images/yes.png[yes] IBM Z® (noun)
-*Description*: _IBM Z_ represents the IBM mainframe platform (`s390x` architecture) and its products. On first use, mark "IBM Z" with a registered trademark icon (®).
+*Description*: _IBM Z®_ represents the IBM mainframe platform (`s390x` architecture) and its products.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IBM zSystems, Z, S/390
 
 *See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:s390x[s390x]
@@ -89,6 +107,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:id-ranges[id ranges], xref:sssd[SSSD]
@@ -111,6 +130,7 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:id-mapping[ID mapping]
@@ -127,6 +147,7 @@ In an IdM-AD trust setup, the `Default Trust View` is an ID view applied to AD u
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:posix-attributes[POSIX attributes]
@@ -139,6 +160,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -150,6 +172,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider-federation[identity provider federation], xref:identity-provider-mappers[identity provider mappers]
@@ -161,6 +184,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers]
@@ -172,6 +196,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-federation[identity provider federation], xref:identity-token[identity token]
@@ -183,6 +208,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers], xref:identity-provider-federation[identity provider federation]
@@ -194,6 +220,7 @@ Capitalize it only when it starts a sentence.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: master CA
 
 *See also*: xref:certificate-authority[certificate authority]
@@ -207,6 +234,7 @@ Alternative names: *CA server*
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:certificate-authority[certificate authority]
@@ -218,6 +246,7 @@ Alternative names: *CA server*
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authority[certificate authority]
@@ -234,6 +263,7 @@ Alternative names: *CA server*
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -249,6 +279,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: master server
 
 *See also*:
@@ -260,6 +291,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -271,6 +303,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -282,6 +315,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -293,6 +327,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:image[image]
@@ -303,6 +338,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -314,6 +350,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:upgrade[upgrade], xref:clean-install[clean install]
@@ -325,6 +362,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:bucket-index[bucket index]
@@ -336,6 +374,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: BRMS engine, engine
 
 *See also*:
@@ -346,6 +385,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Open InfiniBand, Infiniband
 
 *See also*:
@@ -357,16 +397,20 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
 
 [[ingress]]
-==== image:images/yes.png[yes] Ingress (noun)
-*Description*: In Red Hat OpenShift, _Ingress_  is an API object developers can use to expose services through an HTTP(S) aware load balancing and proxy layer through a public DNS entry. The Ingress resource might further specify TLS options and a certificate, or specify a public CNAME that the OpenShift Ingress Controller should also accept for HTTP and HTTPS traffic. An administrator typically configures their Ingress Controller to be visible outside the cluster firewall and might also add additional security, caching, or traffic controls on the service content.
+==== image:images/yes.png[yes] ingress (noun, adjective)
+*Description*: In Red Hat OpenShift, _Ingress_  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The `Ingress` resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift `IngressController` object can accept for HTTP(S) traffic. Additionally, _ingress_ can also be used to describe the incoming direction of network traffic. In Red Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.
+
+Always use `Ingress` with markup when referencing the `Ingress` resource or `IngressController` object in Red Hat OpenShift. Write in lowercase and omit markup when discussing _ingress_ as a traffic direction.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -377,6 +421,7 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -388,19 +433,20 @@ There is no functional difference between the first server that was installed an
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
 
 [[inject]]
 ==== image:images/yes.png[yes] inject (verb)
-*Description*: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences. 
+*Description*: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences.
 
 Red Hat Trusted Application Pipeline users can configure secrets to inject sensitive data into an application in the form of files or environment variables.
 
 *Use it*: yes
 
-*Incorrect forms*: 
+*Incorrect forms*:
 
 *See also*:
 
@@ -410,6 +456,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: nonsecure, non-secure
 
 *See also*:
@@ -420,6 +467,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: GDBTK
 
 *See also*: xref:gdb[GDB], xref:gdb-command[gdb]
@@ -430,6 +478,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: the installer
 
 *See also*:
@@ -441,6 +490,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IPI
 
 *See also*:
@@ -452,6 +502,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -463,6 +514,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:host-system[host system], xref:target-kernel[target kernel], xref:target-system[target system]
@@ -475,6 +527,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -485,6 +538,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -495,16 +549,18 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Tolapai, Intel Tolapai
 
 *See also*:
 
 [[intel-virtualization-technology]]
 ==== image:images/yes.png[yes] Intel Virtualization Technology (noun)
-*Description*: The first and all prominent uses of _Intel Virtualization Technology_ should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64" or "Itanium architecture (Intel VT-i)". Subsequent uses can be abbreviated to "Intel VT-i". Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as "(TM)" or "\(TM)".
+*Description*: Write "Intel Virtualization Technology (Intel VT)" or "Itanium architecture (Intel VT-i)" on first use and then "Intel VT" or "Intel VT-i" after that. Do not use the abbreviation in prominent places such as in titles or paragraph headings. Do not include trademark symbols such as "(TM)" or "\(TM)".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VT-i, VT
 
 *See also*:
@@ -515,6 +571,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -531,6 +588,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -542,6 +600,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Kie server
 
 *See also*:
@@ -552,6 +611,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -562,9 +622,20 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:raw-interpreted-program[raw-interpreted program], xref:byte-compiled-program[byte-compiled program]
+
+[[interpreter-directive]]
+==== image:images/yes.png[yes] interpreter directive (noun)
+*Description*: An _interpreter directive_, such as `#!/bin/bash`, is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as _shebang_. Write "interpreter directives, also known as shebangs ..." on first use. Do not use "hashbang".
+
+*Use it*: yes
+
+*Incorrect forms*: hashbang
+
+*See also*: xref:shebang[shebang], xref:hashbang[hashbang]
 
 // RHEL: Added "In Red Hat Enterprise Linux, an inventory is"
 [[inventory]]
@@ -573,6 +644,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:managed-nodes[managed nodes]
@@ -584,6 +656,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -594,16 +667,18 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Iops, IOPs
 
 *See also*:
 
 [[ip]]
 ==== image:images/yes.png[yes] IP (noun)
-*Description*: _IP_ is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on the first usage.
+*Description*: _IP_ is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ip
 
 *See also*: xref:ipv4[IPv4], xref:ipv6[IPv6]
@@ -614,26 +689,29 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IP
 
 *See also*: xref:ip[IP]
 
 [[ipv4]]
 ==== image:images/yes.png[yes] IPv4 (noun)
-*Description*: Use _IPv4_ to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on the first usage.
+*Description*: Use _IPv4_ to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ipv4, IPV4, Ipv4
 
 *See also*: xref:ip[IP]
 
 [[ipv6]]
 ==== image:images/yes.png[yes] IPv6 (noun)
-*Description*: Use _IPv6_ to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on the first usage.
+*Description*: Use _IPv6_ to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ipv6, IPV6, Ipv6
 
 *See also*: xref:ip[IP]
@@ -644,6 +722,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -654,6 +733,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -664,19 +744,21 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IPSec
 
 *See also*:
 
 [[iseries]]
 ==== image:images/no.png[no] iSeries (noun)
-*Description*: This is a former product name; instead use the official product name "IBM Power".
+*Description*: This is a former product name; instead use the official product name "IBM Power®".
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: ISeries
 
-*See also*: xref:ibm-power[IBM Power], xref:ibm-eserver-system-i[IBM eServer System i]
+*See also*: xref:ibm-power[IBM Power®], xref:ibm-eserver-system-i[IBM eServer System i]
 
 [[iso]]
 ==== image:images/yes.png[yes] ISO (noun)
@@ -684,6 +766,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: iso
 
 *See also*:
@@ -694,6 +777,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: iso image
 
 *See also*:
@@ -704,6 +788,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -714,6 +799,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: IA64, ia64
 
 *See also*: xref:itanium-2[Itanium 2]
@@ -724,6 +810,7 @@ _This feature can run only on Intel 64 processors_
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Itanium2
 
 *See also*: xref:itanium[Itanium]

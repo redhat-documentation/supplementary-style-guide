@@ -4,6 +4,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -14,6 +15,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -24,6 +26,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:

@@ -5,6 +5,7 @@
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: katello
 
 *See also*:
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:kB[kB]
@@ -25,6 +27,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:KB[KB]
@@ -35,6 +38,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:kerberized[kerberized]
@@ -45,6 +49,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:kerberize[kerberize]
@@ -61,6 +66,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -72,6 +78,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:kerberos-principal[Kerberos principal]
@@ -87,6 +94,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:kerberos-realm[Kerberos realm]
@@ -98,6 +106,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -109,6 +118,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:idm-deployment[IdM deployment], xref:key-distribution-center[Key Distribution Center]
@@ -120,6 +130,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:key-distribution-center[Key Distribution Center]
@@ -132,6 +143,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Kernel
 
 *See also*: xref:kernel-panic[kernel panic], xref:kernel-space-n[kernel space], xref:kernel-space-ad[kernel-space]
@@ -142,6 +154,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: oops
 
 *See also*: xref:kernel[kernel], xref:kernel-panic[kernel panic]
@@ -152,6 +165,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:kernel[kernel], xref:kernel-oops[kernel oops]
@@ -162,16 +176,18 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kernelspace
 
 *See also*: xref:kernel[kernel], xref:kernel-space-ad[kernel-space]
 
 [[kernel-based-virtual-machine]]
 ==== image:images/yes.png[yes] Kernel-based Virtual Machine (noun)
-*Description*: _Kernel-based Virtual Machine_ is a loadable kernel module that converts the Linux kernel into a bare-metal hypervisor. Spell out "Kernel-based Virtual Machine" on first occurrence, and use "KVM" thereafter. It is an industry standard and a proper noun.
+*Description*: _Kernel-based Virtual Machine_ is a loadable kernel module that converts the Linux kernel into a bare-metal hypervisor. Write "Kernel-based Virtual Machine (KVM)" on first use and "KVM" after that. It is an industry standard and a proper noun.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kernel-based virtual machine
 
 *See also*: xref:kvm[KVM]
@@ -182,6 +198,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kernelspace
 
 *See also*: xref:kernel[kernel], xref:kernel-space-n[kernel space]
@@ -193,6 +210,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -204,6 +222,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: key store
 
 *See also*: xref:truststore[truststore]
@@ -214,6 +233,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kickstart
 
 *See also*:
@@ -225,6 +245,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kie, Kie, knowledge
 
 *See also*:
@@ -236,6 +257,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kie, Kie, knowledge API
 
 *See also*:
@@ -247,6 +269,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kbase, knowledge base
 
 *See also*:
@@ -258,6 +281,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ksession, knowledge session
 
 *See also*:
@@ -269,6 +293,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kjar, kJAR
 
 *See also*:
@@ -279,6 +304,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: knowledgebase
 
 *See also*: xref:knowledgebase[Knowledgebase]
@@ -290,6 +316,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -300,6 +327,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: KnowledgeBase
 
 *See also*: xref:knowledge-base[knowledge base]
@@ -311,6 +339,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Kubelet
 
 *See also*:
@@ -321,6 +350,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kubernetes, k8s
 
 *See also*: xref:openshift[OpenShift], xref:okd[OKD]
@@ -333,6 +363,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:openshift-master[OpenShift master]
@@ -343,6 +374,7 @@ Do not capitalize the first letter.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: kvm
 
 *See also*: xref:kernel-based-virtual-machine[Kernel-based Virtual Machine]

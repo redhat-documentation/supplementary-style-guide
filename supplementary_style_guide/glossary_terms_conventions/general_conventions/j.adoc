@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:JavaScript[JavaScript]
@@ -13,6 +14,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:javascript[javascript]
@@ -24,6 +26,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -35,6 +38,7 @@
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:red-hat-amq[Red Hat AMQ]
@@ -45,6 +49,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: JBoss.org
 
 *See also*:
@@ -56,6 +61,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: EAP, JBoss
 
 *See also*: xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform]
@@ -67,6 +73,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ActiveMQ, ActiveMQ Artemis
 
 *See also*: xref:built-in-messaging[built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
@@ -78,6 +85,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: ActiveMQ, ActiveMQ Artemis
 
 *See also*: xref:built-in-messaging[built-in messaging], xref:jboss-eap-built-in-messaging[JBoss EAP built-in messaging]
@@ -88,6 +96,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:red-hat-way[Red Hat Way]
@@ -99,6 +108,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -110,6 +120,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -121,6 +132,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -132,6 +144,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -143,6 +156,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -153,6 +167,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -164,6 +179,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -175,6 +191,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -186,6 +203,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -196,6 +214,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -206,6 +225,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Jvm, jvm
 
 *See also*:

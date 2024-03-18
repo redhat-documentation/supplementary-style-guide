@@ -5,6 +5,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: facter
 
 *See also*:
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:crash[crash]
@@ -25,6 +27,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Faq, faq, F.A.Q
 
 *See also*:
@@ -37,6 +40,7 @@ Use the two-word "fault tolerance" when using it as a noun.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: fault-tolerance
 
 *See also*: xref:fault-tolerant-adj[fault-tolerant]
@@ -49,6 +53,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: fault tolerant
 
 *See also*: xref:fault-tolerance-n[fault tolerance]
@@ -60,6 +65,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:multisite[multisite]
@@ -71,6 +77,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: fedora project
 
 *See also*:
@@ -82,6 +89,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: filestore, File Store
 
 *See also*: xref:bluestore[BlueStore]
@@ -92,6 +100,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -102,6 +111,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Firewalld, firewallD, FirewallD
 
 *See also*:
@@ -114,6 +124,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Firewire, firewire
 
 *See also*:
@@ -124,6 +135,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: firm ware, firm-ware
 
 *See also*: xref:bios[BIOS]
@@ -134,6 +146,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: floating-point
 
 *See also*:
@@ -144,6 +157,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: fore-ground, forground
 
 *See also*:
@@ -155,6 +169,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: foreman
 
 *See also*:
@@ -165,6 +180,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: fortran
 
 *See also*:
@@ -175,6 +191,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Fqdn, fqdn
 
 *See also*:
@@ -186,6 +203,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -200,6 +218,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ignite, Fuse Ignite
 
 *See also*: xref:syndesis[Syndesis], xref:red-hat-fuse-online[Red Hat Fuse Online]
@@ -213,6 +232,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: INSTALL_DIR, installDir
 
 *See also*:
@@ -223,6 +243,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:futexes[futexes], xref:mutex[mutex]
@@ -233,6 +254,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:futex[futex], xref:mutexes[mutexes]
@@ -243,6 +265,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:

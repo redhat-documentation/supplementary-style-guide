@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: var
 
 *See also*: xref:oem[OEM]
@@ -16,6 +17,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VCPU, vcpu
 
 *See also*:
@@ -26,6 +28,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Virtual Desktop Server Management
 
 *See also*:
@@ -37,6 +40,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:action[action], xref:project[project]
@@ -47,6 +51,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: make sure
 
 *See also*:
@@ -57,6 +62,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VI
 
 *See also*: xref:vim[Vim]
@@ -67,6 +73,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: video-mode, videomode
 
 *See also*:
@@ -77,6 +84,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: VIM, vim
 
 *See also*: xref:vi[vi]
@@ -87,6 +95,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:virtualized[virtualized]
@@ -97,6 +106,7 @@ Use lowercase "v" and uppercase "CPU".
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual-console, Virtual Console
 
 *See also*:
@@ -109,6 +119,7 @@ Although the _IBM Style_ guide recommends using "diskette" instead of "floppy di
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual diskette
 
 *See also*: xref:virtual-floppy-drive[virtual floppy drive]
@@ -121,6 +132,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual diskette drive
 
 *See also*: xref:virtual-floppy-disk[virtual floppy disk]
@@ -132,6 +144,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: virtual hard disk
 
 *See also*:
@@ -142,17 +155,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
-*Incorrect forms*:
-
-*See also*:
-
-// CloudForms: Added "In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the"
-[[virtual-management-database]]
-==== image:images/yes.png[yes] Virtual Management Database (VMDB) (noun)
-*Description*: In Red Hat CloudForms, the _Virtual Management Database (VMDB)_ is the database used by the Red Hat CloudForms appliance to store information about your resources, users, and anything else required to manage your virtual enterprise. Use "Virtual Management Database (VMDB)" in the first instance and "VMDB" in subsequent instances.
-
-*Use it*: yes
-
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -163,6 +166,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -173,6 +177,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:virtual[virtual]
@@ -183,6 +188,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:guest-operating-system[guest operating system], xref:virtual-machine[virtual machine]
@@ -193,22 +199,10 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vlan, vLAN
 
 *See also*:
-
-// RHV: Added "In Red Hat Virtualization,"
-[[vm-portal]]
-==== image:images/yes.png[yes] VM Portal (noun)
-*Description*: In Red Hat Virtualization, the _VM Portal_ is a graphical user interface provided by the Red Hat Virtualization Manager. It has limited permissions for managing virtual machine resources and is targeted at end users.
-
-Always use "VM Portal" and capitalize the product name.
-
-*Use it*: yes
-
-*Incorrect forms*: VM portal, vm portal, Virtual Machine Portal, User Portal
-
-*See also*: xref:administration-portal[Administration Portal]
 
 [[vnic]]
 ==== image:images/yes.png[yes] vNIC (noun)
@@ -216,6 +210,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vnic, VNIC, Virtual Network Interface Card
 
 *See also*:
@@ -226,6 +221,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vnuma, VNUMA
 
 *See also*:
@@ -236,6 +232,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:persistent-storage[persistent storage]
@@ -246,6 +243,7 @@ Always use "VM Portal" and capitalize the product name.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: vpn
 
 *See also*:

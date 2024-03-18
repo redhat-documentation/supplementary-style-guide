@@ -4,6 +4,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:saas[SaaS], xref:iaas[IaaS]
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -25,6 +27,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: package
 
 *See also*:
@@ -40,6 +43,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -50,6 +54,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -61,6 +66,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:direct-routed-messaging[direct routed messaging]
@@ -71,6 +77,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: perfcounter
 
 *See also*:
@@ -84,6 +91,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:privilege[privilege]
@@ -94,6 +102,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:volatile-storage[volatile storage]
@@ -105,6 +114,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -116,6 +126,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -127,6 +138,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:placement-group[placement group]
@@ -137,6 +149,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -147,6 +160,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:logical-topology[logical topology], xref:signal-topology[signal topology]
@@ -158,6 +172,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -169,6 +184,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -179,6 +195,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -191,6 +208,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -202,6 +220,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:pg[PG]
@@ -214,6 +233,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -224,6 +244,7 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: plaintext, plain-text, cleartext, clear text
 
 *See also*:
@@ -251,6 +272,7 @@ Examples:
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -262,6 +284,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: plug in, plug-in
 
 *See also*: xref:plugin[plugin]
@@ -273,6 +296,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: plug in, plug-in
 
 *See also*: xref:plug-in[plug-in]
@@ -283,6 +307,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: with caution
 
+[.vale-ignore]
 *Incorrect forms*: plug in
 
 *See also*: xref:plugin[plugin]
@@ -294,6 +319,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:container[container]
@@ -305,6 +331,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -316,6 +343,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -326,6 +354,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: popup, Pop-up
 
 *See also*:
@@ -336,6 +365,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Posix, posix, variations
 
 *See also*:
@@ -347,6 +377,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -357,6 +388,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Postscript
 
 *See also*:
@@ -367,6 +399,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: PPC, P-PC, PPC64
 
 *See also*:
@@ -377,9 +410,23 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Ppp, ppp
 
 *See also*:
+
+[[previously]]
+==== image:images/caution.png[caution] previously (adverb)
+*Description*: In most content, you can use "previously" to refer to something that was true or in effect at an earlier time but is no longer true or in effect now.
+
+If your release notes are based on the templates in this guide's xref:release-notes[Release notes] section, use "before this update" rather than "previously" to refer to the current release. This is because the temporal context of "previously"  can cause confusion in release notes that span multiple releases.
+
+*Use it*: with caution
+
+*Incorrect forms*:
+
+*See also*: xref:release-notes[Release notes]
+
 
 // Fuse: Added "In Red Hat Fuse," and moved "in a Camel route" to the end of the sentence
 [[processor]]
@@ -388,6 +435,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:route[route], xref:eip[EIP]
@@ -401,6 +449,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:client-application[client application], xref:consumer[consumer]
@@ -412,6 +461,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: product
 
 *See also*:
@@ -425,6 +475,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:action[action], xref:business-rule[business rule], xref:business-process[business process]
@@ -441,6 +492,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:permission[permission]
@@ -451,6 +503,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: prom, Prom
 
 *See also*: xref:rom[ROM]
@@ -461,6 +514,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: proof of concepts
 
 *See also*:
@@ -472,6 +526,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Properties editor
 
 *See also*:
@@ -483,6 +538,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -494,6 +550,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -504,6 +561,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:ibm-power[IBM Power]
@@ -514,6 +572,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: pseudo ops, pseudoops
 
 *See also*:
@@ -525,6 +584,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: puppet
 
 *See also*:
@@ -536,6 +596,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: puppet forge
 
 *See also*:
@@ -547,6 +608,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: no
 
+[.vale-ignore]
 *Incorrect forms*: puppetize
 
 *See also*: xref:puppet[Puppet]
@@ -557,6 +619,7 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:

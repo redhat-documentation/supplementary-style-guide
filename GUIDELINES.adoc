@@ -16,6 +16,7 @@ Use the following template for glossary entries:
 
 *Use it*: <yes/no/with caution>
 
+[.vale-ignore]
 *Incorrect forms*: <incorrect_form>
 
 *See also*: xref:<another_term_id>[<another_term>]
@@ -32,7 +33,7 @@ Use the following template for glossary entries:
 * `\image:images/caution.png[with caution]`
 |`<term>`               |The term to be described.          |
 |`<class>`              |The part of speech of the term.|Possible values: noun, verb, adjective, adverb, pronoun, conjunction, preposition. Use noun for acronyms or abbreviations. Leave the field empty for symbols.
-|`<description>`        |The description of the term.|Use full sentences with periods. If a term is specific to a particular product, start the description with "In <product_name>,". If a term has more than one meaning, use numbers to separate them. For example: (1) <first_meaning>. (2) <second_meaning>. Add information about why we should or shouldn't use the term in this form. Alternatively, explain why the terms listed in the *Incorrect forms* field are incorrect.
+|`<description>`        |The description of the term.|Use full sentences with periods. If a term is specific to a particular product, start the description with "In <product_name>,". If a term has multiple meanings, use numbers to separate them. For example: (1) <first_meaning>. (2) <second_meaning>. Add information about why we should or shouldn't use the term in this form. Alternatively, explain why the terms listed in the *Incorrect forms* field are incorrect.
 |`<yes/no/with caution>`|"yes" if the term should be used.
 
 "no" if the term should not be used.
@@ -48,7 +49,7 @@ Use the following template for glossary entries:
 
 * Keep all fields, even if a field is empty. An empty field serves as a placeholder if the field is required later.
 
-* Use quotation marks on the first occurrence of a term in the *Description* field. Do not include an abbreviation in parentheses within the quotation marks; for example, "Asynchronous Transfer Mode" (ATM) is a network technology based on transferring data in cells or packets of a fixed size.
+* Use quotation marks on first use of a term in the *Description* field. Do not include an abbreviation in parentheses within the quotation marks; for example, "Asynchronous Transfer Mode" (ATM) is a network technology based on transferring data in cells or packets of a fixed size.
 
 * If the *Description* field contains more than one paragraph, only the last paragraph is displayed in the Atom linter's text. Ensure that word usage advice is contained in the last paragraph.
 
@@ -58,7 +59,7 @@ Use the following template for glossary entries:
 
 * If you want to add a term that we should not use and that does not have a correct form, use the incorrect version instead of `<term>` and add "no" to the *Use it* field. Explain why we should not use that term in the *Description* field.
 
-* When creating IDs in accordance with the rules described in the template, the resulting IDs might be the same as those for separate entries. For example, the "kernel space" and "kernel-space" entries, or the "kB" and "KB" entries would have the same anchor tag ("kernel-space" and "kb"). If the IDs are not unique, however, it will cause an error in the document.
+* Creating an ID according to guidance in the template can produce duplicate IDs for distinct entries. For example, the IDs for the "kernel space" and "kernel-space" entries would both be "kernel-space". Similarly, the IDs for the "kB" and "KB" entries would be "kb". Duplicate IDs in a document lead to build errors.
 +
 To avoid this issue, use different IDs:
 +
@@ -135,4 +136,4 @@ Use the following template when adding a new style guide entry:
 
 * Use double quotation marks ("") when emphasizing how to write a term. The following examples demonstrate the use of this guideline:
 ** Hyphenate "look-up" when using it as a modifier.
-** Spell out "comma-separated values" on first use; use "CSV" thereafter.
+** Write "comma-separated values (CSV)" on first use and "CSV" after that.

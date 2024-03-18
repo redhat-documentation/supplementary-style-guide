@@ -5,6 +5,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -15,6 +16,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Lan, lan
 
 *See also*:
@@ -25,6 +27,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:bandwidth[bandwidth]
@@ -33,10 +36,11 @@
 // RHDS: General; kept as is
 [[ldap]]
 ==== image:images/yes.png[yes] LDAP (noun)
-*Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on the first usage.
+*Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Lightweight Directory Access Protocol
 
 *See also*: xref:ldaps[LDAPS], xref:starttls[STARTTLS]
@@ -44,10 +48,11 @@
 // RHDS: General; kept as is
 [[ldaps]]
 ==== image:images/yes.png[yes] LDAPS (noun)
-*Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (_LDAPS_) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on the first usage.
+*Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (_LDAPS_) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Lightweight Directory Access Protocol over Secure Socket Layer
 
 *See also*: xref:ldap[LDAP], xref:starttls[STARTTLS]
@@ -59,6 +64,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Librados, LIBRADOS
 
 *See also*: xref:rados[RADOS]
@@ -70,6 +76,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Librbd, LIBRBD
 
 *See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:RBD[RBD]
@@ -80,6 +87,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Libvirt
 
 *See also*:  xref:kvm[KVM]
@@ -91,6 +99,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:certificate-authority[certificate authority]
@@ -102,6 +111,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -113,6 +123,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:message-routing[message routing]
@@ -123,6 +134,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: LINUX, linux
 
 *See also*:
@@ -134,6 +146,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:connection[connection]
@@ -145,6 +158,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: live only
 
 *See also*:
@@ -155,6 +169,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -166,6 +181,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: load-balance, load-balancing
 
 *See also*:
@@ -176,6 +192,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -187,6 +204,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -197,39 +215,10 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*: xref:physical-topology[physical topology], xref:signal-topology[signal-topology]
-
-[[look-up-v]]
-==== image:images/caution.png[with caution] look up (verb)
-*Description*: To "look up" means to search for something. The correct verb form is "look up".
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:lookup-n[lookup], xref:look-up-ad[look-up]
-
-[[look-up-ad]]
-==== image:images/caution.png[with caution] look-up (adjective)
-*Description*: Hyphenate "look-up" when using it as a modifier.
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:look-up-v[look up], xref:lookup-n[lookup]
-
-[[lookup-n]]
-==== image:images/caution.png[with caution] lookup (noun)
-*Description*: A "lookup" means an act of searching. The correct noun form is "lookup".
-
-*Use it*: with caution
-
-*Incorrect forms*:
-
-*See also*: xref:look-up-v[look up], xref:look-up-ad[look-up]
 
 [[loopback-address]]
 ==== image:images/yes.png[yes] loopback address (noun)
@@ -237,6 +226,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -247,6 +237,7 @@
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -260,6 +251,7 @@ Always capitalize as shown, with the exception of UI content.
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*: Lun, lun
 
 *See also*:
