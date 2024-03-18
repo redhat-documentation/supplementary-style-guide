@@ -5096,10 +5096,10 @@ In these situations, follow these guidelines:</p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>One exception to this rule applies to deprecation notices, which might have to specify a future release in which a feature or functions will be removed.</p>
+<p>One exception to this rule applies to deprecation and removal notices, which might have to specify a future release in which a feature or functions will be deprecated and removed.</p>
 </div>
 <div class="paragraph">
-<p>See <a href="#release-notes">Release notes</a> for guidelines about deprecation notices.</p>
+<p>See <a href="#deprecated-and-removed-features">Deprecated and removed features</a> for guidelines about deprecation and removal notices.</p>
 </div>
 </td>
 </tr>
@@ -5503,9 +5503,10 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 <div class="sect4">
-<h5 id="_deprecated_functionality"><a class="anchor" href="#_deprecated_functionality"></a><a class="link" href="#_deprecated_functionality">Deprecated functionality</a></h5>
+<h5 id="deprecated-and-removed-features"><a class="anchor" href="#deprecated-and-removed-features"></a><a class="link" href="#deprecated-and-removed-features">Deprecated and removed features</a></h5>
 <div class="paragraph">
-<p>Warn users about the following deprecation stages:</p>
+<p>Documenting the deprecation and removal stages of software features requires careful and precise communication.
+Highlight the following stages to users:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -5524,28 +5525,26 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </ul>
 </div>
 <div class="paragraph">
-<p>If available, inform users of alternative capabilities and workarounds.</p>
+<p>When alternatives to or workarounds for deprecated features are available, clearly inform users about them.</p>
 </div>
 <div class="sect5">
-<h6 id="_deprecation_notice"><a class="anchor" href="#_deprecation_notice"></a><a class="link" href="#_deprecation_notice">Deprecation notice</a></h6>
+<h6 id="_referring_to_releases_in_deprecation_and_removal_notices"><a class="anchor" href="#_referring_to_releases_in_deprecation_and_removal_notices"></a><a class="link" href="#_referring_to_releases_in_deprecation_and_removal_notices">Referring to releases in deprecation and removal notices</a></h6>
+<div class="paragraph">
+<p>In general, avoid definitive statements about specific releases, release versions, or dates for deprecation or removal.
+When possible, use the phrase "is planned for a future release" because it accounts for the possibility of changes to the planned deprecation or removal timeline.</p>
+</div>
+<div class="paragraph">
+<p>If you must be specific about a release, use provisional language to reflect the fluid nature of development plans and to acknowledge the potential for plans to change.
+For example, if you must cite a specific version, rather than stating "&lt;x&gt; will be deprecated in version 4.16", use "It is currently planned for &lt;x&gt; to be deprecated in version 4.16".
+Alternatively, if you must cite a deprecation or removal timeline and you want to avoid citing a specific release number, use a phrase such as "&lt;x&gt; is planned to be deprecated in the next release".</p>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_deprecation_notice_template"><a class="anchor" href="#_deprecation_notice_template"></a><a class="link" href="#_deprecation_notice_template">Deprecation notice template</a></h6>
 <div class="listingblock">
 <div class="content">
 <pre>In <em>&lt;product_name&gt; &lt;release&gt;</em>, <em>&lt;name_of_capability_or_feature&gt;</em> is deprecated and is planned to be removed in the <em>&lt;deprecation_timeline&gt;</em>. Red{nbsp}Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed. As an alternative to <em>&lt;name_of_capability_or_feature&gt;</em>, you can use <em>&lt;alternative_capability_or_feature_if_available&gt;</em> instead.</pre>
 </div>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>When citing deprecation timelines, refer to specific releases, such as <em>the next release</em>, only if that timeline is known to be accurate. Otherwise, use the phrase <em>a future release</em> because it accounts for the possibility of changes to the planned deprecation timeline.</p>
-</div>
-</td>
-</tr>
-</table>
 </div>
 <div class="listingblock">
 <div class="title">Example deprecation notice doc text</div>
@@ -5555,7 +5554,7 @@ Workaround: Rerun the deployment command, or use a local container image registr
 </div>
 </div>
 <div class="sect5">
-<h6 id="_removal_notice"><a class="anchor" href="#_removal_notice"></a><a class="link" href="#_removal_notice">Removal notice</a></h6>
+<h6 id="_removal_notice_template"><a class="anchor" href="#_removal_notice_template"></a><a class="link" href="#_removal_notice_template">Removal notice template</a></h6>
 <div class="listingblock">
 <div class="content">
 <pre>In <em>&lt;product_name&gt; &lt;current_release&gt;</em>, <em>&lt;name of capability or feature&gt;</em> has been removed. Bug fixes and support are provided only through the end of the <em>&lt;previous_release&gt;</em> lifecycle. As an alternative to <em>&lt;name_of_capability_or_feature&gt;</em>, you can use <em>&lt;alternative_capability_or_feature_if_available&gt;</em> instead.</pre>
@@ -21207,7 +21206,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-03-18 13:29:11 UTC
+Last updated 2024-03-18 14:01:06 UTC
 </div>
 </div>
 <!-- Nav bar -->
