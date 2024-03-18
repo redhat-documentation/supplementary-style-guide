@@ -36,7 +36,7 @@
 // RHDS: General; kept as is
 [[ldap]]
 ==== image:images/yes.png[yes] LDAP (noun)
-*Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on the first usage.
+*Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
@@ -48,7 +48,7 @@
 // RHDS: General; kept as is
 [[ldaps]]
 ==== image:images/yes.png[yes] LDAPS (noun)
-*Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (_LDAPS_) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on the first usage.
+*Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (_LDAPS_) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 

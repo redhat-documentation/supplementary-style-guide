@@ -36,7 +36,7 @@
 
 [[tcp]]
 ==== image:images/yes.png[yes] TCP (noun)
-*Description*: The _Transmission Control Protocol (TCP)_ is a connection-oriented protocol. Clients that are communicating over TCP must establish a connection to a server before data can be sent. TCP prefers reliability over time. Do not expand the abbreviation on the first usage.
+*Description*: The _Transmission Control Protocol (TCP)_ is a connection-oriented protocol. Clients that are communicating over TCP must establish a connection to a server before data can be sent. TCP prefers reliability over time. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
@@ -192,11 +192,11 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *See also*: xref:ttl[TTL], xref:time-to-live-n[time to live]
 
-// RHDS: Duplicated this entry so didn't include it, but incorporated its guidance to "Do not expand the abbreviation on the first usage."
+// RHDS: Duplicated this entry so didn't include it, but incorporated its guidance to "Do not expand the abbreviation on first use."
 // Updated anchor to just "tls"
 [[tls]]
 ==== image:images/yes.png[yes] TLS (noun)
-*Description*: _TLS_ is an initialism for "Transport Layer Security (TLS)", and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on the first usage.
+*Description*: _TLS_ is an initialism for "Transport Layer Security (TLS)", and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on first use.
 
 TLS is a cryptographic protocol that uses the Public Key Infrastructure (PKI) method to encrypt network traffic between two systems. PKI uses asymmetric encryption during a TLS handshake process to authenticate the connection between two systems.
 

@@ -195,7 +195,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 [[executable]]
 ==== image:images/caution.png[with caution] executable (noun)
-*Description*: When it runs, an _executable_ performs specific operations based on its coded instructions. Write "executable file (executable)" on the first use.
+*Description*: When it runs, an _executable_ performs specific operations based on its coded instructions. Write "executable file (executable)" on first use.
 
 *Use it*: with caution
 

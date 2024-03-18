@@ -556,7 +556,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 [[intel-virtualization-technology]]
 ==== image:images/yes.png[yes] Intel Virtualization Technology (noun)
-*Description*: The first and all prominent uses of _Intel Virtualization Technology_ should be spelled out, immediately followed by the abbreviation, for example, "Intel Virtualization Technology (Intel VT) for Intel 64" or "Itanium architecture (Intel VT-i)". Subsequent uses can be abbreviated to "Intel VT-i". Always write the abbreviation in uppercase letters, accompanied by the Intel mark. Do not use the abbreviation in any prominent places, such as in titles or paragraph headings. Do not include any trademark symbols, such as "(TM)" or "\(TM)".
+*Description*: Write "Intel Virtualization Technology (Intel VT)" or "Itanium architecture (Intel VT-i)" on first use and then "Intel VT" or "Intel VT-i" after that. Do not use the abbreviation in prominent places such as in titles or paragraph headings. Do not include trademark symbols such as "(TM)" or "\(TM)".
 
 *Use it*: yes
 
@@ -629,7 +629,7 @@ _This feature can run only on Intel 64 processors_
 
 [[interpreter-directive]]
 ==== image:images/yes.png[yes] interpreter directive (noun)
-*Description*: An _interpreter directive_, such as `#!/bin/bash`, is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as _shebang_. On the first mention, include both "interpreter directive" and "shebang", for example, "Interpreter directives, also known as shebangs ...". Do not use "hashbang".
+*Description*: An _interpreter directive_, such as `#!/bin/bash`, is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as _shebang_. Write "interpreter directives, also known as shebangs ..." on first use. Do not use "hashbang".
 
 *Use it*: yes
 
@@ -674,7 +674,7 @@ _This feature can run only on Intel 64 processors_
 
 [[ip]]
 ==== image:images/yes.png[yes] IP (noun)
-*Description*: _IP_ is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on the first usage.
+*Description*: _IP_ is an abbreviation for "Internet Protocol". Use "IP" to refer to the Internet Protocol in general if the specific versions, IPv4 and IPv6, do not matter. Use "IP address" instead of "IP" when writing about IP addresses. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
@@ -696,7 +696,7 @@ _This feature can run only on Intel 64 processors_
 
 [[ipv4]]
 ==== image:images/yes.png[yes] IPv4 (noun)
-*Description*: Use _IPv4_ to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on the first usage.
+*Description*: Use _IPv4_ to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
@@ -707,7 +707,7 @@ _This feature can run only on Intel 64 processors_
 
 [[ipv6]]
 ==== image:images/yes.png[yes] IPv6 (noun)
-*Description*: Use _IPv6_ to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on the first usage.
+*Description*: Use _IPv6_ to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 

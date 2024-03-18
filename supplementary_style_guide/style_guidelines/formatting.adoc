@@ -16,7 +16,7 @@ To apply formatting in a code block, you must use the `quotes` link:https://docs
 .Example AsciiDoc: A command and its output in a code block
 
   Verify that the `libvirt` default network is active and configured to start automatically:
-  
+
   [subs="+quotes"]
   ----
   # *virsh net-list --all*
@@ -80,7 +80,7 @@ Before you begin to customize the installer, download the Red{nbsp}Hat-provided 
 [product-names-versions-ref]]
 == Product names and version references
 
-Whenever you refer to the name of your product in full, or in its abbreviated form, or when you refer to the major and minor version of your product, avoid using hard-coded references and use attributes instead.
+Use attributes instead of hard-coded references when you refer to the name of your product in full, to its abbreviated form, or to its major or minor version.
 Only use hard-coded version references if the version that you are referring to in a particular case never changes.
 
 === Attribute file
