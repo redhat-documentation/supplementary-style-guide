@@ -24,9 +24,9 @@ In these situations, follow these guidelines:
 +
 [NOTE]
 ====
-One exception to this rule applies to deprecation notices, which might have to specify a future release in which a feature or functions will be removed.
+One exception to this rule applies to deprecation and removal notices, which might have to specify a future release in which a feature or functions will be deprecated and removed.
 
-See xref:release-notes[Release notes] for guidelines about deprecation notices.
+See xref:deprecated-and-removed-features[Deprecated and removed features] for guidelines about deprecation and removal notices.
 ====
 
 .Example: Bug fix statement

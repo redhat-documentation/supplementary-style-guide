@@ -31,7 +31,6 @@ This enhancement optimizes migration of an RBD volume from one Cinder back end t
 With this update, you can create application credentials to use keystone to authenticate applications.
 ----
 
-
 === Bug fix
 
 Use past tense for the problem and present tense for the solution, in the following format:
@@ -64,32 +63,39 @@ Workaround: Rerun the deployment command, or use a local container image registr
 
 For guidance and the template text to use for Technology Preview features, see the xref:technology-preview-guidance[Technology Preview] section.
 
-=== Deprecated functionality
-Warn users about the following deprecation stages:
+[[deprecated-and-removed-features]]
+=== Deprecated and removed features
+
+Documenting the deprecation and removal stages of software features requires careful and precise communication.
+Highlight the following stages to users:
 
 * Plan to deprecate
 * Deprecate
 * Plan to remove
 * Remove
 
-If available, inform users of alternative capabilities and workarounds.
+When alternatives to or workarounds for deprecated features are available, clearly inform users about them.
 
-==== Deprecation notice
+==== Referring to releases in deprecation and removal notices
+In general, avoid definitive statements about specific releases, release versions, or dates for deprecation or removal.
+When possible, use the phrase "is planned for a future release" because it accounts for the possibility of changes to the planned deprecation or removal timeline.
+
+If you must be specific about a release, use provisional language to reflect the fluid nature of development plans and to acknowledge the potential for plans to change.
+For example, if you must cite a specific version, rather than stating "<x> will be deprecated in version 4.16", use "It is currently planned for <x> to be deprecated in version 4.16".
+Alternatively, if you must cite a deprecation or removal timeline and you want to avoid citing a specific release number, use a phrase such as "<x> is planned to be deprecated in the next release".
+
+==== Deprecation notice template
 [subs="+quotes"]
 ----
 In __<product_name> <release>__, __<name_of_capability_or_feature>__ is deprecated and is planned to be removed in the __<deprecation_timeline>__. Red{nbsp}Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed. As an alternative to __<name_of_capability_or_feature>__, you can use __<alternative_capability_or_feature_if_available>__ instead.
 ----
-[NOTE]
-====
-When citing deprecation timelines, refer to specific releases, such as __the next release__, only if that timeline is known to be accurate. Otherwise, use the phrase __a future release__ because it accounts for the possibility of changes to the planned deprecation timeline.
-====
 
 .Example deprecation notice doc text
 ----
 In Red{nbsp}Hat OpenStack Platform (RHOSP) 14, the director graphical user interface is deprecated and is planned to be removed in a future release. Red{nbsp}Hat will provide bug fixes and support for this feature during the current release lifecycle, but this feature will no longer receive enhancements and will be removed.
 ----
 
-==== Removal notice
+==== Removal notice template
 [subs="+quotes"]
 ----
 In __<product_name> <current_release>__, __<name of capability or feature>__ has been removed. Bug fixes and support are provided only through the end of the __<previous_release>__ lifecycle. As an alternative to __<name_of_capability_or_feature>__, you can use __<alternative_capability_or_feature_if_available>__ instead.
