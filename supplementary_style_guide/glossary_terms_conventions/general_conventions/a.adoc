@@ -210,7 +210,6 @@ _This Operator is supported on AMD64 and ARM64 platforms._
 *Use it*: yes
 
 [.vale-ignore]
->>>>>>> 99dc3c6 (remove-obsolete-brms-refs updated doc)
 *Incorrect forms*:
 
 *See also*: xref:amd64[amd64]
