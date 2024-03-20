@@ -1,4 +1,3 @@
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[mail]]
 ==== image:images/yes.png[yes] mail subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `mail` subsystem is used to configure mail services for applications deployed to JBoss EAP. Write in lowercase in general text. Use "Mail subsystem" when referring to the mail subsystem in titles and headings.
@@ -32,7 +31,6 @@
 
 *See also*: xref:manual-page[manual page]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[managed-domain]]
 ==== image:images/yes.png[yes] managed domain (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, a "_managed domain_ is a group of JBoss EAP instances managed from a single control point. This is the appropriate way to refer to the managed domain operating mode. For example, "When running the JBoss EAP server in a managed domain".
@@ -44,8 +42,6 @@
 
 *See also*: xref:domain-mode[domain mode]
 
-
-// RHEL: General; kept as is
 [[managed-nodes]]
 ==== image:images/yes.png[yes] managed nodes (noun)
 *Description*: The network devices, servers, or both that you manage with Ansible. "Managed nodes" are also sometimes called “hosts”. Ansible is not installed on managed nodes.
@@ -57,7 +53,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[management-cli]]
 ==== image:images/yes.png[yes] management CLI (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "management CLI" to refer to the command-line interface for the JBoss EAP management tool. Do not capitalize "management" unless it starts a sentence.
@@ -69,7 +64,6 @@
 
 *See also*: xref:native-interface[native interface]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[management-console]]
 ==== image:images/yes.png[yes] management console (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "management console" when referring to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
@@ -103,7 +97,6 @@
 
 *See also*:
 
-// RHDS: General; added "In an LDAP replication environment,"
 [[master]]
 ==== image:images/no.png[no] master (noun)
 *Description*: In an LDAP replication environment, do not use "master" to refer to a supplier.
@@ -126,7 +119,6 @@
 
 *See also*: xref:mbr[MBR]
 
-// AMQ: Added "In Red Hat AMQ, the master broker is"
 [[master-broker]]
 ==== image:images/yes.png[yes] master broker (noun)
 *Description*: In Red Hat AMQ, the _master broker_ is the broker that serves client requests in a master-slave group.
@@ -138,7 +130,6 @@
 
 *See also*: xref:master-slave-group[master-slave group], xref:slave-broker[slave broker]
 
-// AMQ: Added "In Red Hat AMQ, a master-slave group is"
 [[master-slave-group]]
 ==== image:images/yes.png[yes] master-slave group (noun)
 *Description*: In Red Hat AMQ, a _master-slave group_ is a broker high availability configuration in which a master broker is linked to slave brokers. If a failover event occurs, the slave broker(s) take over the master broker's workload.
@@ -205,7 +196,6 @@
 
 *See also*: xref:master-boot-record[Master Boot Record]
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[mds]]
 ==== image:images/yes.png[yes] MDS (noun)
 *Description*: In Red Hat Ceph Storage, "MDS" is an abbreviation for the Ceph Metadata Server.
@@ -239,7 +229,6 @@
 
 *See also*: xref:command-driven[command-driven]
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Camel"
 [[mep]]
 ==== image:images/yes.png[yes] MEP (noun)
 *Description*: Message Exchange Pattern. In Red Hat Fuse, the _MEP_ is the part of the message exchange that selects between one of two messaging modes: one-way (`InOnly`) or request-reply (`InOut`). The default is `InOnly`.
@@ -251,9 +240,6 @@
 
 *See also*: xref:message-exchange[message exchange]
 
-// AMQ: Added "In Red Hat AMQ, a message is"
-// Fuse: Added "In Red Hat Fuse," and removed "In Camel"
-// Combined entries
 [[message]]
 ==== image:images/yes.png[yes] message (noun)
 *Description*: (1) In Red Hat AMQ, a _message_ is a mutable holder of application content. (2) In Red Hat Fuse, the message is the fundamental structure for moving data through a route. A message consists of a body (also known as payload), headers, and attachments (optional). Messages flow in one direction from sender to receiver. Headers contain metadata, such as sender IDs, content encoding hints, and so on. Attachments can be text, image, audio, or video files and are typically used with email and web service components.
@@ -265,7 +251,6 @@
 
 *See also*: xref:message-exchange[message exchange]
 
-// AMQ: Added "In Red Hat AMQ, a message address is"
 [[message-address]]
 ==== image:images/caution.png[with caution] message address (noun)
 *Description*: In Red Hat AMQ, a _message address_ is the name of a source or destination endpoint for messages within the messaging network. Message addresses can designate entities, such as queues and topics. The term "address" is also acceptable, but should not be confused with "TCP/IP addresses". In JMS, the term "destination" may be used.
@@ -277,7 +262,6 @@
 
 *See also*: xref:destination[destination]
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Camel"
 [[message-exchange]]
 ==== image:images/yes.png[yes] message exchange (noun)
 *Description*:  In Red Hat Fuse, _message exchanges_ deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are en route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, an MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.
@@ -289,7 +273,6 @@
 
 *See also*: xref:message[message], xref:mep[MEP]
 
-// AMQ: Added "In Red Hat AMQ, message routing is"
 [[message-routing]]
 ==== image:images/yes.png[yes] message routing (noun)
 *Description*: In Red Hat AMQ, _message routing_ is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.
@@ -301,7 +284,6 @@
 
 *See also*: xref:link-routing[link routing]
 
-// AMQ: Added "In Red Hat AMQ, message settlement"
 [[message-settlement]]
 ==== image:images/yes.png[yes] message settlement (noun)
 *Description*: In Red Hat AMQ, _message settlement_ is the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.
@@ -313,7 +295,6 @@
 
 *See also*: xref:delivery[delivery]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[messaging-activemq-management]]
 ==== image:images/yes.png[yes] Messaging - ActiveMQ (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "Messaging - ActiveMQ" when describing the `messaging-activemq` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "MQ" is also in uppercase.
@@ -325,7 +306,6 @@
 
 *See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-subsystem[messaging subsystem]
 
-// AMQ: Added "In Red Hat AMQ, the messaging API is"
 [[messaging-api]]
 ==== image:images/yes.png[yes] messaging API (noun)
 *Description*: In Red Hat AMQ, the _messaging API_ is the client libraries and APIs used to create client applications. These libraries are provided by AMQ Clients.
@@ -337,7 +317,6 @@
 
 *See also*: xref:amq-clients[AMQ Clients], xref:client-application[client application]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[messaging-subsystem]]
 ==== image:images/yes.png[yes] messaging subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, for the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry.
@@ -349,7 +328,6 @@
 
 *See also*: xref:messaging-activemq[messaging-activemq], xref:messaging-activemq-management[Messaging - ActiveMQ]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[messaging-activemq]]
 ==== image:images/yes.png[yes] messaging-activemq subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. For the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the xref:messaging-activemq-management[Messaging - ActiveMQ] entry.
@@ -361,7 +339,6 @@
 
 *See also*: xref:messaging-activemq-management[Messaging - ActiveMQ], xref:messaging-subsystem[messaging subsystem]
 
-// Ceph: Added "In Red Hat Ceph Storage, Metadata Server is"
 [[metadata-server]]
 ==== image:images/yes.png[yes] Metadata Server (noun)
 *Description*: In Red Hat Ceph Storage, "Metadata Server" is another name for the `ceph-mds` daemon.
@@ -395,7 +372,6 @@
 
 *See also*: xref:ms-dos[MS-DOS]
 
-// Azure: General; kept as is; added the note linking to Microsoft's glossary to this term
 [[azure]]
 ==== image:images/yes.png[yes] Microsoft Azure (noun)
 *Description*: _Microsoft Azure_ is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: Wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
@@ -409,7 +385,6 @@ For additional terms and definitions, see the https://azure.microsoft.com/en-us/
 
 *See also*:
 
-// Azure: Added "In Microsoft Azure"
 [[xplat]]
 ==== image:images/yes.png[yes] Microsoft Azure Cross-Platform Command-Line Interface (noun)
 *Description*: In Microsoft Azure, the _Microsoft Azure Cross-Platform Command-Line Interface_ (Xplat-CLI) is a set of open source, cross-platform commands for managing Microsoft Azure platform resources. The Xplat-CLI has several top-level commands that correspond to Microsoft Azure features. Typing `azure` at the Xplat-CLI command prompt lists each of the many Microsoft Azure subcommands. When using the Xplat-CLI, a user can enable ARM mode or ASM mode.
@@ -423,7 +398,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:cli[Azure CLI 2.0]
 
-// Azure: Added "In Microsoft Azure" and removed "Microsoft Azure" from later in the sentence
 [[on-demand]]
 ==== image:images/yes.png[yes] Microsoft Azure On-Demand Marketplace (noun)
 *Description*: In Microsoft Azure, the _Microsoft Azure On-Demand Marketplace_ is a storefront where users can locate and quickly install operating systems, programming languages, frameworks, tools, databases, and devices into their Microsoft Azure environment. Red Hat Enterprise Linux is available as a VM image within the Microsoft Azure On-Demand Marketplace, along with other Red Hat open source products. Always preface "On-Demand Marketplace" with "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
@@ -435,7 +409,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*:
 
-// Azure: Added "In Microsoft Azure"
 [[azure-portal]]
 ==== image:images/yes.png[yes] Microsoft Azure portal (noun)
 *Description*: In Microsoft Azure, the _Microsoft Azure portal_ is a unified console graphical user interface (GUI) that allows users to build, manage, and monitor resources, web apps, and cloud applications. Do not capitalize "portal"; this is how Microsoft presents the portal's name.
@@ -447,7 +420,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:arm[Azure Resource Manager]
 
-// EAP: General; kept as is
 [[microsoft-windows]]
 ==== image:images/no.png[no] Microsoft Windows (noun)
 *Description*: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. For the correct usage, see the xref:windows-server[Windows Server] entry.
@@ -459,7 +431,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:windows-server[Windows Server]
 
-// RHEL: Added "In Red Hat Enterprise Linux,"; Updated upgrade xref
 [[migration]]
 ==== image:images/caution.png[with caution] migration (noun)
 *Description*: In Red Hat Enterprise Linux, typically, a _migration_ indicates a change of platform: software or hardware. Moving from Windows to Linux is a migration. Moving a user from one laptop to another or a company from one server to another is a migration. However, most "migrations" also involve "upgrades", and sometimes the terms are used interchangeably.
@@ -471,7 +442,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:update[update], xref:upgrade[upgrade], xref:conversion[conversion]
 
-// OCP: Added "In Red Hat OpenShift, this term is"
 [[minion]]
 ==== image:images/no.png[no] minion (noun)
 *Description*: In Red Hat OpenShift, this term is deprecated. Use "node" instead.
@@ -494,7 +464,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[modcluster]]
 ==== image:images/yes.png[yes] modcluster subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _modcluster subsystem_ is used to configure `modcluster` worker nodes. In general text, write in lowercase as one word. Use "ModCluster subsystem" when referring to the `modcluster` subsystem in titles and headings.
@@ -583,7 +552,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:mozilla-firefox[Mozilla Firefox]
 
-// AMQ: General; kept as is
 [[mqtt]]
 ==== image:images/yes.png[yes] MQTT (noun)
 *Description*: MQ Telemetry Transport protocol. It is a lightweight, client-to-server, publish/subscribe messaging protocol (http://mqtt.org/). AMQ Broker supports _MQTT_.
@@ -606,7 +574,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*: xref:microsoft[Microsoft]
 
-// OCS: General; kept as is; removed duplicate description
 [[multicloud-object-gateway]]
 ==== image:images/yes.png[yes] Multicloud Object Gateway (noun)
 *Description*: _Multicloud Object Gateway_ (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
@@ -629,7 +596,6 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 *See also*:
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[multisite]]
 ==== image:images/yes.png[yes] multisite (adjective)
 *Description*: In Red Hat Ceph Storage, you can configure the Ceph Object Gateway to participate in a _multisite_ architecture that consists of one zone group and multiple zones each zone with one or more `ceph-radosgw` instances.

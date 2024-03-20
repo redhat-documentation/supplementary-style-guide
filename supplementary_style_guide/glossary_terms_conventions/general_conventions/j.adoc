@@ -19,7 +19,6 @@
 
 *See also*: xref:javascript[javascript]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jaxrs]]
 ==== image:images/yes.png[yes] jaxrs subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jaxrs subsystem_ enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the `jaxrs` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
@@ -31,7 +30,6 @@
 
 *See also*:
 
-// EAP: General; kept as is
 [[jboss-amq-eap]]
 ==== image:images/no.png[no] JBoss AMQ (noun)
 *Description*: Do not use "JBoss AMQ" to refer to the Red Hat messaging queue product. This product has been renamed "Red Hat AMQ".
@@ -54,7 +52,6 @@
 
 *See also*:
 
-// EAP: General; kept as is
 [[jboss-eap]]
 ==== image:images/yes.png[yes] JBoss EAP (noun)
 *Description*: _JBoss EAP_ is the approved shortened form of xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform].
@@ -66,7 +63,6 @@
 
 *See also*: xref:red-hat-jboss-enterprise-application-platform[Red Hat JBoss Enterprise Application Platform]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed "in JBoss EAP" from later on
 [[jboss-eap-built-in-messaging]]
 ==== image:images/yes.png[yes] JBoss EAP built-in messaging (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, _JBoss EAP built-in messaging_ is an acceptable term for referring to the built-in `messaging` system. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
@@ -78,7 +74,6 @@
 
 *See also*: xref:built-in-messaging[built-in messaging], xref:jboss-eap-messaging[JBoss EAP messaging]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed "in JBoss EAP" from later on
 [[jboss-eap-messaging]]
 ==== image:images/yes.png[yes] JBoss EAP messaging (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, "JBoss EAP messaging" is an acceptable term for referring to the built-in messaging system. Other acceptable terms are "built-in messaging" and "JBoss EAP built-in messaging".
@@ -101,7 +96,6 @@
 
 *See also*: xref:red-hat-way[Red Hat Way]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jca]]
 ==== image:images/yes.png[yes] jca subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jca subsystem_ is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the `jca` subsystem in titles and headings.
@@ -113,7 +107,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jdr]]
 ==== image:images/yes.png[yes] jdr subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jdr subsystem_ is used to gather diagnostic data to support troubleshooting. In general text, write in lowercase as one word. Use "JDR subsystem" when referring to the `jdr` subsystem in titles and headings.
@@ -125,7 +118,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jgroups]]
 ==== image:images/yes.png[yes] jgroups subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jgroups subsystem_ is used to configure protocol stacks and communication mechanisms for servers in a cluster. In general text, write in lower case as one word. Use "JGroups subsystem" when referring to the `jgroups` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase 'G'.
@@ -137,7 +129,6 @@
 
 *See also*:
 
-// AMQ: General; kept as is
 [[jms]]
 ==== image:images/yes.png[yes] JMS (noun)
 *Description*: The Java Message Service API for sending messages between clients.
@@ -149,7 +140,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jmx]]
 ==== image:images/yes.png[yes] jmx subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jmx subsystem_ is used to configure remote Java Management Extensions (JMX) access. In general text, write in lowercase as one word. Use "JMX subsystem" when referring to the `jmx` subsystem in titles and headings.
@@ -172,7 +162,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jpa]]
 ==== image:images/yes.png[yes] jpa subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jpa subsystem_ is used to manage requirements of the Java Persistence API. In general text, write in lowercase as one word. Use "JPA subsystem" when referring to the `jpa` subsystem in titles and headings.
@@ -184,7 +173,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jsf]]
 ==== image:images/yes.png[yes] jsf subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jsf subsystem_ is used to manage JavaServer Faces implementations. In general text, write in lowercase as one word. Use "JSF subsystem" when referring to the `jsf` subsystem in titles and headings.
@@ -196,7 +184,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[jsr77]]
 ==== image:images/yes.png[yes] jsr77 subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _jsr77 subsystem_ provides Java EE management capabilities defined by the JSR-77 specification. In general text, write in lowercase as one word. Use "JSR-77 subsystem" when referring to the `jsr77` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JSR' and '77'.

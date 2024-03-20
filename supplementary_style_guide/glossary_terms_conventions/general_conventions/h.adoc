@@ -76,7 +76,6 @@
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[hidden-replica]]
 ==== image:images/yes.png[yes] hidden replica (noun)
 *Description*: In Red Hat Enterprise Linux, a _hidden replica_ is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
@@ -145,7 +144,6 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux, the host system is"
 [[host-system]]
 ==== image:images/yes.png[yes] host system (noun)
 *Description*: In Red Hat Enterprise Linux, the _host system_ is the system on which the instrumentation modules, from SystemTap scripts, are compiled to be loaded on target systems.
@@ -179,7 +177,6 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*: xref:hot-add[hot add], xref:hot-swap[hot swap]
 
-// Data Grid: Added "In Red Hat Data Grid," and removed "used in Red Hat Data Grid"
 [[hot-rod]]
 ==== image:images/yes.png[yes] Hot Rod (adjective)
 *Description*: In Red Hat Data Grid, _Hot Rod_ is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
@@ -235,7 +232,6 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed the definition in the first sentence; just kept the guidance on not using it
 [[http-interface]]
 ==== image:images/no.png[no] HTTP interface (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the xref:management-console[management console] entry.
@@ -247,7 +243,6 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*: xref:management-console[management console]
 
-// RHDS: General; kept as is
 [[hub]]
 ==== image:images/yes.png[yes] hub (noun)
 *Description*: In an LDAP replication environment, a _hub_ receives data from a supplier and replicates the data to consumers.
@@ -292,7 +287,6 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*:
 
-// Azure: Added "In the Microsoft Windows operating system"
 [[hyperv]]
 ==== image:images/yes.png[yes] Hyper-V (noun)
 *Description*: In the Microsoft Windows operating system, _Hyper-V_ is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.

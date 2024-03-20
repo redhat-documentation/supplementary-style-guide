@@ -53,7 +53,6 @@
 
 *See also*: xref:recommend[recommend]
 
-// RHEL: General; kept as is
 [[web-server]]
 ==== image:images/yes.png[yes] web server (noun)
 *Description*: A _web server_ is the computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol for distributing web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent.
@@ -64,7 +63,6 @@
 
 *See also*: xref:directory-server-product[Directory Server], xref:certificate-authority[certificate authority]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[web-services]]
 ==== image:images/yes.png[yes] Web services (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
@@ -87,7 +85,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[webhttp-undertow]]
 ==== image:images/yes.png[yes] WebHTTP - Undertow (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the `undertow` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
@@ -99,7 +96,6 @@
 
 *See also*: xref:undertow[undertow]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[webservices]]
 ==== image:images/yes.png[yes] webservices subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
@@ -111,7 +107,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[weld]]
 ==== image:images/yes.png[yes] weld subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _weld subsystem_ is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the `weld` subsystem in titles and headings.
@@ -167,7 +162,6 @@
 
 *See also*:
 
-// EAP: General; kept as is
 [[windows-server]]
 ==== image:images/yes.png[yes] Windows Server (noun)
 *Description*: Use "Windows Server" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. Do not precede the product name with "Microsoft".
@@ -179,7 +173,6 @@
 
 *See also*: xref:microsoft-windows[Microsoft Windows]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[working-memory]]
 ==== image:images/yes.png[yes] working memory (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.

@@ -20,7 +20,6 @@
 
 *See also*: xref:kvm[KVM]
 
-// AMQ: Added "In Red Hat AMQ, qdmanage is"
 [[qdmanage]]
 ==== image:images/yes.png[yes] qdmanage (noun)
 *Description*: In Red Hat AMQ, `qdmanage` is a generic AMQP management client used for managing AMQ Interconnect.
@@ -32,7 +31,6 @@
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, qdstat is"
 [[qdstat]]
 ==== image:images/yes.png[yes] qdstat (noun)
 *Description*: In Red Hat AMQ, `qdstat` is a management client used for monitoring the status of an AMQ Interconnect router network.
@@ -55,7 +53,6 @@
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, a queue is"
 [[queue]]
 ==== image:images/yes.png[yes] queue (noun)
 *Description*: In Red Hat AMQ, a _queue_ is a stored sequence of messages. In AMQ, queues are hosted on brokers.
@@ -67,7 +64,6 @@
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift," and removed from later
 [[quick-start]]
 ==== image:images/yes.png[yes] quick start (noun)
 *Description*: In Red Hat OpenShift, there are two types of _quick starts_:

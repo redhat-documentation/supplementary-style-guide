@@ -1,4 +1,3 @@
-// OCP: Added "In Red Hat OpenShift, namespace is"
 [[namespace]]
 ==== image:images/caution.png[with caution] namespace (noun)
 *Description*: In Red Hat OpenShift, "namespace" is typically synonymous with project in OpenShift parlance, which is preferred.
@@ -10,7 +9,6 @@
 
 *See also*: xref:project[project]
 
-// OCS: General; kept as is
 [[namespace-bucket]]
 ==== image:images/yes.png[yes] namespace bucket (noun)
 *Description*: _Namespace buckets_ enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
@@ -22,7 +20,6 @@
 
 *See also*:
 
-// OCS: Added "In Red Hat OpenShift Container Storage, a namespace store is"
 [[namespace-store]]
 ==== image:images/yes.png[yes] namespace store (noun)
 *Description*: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, a _namespace store_ is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
@@ -34,7 +31,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[naming]]
 ==== image:images/yes.png[yes] naming subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `naming` subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
@@ -57,7 +53,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[native-interface]]
 ==== image:images/no.png[no] native interface (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the xref:management-cli[management CLI] entry.
@@ -114,7 +109,6 @@
 
 *See also*: xref:dotnetcore[.Net Core]
 
-// Azure: General; kept as is
 [[dotnetcore]]
 ==== image:images/no.png[no] .NET Core (noun)
 *Description*: Microsoft's development platform, _.NET Core_, is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET Core applications can run on .NET Core or on the .NET Framework. For version 3.1 and earlier, refer to it as ".NET Core". In later versions, Microsoft changed the name to ".NET".
@@ -193,7 +187,6 @@
 
 *See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
 
-//Fuse: Removed point 4 that refers to Fuse tooling
 [[node]]
 ==== image:images/yes.png[yes] node (noun)
 

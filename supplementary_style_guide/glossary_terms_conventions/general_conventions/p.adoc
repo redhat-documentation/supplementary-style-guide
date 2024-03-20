@@ -9,7 +9,6 @@
 
 *See also*: xref:saas[SaaS], xref:iaas[IaaS]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[package]]
 ==== image:images/yes.png[yes] package (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a _package_ is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
@@ -32,7 +31,6 @@
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[password-policy]]
 ==== image:images/yes.png[yes] password policy (noun)
 *Description*: In Red Hat Enterprise Linux, a _password policy_ is a set of conditions that the passwords of a particular IdM user group must meet. The conditions can include the following parameters:
@@ -59,7 +57,6 @@
 
 *See also*:
 
-// AMQ: General; kept as is
 [[peer-to-peer-messaging]]
 ==== image:images/yes.png[yes] peer-to-peer messaging (noun)
 *Description*: A messaging operation in which a client sends messages directly to another client without using a broker or router. This term should only be used to refer to client-to-client communication, not direct routed messaging.
@@ -107,7 +104,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*: xref:volatile-storage[volatile storage]
 
-// OCS: General; kept as is
 [[persistent-volume]]
 ==== image:images/yes.png[yes] persistent volume (noun)
 *Description*: A _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision.
@@ -119,7 +115,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-// OCS: General; kept as is; added "in the cluster"
 [[persistent-volume-claim]]
 ==== image:images/yes.png[yes] persistent volume claim (noun)
 *Description*: A _persistent volume claim_ (PVC) is a request for storage in the cluster by a user.
@@ -131,7 +126,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-// Ceph: Added "In Red Hat Ceph Storage, PG is"
 [[pg]]
 ==== image:images/yes.png[yes] PG (noun)
 *Description*: In Red Hat Ceph Storage, _PG_ is an abbreviation for placement group.
@@ -165,7 +159,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*: xref:logical-topology[logical topology], xref:signal-topology[signal topology]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[picketlink-federation]]
 ==== image:images/yes.png[yes] picketlink-federation subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `picketlink-federation` subsystem is used to configure single sign-on (SSO) using security assertion markup language (SAML). In general text, write in lowercase as two words separated by a hyphen. Use "PicketLink Federation subsystem" when referring to the picketlink-federation subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
@@ -177,7 +170,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[picketlink-identity-management]]
 ==== image:images/yes.png[yes] picketlink-identity-management subsystem(noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `picketlink-identity-management` subsystem is used to configure identity management services. In general text, write in lowercase as three words separated by hyphens. Use "PicketLink Identity Management subsystem" when referring to the `picketlink-identity-management` subsystem in titles and headings. When writing the term in its heading form, ensure that you include an uppercase "L".
@@ -200,8 +192,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-// Fuse: Added "In Red Hat Fuse,"
-// Fuse: Changed "Fuse (Karaf)" to "Red Hat Fuse (Karaf)" (Breda)
 [[pid]]
 ==== image:images/yes.png[yes] PID (noun)
 *Description*: In Red Hat Fuse, the _persistent identifier_ (PID) of a registered OSGi service is used to identify the service across container restarts. In Fuse (Karaf), PIDs map to `.cfg` configuration files located in the `FUSE_HOME/etc/` directory. A `.cfg` file contains a list of attribute/value pairs that configure a service. You can edit any `.cfg` file to configure/reconfigure the corresponding OSGi service.
@@ -213,7 +203,6 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*:
 
-// Ceph: Added "In Red Hat Ceph Storage, a placement group"; fixed incorrect see also from PC to PG
 [[placement-group]]
 ==== image:images/yes.png[yes] placement group (noun)
 *Description*: In Red Hat Ceph Storage, a _placement group_ aggregates a series of objects into a group, and maps the group into a series of OSDs. Write "Placement Group" (both first letters in uppercase) only when explaining the PC abbreviation, then write "placement group" (in lowercase).
@@ -225,11 +214,9 @@ When combined with privileges, permissions define a user's or resource's overall
 
 *See also*: xref:pg[PG]
 
-// Ceph: Added "In Red Hat Ceph Storage, a placement target is"
 [[placement-target]]
 ==== image:images/yes.png[yes] placement target (noun)
 *Description*: In Red Hat Ceph Storage, a _placement target_ is a configurable rule that determines where bucket data is stored.
-//TODO: does this have to be first letters in uppercase?
 
 *Use it*: yes
 
@@ -312,7 +299,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*: xref:plugin[plugin]
 
-// OCP: Added "In Kubernetes," and removed first sentence
 [[pod]]
 ==== image:images/yes.png[yes] pod (noun)
 *Description*: In Kubernetes, a _pod_ is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are re-created. The API object for a pod is `Pod`.
@@ -324,7 +310,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*: xref:container[container]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[pojo]]
 ==== image:images/yes.png[yes] pojo subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the `pojo` subsystem enables deployment of applications containing JBoss Microcontainer services. In general text, write in lowercase as one word. Use "POJO subsystem" when referring to the `pojo` subsystem in titles and headings.
@@ -336,7 +321,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
-// Ceph: Added "In Red Hat Ceph Storage, a pool is"
 [[pool]]
 ==== image:images/yes.png[yes] pool (noun)
 *Description*: In Red Hat Ceph Storage, a _pool_ is a logical unit in which Ceph stores data. You can create pools for particular types of data, such as for Ceph Block Devices, Ceph Object Gateways, or to separate one group of users from another.
@@ -370,7 +354,6 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 *See also*:
 
-// RHEL: General; kept as is
 [[posix-attributes]]
 ==== image:images/yes.png[yes] POSIX attributes (noun)
 *Description*: _POSIX attributes_ are user attributes for maintaining compatibility between operating systems.
@@ -427,8 +410,6 @@ If your release notes are based on the templates in this guide's xref:release-no
 
 *See also*: xref:release-notes[Release notes]
 
-
-// Fuse: Added "In Red Hat Fuse," and moved "in a Camel route" to the end of the sentence
 [[processor]]
 ==== image:images/yes.png[yes] processor (noun)
 *Description*: In Red Hat Fuse, a _processor_ is a node that is capable of using, creating, or modifying an incoming message exchange in a Camel route. Processors are typically implementations of EIPs, but can be custom made.
@@ -440,9 +421,6 @@ If your release notes are based on the templates in this guide's xref:release-no
 
 *See also*: xref:route[route], xref:eip[EIP]
 
-// AMQ: Added "In Red Hat AMQ, a producer is"
-// Fuse: Added "In Red Hat Fuse," and changed "exiting a route" to "exiting a Camel route"
-// Combined entries
 [[producer]]
 ==== image:images/yes.png[yes] producer (noun)
 *Description*: (1) In Red Hat AMQ, a _producer_ is a client that sends messages. (2) In Red Hat Fuse, a producer is an endpoint that acts as the source of messages exiting a Camel route. It can create and send processed messages to their target destination, such as external systems or services. The producer populates the messages it creates with data that is compatible with the target destination. A route can have multiple producers.
@@ -454,7 +432,6 @@ If your release notes are based on the templates in this guide's xref:release-no
 
 *See also*: xref:client-application[client application], xref:consumer[consumer]
 
-// Satellite: Added "In Red Hat Satellite" and removed "Red Hat Satellite"
 [[product]]
 ==== image:images/yes.png[yes] Product (noun)
 *Description*: In Red Hat Satellite, a Product is a collection of repositories.
@@ -466,9 +443,6 @@ If your release notes are based on the templates in this guide's xref:release-no
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift,"
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
-// Combined into a single entry
 [[project]]
 ==== image:images/yes.png[yes] project (noun)
 *Description*: (1) In Red Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
@@ -519,7 +493,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-// Fuse: Added "In Red Hat Fuse," and removed "In Fuse tooling,"
 [[properties-view]]
 ==== image:images/yes.png[yes] Properties View (noun)
 *Description*: In Red Hat Fuse, _Properties view_ displays, by default, the properties of the node that is selected on the canvas for editing. It also displays the selected node's user documentation on the Documentation tab.
@@ -531,7 +504,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-// RHSSO: General; kept as is
 [[protocol-mapper]]
 ==== image:images/yes.png[yes] protocol mapper
 *Description*: For each client, you can tailor what claims and assertions are stored in the OIDC token or SAML assertion. You do this for each client by creating and configuring protocol mappers.
@@ -543,7 +515,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-// Azure: General for the most part; has an Azure-specific second sentence, but that already includes "In Microsoft Azure"; kept as is
 [[provisioning]]
 ==== image:images/yes.png[yes] provisioning (verb)
 *Description*: When discussing virtual machines (VMs), "provisioning" refers to a set of actions to prepare a VM with appropriate configuration options, data, and software to make it ready for operating in a cloud environment. In Microsoft Azure, RHEL VMs are provisioned using Azure CLI 2.0 or using the Azure Resource Manager (ARM) in the Microsoft Azure portal.
@@ -577,7 +548,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-// Satellite: General; kept as is
 [[puppet]]
 ==== image:images/yes.png[yes] Puppet (noun)
 *Description*: _Puppet_ is a tool for applying and managing system configurations.
@@ -589,7 +559,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-// Satellite: General; kept as is
 [[puppet-forge]]
 ==== image:images/yes.png[yes] Puppet Forge (noun)
 *Description*: _Puppet Forge_ is a Puppet Labs Git repository for community supplied Puppet modules.
@@ -601,7 +570,6 @@ When combined with permissions, privileges define an agent's overall access to a
 
 *See also*:
 
-// Satellite: General; kept as is
 [[puppetize]]
 ==== image:images/no.png[no] Puppetize (verb)
 *Description*: To apply Puppet manifests and methods to a system. This is unnecessary industry jargon or slang.

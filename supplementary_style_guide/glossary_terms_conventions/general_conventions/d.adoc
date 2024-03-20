@@ -20,9 +20,6 @@
 
 *See also*: xref:daisy-chain-n[daisy chain (noun)]
 
-
-
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[data-enumeration]]
 ==== image:images/yes.png[yes] data enumeration (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
@@ -34,7 +31,6 @@
 
 *See also*:
 
-// Data Grid: General; kept as is
 [[data-grid]]
 ==== image:images/yes.png[yes] Data Grid (noun)
 *Description*: The short product name for _Red Hat Data Grid_. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
@@ -46,7 +42,6 @@
 
 *See also*: xref:red-hat-data-grid[Red Hat Data Grid]
 
-// Data Grid: Added "In Red Hat Data Grid, the"
 [[data-grid-console]]
 ==== image:images/yes.png[yes] Data Grid Console (noun)
 *Description*: In Red Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
@@ -58,7 +53,6 @@
 
 *See also*:
 
-// Data Grid: Added "In Red Hat Data Grid, the"
 [[data-grid-server]]
 ==== image:images/yes.png[yes] Data Grid Server (noun)
 *Description*: In Red Hat Data Grid, the _Data Grid Server_ is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a "Data Grid Server" instance.
@@ -81,7 +75,6 @@
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[data-model]]
 ==== image:images/yes.png[yes] data model (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
@@ -93,7 +86,6 @@
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[data-modeler]]
 ==== image:images/yes.png[yes] Data Modeler (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
@@ -116,7 +108,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[datasource]]
 ==== image:images/yes.png[yes] datasource subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _datasource subsystem_ is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the `datasource` subsystem in titles and headings.
@@ -150,7 +141,6 @@
 
 *See also*: xref:debug-adj[debug (adjective)]
 
-// BxMS: General; kept as is
 [[decision-table]]
 ==== image:images/yes.png[yes] decision table (noun)
 *Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat JBoss BRMS user interface.
@@ -162,7 +152,6 @@
 
 *See also*:
 
-// BxMS: General; kept as is
 [[decision-tree]]
 ==== image:images/yes.png[yes] decision tree (noun)
 *Description*: A _decision tree_ is a graphical representation of a decision model in a tree-like manner.
@@ -174,7 +163,6 @@
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, delivery is"
 [[delivery]]
 ==== image:images/yes.png[yes] delivery (noun)
 *Description*: In Red Hat AMQ, _delivery_ is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
@@ -208,7 +196,6 @@
 
 *See also*: xref:denial-of-service-n[denial of service (noun)]
 
-// OCP: Added "In Red Hat OpenShift, a deployment is"
 [[deployment]]
 ==== image:images/yes.png[yes] deployment (noun)
 *Description*: In Red Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
@@ -222,7 +209,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[deployment-scanner]]
 ==== image:images/yes.png[yes] deployment-scanner subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
@@ -233,8 +219,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 *Incorrect forms*:
 
 *See also*:
-
-// Fuse: Removed "Design tab" entry (Breda)
 
 [[desktop-adj]]
 ==== image:images/yes.png[yes] desktop (adjective)
@@ -258,7 +242,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*: xref:desktop-adj[desktop (adjective)]
 
-// AMQ: General; kept as is
 [[destination]]
 ==== image:images/caution.png[with caution] destination (noun)
 *Description*: In JMS, this is a named location for messages, such as a queue or a topic. Clients use _destinations_ to specify the queue or topic from which to send or receive messages. Only use this term in the context of JMS. In all other instances, use _address_.
@@ -326,7 +309,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-// RHSSO: General; kept as is
 [[direct-grant]]
 ==== image:images/yes.png[yes] direct grant
 *Description*: A _direct grant_ is a way for a client to obtain an access token on behalf of a user through a REST invocation.
@@ -338,7 +320,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-// AMQ: General; kept as is
 [[direct-routed-messaging]]
 ==== image:images/yes.png[yes] direct routed messaging (noun)
 *Description*: A messaging configuration that uses routers only to deliver messages to destinations. This can also be called _routed messaging_.
@@ -350,7 +331,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-// OpenStack: Changed "The Red Hat OpenStack Platform (RHOSP) director" to "In Red Hat OpenStack Platform (RHOSP), director"
 [[director]]
 ==== image:images/yes.png[yes] director (noun)
 *Description*: In Red Hat OpenStack Platform (RHOSP), _director_ is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
@@ -362,7 +342,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-// RHDS: Added "In Red Hat Directory Server," and removed from later in the sentence
 [[directory-manager]]
 ==== image:images/yes.png[yes] Directory Manager (noun)
 *Description*: In Red Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
@@ -374,7 +353,6 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"; Lowercased entry to "directory server" and updated in description
 [[directory-server]]
 ==== image:images/yes.png[yes] directory server (noun)
 *Description*: In Red Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
@@ -387,7 +365,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*: xref:ldap[LDAP]
 
-// RHDS: General; kept as is; updated anchor
 [[directory-server-product]]
 ==== image:images/yes.png[yes] Directory Server (noun)
 *Description*: The short product name of _Red Hat Directory Server_. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
@@ -434,7 +411,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// AMQ: General; kept as is
 [[dispatch-router]]
 ==== image:images/caution.png[with caution] Dispatch Router (noun)
 *Description*: The upstream component for AMQ Interconnect (link:https://qpid.apache.org/components/dispatch-router/[Apache Qpid Dispatch Router]). When referring to "AMQ Interconnect", always use the "Red Hat" product name.
@@ -446,7 +422,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*: xref:amq-interconnect[AMQ Interconnect]
 
-// RHDS: General; kept as is
 [[distinguished-name]]
 ==== image:images/yes.png[yes] distinguished name (noun)
 *Description*: A _distinguished name (DN)_ is a sequence of relative distinguished names (RDN) connected by commas. A DN defines the unique location of an entry in the LDAP directory. Use "distinguished name" on the first usage and then the abbreviation "DN" subsequently.
@@ -480,7 +455,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// RHEL: General; kept as is
 [[dns-ptr-records]]
 ==== image:images/yes.png[yes] DNS PTR records (noun)
 *Description*: _DNS pointer records (PTR)_ resolve an IP address of a host to a domain or host name. PTR records are the opposite of DNS A and AAAA records, which resolve host names to IP addresses. DNS PTR records enable reverse DNS lookups. PTR records are stored on the DNS server.
@@ -492,7 +466,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// RHEL: General; kept as is
 [[dns-srv-records]]
 ==== image:images/yes.png[yes] DNS SRV records (noun)
 *Description*: A _DNS service (SRV)_ record defines the hostname, port number, transport protocol, priority and weight of a service available in a domain. You can use SRV records to locate IdM servers and replicas.
@@ -504,7 +477,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// OCP: General; kept as is
 [[dockerfile]]
 ==== image:images/yes.png[yes] Dockerfile (noun)
 *Description*: Docker can build images automatically by reading the instructions from a Dockerfile. A _Dockerfile_ is a text document that contains all the commands you would normally execute manually in order to build a Docker image.
@@ -516,7 +488,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[domain-controller]]
 ==== image:images/yes.png[yes] domain controller (noun)
 *Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
@@ -528,7 +499,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[domain-mode]]
 ==== image:images/no.png[no] domain mode (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the xref:managed-domain[managed domain] entry.
@@ -595,7 +565,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*: xref:downstream-adj[downstream (adjective)], xref:upstream-adj[upstream (adjective)], xref:upstream-n[upstream (noun)]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[drl]]
 ==== image:images/yes.png[yes] DRL (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
@@ -607,7 +576,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// BxMS: General; kept as is
 [[drools-expert]]
 ==== image:images/yes.png[yes] Drools Expert (noun)
 *Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
@@ -619,7 +587,6 @@ Red Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[dsl]]
 ==== image:images/yes.png[yes] DSL (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.

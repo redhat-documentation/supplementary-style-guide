@@ -1,4 +1,3 @@
-// OCP: Added "In Red Hat OpenShift, labels are"
 [[label]]
 ==== image:images/yes.png[yes] label (noun)
 *Description*: In Red Hat OpenShift, _labels_ are objects used to organize, group, or select API objects. For example, pods are tagged with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
@@ -32,8 +31,6 @@
 
 *See also*: xref:bandwidth[bandwidth]
 
-// RHEL: Duplicate entry with RHDS; kept RHDS entry
-// RHDS: General; kept as is
 [[ldap]]
 ==== image:images/yes.png[yes] LDAP (noun)
 *Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
@@ -45,7 +42,6 @@
 
 *See also*: xref:ldaps[LDAPS], xref:starttls[STARTTLS]
 
-// RHDS: General; kept as is
 [[ldaps]]
 ==== image:images/yes.png[yes] LDAPS (noun)
 *Description*: The Lightweight Directory Access Protocol over Secure Socket Layer (_LDAPS_) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on first use.
@@ -57,7 +53,6 @@
 
 *See also*: xref:ldap[LDAP], xref:starttls[STARTTLS]
 
-// Ceph: Added "In Red Hat Ceph Storage, librados is"
 [[librados]]
 ==== image:images/yes.png[yes] librados (noun)
 *Description*: In Red Hat Ceph Storage, _librados_ is a shared library allowing applications to access the RADOS object store.
@@ -69,7 +64,6 @@
 
 *See also*: xref:rados[RADOS]
 
-// Ceph: Added "In Red Hat Ceph Storage, librbd is"
 [[librbd]]
 ==== image:images/yes.png[yes] librbd (noun)
 *Description*: In Red Hat Ceph Storage, _librbd_ is a shared library allowing applications to access Ceph Block Devices.
@@ -92,7 +86,6 @@
 
 *See also*:  xref:kvm[KVM]
 
-// RHEL: General; kept as is
 [[lightweight-sub-ca]]
 ==== image:images/yes.png[yes] lightweight sub-CA (noun)
 *Description*: In IdM, a _lightweight sub-CA_ is a certificate authority (CA) whose certificate is signed by an IdM root CA or one of the CAs that are subordinate to it. A lightweight sub-CA issues certificates only for a specific purpose, for example to secure a VPN or HTTP connection.
@@ -104,7 +97,6 @@
 
 *See also*: xref:certificate-authority[certificate authority]
 
-// AMQ: Added "In Red Hat AMQ, a link is"
 [[link]]
 ==== image:images/yes.png[yes] link (noun)
 *Description*: In Red Hat AMQ, a _link_ is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
@@ -116,7 +108,6 @@
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, link routing is"
 [[link-routing]]
 ==== image:images/yes.png[yes] link routing (noun)
 *Description*: In Red Hat AMQ, _link routing_ is a routing mechanism in AMQ Interconnect. A link route is a set of links that represent a private message path between a sender and receiver. Link routes can traverse multiple brokers and routers. With link routing, a router makes a routing decision when it receives link-attach frames, and it enables the sender and receiver to use the full AMQP link protocol.
@@ -139,7 +130,6 @@
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, a listener is"
 [[listener]]
 ==== image:images/yes.png[yes] listener (noun)
 *Description*: In Red Hat AMQ, a _listener_ is a configurable entity for AMQ routers and messaging APIs. A listener defines a context for accepting multiple, incoming connections on a particular TCP address and port.
@@ -151,7 +141,6 @@
 
 *See also*: xref:connection[connection]
 
-// AMQ: Added "In Red Hat AMQ,"
 [[live-only]]
 ==== image:images/yes.png[yes] live-only (noun)
 *Description*: In Red Hat AMQ, _live-broker_ is a broker high availability policy for scaling down brokers. If a `live-only` broker is shut down, its messages and transaction state are copied to another live broker.
@@ -174,7 +163,6 @@
 
 *See also*:
 
-// EAP: General; kept as is
 [[load-balance]]
 ==== image:images/yes.png[yes] load balance (verb)
 *Description*: The compound verb "load balance" means to distribute processing requests among a set of servers.
@@ -197,7 +185,6 @@
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[logging]]
 ==== image:images/yes.png[yes] logging subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _logging subsystem_ is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
@@ -242,7 +229,6 @@
 
 *See also*:
 
-// RHV: General; kept as is
 [[lun]]
 ==== image:images/yes.png[yes] LUN (noun)
 *Description*: A _LUN_ (logical unit number) is a number used to identify a logical unit, which is a device addressed by the SCSI protocol, or Storage Area Network protocols which encapsulate SCSI, such as Fibre Channel or iSCSI.
