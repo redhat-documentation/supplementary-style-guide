@@ -361,7 +361,6 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 *See also*:
 
 // BxMS: General; kept as is
-<<<<<<< HEAD
 [[brms]]
 ==== image:images/yes.png[yes] Red Hat JBoss BRMS (noun)
 *Description*: _Red Hat JBoss BRMS_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). BRMS stands for Business Rules Management System. Organizations can use Red Hat JBoss BRMS to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
