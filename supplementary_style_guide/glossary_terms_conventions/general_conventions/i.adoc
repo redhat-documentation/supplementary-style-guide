@@ -579,7 +579,6 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 [[intel-64]]
 ==== image:images/yes.png[yes] Intel 64 (noun)
 *Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Use only in RHEL documentation.
-=======
 >>>>>>> 99dc3c6 (remove-obsolete-brms-refs updated doc)
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
