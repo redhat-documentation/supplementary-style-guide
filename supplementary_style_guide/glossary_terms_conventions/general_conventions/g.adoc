@@ -317,7 +317,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[guided-editor]]
 ==== image:images/yes.png[yes] guided editor (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
 
 *Use it*: yes
 

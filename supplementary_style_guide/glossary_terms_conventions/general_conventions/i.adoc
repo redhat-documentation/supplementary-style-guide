@@ -370,7 +370,7 @@ There is no functional difference between the first server that was installed an
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _inference engine_ is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _inference engine_ is a part of the Red Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
 
 *Use it*: yes
 
@@ -578,13 +578,21 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 [[intel-64]]
 ==== image:images/yes.png[yes] Intel 64 (noun)
+<<<<<<< HEAD
 *Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Use only in RHEL documentation.
+=======
+*Description*: The Intel 64-bit version of the x86 architecture. Use this format when referring to information that is exclusive to Intel processors. Only use in RHEL documentation.
+>>>>>>> 99dc3c6 (remove-obsolete-brms-refs updated doc)
 
 Cloud providers can use different formats of this term when using architectures. If you are documenting hard code, commands, or outputs, confer with your SME on the correct format for the specific use case.
 
 Example:
 
+<<<<<<< HEAD
 _This feature can run only on Intel 64 processors_
+=======
+_This feature can run on only Intel 64 processors_
+>>>>>>> 99dc3c6 (remove-obsolete-brms-refs updated doc)
 
 *Use it*: yes
 
@@ -596,7 +604,7 @@ _This feature can run only on Intel 64 processors_
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[intelligent-process-server]]
 ==== image:images/yes.png[yes] Intelligent Process Server (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
 
 *Use it*: yes
 

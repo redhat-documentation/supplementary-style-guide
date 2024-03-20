@@ -25,7 +25,7 @@
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[data-enumeration]]
 ==== image:images/yes.png[yes] data enumeration (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
 
 *Use it*: yes
 
@@ -84,7 +84,7 @@
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[data-model]]
 ==== image:images/yes.png[yes] data model (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
 
 *Use it*: yes
 
@@ -96,7 +96,7 @@
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[data-modeler]]
 ==== image:images/yes.png[yes] Data Modeler (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
 
 *Use it*: yes
 
@@ -153,7 +153,7 @@
 // BxMS: General; kept as is
 [[decision-table]]
 ==== image:images/yes.png[yes] decision table (noun)
-*Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat JBoss BRMS user interface.
+*Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat Decision Manager user interface.
 
 *Use it*: yes
 
@@ -598,7 +598,7 @@ Red Hat Directory Server conforms to LDAP standards.
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[drl]]
 ==== image:images/yes.png[yes] DRL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Decision Manager user interface. A DRL file contains one or more rules.
 
 *Use it*: yes
 
@@ -610,7 +610,7 @@ Red Hat Directory Server conforms to LDAP standards.
 // BxMS: General; kept as is
 [[drools-expert]]
 ==== image:images/yes.png[yes] Drools Expert (noun)
-*Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
+*Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat Decision Manager platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
 
 *Use it*: yes
 
@@ -622,7 +622,7 @@ Red Hat Directory Server conforms to LDAP standards.
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[dsl]]
 ==== image:images/yes.png[yes] DSL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
 
 *Use it*: yes
 

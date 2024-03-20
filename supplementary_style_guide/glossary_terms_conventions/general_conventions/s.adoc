@@ -87,7 +87,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[scorecard]]
 ==== image:images/yes.png[yes] Scorecard (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat Decision Manager supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
 
 *Use it*: yes
 

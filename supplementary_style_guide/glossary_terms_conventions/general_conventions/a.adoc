@@ -209,7 +209,10 @@ _This Operator is supported on AMD64 and ARM64 platforms._
 
 *Use it*: yes
 
+<<<<<<< HEAD
 [.vale-ignore]
+=======
+>>>>>>> 99dc3c6 (remove-obsolete-brms-refs updated doc)
 *Incorrect forms*:
 
 *See also*: xref:amd64[amd64]
@@ -516,7 +519,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 // BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite"
 [[asset]]
 ==== image:images/yes.png[yes] asset (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
+*Description*: In Red Hat Decision Manager and Red Hat Process Automation Manager, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
 
 *Use it*: yes
 
