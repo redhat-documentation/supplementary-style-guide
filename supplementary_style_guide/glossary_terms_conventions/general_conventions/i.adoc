@@ -583,7 +583,6 @@ Cloud providers can use different formats of this term when using architectures.
 
 Example:
 
-<<<<<<< HEAD
 _This feature can run only on Intel 64 processors_
 =======
 _This feature can run on only Intel 64 processors_
