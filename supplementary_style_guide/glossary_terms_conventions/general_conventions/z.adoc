@@ -9,7 +9,6 @@
 
 *See also*: xref:micro-release[micro release]
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[zone]]
 ==== image:images/yes.png[yes] zone (noun)
 *Description*: In Red Hat Ceph Storage, a _zone_ represents a physical location consisting of a Ceph Storage Cluster and nodes running the Ceph Object Gateway daemons.
@@ -21,7 +20,6 @@
 
 *See also*: xref:zone-group[zone group]
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[zone-group]]
 ==== image:images/yes.png[yes] zone group (noun)
 *Description*: In Red Hat Ceph Storage, a _zone group_ is a list of zones. A zone group always has one master zone, and can have multiple secondary zones. A realm has one master zone group, which manages users and metadata for the realm.

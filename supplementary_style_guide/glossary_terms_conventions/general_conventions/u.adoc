@@ -31,7 +31,6 @@
 
 *See also*:
 
-// OpenStack: Added "In Red Hat OpenStack Platform (RHOSP),"
 [[undercloud]]
 ==== image:images/yes.png[yes] undercloud (noun)
 *Description*: In Red Hat OpenStack Platform (RHOSP), the _undercloud_ is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
@@ -43,7 +42,6 @@
 
 *See also*: xref:overcloud[overcloud], xref:node[node]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[undertow]]
 ==== image:images/yes.png[yes] undertow subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the xref:webhttp-undertow[WebHTTP - Undertow] entry.
@@ -99,7 +97,6 @@
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[update]]
 ==== image:images/yes.png[yes] update (noun)
 *Description*: In Red Hat Enterprise Linux, sometimes called a software patch, an _update_ is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
@@ -111,8 +108,6 @@
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
-// Combined two entries into a single entry; removed the "for example, Upgrade the RHEL version" piece of the first description
 [[upgrade]]
 ==== image:images/yes.png[yes] upgrade (verb)
 *Description*: 1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. 2) In Red Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
@@ -190,7 +185,6 @@
 
 *See also*:
 
-// Fuse: General; kept as is; added "In Red Hat Fuse," to later sentence
 [[uri]]
 ==== image:images/yes.png[yes] URI (noun)
 *Description*: _URI_ is an initialism for "Uniform Resource Identifier". A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red Hat Fuse, Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
@@ -213,7 +207,6 @@
 
 *See also*:
 
-// Fuse: General; kept as is
 [[urn]]
 ==== image:images/yes.png[yes] URN (noun)
 *Description*: _URN_ is an initialism for "Uniform Resource Name". A _URN_ is a special URI that identifies, by name, a resource located in a specific namespace. A URN can be used to talk about a resource without implying its location or access details.
@@ -236,7 +229,6 @@
 
 *See also*:
 
-// RHSSO: Added "In Red Hat Single Sign-On, you can"
 [[user-federation-provider]]
 ==== image:images/yes.png[yes] user federation provider (noun)
 *Description*: In Red Hat Single Sign-On, you can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
@@ -259,7 +251,6 @@
 
 *See also*:
 
-// RHSSO: General; kept as is
 [[user-role-mapping]]
 ==== image:images/yes.png[yes] user role mapping (noun)
 *Description*: A _user role mapping_ defines a mapping between a role and a user. A user can be associated with zero or more roles. This role mapping information can be encapsulated into tokens and assertions so that applications can decide access permissions on various resources they manage.
@@ -282,7 +273,6 @@
 
 *See also*: xref:user-space-adj[user-space]
 
-// OCP: Added "In Red Hat OpenShift,"
 [[user-provisioned-infrastructure]]
 ==== image:images/yes.png[yes] user-provisioned infrastructure (noun)
 *Description*: In Red Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a _user-provisioned infrastructure_ installation.

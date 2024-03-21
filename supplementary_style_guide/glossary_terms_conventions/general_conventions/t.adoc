@@ -1,4 +1,3 @@
-// AMQ: Added "In Red Hat AMQ, a target is"
 [[target]]
 ==== image:images/yes.png[yes] target (noun)
 *Description*: In Red Hat AMQ, a _target_ is a message's destination. This is usually a queue or topic.
@@ -10,7 +9,6 @@
 
 *See also*: xref:source[source]
 
-// RHEL: Added "In Red Hat Enterprise Linux, the target kernel is"
 [[target-kernel]]
 ==== image:images/yes.png[yes] target kernel (noun)
 *Description*: In Red Hat Enterprise Linux, the _target kernel_ is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
@@ -22,7 +20,6 @@
 
 *See also*: xref:target-system[target system], xref:instrumentation-module[instrumentation module]
 
-// RHEL: Added "In Red Hat Enterprise Linux, the target system is"
 [[target-system]]
 ==== image:images/yes.png[yes] target system (noun)
 *Description*: In Red Hat Enterprise Linux, the _target system_ is the system in which the instrumentation module is being built from `SystemTap` scripts.
@@ -56,7 +53,6 @@
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift,"
 [[template]]
 ==== image:images/yes.png[yes] template (noun)
 *Description*: In Red Hat OpenShift, a _template_ describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
@@ -101,7 +97,6 @@
 
 *See also*:
 
-// RHSSO: General; removed RHSSO-specific sentence
 [[theme]]
 ==== image:images/yes.png[yes] theme (noun)
 *Description*: A _theme_ defines HTML templates and stylesheets that you can override as you require.
@@ -135,7 +130,6 @@
 
 *See also*:
 
-// RHEL: General; kept as is
 [[ticket-granting-ticket]]
 ==== image:images/yes.png[yes] ticket-granting ticket (noun)
 *Description*: After authenticating to a Kerberos Key Distribution Center (KDC), a user receives a _ticket-granting ticket (TGT)_, which is a temporary set of credentials that can be used to request access tickets to other services, such as websites and email.
@@ -192,8 +186,6 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 *See also*: xref:ttl[TTL], xref:time-to-live-n[time to live]
 
-// RHDS: Duplicated this entry so didn't include it, but incorporated its guidance to "Do not expand the abbreviation on first use."
-// Updated anchor to just "tls"
 [[tls]]
 ==== image:images/yes.png[yes] TLS (noun)
 *Description*: _TLS_ is an initialism for "Transport Layer Security (TLS)", and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on first use.
@@ -226,7 +218,6 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *See also*: xref:tls[TLS], xref:symmetric-encryption[symmetric encryption], xref:trusted-certificate-authority[trusted certificate authority]
 
-// AMQ: Added "In Red Hat AMQ, a topic is"
 [[topic]]
 ==== image:images/yes.png[yes] topic (noun)
 *Description*: In Red Hat AMQ, a _topic_ is a stored sequence of messages for read-only distribution.
@@ -249,7 +240,6 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 *See also*: xref:basically[basically]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[transactions]]
 ==== image:images/yes.png[yes] transactions subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _transactions subsystem_ is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the `transactions` subsystem in titles and headings.
@@ -285,7 +275,6 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *See also*: xref:tls[TLS]
 
-// EAP: General; kept as is
 [[truststore]]
 ==== image:images/yes.png[yes] truststore (noun)
 *Description*: A _truststore_ is a repository of trusted security certificates. Write in lowercase as one word. This is in contrast to a _keystore_, which stores private and self-certified certificates.
@@ -297,7 +286,6 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 *See also*: xref:keystore[keystore]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[truth-maintenance-system]]
 ==== image:images/yes.png[yes] truth maintenance system (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.

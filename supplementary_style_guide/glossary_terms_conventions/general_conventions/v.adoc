@@ -33,7 +33,6 @@ Use lowercase "v" and uppercase "CPU".
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift, a verb is"
 [[verb]]
 ==== image:images/yes.png[yes] verb (noun)
 *Description*: In Red Hat OpenShift, a _verb_ is a `get`, `list`, `create`, or `update` operation.
@@ -137,7 +136,6 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 *See also*: xref:virtual-floppy-disk[virtual floppy disk]
 
-// Azure: General; kept as is for the most part. Did have an Azure-specific sentence that I moved "In Microsoft Azure" to the beginning.
 [[vhd]]
 ==== image:images/yes.png[yes] virtual hard drive (noun)
 *Description*: A _virtual hard drive (VHD)_ is file format that represents a virtual hard disk drive (HDD). It contains elements typically found on a physical HDD, such as disk partitions and a file system, which in turn can contain files and folders. VHD files have the extension `.vhd`. In Microsoft Azure, VHD is the required image format for all virtual machine images. Do not use "virtual hard disk" as a synonym.

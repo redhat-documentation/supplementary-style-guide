@@ -48,7 +48,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[sar]]
 ==== image:images/yes.png[yes] sar subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _sar subsystem_ enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the `sar` subsystem in titles and headings.
@@ -60,7 +59,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// Satellite: Added "In Red Hat Satellite"
 [[satellite-server]]
 ==== image:images/yes.png[yes] Satellite Server (noun)
 *Description*: In Red Hat Satellite, _Satellite Server_ synchronizes the content from Red Hat Customer Portal and other sources, and provides lifecycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term "Satellite" is acceptable thereafter.
@@ -72,7 +70,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift, the scheduler is a" removed "Kubernetes master or OpenShift"
 [[scheduler]]
 ==== image:images/yes.png[yes] scheduler (noun)
 *Description*: In Red Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
@@ -84,7 +81,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[scorecard]]
 ==== image:images/yes.png[yes] Scorecard (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
@@ -129,7 +125,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[scrubbing]]
 ==== image:images/yes.png[yes] scrubbing (noun)
 *Description*: In Red Hat Ceph Storage, _scrubbing_ is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node.
@@ -141,7 +136,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[security-elytron]]
 ==== image:images/yes.png[yes] Security - Elytron (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the `elytron` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
@@ -153,7 +147,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:elytron[elytron]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed "in JBoss EAP" later on
 [[security]]
 ==== image:images/yes.png[yes] security subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the legacy security subsystem is called _security_. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy `security` subsystem in titles and headings.
@@ -165,7 +158,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[security-manager]]
 ==== image:images/yes.png[yes] security-manager subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _security-manager subsystem_ is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the `security-manager` subsystem in titles and headings.
@@ -210,7 +202,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, a sender is"
 [[sender]]
 ==== image:images/yes.png[yes] sender (noun)
 *Description*: In Red Hat AMQ, a _sender_ is a channel for sending messages to a target.
@@ -244,7 +235,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:server-cluster[server cluster]
 
-// OCP: Added "In Red Hat OpenShift,"
 [[service]]
 ==== image:images/yes.png[yes] service (noun)
 *Description*: In Red Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
@@ -256,7 +246,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// RHSSO: Added "In Red Hat Single Sign-On,"
 [[service-account]]
 ==== image:images/yes.png[yes] service account (noun)
 *Description*: In Red Hat Single Sign-On, each client has a built-in _service account_ to obtain an access token.
@@ -268,9 +257,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// RHSSO: Added "In Red Hat Single Sign-On,"
-// AMQ: Added "In Red Hat AMQ, a session is"
-// Combined entries into a single one; used "with caution" since one was "yes" and the other was "with caution"
 [[session]]
 ==== image:images/caution.png[with caution] session (noun)
 *Description*: 1) In Red Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
@@ -282,7 +268,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:connection[connection]
 
-// Data Grid: Added "In Red Hat Data Grid," and removed "Data Grid"
 [[session-externalization]]
 ==== image:images/yes.png[yes] session externalization (noun)
 *Description*: In Red Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
@@ -360,7 +345,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: https://www.redhat.com/en/about/brand/standards/history[Red Hat Brand Standards: Our history]
 
-// Ceph: General; kept as is
 [[shard-n]]
 ==== image:images/yes.png[yes] shard (noun)
 *Description*: A database _shard_ is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a shard or database shard. Each shard is held on a separate database server instance, to spread load.
@@ -372,7 +356,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:bucket-sharding[bucket sharding]
 
-// AMQ: Added "In Red Hat AMQ, a sharded queue is"
 [[sharded-queue]]
 ==== image:images/yes.png[yes] sharded queue (noun)
 *Description*: In Red Hat AMQ, a _sharded queue_ is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
@@ -449,7 +432,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:logical-topology[logical topology], xref:physical-topology[physical topology]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[singleton]]
 ==== image:images/yes.png[yes] singleton subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
@@ -472,7 +454,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift, SkyDNS is"
 [[skydns]]
 ==== image:images/yes.png[yes] SkyDNS (noun)
 *Description*: In Red Hat OpenShift 3.11, _SkyDNS_ is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.
@@ -484,7 +465,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
-// RHDS: General; added "In an LDAP replication environment,"
 [[slave]]
 ==== image:images/no.png[no] slave (noun)
 *Description*: In an LDAP replication environment, do not use "slave" to refer to a consumer or hub.
@@ -496,7 +476,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:consumer[consumer], xref:hub[hub]
 
-// AMQ: Added "In Red Hat AMQ,"
 [[slave-broker]]
 ==== image:images/yes.png[yes] slave broker (noun)
 *Description*: In Red Hat AMQ, in a master-slave group, _slave broker_ is the broker (or brokers) that takes over for the master broker to which it is linked.
@@ -508,7 +487,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:master-slave-group[master-slave group], xref:master-broker[master broker]
 
-// RHEL: General; kept as is
 [[smart-card]]
 ==== image:images/yes.png[yes] smart card (noun)
 *Description*: A _smart card_ is a removable device or card used to control access to a resource. They can be plastic credit card-sized cards with an embedded integrated circuit (IC) chip, small USB devices such as a Yubikey, or other similar devices. Smart cards can provide authentication by allowing users to connect a smart card to a host computer, and software on that host computer interacts with key material stored on the smart card to authenticate the user.
@@ -531,7 +509,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:nic[NIC], xref:vnic[vNIC]
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[snap]]
 ==== image:images/yes.png[yes] snap (noun)
 *Description*: In Red Hat Ceph Storage, a _snap_ is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
@@ -543,7 +520,6 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:snapshot-set[snapshot set]
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[snapshot-set]]
 ==== image:images/yes.png[yes] snapshot set (noun)
 *Description*: In Red Hat Ceph Storage, the _snapshot set_ stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
@@ -659,7 +635,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, source is"
 [[source]]
 ==== image:images/yes.png[yes] source (noun)
 *Description*: In Red Hat AMQ, _source_ is a message's named point of origin.
@@ -682,8 +657,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*: xref:spec-file[spec file], xref:rpm[RPM]
 
-// Fuse: Removed "Source tab" entry (Breda)
-
 [[source-navigator]]
 ==== image:images/yes.png[yes] Source-Navigator^TM^ (noun)
 *Description*: _Source-Navigator^TM^_ is a source code analysis tool and is a Red Hat trademark.
@@ -695,7 +668,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*:
 
-// OCP: General; kept as is
 [[source-to-image]]
 ==== image:images/yes.png[yes] Source-to-Image (S2I) (noun)
 *Description*: _Source-to-Image_ is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image.
@@ -729,7 +701,6 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*: xref:space[space]
 
-// OCP: Added "In Red Hat OpenShift,"
 [[spec]]
 ==== image:images/yes.png[yes] spec (noun)
 *Description*: In Red Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
@@ -778,7 +749,6 @@ _Update the `Pod` spec to reflect the changes._
 
 *See also*:
 
-// RHV: General; kept as is
 [[spice]]
 ==== image:images/yes.png[yes] SPICE (noun)
 *Description*: _SPICE_ stands for "Simple Protocol for Independent Computing Environments". It is a remote connection protocol for viewing a virtual machine in a graphical console from a remote client.
@@ -825,7 +795,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHDS: Duplicate of this entry so didn't include it; added TLS as a see also xref
 [[ssl]]
 ==== image:images/no.png[no] SSL (noun)
 *Description*: _SSL_ is an abbreviation for "Secure Sockets Layer", which is a protocol developed by Netscape for transmitting private documents over the internet. SSL uses a public key to encrypt data that is transferred over the SSL connection. The majority of web browsers support SSL. Many websites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with "https:" instead of "http:".
@@ -848,7 +817,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[sssd]]
 ==== image:images/yes.png[yes] SSSD (noun)
 *Description*: In Red Hat Enterprise Linux, the _System Security Services Daemon (SSSD)_ is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
@@ -860,7 +828,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[sssd-back-end]]
 ==== image:images/yes.png[yes] SSSD back end (noun)
 *Description*: In Red Hat Enterprise Linux, a _System Security Services Daemon (SSSD) back end_, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
@@ -883,7 +850,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[standalone-mode]]
 ==== image:images/no.png[no] standalone mode (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the xref:standalone-server[standalone server] entry.
@@ -895,7 +861,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:standalone-server[standalone server]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[standalone-server]]
 ==== image:images/yes.png[yes] standalone server (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
@@ -918,7 +883,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHDS: General; kept as is
 [[starttls]]
 ==== image:images/yes.png[yes] STARTTLS (noun)
 *Description*: When an LDAP client wants to use a TLS-encrypted connection after establishing a connection to the unencrypted LDAP port, the client sends the `STARTTLS` command.
@@ -941,7 +905,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHEL: General; kept as is
 [[static-delta]]
 ==== image:images/yes.png[yes] static-delta (noun)
 *Description*: Updates to OSTree images are always delta updates. In case of RHEL for Edge images, the TCP overhead can be higher than expected due to the updates to number of files. To avoid TCP overhead, you can generate _static-delta_ between specific commits, and send the update in a single connection. This optimization helps large deployments with constrained connectivity.
@@ -975,7 +938,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:session-persistence[session persistence]
 
-// AMQ: General; kept as is
 [[stomp]]
 ==== image:images/yes.png[yes] STOMP (noun)
 *Description*: _STOMP_ is an acronym for "Simple (or Streaming) Text Oriented Message Protocol". It is a text-oriented wire protocol that enables STOMP clients to communicate with STOMP brokers. AMQ Broker can accept connections from STOMP clients.
@@ -987,7 +949,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// OCS: Added "In Red Hat OpenShift Container Storage,"
 [[storage-class]]
 ==== image:images/yes.png[yes] storage class (noun)
 *Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), use _storage classes_ to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.
@@ -1076,7 +1037,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*: xref:entitlement[entitlement], xref:repository[repository]
 
-// Satellite: Added "In Red Hat Satellite"
 [[subscription-manifest]]
 ==== image:images/yes.png[yes] Subscription Manifest (noun)
 *Description*: In Red Hat Satellite, a _Subscription Manifest_ is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
@@ -1099,7 +1059,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHDS: General; kept as is
 [[suffix]]
 ==== image:images/yes.png[yes] suffix (noun)
 *Description*: The name of the entry at the top of the directory tree is called a _suffix_. In Red Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
@@ -1122,7 +1081,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// RHDS: General; kept as is
 [[supplier]]
 ==== image:images/yes.png[yes] supplier (noun)
 *Description*: In an LDAP replication environment, _suppliers_ send data to other servers.
@@ -1167,10 +1125,6 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 *See also*:
 
-// Fuse: General; kept as is
-// Fuse: Changed "Fuse Ignite" to "Fuse Online" (Breda)
-// Fuse: Added "Ignite" and "Fuse Ignite" to "Incorrect forms" (Breda)
-// Fuse: Changed "Fuse Ignite" to "Fuse Online" in "See also" (Breda)
 [[syndesis]]
 ==== image:images/yes.png[yes] Syndesis (noun)
 *Description*: _Syndesis_ is the community name for Fuse Online.

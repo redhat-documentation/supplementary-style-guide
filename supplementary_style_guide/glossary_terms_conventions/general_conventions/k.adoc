@@ -1,4 +1,3 @@
-// Satellite: General; kept as is
 [[katello]]
 ==== image:images/caution.png[with caution] Katello (noun)
 *Description*: The upstream project from which the subscription and repository management functions of Satellite Server are drawn. Use only when required to mention the upstream project.
@@ -54,7 +53,6 @@
 
 *See also*: xref:kerberize[kerberize]
 
-// RHEL: General; kept as is
 [[kerberos-authentication-indicators]]
 ==== image:images/yes.png[yes] Kerberos authentication indicators (noun)
 *Description*: _Authentication indicators_ are attached to Kerberos tickets and represent the initial authentication method used to acquire a ticket:
@@ -71,7 +69,6 @@
 
 *See also*:
 
-// RHEL: General; kept as is
 [[kerberos-keytab]]
 ==== image:images/yes.png[yes] Kerberos keytab (noun)
 *Description*: While a password is the default authentication method for a user, keytabs are the default authentication method for hosts and services. A _Kerberos keytab_ is a file that contains a list of Kerberos principals and their associated encryption keys, so a service can retrieve its own Kerberos key and verify a user’s identity. For example, every IdM client has an `/etc/krb5.keytab` file that stores information about the `host` principal, which represents the client machine in the Kerberos realm.
@@ -83,7 +80,6 @@
 
 *See also*: xref:kerberos-principal[Kerberos principal]
 
-// RHEL: General; kept as is
 [[kerberos-principal]]
 ==== image:images/yes.png[yes] Kerberos principal (noun)
 *Description*:  Unique _Kerberos principals_ identify each user, service, and host in a Kerberos realm. "Kerberos principals" adhere to the following naming conventions:
@@ -99,7 +95,6 @@
 
 *See also*: xref:kerberos-realm[Kerberos realm]
 
-// RHEL: General; kept as is
 [[kerberos-protocol]]
 ==== image:images/yes.png[yes] Kerberos protocol (noun)
 *Description*: _Kerberos_ is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography.
@@ -111,7 +106,6 @@
 
 *See also*:
 
-// RHEL: General; kept as is
 [[kerberos-realm]]
 ==== image:images/yes.png[yes] Kerberos realm (noun)
 *Description*: A _Kerberos realm_ encompasses all the principals managed by a Kerberos Key Distribution Center (KDC).
@@ -123,7 +117,6 @@
 
 *See also*: xref:idm-deployment[IdM deployment], xref:key-distribution-center[Key Distribution Center]
 
-// RHEL: General; kept as is
 [[kerberos-ticket-policies]]
 ==== image:images/yes.png[yes] Kerberos ticket policies (noun)
 *Description*: The _Kerberos Key Distribution Center (KDC)_ enforces ticket access control through connection policies, and manages the duration of Kerberos tickets through ticket lifecycle policies. For example, the default global ticket lifetime is one day, and the default global maximum renewal age is one week.
@@ -203,7 +196,6 @@ Do not capitalize the first letter.
 
 *See also*: xref:kernel[kernel], xref:kernel-space-n[kernel space]
 
-// RHEL: General; kept as is
 [[key-distribution-center]]
 ==== image:images/yes.png[yes] Key Distribution Center (noun)
 *Description*: The Kerberos _Key Distribution Center_ (KDC) is a service that acts as the central, trusted authority that manages Kerberos credential information. The KDC issues Kerberos tickets and ensures the authenticity of data originating from entities within the IdM network.
@@ -215,7 +207,6 @@ Do not capitalize the first letter.
 
 *See also*:
 
-// EAP: General; kept as is
 [[keystore]]
 ==== image:images/yes.png[yes] keystore (noun)
 *Description*: A _keystore_ is a repository for private and self-certified security certificates. Write in lowercase as one word. This is in contrast to a "truststore", which stores trusted security certificates.
@@ -238,7 +229,6 @@ Do not capitalize the first letter.
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[kie]]
 ==== image:images/yes.png[yes] KIE (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "KIE" is an abbreviation for "Knowledge Is Everything". _KIE_ is a knowledge solution for Red Hat JBoss BRMS and JBoss BPM Suite and is used for the generic parts of a unified API, such as building, deploying, and loading.
@@ -250,7 +240,6 @@ Do not capitalize the first letter.
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[kie-api]]
 ==== image:images/yes.png[yes] KIE API (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _KIE API_ is a knowledge-centric API, where rules and processes are first class citizens. "KIE" is used for the generic parts of unified API, such as building, deploying, and loading.
@@ -262,7 +251,6 @@ Do not capitalize the first letter.
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[kie-base]]
 ==== image:images/yes.png[yes] KIE base (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _KIE base_ is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started.
@@ -274,7 +262,6 @@ Do not capitalize the first letter.
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[kie-session]]
 ==== image:images/yes.png[yes] KIE session (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a _KIE session_ stores runtime data created from a KIE base. The name of the Java object is `KieSession`. After the KIE base is loaded, a session can be created to interact with the engine. The session can then be used to start new processes and signal events.
@@ -286,7 +273,6 @@ Do not capitalize the first letter.
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite," and reorganized the sentences
 [[kjar]]
 ==== image:images/yes.png[yes] KJAR (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _KJARs_ are simple jar files that include a descriptor for the KIE system to produce KieBase and KieSession. Red Hat JBoss BPM Suite provides a simplified and complete deployment mechanism that is based entirely on Apache Maven artifacts. The KJAR descriptor is represented as the `kmodule.xml` file.
@@ -309,7 +295,6 @@ Do not capitalize the first letter.
 
 *See also*: xref:knowledgebase[Knowledgebase]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[knowledge-store]]
 ==== image:images/yes.png[yes] knowledge store (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _knowledge store_ is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
@@ -332,7 +317,6 @@ Do not capitalize the first letter.
 
 *See also*: xref:knowledge-base[knowledge base]
 
-// OCP: Added "In Kubernetes, the kubelet is"
 [[kubelet]]
 ==== image:images/yes.png[yes] kubelet (noun)
 *Description*: In Kubernetes, the _kubelet_ is the agent that controls a Kubernetes node. Each node runs a `kubelet`, which handles starting and stopping containers on a node, based on the required state defined by the master.
@@ -355,7 +339,6 @@ Do not capitalize the first letter.
 
 *See also*: xref:openshift[OpenShift], xref:okd[OKD]
 
-// OCP: General; kept as is
 // TODO: This term is outdated anyway and should be removed in a future update
 [[kubernetes-master]]
 ==== image:images/yes.png[yes] Kubernetes master (noun)

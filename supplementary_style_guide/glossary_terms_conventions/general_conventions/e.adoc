@@ -1,4 +1,3 @@
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[ee]]
 ==== image:images/yes.png[yes] ee subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _ee subsystem_ is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the `ee` subsystem in titles and headings.
@@ -10,10 +9,6 @@
 
 *See also*:
 
-// Fuse: General; kept as is; but replaced "In Fuse tooling" later with "In Red Hat Fuse"
-// Fuse: Prefixed second sentence with "In Red Hat Fuse, an EIP is a" (Breda)
-// Fuse: Changed "Camel" to "Red Hat Fuse" (Breda)
-// Fuse: Removed the final sentence about the Palette (Breda)
 [[eip]]
 ==== image:images/yes.png[yes] EIP (noun)
 *Description*: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red Hat Fuse implements numerous patterns for asynchronous messaging.
@@ -25,7 +20,6 @@
 
 *See also*: xref:component[component]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[ejb3]]
 ==== image:images/yes.png[yes] ejb3 subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
@@ -55,7 +49,6 @@ Do not abbreviate any of the previously listed load balancer terms.
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[elytron]]
 ==== image:images/yes.png[yes] elytron subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the xref:security-elytron[Security - Elytron] entry.
@@ -91,9 +84,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-// OCP: General; kept as is
-// Fuse: Added "In Red Hat Fuse," and removed "In Camel"
-// Combined entries; moved to "with caution" since the Fuse one is with caution
 [[endpoint]]
 ==== image:images/caution.png[with caution] endpoint (noun)
 *Description*: 1) The servers that back a service. 2) In Red Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
@@ -149,7 +139,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-// RHSSO: General; kept as is and combined with other event entry
 [[event]]
 ==== image:images/yes.png[yes] event (noun)
 *Description*: 1) An _event_ is an action or occurrence detected by a program. Events can be user actions, such as clicking a mouse button or pressing a key, or system occurrences, such as running out of memory. 2) An event is an audit stream that administrators view and connect to.
@@ -214,7 +203,6 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform," and removed one of the "JBoss EAP" instances in the first sentence
 [[expansion-pack]]
 ==== image:images/yes.png[yes] Expansion Pack (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, _Expansion Pack_ is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.

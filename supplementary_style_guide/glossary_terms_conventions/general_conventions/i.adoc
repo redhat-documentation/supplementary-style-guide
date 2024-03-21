@@ -96,7 +96,6 @@
 
 *See also*: xref:ibm-linuxone[IBM® LinuxONE], xref:s390x[s390x]
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[id-mapping]]
 ==== image:images/yes.png[yes] ID mapping (noun)
 *Description*: In Red Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
@@ -112,7 +111,6 @@
 
 *See also*: xref:id-ranges[id ranges], xref:sssd[SSSD]
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[id-ranges]]
 ==== image:images/yes.png[yes] ID ranges (noun)
 *Description*: In Red Hat Enterprise Linux, an _ID range_ is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
@@ -135,7 +133,6 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 
 *See also*: xref:id-mapping[ID mapping]
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[id-views]]
 ==== image:images/yes.png[yes] ID views (noun)
 *Description*: In Red Hat Enterprise Linux, you can use _ID views_ to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
@@ -152,7 +149,6 @@ In an IdM-AD trust setup, the `Default Trust View` is an ID view applied to AD u
 
 *See also*: xref:posix-attributes[POSIX attributes]
 
-// OCP: General; kept as is
 [[identity]]
 ==== image:images/yes.png[yes] identity (noun)
 *Description*: _Identity_ refers to both the user name and the list of groups a user belongs to.
@@ -165,7 +161,6 @@ Capitalize it only when it starts a sentence.
 
 *See also*:
 
-// RHSSO: General; kept as is
 [[identity-provider]]
 ==== image:images/yes.png[yes] identity provider (noun)
 *Description*: An _identity provider (IDP)_ is a service that authenticates a user. Red Hat Single Sign-On is an IDP.
@@ -177,7 +172,6 @@ Capitalize it only when it starts a sentence.
 
 *See also*: xref:identity-provider-federation[identity provider federation], xref:identity-provider-mappers[identity provider mappers]
 
-// RHSSO: Added "In Red Hat Single Sign-On, you can" and removed a few other words
 [[identity-provider-federation]]
 ==== image:images/yes.png[yes] identity provider federation (noun)
 *Description*: In Red Hat Single Sign-On, you can delegate authentication to one or more IDPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.
@@ -189,7 +183,6 @@ Capitalize it only when it starts a sentence.
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers]
 
-// RHSSO: General; kept as is
 [[identity-provider-mappers]]
 ==== image:images/yes.png[yes] identity provider mappers (noun)
 *Description*: When doing IDP federation, you can map incoming tokens and assertions to user and session attributes, which you refer to as "identity provider mappers". This helps you propagate identity information from the external IDP to your client requesting authentication.
@@ -201,7 +194,6 @@ Capitalize it only when it starts a sentence.
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-federation[identity provider federation], xref:identity-token[identity token]
 
-// RHSSO: General; kept as is
 [[identity-token]]
 ==== image:images/yes.png[yes] identity token (noun)
 *Description*: An _identity token_ provides identity information about the user and is part of the OpenID Connect specification.
@@ -213,7 +205,6 @@ Capitalize it only when it starts a sentence.
 
 *See also*: xref:identity-provider[identity provider], xref:identity-provider-mappers[identity provider mappers], xref:identity-provider-federation[identity provider federation]
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[idm-ca-renewal-server]]
 ==== image:images/yes.png[yes] IdM CA renewal server (noun)
 *Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the _IdM CA renewal server_. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.
@@ -225,7 +216,6 @@ Capitalize it only when it starts a sentence.
 
 *See also*: xref:certificate-authority[certificate authority]
 
-// RHEL: Added "In Red Hat Enterprise Linux, an IdM CA server is"
 [[idm-ca-server]]
 ==== image:images/yes.png[yes] IdM CA server (noun)
 *Description*: In Red Hat Enterprise Linux, an _IdM CA server_ is an IdM server on which the IdM certificate authority (CA) service is installed and running.
@@ -239,7 +229,6 @@ Alternative names: *CA server*
 
 *See also*: xref:certificate-authority[certificate authority]
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[idm-crl-publisher-server]]
 ==== image:images/yes.png[yes] IdM CRL publisher server (noun)
 *Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an _IdM CRL publisher server_ and is responsible for maintaining the CRL. By default, the server that fulfills the `CA renewal server` role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.
@@ -251,7 +240,6 @@ Alternative names: *CA server*
 
 *See also*: xref:idm-ca-renewal-server[IdM CA renewal server], xref:certificate-authority[certificate authority]
 
-// RHEL: Added "In Red Hat Enterprise Linux, IdM deployment is"
 [[idm-deployment]]
 ==== image:images/yes.png[yes] IdM deployment (noun)
 *Description*: In Red Hat Enterprise Linux, _IdM deployment_ is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
@@ -268,7 +256,6 @@ Alternative names: *CA server*
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[idm-server-and-replicas]]
 ==== image:images/yes.png[yes] IdM server and replicas (noun)
 *Description*: In Red Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the `ipa-server-install` command.
@@ -284,7 +271,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux, IdM topology is"
 [[idm-topology]]
 ==== image:images/yes.png[yes] IdM topology (noun)
 *Description*: In Red Hat Enterprise Linux, _IdM topology_ is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
@@ -296,7 +282,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[iiop-openjdk]]
 ==== image:images/yes.png[yes] iiop-openjdk subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _iiop-openjdk subsystem_ is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the `iiop-openjdk` subsystem in titles and headings.
@@ -308,7 +293,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-// OCP: General; kept as is
 [[image]]
 ==== image:images/yes.png[yes] image (noun)
 *Description*: An _image_ is a pre-built, binary file that contains all of the necessary components to run a single container; a container is the working instantiation of an image. Additionally, an image defines certain information about how to interact with containers created from the image, such as what ports are exposed by the container. OpenShift Container Platform uses the same image format as Docker; existing Docker images can easily be used to build containers through OpenShift Container Platform. Additionally, OpenShift Container Platform provides a number of ways to build images, either from a Dockerfile or directly from source hosted in a Git repository.
@@ -320,7 +304,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift, an image stream is"
 [[image-stream]]
 ==== image:images/yes.png[yes] image stream (noun)
 *Description*: In Red Hat OpenShift, an _image stream_ is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
@@ -343,7 +326,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"; Updated upgrade xref
 [[in-place-upgrade]]
 ==== image:images/yes.png[yes] in-place upgrade (noun)
 *Description*: In Red Hat Enterprise Linux, during an _in-place upgrade_, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
@@ -355,7 +337,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*: xref:upgrade[upgrade], xref:clean-install[clean install]
 
-// Ceph: General; kept as is
 [[indexless-bucket]]
 ==== image:images/yes.png[yes] indexless bucket (noun)
 *Description*: An _indexless bucket_ is a bucket that does not maintain an index.
@@ -367,7 +348,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*: xref:bucket-index[bucket index]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _inference engine_ is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
@@ -390,7 +370,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-// Data Grid: General; kept as is
 [[infinispan]]
 ==== image:images/yes.png[yes] Infinispan (noun)
 *Description*: _Infinispan_ is the open-source, community project on which Red Hat Data Grid is built.
@@ -426,7 +405,6 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 
 *See also*:
 
-// OCP: General; kept as is
 [[init-container]]
 ==== image:images/yes.png[yes] init container (noun)
 *Description*: An _init container_ is a container that you can use to reorganize configuration scripts and binding code. An init container differs from a regular container in that it always runs to completion. Each init container must complete successfully before the next one is started. A pod can have init containers in addition to application containers.
@@ -483,7 +461,6 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *See also*:
 
-// OCP: Added "In Red Hat OpenShift,"
 [[installer-provisioned-infrastructure]]
 ==== image:images/yes.png[yes] installer-provisioned infrastructure (noun)
 *Description*: In Red Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an _installer-provisioned infrastructure_ installation.
@@ -495,7 +472,6 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *See also*:
 
-// OpenStack: Added "In Red Hat OpenStack Platform"
 [[instance]]
 ==== image:images/yes.png[yes] instance (noun)
 *Description*: In Red Hat OpenStack Platform, an _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
@@ -507,7 +483,6 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
 [[instrumentation-module]]
 ==== image:images/yes.png[yes] instrumentation module (noun)
 *Description*: In Red Hat Enterprise Linux, an _instrumentation module_ is the kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system and will be loaded on the target kernel of the target system.
@@ -519,8 +494,6 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 *See also*: xref:host-system[host system], xref:target-kernel[target kernel], xref:target-system[target system]
 
-// Fuse: Added "In Red Hat Fuse," and removed "in Fuse Ignite"
-// Fuse: Changed "Red Hat Fuse" to "Red Hat Fuse Online" (Breda)
 [[integration]]
 ==== image:images/yes.png[yes] integration (noun)
 *Description*: In Red Hat Fuse Online, an _integration_ is a Camel route created.
@@ -593,7 +566,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*:
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[intelligent-process-server]]
 ==== image:images/yes.png[yes] Intelligent Process Server (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
@@ -637,7 +609,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*: xref:shebang[shebang], xref:hashbang[hashbang]
 
-// RHEL: Added "In Red Hat Enterprise Linux, an inventory is"
 [[inventory]]
 ==== image:images/yes.png[yes] inventory (noun)
 *Description*: In Red Hat Enterprise Linux, an _inventory_ is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
@@ -649,7 +620,6 @@ _This feature can run only on Intel 64 processors_
 
 *See also*: xref:managed-nodes[managed nodes]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
 [[io]]
 ==== image:images/yes.png[yes] io subsystem (noun)
 *Description*: In Red Hat JBoss Enterprise Application Platform, the _io subsystem_ is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the `io` subsystem in titles and headings.

@@ -1,4 +1,3 @@
-// Satellite: General; kept as is
 [[facter]]
 ==== image:images/yes.png[yes] Facter (noun)
 *Description*: _Facter_ is the Puppet system inventory tool.
@@ -58,7 +57,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*: xref:fault-tolerance-n[fault tolerance]
 
-// Ceph: Already had "In Red Hat Ceph Storage", kept version since am unsure if it's specific to that
 [[federated]]
 ==== image:images/yes.png[yes] federated (adjective)
 *Description*: In Red Hat Ceph Storage 1.3, you can configure the Ceph Object Gateway to participate in a _federated_ architecture with multiple regions and with multiple zones for a region.
@@ -82,7 +80,6 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*:
 
-// Ceph: Added "In Red Hat Ceph Storage,"
 [[filestore]]
 ==== image:images/yes.png[yes] FileStore (noun)
 *Description*: In Red Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
@@ -162,7 +159,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-// Satellite: General; kept as is
 [[foreman]]
 ==== image:images/caution.png[with caution] Foreman (noun)
 *Description*: The upstream project from which the provisioning and life cycle management functions of Satellite Server are drawn. Use only when required to mention the upstream project.
@@ -196,7 +192,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-// RHEL: General; kept as is
 [[fully-qualified-domain-name]]
 ==== image:images/yes.png[yes] fully qualified domain name (noun)
 *Description*: A _fully qualified domain name (FQDN)_ is a domain name that specifies the exact location of a host within the hierarchy of the Domain Name System (DNS). A device with the hostname `myhost` in the parent domain `example.com` has the FQDN `myhost.example.com`. The FQDN uniquely distinguishes the device from any other hosts called `myhost` in other domains.
@@ -208,10 +203,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*:
 
-// Fuse: General; kept as is
-// Fuse: Changed "Fuse Ignite" to "Fuse Online" and changed description (Breda)
-// Fuse: Added "Fuse Ignite" to incorrect forms (Breda)
-// Fuse: Added xref to "Red Hat Fuse Online" (Breda)
 [[fuse-online]]
 ==== image:images/yes.png[yes] Fuse Online (noun)
 *Description*: _Fuse Online_ is the short product name for "Red Hat Fuse Online".
@@ -223,9 +214,6 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 *See also*: xref:syndesis[Syndesis], xref:red-hat-fuse-online[Red Hat Fuse Online]
 
-// Fuse: Removed entry for "Fuse tooling" (Breda)
-
-// Fuse: Added "In Red Hat Fuse, FUSE_HOME specifies the"
 [[fuse-home]]
 ==== image:images/yes.png[yes] FUSE_HOME (noun)
 *Description*: In Red Hat Fuse, _FUSE_HOME_ specifies the Fuse installation directory. Use this when describing which directory to use.

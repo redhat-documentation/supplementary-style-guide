@@ -232,7 +232,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-// RHEL: General; kept as is
 [[greenboot]]
 ==== image:images/yes.png[yes] greenboot (noun)
 *Description*: Refer to the Generic Health Check Framework for `systemd` on `rpm-ostree` based systems as _greenboot_.
@@ -244,7 +243,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-// RHSSO: Added "In Red Hat Single Sign-On,"
 [[group]]
 ==== image:images/yes.png[yes] group (noun)
 *Description*: In Red Hat Single Sign-On, a _group_ manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings in the group's definition.
@@ -267,7 +265,6 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 *See also*:
 
-// RHEL: General; kept as is
 [[gssapi]]
 ==== image:images/yes.png[yes] GSSAPI (noun)
 *Description*: _GSSAPI_ (or _GSS-API_) is an abbreviation for "Generic Security Service Application Program Interface". Developers use GSSAPI to abstract how their applications protect data sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.
@@ -314,7 +311,6 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 *See also*: xref:libvirt[libvirt]
 
-// BxMS: Added "In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite,"
 [[guided-editor]]
 ==== image:images/yes.png[yes] guided editor (noun)
 *Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
