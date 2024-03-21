@@ -50,7 +50,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[sar]]
 ==== image:images/yes.png[yes] sar subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _sar subsystem_ enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the `sar` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _sar subsystem_ enables deployment of SAR archives containing MBean services. In general text, write in lowercase as one word. Use "SAR subsystem" when referring to the `sar` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -61,7 +61,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[satellite-server]]
 ==== image:images/yes.png[yes] Satellite Server (noun)
-*Description*: In Red Hat Satellite, _Satellite Server_ synchronizes the content from Red Hat Customer Portal and other sources, and provides lifecycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term "Satellite" is acceptable thereafter.
+*Description*: In Red{nbsp}Hat Satellite, _Satellite Server_ synchronizes the content from Red{nbsp}Hat Customer Portal and other sources, and provides lifecycle management, user and group role-based access control, integrated subscription management, as well as GUI, CLI, and API access. It is the core component of Red{nbsp}Hat Satellite, the systems management tool for Linux-based infrastructure. Use the two-word name on first use in a section; the single term "Satellite" is acceptable thereafter.
 
 *Use it*: yes
 
@@ -72,7 +72,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[scheduler]]
 ==== image:images/yes.png[yes] scheduler (noun)
-*Description*: In Red Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
+*Description*: In Red{nbsp}Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
 
 *Use it*: yes
 
@@ -83,7 +83,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[scorecard]]
 ==== image:images/yes.png[yes] Scorecard (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _Scorecard_ is a risk management tool that is a graphical representation of a formula used to calculate an overall score. It is mostly used by financial institutions or banks to calculate the risk they can take to sell a product in the market. It can predict the likelihood or probability of a certain outcome. Red{nbsp}Hat JBoss BRMS supports additive scorecards that calculates an overall score by adding all partial scores assigned to individual rule conditions.
 
 *Use it*: yes
 
@@ -127,7 +127,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[scrubbing]]
 ==== image:images/yes.png[yes] scrubbing (noun)
-*Description*: In Red Hat Ceph Storage, _scrubbing_ is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node.
+*Description*: In Red{nbsp}Hat Ceph Storage, _scrubbing_ is a process when Ceph OSD Daemons compare object metadata in one placement group with its replicas in placement groups stored on other OSD node.
 
 *Use it*: yes
 
@@ -138,7 +138,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[security-elytron]]
 ==== image:images/yes.png[yes] Security - Elytron (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the `elytron` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the `elytron` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
 
 *Use it*: yes
 
@@ -149,7 +149,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[security]]
 ==== image:images/yes.png[yes] security subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the legacy security subsystem is called _security_. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy `security` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the legacy security subsystem is called _security_. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy `security` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -160,7 +160,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[security-manager]]
 ==== image:images/yes.png[yes] security-manager subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _security-manager subsystem_ is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the `security-manager` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _security-manager subsystem_ is used to configure security policies used by the Java Security Manager. In general text, write in lowercase as two words separated by a hyphen. Use "Security Manager subsystem" when referring to the `security-manager` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -171,7 +171,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[see]]
 ==== image:images/yes.png[yes] see (verb)
-*Description*: Use "see" to refer readers to another resource, for example, "For more information, see the _Red Hat Enterprise Linux Installation Guide_." Avoid using "refer to" in this context.
+*Description*: Use "see" to refer readers to another resource, for example, "For more information, see the _Red{nbsp}Hat Enterprise Linux Installation Guide_." Avoid using "refer to" in this context.
 
 *Use it*: yes
 
@@ -204,7 +204,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[sender]]
 ==== image:images/yes.png[yes] sender (noun)
-*Description*: In Red Hat AMQ, a _sender_ is a channel for sending messages to a target.
+*Description*: In Red{nbsp}Hat AMQ, a _sender_ is a channel for sending messages to a target.
 
 *Use it*: yes
 
@@ -237,7 +237,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[service]]
 ==== image:images/yes.png[yes] service (noun)
-*Description*: In Red Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
+*Description*: In Red{nbsp}Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
 
 *Use it*: yes
 
@@ -248,7 +248,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[service-account]]
 ==== image:images/yes.png[yes] service account (noun)
-*Description*: In Red Hat Single Sign-On, each client has a built-in _service account_ to obtain an access token.
+*Description*: In Red{nbsp}Hat Single Sign-On, each client has a built-in _service account_ to obtain an access token.
 
 *Use it*: yes
 
@@ -259,7 +259,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[session]]
 ==== image:images/caution.png[with caution] session (noun)
-*Description*: 1) In Red Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
+*Description*: 1) In Red{nbsp}Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red{nbsp}Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
 
 *Use it*: with caution
 
@@ -270,7 +270,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[session-externalization]]
 ==== image:images/yes.png[yes] session externalization (noun)
-*Description*: In Red Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
+*Description*: In Red{nbsp}Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
 
 *Use it*: yes
 
@@ -336,14 +336,14 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[shadowman]]
 ==== image:images/yes.png[yes] Shadowman (noun)
-*Description*: _Shadowman_ is a Red Hat corporate logo and is a trademark of Red Hat, Inc., registered in the United States and other countries.
+*Description*: _Shadowman_ is a Red{nbsp}Hat corporate logo and is a trademark of Red{nbsp}Hat, Inc., registered in the United States and other countries.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: Shadow Man, ShadowMan
 
-*See also*: https://www.redhat.com/en/about/brand/standards/history[Red Hat Brand Standards: Our history]
+*See also*: https://www.redhat.com/en/about/brand/standards/history[Red{nbsp}Hat Brand Standards: Our history]
 
 [[shard-n]]
 ==== image:images/yes.png[yes] shard (noun)
@@ -358,7 +358,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[sharded-queue]]
 ==== image:images/yes.png[yes] sharded queue (noun)
-*Description*: In Red Hat AMQ, a _sharded queue_ is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
+*Description*: In Red{nbsp}Hat AMQ, a _sharded queue_ is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
 
 *Use it*: yes
 
@@ -434,7 +434,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[singleton]]
 ==== image:images/yes.png[yes] singleton subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -456,7 +456,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[skydns]]
 ==== image:images/yes.png[yes] SkyDNS (noun)
-*Description*: In Red Hat OpenShift 3.11, _SkyDNS_ is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.
+*Description*: In Red{nbsp}Hat OpenShift 3.11, _SkyDNS_ is a component that provides cluster-wide DNS resolution of internal hostnames for services and pods.
 
 *Use it*: yes
 
@@ -478,7 +478,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[slave-broker]]
 ==== image:images/yes.png[yes] slave broker (noun)
-*Description*: In Red Hat AMQ, in a master-slave group, _slave broker_ is the broker (or brokers) that takes over for the master broker to which it is linked.
+*Description*: In Red{nbsp}Hat AMQ, in a master-slave group, _slave broker_ is the broker (or brokers) that takes over for the master broker to which it is linked.
 
 *Use it*: yes
 
@@ -511,7 +511,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[snap]]
 ==== image:images/yes.png[yes] snap (noun)
-*Description*: In Red Hat Ceph Storage, a _snap_ is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
+*Description*: In Red{nbsp}Hat Ceph Storage, a _snap_ is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
 
 *Use it*: yes
 
@@ -522,7 +522,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[snapshot-set]]
 ==== image:images/yes.png[yes] snapshot set (noun)
-*Description*: In Red Hat Ceph Storage, the _snapshot set_ stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
+*Description*: In Red{nbsp}Hat Ceph Storage, the _snapshot set_ stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
 
 *Use it*: yes
 
@@ -637,7 +637,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 [[source]]
 ==== image:images/yes.png[yes] source (noun)
-*Description*: In Red Hat AMQ, _source_ is a message's named point of origin.
+*Description*: In Red{nbsp}Hat AMQ, _source_ is a message's named point of origin.
 
 *Use it*: yes
 
@@ -659,7 +659,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 [[source-navigator]]
 ==== image:images/yes.png[yes] Source-Navigator^TM^ (noun)
-*Description*: _Source-Navigator^TM^_ is a source code analysis tool and is a Red Hat trademark.
+*Description*: _Source-Navigator^TM^_ is a source code analysis tool and is a Red{nbsp}Hat trademark.
 
 *Use it*: yes
 
@@ -703,7 +703,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 [[spec]]
 ==== image:images/yes.png[yes] spec (noun)
-*Description*: In Red Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
+*Description*: In Red{nbsp}Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
 
 Example of correct usage:
 
@@ -819,7 +819,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[sssd]]
 ==== image:images/yes.png[yes] SSSD (noun)
-*Description*: In Red Hat Enterprise Linux, the _System Security Services Daemon (SSSD)_ is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
+*Description*: In Red{nbsp}Hat Enterprise Linux, the _System Security Services Daemon (SSSD)_ is a system service that manages user authentication and user authorization on a RHEL host. SSSD optionally keeps a cache of user identities and credentials retrieved from remote providers for offline authentication.
 
 *Use it*: yes
 
@@ -830,7 +830,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[sssd-back-end]]
 ==== image:images/yes.png[yes] SSSD back end (noun)
-*Description*: In Red Hat Enterprise Linux, a _System Security Services Daemon (SSSD) back end_, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _System Security Services Daemon (SSSD) back end_, often also called a data provider, is an SSSD child process that manages and creates the SSSD cache. This process communicates with an LDAP server, performs different lookup queries and stores the results in the cache. It also performs online authentication against LDAP or Kerberos and applies access and password policy to the user that is logging in.
 
 *Use it*: yes
 
@@ -852,7 +852,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[standalone-mode]]
 ==== image:images/no.png[no] standalone mode (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the xref:standalone-server[standalone server] entry.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the xref:standalone-server[standalone server] entry.
 
 *Use it*: no
 
@@ -863,7 +863,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[standalone-server]]
 ==== image:images/yes.png[yes] standalone server (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
 
 *Use it*: yes
 
@@ -951,7 +951,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[storage-class]]
 ==== image:images/yes.png[yes] storage class (noun)
-*Description*: In Red Hat OpenShift Data Foundation (formerly Red Hat OpenShift Container Storage), use _storage classes_ to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.
+*Description*: In Red{nbsp}Hat OpenShift Data Foundation (formerly Red{nbsp}Hat OpenShift Container Storage), use _storage classes_ to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.
 
 *Use it*: yes
 
@@ -1017,7 +1017,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[subpackage]]
 ==== image:images/yes.png[yes] subpackage (noun)
-*Description*: "Subpackage" has a specific, specialized meaning in Red Hat products. An RPM spec file can define more than one package; these additional packages are called _subpackages_. CCS strongly discourages any other use of "subpackage". Subpackages are not the same as dependencies; do not treat them as if they are.
+*Description*: "Subpackage" has a specific, specialized meaning in Red{nbsp}Hat products. An RPM spec file can define more than one package; these additional packages are called _subpackages_. CCS strongly discourages any other use of "subpackage". Subpackages are not the same as dependencies; do not treat them as if they are.
 
 *Use it*: yes
 
@@ -1028,7 +1028,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[subscription]]
 ==== image:images/yes.png[yes] subscription (noun)
-*Description*: _Subscriptions_ provide access to Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red Hat Network (RHN), where you subscribed to channels. Do not use "subscription" and "entitlement" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
+*Description*: _Subscriptions_ provide access to Red{nbsp}Hat products. Using Red{nbsp}Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with Red{nbsp}Hat Network (RHN), where you subscribed to channels. Do not use "subscription" and "entitlement" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
 
 *Use it*: yes
 
@@ -1039,7 +1039,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[subscription-manifest]]
 ==== image:images/yes.png[yes] Subscription Manifest (noun)
-*Description*: In Red Hat Satellite, a _Subscription Manifest_ is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
+*Description*: In Red{nbsp}Hat Satellite, a _Subscription Manifest_ is a mechanism for transferring subscriptions from Red{nbsp}Hat Customer Portal to Red{nbsp}Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
 
 *Use it*: yes
 
@@ -1061,7 +1061,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[suffix]]
 ==== image:images/yes.png[yes] suffix (noun)
-*Description*: The name of the entry at the top of the directory tree is called a _suffix_. In Red Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
+*Description*: The name of the entry at the top of the directory tree is called a _suffix_. In Red{nbsp}Hat Directory Server, an instance can store multiple suffixes, and each suffix has its own database.
 
 *Use it*: yes
 
@@ -1151,7 +1151,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 [[systemd]]
 ==== image:images/yes.png[yes] systemd (noun)
-*Description*: _Systemd_ is a system and service manager that is used as the default system daemon for Red Hat Enterprise Linux 7 and later.
+*Description*: _Systemd_ is a system and service manager that is used as the default system daemon for Red{nbsp}Hat Enterprise Linux 7 and later.
 
 *Use it*: yes
 

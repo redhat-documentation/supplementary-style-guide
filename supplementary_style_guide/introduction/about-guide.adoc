@@ -1,12 +1,12 @@
 = About this guide
 
-The style and language guidance in this guide overrides or supplements some guidance provided by the _IBM Style_ guide, which is the primary source of style guidance for link:https://www.redhat.com/[Red Hat] product and cross-product solution documentation.
+The style and language guidance in this guide overrides or supplements some guidance provided by the _IBM Style_ guide, which is the primary source of style guidance for link:https://www.redhat.com/[Red{nbsp}Hat] product and cross-product solution documentation.
 
 The Red{nbsp}Hat Customer Content Services team has created this guide to help ensure that Red{nbsp}Hat product documentation is clear, consistent, and cohesive. Upstream communities who want to align more closely with the standards used by Red{nbsp}Hat product documentation can also use this guide.
 
 [NOTE]
 ====
-Other Red Hat technical documentation, including Red Hat training and exam content by Global Learning Services (GLS), follows the link:https://stylepedia.net/[_Red Hat Technical Writing Style Guide_] instead of the _Red{nbsp}Hat supplementary style guide for product documentation_.
+Other Red{nbsp}Hat technical documentation, including Red{nbsp}Hat training and exam content by Global Learning Services (GLS), follows the link:https://stylepedia.net/[_Red{nbsp}Hat Technical Writing Style Guide_] instead of the _Red{nbsp}Hat supplementary style guide for product documentation_.
 ====
 
 == Using style guides for Red{nbsp}Hat product documentation
@@ -30,4 +30,4 @@ In addition to the _IBM Style_ guide and the _Red{nbsp}Hat supplementary style g
 
 == PDF version
 
-The _Red Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the link:https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf[latest version of the guide as a PDF] from the GitHub releases section of project's GitHub repository.
+The _Red{nbsp}Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the link:https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf[latest version of the guide as a PDF] from the GitHub releases section of project's GitHub repository.

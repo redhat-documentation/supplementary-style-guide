@@ -1,6 +1,6 @@
 [[target]]
 ==== image:images/yes.png[yes] target (noun)
-*Description*: In Red Hat AMQ, a _target_ is a message's destination. This is usually a queue or topic.
+*Description*: In Red{nbsp}Hat AMQ, a _target_ is a message's destination. This is usually a queue or topic.
 
 *Use it*: yes
 
@@ -11,7 +11,7 @@
 
 [[target-kernel]]
 ==== image:images/yes.png[yes] target kernel (noun)
-*Description*: In Red Hat Enterprise Linux, the _target kernel_ is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
+*Description*: In Red{nbsp}Hat Enterprise Linux, the _target kernel_ is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
 
 *Use it*: yes
 
@@ -22,7 +22,7 @@
 
 [[target-system]]
 ==== image:images/yes.png[yes] target system (noun)
-*Description*: In Red Hat Enterprise Linux, the _target system_ is the system in which the instrumentation module is being built from `SystemTap` scripts.
+*Description*: In Red{nbsp}Hat Enterprise Linux, the _target system_ is the system in which the instrumentation module is being built from `SystemTap` scripts.
 
 *Use it*: yes
 
@@ -55,7 +55,7 @@
 
 [[template]]
 ==== image:images/yes.png[yes] template (noun)
-*Description*: In Red Hat OpenShift, a _template_ describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
+*Description*: In Red{nbsp}Hat OpenShift, a _template_ describes a set of objects that can be parameterized and processed to produce a list of objects for creation by OpenShift Container Platform.
 
 *Use it*: yes
 
@@ -220,7 +220,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 [[topic]]
 ==== image:images/yes.png[yes] topic (noun)
-*Description*: In Red Hat AMQ, a _topic_ is a stored sequence of messages for read-only distribution.
+*Description*: In Red{nbsp}Hat AMQ, a _topic_ is a stored sequence of messages for read-only distribution.
 
 *Use it*: yes
 
@@ -242,7 +242,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 [[transactions]]
 ==== image:images/yes.png[yes] transactions subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _transactions subsystem_ is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the `transactions` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _transactions subsystem_ is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the `transactions` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -253,7 +253,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 [[trigger-directive]]
 ==== image:images/yes.png[yes] trigger directive (noun)
-*Description*: In Red Hat Enterprise Linux, a _trigger directive_ is a special form of a transaction scriptlet that runs conditionally when another specific package is installed or uninstalled.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _trigger directive_ is a special form of a transaction scriptlet that runs conditionally when another specific package is installed or uninstalled.
 
 *Use it*: yes
 
@@ -288,7 +288,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 [[truth-maintenance-system]]
 ==== image:images/yes.png[yes] truth maintenance system (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
 
 *Use it*: yes
 

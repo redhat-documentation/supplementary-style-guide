@@ -33,7 +33,7 @@
 
 [[weak-dependencies]]
 ==== image:images/yes.png[yes] Weak dependencies (noun)
-*Description*: In Red Hat Enterprise Linux, _Weak dependencies_ are variants of the `Requires` directive that describe dependencies that are not necessary for the package to work but are considered useful by the package author.
+*Description*: In Red{nbsp}Hat Enterprise Linux, _Weak dependencies_ are variants of the `Requires` directive that describe dependencies that are not necessary for the package to work but are considered useful by the package author.
 
 *Use it*: yes
 
@@ -65,7 +65,7 @@
 
 [[web-services]]
 ==== image:images/yes.png[yes] Web services (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
 
 *Use it*: yes
 
@@ -87,7 +87,7 @@
 
 [[webhttp-undertow]]
 ==== image:images/yes.png[yes] WebHTTP - Undertow (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the `undertow` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, use "WebHTTP - Undertow" when describing the `undertow` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "HTTP" is also in uppercase.
 
 *Use it*: yes
 
@@ -98,7 +98,7 @@
 
 [[webservices]]
 ==== image:images/yes.png[yes] webservices subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -109,7 +109,7 @@
 
 [[weld]]
 ==== image:images/yes.png[yes] weld subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _weld subsystem_ is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the `weld` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _weld subsystem_ is used to configure Contexts and Dependency Injection (CDI) functionality for JBoss EAP. Write in lowercase in general text. Use "Weld subsystem" when referring to the `weld` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -175,7 +175,7 @@
 
 [[working-memory]]
 ==== image:images/yes.png[yes] working memory (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
 
 *Use it*: yes
 

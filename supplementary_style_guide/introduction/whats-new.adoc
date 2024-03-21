@@ -8,7 +8,7 @@ Instructions:
 - Order entries alphabetically (not chronologically)
 ////
 
-Review the history of significant updates to the _Red Hat supplementary style guide for product documentation_.
+Review the history of significant updates to the _Red{nbsp}Hat supplementary style guide for product documentation_.
 
 [NOTE]
 ====
@@ -36,37 +36,37 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 === February 2024
 
 .Glossary entries
-* *Administration Portal*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Appliance console*: Removed glossary entry because Red Hat CloudForms support is ending
-* *collect*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Data Warehouse*: Removed glossary entry because Red Hat Virtualization support is ending
-* *details view*: Removed glossary entry because Red Hat Virtualization support is ending
-* *gather*: Removed glossary entry because Red Hat Virtualization support is ending
-* *header bar*: Removed glossary entry because Red Hat Virtualization support is ending
-* *host*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Manager virtual machine*: Removed glossary entry because Red Hat Virtualization support is ending
-* *MOM*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Monitoring Portal*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Red Hat CloudForms*: Removed glossary entry because Red Hat CloudForms support is ending
-* *Red Hat CloudForms Appliance*: Removed glossary entry because Red Hat CloudForms support is ending
-* *Red Hat CloudForms server*: Removed glossary entry because Red Hat CloudForms support is ending
-* *Red Hat Enterprise Linux host*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Red Hat Virtualization*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Red Hat Virtualization Host*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Red Hat Virtualization Manager*: Removed glossary entry because Red Hat Virtualization support is ending
-* *resource tab*: Removed glossary entry because Red Hat Virtualization support is ending
-* *results list*: Removed glossary entry because Red Hat Virtualization support is ending
-* *self-hosted engine*: Removed glossary entry because Red Hat Virtualization support is ending
-* *self-hosted engine node*: Removed glossary entry because Red Hat Virtualization support is ending
-* *SmartState analysis*: Removed glossary entry because Red Hat CloudForms support is ending
-* *sparse*: Removed glossary entry because Red Hat Virtualization support is ending
-* *sparsify*: Removed glossary entry because Red Hat Virtualization support is ending
-* *standalone Manager*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Storage Pool Manager*: Removed glossary entry because Red Hat Virtualization support is ending
-* *sub-version*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Virtual Management Database*: Removed glossary entry because Red Hat CloudForms support is ending
-* *VM Portal*: Removed glossary entry because Red Hat Virtualization support is ending
-* *Worker Appliance*: Removed glossary entry because Red Hat CloudForms support is ending
+* *Administration Portal*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Appliance console*: Removed glossary entry because Red{nbsp}Hat CloudForms support is ending
+* *collect*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Data Warehouse*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *details view*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *gather*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *header bar*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *host*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Manager virtual machine*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *MOM*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Monitoring Portal*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Red{nbsp}Hat CloudForms*: Removed glossary entry because Red{nbsp}Hat CloudForms support is ending
+* *Red{nbsp}Hat CloudForms Appliance*: Removed glossary entry because Red{nbsp}Hat CloudForms support is ending
+* *Red{nbsp}Hat CloudForms server*: Removed glossary entry because Red{nbsp}Hat CloudForms support is ending
+* *Red{nbsp}Hat Enterprise Linux host*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Red{nbsp}Hat Virtualization*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Red{nbsp}Hat Virtualization Host*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Red{nbsp}Hat Virtualization Manager*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *resource tab*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *results list*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *self-hosted engine*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *self-hosted engine node*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *SmartState analysis*: Removed glossary entry because Red{nbsp}Hat CloudForms support is ending
+* *sparse*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *sparsify*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *standalone Manager*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Storage Pool Manager*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *sub-version*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Virtual Management Database*: Removed glossary entry because Red{nbsp}Hat CloudForms support is ending
+* *VM Portal*: Removed glossary entry because Red{nbsp}Hat Virtualization support is ending
+* *Worker Appliance*: Removed glossary entry because Red{nbsp}Hat CloudForms support is ending
 
 .Style guidance
 * *xref:commands-in-code-blocks[Commands in code blocks]*: Added guidance to use bold formatting for commands in code blocks and to show only one command per code block
@@ -182,9 +182,9 @@ _No glossary or style updates._
 * *xref:ibm-linuxone[IBM® LinuxONE]*: Added glossary entry
 * *xref:ibm-power[IBM Power®]*: Added glossary entry
 * *xref:ibm-z[IBM Z®]*: Updated glossary entry
-* *xref:red-hat-build-openjdk[Red Hat build of OpenJDK]*: Added glossary entry
-* *xref:red-hat-java[Red Hat Java]*: Added glossary entry
-* *xref:red-hat-openjdk[Red Hat OpenJDK]*: Added glossary entry
+* *xref:red-hat-build-openjdk[Red{nbsp}Hat build of OpenJDK]*: Added glossary entry
+* *xref:red-hat-java[Red{nbsp}Hat Java]*: Added glossary entry
+* *xref:red-hat-openjdk[Red{nbsp}Hat OpenJDK]*: Added glossary entry
 * *xref:s390x[s390x]*: Added glossary entry
 
 .Style guidance

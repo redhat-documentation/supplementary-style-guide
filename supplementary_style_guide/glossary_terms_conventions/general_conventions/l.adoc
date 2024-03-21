@@ -1,6 +1,6 @@
 [[label]]
 ==== image:images/yes.png[yes] label (noun)
-*Description*: In Red Hat OpenShift, _labels_ are objects used to organize, group, or select API objects. For example, pods are tagged with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
+*Description*: In Red{nbsp}Hat OpenShift, _labels_ are objects used to organize, group, or select API objects. For example, pods are tagged with labels, and then services use label selectors to identify the pods they proxy to. This makes it possible for services to reference groups of pods, even treating pods with potentially different containers as related entities.
 
 *Use it*: yes
 
@@ -33,7 +33,7 @@
 
 [[ldap]]
 ==== image:images/yes.png[yes] LDAP (noun)
-*Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
+*Description*: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red{nbsp}Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
 
 *Use it*: yes
 
@@ -55,7 +55,7 @@
 
 [[librados]]
 ==== image:images/yes.png[yes] librados (noun)
-*Description*: In Red Hat Ceph Storage, _librados_ is a shared library allowing applications to access the RADOS object store.
+*Description*: In Red{nbsp}Hat Ceph Storage, _librados_ is a shared library allowing applications to access the RADOS object store.
 
 *Use it*: yes
 
@@ -66,7 +66,7 @@
 
 [[librbd]]
 ==== image:images/yes.png[yes] librbd (noun)
-*Description*: In Red Hat Ceph Storage, _librbd_ is a shared library allowing applications to access Ceph Block Devices.
+*Description*: In Red{nbsp}Hat Ceph Storage, _librbd_ is a shared library allowing applications to access Ceph Block Devices.
 
 *Use it*: yes
 
@@ -99,7 +99,7 @@
 
 [[link]]
 ==== image:images/yes.png[yes] link (noun)
-*Description*: In Red Hat AMQ, a _link_ is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
+*Description*: In Red{nbsp}Hat AMQ, a _link_ is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
 
 *Use it*: yes
 
@@ -110,7 +110,7 @@
 
 [[link-routing]]
 ==== image:images/yes.png[yes] link routing (noun)
-*Description*: In Red Hat AMQ, _link routing_ is a routing mechanism in AMQ Interconnect. A link route is a set of links that represent a private message path between a sender and receiver. Link routes can traverse multiple brokers and routers. With link routing, a router makes a routing decision when it receives link-attach frames, and it enables the sender and receiver to use the full AMQP link protocol.
+*Description*: In Red{nbsp}Hat AMQ, _link routing_ is a routing mechanism in AMQ Interconnect. A link route is a set of links that represent a private message path between a sender and receiver. Link routes can traverse multiple brokers and routers. With link routing, a router makes a routing decision when it receives link-attach frames, and it enables the sender and receiver to use the full AMQP link protocol.
 
 *Use it*: yes
 
@@ -132,7 +132,7 @@
 
 [[listener]]
 ==== image:images/yes.png[yes] listener (noun)
-*Description*: In Red Hat AMQ, a _listener_ is a configurable entity for AMQ routers and messaging APIs. A listener defines a context for accepting multiple, incoming connections on a particular TCP address and port.
+*Description*: In Red{nbsp}Hat AMQ, a _listener_ is a configurable entity for AMQ routers and messaging APIs. A listener defines a context for accepting multiple, incoming connections on a particular TCP address and port.
 
 *Use it*: yes
 
@@ -143,7 +143,7 @@
 
 [[live-only]]
 ==== image:images/yes.png[yes] live-only (noun)
-*Description*: In Red Hat AMQ, _live-broker_ is a broker high availability policy for scaling down brokers. If a `live-only` broker is shut down, its messages and transaction state are copied to another live broker.
+*Description*: In Red{nbsp}Hat AMQ, _live-broker_ is a broker high availability policy for scaling down brokers. If a `live-only` broker is shut down, its messages and transaction state are copied to another live broker.
 
 *Use it*: yes
 
@@ -187,7 +187,7 @@
 
 [[logging]]
 ==== image:images/yes.png[yes] logging subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _logging subsystem_ is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _logging subsystem_ is used to configure logging at the system and application levels. Write in lowercase in general text. Use "Logging subsystem" when referring to the logging subsystem in titles and headings.
 
 *Use it*: yes
 

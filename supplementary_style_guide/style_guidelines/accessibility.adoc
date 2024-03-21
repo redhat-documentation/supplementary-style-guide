@@ -2,7 +2,7 @@
 [[accessibility]]
 = Accessibility
 
-For full information about writing accessible content at Red Hat, see link:https://redhat-documentation.github.io/accessibility-guide/[_Getting started with accessibility for writers_].
+For full information about writing accessible content at Red{nbsp}Hat, see link:https://redhat-documentation.github.io/accessibility-guide/[_Getting started with accessibility for writers_].
 
 [[accessibility-visual-info]]
 == Colors and other visual information

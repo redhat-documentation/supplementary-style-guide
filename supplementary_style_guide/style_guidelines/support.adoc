@@ -8,7 +8,7 @@ Developer Preview software provides early access to a technology, component, or 
 
 [WARNING]
 ====
-Some products, such as Red Hat Openshift Container Platform, do not include Developer Preview content in the documentation. Check with your Content Strategist or Support contact to confirm whether you can publish Developer Preview documentation for your product.
+Some products, such as Red{nbsp}Hat Openshift Container Platform, do not include Developer Preview content in the documentation. Check with your Content Strategist or Support contact to confirm whether you can publish Developer Preview documentation for your product.
 ====
 
 When documenting a Developer Preview software, follow these guidelines:

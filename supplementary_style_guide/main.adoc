@@ -1,4 +1,4 @@
-= Red Hat supplementary style guide for product documentation
+= Red{nbsp}Hat supplementary style guide for product documentation
 :doctype: book
 :toc: left
 :toclevels: 3
@@ -22,7 +22,7 @@ These recommendations might override existing guidance in the _IBM Style_ guide,
 
 [NOTE]
 ====
-If applicable, these guidelines provide example formatting in AsciiDoc, which is the markup language that Red Hat Customer Content Services currently uses. However, the guidelines can be applied to any language.
+If applicable, these guidelines provide example formatting in AsciiDoc, which is the markup language that Red{nbsp}Hat Customer Content Services currently uses. However, the guidelines can be applied to any language.
 ====
 
 // Grammar and language
@@ -58,7 +58,7 @@ include::style_guidelines/accessibility.adoc[leveloffset=+2]
 [[glossary-terms-conventions]]
 == Glossary of terms and conventions
 
-This glossary is the central location for terms and conventions for technical language in Red Hat product documentation and other technical content.
+This glossary is the central location for terms and conventions for technical language in Red{nbsp}Hat product documentation and other technical content.
 
 === Word usage
 

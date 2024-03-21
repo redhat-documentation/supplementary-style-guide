@@ -1,6 +1,6 @@
 [[cache-manager]]
 ==== image:images/yes.png[yes] Cache Manager (noun)
-*Description*: In Red Hat Data Grid, _Cache Manager_ is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a "Cache Manager". When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
+*Description*: In Red{nbsp}Hat Data Grid, _Cache Manager_ is an interface that you can use to create caches and manage cache lifecycles. Always spell as two words with capital letters when you refer to the abstract notion of a "Cache Manager". When you refer to specific interfaces, such as `CacheManager`, `EmbeddedCacheManager`, or `RemoteCacheManager`, use the appropriate markup language.
 
 *Use it*: yes
 
@@ -11,7 +11,7 @@
 
 [[camel-context]]
 ==== image:images/caution.png[with caution] Camel context (noun)
-*Description*: In Red Hat Fuse, every _Camel application_ is based on a `CamelContext` object, which is the Camel runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it, such as components, endpoints, routes, data formats, languages, and registry. In the routing context `.xml` file, the object is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term "routing context" when talking about the application's `.xml/DSL` file or the file's routing rules.
+*Description*: In Red{nbsp}Hat Fuse, every _Camel application_ is based on a `CamelContext` object, which is the Camel runtime. The `CamelContext` object keeps track of and provides access to all services loaded in it, such as components, endpoints, routes, data formats, languages, and registry. In the routing context `.xml` file, the object is represented by the `<camelContext>` element, which encloses all `<route>` elements and their routing rules. In Camel DSL, `CamelContext` instantiates a new `DefaultCamelContext` in which to add and configure routes and their routing rules. Use only when referencing code (element or method), otherwise use the generic term "routing context" when talking about the application's `.xml/DSL` file or the file's routing rules.
 
 *Use it*: with caution
 
@@ -33,7 +33,7 @@
 
 [[capsule-server]]
 ==== image:images/yes.png[yes] Capsule Server (noun)
-*Description*: In Red Hat Satellite, _Capsule Server_ is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Write "Capsule Server" on first use. "Capsule" is acceptable after that.
+*Description*: In Red{nbsp}Hat Satellite, _Capsule Server_ is an additional server that acts as a proxy to the Satellite and can provide services such as DHCP, DNS, and TFTP. Write "Capsule Server" on first use. "Capsule" is acceptable after that.
 
 *Use it*: yes
 
@@ -67,7 +67,7 @@
 
 [[cd-one]]
 ==== image:images/yes.png[yes] CD #1 (noun)
-*Description*: When referring to a specific CD in the Red Hat Enterprise Linux CD set, it is correct to refer to it as "Red Hat Enterprise Linux CD #1". Avoid using "Red Hat Enterprise Linux CD 1".
+*Description*: When referring to a specific CD in the Red{nbsp}Hat Enterprise Linux CD set, it is correct to refer to it as "Red{nbsp}Hat Enterprise Linux CD #1". Avoid using "Red{nbsp}Hat Enterprise Linux CD 1".
 
 *Use it*: yes
 
@@ -107,22 +107,22 @@
 [.vale-ignore]
 *Incorrect forms*: CEPH, ceph
 
-*See also*: xref:red-hat-ceph-storage[Red Hat Ceph Storage], xref:ceph-command[ceph]
+*See also*: xref:red-hat-ceph-storage[Red{nbsp}Hat Ceph Storage], xref:ceph-command[ceph]
 
 [[ceph-command]]
 ==== image:images/yes.png[yes] ceph (noun)
-*Description*: In Red Hat Ceph Storage, `ceph` is the Ceph command-line utility. Always mark it correctly (`ceph`).
+*Description*: In Red{nbsp}Hat Ceph Storage, `ceph` is the Ceph command-line utility. Always mark it correctly (`ceph`).
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: CEPH
 
-*See also*: xref:ceph[Ceph], xref:red-hat-ceph-storage[Red Hat Ceph Storage]
+*See also*: xref:ceph[Ceph], xref:red-hat-ceph-storage[Red{nbsp}Hat Ceph Storage]
 
 [[ceph-block-device]]
 ==== image:images/yes.png[yes] Ceph Block Device (noun)
-*Description*: In Red Hat Ceph Storage, the _Ceph Block Device_ is the block storage component of Ceph. Also known as the _RADOS Block Device_, however the term "Ceph Block Device" is preferred.
+*Description*: In Red{nbsp}Hat Ceph Storage, the _Ceph Block Device_ is the block storage component of Ceph. Also known as the _RADOS Block Device_, however the term "Ceph Block Device" is preferred.
 
 *Use it*: yes
 
@@ -133,7 +133,7 @@
 
 [[ceph-file-system]]
 ==== image:images/yes.png[yes] Ceph File System (noun)
-*Description*: In Red Hat Ceph Storage, the _Ceph File System_ is the POSIX file system component of Ceph.
+*Description*: In Red{nbsp}Hat Ceph Storage, the _Ceph File System_ is the POSIX file system component of Ceph.
 
 *Use it*: yes
 
@@ -144,7 +144,7 @@
 
 [[ceph-monitor]]
 ==== image:images/yes.png[yes] Ceph Monitor (noun)
-*Description*: In Red Hat Ceph Storage, the _Ceph Monitor_ is a node where the `ceph-mon` daemon is running.
+*Description*: In Red{nbsp}Hat Ceph Storage, the _Ceph Monitor_ is a node where the `ceph-mon` daemon is running.
 
 *Use it*: yes
 
@@ -155,7 +155,7 @@
 
 [[ceph-object-gateway]]
 ==== image:images/yes.png[yes] Ceph Object Gateway (noun)
-*Description*: In Red Hat Ceph Storage, the _Ceph Object Gateway_ is the S3/Swift component. Also known as _RADOS gateway_. However, prefer using the "Ceph Object Gateway".
+*Description*: In Red{nbsp}Hat Ceph Storage, the _Ceph Object Gateway_ is the S3/Swift component. Also known as _RADOS gateway_. However, prefer using the "Ceph Object Gateway".
 
 *Use it*: yes
 
@@ -166,7 +166,7 @@
 
 [[ceph-ansible]]
 ==== image:images/yes.png[yes] ceph-ansible (noun)
-*Description*: In Red Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible Playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly: `ceph-ansible`.
+*Description*: In Red{nbsp}Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible Playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly: `ceph-ansible`.
 
 *Use it*: yes
 
@@ -178,7 +178,7 @@
 [[ceph-mds]]
 ==== image:images/yes.png[yes] ceph-mds (noun)
 
-*Description*: In Red Hat Ceph Storage, `ceph-mds` is the Metadata Server daemon. One or more instances of `ceph-mds` collectively manage the file system namespace, coordinating access to the shared OSD cluster. Always mark it correctly (`ceph-mds`)
+*Description*: In Red{nbsp}Hat Ceph Storage, `ceph-mds` is the Metadata Server daemon. One or more instances of `ceph-mds` collectively manage the file system namespace, coordinating access to the shared OSD cluster. Always mark it correctly (`ceph-mds`)
 
 *Use it*: yes
 
@@ -190,7 +190,7 @@
 [[ceph-mon]]
 ==== image:images/yes.png[yes] ceph-mon (noun)
 
-*Description*: In Red Hat Ceph Storage, `ceph-mon` is the Ceph Monitor daemon. Always mark it correctly (`ceph-mon`).
+*Description*: In Red{nbsp}Hat Ceph Storage, `ceph-mon` is the Ceph Monitor daemon. Always mark it correctly (`ceph-mon`).
 
 *Use it*: yes
 
@@ -202,7 +202,7 @@
 [[ceph-osd]]
 ==== image:images/yes.png[yes] ceph-osd (noun)
 
-*Description*: In Red Hat Ceph Storage, `ceph-osd` is the Ceph object storage daemon that is responsible for storing objects on local file system and providing access to them over network. Always mark it correctly (`ceph-osd`).
+*Description*: In Red{nbsp}Hat Ceph Storage, `ceph-osd` is the Ceph object storage daemon that is responsible for storing objects on local file system and providing access to them over network. Always mark it correctly (`ceph-osd`).
 
 *Use it*: yes
 
@@ -213,7 +213,7 @@
 
 [[ceph-radosgw]]
 ==== image:images/yes.png[yes] ceph-radosgw (noun)
-*Description*: In Red Hat Ceph Storage, the `ceph-radosgw` daemon runs on Ceph Object Gateway nodes. Each instance provides a Civetweb web server and the object gateway functionality.
+*Description*: In Red{nbsp}Hat Ceph Storage, the `ceph-radosgw` daemon runs on Ceph Object Gateway nodes. Each instance provides a Civetweb web server and the object gateway functionality.
 
 *Use it*: yes
 
@@ -224,7 +224,7 @@
 
 [[cephfs]]
 ==== image:images/yes.png[yes] CephFS (noun)
-*Description*: In Red Hat Ceph Storage, _CephFS_ is an initialization for the Ceph File System.
+*Description*: In Red{nbsp}Hat Ceph Storage, _CephFS_ is an initialization for the Ceph File System.
 
 *Use it*: yes
 
@@ -246,7 +246,7 @@
 
 [[certificate-authority]]
 ==== image:images/yes.png[yes] certificate authority (noun)
-*Description*: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`.
+*Description*: An entity that issues digital certificates. In Red{nbsp}Hat Identity Management, the primary CA is `ipa`.
 
 *Use it*: yes
 
@@ -290,7 +290,7 @@
 
 [[clean-install]]
 ==== image:images/yes.png[yes] clean install (noun)
-*Description*: In Red Hat Enterprise Linux, a _clean install_ removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _clean install_ removes all traces of the previously installed operating system, system data, configurations, and applications and installs the latest version of the operating system.
 
 *Use it*: yes
 
@@ -301,7 +301,7 @@
 
 [[client]]
 ==== image:images/yes.png[yes] client
-*Description*: In Red Hat Single Sign-On, a _client_ is an entity that can request Red Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red Hat Single Sign-On.
+*Description*: In Red{nbsp}Hat Single Sign-On, a _client_ is an entity that can request Red{nbsp}Hat Single Sign-On to authenticate a user. Most often, clients are applications and services that want to use Red{nbsp}Hat Single Sign-On to secure themselves and provide a single sign-on solution. Clients are also entities that request identity information or an access token so that they can securely invoke other services on the network that are secured by Red{nbsp}Hat Single Sign-On.
 
 *Use it*: yes
 
@@ -312,7 +312,7 @@
 
 [[client-adapter]]
 ==== image:images/yes.png[yes] client adapter
-*Description*: In Red Hat Single Sign-On, _client adapters_ are libraries that make it easy to secure applications and services. Red Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red Hat does not cover.
+*Description*: In Red{nbsp}Hat Single Sign-On, _client adapters_ are libraries that make it easy to secure applications and services. Red{nbsp}Hat Single Sign-On has a number of adapters for different platforms that you can download. There are also third-party adapters you can use for environments that Red{nbsp}Hat does not cover.
 
 *Use it*: yes
 
@@ -323,7 +323,7 @@
 
 [[client-application]]
 ==== image:images/yes.png[yes] client application (noun)
-*Description*: In Red Hat AMQ, a _client application_ is an application or server that connects to broker instances, routers, or both to send or receive messages. This should not be confused with AMQ Clients, which is the messaging library used to create the client application.
+*Description*: In Red{nbsp}Hat AMQ, a _client application_ is an application or server that connects to broker instances, routers, or both to send or receive messages. This should not be confused with AMQ Clients, which is the messaging library used to create the client application.
 
 *Use it*: yes
 
@@ -334,7 +334,7 @@
 
 [[client-role]]
 ==== image:images/yes.png[yes] client role
-*Description*: In Red Hat Single Sign-On, a _client role_ is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
+*Description*: In Red{nbsp}Hat Single Sign-On, a _client role_ is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
 
 *Use it*: yes
 
@@ -345,7 +345,7 @@
 
 [[client-scope]]
 ==== image:images/yes.png[yes] client scope
-*Description*: In Red Hat Single Sign-On, when a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a _client scope_ so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red Hat Single Sign-On provides the concept of a client scope for this.
+*Description*: In Red{nbsp}Hat Single Sign-On, when a client is registered, you must define protocol mappers and role scope mappings for that client. To simplify the task of creating clients, you might decide to store a _client scope_ so that you can share some common settings. This is also useful for requesting some claims or roles to be conditionally based on the value of `scope` parameter. Red{nbsp}Hat Single Sign-On provides the concept of a client scope for this.
 
 *Use it*: yes
 
@@ -378,7 +378,7 @@
 
 [[cluster]]
 ==== image:images/yes.png[yes] cluster (noun)
-*Description*: 1) A _cluster_ is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the _High Availability Add-On_ in Red Hat Enterprise Linux 6 and later. 2) In OpenShift context, a _cluster_ is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
+*Description*: 1) A _cluster_ is a collection of interconnected computers working together as an integrated computing resource. Clusters are referred to as the _High Availability Add-On_ in Red{nbsp}Hat Enterprise Linux 6 and later. 2) In OpenShift context, a _cluster_ is the collection of controllers, pods, and services and related DNS and networking routing configuration that are defined on the system. Typically, a cluster is made up of multiple OpenShift hosts (masters, nodes, etc.) working together, across which the aforementioned components are distributed or running.
 
 *Use it*: yes
 
@@ -411,7 +411,7 @@
 
 [[codeready-linux-builder-repository]]
 ==== image:images/caution.png[with caution] CodeReady Linux Builder repository (noun)
-*Description*: In Red Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Red Hat does not support packages included in the CodeReady Linux Builder repository. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
+*Description*: In Red{nbsp}Hat Enterpise Linux, the _CodeReady Linux Builder repository_ provides additional packages for use by developers. Red{nbsp}Hat does not support packages included in the CodeReady Linux Builder repository. Do not use a shortened form of this term. Always mention that packages in this repository are unsupported.
 
 *Use it*: with caution
 
@@ -477,7 +477,7 @@
 
 [[commit]]
 ==== image:images/yes.png[yes] commit (noun)
-*Description*: In Red Hat Enterprise Linux, a _commit_ is a release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _commit_ is a release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
 
 *Use it*: yes
 
@@ -488,7 +488,7 @@
 
 [[component]]
 ==== image:images/yes.png[yes] component (noun)
-*Description*: In Red Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
+*Description*: In Red{nbsp}Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
 
 *Use it*: yes
 
@@ -499,7 +499,7 @@
 
 [[compose]]
 ==== image:images/yes.png[yes] compose (noun)
-*Description*: In Red Hat Enterprise Linux, _composes_ are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
+*Description*: In Red{nbsp}Hat Enterprise Linux, _composes_ are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
 
 *Use it*: yes
 
@@ -510,7 +510,7 @@
 
 [[composite-content-view]]
 ==== image:images/yes.png[yes] Composite Content View (noun)
-*Description*: In Red Hat Satellite, a _Composite Content View_ is a collection of Content Views. Write "Composite Content View (CCV)" on first use and "CCV" after that.
+*Description*: In Red{nbsp}Hat Satellite, a _Composite Content View_ is a collection of Content Views. Write "Composite Content View (CCV)" on first use and "CCV" after that.
 
 *Use it*: yes
 
@@ -543,7 +543,7 @@
 
 [[config-map]]
 ==== image:images/yes.png[yes] config map (noun)
-*Description*: In Red Hat OpenShift, a _config map_ holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
+*Description*: In Red{nbsp}Hat OpenShift, a _config map_ holds configuration data for pods to consume. The API object for a config map is `ConfigMap`.
 
 *Use it*: yes
 
@@ -554,7 +554,7 @@
 
 [[connection]]
 ==== image:images/yes.png[yes] connection (noun)
-*Description*: 1) In Red Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called network connections. 2) In Red Hat Fuse Online, you create a connection using a Fuse Online connector. You can then use the connection in a Fuse Online integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
+*Description*: 1) In Red{nbsp}Hat AMQ, a _connection_ is a channel for communication between two peers on a network. For AMQ, connections can be made between containers (clients, brokers, and routers). These are sometimes also called network connections. 2) In Red{nbsp}Hat Fuse Online, you create a connection using a Fuse Online connector. You can then use the connection in a Fuse Online integration. For example, using the Twitter connector, you can create multiple connections to Twitter, each of which could require unique login credentials.
 
 *Use it*: yes
 
@@ -565,7 +565,7 @@
 
 [[connection-factory]]
 ==== image:images/yes.png[yes] connection factory (noun)
-*Description*: In Red Hat AMQ, a _connection factory_ is an object used by a JMS client to create a connection to a broker.
+*Description*: In Red{nbsp}Hat AMQ, a _connection factory_ is an object used by a JMS client to create a connection to a broker.
 
 *Use it*: yes
 
@@ -587,7 +587,7 @@
 
 [[connector]]
 ==== image:images/yes.png[yes] connector (noun)
-*Description*: 1) In Red Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. 2) In Red Hat Fuse Online, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
+*Description*: 1) In Red{nbsp}Hat AMQ, a _connector_ is a configurable entity for AMQ brokers and routers. They define an outgoing connection from either a router to another endpoint, or from a broker to another endpoint. 2) In Red{nbsp}Hat Fuse Online, a connector provides a template for creating any number of connections to a particular application or service, each of which can perform a different operation. A Camel component provides the foundation for a connector. For example, the Twitter connector, built on the Camel Twitter component, enables you to create multiple connections to Twitter.
 
 *Use it*: yes
 
@@ -598,7 +598,7 @@
 
 [[consent]]
 ==== image:images/yes.png[yes] consent
-*Description*: In Red Hat Single Sign-On, _consent_ is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
+*Description*: In Red{nbsp}Hat Single Sign-On, _consent_ is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red{nbsp}Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
 
 *Use it*: yes
 
@@ -609,7 +609,7 @@
 
 [[consumer]]
 ==== image:images/yes.png[yes] consumer (noun)
-*Description*: 1) In an LDAP replication environment, _consumers_ receive data from suppliers or hubs. 2) In Red Hat AMQ, a _consumer_ is a client that receives messages. 3) In Red Hat Fuse, a _consumer_ is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
+*Description*: 1) In an LDAP replication environment, _consumers_ receive data from suppliers or hubs. 2) In Red{nbsp}Hat AMQ, a _consumer_ is a client that receives messages. 3) In Red{nbsp}Hat Fuse, a _consumer_ is an endpoint that acts as the source of message exchanges entering a route. It wraps received messages in an exchange and then sends the exchange to the next node in the route. A route can have only one consumer.
 
 *Use it*: yes
 
@@ -620,7 +620,7 @@
 
 [[container]]
 ==== image:images/yes.png[yes] container (noun)
-*Description*: 1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). 2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. 3) In Red Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
+*Description*: 1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). 2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. 3) In Red{nbsp}Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
 
 *Use it*: yes
 
@@ -640,11 +640,11 @@ image repository contains one or more tagged images.
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:red-hat-container-catalog[Red Hat Container Catalog], xref:openshift-container-registry[OpenShift Container Registry]
+*See also*: xref:red-hat-container-catalog[Red{nbsp}Hat Container Catalog], xref:openshift-container-registry[OpenShift Container Registry]
 
 [[container-storage-interface]]
 ==== image:images/yes.png[yes] Container Storage Interface (noun)
-*Description*: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
+*Description*: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red{nbsp}Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
 
 *Use it*: yes
 
@@ -677,7 +677,7 @@ image repository contains one or more tagged images.
 
 [[content-view]]
 ==== image:images/yes.png[yes] Content View (noun)
-*Description*: In Red Hat Satellite, a _Content View_ is a subset of Library content created by intelligent filtering. Write "Content View (CV)" on first use and "CV" after that.
+*Description*: In Red{nbsp}Hat Satellite, a _Content View_ is a subset of Library content created by intelligent filtering. Write "Content View (CV)" on first use and "CV" after that.
 
 *Use it*: yes
 
@@ -721,7 +721,7 @@ image repository contains one or more tagged images.
 
 [[controller]]
 ==== image:images/yes.png[yes] controller (noun)
-*Description*: In Red Hat OpenShift, a _controller_ is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
+*Description*: In Red{nbsp}Hat OpenShift, a _controller_ is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
 
 *Use it*: yes
 
@@ -732,7 +732,7 @@ image repository contains one or more tagged images.
 
 [[conversion]]
 ==== image:images/yes.png[yes] conversion (noun)
-*Description*: In Red Hat Enterprise Linux, an operating system _conversion_ is when you convert your operating system from a different Linux distribution to Red Hat Enterprise Linux.
+*Description*: In Red{nbsp}Hat Enterprise Linux, an operating system _conversion_ is when you convert your operating system from a different Linux distribution to Red{nbsp}Hat Enterprise Linux.
 
 *Use it*: yes
 
@@ -798,7 +798,7 @@ image repository contains one or more tagged images.
 
 [[core-management]]
 ==== image:images/yes.png[yes] core-management subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _core-management subsystem_ is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the `core-management` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _core-management subsystem_ is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the `core-management` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -809,7 +809,7 @@ image repository contains one or more tagged images.
 
 [[crash]]
 ==== image:images/caution.png[with caution] crash (verb)
-*Description*: When a program _crashes_, it terminates unexpectedly. The _IBM Style_ guide suggests to use a more specific term, such as "fail". However, in Red Hat documentation, it is acceptable to use crash in certain cases: When writing errata descriptions, it is possible to use "crash" instead of "terminate unexpectedly" if "terminate unexpectedly" was used in a previous sentence. For example: A utility terminated unexpectedly because of a bug in the underlying source code. With this update, the utility no longer crashes.
+*Description*: When a program _crashes_, it terminates unexpectedly. The _IBM Style_ guide suggests to use a more specific term, such as "fail". However, in Red{nbsp}Hat documentation, it is acceptable to use crash in certain cases: When writing errata descriptions, it is possible to use "crash" instead of "terminate unexpectedly" if "terminate unexpectedly" was used in a previous sentence. For example: A utility terminated unexpectedly because of a bug in the underlying source code. With this update, the utility no longer crashes.
 
 *Use it*: with caution
 
@@ -820,7 +820,7 @@ image repository contains one or more tagged images.
 
 [[credentials]]
 ==== image:images/yes.png[yes] credentials
-*Description*: In Red Hat Single Sign-On, _credentials_ are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
+*Description*: In Red{nbsp}Hat Single Sign-On, _credentials_ are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
 
 *Use it*: yes
 
@@ -854,7 +854,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[cross-site-replication]]
 ==== image:images/yes.png[yes] cross-site replication (noun)
-*Description*: In Red Hat Data Grid, _cross-site replication_ is a configuration that allows Data Grid clusters to form a global view and back up data across geographically disperse locations. Multiple clusters running in different data centers replicate data between each other to ensure business continuity in the event of an outage and to present a single, unified caching service to applications.
+*Description*: In Red{nbsp}Hat Data Grid, _cross-site replication_ is a configuration that allows Data Grid clusters to form a global view and back up data across geographically disperse locations. Multiple clusters running in different data centers replicate data between each other to ensure business continuity in the event of an outage and to present a single, unified caching service to applications.
 
 *Use it*: yes
 
@@ -876,7 +876,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[crush]]
 ==== image:images/yes.png[yes] CRUSH (noun)
-*Description*: In Red Hat Ceph Storage, _CRUSH_ is an abbreviation for "Controlled Replication Under Scalable Hashing". This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to "CRUSH". Do not expand, only when explaining what the abbreviation means.
+*Description*: In Red{nbsp}Hat Ceph Storage, _CRUSH_ is an abbreviation for "Controlled Replication Under Scalable Hashing". This is the mechanism of data distribution in a Ceph cluster. Use all capital letters when referring to "CRUSH". Do not expand, only when explaining what the abbreviation means.
 
 *Use it*: yes
 
@@ -887,7 +887,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[crush-map]]
 ==== image:images/yes.png[yes] CRUSH map (noun)
-*Description*: In Red Hat Ceph Storage, a CRUSH map contain a list of OSDs, a list of buckets for aggregating the devices into physical locations, and a list of rules that tell CRUSH how it should replicate data in a Ceph cluster’s pools. For more information, see the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush[CRUSH] section in the Red Hat Ceph Storage Architecture Guide.
+*Description*: In Red{nbsp}Hat Ceph Storage, a CRUSH map contain a list of OSDs, a list of buckets for aggregating the devices into physical locations, and a list of rules that tell CRUSH how it should replicate data in a Ceph cluster’s pools. For more information, see the https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush[CRUSH] section in the Red{nbsp}Hat Ceph Storage Architecture Guide.
 
 *Use it*: yes
 
@@ -931,7 +931,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[custom-resource]]
 ==== image:images/yes.png[yes] custom resource (noun)
-*Description*: In Red Hat OpenShift, a _custom resource (CR)_ is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
+*Description*: In Red{nbsp}Hat OpenShift, a _custom resource (CR)_ is a resource implemented through the Kubernetes `CustomResourceDefinition` API. Although CRs have the same behaviors as the built-in set of Kubernetes and OpenShift Container Platform resources, CRs are added either manually or by installing Operators. Therefore, CRs might not be available on all clusters by default. Every CR is part of an API group.
 
 *Use it*: yes
 
@@ -942,7 +942,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[custom-resource-definition]]
 ==== image:images/yes.png[yes] custom resource definition (noun)
-*Description*: In Red Hat OpenShift, a _custom resource definition (CRD)_ defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
+*Description*: In Red{nbsp}Hat OpenShift, a _custom resource definition (CRD)_ defines a new, unique object `Kind` in the cluster and lets the Kubernetes API server handle its entire lifecycle.
 
 *Use it*: yes
 
@@ -953,7 +953,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[customer]]
 ==== image:images/yes.png[yes] customer (noun)
-*Description*: Use _customer_ to refer to the people who buy, subscribe to, or use Red Hat products and services.
+*Description*: Use _customer_ to refer to the people who buy, subscribe to, or use Red{nbsp}Hat products and services.
 
 *Use it*: yes
 
@@ -964,18 +964,18 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 [[customer-portal]]
 ==== image:images/caution.png[with caution] Customer Portal (noun)
-*Description*: _Customer Portal_ is the shortened form of "Red Hat Customer Portal", the official name for https://access.redhat.com. Write "Red Hat Customer Portal" on first use. You can shorten it to "Customer Portal" after that.
+*Description*: _Customer Portal_ is the shortened form of "Red{nbsp}Hat Customer Portal", the official name for https://access.redhat.com. Write "Red{nbsp}Hat Customer Portal" on first use. You can shorten it to "Customer Portal" after that.
 
 *Use it*: with caution
 
 [.vale-ignore]
 *Incorrect forms*: CP, RHCP, customer portal, portal
 
-*See also*: xref:red-hat-customer-portal[Red Hat Customer Portal]
+*See also*: xref:red-hat-customer-portal[Red{nbsp}Hat Customer Portal]
 
 [[customization]]
 ==== image:images/yes.png[yes] customization (noun)
-*Description*: In Red Hat Enterprise Linux, _customizations_ are specifications for the system that are not packages. This includes users, groups, and SSH keys.
+*Description*: In Red{nbsp}Hat Enterprise Linux, _customizations_ are specifications for the system that are not packages. This includes users, groups, and SSH keys.
 
 *Use it*: yes
 

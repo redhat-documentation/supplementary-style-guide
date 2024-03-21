@@ -1,6 +1,6 @@
 [[namespace]]
 ==== image:images/caution.png[with caution] namespace (noun)
-*Description*: In Red Hat OpenShift, "namespace" is typically synonymous with project in OpenShift parlance, which is preferred.
+*Description*: In Red{nbsp}Hat OpenShift, "namespace" is typically synonymous with project in OpenShift parlance, which is preferred.
 
 *Use it*: with caution
 
@@ -22,7 +22,7 @@
 
 [[namespace-store]]
 ==== image:images/yes.png[yes] namespace store (noun)
-*Description*: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, a _namespace store_ is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
+*Description*: In Red{nbsp}Hat OpenShift Data Foundation, which was formerly Red{nbsp}Hat OpenShift Container Storage, a _namespace store_ is a type of a resource for Multicloud Object Gateway that namespace buckets use to store plain data. The supported stores are Amazon Web Services (AWS) S3, Microsoft Azure, and AWS S3 compatible.
 
 *Use it*: yes
 
@@ -33,7 +33,7 @@
 
 [[naming]]
 ==== image:images/yes.png[yes] naming subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the `naming` subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the `naming` subsystem is used to manage Java naming and directory interface (JNDI) namespaces and interfaces. Write in lowercase in general text. Use "Naming subsystem" when referring to the naming subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -55,7 +55,7 @@
 
 [[native-interface]]
 ==== image:images/no.png[no] native interface (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the xref:management-cli[management CLI] entry.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the xref:management-cli[management CLI] entry.
 
 *Use it*: no
 

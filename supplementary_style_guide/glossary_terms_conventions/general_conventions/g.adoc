@@ -201,7 +201,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 [[gnupro]]
 ==== image:images/yes.png[yes] GNUPro (noun)
-*Description*: _GNUPro_ Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red Hat product, use "GNUPro".
+*Description*: _GNUPro_ Toolkit for Linux is designed for developing commercial and noncommercial Linux applications on native Linux platforms. It is a set of tested and certified, open-source, GNU standard C, C++, and assembly language development tools. When referring to the Red{nbsp}Hat product, use "GNUPro".
 
 *Use it*: yes
 
@@ -245,7 +245,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 [[group]]
 ==== image:images/yes.png[yes] group (noun)
-*Description*: In Red Hat Single Sign-On, a _group_ manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings in the group's definition.
+*Description*: In Red{nbsp}Hat Single Sign-On, a _group_ manages a collection of users. You can define attributes for a group. You can also map roles to a group. Users that become members of a group inherit the attributes and role mappings in the group's definition.
 
 *Use it*: yes
 
@@ -269,7 +269,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 ==== image:images/yes.png[yes] GSSAPI (noun)
 *Description*: _GSSAPI_ (or _GSS-API_) is an abbreviation for "Generic Security Service Application Program Interface". Developers use GSSAPI to abstract how their applications protect data sent to peer applications. Security-service vendors can provide GSSAPI implementations of common procedure calls as libraries with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. With this flexibility, developers do not have to tailor their security implementations to any particular platform, security mechanism, type of protection, or transport protocol.
 
-Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat Enterprise Linux and Microsoft Windows Active Directory Kerberos implementations to be API compatible.
+Kerberos is the dominant GSSAPI mechanism implementation, which allows Red{nbsp}Hat Enterprise Linux and Microsoft Windows Active Directory Kerberos implementations to be API compatible.
 
 *Use it*: yes
 
@@ -313,7 +313,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 [[guided-editor]]
 ==== image:images/yes.png[yes] guided editor (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
 
 *Use it*: yes
 

@@ -35,7 +35,7 @@ Use lowercase "v" and uppercase "CPU".
 
 [[verb]]
 ==== image:images/yes.png[yes] verb (noun)
-*Description*: In Red Hat OpenShift, a _verb_ is a `get`, `list`, `create`, or `update` operation.
+*Description*: In Red{nbsp}Hat OpenShift, a _verb_ is a `get`, `list`, `create`, or `update` operation.
 
 *Use it*: yes
 
