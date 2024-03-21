@@ -20,9 +20,9 @@ For more information about <topic>, see xref:<link>[<link_text>].
 
 Follow these guidelines when linking externally:
 
-* Avoid unnecessary links to external sites not owned and operated by Red Hat or IBM.
+* Avoid unnecessary links to external sites not owned and operated by Red{nbsp}Hat or IBM.
 Links to external sites can change or be unreliable.
-In addition, customers might infer that Red Hat endorses or supports the linked content, even if that is not the intent.
+In addition, customers might infer that Red{nbsp}Hat endorses or supports the linked content, even if that is not the intent.
 +
 [NOTE]
 ====
@@ -55,15 +55,15 @@ Follow these guidelines when specifying link text:
 * Avoid irrelevant link text.
 
 [[rh-kb-links]]
-== Links to Red Hat Knowledgebase articles
+== Links to Red{nbsp}Hat Knowledgebase articles
 
 * Use the title of the Knowledgebase article for the link text, or use descriptive running text.
 * When not using running text, call out that this is a Knowledgebase article.
-* When the link appears in *Additional resources*, put the article title first, followed by `(Red Hat Knowledgebase)`.
+* When the link appears in *Additional resources*, put the article title first, followed by `(Red{nbsp}Hat Knowledgebase)`.
 
 .Example: Article title
 
-For a non-cloud environment, you can resize the disk and file system. For more information, see the Red Hat Knowledgebase solution link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?].
+For a non-cloud environment, you can resize the disk and file system. For more information, see the Red{nbsp}Hat Knowledgebase solution link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?].
 
 .Example: Running text
 
@@ -71,6 +71,6 @@ If your Apache web server configuration enables SSL security, verify that you en
 
 .Example: Additional resources
 
-* link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?] (Red Hat Knowledgebase)
+* link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?] (Red{nbsp}Hat Knowledgebase)
 
 // TODO: Add new style entries alphabetically in this file

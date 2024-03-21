@@ -52,7 +52,7 @@ Example 1:
 
 [[xp]]
 ==== image:images/yes.png[yes] XP (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, "XP" is an acceptable shortened form of "Expansion Pack". Write in upper case.
 
 *Use it*: yes
 
@@ -74,7 +74,7 @@ Example 1:
 
 [[xts]]
 ==== image:images/yes.png[yes] xts subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _xts subsystem_ is used to configure settings for coordinating Web services in a transaction. In general text, write in lowercase as one word. Use "XTS subsystem" when referring to the `xts` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _xts subsystem_ is used to configure settings for coordinating Web services in a transaction. In general text, write in lowercase as one word. Use "XTS subsystem" when referring to the `xts` subsystem in titles and headings.
 
 *Use it*: yes
 

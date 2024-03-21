@@ -11,7 +11,7 @@
 
 [[zone]]
 ==== image:images/yes.png[yes] zone (noun)
-*Description*: In Red Hat Ceph Storage, a _zone_ represents a physical location consisting of a Ceph Storage Cluster and nodes running the Ceph Object Gateway daemons.
+*Description*: In Red{nbsp}Hat Ceph Storage, a _zone_ represents a physical location consisting of a Ceph Storage Cluster and nodes running the Ceph Object Gateway daemons.
 
 *Use it*: yes
 
@@ -22,7 +22,7 @@
 
 [[zone-group]]
 ==== image:images/yes.png[yes] zone group (noun)
-*Description*: In Red Hat Ceph Storage, a _zone group_ is a list of zones. A zone group always has one master zone, and can have multiple secondary zones. A realm has one master zone group, which manages users and metadata for the realm.
+*Description*: In Red{nbsp}Hat Ceph Storage, a _zone group_ is a list of zones. A zone group always has one master zone, and can have multiple secondary zones. A realm has one master zone group, which manages users and metadata for the realm.
 
 *Use it*: yes
 

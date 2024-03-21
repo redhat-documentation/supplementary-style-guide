@@ -98,11 +98,11 @@
 
 [[id-mapping]]
 ==== image:images/yes.png[yes] ID mapping (noun)
-*Description*: In Red Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
+*Description*: In Red{nbsp}Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
 
 * When SSSD detects a new AD domain, it assigns a range of available IDs to the new domain. Therefore, each AD domain has the same ID range on every SSSD client machine.
 * When an AD user logs in to an SSSD client machine for the first time, SSSD creates an entry for the user in the SSSD cache, including a UID based on the user's SID and the ID range for that domain.
-* Because the IDs for an AD user are generated in a consistent way from the same SID, the user has the same UID and GID when logging in to any Red Hat Enterprise Linux system.
+* Because the IDs for an AD user are generated in a consistent way from the same SID, the user has the same UID and GID when logging in to any Red{nbsp}Hat Enterprise Linux system.
 
 *Use it*: yes
 
@@ -113,7 +113,7 @@
 
 [[id-ranges]]
 ==== image:images/yes.png[yes] ID ranges (noun)
-*Description*: In Red Hat Enterprise Linux, an _ID range_ is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
+*Description*: In Red{nbsp}Hat Enterprise Linux, an _ID range_ is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
 
 * _IdM ID range_
 +
@@ -135,7 +135,7 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 
 [[id-views]]
 ==== image:images/yes.png[yes] ID views (noun)
-*Description*: In Red Hat Enterprise Linux, you can use _ID views_ to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
+*Description*: In Red{nbsp}Hat Enterprise Linux, you can use _ID views_ to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
 
   * Define different attribute values for different environments.
   * Replace a previously generated attribute value with a different value.
@@ -163,7 +163,7 @@ Capitalize it only when it starts a sentence.
 
 [[identity-provider]]
 ==== image:images/yes.png[yes] identity provider (noun)
-*Description*: An _identity provider (IDP)_ is a service that authenticates a user. Red Hat Single Sign-On is an IDP.
+*Description*: An _identity provider (IDP)_ is a service that authenticates a user. Red{nbsp}Hat Single Sign-On is an IDP.
 
 *Use it*: yes
 
@@ -174,7 +174,7 @@ Capitalize it only when it starts a sentence.
 
 [[identity-provider-federation]]
 ==== image:images/yes.png[yes] identity provider federation (noun)
-*Description*: In Red Hat Single Sign-On, you can delegate authentication to one or more IDPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.
+*Description*: In Red{nbsp}Hat Single Sign-On, you can delegate authentication to one or more IDPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red{nbsp}Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.
 
 *Use it*: yes
 
@@ -207,7 +207,7 @@ Capitalize it only when it starts a sentence.
 
 [[idm-ca-renewal-server]]
 ==== image:images/yes.png[yes] IdM CA renewal server (noun)
-*Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the _IdM CA renewal server_. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.
+*Description*: In Red{nbsp}Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the _IdM CA renewal server_. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.
 
 *Use it*: yes
 
@@ -218,7 +218,7 @@ Capitalize it only when it starts a sentence.
 
 [[idm-ca-server]]
 ==== image:images/yes.png[yes] IdM CA server (noun)
-*Description*: In Red Hat Enterprise Linux, an _IdM CA server_ is an IdM server on which the IdM certificate authority (CA) service is installed and running.
+*Description*: In Red{nbsp}Hat Enterprise Linux, an _IdM CA server_ is an IdM server on which the IdM certificate authority (CA) service is installed and running.
 
 Alternative names: *CA server*
 
@@ -231,7 +231,7 @@ Alternative names: *CA server*
 
 [[idm-crl-publisher-server]]
 ==== image:images/yes.png[yes] IdM CRL publisher server (noun)
-*Description*: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an _IdM CRL publisher server_ and is responsible for maintaining the CRL. By default, the server that fulfills the `CA renewal server` role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.
+*Description*: In Red{nbsp}Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an _IdM CRL publisher server_ and is responsible for maintaining the CRL. By default, the server that fulfills the `CA renewal server` role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.
 
 *Use it*: yes
 
@@ -242,7 +242,7 @@ Alternative names: *CA server*
 
 [[idm-deployment]]
 ==== image:images/yes.png[yes] IdM deployment (noun)
-*Description*: In Red Hat Enterprise Linux, _IdM deployment_ is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
+*Description*: In Red{nbsp}Hat Enterprise Linux, _IdM deployment_ is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
 
 * Purpose: whether it is a production environment, as opposed to a testing or development environment.
 * Certificate Authority (CA) configuration: you can use the IdM integrated CA as a self-signed root CA, or as an externally-signed CA. Alternatively, if your environment has an external CA, you do not need to use the IdM integrated CA.
@@ -258,7 +258,7 @@ Alternative names: *CA server*
 
 [[idm-server-and-replicas]]
 ==== image:images/yes.png[yes] IdM server and replicas (noun)
-*Description*: In Red Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the `ipa-server-install` command.
+*Description*: In Red{nbsp}Hat Enterprise Linux, to install the first server in an IdM deployment, you must use the `ipa-server-install` command.
 
 Administrators can then use the `ipa-replica-install` command to install _replicas_ in addition to the first _server_ that was installed. By default, installing a replica creates a replication agreement with the IdM server from which it was created, enabling receiving and sending updates to the rest of IdM.
 
@@ -273,7 +273,7 @@ There is no functional difference between the first server that was installed an
 
 [[idm-topology]]
 ==== image:images/yes.png[yes] IdM topology (noun)
-*Description*: In Red Hat Enterprise Linux, _IdM topology_ is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
+*Description*: In Red{nbsp}Hat Enterprise Linux, _IdM topology_ is a term that refers to the structure of your IdM solution, especially the replication agreements between and within individual data centers and clusters.
 
 *Use it*: yes
 
@@ -284,7 +284,7 @@ There is no functional difference between the first server that was installed an
 
 [[iiop-openjdk]]
 ==== image:images/yes.png[yes] iiop-openjdk subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _iiop-openjdk subsystem_ is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the `iiop-openjdk` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _iiop-openjdk subsystem_ is used to configure Common Object Request Broker Architecture (CORBA) services. In general text, write in lowercase as two words separated by a hyphen. Use "IIOP subsystem" when referring to the `iiop-openjdk` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -306,7 +306,7 @@ There is no functional difference between the first server that was installed an
 
 [[image-stream]]
 ==== image:images/yes.png[yes] image stream (noun)
-*Description*: In Red Hat OpenShift, an _image stream_ is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
+*Description*: In Red{nbsp}Hat OpenShift, an _image stream_ is a series of Docker images identified by one or more tags. Image streams are capable of aggregating images from a variety of sources into a single view, including images stored in the integrated Docker repository of OpenShift Container Platform, images from external Docker registries, and other image streams. The API object for an image stream is `ImageStream`.
 
 *Use it*: yes
 
@@ -328,7 +328,7 @@ There is no functional difference between the first server that was installed an
 
 [[in-place-upgrade]]
 ==== image:images/yes.png[yes] in-place upgrade (noun)
-*Description*: In Red Hat Enterprise Linux, during an _in-place upgrade_, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
+*Description*: In Red{nbsp}Hat Enterprise Linux, during an _in-place upgrade_, you replace the earlier version with the new version without removing the earlier version first. The installed applications and utilities, along with the configurations and preferences, are incorporated into the new version.
 
 *Use it*: yes
 
@@ -350,7 +350,7 @@ There is no functional difference between the first server that was installed an
 
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _inference engine_ is a part of the Red Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _inference engine_ is a part of the Red{nbsp}Hat JBoss BRMS engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
 
 *Use it*: yes
 
@@ -372,7 +372,7 @@ There is no functional difference between the first server that was installed an
 
 [[infinispan]]
 ==== image:images/yes.png[yes] Infinispan (noun)
-*Description*: _Infinispan_ is the open-source, community project on which Red Hat Data Grid is built.
+*Description*: _Infinispan_ is the open-source, community project on which Red{nbsp}Hat Data Grid is built.
 
 *Use it*: yes
 
@@ -383,9 +383,9 @@ There is no functional difference between the first server that was installed an
 
 [[ingress]]
 ==== image:images/yes.png[yes] ingress (noun, adjective)
-*Description*: In Red Hat OpenShift, _Ingress_  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The `Ingress` resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift `IngressController` object can accept for HTTP(S) traffic. Additionally, _ingress_ can also be used to describe the incoming direction of network traffic. In Red Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.
+*Description*: In Red{nbsp}Hat OpenShift, _Ingress_  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The `Ingress` resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift `IngressController` object can accept for HTTP(S) traffic. Additionally, _ingress_ can also be used to describe the incoming direction of network traffic. In Red{nbsp}Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.
 
-Always use `Ingress` with markup when referencing the `Ingress` resource or `IngressController` object in Red Hat OpenShift. Write in lowercase and omit markup when discussing _ingress_ as a traffic direction.
+Always use `Ingress` with markup when referencing the `Ingress` resource or `IngressController` object in Red{nbsp}Hat OpenShift. Write in lowercase and omit markup when discussing _ingress_ as a traffic direction.
 
 *Use it*: yes
 
@@ -396,7 +396,7 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 
 [[ingress-controller]]
 ==== image:images/yes.png[yes] Ingress Controller (noun)
-*Description*: In Red Hat OpenShift, the _Ingress Controller_ is a resource that forwards traffic to endpoints of services.
+*Description*: In Red{nbsp}Hat OpenShift, the _Ingress Controller_ is a resource that forwards traffic to endpoints of services.
 
 *Use it*: yes
 
@@ -420,7 +420,7 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 ==== image:images/yes.png[yes] inject (verb)
 *Description*: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences.
 
-Red Hat Trusted Application Pipeline users can configure secrets to inject sensitive data into an application in the form of files or environment variables.
+Red{nbsp}Hat Trusted Application Pipeline users can configure secrets to inject sensitive data into an application in the form of files or environment variables.
 
 *Use it*: yes
 
@@ -441,7 +441,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 [[insight]]
 ==== image:images/yes.png[yes] Insight (noun)
-*Description*: _Insight_ is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red Hat and Cygnus Solutions.
+*Description*: _Insight_ is a graphical user interface to the GNU Debugger (GDB). Insight is written in Tcl/Tk and was developed by associates from Red{nbsp}Hat and Cygnus Solutions.
 
 *Use it*: yes
 
@@ -463,7 +463,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 [[installer-provisioned-infrastructure]]
 ==== image:images/yes.png[yes] installer-provisioned infrastructure (noun)
-*Description*: In Red Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an _installer-provisioned infrastructure_ installation.
+*Description*: In Red{nbsp}Hat OpenShift, if the installation program deploys and configures the infrastructure that the cluster runs on, it is an _installer-provisioned infrastructure_ installation.
 
 *Use it*: yes
 
@@ -474,7 +474,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 [[instance]]
 ==== image:images/yes.png[yes] instance (noun)
-*Description*: In Red Hat OpenStack Platform, an _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
+*Description*: In Red{nbsp}Hat OpenStack Platform, an _instance_ is a running virtual machine, or a virtual machine in a known state such as suspended, that can be used like a hardware server. Use the term "instance" instead of "virtual machine" unless specifically called out in the user interface or a configuration file.
 
 *Use it*: yes
 
@@ -485,7 +485,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 [[instrumentation-module]]
 ==== image:images/yes.png[yes] instrumentation module (noun)
-*Description*: In Red Hat Enterprise Linux, an _instrumentation module_ is the kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system and will be loaded on the target kernel of the target system.
+*Description*: In Red{nbsp}Hat Enterprise Linux, an _instrumentation module_ is the kernel module built from a `SystemTap` script; the `SystemTap` module is built on the host system and will be loaded on the target kernel of the target system.
 
 *Use it*: yes
 
@@ -496,7 +496,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 [[integration]]
 ==== image:images/yes.png[yes] integration (noun)
-*Description*: In Red Hat Fuse Online, an _integration_ is a Camel route created.
+*Description*: In Red{nbsp}Hat Fuse Online, an _integration_ is a Camel route created.
 
 *Use it*: yes
 
@@ -568,7 +568,7 @@ _This feature can run only on Intel 64 processors_
 
 [[intelligent-process-server]]
 ==== image:images/yes.png[yes] Intelligent Process Server (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _Intelligent Process Server_ is a standalone, out-of-the-box component that can be used to instantiate and execute rules and processes. The Intelligent Process Server is created as a WAR file that can be deployed on any web container.
 
 *Use it*: yes
 
@@ -590,7 +590,7 @@ _This feature can run only on Intel 64 processors_
 
 [[interpreted-code]]
 ==== image:images/yes.png[yes] interpreted code (noun)
-*Description*: In Red Hat Enterprise Linux, _interpreted code_ is source code that runs step-by-step, without prior transformations by a language interpreter or a language virtual machine.
+*Description*: In Red{nbsp}Hat Enterprise Linux, _interpreted code_ is source code that runs step-by-step, without prior transformations by a language interpreter or a language virtual machine.
 
 *Use it*: yes
 
@@ -611,7 +611,7 @@ _This feature can run only on Intel 64 processors_
 
 [[inventory]]
 ==== image:images/yes.png[yes] inventory (noun)
-*Description*: In Red Hat Enterprise Linux, an _inventory_ is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
+*Description*: In Red{nbsp}Hat Enterprise Linux, an _inventory_ is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
 
 *Use it*: yes
 
@@ -622,7 +622,7 @@ _This feature can run only on Intel 64 processors_
 
 [[io]]
 ==== image:images/yes.png[yes] io subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _io subsystem_ is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the `io` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _io subsystem_ is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the `io` subsystem in titles and headings.
 
 *Use it*: yes
 

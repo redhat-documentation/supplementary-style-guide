@@ -59,7 +59,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 [[federated]]
 ==== image:images/yes.png[yes] federated (adjective)
-*Description*: In Red Hat Ceph Storage 1.3, you can configure the Ceph Object Gateway to participate in a _federated_ architecture with multiple regions and with multiple zones for a region.
+*Description*: In Red{nbsp}Hat Ceph Storage 1.3, you can configure the Ceph Object Gateway to participate in a _federated_ architecture with multiple regions and with multiple zones for a region.
 
 *Use it*: yes
 
@@ -71,7 +71,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 [[fedora-project]]
 ==== image:images/yes.png[yes] Fedora™ Project (noun)
-*Description*: The _Fedora Project_ is a global partnership of free software community members, sponsored by Red Hat. Red Hat Enterprise Linux is based on the Fedora operating system.
+*Description*: The _Fedora Project_ is a global partnership of free software community members, sponsored by Red{nbsp}Hat. Red{nbsp}Hat Enterprise Linux is based on the Fedora operating system.
 
 *Use it*: yes
 
@@ -82,7 +82,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 [[filestore]]
 ==== image:images/yes.png[yes] FileStore (noun)
-*Description*: In Red Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
+*Description*: In Red{nbsp}Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
 
 *Use it*: yes
 
@@ -93,7 +93,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 [[file-trigger-directive]]
 ==== image:images/yes.png[yes] file trigger directive (noun)
-*Description*: In Red Hat Enterprise Linux, a _file trigger directive_ is a special form of a transaction scriptlet that runs conditionally when matching files from other packages are installed or uninstalled.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _file trigger directive_ is a special form of a transaction scriptlet that runs conditionally when matching files from other packages are installed or uninstalled.
 
 *Use it*: yes
 
@@ -205,18 +205,18 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 [[fuse-online]]
 ==== image:images/yes.png[yes] Fuse Online (noun)
-*Description*: _Fuse Online_ is the short product name for "Red Hat Fuse Online".
+*Description*: _Fuse Online_ is the short product name for "Red{nbsp}Hat Fuse Online".
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: Ignite, Fuse Ignite
 
-*See also*: xref:syndesis[Syndesis], xref:red-hat-fuse-online[Red Hat Fuse Online]
+*See also*: xref:syndesis[Syndesis], xref:red-hat-fuse-online[Red{nbsp}Hat Fuse Online]
 
 [[fuse-home]]
 ==== image:images/yes.png[yes] FUSE_HOME (noun)
-*Description*: In Red Hat Fuse, _FUSE_HOME_ specifies the Fuse installation directory. Use this when describing which directory to use.
+*Description*: In Red{nbsp}Hat Fuse, _FUSE_HOME_ specifies the Fuse installation directory. Use this when describing which directory to use.
 
 *Use it*: yes
 

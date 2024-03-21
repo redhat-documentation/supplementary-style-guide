@@ -45,7 +45,7 @@
 
 [[health-check]]
 ==== image:images/yes.png[yes] health check (noun)
-*Description*: A _health check_ identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."
+*Description*: A _health check_ identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red{nbsp}Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."
 
 *Use it*: yes
 
@@ -78,7 +78,7 @@
 
 [[hidden-replica]]
 ==== image:images/yes.png[yes] hidden replica (noun)
-*Description*: In Red Hat Enterprise Linux, a _hidden replica_ is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _hidden replica_ is an IdM replica that has all services running and available, but its server roles are disabled, and clients cannot discover the replica because it has no SRV records in DNS.
 
 Hidden replicas are primarily designed for services such as backups, bulk importing and exporting, or actions that require shutting down IdM services. Since no clients use a hidden replica, administrators can temporarily shut down the services on this host without affecting any clients.
 
@@ -124,7 +124,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 [[horizontal-pod-autoscaler]]
 ==== image:images/yes.png[yes] horizontal pod autoscaler (noun)
-*Description*: In Red Hat OpenShift, a _horizontal pod autoscaler_, also known as _HPA_, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
+*Description*: In Red{nbsp}Hat OpenShift, a _horizontal pod autoscaler_, also known as _HPA_, is implemented as a Kubernetes API resource and a controller. You can use the HPA to specify the minimum and maximum number of pods that you want to run. You can also specify the CPU or memory usage that your pods should target. The HPA scales pods in and out when a given CPU or memory threshold is crossed.
 
 *Use it*: yes
 
@@ -146,7 +146,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 [[host-system]]
 ==== image:images/yes.png[yes] host system (noun)
-*Description*: In Red Hat Enterprise Linux, the _host system_ is the system on which the instrumentation modules, from SystemTap scripts, are compiled to be loaded on target systems.
+*Description*: In Red{nbsp}Hat Enterprise Linux, the _host system_ is the system on which the instrumentation modules, from SystemTap scripts, are compiled to be loaded on target systems.
 
 *Use it*: yes
 
@@ -179,7 +179,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 [[hot-rod]]
 ==== image:images/yes.png[yes] Hot Rod (adjective)
-*Description*: In Red Hat Data Grid, _Hot Rod_ is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
+*Description*: In Red{nbsp}Hat Data Grid, _Hot Rod_ is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
 
 *Use it*: yes
 
@@ -234,7 +234,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 [[http-interface]]
 ==== image:images/no.png[no] HTTP interface (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the xref:management-console[management console] entry.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the xref:management-console[management console] entry.
 
 *Use it*: no
 
@@ -289,7 +289,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 [[hyperv]]
 ==== image:images/yes.png[yes] Hyper-V (noun)
-*Description*: In the Microsoft Windows operating system, _Hyper-V_ is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
+*Description*: In the Microsoft Windows operating system, _Hyper-V_ is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red{nbsp}Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
 
 *Use it*: yes
 
@@ -311,7 +311,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 [[hypervisor]]
 ==== image:images/yes.png[yes] hypervisor (noun)
-*Description*: A _hypervisor_ is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red Hat Enterprise Virtualization Hypervisor.
+*Description*: A _hypervisor_ is software that runs virtual machines. Only capitalize the initial "H" at the beginning of a sentence or as part of Red{nbsp}Hat Enterprise Virtualization Hypervisor.
 
 *Use it*: yes
 

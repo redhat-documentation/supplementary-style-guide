@@ -1,6 +1,6 @@
 [[ee]]
 ==== image:images/yes.png[yes] ee subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _ee subsystem_ is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the `ee` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _ee subsystem_ is used to configure functionality in the Jakarta Enterprise Edition platform. In general text, write in lowercase as one word. Use "EE subsystem" when referring to the `ee` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -11,7 +11,7 @@
 
 [[eip]]
 ==== image:images/yes.png[yes] EIP (noun)
-*Description*: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red Hat Fuse implements numerous patterns for asynchronous messaging.
+*Description*: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red{nbsp}Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red{nbsp}Hat Fuse implements numerous patterns for asynchronous messaging.
 
 *Use it*: yes
 
@@ -22,7 +22,7 @@
 
 [[ejb3]]
 ==== image:images/yes.png[yes] ejb3 subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
 
 *Use it*: yes
 
@@ -51,7 +51,7 @@ Do not abbreviate any of the previously listed load balancer terms.
 
 [[elytron]]
 ==== image:images/yes.png[yes] elytron subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the xref:security-elytron[Security - Elytron] entry.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the xref:security-elytron[Security - Elytron] entry.
 
 *Use it*: yes
 
@@ -86,7 +86,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 [[endpoint]]
 ==== image:images/caution.png[with caution] endpoint (noun)
-*Description*: 1) The servers that back a service. 2) In Red Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
+*Description*: 1) The servers that back a service. 2) In Red{nbsp}Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
 
 *Use it*: with caution
 
@@ -108,7 +108,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 [[entitlement]]
 ==== image:images/caution.png[with caution] entitlement (noun)
-*Description*: _Entitlement_ refers to the number of systems that can be attached to an individual subscription. When you use Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription's available entitlements. Do not use "entitlement" and "subscription" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
+*Description*: _Entitlement_ refers to the number of systems that can be attached to an individual subscription. When you use Red{nbsp}Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription's available entitlements. Do not use "entitlement" and "subscription" interchangeably. See link:https://access.redhat.com/discussions/3119981[] for details.
 
 *Use it*: with caution
 
@@ -205,7 +205,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 [[expansion-pack]]
 ==== image:images/yes.png[yes] Expansion Pack (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, _Expansion Pack_ is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, _Expansion Pack_ is an add-on that enhances JBoss EAP with additional features, such as MicroProfile capabilities.
 
 *Use it*: yes
 

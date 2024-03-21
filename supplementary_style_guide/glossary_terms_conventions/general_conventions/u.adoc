@@ -33,7 +33,7 @@
 
 [[undercloud]]
 ==== image:images/yes.png[yes] undercloud (noun)
-*Description*: In Red Hat OpenStack Platform (RHOSP), the _undercloud_ is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
+*Description*: In Red{nbsp}Hat OpenStack Platform (RHOSP), the _undercloud_ is the director node. It is a single-system within the RHOSP installation that includes components for provisioning and managing the RHOSP nodes that form your environment, known as the overcloud. Write in lowercase.
 
 *Use it*: yes
 
@@ -44,7 +44,7 @@
 
 [[undertow]]
 ==== image:images/yes.png[yes] undertow subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the xref:webhttp-undertow[WebHTTP - Undertow] entry.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the xref:webhttp-undertow[WebHTTP - Undertow] entry.
 
 *Use it*: yes
 
@@ -55,7 +55,7 @@
 
 [[uninterruptible]]
 ==== image:images/yes.png[yes] uninterruptible (adjective)
-*Description*: Although "uninterruptible" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)".
+*Description*: Although "uninterruptible" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red{nbsp}Hat documentation, especially in the context of "uninterruptible power supply (UPS)".
 
 *Use it*: yes
 
@@ -99,7 +99,7 @@
 
 [[update]]
 ==== image:images/yes.png[yes] update (noun)
-*Description*: In Red Hat Enterprise Linux, sometimes called a software patch, an _update_ is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
+*Description*: In Red{nbsp}Hat Enterprise Linux, sometimes called a software patch, an _update_ is an addition to the current version of the application, operating system, or software that you are running. A software update addresses any issues or bugs to provide a better experience of working with the technology. In Red{nbsp}Hat Enterprise Linux (RHEL), an update relates to a minor release, for example, updating from RHEL 8.1 to 8.2.
 
 *Use it*: yes
 
@@ -110,7 +110,7 @@
 
 [[upgrade]]
 ==== image:images/yes.png[yes] upgrade (verb)
-*Description*: 1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. 2) In Red Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
+*Description*: 1) To _upgrade_ means to raise (something) to a higher standard, in particular to improve by adding or replacing components. 2) In Red{nbsp}Hat Enterprise Linux, an _upgrade_ is when you replace the application, operating system, or software that you are currently running with a newer version. There are two ways to upgrade to RHEL: in-place upgrade or clean install.
 
 *Use it*: yes
 
@@ -187,7 +187,7 @@
 
 [[uri]]
 ==== image:images/yes.png[yes] URI (noun)
-*Description*: _URI_ is an initialism for "Uniform Resource Identifier". A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red Hat Fuse, Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
+*Description*: _URI_ is an initialism for "Uniform Resource Identifier". A string of characters that identifies a resource, it enables interaction with representations of the resource over a network using schemes with specific syntax and associated protocols. In Camel, URIs are used to create and configure endpoints. In Red{nbsp}Hat Fuse, Camel URIs have a specific syntax: *scheme:context_path?options*. *scheme* specifies the component to use to create and handle endpoints of its type; *context_path* specifies the location of the input data; and *options*, in the form of property=value pairs, configure the behavior of the created endpoints. For example, the URI `file:data/orders?delay=5000` in the consumer endpoint `<from uri="file:data/orders?delay=5000" />` employs the File component to create a file endpoint, whose input source, the `data/orders` directory, is polled for files at 5 second intervals.
 
 *Use it*: yes
 
@@ -231,7 +231,7 @@
 
 [[user-federation-provider]]
 ==== image:images/yes.png[yes] user federation provider (noun)
-*Description*: In Red Hat Single Sign-On, you can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
+*Description*: In Red{nbsp}Hat Single Sign-On, you can store and manage users. Often, companies already have LDAP or Active Directory services that store user and credential information. You can point Red{nbsp}Hat Single Sign-On to validate credentials from those external stores and pull in identity information.
 
 *Use it*: yes
 
@@ -275,7 +275,7 @@
 
 [[user-provisioned-infrastructure]]
 ==== image:images/yes.png[yes] user-provisioned infrastructure (noun)
-*Description*: In Red Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a _user-provisioned infrastructure_ installation.
+*Description*: In Red{nbsp}Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a _user-provisioned infrastructure_ installation.
 
 *Use it*: yes
 

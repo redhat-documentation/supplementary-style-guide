@@ -45,7 +45,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 [[acceptor]]
 ==== image:images/yes.png[yes] acceptor (noun)
-*Description*: In Red Hat AMQ, an _acceptor_ defines the way a client can connect to a broker instance.
+*Description*: In Red{nbsp}Hat AMQ, an _acceptor_ defines the way a client can connect to a broker instance.
 
 *Use it*: yes
 
@@ -100,7 +100,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 [[action]]
 ==== image:images/yes.png[yes] action (noun)
-*Description*: In Red Hat OpenShift, an authorization _action_ consists of _project_, _verb_, and _resource_.
+*Description*: In Red{nbsp}Hat OpenShift, an authorization _action_ consists of _project_, _verb_, and _resource_.
 
 *Use it*: yes
 
@@ -144,7 +144,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 [[activemq]]
 ==== image:images/no.png[no] ActiveMQ (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, do not use "ActiveMQ" by itself to refer to the built-in messaging technology for JBoss EAP.
 
 *Use it*: no
 
@@ -155,7 +155,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 [[activemq-artemis]]
 ==== image:images/caution.png[with caution] ActiveMQ Artemis (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
 
 *Use it*: with caution
 
@@ -223,51 +223,51 @@ _Valid values are `amd64`._
 
 [[jboss-amq]]
 ==== image:images/yes.png[yes] AMQ (noun)
-*Description*: The short product name for Red Hat AMQ.
+*Description*: The short product name for Red{nbsp}Hat AMQ.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: A-MQ, JBoss AMQ, Red Hat A-MQ, Red Hat AMQ
+*Incorrect forms*: A-MQ, JBoss AMQ, Red{nbsp}Hat A-MQ, Red{nbsp}Hat AMQ
 
-*See also*: xref:red-hat-amq[Red Hat AMQ]
+*See also*: xref:red-hat-amq[Red{nbsp}Hat AMQ]
 
 [[amq-broker]]
 ==== image:images/yes.png[yes] AMQ Broker (noun)
-*Description*: In Red Hat AMQ, _AMQ Broker_ is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
+*Description*: In Red{nbsp}Hat AMQ, _AMQ Broker_ is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: A-MQ Broker, The AMQ Broker, Red Hat Broker, JBoss Broker
+*Incorrect forms*: A-MQ Broker, The AMQ Broker, Red{nbsp}Hat Broker, JBoss Broker
 
 *See also*: xref:broker-distribution[broker distribution], xref:broker-instance[broker instance]
 
 [[amq-clients]]
 ==== image:images/yes.png[yes] AMQ Clients (noun)
-*Description*: In Red Hat AMQ, _AMQ Clients_ is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red Hat AMQ.
+*Description*: In Red{nbsp}Hat AMQ, _AMQ Clients_ is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red{nbsp}Hat AMQ.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: A-MQ Clients, Red Hat Clients, JBoss Clients
+*Incorrect forms*: A-MQ Clients, Red{nbsp}Hat Clients, JBoss Clients
 
 *See also*: xref:client-application[client application], xref:messaging-api[messaging API]
 
 [[amq-console]]
 ==== image:images/yes.png[yes] AMQ Console (noun)
-*Description*: In Red Hat AMQ, the _AMQ Console_ is a management tool for administering AMQ brokers and routers in a single graphical interface.
+*Description*: In Red{nbsp}Hat AMQ, the _AMQ Console_ is a management tool for administering AMQ brokers and routers in a single graphical interface.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: A-MQ Console, Red Hat Console, JBoss Console
+*Incorrect forms*: A-MQ Console, Red{nbsp}Hat Console, JBoss Console
 
 *See also*:
 
 [[amq-core-protocol-jms]]
 ==== image:images/yes.png[yes] AMQ Core Protocol JMS (noun)
-*Description*: In Red Hat AMQ, the _AMQ Core Protocol JMS_ is an implementation of the Java Message Service (JMS) using the ActiveMQ Artemis Core protocol. This is sometimes called _Core JMS_.
+*Description*: In Red{nbsp}Hat AMQ, the _AMQ Core Protocol JMS_ is an implementation of the Java Message Service (JMS) using the ActiveMQ Artemis Core protocol. This is sometimes called _Core JMS_.
 
 *Use it*: yes
 
@@ -278,12 +278,12 @@ _Valid values are `amd64`._
 
 [[amq-interconnect]]
 ==== image:images/yes.png[yes] AMQ Interconnect (noun)
-*Description*: In Red Hat AMQ, it is a messaging router that provides flexible routing of messages between any AMQP-enabled endpoints, whether they are clients, servers, brokers, or any other entity that can send or receive standard AMQP messages.
+*Description*: In Red{nbsp}Hat AMQ, it is a messaging router that provides flexible routing of messages between any AMQP-enabled endpoints, whether they are clients, servers, brokers, or any other entity that can send or receive standard AMQP messages.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Interconnect, Router, A-MQ Interconnect, Red Hat Interconnect, JBoss Interconnect
+*Incorrect forms*: Interconnect, Router, A-MQ Interconnect, Red{nbsp}Hat Interconnect, JBoss Interconnect
 
 *See also*: xref:router[router]
 
@@ -300,7 +300,7 @@ _Valid values are `amd64`._
 
 [[anaconda]]
 ==== image:images/yes.png[yes] Anaconda (noun)
-*Description*: The operating system installer used in Fedora, Red Hat Enterprise Linux, and their derivatives. _Anaconda_ is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
+*Description*: The operating system installer used in Fedora, Red{nbsp}Hat Enterprise Linux, and their derivatives. _Anaconda_ is a set of Python modules and scripts with additional files like Gtk widgets (written in C), `systemd` units, and `dracut` libraries. Together, they form a tool that you can use to set parameters for your target operating system.
 
 *Use it*: yes
 
@@ -379,7 +379,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 [[api-server]]
 ==== image:images/yes.png[yes] API server (noun)
-*Description*: In Red Hat OpenShift, the _API server_ is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
+*Description*: In Red{nbsp}Hat OpenShift, the _API server_ is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
 
 *Use it*: yes
 
@@ -401,7 +401,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 [[application]]
 ==== image:images/yes.png[yes] application (noun)
-*Description*: In Red Hat OpenShift, although the term _application_ is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term _application_ might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
+*Description*: In Red{nbsp}Hat OpenShift, although the term _application_ is not a specific API object type, customers still create and host applications, and using the term within certain contexts is acceptable. For example, the term _application_ might refer to some combination of an image, a Git repository, or a replication controller, and this application might be running PHP, MySQL, Ruby, JBoss, or something else.
 
 *Use it*: yes
 
@@ -412,7 +412,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 [[application-stream]]
 ==== image:images/yes.png[yes] Application Stream (noun)
-*Description*: _Application Streams_ are multiple versions of Red Hat Enterprise Linux user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse Application Streams with "AppStream", the repository through which Application Streams and other components are distributed.
+*Description*: _Application Streams_ are multiple versions of Red{nbsp}Hat Enterprise Linux user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse Application Streams with "AppStream", the repository through which Application Streams and other components are distributed.
 
 *Use it*: yes
 
@@ -456,7 +456,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 [[artemis]]
 ==== image:images/caution.png[with caution] Artemis (noun)
-*Description*: The upstream project for AMQ Broker (link:https://activemq.apache.org/artemis/[Apache ActiveMQ Artemis]). When referring to AMQ Broker, always use the "Red Hat" product name.
+*Description*: The upstream project for AMQ Broker (link:https://activemq.apache.org/artemis/[Apache ActiveMQ Artemis]). When referring to AMQ Broker, always use the "Red{nbsp}Hat" product name.
 
 *Use it*: with caution
 
@@ -489,7 +489,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 [[asset]]
 ==== image:images/yes.png[yes] asset (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, an _asset_ is anything that can be stored as a version in the artifact repository. Assets can be business rules, packages, business processes, decision tables, fact models, or domain-specific language (DSL) files.
 
 *Use it*: yes
 
@@ -500,7 +500,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 [[assisted-installer]]
 ==== image:images/yes.png[yes] Assisted Installer (noun)
-*Description*: In Red Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations.
+*Description*: In Red{nbsp}Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red{nbsp}Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations.
 
 *Use it*: yes
 
@@ -579,7 +579,7 @@ The term "autodetect" is in the Vale rules and should trigger a GitHub error rep
 
 [[autolink]]
 ==== image:images/yes.png[yes] autolink (noun)
-*Description*: In Red Hat AMQ, _autolink_ is an AMQ Interconnect configurable entity that defines a link between the router and a queue, topic, or service in an external broker.
+*Description*: In Red{nbsp}Hat AMQ, _autolink_ is an AMQ Interconnect configurable entity that defines a link between the router and a queue, topic, or service in an external broker.
 
 *Use it*: yes
 
@@ -656,7 +656,7 @@ _Valid values are `arm64`._
 
 [[arm]]
 ==== image:images/yes.png[yes] Azure Resource Manager (noun)
-*Description*: In Microsoft Azure, the _Azure Resource Manager (ARM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
+*Description*: In Microsoft Azure, the _Azure Resource Manager (ARM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red{nbsp}Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
 
 *Use it*: yes
 

@@ -22,7 +22,7 @@
 
 [[qdmanage]]
 ==== image:images/yes.png[yes] qdmanage (noun)
-*Description*: In Red Hat AMQ, `qdmanage` is a generic AMQP management client used for managing AMQ Interconnect.
+*Description*: In Red{nbsp}Hat AMQ, `qdmanage` is a generic AMQP management client used for managing AMQ Interconnect.
 
 *Use it*: yes
 
@@ -33,7 +33,7 @@
 
 [[qdstat]]
 ==== image:images/yes.png[yes] qdstat (noun)
-*Description*: In Red Hat AMQ, `qdstat` is a management client used for monitoring the status of an AMQ Interconnect router network.
+*Description*: In Red{nbsp}Hat AMQ, `qdstat` is a management client used for monitoring the status of an AMQ Interconnect router network.
 
 *Use it*: yes
 
@@ -55,7 +55,7 @@
 
 [[queue]]
 ==== image:images/yes.png[yes] queue (noun)
-*Description*: In Red Hat AMQ, a _queue_ is a stored sequence of messages. In AMQ, queues are hosted on brokers.
+*Description*: In Red{nbsp}Hat AMQ, a _queue_ is a stored sequence of messages. In AMQ, queues are hosted on brokers.
 
 *Use it*: yes
 
@@ -66,7 +66,7 @@
 
 [[quick-start]]
 ==== image:images/yes.png[yes] quick start (noun)
-*Description*: In Red Hat OpenShift, there are two types of _quick starts_:
+*Description*: In Red{nbsp}Hat OpenShift, there are two types of _quick starts_:
 
 * Quick starts that provide a guided tutorial in the web console.
 * Quick start templates that enable users to start creating new applications quickly.

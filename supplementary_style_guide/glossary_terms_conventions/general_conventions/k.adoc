@@ -220,7 +220,7 @@ Do not capitalize the first letter.
 
 [[kickstart]]
 ==== image:images/yes.png[yes] Kickstart (noun)
-*Description*: _Kickstart_ is a tool for Red Hat Enterprise Linux and Fedora-based distributions that allows you to control various aspects of a system install process using commands in a text file. You can use "Kickstart" to change defaults or even do a fully automatic installation. Capitalize the first letter.
+*Description*: _Kickstart_ is a tool for Red{nbsp}Hat Enterprise Linux and Fedora-based distributions that allows you to control various aspects of a system install process using commands in a text file. You can use "Kickstart" to change defaults or even do a fully automatic installation. Capitalize the first letter.
 
 *Use it*: yes
 
@@ -231,7 +231,7 @@ Do not capitalize the first letter.
 
 [[kie]]
 ==== image:images/yes.png[yes] KIE (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, "KIE" is an abbreviation for "Knowledge Is Everything". _KIE_ is a knowledge solution for Red Hat JBoss BRMS and JBoss BPM Suite and is used for the generic parts of a unified API, such as building, deploying, and loading.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, "KIE" is an abbreviation for "Knowledge Is Everything". _KIE_ is a knowledge solution for Red{nbsp}Hat JBoss BRMS and JBoss BPM Suite and is used for the generic parts of a unified API, such as building, deploying, and loading.
 
 *Use it*: yes
 
@@ -242,7 +242,7 @@ Do not capitalize the first letter.
 
 [[kie-api]]
 ==== image:images/yes.png[yes] KIE API (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _KIE API_ is a knowledge-centric API, where rules and processes are first class citizens. "KIE" is used for the generic parts of unified API, such as building, deploying, and loading.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _KIE API_ is a knowledge-centric API, where rules and processes are first class citizens. "KIE" is used for the generic parts of unified API, such as building, deploying, and loading.
 
 *Use it*: yes
 
@@ -253,7 +253,7 @@ Do not capitalize the first letter.
 
 [[kie-base]]
 ==== image:images/yes.png[yes] KIE base (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _KIE base_ is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _KIE base_ is a repository of the application’s knowledge definitions. The name of the Java object is `KieBase`. It contains rules, processes, functions, and type models. A KIE base does not contain runtime data; instead KIE sessions are created from the `KieBase` into which data can be inserted and process instances started.
 
 *Use it*: yes
 
@@ -264,7 +264,7 @@ Do not capitalize the first letter.
 
 [[kie-session]]
 ==== image:images/yes.png[yes] KIE session (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, a _KIE session_ stores runtime data created from a KIE base. The name of the Java object is `KieSession`. After the KIE base is loaded, a session can be created to interact with the engine. The session can then be used to start new processes and signal events.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, a _KIE session_ stores runtime data created from a KIE base. The name of the Java object is `KieSession`. After the KIE base is loaded, a session can be created to interact with the engine. The session can then be used to start new processes and signal events.
 
 *Use it*: yes
 
@@ -275,7 +275,7 @@ Do not capitalize the first letter.
 
 [[kjar]]
 ==== image:images/yes.png[yes] KJAR (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _KJARs_ are simple jar files that include a descriptor for the KIE system to produce KieBase and KieSession. Red Hat JBoss BPM Suite provides a simplified and complete deployment mechanism that is based entirely on Apache Maven artifacts. The KJAR descriptor is represented as the `kmodule.xml` file.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _KJARs_ are simple jar files that include a descriptor for the KIE system to produce KieBase and KieSession. Red{nbsp}Hat JBoss BPM Suite provides a simplified and complete deployment mechanism that is based entirely on Apache Maven artifacts. The KJAR descriptor is represented as the `kmodule.xml` file.
 
 *Use it*: yes
 
@@ -286,7 +286,7 @@ Do not capitalize the first letter.
 
 [[knowledge-base]]
 ==== image:images/yes.png[yes] knowledge base (noun)
-*Description*: Use the two-word "knowledge base" unless referring specifically to the "Red Hat Knowledgebase".
+*Description*: Use the two-word "knowledge base" unless referring specifically to the "Red{nbsp}Hat Knowledgebase".
 
 *Use it*: yes
 
@@ -297,7 +297,7 @@ Do not capitalize the first letter.
 
 [[knowledge-store]]
 ==== image:images/yes.png[yes] knowledge store (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _knowledge store_ is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _knowledge store_ is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
 
 *Use it*: yes
 
@@ -308,7 +308,7 @@ Do not capitalize the first letter.
 
 [[knowledgebase]]
 ==== image:images/yes.png[yes] Knowledgebase (noun)
-*Description*: https://access.redhat.com/search/#/knowledgebase[Red Hat Knowledgebase] includes solutions and articles written mainly by GSS support engineers. The proper spelling is "Knowledgebase", not "KnowledgeBase".
+*Description*: https://access.redhat.com/search/#/knowledgebase[Red{nbsp}Hat Knowledgebase] includes solutions and articles written mainly by GSS support engineers. The proper spelling is "Knowledgebase", not "KnowledgeBase".
 
 *Use it*: yes
 

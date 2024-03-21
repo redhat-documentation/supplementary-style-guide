@@ -22,7 +22,7 @@
 
 [[data-enumeration]]
 ==== image:images/yes.png[yes] data enumeration (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
 
 *Use it*: yes
 
@@ -33,18 +33,18 @@
 
 [[data-grid]]
 ==== image:images/yes.png[yes] Data Grid (noun)
-*Description*: The short product name for _Red Hat Data Grid_. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
+*Description*: The short product name for _Red{nbsp}Hat Data Grid_. Use "Red{nbsp}Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: JBoss Data Grid
 
-*See also*: xref:red-hat-data-grid[Red Hat Data Grid]
+*See also*: xref:red-hat-data-grid[Red{nbsp}Hat Data Grid]
 
 [[data-grid-console]]
 ==== image:images/yes.png[yes] Data Grid Console (noun)
-*Description*: In Red Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
+*Description*: In Red{nbsp}Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
 
 *Use it*: yes
 
@@ -55,7 +55,7 @@
 
 [[data-grid-server]]
 ==== image:images/yes.png[yes] Data Grid Server (noun)
-*Description*: In Red Hat Data Grid, the _Data Grid Server_ is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a "Data Grid Server" instance.
+*Description*: In Red{nbsp}Hat Data Grid, the _Data Grid Server_ is a standalone server that exposes any number of caches to clients over a variety of protocols, including Hot Rod, Memcached and REST. Always capitalize when referring to a "Data Grid Server" instance.
 
 *Use it*: yes
 
@@ -77,7 +77,7 @@
 
 [[data-model]]
 ==== image:images/yes.png[yes] data model (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _data model_ is a model of a data object. A _data object_ is a custom complex data type, such as a `Person` object with data fields `Name`, `Address`, and `Date of Birth`.
 
 *Use it*: yes
 
@@ -88,7 +88,7 @@
 
 [[data-modeler]]
 ==== image:images/yes.png[yes] Data Modeler (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _Data Modeler_ is a built-in editor for creating facts or data objects as part of a project data model from Business Central. Data objects are custom data types implemented as Java objects. These custom data types can be used in any resource (such as a guided decision table) after they have been imported.
 
 *Use it*: yes
 
@@ -110,7 +110,7 @@
 
 [[datasource]]
 ==== image:images/yes.png[yes] datasource subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _datasource subsystem_ is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the `datasource` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _datasource subsystem_ is used to create and configure data sources and to manage JDBC database drivers. In general text, write in lowercase as one word. Use "Datasource subsystem" when referring to the `datasource` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -143,7 +143,7 @@
 
 [[decision-table]]
 ==== image:images/yes.png[yes] decision table (noun)
-*Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red Hat JBoss BRMS user interface.
+*Description*: A _decision table_ is a collection of rules stored in either a spreadsheet or in the Red{nbsp}Hat JBoss BRMS user interface.
 
 *Use it*: yes
 
@@ -165,7 +165,7 @@
 
 [[delivery]]
 ==== image:images/yes.png[yes] delivery (noun)
-*Description*: In Red Hat AMQ, _delivery_ is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
+*Description*: In Red{nbsp}Hat AMQ, _delivery_ is the process by which a message is sent to a receiver. Delivery includes the message content and metadata, and the protocol exchange required to transfer that content. When the delivery is completed, it is settled.
 
 *Use it*: yes
 
@@ -198,7 +198,7 @@
 
 [[deployment]]
 ==== image:images/yes.png[yes] deployment (noun)
-*Description*: In Red Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
+*Description*: In Red{nbsp}Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
 
 The API object for a deployment can be either a Kubernetes-native `Deployment` object (which uses replication controllers) or an OpenShift-specific `DeploymentConfig` object (which uses replica sets).
 
@@ -211,7 +211,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 [[deployment-scanner]]
 ==== image:images/yes.png[yes] deployment-scanner subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _deployment-scanner subsystem_ is used to configure scanners to check for applications to deploy. In general text, write in lowercase as two words separated by a hyphen. Use "Deployment Scanners subsystem" when referring to the `deployment-scanner` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a plural 's'.
 
 *Use it*: yes
 
@@ -255,7 +255,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 [[developer-preview]]
 ==== image:images/yes.png[yes] Developer Preview (noun)
-*Description*: _Developer Preview_ software provides early access to upcoming product software in advance of its possible inclusion in a Red Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. The software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Developer Preview software is not supported by Red Hat in any way and is not functionally complete or production-ready.
+*Description*: _Developer Preview_ software provides early access to upcoming product software in advance of its possible inclusion in a Red{nbsp}Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. The software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Developer Preview software is not supported by Red{nbsp}Hat in any way and is not functionally complete or production-ready.
 
 *Use it*: yes
 
@@ -333,7 +333,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 [[director]]
 ==== image:images/yes.png[yes] director (noun)
-*Description*: In Red Hat OpenStack Platform (RHOSP), _director_ is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
+*Description*: In Red{nbsp}Hat OpenStack Platform (RHOSP), _director_ is a toolset for installing and managing a complete OpenStack environment. Write in lowercase. For example: "Use director to create a RHOSP environment."
 
 *Use it*: yes
 
@@ -344,7 +344,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 [[directory-manager]]
 ==== image:images/yes.png[yes] Directory Manager (noun)
-*Description*: In Red Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
+*Description*: In Red{nbsp}Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
 
 *Use it*: yes
 
@@ -355,8 +355,8 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 [[directory-server]]
 ==== image:images/yes.png[yes] directory server (noun)
-*Description*: In Red Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
-Red Hat Directory Server conforms to LDAP standards.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _directory server_ centralizes user identity and application information. It provides an operating system-independent, network-based registry for storing application settings, user profiles, group data, policies, and access control information. Each resource on the network is considered an object by the directory server. Information about a particular resource is stored as a collection of attributes associated with that resource or object.
+Red{nbsp}Hat Directory Server conforms to LDAP standards.
 
 *Use it*: yes
 
@@ -367,18 +367,18 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[directory-server-product]]
 ==== image:images/yes.png[yes] Directory Server (noun)
-*Description*: The short product name of _Red Hat Directory Server_. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
+*Description*: The short product name of _Red{nbsp}Hat Directory Server_. In the title of guides, use the full product name "Red{nbsp}Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red{nbsp}Hat Directory Server product from other directory servers.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: directory server
 
-*See also*: xref:red-hat-directory-server[Red Hat Directory Server]
+*See also*: xref:red-hat-directory-server[Red{nbsp}Hat Directory Server]
 
 [[disconnected]]
 ==== image:images/yes.png[yes] disconnected (adjective)
-*Description*: In Red Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
+*Description*: In Red{nbsp}Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
 
 "Disconnected" is the preferred term over "restricted", "air-gapped", or "offline".
 
@@ -391,7 +391,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[disk-druid]]
 ==== image:images/yes.png[yes] Disk Druid (noun)
-*Description*: A _Disk Druid_ is a partitioning tool incorporated into Red Hat Enterprise Linux.
+*Description*: A _Disk Druid_ is a partitioning tool incorporated into Red{nbsp}Hat Enterprise Linux.
 
 *Use it*: yes
 
@@ -413,7 +413,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[dispatch-router]]
 ==== image:images/caution.png[with caution] Dispatch Router (noun)
-*Description*: The upstream component for AMQ Interconnect (link:https://qpid.apache.org/components/dispatch-router/[Apache Qpid Dispatch Router]). When referring to "AMQ Interconnect", always use the "Red Hat" product name.
+*Description*: The upstream component for AMQ Interconnect (link:https://qpid.apache.org/components/dispatch-router/[Apache Qpid Dispatch Router]). When referring to "AMQ Interconnect", always use the "Red{nbsp}Hat" product name.
 
 *Use it*: with caution
 
@@ -435,7 +435,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[dnf-automatic]]
 ==== image:images/yes.png[yes] DNF Automatic (noun)
-*Description*: Use _DNF Automatic_ to refer to a Red Hat Enterprise Linux command-line interface suited for automatic and regular package updates.
+*Description*: Use _DNF Automatic_ to refer to a Red{nbsp}Hat Enterprise Linux command-line interface suited for automatic and regular package updates.
 
 *Use it*: yes
 
@@ -490,7 +490,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[domain-controller]]
 ==== image:images/yes.png[yes] domain controller (noun)
-*Description*: In Red Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _domain controller (DC)_ is a host that responds to security authentication requests within a domain and controls access to resources in that domain. IdM servers work as DCs for the IdM domain. A DC authenticates users, stores user account information and enforces security policy for a domain. When a user logs into a domain, the DC authenticates and validates their credentials and either allows or denies access.
 
 *Use it*: yes
 
@@ -501,7 +501,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[domain-mode]]
 ==== image:images/no.png[no] domain mode (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the xref:managed-domain[managed domain] entry.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the xref:managed-domain[managed domain] entry.
 
 *Use it*: no
 
@@ -545,7 +545,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[downstream-adj]]
 ==== image:images/yes.png[yes] downstream (adjective)
-*Description*: _Downstream_ as an adjective refers to the Red Hat offerings that are based on upstream community projects.
+*Description*: _Downstream_ as an adjective refers to the Red{nbsp}Hat offerings that are based on upstream community projects.
 
 *Use it*: yes
 
@@ -556,7 +556,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[downstream-n]]
 ==== image:images/yes.png[yes] downstream (noun)
-*Description*: _Downstream_ as a noun refers to the Red Hat offerings that are based on upstream community projects.
+*Description*: _Downstream_ as a noun refers to the Red{nbsp}Hat offerings that are based on upstream community projects.
 
 *Use it*: yes
 
@@ -567,7 +567,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[drl]]
 ==== image:images/yes.png[yes] DRL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat JBoss BRMS user interface. A DRL file contains one or more rules.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red{nbsp}Hat JBoss BRMS user interface. A DRL file contains one or more rules.
 
 *Use it*: yes
 
@@ -578,7 +578,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[drools-expert]]
 ==== image:images/yes.png[yes] Drools Expert (noun)
-*Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
+*Description*: The _Drools Expert_ is a pattern matching-based rule engine that runs on Java EE application servers, Red{nbsp}Hat JBoss BRMS platform, or bundled with Java applications. It comprises an inference engine, a production memory, and a working memory. Rules are stored in the production memory, and the facts that the inference engine matches the rules against are stored in the working memory.
 
 *Use it*: yes
 
@@ -589,7 +589,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 [[dsl]]
 ==== image:images/yes.png[yes] DSL (noun)
-*Description*: In Red Hat JBoss BRMS and Red Hat JBoss BPM Suite, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
+*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _DSL_ is an abbreviation for "domain-specific language". DSL is used to create a rule language that is dedicated to your problem domain. A set of DSL definitions consists of transformations from DSL sentences to DRL constructs. These constructs let you use all of the underlying rule language and engine features. You can write rules in DSL rule (DSLR) files, which are translated into Drools Rule Language (DRL) files.
 
 *Use it*: yes
 
