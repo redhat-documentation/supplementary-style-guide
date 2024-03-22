@@ -1,7 +1,7 @@
 // Ceph: Added "In Red Hat Ceph Storage, RADOS is"
 [[rados]]
 ==== image:images/yes.png[yes] RADOS (noun)
-*Description*: In Red Hat Ceph Storage, _RADOS_ is an acronym for Reliable Autonomic Distributed Object Storage. A core component of the Ceph Storage Cluster. Do not expand, unless explaining what the acronym means. Also referred as _Object Store_.
+*Description*: In Red{nbsp}Hat Ceph Storage, _RADOS_ is an acronym for Reliable Autonomic Distributed Object Storage. A core component of the Ceph Storage Cluster. Do not expand, unless explaining what the acronym means. Also referred as _Object Store_.
 
 *Use it*: yes
 
@@ -10,10 +10,10 @@
 
 *See also*: xref:object-store[Object Store]
 
-// Ceph: Added "In Red Hat Ceph Storage, the RADOS Block Device is"
+// Ceph: Added "In Red{nbsp}Hat Ceph Storage, the RADOS Block Device is"
 [[rados-block-device]]
 ==== image:images/caution.png[with caution] RADOS Block Device (noun)
-*Description*: In Red Hat Ceph Storage, the _RADOS Block Device_ is the block storage component of Ceph. Also known as the "Ceph Block Device", which is the preferred form. Use "RADOS Block Device" only when expanding the RBD abbreviation.
+*Description*: In Red{nbsp}Hat Ceph Storage, the _RADOS Block Device_ is the block storage component of Ceph. Also known as the "Ceph Block Device", which is the preferred form. Use "RADOS Block Device" only when expanding the RBD abbreviation.
 
 *Use it*: with caution
 
@@ -22,10 +22,10 @@
 
 *See also*: xref:ceph-block-device[Ceph Block Device], xref:RBD[RBD], xref:rbd[rbd], xref:librbd[librbd]
 
-// Ceph: Added "In Red Hat Ceph Storage, RADOS Gateway is"
+// Ceph: Added "In Red{nbsp}Hat Ceph Storage, RADOS Gateway is"
 [[rados-gateway]]
 ==== image:images/caution.png[with caution] RADOS Gateway (noun)
-*Description*: In Red Hat Ceph Storage, _RADOS Gateway_ is the S3/Swift component. Also known as the "Ceph Object Gateway", which is the preferred form. Use "RADOS Gateway" only when expanding the RGW abbreviation.
+*Description*: In Red{nbsp}Hat Ceph Storage, _RADOS Gateway_ is the S3/Swift component. Also known as the "Ceph Object Gateway", which is the preferred form. Use "RADOS Gateway" only when expanding the RGW abbreviation.
 
 *Use it*: with caution
 
@@ -90,10 +90,10 @@
 
 *See also*: xref:interpreted-code[interpreted code]
 
-// Ceph: Added "In Red Hat Ceph Storage, RBD is an"
+// Ceph: Added "In Red{nbsp}Hat Ceph Storage, RBD is an"
 [[RBD]]
 ==== image:images/yes.png[yes] RBD (noun)
-*Description*: In Red Hat Ceph Storage, _RBD_ is an abbreviation for RADOS Block Device.
+*Description*: In Red{nbsp}Hat Ceph Storage, _RBD_ is an abbreviation for RADOS Block Device.
 
 *Use it*: yes
 
@@ -102,10 +102,10 @@
 
 *See also*: xref:ceph-block-device[Ceph Block Device], xref:rados-block-device[RADOS Block Device], xref:rbd[rbd], xref:librbd[librbd]
 
-// Ceph: Added "In Red Hat Ceph Storage, `rbd` is"
+// Ceph: Added "In Red{nbsp}Hat Ceph Storage, `rbd` is"
 [[rbd]]
 ==== image:images/yes.png[yes] rbd (noun)
-*Description*: In Red Hat Ceph Storage, `rbd` is a command to create, list, introspect, and remove Ceph Block Device images. Always mark it correctly (`rbd`).
+*Description*: In Red{nbsp}Hat Ceph Storage, `rbd` is a command to create, list, introspect, and remove Ceph Block Device images. Always mark it correctly (`rbd`).
 
 *Use it*: yes
 
@@ -137,11 +137,11 @@
 *See also*: xref:read-n[read (noun)]
 
 // RHSSO: General; kept as is
-// Ceph: Added "In Red Hat Ceph Storage,"
+// Ceph: Added "In Red{nbsp}Hat Ceph Storage,"
 // Combined entries
 [[realm]]
 ==== image:images/yes.png[yes] realm
-*Description*: (1) A _realm_ manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control. (2) In Red Hat Ceph Storage, a _realm_ is a namespace context for storing a multisite configuration. The notion of a realm enables Ceph to provide multiple namespaces in the same cluster.
+*Description*: (1) A _realm_ manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control. (2) In Red{nbsp}Hat Ceph Storage, a _realm_ is a namespace context for storing a multisite configuration. The notion of a realm enables Ceph to provide multiple namespaces in the same cluster.
 
 *Use it*: yes
 
@@ -150,10 +150,10 @@
 
 *See also*: xref:zone-group[zone group]
 
-// BxMS: Added "In Red Hat Process Automation Manager and Red Hat Decision Manager,"
+// BxMS: Added "In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager,"
 [[realtime-decision-server]]
 ==== image:images/yes.png[yes] Realtime Decision Server (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat Decision Manager and Red Hat Process Automatio M.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automatio M, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automatio M.
 
 *Use it*: yes
 
@@ -162,10 +162,10 @@
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, a receiver is"
+// AMQ: Added "In Red{nbsp}Hat AMQ, a receiver is"
 [[receiver]]
 ==== image:images/yes.png[yes] receiver (noun)
-*Description*: In Red Hat AMQ, a _receiver_ is a channel for receiving messages from a source.
+*Description*: In Red{nbsp}Hat AMQ, a _receiver_ is a channel for receiving messages from a source.
 
 *Use it*: yes
 
@@ -176,44 +176,44 @@
 
 [[recommend]]
 ==== image:images/no.png[no] recommend (verb)
-*Description*: Avoid "recommends". Instead of "Red Hat recommends", direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream or downstream coordinated efforts.
+*Description*: Avoid "recommends". Instead of "Red{nbsp}Hat recommends", direct users to take the recommended action. This allows Red{nbsp}Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream or downstream coordinated efforts.
 
-For example, instead of "Red Hat recommends using X package because", write "Use this package because" or "Use this package when".
+For example, instead of "Red{nbsp}Hat recommends using X package because", write "Use this package because" or "Use this package when".
 
 *Use it*: no
 
 [.vale-ignore]
-*Incorrect forms*: we recommend, we suggest, Red Hat recommends
+*Incorrect forms*: we recommend, we suggest, Red{nbsp}Hat recommends
 
 *See also*: xref:we-suggest[we suggest]
 
 // AMQ: General; kept as is
 [[red-hat-amq]]
-==== image:images/yes.png[yes] Red Hat AMQ (noun)
-*Description*: A lightweight messaging platform that delivers information and easily integrates applications. _Red Hat AMQ_ consists of several components, such as message broker, interconnect router, and clients, that support a variety of configurations. Always use the full product name, "Red Hat AMQ", or short product name, "AMQ".
+==== image:images/yes.png[yes] Red{nbsp}Hat AMQ (noun)
+*Description*: A lightweight messaging platform that delivers information and easily integrates applications. _Red{nbsp}Hat AMQ_ consists of several components, such as message broker, interconnect router, and clients, that support a variety of configurations. Always use the full product name, "Red{nbsp}Hat AMQ", or short product name, "AMQ".
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: A-MQ, AMQ, Red Hat A-MQ, Red Hat JBoss AMQ
+*Incorrect forms*: A-MQ, AMQ, Red{nbsp}Hat A-MQ, Red{nbsp}Hat JBoss AMQ
 
 *See also*: xref:jboss-amq[AMQ], xref:jboss-amq-eap[JBoss AMQ]
 
 [[red-hat-build-openjdk]]
-==== image:images/yes.png[yes] Red Hat build of OpenJDK (noun)
-*Description*: _Red Hat build of OpenJDK_ is the Red Hat distribution of the Open Java Development Kit (OpenJDK).
+==== image:images/yes.png[yes] Red{nbsp}Hat build of OpenJDK (noun)
+*Description*: _Red{nbsp}Hat build of OpenJDK_ is the Red{nbsp}Hat distribution of the Open Java Development Kit (OpenJDK).
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Red Hat Java, Red Hat OpenJDK, RHOJDK
+*Incorrect forms*: Red{nbsp}Hat Java, Red{nbsp}Hat OpenJDK, RHOJDK
 
-*See also*: xref:red-hat-java[Red Hat Java], xref:red-hat-openjdk[Red Hat OpenJDK]
+*See also*: xref:red-hat-java[Red{nbsp}Hat Java], xref:red-hat-openjdk[Red{nbsp}Hat OpenJDK]
 
 // Ceph: General; kept as is
 [[red-hat-ceph-storage]]
-==== image:images/yes.png[yes] Red Hat Ceph Storage (noun)
-*Description*: _Red Hat Ceph Storage_ is a Red Hat offering of the Ceph storage system.
+==== image:images/yes.png[yes] Red{nbsp}Hat Ceph Storage (noun)
+*Description*: _Red{nbsp}Hat Ceph Storage_ is a Red{nbsp}Hat offering of the Ceph storage system.
 
 *Use it*: yes
 
@@ -224,8 +224,8 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 // Azure: General; kept as is
 [[cloud-access]]
-==== image:images/yes.png[yes] Red Hat Cloud Access (noun)
-*Description*: _Red Hat Cloud Access_ is a Red Hat partner program that allows customers to use their Red Hat subscriptions to build resources and import images on qualified Red Hat Certified Cloud and Service Providers (CCSPs).
+==== image:images/yes.png[yes] Red{nbsp}Hat Cloud Access (noun)
+*Description*: _Red{nbsp}Hat Cloud Access_ is a Red{nbsp}Hat partner program that allows customers to use their Red{nbsp}Hat subscriptions to build resources and import images on qualified Red{nbsp}Hat Certified Cloud and Service Providers (CCSPs).
 
 *Use it*: yes
 
@@ -235,10 +235,10 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 *See also*:
 
 [[red-hat-container-catalog]]
-==== image:images/no.png[no] Red Hat Container Catalog (noun)
-*Description*: _Red Hat Container Catalog_ was the Red Hat-hosted registry for enterprise-ready containers located at link:https://catalog.redhat.com/[https://catalog.redhat.com/].
+==== image:images/no.png[no] Red{nbsp}Hat Container Catalog (noun)
+*Description*: _Red{nbsp}Hat Container Catalog_ was the Red{nbsp}Hat-hosted registry for enterprise-ready containers located at link:https://catalog.redhat.com/[https://catalog.redhat.com/].
 
-The Red Hat Container Catalog no longer exists; it has become part of the Red Hat Ecosystem Catalog, which holds not only information about container images, but also information about certified software, hardware, and cloud service providers. The old link:https://catalog.redhat.com/[Red Hat Ecosystem Catalog] link redirects to the link:https://catalog.redhat.com/software/containers/explore[Container images] section of the Red Hat Ecosystem Catalog.
+The Red{nbsp}Hat Container Catalog no longer exists; it has become part of the Red{nbsp}Hat Ecosystem Catalog, which holds not only information about container images, but also information about certified software, hardware, and cloud service providers. The old link:https://catalog.redhat.com/[Red{nbsp}Hat Ecosystem Catalog] link redirects to the link:https://catalog.redhat.com/software/containers/explore[Container images] section of the Red{nbsp}Hat Ecosystem Catalog.
 
 *Use it*: no
 
@@ -249,8 +249,8 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 // EAP: General; kept as is
 [[red-hat-customer-portal]]
-==== image:images/yes.png[yes] Red Hat Customer Portal (noun)
-*Description*: _Red Hat Customer Portal_ is the official name for https://access.redhat.com. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
+==== image:images/yes.png[yes] Red{nbsp}Hat Customer Portal (noun)
+*Description*: _Red{nbsp}Hat Customer Portal_ is the official name for https://access.redhat.com. Use "Red{nbsp}Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
 
 *Use it*: yes
 
@@ -261,33 +261,33 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 // Data Grid: General; kept as is
 [[red-hat-data-grid]]
-==== image:images/yes.png[yes] Red Hat Data Grid (noun)
-*Description*: _Red Hat Data Grid_, which was formerly Red Hat JBoss Data Grid, is a high-performance, distributed, in-memory data store. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. In 2019, Red Hat JBoss Data Grid was rebranded as Red Hat Data Grid.
+==== image:images/yes.png[yes] Red{nbsp}Hat Data Grid (noun)
+*Description*: _Red{nbsp}Hat Data Grid_, which was formerly Red{nbsp}Hat JBoss Data Grid, is a high-performance, distributed, in-memory data store. Use "Red{nbsp}Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. In 2019, Red{nbsp}Hat JBoss Data Grid was rebranded as Red{nbsp}Hat Data Grid.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Red Hat JBoss Data Grid, JDG
+*Incorrect forms*: Red{nbsp}Hat JBoss Data Grid, JDG
 
-*See also*: xref:data-grid[Data Grid], xref:red-hat-jboss-data-grid[Red Hat JBoss Data Grid]
+*See also*: xref:data-grid[Data Grid], xref:red-hat-jboss-data-grid[Red{nbsp}Hat JBoss Data Grid]
 
 // BxMS: General; kept as is
 [discrete]
 [[rhdm]]
-==== image:images/yes.png[yes] Red Hat Decision Manager (noun)
-*Description*: _Red Hat Decision Manager_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). Red Hat Decision Manager is a subset of Red Hat Process Automation Manager. Organizations can use Red Hat Decision Manager to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
+==== image:images/yes.png[yes] Red{nbsp}Hat Decision Manager (noun)
+*Description*: _Red{nbsp}Hat Decision Manager_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). Red{nbsp}Hat Decision Manager is a subset of Red{nbsp}Hat Process Automation Manager. Organizations can use Red{nbsp}Hat Decision Manager to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: BRMS, BRM, JBoss BRMS, DM
 
-*See also*: xref:bpms[Red Hat Process Automation Manager]
+*See also*: xref:bpms[Red{nbsp}Hat Process Automation Manager]
 
 // RHDS: General; kept as is
 [[red-hat-directory-server]]
-==== image:images/yes.png[yes] Red Hat Directory Server (noun)
-*Description*: _Red Hat Directory Server_ (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
+==== image:images/yes.png[yes] Red{nbsp}Hat Directory Server (noun)
+*Description*: _Red{nbsp}Hat Directory Server_ (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
 
 *Use it*: yes
 
@@ -297,8 +297,8 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 *See also*: xref:directory-server-product[Directory Server]
 
 [[red-hat-ecosystem-catalog]]
-==== image:images/yes.png[yes] Red Hat Ecosystem Catalog (noun)
-*Description*: The _Red Hat Ecosystem Catalog_ is the official source for discovering and learning more about the Red Hat Certified Technology Ecosystem and certified third-party products and services. The Red Hat Ecosystem Catalog is a repository for all certified partner software, hardware, and public cloud provider images that run on, in, or under Red Hat software, such as Red Hat Enterprise Linux, OpenShift Container Platform, Red Hat OpenStack Platform, and Ansible.
+==== image:images/yes.png[yes] Red{nbsp}Hat Ecosystem Catalog (noun)
+*Description*: The _Red{nbsp}Hat Ecosystem Catalog_ is the official source for discovering and learning more about the Red{nbsp}Hat Certified Technology Ecosystem and certified third-party products and services. The Red{nbsp}Hat Ecosystem Catalog is a repository for all certified partner software, hardware, and public cloud provider images that run on, in, or under Red{nbsp}Hat software, such as Red{nbsp}Hat Enterprise Linux, OpenShift Container Platform, Red{nbsp}Hat OpenStack Platform, and Ansible.
 
 Write this name in full the first time that you use it in a document. Subsequent uses can be shortened to "Ecosystem Catalog".
 
@@ -307,12 +307,12 @@ Write this name in full the first time that you use it in a document. Subsequent
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:red-hat-container-catalog[Red Hat Container Catalog]
+*See also*: xref:red-hat-container-catalog[Red{nbsp}Hat Container Catalog]
 
-==== image:images/yes.png[yes] Red Hat Enterprise Linux
+==== image:images/yes.png[yes] Red{nbsp}Hat Enterprise Linux
 [[red-hat-enterprise-linux]]
 
-*Description*: _Red Hat Enterprise Linux_ is an open source operating system based on Fedora and developed by Red Hat.
+*Description*: _Red{nbsp}Hat Enterprise Linux_ is an open source operating system based on Fedora and developed by Red{nbsp}Hat.
 
 *Use it*: yes
 
@@ -323,20 +323,20 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 // OpenStack: General; kept as is
 [[red-hat-enterprise-linux-openstack-platform]]
-==== image:images/caution.png[with caution] Red Hat Enterprise Linux OpenStack Platform (noun)
-*Description*: Spell out in full. This product name applies to Red Hat Enterprise Linux OpenStack Platform 7 and earlier versions.
+==== image:images/caution.png[with caution] Red{nbsp}Hat Enterprise Linux OpenStack Platform (noun)
+*Description*: Spell out in full. This product name applies to Red{nbsp}Hat Enterprise Linux OpenStack Platform 7 and earlier versions.
 
 *Use it*: with caution
 
 [.vale-ignore]
 *Incorrect forms*: RHELOSP, RHEL-OSP
 
-*See also*: xref:red-hat-openstack-platform[Red Hat OpenStack Platform]
+*See also*: xref:red-hat-openstack-platform[Red{nbsp}Hat OpenStack Platform]
 
-// Fuse: Added new entry for "Red Hat Fuse Online" (Breda)
+// Fuse: Added new entry for "Red{nbsp}Hat Fuse Online" (Breda)
 [[red-hat-fuse-online]]
-==== image:images/yes.png[yes] Red Hat Fuse Online (noun)
-*Description*: The distribution of Red Hat Fuse for non-expert integrators with a simplified workflow that is accessed through a browser-based UI.
+==== image:images/yes.png[yes] Red{nbsp}Hat Fuse Online (noun)
+*Description*: The distribution of Red{nbsp}Hat Fuse for non-expert integrators with a simplified workflow that is accessed through a browser-based UI.
 
 *Use it*: yes
 
@@ -346,88 +346,88 @@ Write this name in full the first time that you use it in a document. Subsequent
 *See also*: xref:syndesis[Syndesis], xref:fuse-online[Fuse Online]
 
 [[red-hat-java]]
-==== image:images/no.png[no] Red Hat Java (noun)
-*Description*: Do not use _Red Hat Java_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
+==== image:images/no.png[no] Red{nbsp}Hat Java (noun)
+*Description*: Do not use _Red{nbsp}Hat Java_ to refer to the Red{nbsp}Hat distribution of the Open Java Development Kit (OpenJDK).
 
 Java is a registered trademark of Oracle and its affiliates.
 
-Always use the approved product name _Red Hat build of OpenJDK_ instead.
+Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 
 *Use it*: no
 
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:red-hat-build-openjdk[Red Hat build of OpenJDK], xref:red-hat-openjdk[Red Hat OpenJDK]
+*See also*: xref:red-hat-build-openjdk[Red{nbsp}Hat build of OpenJDK], xref:red-hat-openjdk[Red{nbsp}Hat OpenJDK]
 
 
 // Data Grid: General; kept as is
 [[red-hat-jboss-data-grid]]
-==== image:images/no.png[no] Red Hat JBoss Data Grid (noun)
-*Description*: This product name applies to Red Hat Data Grid 7.2 and earlier versions.
+==== image:images/no.png[no] Red{nbsp}Hat JBoss Data Grid (noun)
+*Description*: This product name applies to Red{nbsp}Hat Data Grid 7.2 and earlier versions.
 
 *Use it*: no
 
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:red-hat-data-grid[Red Hat Data Grid]
+*See also*: xref:red-hat-data-grid[Red{nbsp}Hat Data Grid]
 
 // EAP: General; kept as is
 [[red-hat-jboss-enterprise-application-platform]]
-==== image:images/yes.png[yes] Red Hat JBoss Enterprise Application Platform (noun)
-*Description*: _Red Hat JBoss Enterprise Application Platform_ is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
+==== image:images/yes.png[yes] Red{nbsp}Hat JBoss Enterprise Application Platform (noun)
+*Description*: _Red{nbsp}Hat JBoss Enterprise Application Platform_ is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Red Hat JBoss EAP, JBoss Enterprise Application Platform
+*Incorrect forms*: Red{nbsp}Hat JBoss EAP, JBoss Enterprise Application Platform
 
 *See also*: xref:jboss-eap[JBoss EAP]
 
 [[red-hat-network-proxy-server]]
-==== image:images/yes.png[yes] Red Hat Network Proxy Server (noun)
-*Description*: Use "Red Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
+==== image:images/yes.png[yes] Red{nbsp}Hat Network Proxy Server (noun)
+*Description*: Use "Red{nbsp}Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Red Hat Proxy (Server)
+*Incorrect forms*: Red{nbsp}Hat Proxy (Server)
 
-*See also*: xref:red-hat-network-satellite-server[Red Hat Network Satellite Server]
+*See also*: xref:red-hat-network-satellite-server[Red{nbsp}Hat Network Satellite Server]
 
 [[red-hat-network-satellite-server]]
-==== image:images/yes.png[yes] Red Hat Network Satellite Server (noun)
-*Description*: Use "Red Hat Network Satellite Server" for the first occurrence; use "RHN Satellite Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
+==== image:images/yes.png[yes] Red{nbsp}Hat Network Satellite Server (noun)
+*Description*: Use "Red{nbsp}Hat Network Satellite Server" for the first occurrence; use "RHN Satellite Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Red Hat Satellite (Server)
+*Incorrect forms*: Red{nbsp}Hat Satellite (Server)
 
-*See also*: xref:red-hat-network-proxy-server[Red Hat Network Proxy Server]
+*See also*: xref:red-hat-network-proxy-server[Red{nbsp}Hat Network Proxy Server]
 
 [[red-hat-openjdk]]
-==== image:images/no.png[no] Red Hat OpenJDK (noun)
-*Description*: Do not use _Red Hat OpenJDK_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
+==== image:images/no.png[no] Red{nbsp}Hat OpenJDK (noun)
+*Description*: Do not use _Red{nbsp}Hat OpenJDK_ to refer to the Red{nbsp}Hat distribution of the Open Java Development Kit (OpenJDK).
 
 OpenJDK is a registered trademark of Oracle and its affiliates.
 
-Always use the approved product name _Red Hat build of OpenJDK_ instead.
+Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 
 *Use it*: no
 
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:red-hat-build-openjdk[Red Hat build of OpenJDK], xref:red-hat-java[Red Hat Java]
+*See also*: xref:red-hat-build-openjdk[Red{nbsp}Hat build of OpenJDK], xref:red-hat-java[Red{nbsp}Hat Java]
 
 
 
 // OCP: General; kept as is
 [[red-hat-openshift-cluster-manager]]
-==== image:images/yes.png[yes] Red Hat OpenShift Cluster Manager (noun)
-*Description*: A managed service for Red Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After the first mention, you can use "OpenShift Cluster Manager". link:https://console.redhat.com/openshift[OpenShift Cluster Manager] is part of the Red Hat Hybrid Cloud Console.
+==== image:images/yes.png[yes] Red{nbsp}Hat OpenShift Cluster Manager (noun)
+*Description*: A managed service for Red{nbsp}Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After the first mention, you can use "OpenShift Cluster Manager". link:https://console.redhat.com/openshift[OpenShift Cluster Manager] is part of the Red{nbsp}Hat Hybrid Cloud Console.
 
 *Use it*: yes
 
@@ -438,8 +438,8 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 // OCP: General; kept as is
 [[red-hat-openshift-container-platform]]
-==== image:images/yes.png[yes] Red Hat OpenShift Container Platform (noun)
-*Description*: A Red Hat private, on-premise cloud application deployment and hosting platform.
+==== image:images/yes.png[yes] Red{nbsp}Hat OpenShift Container Platform (noun)
+*Description*: A Red{nbsp}Hat private, on-premise cloud application deployment and hosting platform.
 
 *Use it*: yes
 
@@ -450,32 +450,32 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 // OCS: General; kept as is
 [[red-hat-openshift-container-storage]]
-==== image:images/no.png[no] Red Hat OpenShift Container Storage (noun)
-*Description*: Red Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, _Red Hat OpenShift Container Storage_ was rebranded as _Red Hat OpenShift Data Foundation_.
+==== image:images/no.png[no] Red{nbsp}Hat OpenShift Container Storage (noun)
+*Description*: Red{nbsp}Hat software-defined storage for containers that helps to develop and deploy applications quickly and efficiently across cloud platforms. In 2021, _Red{nbsp}Hat OpenShift Container Storage_ was rebranded as _Red{nbsp}Hat OpenShift Data Foundation_.
 
 *Use it*: no
 
 [.vale-ignore]
 *Incorrect forms*: OCS
 
-*See also*: xref:red-hat-openshift-data-foundation[Red Hat OpenShift Data Foundation]
+*See also*: xref:red-hat-openshift-data-foundation[Red{nbsp}Hat OpenShift Data Foundation]
 
 // Added entry for ODF and updated OCS entry
 [[red-hat-openshift-data-foundation]]
-==== image:images/yes.png[yes] Red Hat OpenShift Data Foundation (noun)
-*Description*: Red Hat software-defined, container-native storage that helps to develop and deploy applications quickly and efficiently across cloud platforms. Formerly _Red Hat OpenShift Container Storage_.
+==== image:images/yes.png[yes] Red{nbsp}Hat OpenShift Data Foundation (noun)
+*Description*: Red{nbsp}Hat software-defined, container-native storage that helps to develop and deploy applications quickly and efficiently across cloud platforms. Formerly _Red{nbsp}Hat OpenShift Container Storage_.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: ODF
 
-*See also*: xref:red-hat-openshift-container-storage[Red Hat OpenShift Container Storage]
+*See also*: xref:red-hat-openshift-container-storage[Red{nbsp}Hat OpenShift Container Storage]
 
 // OCP: General; kept as is
 [[red-hat-openshift-dedicated]]
-==== image:images/yes.png[yes] Red Hat OpenShift Dedicated (noun)
-*Description*: A Red Hat managed public cloud application deployment and hosting service.
+==== image:images/yes.png[yes] Red{nbsp}Hat OpenShift Dedicated (noun)
+*Description*: A Red{nbsp}Hat managed public cloud application deployment and hosting service.
 
 *Use it*: yes
 
@@ -486,8 +486,8 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 // OCP: General; kept as is
 [[red-hat-openshift-online]]
-==== image:images/yes.png[yes] Red Hat OpenShift Online (noun)
-*Description*: A Red Hat public cloud application deployment and hosting platform.
+==== image:images/yes.png[yes] Red{nbsp}Hat OpenShift Online (noun)
+*Description*: A Red{nbsp}Hat public cloud application deployment and hosting platform.
 
 *Use it*: yes
 
@@ -498,43 +498,43 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 // OpenStack: General; kept as is
 [[red-hat-openstack-platform]]
-==== image:images/yes.png[yes] Red Hat OpenStack Platform (noun)
-*Description*: On first use in a module, use the complete product name and the abbreviation in parentheses: "Red Hat OpenStack Platform (RHOSP)". After the first instance, use "RHOSP". This product name applies to RHOSP version 8 and later. If you need to use the indefinite article before "RHOSP", use 'a' not 'an'.
+==== image:images/yes.png[yes] Red{nbsp}Hat OpenStack Platform (noun)
+*Description*: On first use in a module, use the complete product name and the abbreviation in parentheses: "Red{nbsp}Hat OpenStack Platform (RHOSP)". After the first instance, use "RHOSP". This product name applies to RHOSP version 8 and later. If you need to use the indefinite article before "RHOSP", use 'a' not 'an'.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: OpenStack Platform, RHOS, RH-OSP
 
-*See also*: xref:red-hat-enterprise-linux-openstack-platform[Red Hat Enterprise Linux OpenStack Platform]
+*See also*: xref:red-hat-enterprise-linux-openstack-platform[Red{nbsp}Hat Enterprise Linux OpenStack Platform]
 
 // BxMS: General; kept as is
 [[bpms]]
-==== image:images/yes.png[yes] Red Hat Process Automation Manager (noun)
-*Description*: _Red Hat Process Automation Manager_ is the Red Hat platform for Business Process Management (BPM). With Red Hat Process Automation Manager enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
+==== image:images/yes.png[yes] Red{nbsp}Hat Process Automation Manager (noun)
+*Description*: _Red{nbsp}Hat Process Automation Manager_ is the Red{nbsp}Hat platform for Business Process Management (BPM). With Red{nbsp}Hat Process Automation Manager enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*: BPMS, BPM, JBoss BPMS, PAM
 
-*See also*: xref:rhdm[Red Hat Decision Manager]
+*See also*: xref:rhdm[Red{nbsp}Hat Decision Manager]
 
 [[red-hat-way]]
-==== image:images/yes.png[yes] Red Hat Way (noun)
+==== image:images/yes.png[yes] Red{nbsp}Hat Way (noun)
 
-*Description*: _Red Hat Way_ refers to the culture valued and maintained by Red Hat associates.
+*Description*: _Red{nbsp}Hat Way_ refers to the culture valued and maintained by Red{nbsp}Hat associates.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Red Hat way
+*Incorrect forms*: Red{nbsp}Hat way
 
 *See also*:
 
 [[redboot]]
 ==== image:images/yes.png[yes] RedBoot (noun)
-*Description*: _RedBoot_ is an abbreviation for _Red Hat Embedded Debug and Bootstrap_ firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
+*Description*: _RedBoot_ is an abbreviation for _Red{nbsp}Hat Embedded Debug and Bootstrap_ firmware. RedBoot is a complete bootstrap environment for embedded systems. Based on the eCos Hardware Abstraction Layer, RedBoot inherits the eCos qualities of reliability, compactness, configurability, and portability.
 
 *Use it*: yes
 
@@ -555,10 +555,10 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *See also*: xref:ostree[OSTree]
 
-// Ceph: Added "In Red Hat Ceph Storage,"
+// Ceph: Added "In Red{nbsp}Hat Ceph Storage,"
 [[region]]
 ==== image:images/yes.png[yes] region (noun)
-*Description*: In Red Hat Ceph Storage, a _region_ is the deprecated term for referring to a zone group. Red Hat Ceph Storage 1.3 uses regions.
+*Description*: In Red{nbsp}Hat Ceph Storage, a _region_ is the deprecated term for referring to a zone group. Red{nbsp}Hat Ceph Storage 1.3 uses regions.
 
 *Use it*: yes
 
@@ -634,10 +634,10 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *See also*: xref:remote-access[remote access]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+// EAP: Added "In Red{nbsp}Hat JBoss Enterprise Application Platform,"
 [[remoting]]
 ==== image:images/yes.png[yes] remoting subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _remoting" subsystem_ is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _remoting" subsystem_ is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -646,10 +646,10 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *See also*:
 
-// RHDS: Added "In Red Hat Directory Server,"
+// RHDS: Added "In Red{nbsp}Hat Directory Server,"
 [[replica]]
 ==== image:images/yes.png[yes] replica (noun)
-*Description*: In Red Hat Directory Server, a _replica_ is a copy of the Directory Server database on a different host. For example, a consumer can also be called a "replica" because it has a copy of the data received from the supplier.
+*Description*: In Red{nbsp}Hat Directory Server, a _replica_ is a copy of the Directory Server database on a different host. For example, a consumer can also be called a "replica" because it has a copy of the data received from the supplier.
 
 *Use it*: yes
 
@@ -658,10 +658,10 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 *See also*:
 
-// RHEL: Added "In Red Hat Enterprise Linux,"
+// RHEL: Added "In Red{nbsp}Hat Enterprise Linux,"
 [[replication-agreement]]
 ==== image:images/yes.png[yes] replication agreement (noun)
-*Description*: In Red Hat Enterprise Linux, a _replication agreement_ is an agreement between two IdM servers in the same IdM deployment. The replication agreement ensures that the data and configuration is continuously replicated between the two servers.
+*Description*: In Red{nbsp}Hat Enterprise Linux, a _replication agreement_ is an agreement between two IdM servers in the same IdM deployment. The replication agreement ensures that the data and configuration is continuously replicated between the two servers.
 IdM uses two types of replication agreements: _domain replication_ agreements, which replicate identity information, and _certificate replication_ agreements, which replicate certificate information.
 
 *Use it*: yes
@@ -671,10 +671,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*: xref:idm-deployment[IdM deployment]
 
-// OCP: Added "In Red Hat OpenShift, a replication controller is"
+// OCP: Added "In Red{nbsp}Hat OpenShift, a replication controller is"
 [[replication-controller]]
 ==== image:images/yes.png[yes] replication controller (noun)
-*Description*: In Red Hat OpenShift, a _replication controller_ is a Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
+*Description*: In Red{nbsp}Hat OpenShift, a _replication controller_ is a Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
 
 *Use it*: yes
 
@@ -685,7 +685,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [[repository]]
 ==== image:images/yes.png[yes] repository (noun)
-*Description*: _Repositories_ provide the packages required for Red Hat products. Using Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with "Red Hat Network" (RHN), where you subscribed to channels.
+*Description*: _Repositories_ provide the packages required for Red{nbsp}Hat products. Using Red{nbsp}Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Do not confuse this with "Red{nbsp}Hat Network" (RHN), where you subscribed to channels.
 
 *Use it*: yes
 
@@ -694,10 +694,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*: xref:subscription[subscription], xref:entitlement[entitlement]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+// EAP: Added "In Red{nbsp}Hat JBoss Enterprise Application Platform,"
 [[request-controller]]
 ==== image:images/yes.png[yes] request-controller subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _request-controller_ subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _request-controller_ subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -733,7 +733,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 [[resilient-storage-add-on]]
 ==== image:images/yes.png[yes] Resilient Storage Add-On (noun)
 
-*Description*: _Resilient Storage Add-On_ is an add-on to Red Hat Enterprise Linux that allows a shared storage or clustered file system to access the same storage device over a network. The Resilient Storage Add-On creates a pool of data that is available to each server in a group by creating consistent storage across a cluster of servers that is protected if any one server fails.
+*Description*: _Resilient Storage Add-On_ is an add-on to Red{nbsp}Hat Enterprise Linux that allows a shared storage or clustered file system to access the same storage device over a network. The Resilient Storage Add-On creates a pool of data that is available to each server in a group by creating consistent storage across a cluster of servers that is protected if any one server fails.
 
 *Use it*: yes
 
@@ -742,10 +742,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+// EAP: Added "In Red{nbsp}Hat JBoss Enterprise Application Platform,"
 [[resource-adapters]]
 ==== image:images/yes.png[yes] resource-adapters subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _resource-adapters_ subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _resource-adapters_ subsystem is used to configure and maintain resource adapters for communication between Java EE applications and an Enterprise Information System (EIS). In general text, write in lowercase as two words separated by a hyphen. Use "Resource Adapters subsystem" when referring to the resource-adapters subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -778,10 +778,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*: xref:ostree[OSTree]
 
-// Ceph: Added "In Red Hat Ceph Storage, RGW is an"
+// Ceph: Added "In Red{nbsp}Hat Ceph Storage, RGW is an"
 [[rgw]]
 ==== image:images/yes.png[yes] RGW (noun)
-*Description*: In Red Hat Ceph Storage, _RGW_ is an abbreviation for RADOS Gateway.
+*Description*: In Red{nbsp}Hat Ceph Storage, _RGW_ is an abbreviation for RADOS Gateway.
 
 *Use it*: yes
 
@@ -792,14 +792,14 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [[rhel]]
 ==== image:images/caution.png[with caution] RHEL (noun)
-*Description*: _RHEL_ is an acronym for _Red Hat Enterprise Linux_. The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
+*Description*: _RHEL_ is an acronym for _Red{nbsp}Hat Enterprise Linux_. The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
 
 *Use it*: with caution
 
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:red-hat-enterprise-linux[Red Hat Enterprise Linux]
+*See also*: xref:red-hat-enterprise-linux[Red{nbsp}Hat Enterprise Linux]
 
 // RHSSO: General; kept as is
 [[role]]
@@ -815,7 +815,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [[rolling-stream]]
 ==== image:images/yes.png[yes] Rolling Stream (noun)
-*Description*: _Rolling Streams_, also referred to as Rolling Application Streams, include Red Hat Enterprise Linux tools and applications that are updated frequently. Later versions of these streams replace earlier versions. Therefore, only one version at a time is supported.
+*Description*: _Rolling Streams_, also referred to as Rolling Application Streams, include Red{nbsp}Hat Enterprise Linux tools and applications that are updated frequently. Later versions of these streams replace earlier versions. Therefore, only one version at a time is supported.
 
 *Use it*: yes
 
@@ -869,11 +869,11 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// OCS: Added "In Red Hat OpenShift Container Storage,"
+// OCS: Added "In Red{nbsp}Hat OpenShift Container Storage,"
 [[rook-ceph-operator]]
 ==== image:images/yes.png[yes] Rook-Ceph Operator (noun)
 
-*Description*: In Red Hat OpenShift Data Foundation, which was formerly Red Hat OpenShift Container Storage, the _Rook-Ceph Operator_ automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
+*Description*: In Red{nbsp}Hat OpenShift Data Foundation, which was formerly Red{nbsp}Hat OpenShift Container Storage, the _Rook-Ceph Operator_ automates the packaging, deployment, management, upgrading, and scaling of persistent storage and file, block, and object services.
 
 *Use it*: yes
 
@@ -905,12 +905,12 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*: xref:round-table[round table]
 
-// OCP: Added "In Red Hat OpenShift,"
-// Fuse: Added "In Red Hat Fuse," and removed "In Camel"
+// OCP: Added "In Red{nbsp}Hat OpenShift,"
+// Fuse: Added "In Red{nbsp}Hat Fuse," and removed "In Camel"
 // Combined
 [[route]]
 ==== image:images/yes.png[yes] route (noun)
-*Description*: 1) In Red Hat OpenShift, a _route_ exposes a service at a hostname, like www.example.com, so that external clients can reach it by name. 2) In Red Hat Fuse, routes specify paths through which messages move. A _route_ is basically a chain of processors that execute actions on messages as they move between the route's consumer and producer endpoints. A routing context can contain multiple routes.
+*Description*: 1) In Red{nbsp}Hat OpenShift, a _route_ exposes a service at a hostname, like www.example.com, so that external clients can reach it by name. 2) In Red{nbsp}Hat Fuse, routes specify paths through which messages move. A _route_ is basically a chain of processors that execute actions on messages as they move between the route's consumer and producer endpoints. A routing context can contain multiple routes.
 
 *Use it*: yes
 
@@ -919,10 +919,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*: xref:consumer[consumer], xref:endpoint[endpoint], xref:processor[processor], xref:producer[producer], xref:routing-context[routing context]
 
-// AMQ: Added "In Red Hat AMQ, a router is"
+// AMQ: Added "In Red{nbsp}Hat AMQ, a router is"
 [[router]]
 ==== image:images/yes.png[yes] router (noun)
-*Description*: In Red Hat AMQ, a _router_ is a configurable instance of AMQ Interconnect. Routers are application layer programs that route AMQP messages between message producers and consumers. Routers are typically deployed in networks of multiple routers with redundant paths. When using this term, be careful not to confuse it with network device routers.
+*Description*: In Red{nbsp}Hat AMQ, a _router_ is a configurable instance of AMQ Interconnect. Routers are application layer programs that route AMQP messages between message producers and consumers. Routers are typically deployed in networks of multiple routers with redundant paths. When using this term, be careful not to confuse it with network device routers.
 
 *Use it*: yes
 
@@ -943,11 +943,11 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// Fuse: Added "In Red Hat Fuse,"
+// Fuse: Added "In Red{nbsp}Hat Fuse,"
 // Fuse: Removed the sentence about Fuse tooling (Breda)
 [[routing-context]]
 ==== image:images/yes.png[yes] routing context (noun)
-*Description*: In Red Hat Fuse, a routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
+*Description*: In Red{nbsp}Hat Fuse, a routing context specifies the routing rules for a Camel application. Among other things, routing rules specify the source and type of input, how to process it, and where to send the output when processing is done. For Spring-based projects, the default name of the routing context file is `camelContext.xml`. For Blueprint-based projects, the default name of the routing context file is `blueprint.xml`.
 
 *Use it*: yes
 
@@ -956,10 +956,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*: xref:camel-context[Camel context], xref:routing-rules[routing rules]
 
-// AMQ: Added "In Red Hat AMQ, a routing mechanism is"
+// AMQ: Added "In Red{nbsp}Hat AMQ, a routing mechanism is"
 [[routing-mechanism]]
 ==== image:images/yes.png[yes] routing mechanism (noun)
-*Description*: In Red Hat AMQ, a _routing mechanism_ is the type of routing to be used for an address. Routing mechanisms include message routing and link routing.
+*Description*: In Red{nbsp}Hat AMQ, a _routing mechanism_ is the type of routing to be used for an address. Routing mechanisms include message routing and link routing.
 
 *Use it*: yes
 
@@ -968,10 +968,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// AMQ: Added "In Red Hat AMQ, a routing pattern is"
+// AMQ: Added "In Red{nbsp}Hat AMQ, a routing pattern is"
 [[routing-pattern]]
 ==== image:images/yes.png[yes] routing pattern (noun)
-*Description*: In Red Hat AMQ, a _routing pattern_ is the path messages sent to a particular address can take across the network. Messages can be distributed in balanced, closest, and multicast routing patterns.
+*Description*: In Red{nbsp}Hat AMQ, a _routing pattern_ is the path messages sent to a particular address can take across the network. Messages can be distributed in balanced, closest, and multicast routing patterns.
 
 *Use it*: yes
 
@@ -980,12 +980,12 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// Fuse: Added "In Red Hat Fuse,"
+// Fuse: Added "In Red{nbsp}Hat Fuse,"
 // Fuse: Removed two sentences about Fuse tooling (Breda)
 // Fuse: Removed "Source tab" from "See also" (Breda)
 [[routing-rules]]
 ==== image:images/yes.png[yes] routing rules (noun)
-*Description*: In Red Hat Fuse, routing rules are declarative statements that define the paths that messages take from their origin to their target destination. The origin is known as the _source_, and the target destination is known as the _sink_. Routing rules, which are written in Java or XML DSL, start with a `from` consumer endpoint, and typically end with one or more `to` producer endpoints. Between the consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints.
+*Description*: In Red{nbsp}Hat Fuse, routing rules are declarative statements that define the paths that messages take from their origin to their target destination. The origin is known as the _source_, and the target destination is known as the _sink_. Routing rules, which are written in Java or XML DSL, start with a `from` consumer endpoint, and typically end with one or more `to` producer endpoints. Between the consumer and producer endpoints, messages can enter various processors, which might transform them or redirect them to other processors or to specific producer endpoints.
 
 *Use it*: yes
 
@@ -996,7 +996,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [[rpm]]
 ==== image:images/yes.png[yes] RPM (noun)
-*Description*: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format. Those files are referred to as "RPM packages". Even though RPM packages are known informally as `rpm` files, do not use this informal term in Red Hat documentation to avoid confusion with the command name.
+*Description*: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format. Those files are referred to as "RPM packages". Even though RPM packages are known informally as `rpm` files, do not use this informal term in Red{nbsp}Hat documentation to avoid confusion with the command name.
 
 *Use it*: yes
 
@@ -1028,10 +1028,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*: xref:ostree[OSTree]
 
-// EAP: Added "In Red Hat JBoss Enterprise Application Platform,"
+// EAP: Added "In Red{nbsp}Hat JBoss Enterprise Application Platform,"
 [[rts]]
 ==== image:images/yes.png[yes] rts subsystem (noun)
-*Description*: In Red Hat JBoss Enterprise Application Platform, the _rts subsystem_ is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the `rts` subsystem in titles and headings.
+*Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _rts subsystem_ is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the `rts` subsystem in titles and headings.
 
 *Use it*: yes
 
@@ -1040,10 +1040,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// BxMS: Added "In Red Hat Process Automation Manager and Red Hat Decision Manager,"
+// BxMS: Added "In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager,"
 [[rule]]
 ==== image:images/yes.png[yes] rule (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automatio M, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
 
 *Use it*: yes
 
@@ -1052,10 +1052,10 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 *See also*:
 
-// BxMS: Added "In Red Hat Process Automation Manager and Red Hat Decision Manager,"
+// BxMS: Added "In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager,"
 [[rule-template]]
 ==== image:images/yes.png[yes] rule template (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automatio M, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
 
 *Use it*: yes
 
@@ -1092,10 +1092,10 @@ Examples:
 
 *See also*:
 
-// BxMS: Added "In Red Hat Process Automation Manager and Red Hat Decision Manager,"
+// BxMS: Added "In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager,"
 [[runtime-manager]]
 ==== image:images/yes.png[yes] runtime manager (noun)
-*Description*: In Red Hat Decision Manager and Red Hat Process Automatio M, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automatio M, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
 
 *Use it*: yes
 
