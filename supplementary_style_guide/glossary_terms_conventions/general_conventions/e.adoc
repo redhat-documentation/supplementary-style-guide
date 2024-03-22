@@ -9,6 +9,21 @@
 
 *See also*:
 
+// Fuse: General; kept as is; but replaced "In Fuse tooling" later with "In Red Hat Fuse"
+// Fuse: Prefixed second sentence with "In Red Hat Fuse, an EIP is a" (Breda)
+// Fuse: Changed "Camel" to "Red Hat Fuse" (Breda)
+// Fuse: Removed the final sentence about the Palette (Breda)
+
+[[egress]]
+==== image:images/yes.png[yes] egress (adjective)
+*Description*: In Red{nbsp}Hat OpenShift, _egress_ describes the process of network traffic leaving a Red{nbsp}Hat OpenShift cluster. Alternatively, data _ingress_ refers to outside network traffic entering an OpenShift cluster.
+
+*Use it*: yes
+
+*Incorrect forms*:
+
+*See also*: xref:ingress[ingress]
+
 [[eip]]
 ==== image:images/yes.png[yes] EIP (noun)
 *Description*: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red{nbsp}Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red{nbsp}Hat Fuse implements numerous patterns for asynchronous messaging.
