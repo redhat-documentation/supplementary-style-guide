@@ -315,7 +315,6 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 *See also*: xref:red-hat-openstack-platform[Red{nbsp}Hat OpenStack Platform]
 
-
 [[red-hat-fuse-online]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat Fuse Online (noun)
 *Description*: The distribution of Red{nbsp}Hat Fuse for non-expert integrators with a simplified workflow that is accessed through a browser-based UI.
@@ -414,7 +413,6 @@ Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 *Incorrect forms*: OCM, Cluster Manager, the OpenShift Cluster Manager, the OpenShift Cluster Manager site
 
 *See also*:
-
 
 [[red-hat-openshift-container-platform]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat OpenShift Container Platform (noun)
@@ -965,7 +963,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [[rpm-ostree]]
 ==== image:images/yes.png[yes] rpm-ostree (noun)
-*Description*: A hybrid image or system package that hosts operating system updates.
+*Description*: A hybrid image or system package that hosts operating system updates. Use lowercase format and backticks.
 
 *Use it*: yes
 
