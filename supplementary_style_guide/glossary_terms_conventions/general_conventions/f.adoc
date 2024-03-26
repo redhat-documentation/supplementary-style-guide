@@ -80,6 +80,17 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*:
 
+[[file-storage]]
+==== image:images/yes.png[yes] file storage (noun)
+*Description*: _File storage_ refers to a repository of files and directories organized in a hierarchical way, as distinct from block storage or object storage.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:block-storage[block storage], xref:object-storage[object storage]
+
 [[filestore]]
 ==== image:images/yes.png[yes] FileStore (noun)
 *Description*: In Red{nbsp}Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
@@ -197,6 +208,19 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 *Description*: A _fully qualified domain name (FQDN)_ is a domain name that specifies the exact location of a host within the hierarchy of the Domain Name System (DNS). A device with the hostname `myhost` in the parent domain `example.com` has the FQDN `myhost.example.com`. The FQDN uniquely distinguishes the device from any other hosts called `myhost` in other domains.
 
 *Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[fuse]]
+==== image:images/caution.png[with caution] FUSE
+*Description*: _FUSE_ (File system in USEr Space) is a software interface for Linux and Linux-like systems that lets non-privileged users create and configure their own file systems without interacting directly with kernel code.
+
+Use with caution. It is more typical to refer to _FUSE-compatible_ or _FUSE-compliant_ systems rather than FUSE itself.
+
+*Use it*: with caution
 
 [.vale-ignore]
 *Incorrect forms*:

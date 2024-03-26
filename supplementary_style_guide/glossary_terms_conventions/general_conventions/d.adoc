@@ -20,6 +20,23 @@
 
 *See also*: xref:daisy-chain-n[daisy chain (noun)]
 
+[[data-compression]]
+==== image:images/caution.png[with caution] data compression (noun)
+*Description*: _Data compression_ is a method of encoding data using fewer bits than the original data. How compression is achieved differs across products and should always be clarified.
+
+In Red{nbsp}Hat Enterprise Linux and solutions built on top of it, Virtual Disk Optimization (VDO) uses HIOPS compression, which operates on blocks that have not been identified as duplicates. When unique data is seen for the first time, it is compressed. Subsequent copies of data that have already been stored are then deduplicated without requiring an additional compression step.
+
+Migration compression is specific to Red{nbsp}Hat Virtualization, and is the compression of virtual machine image information while a running virtual machine is moved from one server to another. It uses Xor Based Zero Run Length Encoding (XBZRLE) as the compression mechanism.
+
+LZO compression and LZ4 compression are specific compression algorithms, so they are specific enough.
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[data-enumeration]]
 ==== image:images/yes.png[yes] data enumeration (noun)
 *Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, _data enumeration_ is an optional type of asset that can be configured to provide drop-down lists for the guided decision table editor.
@@ -140,6 +157,17 @@
 *Incorrect forms*: de-bug
 
 *See also*: xref:debug-adj[debug (adjective)]
+
+[[deduplication]]
+==== image:images/yes.png[yes] deduplication (noun)
+*Description*: _Deduplication_ is a feature of virtual disk optimization (VDO) that helps conserve storage space by eliminating multiple copies of duplicate blocks.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
 
 [[decision-table]]
 ==== image:images/yes.png[yes] decision table (noun)
@@ -342,6 +370,17 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 *See also*:
 
+[[directory]]
+==== image:images/yes.png[yes] directory (noun)
+*Description*: A _directory_ is a special type of file in a Linux file system that contains a list of objects and their inodes.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[directory-manager]]
 ==== image:images/yes.png[yes] Directory Manager (noun)
 *Description*: In Red{nbsp}Hat Directory Server, the privileged administrative user is called the _Directory Manager_. The distinguished name (DN) of this user is cn=Directory Manager.
@@ -376,6 +415,17 @@ Red{nbsp}Hat Directory Server conforms to LDAP standards.
 
 *See also*: xref:red-hat-directory-server[Red{nbsp}Hat Directory Server]
 
+[[disaster-recovery]]
+==== image:images/yes.png[yes] disaster recovery (adjective)
+*Description*: _Disaster recovery_ refers to processes or methods used to ensure data integrity and the operational continuity of an environment or infrastructure during any malicious or accidental interruption.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[disconnected]]
 ==== image:images/yes.png[yes] disconnected (adjective)
 *Description*: In Red{nbsp}Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
@@ -397,6 +447,17 @@ Red{nbsp}Hat Directory Server conforms to LDAP standards.
 
 [.vale-ignore]
 *Incorrect forms*: Disk druid, disk druid, diskdruid
+
+*See also*:
+
+[[disk-encryption]]
+==== image:images/yes.png[yes] disk encryption (noun)
+*Description*:  _Disk encryption_ is a security feature to protect access to sensitive information stored on a disk by using mathematical functions to convert disk data into a format that cannot be deciphered easily by unauthorized processes or users. Disk encryption is also known as _block device encryption_ or _encryption at rest_.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:
 
@@ -422,6 +483,17 @@ Red{nbsp}Hat Directory Server conforms to LDAP standards.
 
 *See also*: xref:amq-interconnect[AMQ Interconnect]
 
+[[dispersed-volume]]
+==== image:images/yes.png[yes] dispersed volume (noun)
+*Description*: A _dispersed volume_ is a Gluster volume that uses erasure coding to write data across three or more bricks to ensure that data remains available even when a certain number of bricks is not available.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:brick[brick]
+
 [[distinguished-name]]
 ==== image:images/yes.png[yes] distinguished name (noun)
 *Description*: A _distinguished name (DN)_ is a sequence of relative distinguished names (RDN) connected by commas. A DN defines the unique location of an entry in the LDAP directory. Use "distinguished name" on the first usage and then the abbreviation "DN" subsequently.
@@ -441,6 +513,48 @@ Red{nbsp}Hat Directory Server conforms to LDAP standards.
 
 [.vale-ignore]
 *Incorrect forms*: DNF automatic, dnf automatic
+
+[[distributed-file-system]]
+==== image:images/yes.png[yes] distributed file system (noun)
+*Description*: A _distributed file system_ is a file system that presents files from several different storage devices, potentially on many different machines and in many different locations, as a single interface to an end user or consuming service.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[distributed-volume]]
+==== image:images/yes.png[yes] distributed volume (noun)
+*Description*: A _distributed volume_ is a Gluster volume that distributes data across one or more bricks.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[distributed-dispersed-volume]]
+==== image:images/yes.png[yes] distributed-dispersed volume (noun)
+*Description*: A _distributed-dispersed volume_ is a Gluster volume that distributes and erasure codes data across one or more bricks.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[distributed-replicated-volume]]
+==== image:images/yes.png[yes] distributed-replicated volume (noun)
+*Description*: A _distributed-replicated volume_ is a Gluster volume that distributes and replicates data across multiple bricks.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:
 
@@ -617,5 +731,16 @@ Red{nbsp}Hat Directory Server conforms to LDAP standards.
 
 [.vale-ignore]
 *Incorrect forms*: DVD burner, burner
+
+*See also*:
+
+[[dynamically-provisioned-storage]]
+==== image:images/caution.png[with caution] dynamically provisioned storage (noun)
+*Description*:  _Dynamically provisioned storage_ is a data repository that changes in size depending on the current demand of the application or the user. In OpenShift Container Platform and OpenShift Data Foundation, use "dynamic volume provisioning" to refer to the related `StorageClass` configuration parameter.
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:

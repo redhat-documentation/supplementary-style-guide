@@ -64,6 +64,17 @@
 
 *See also*: xref:bare-metal-n[bare metal (noun)]
 
+[[bare-metal-service]]
+==== image:images/yes.png[yes] Bare Metal service (noun)
+*Description*: The _Bare Metal service_ is a Red{nbsp}Hat OpenStack Platform product that provisions bare metal machines.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[base-dn]]
 ==== image:images/yes.png[yes] base DN (noun)
 *Description*: In an LDAP directory, the _base distinguished name (DN)_ defines the starting point for operations, such as searches.
@@ -178,6 +189,17 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 *See also*:
 
+[[bind-v]]
+==== image:images/yes.png[yes] bind (verb)
+*Description*: To _bind_ is to associate two or more objects in a particular scope. For example, in OpenShift Container Storage, when a persistent volume claim is created, a persistent volume that matches the claim's requirements is bound to the persistent volume claim.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:bind[BIND (noun)]
+
 [[bind-dn]]
 ==== image:images/yes.png[yes] bind DN (noun)
 *Description*: A _distinguished name (DN)_ defines the unique location of an entry in the LDAP directory. You can use the DN of an entry to bind (authenticate) to an LDAP directory. The bind DN is similar to a user name in other systems.
@@ -187,7 +209,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:distinguished-name[distinguished name]
+*See also*: xref:distinguished-name[distinguished name], xref:bind-v[bind (verb)]
 
 [[bios]]
 ==== image:images/caution.png[with caution] BIOS (noun)
@@ -212,6 +234,39 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 *Incorrect forms*:
 
 *See also*:
+
+[[block-device]]
+==== image:images/caution.png[with caution] block device (noun)
+*Description*: A _block device_ is a physical storage device that supports reading and writing data in groups (blocks) of bytes in any order. Do not confuse this term with "block storage" (cloud storage) or "block volume" (OpenShift Virtualization).
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*: block storage, block volume
+
+*See also*: xref:block-storage[block storage], xref:block-volume[block volume]
+
+[[block-storage]]
+==== image:images/caution.png[with caution] block storage (noun)
+*Description*: _Block storage_, as distinct from file storage and object storage, breaks data into chunks that are arbitrarily organized and distributed. These chunks can then be further partitioned and treated as individual storage devices. Do not confuse this term with "block device" (generic) or "block volume" (OpenShift Virtualization).
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*: block device, block volume
+
+*See also*: xref:block-device[block device], xref:block-volume[block volume]
+
+[[block-volume]]
+==== image:images/caution.png[with caution] block volume (noun)
+*Description*: A _block volume_ is a physical volume that supports `Block` as opposed to `Filesystem` data formats. Block data are raw chunks of data that are not compatible with any predefined file system mechanism, such as NFS. Do not confuse this term with "block device" (generic) or "block storage" (cloud storage).
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*: block device, block storage
+
+*See also*: xref:block-device[block device], xref:block-storage[block storage]
 
 [[blueprint]]
 ==== image:images/yes.png[yes] blueprint (noun)
@@ -268,6 +323,17 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 *See also*:
 
+[[boot-source]]
+==== image:images/yes.png[yes] boot source (noun)
+*Description*: A _boot source_ is a system image containing a bootable operating system (OS) and all of the configuration settings for the OS, such as drivers. Boot sources can be used to create virtual machine templates with specific configurations. These templates can be used to create any number of available virtual machines.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: bootsource, boot-source
+
+*See also*:
+
 [[bottleneck]]
 ==== image:images/yes.png[yes] bottleneck (noun)
 *Description*: A _bottleneck_ is a limitation in the capacity of software or hardware caused by a single component.
@@ -311,6 +377,17 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 *Incorrect forms*: Bps
 
 *See also*: xref:Bps[Bps]
+
+[[brick]]
+==== image:images/yes.png[yes] brick (noun)
+*Description*: A _brick_ is an exported directory on a server that is in a trusted storage pool. It is the basic unit of storage in Red{nbsp}Hat Gluster Storage.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
 
 [[broadcast-n]]
 ==== image:images/yes.png[yes] broadcast (noun)
@@ -391,7 +468,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 [[bucket]]
 ==== image:images/yes.png[yes] bucket (noun)
-*Description*: 1) A _bucket_ in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a _container_ in the Swift API. 2) The term "bucket" is also sometimes used in the context of a _CRUSH hierarchy_, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
+*Description*: (1) A _bucket_ in the S3 API contains objects. A bucket also defines access control lists (ACLs). Unlike folders or directories, buckets cannot contain other buckets. A bucket in the S3 API is synonymous with a _container_ in the Swift API. (2) The term "bucket" is also sometimes used in the context of a _CRUSH hierarchy_, but CRUSH buckets and S3 buckets are mutually exclusive concepts.
 
 *Use it*: yes
 

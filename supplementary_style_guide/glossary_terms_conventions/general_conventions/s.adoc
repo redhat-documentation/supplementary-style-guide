@@ -70,6 +70,28 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
+[[scale-out]]
+==== image:images/yes.png[yes] scale out (verb)
+*Description*: To _scale out_ is to improve the ability of a cluster to do work by adding more machines. _Scaling out_ refers to increasing the amount of load that the system can handle at one time by increasing the number of servers doing work.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:scale-up[scale up]
+
+[[scale-up]]
+==== image:images/yes.png[yes] scale up (verb)
+*Description*: To _scale up_ is to improve the ability of a specific machine or cluster to do work by adding more resources to the machines. _Scaling up_ refers to increasing the amount of load that the system can handle by increasing the resources available to its components.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:scale-out[scale out]
+
 [[scheduler]]
 ==== image:images/yes.png[yes] scheduler (noun)
 *Description*: In Red{nbsp}Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
@@ -136,6 +158,17 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
+[[secondary-cluster]]
+==== image:images/yes.png[yes] secondary cluster (noun)
+*Description*: In Red{nbsp}Hat Gluster Storage, a _secondary cluster_ is a cluster that exists as a backup if the primary cluster becomes unavailable.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[security-elytron]]
 ==== image:images/yes.png[yes] Security - Elytron (noun)
 *Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, use "Security - Elytron" when describing the `elytron` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen.
@@ -191,6 +224,17 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*:
 
+[[self-heal]]
+==== image:images/yes.png[yes] self-healing (noun)
+*Description*: After an error has occurred in a Red{nbsp}Hat Gluster Storage cluster, _self-healing_ refers to the ability of the system to determine automatically which data is most correct and then to copy the correct data to the correct location in the cluster.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[selinux]]
 ==== image:images/yes.png[yes] SELinux (noun)
 *Description*: _SELinux_ is an abbreviation for "Security-Enhanced Linux". SELinux uses Linux Security Modules (LSM) in the Linux kernel to provide a range of minimum-privilege-required security policies. Do not use alternatives such as "SE-Linux", "S-E Linux", or "SE Linux".
@@ -212,6 +256,17 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 *Incorrect forms*:
 
 *See also*: xref:producer[producer], xref:target[target], xref:receiver[receiver]
+
+[[server]]
+==== image:images/yes.png[yes] server (noun)
+*Description*: A _server_ is a physical or virtual machine that runs software that provides the primary features of a product. Do not use "server" by itself unless you have previously qualified it with another defined term, such as storage server, metadata server, or database server.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
 
 [[server-cluster]]
 ==== image:images/yes.png[yes] server cluster (noun)
@@ -237,7 +292,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[service]]
 ==== image:images/yes.png[yes] service (noun)
-*Description*: In Red{nbsp}Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
+*Description*: (1) Generically, software that performs automated tasks and listens to and responds to hardware events and requests from other software. (2) In Red{nbsp}Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
 
 *Use it*: yes
 
@@ -259,7 +314,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[session]]
 ==== image:images/caution.png[with caution] session (noun)
-*Description*: 1) In Red{nbsp}Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. 2) In Red{nbsp}Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
+*Description*: (1) In Red{nbsp}Hat Single Sign-On, when a user logs in, a _session_ is created to manage the login session. A session contains information such as when the user logged in and what applications have participated within single sign-on during that session. Both administrators and users can view session information. (2) In Red{nbsp}Hat AMQ, a _session_ is a serialized context for producing and consuming messages. Sessions are established between AMQ peers over connections. Sending and receiving links are established over sessions. Use this term with caution, as users typically do not need to understand it to use AMQ.
 
 *Use it*: with caution
 
@@ -347,7 +402,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 [[shard-n]]
 ==== image:images/yes.png[yes] shard (noun)
-*Description*: A database _shard_ is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a shard or database shard. Each shard is held on a separate database server instance, to spread load.
+*Description*: (1) A database _shard_ is a horizontal partition of data in a database or search engine. Each individual partition is referred to as a _shard_ or _database shard_. To spread load, each shard is held in a separate database server instance. (2) In storage, a _shard_ is a small part of a larger container. Shards replicate independently in parallel with other shards. Operations on shards take less time than operations on the whole container, which makes replication and maintenance more reliable.
 
 *Use it*: yes
 
@@ -520,6 +575,17 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 *See also*: xref:snapshot-set[snapshot set]
 
+[[snapshot]]
+==== image:images/yes.png[yes] snapshot (noun)
+*Description*: A _snapshot_ is a point-in-time copy of the current state of a volume or disk drive. Do not use "snapshot" as a verb, such as "snapshot the drive". Instead, say "take a snapshot" or "create a snapshot"
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[snapshot-set]]
 ==== image:images/yes.png[yes] snapshot set (noun)
 *Description*: In Red{nbsp}Hat Ceph Storage, the _snapshot set_ stores information about a snapshot as a list of key-values pairs. The pairs are called attributes of a snapshot set.
@@ -668,6 +734,17 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 *See also*:
 
+[[source-node]]
+==== image:images/yes.png[yes] source node (noun)
+*Description*: When discussing geo-replication in Red{nbsp}Hat Gluster Storage, _source node_ refers to a node in the active cluster.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: master node
+
+*See also*: xref:primary-node[primary node]
+
 [[source-to-image]]
 ==== image:images/yes.png[yes] Source-to-Image (S2I) (noun)
 *Description*: _Source-to-Image_ is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image.
@@ -676,6 +753,17 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 [.vale-ignore]
 *Incorrect forms*: STI, source to image
+
+*See also*:
+
+[[source-volume]]
+==== image:images/yes.png[yes] source volume (noun)
+*Description*: Generically, _source volume_ refers to the volume from which information is obtained for reference.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:
 
@@ -759,6 +847,17 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [.vale-ignore]
 *Incorrect forms*: Spice, spice
+
+*See also*:
+
+[[split-brain]]
+==== image:images/yes.png[yes] split brain (noun)
+*Description*: A _split brain_ state refers to a state that a server cluster can enter, where nodes and their associated data diverge from each other and have conflicts when handling incoming I/O operations. As a result, these servers might record the same data inconsistently or might compete for resources.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:
 
@@ -951,7 +1050,29 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [[storage-class]]
 ==== image:images/yes.png[yes] storage class (noun)
-*Description*: In Red{nbsp}Hat OpenShift Data Foundation (formerly Red{nbsp}Hat OpenShift Container Storage), use _storage classes_ to describe the types of storage a product offers. OpenShift Data Foundation offers block, shared file system, and object classes.
+*Description*: (1) In Red{nbsp}Hat OpenShift, a _storage class_ is a type of storage device categorized by performance characteristics. Storage class devices can be traditional hard disk drives, a solid state drives, or non-volatile memory express (NVMe) drives. (2) In Red{nbsp}Hat OpenShift Data Foundation (formerly Red{nbsp}Hat OpenShift Container Storage), use "storage classes" to describe the types of storage a product offers.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[storage-cluster]]
+==== image:images/yes.png[yes] storage cluster (noun)
+*Description*: A _storage cluster_ is a group of physical or virtual machines that contains the resources and services required to provide storage. _Storage cluster_ might refer to a Ceph storage cluster, a Gluster storage cluster, or a cluster whose primary purpose is to provide storage as a service.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[storage-pool]]
+==== image:images/yes.png[yes] storage pool (noun)
+*Description*: A _storage pool_ is a logical storage partition that allows storage comprised of disks attached to one or more servers to be managed as a single entity. Access to and use of storage in a pool is usually shared between several different users or services.
 
 *Use it*: yes
 
@@ -968,6 +1089,17 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [.vale-ignore]
 *Incorrect forms*: straight forward, straight-forward
+
+*See also*:
+
+[[stripe]]
+==== image:images/yes.png[yes] stripe (noun)
+*Description*: A _stripe_ is a segment of data. Disk striping is a technique that spreads data segments across multiple disk drives to optimize performance.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:
 
@@ -1045,6 +1177,27 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 [.vale-ignore]
 *Incorrect forms*: Subscription manifest
+
+*See also*:
+
+[[subvolume]]
+==== image:images/caution.png[with caution] subvolume (noun)
+*Description*: _Subvolume_ has several possible meanings, depending on the context.
+
+* Generically, a _subvolume_ is a logical partition of a larger volume.
+
+* In Logical Volume Manager (LVM), an _LVM subvolume_ is a logical partition of an LVM volume, usually to store metadata related to the rest of the file system on the volume.
+
+* In Red{nbsp}Hat Gluster Storage, a _gluster subvolume_ is a gluster brick whose data has been processed by at least one translator, for example, to replicate files in the volume.
+
+* In Red{nbsp}Hat Ceph Storage, a _Ceph subvolume_ is an abstraction of a Ceph file system export that Ceph Manager can make available for consumption by a service, such as a Red{nbsp}Hat OpenStack file system service (Manila).
+
+Use the expanded term before you use "subvolume" by itself.
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:
 

@@ -99,9 +99,31 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
+[[encrypted-disk]]
+==== image:images/yes.png[yes] encrypted disk (noun)
+*Description*: An _encrypted disk_ contains data that has been encoded for the purpose of ensuring data security.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[encryption]]
+==== image:images/yes.png[yes] encryption (noun)
+*Description*: _Encryption_ is the encoding of data, either at-rest or in-transit, for the purpose of ensuring data security.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[endpoint]]
 ==== image:images/caution.png[with caution] endpoint (noun)
-*Description*: 1) The servers that back a service. 2) In Red{nbsp}Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
+*Description*: (1) The servers that back a service. (2) In Red{nbsp}Hat Fuse, an _endpoint_ provides the starting and terminal ends of a Camel route through which an external system or service can send or receive messages. You use Camel components to create and configure endpoints.
 
 *Use it*: with caution
 
@@ -143,6 +165,17 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
+[[ephemeral-storage]]
+==== image:images/yes.png[yes] ephemeral storage (noun)
+*Description*: _Ephemeral storage_ is a temporary storage location that only exists while an individual pod exists, and that cannot be shared by multiple pods.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[essentially]]
 ==== image:images/no.png[no] essentially (adverb)
 *Description*: Do not use "essentially". It does not add anything to the sentence.
@@ -156,7 +189,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 [[event]]
 ==== image:images/yes.png[yes] event (noun)
-*Description*: 1) An _event_ is an action or occurrence detected by a program. Events can be user actions, such as clicking a mouse button or pressing a key, or system occurrences, such as running out of memory. 2) An event is an audit stream that administrators view and connect to.
+*Description*: (1) An _event_ is an action or occurrence detected by a program. Events can be user actions, such as clicking a mouse button or pressing a key, or system occurrences, such as running out of memory. (2) An event is an audit stream that administrators view and connect to.
 
 *Use it*: yes
 
@@ -239,5 +272,18 @@ Capitalize "extranet" only at the beginning of a sentence.
 
 [.vale-ignore]
 *Incorrect forms*: Extranet
+
+*See also*:
+
+[[external-mode]]
+==== image:images/caution.png[with caution] external mode (noun)
+*Description*: In the context of externally hosted storage services, _external mode_ refers to a deployment of Red{nbsp}Hat OpenShift Container Storage that uses externally hosted Red{nbsp}Hat Ceph Storage (RHCS) clusters to provide storage. This OpenShift Container Storage deployment type is supported for bare metal and user-provisioned VMware environments.
+
+Use this term only in OpenShift Container Storage.
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*:
 
 *See also*:

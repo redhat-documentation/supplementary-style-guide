@@ -381,6 +381,17 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
+[[infrastructure-node]]
+==== image:images/yes.png[yes] infrastructure node (noun)
+*Description*: An _infrastructure node_ is a node that is labeled to run pieces of the OpenShift Container Platform environment, as distinct from a node intended to run applications.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[ingress]]
 ==== image:images/yes.png[yes] ingress (noun, adjective)
 *Description*: In Red{nbsp}Hat OpenShift, _Ingress_  is a Kubernetes API object that developers can use to expose services within the cluster through an HTTP(S) load balancer and a proxy layer by using a public DNS entry. The `Ingress` resource defines the cluster-wide configuration for ingress traffic, and provides the ability to specify TLS options, a certificate, or a public CNAME that the OpenShift `IngressController` object can accept for HTTP(S) traffic. Additionally, _ingress_ can also be used to describe the incoming direction of network traffic. In Red{nbsp}Hat OpenShift, for example, this traffic is described as entering (ingress) or leaving (egress) an OpenShift cluster.
@@ -416,6 +427,17 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 
 *See also*:
 
+[[initiator]]
+==== image:images/yes.png[yes] initiator (noun)
+*Description*: An _initiator_ is the consumer of storage from a target. An initiator is typically a server with an adapter card. The initiator starts a connection over the network fabric to one or more target ports on a storage system.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[inject]]
 ==== image:images/yes.png[yes] inject (verb)
 *Description*: When data is _injected_, an object or function receives other required objects or functions from external code instead of creating them internally. To _inject_ can also mean to populate application input fields with embedded control or command sequences.
@@ -424,6 +446,7 @@ Red{nbsp}Hat Trusted Application Pipeline users can configure secrets to inject 
 
 *Use it*: yes
 
+[.vale-ignore]
 *Incorrect forms*:
 
 *See also*:
@@ -582,6 +605,17 @@ _This feature can run only on Intel 64 processors_
 *Description*: Avoid using "interesting" as a substitute for showing the reader why something is of interest. For example, instead of writing, "It is interesting to note...", consider using a "Note" admonition.
 
 *Use it*: no
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[internal-mode]]
+==== image:images/yes.png[yes] internal mode (noun)
+*Description*: _Internal-mode_ describes using Red{nbsp}Hat OpenShift Container Storage where all components of OpenShift Container Storage are deployed within a cluster managed by OpenShift Container Platform and benefit from Operator-based deployment and management. For example, this situation can occur when you are using internally hosted services.
+
+*Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*:

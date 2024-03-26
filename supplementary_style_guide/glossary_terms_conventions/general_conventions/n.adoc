@@ -131,6 +131,17 @@
 
 *See also*:
 
+[[network-encryption]]
+==== image:images/yes.png[yes] network encryption (noun)
+*Description*: _Network encryption_ refers to the encoding of data that is in transit across a network, for the purpose of ensuring data security.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[network-interface-card]]
 ==== image:images/no.png[no] network interface card
 *Description*: Do not use "network interface card" for the acronym "NIC". Use "network interface controller" instead.
@@ -156,6 +167,17 @@
 [[network-team]]
 ==== image:images/yes.png[yes] network team (noun)
 *Description*: A _network team_ is a method to combine or aggregate physical and virtual network interfaces to provide a logical interface with higher throughput or redundancy. The main difference to a network bond is that, in teaming, both a small kernel module and a user-space service process the operations.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
+[[network-time-configuration]]
+==== image:images/yes.png[yes] Network Time Configuration (noun)
+*Description*: _Network Time Configuration_ refers to using NTP (Network Time Protocol) to synchronize time settings across all storage servers.
 
 *Use it*: yes
 
@@ -190,7 +212,7 @@
 [[node]]
 ==== image:images/yes.png[yes] node (noun)
 
-*Description*: 1) In networks, a _node_ is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a _node_ is a point where two or more lines meet. 2) In the context of OpenShift, a _node_ provides the runtime environments for containers. 3) In the context of OpenStack, a _node_ is a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host".
+*Description*: (1) In networks, a _node_ is a processing location. A node can be a computer or other device, such as a printer. Every node has a unique network address, sometimes called a Data Link Control (DLC) address or Media Access Control (MAC) address. In tree structures, a _node_ is a point where two or more lines meet. (2) In the context of OpenShift, a _node_ provides the runtime environments for containers. (3) In the context of OpenStack, a _node_ is a machine running a particular OpenStack service, for example, "a Networking node". Exceptions: In a virtualization use case where the machine resources are being used to host virtual machines, use "host" instead of "node", for example, "a Compute host".
 
 *Use it*: yes
 
@@ -211,3 +233,14 @@ If your release notes are based on the templates in this guide's xref:release-no
 *Incorrect forms*: right now
 
 *See also*: xref:release-notes[Release notes]
+
+[[n-way-replication]]
+==== image:images/yes.png[yes] n-way replication (noun)
+*Description*: In Red{nbsp}Hat Gluster Storage, the term _n-way replication_ is a generic phrase that refers to data being copied to multiple storage devices so that _n_ copies are available in the storage cluster as a whole.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
