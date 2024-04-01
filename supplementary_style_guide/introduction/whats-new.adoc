@@ -63,7 +63,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * *xref:dispersed-volume[dispersed volume]*: Added glossary entry
 * *xref:distributed-file-system[distributed file system]*: Added glossary entry
 * *xref:distributed-volume[distributed volume]*: Added glossary entry
-* *xref:distributed-dispersed-volume[distributed dispersed volume]*: Added glossary entry
+* *xref:distributed-dispersed-volume[distributed-dispersed volume]*: Added glossary entry
 * *xref:distributed-replicated-volume[distributed-replicated volume]*: Added glossary entry
 * *xref:dynamically-provisioned-storage[dynamically provisioned storage]*: Added glossary entry
 * *xref:egress[egress]*: Added glossary entry
