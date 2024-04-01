@@ -127,7 +127,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 .Style guidance
 * *xref:commands-with-root-privileges[Commands requiring root privileges]*: Updated guidance to include an example
-* *xref:release-notes[Release notes]*: Added guidance on referring to release versions for documentation on deprecated and removed features
+* *xref:release-notes[Release notes]*: Updated guidance about referring to release versions for documentation on deprecated and removed features
 * *xref:using_style_guides_for_redhat_product_documentation[Using style guides for Red Hat product documentation]*: Updated to clarify the hierarchy of the _IBM Style_ guide, the _Red{nbsp}Hat supplementary style guide for product documentation_, and product-specific style guidelines
 //
 // .Other updates
