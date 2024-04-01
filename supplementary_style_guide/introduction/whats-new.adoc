@@ -100,7 +100,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * *xref:proxy[proxy]*: Added glossary entry
 * *xref:replicated-volume[replicated volume]*: Added glossary entry
 * *xref:restore[restore]*: Added glossary entry
-* *xref:pm-ostree[pm-ostree]*: Updated glossary entry to add formatting guidance
+* *xref:rpm-ostree[rpm-ostree]*: Updated glossary entry to add formatting guidance
 * *xref:scale-out[scale out]*: Added glossary entry
 * *xref:scale-up[scale up]*: Added glossary entry
 * *xref:secondary-cluster[secondary cluster]*: Added glossary entry
