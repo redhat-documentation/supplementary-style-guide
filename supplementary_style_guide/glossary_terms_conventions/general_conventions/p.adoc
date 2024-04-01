@@ -57,6 +57,17 @@
 
 *See also*:
 
+[[peer-pod]]
+==== image:images/yes.png[yes] peer pod (noun)
+*Description*: In Red{nbsp}Hat OpenShift sandboxed containers, a _peer pod_ extends the concept of a standard pod. Unlike a standard sandboxed container, where the virtual machine is created on the worker node itself, in a peer pod, the virtual machine is created through a remote hypervisor using any supported hypervisor or cloud provider API.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: peer-pod
+
+*See also*:
+
 [[peer-to-peer-messaging]]
 ==== image:images/yes.png[yes] peer-to-peer messaging (noun)
 *Description*: A messaging operation in which a client sends messages directly to another client without using a broker or router. This term should only be used to refer to client-to-client communication, not direct routed messaging.
