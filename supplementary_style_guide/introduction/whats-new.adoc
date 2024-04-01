@@ -75,7 +75,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * *xref:fuse[FUSE]*: Added glossary entry
 * *xref:geo-replication[geo-replication]*: Added glossary entry
 * *xref:gluster-volume[gluster volume]*: Added glossary entry
-* *xref:high-availability-cluster[high availability cluster]*: Added glossary entry
+* *xref:high-availability-cluster[high-availability cluster]*: Added glossary entry
 * *xref:hyperconverged-cluster[hyperconverged cluster]*: Added glossary entry
 * *xref:infrastructure-node[infrastructure node]*: Added glossary entry
 * *xref:initiator[initiator]*: Added glossary entry
