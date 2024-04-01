@@ -32,6 +32,107 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 [[year-2024]]
 == 2024
 
+[[march-2024]]
+=== March 2024
+
+.Glossary entries
+* *xref:access-mode[access mode]*: Added glossary entry
+* *xref:availability[availability]*: Added glossary entry
+* *xref:availability-zone[availability zone]*: Added glossary entry
+* *xref:bare-metal-service[Bare Metal service]*: Added glossary entry
+* *xref:bind-v[bind]*: Added glossary entry
+* *xref:block-device[block device]*: Added glossary entry
+* *xref:block-storage[block storage]*: Added glossary entry
+* *xref:block-volume[block volume]*: Added glossary entry
+* *xref:boot-source[boot source]*: Added glossary entry
+* *xref:brick[brick]*: Added glossary entry
+* *xref:client[client]*: Updated glossary entry to include a generic definition
+* *xref:clone-n[clone (noun)]*: Added glossary entry
+* *xref:clone-v[clone (verb)]*: Added glossary entry
+* *xref:cloud-storage[cloud storage]*: Added glossary entry
+* *xref:compression[compression]*: Added glossary entry
+* *xref:control-plane-node[control plane node]*: Added glossary entry
+* *xref:controller-node[controller node]*: Added glossary entry
+* *xref:copy-v[copy]*: Added glossary entry
+* *xref:currently[currently]*: Added glossary entry
+* *xref:data-compression[data compression]*: Added glossary entry
+* *xref:deduplication[deduplication]*: Added glossary entry
+* *xref:directory[directory]*: Added glossary entry
+* *xref:disaster-recovery[disaster recovery]*: Added glossary entry
+* *xref:disk-encryption[disk encryption]*: Added glossary entry
+* *xref:dispersed-volume[dispersed volume]*: Added glossary entry
+* *xref:distributed-file-system[distributed file system]*: Added glossary entry
+* *xref:distributed-volume[distributed volume]*: Added glossary entry
+* *xref:distributed-dispersed-volume[distributed dispersed volume]*: Added glossary entry
+* *xref:distributed-replicated-volume[distributed replicated volume]*: Added glossary entry
+* *xref:dynamically-provisioned-storage[dynamically provisioned storage]*: Added glossary entry
+* *xref:egress[egress]*: Added glossary entry
+* *xref:encrypted-disk[encrypted disk]*: Added glossary entry
+* *xref:encryption[encryption]*: Added glossary entry
+* *xref:ephemeral-storage[ephemeral storage]*: Added glossary entry
+* *xref:external-mode[external mode]*: Added glossary entry
+* *xref:file-storage[file storage]*: Added glossary entry
+* *xref:fuse[FUSE]*: Added glossary entry
+* *xref:geo-replication[geo-replication]*: Added glossary entry
+* *xref:gluster-volume[gluster volume]*: Added glossary entry
+* *xref:high-availability-cluster[high availability cluster]*: Added glossary entry
+* *xref:hyperconverged-cluster[hyperconverged cluster]*: Added glossary entry
+* *xref:infrastructure-node[infrastructure node]*: Added glossary entry
+* *xref:initiator[initiator]*: Added glossary entry
+* *xref:internal-mode[internal mode]*: Added glossary entry
+* *xref:local-storage[local storage]*: Added glossary entry
+* *xref:logical-cache[logical cache]*: Added glossary entry
+* *xref:logical-volume[logical volume]*: Added glossary entry
+* *xref:metadata[metadata]*: Added glossary entry
+* *xref:multipath[multipath]*: Added glossary entry
+* *xref:network-encryption[network encryption]*: Added glossary entry
+* *xref:network-time-configuration[Network Time Configuration]*: Added glossary entry
+* *xref:n-way-replication[n-way replication]*: Added glossary entry
+* *xref:object-storage[object storage]*: Added glossary entry
+* *xref:ocp-cluster[OpenShift Container Platform cluster]*: Added glossary entry
+* *xref:phase[phase]*: Added glossary entry
+* *xref:physical-disk[physical disk]*: Added glossary entry
+* *xref:physical-volume[physical volume]*: Added glossary entry
+* *xref:platform[platform]*: Added glossary entry
+* *xref:primary-cluster[primary cluster]*: Added glossary entry
+* *xref:primary-node[primary node]*: Added glossary entry
+* *xref:provision[provision]*: Added glossary entry
+* *xref:proxy[proxy]*: Added glossary entry
+* *xref:replicated-volume[replicated volume]*: Added glossary entry
+* *xref:restore[restore]*: Added glossary entry
+* *xref:pm-ostree[pm-ostree]*: Updated glossary entry to add formatting guidance
+* *xref:scale-out[scale out]*: Added glossary entry
+* *xref:scale-up[scale up]*: Added glossary entry
+* *xref:secondary-cluster[secondary cluster]*: Added glossary entry
+* *xref:self-heal[self-healing]*: Added glossary entry
+* *xref:server[server]*: Added glossary entry
+* *xref:snapshot[snapshot]*: Added glossary entry
+* *xref:source-node[source node]*: Added glossary entry
+* *xref:source-volume[source volume]*: Added glossary entry
+* *xref:split-brain[split brain]*: Added glossary entry
+* *xref:storage-cluster[storage cluster]*: Added glossary entry
+* *xref:storage-pool[storage pool]*: Added glossary entry
+* *xref:stripe[stripe]*: Added glossary entry
+* *xref:subvolume[subvolume]*: Added glossary entry
+* *xref:target[target]*: Updated glossary entry to include a generic definition
+* *xref:target-volume[target volume]*: Added glossary entry
+* *xref:thickly-provisioned[thickly provisioned]*: Added glossary entry
+* *xref:total-capacity[total capacity]*: Added glossary entry
+* *xref:translator[translator]*: Added glossary entry
+* *xref:usable-capacity[usable capacity]*: Added glossary entry
+* *xref:virtual-disk[virtual disk]*: Added glossary entry
+* *xref:volume-file[volume file]*: Added glossary entry
+* *xref:volume-group[volume group]*: Added glossary entry
+* *xref:worker-node[worker node]*: Added glossary entry
+
+.Style guidance
+* *xref:commands-with-root-privileges[Commands requiring root privileges]*: Added guidance to include an example
+* *xref:release-notes[Release notes]*: Added guidance on referring to release versions for documentation on deprecated and removed features
+* *xref:using_style_guides_for_redhat_product_documentation[Using style guides for Red Hat product documentation]*: Updated to clarify the hierarchy of the _IBM Style_ guide, the _Red{nbsp}Hat supplementary style guide for product documentation_, and product-specific style guidelines
+//
+// .Other updates
+// * TODO
+
 [[february-2024]]
 === February 2024
 
