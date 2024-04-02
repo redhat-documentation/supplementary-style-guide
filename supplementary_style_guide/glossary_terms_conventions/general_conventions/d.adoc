@@ -536,7 +536,7 @@ Red{nbsp}Hat Directory Server conforms to LDAP standards.
 
 *See also*:
 
-[distributed-dispersed-volume]]
+[[distributed-dispersed-volume]]
 ==== image:images/yes.png[yes] distributed-dispersed volume (noun)
 *Description*: A _distributed-dispersed volume_ is a Gluster volume that distributes and erasure codes data across one or more bricks.
 
