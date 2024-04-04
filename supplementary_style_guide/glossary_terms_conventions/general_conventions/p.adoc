@@ -58,8 +58,8 @@
 *See also*:
 
 [[peer-pod]]
-==== image:images/yes.png[yes] peer pod (noun)
-*Description*: In Red{nbsp}Hat OpenShift sandboxed containers, a _peer pod_ extends the concept of a standard pod. Unlike a standard sandboxed container, where the virtual machine is created on the worker node itself, in a peer pod, the virtual machine is created through a remote hypervisor using any supported hypervisor or cloud provider API.
+==== image:images/yes.png[yes] peer pod (noun, adjective)
+*Description*: In Red{nbsp}Hat OpenShift sandboxed containers, a _peer pod_ extends the concept of a standard pod. For bare metal servers, workloads run as containers inside a standard pod on a virtual machine that is created on a worker node. For public clouds or environments that do not support nested virtualization, workloads run as containers inside a peer pod on a virtual machine that is created on a hypervisor, such as VMware, or a public cloud instance, such as Azure or AWS.
 
 *Use it*: yes
 
