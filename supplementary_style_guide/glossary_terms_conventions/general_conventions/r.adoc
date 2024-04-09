@@ -256,7 +256,6 @@ The Red{nbsp}Hat Container Catalog no longer exists; it has become part of the R
 
 *See also*: xref:data-grid[Data Grid], xref:red-hat-jboss-data-grid[Red{nbsp}Hat JBoss Data Grid]
 
-[discrete]
 [[rhdm]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat Decision Manager (noun)
 *Description*: _Red{nbsp}Hat Decision Manager_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). Red{nbsp}Hat Decision Manager is a subset of Red{nbsp}Hat Process Automation Manager. Organizations can use Red{nbsp}Hat Decision Manager to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
