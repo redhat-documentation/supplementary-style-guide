@@ -144,7 +144,7 @@
 
 [[realtime-decision-server]]
 ==== image:images/yes.png[yes] Realtime Decision Server (noun)
-*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automation Manager, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automatio Manager.
 
 *Use it*: yes
 
@@ -256,6 +256,17 @@ The Red{nbsp}Hat Container Catalog no longer exists; it has become part of the R
 
 *See also*: xref:data-grid[Data Grid], xref:red-hat-jboss-data-grid[Red{nbsp}Hat JBoss Data Grid]
 
+[[rhdm]]
+==== image:images/yes.png[yes] Red{nbsp}Hat Decision Manager (noun)
+*Description*: _Red{nbsp}Hat Decision Manager_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). Red{nbsp}Hat Decision Manager is a subset of Red{nbsp}Hat Process Automation Manager. Organizations can use Red{nbsp}Hat Decision Manager to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: BRMS, BRM, JBoss BRMS, DM
+
+*See also*: xref:bpms[Red{nbsp}Hat Process Automation Manager]
+
 [[red-hat-directory-server]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat Directory Server (noun)
 *Description*: _Red{nbsp}Hat Directory Server_ (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
@@ -329,28 +340,6 @@ Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 
 *See also*: xref:red-hat-build-openjdk[Red{nbsp}Hat build of OpenJDK], xref:red-hat-openjdk[Red{nbsp}Hat OpenJDK]
 
-[[bpms]]
-==== image:images/yes.png[yes] Red{nbsp}Hat JBoss BPM Suite (noun)
-*Description*: _Red{nbsp}Hat JBoss BPM Suite_ is the JBoss platform for Business Process Management (BPM). The Red{nbsp}Hat JBoss BPM Suite enables enterprise business and IT users to document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: BPMS, BPM, JBoss BPMS
-
-*See also*:
-
-[[brms]]
-==== image:images/yes.png[yes] Red{nbsp}Hat JBoss BRMS (noun)
-*Description*: _Red{nbsp}Hat JBoss BRMS_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). BRMS stands for Business Rules Management System. Organizations can use Red{nbsp}Hat JBoss BRMS to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: BRMS, BRM, JBoss BRMS
-
-*See also*:
-
 [[red-hat-jboss-data-grid]]
 ==== image:images/no.png[no] Red{nbsp}Hat JBoss Data Grid (noun)
 *Description*: This product name applies to Red{nbsp}Hat Data Grid 7.2 and earlier versions.
@@ -372,6 +361,17 @@ Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 *Incorrect forms*: Red{nbsp}Hat JBoss EAP, JBoss Enterprise Application Platform
 
 *See also*: xref:jboss-eap[JBoss EAP]
+
+[[red-hat-network-proxy-server]]
+==== image:images/yes.png[yes] Red{nbsp}Hat Network Proxy Server (noun)
+*Description*: Use "Red{nbsp}Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: Red{nbsp}Hat Proxy (Server)
+
+*See also*: xref:red-hat-network-satellite-server[Red{nbsp}Hat Network Satellite Server]
 
 [[red-hat-network-satellite-server]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat Network Satellite Server (noun)
@@ -399,16 +399,8 @@ Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 
 *See also*: xref:red-hat-build-openjdk[Red{nbsp}Hat build of OpenJDK], xref:red-hat-java[Red{nbsp}Hat Java]
 
-[[red-hat-network-proxy-server]]
-==== image:images/yes.png[yes] Red{nbsp}Hat Network Proxy Server (noun)
-*Description*: Use "Red{nbsp}Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
 
-*Use it*: yes
 
-[.vale-ignore]
-*Incorrect forms*: Red{nbsp}Hat Proxy (Server)
-
-*See also*: xref:red-hat-network-satellite-server[Red{nbsp}Hat Network Satellite Server]
 
 [[red-hat-openshift-cluster-manager]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat OpenShift Cluster Manager (noun)
@@ -486,6 +478,17 @@ Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 *Incorrect forms*: OpenStack Platform, RHOS, RH-OSP
 
 *See also*: xref:red-hat-enterprise-linux-openstack-platform[Red{nbsp}Hat Enterprise Linux OpenStack Platform]
+
+[[bpms]]
+==== image:images/yes.png[yes] Red{nbsp}Hat Process Automation Manager (noun)
+*Description*: _Red{nbsp}Hat Process Automation Manager_ is the Red{nbsp}Hat platform for Business Process Management (BPM). With Red{nbsp}Hat Process Automation Manager enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: BPMS, BPM, JBoss BPMS, PAM
+
+*See also*: xref:rhdm[Red{nbsp}Hat Decision Manager]
 
 [[red-hat-way]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat Way (noun)
@@ -1003,7 +1006,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [[rule]]
 ==== image:images/yes.png[yes] rule (noun)
-*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automation Manager, a _rule_ provides the logic for the rule engine to execute against. A rule includes a name, attributes, a “when” statement on the left side of the rule, and a “then” statement on the right side of the rule.
 
 *Use it*: yes
 
@@ -1014,7 +1017,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 [[rule-template]]
 ==== image:images/yes.png[yes] rule template (noun)
-*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automation Manager, a _rule template_ enables the user to define a rule structure. Rule templates provide a placeholder for values and data, and they populate templates to generate many rules.
 
 *Use it*: yes
 
@@ -1053,7 +1056,7 @@ Examples:
 
 [[runtime-manager]]
 ==== image:images/yes.png[yes] runtime manager (noun)
-*Description*: In Red{nbsp}Hat JBoss BRMS and Red{nbsp}Hat JBoss BPM Suite, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
+*Description*: In Red{nbsp}Hat Decision Manager and Red{nbsp}Hat Process Automation Manager, the _runtime manager_ is an interface that enables and simplifies the usage of a KIE API within the processes. The name of the interface is `RuntimeManager`. It provides configurable strategies that control actual runtime execution. The strategies are singleton, per request, and per process instance.
 
 *Use it*: yes
 
