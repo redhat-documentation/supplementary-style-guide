@@ -20,7 +20,7 @@ You also have the following responsibilities:
 === Driving resolution of open issues
 
 * Review link:https://github.com/redhat-documentation/supplementary-style-guide/issues[issues] submitted to the supplementary style guide GitHub repository.
-* For open issues, include the link to the PR that resolve the issue.
+* For open issues, include the link to the PR that resolves the issue.
 * Close issues that are resolved.
 
 === Review open pull requests
