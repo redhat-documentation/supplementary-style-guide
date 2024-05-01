@@ -86,7 +86,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *Use it*: yes
 
-*Incorrect forms*: FedRamp, FEDRAMP
+*Incorrect forms*: Fedramp, FedRamp, FEDRAMP
 
 *See also*:
 
