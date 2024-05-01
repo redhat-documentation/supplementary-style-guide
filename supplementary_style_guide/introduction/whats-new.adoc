@@ -32,6 +32,20 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 [[year-2024]]
 == 2024
 
+[[april-2024]]
+=== April 2024
+
+.Glossary entries
+* *xref:peer-pod[peer pod]*: Added glossary entry
+* *xref:rhdm[Red{nbsp}Hat Decision Manager]*: Added glossary entry
+* *Red{nbsp}Hat JBoss BPM Suite*: Removed glossary entry
+* *Red{nbsp}Hat JBoss BRMS*: Removed glossary entry
+* *xref:bpms[Red{nbsp}Hat Process Automation Manager]*: Added glossary entry
+
+.Other updates
+* Updated references to _Red{nbsp}Hat JBoss BRMS_ to use the new name of _Red{nbsp}Hat Decision Manager_
+* Updated references to _Red{nbsp}Hat JBoss BPM Suite_ to use the new name of _Red{nbsp}Hat Process Automation Manager_
+
 [[march-2024]]
 === March 2024
 
@@ -129,9 +143,6 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * *xref:commands-with-root-privileges[Commands requiring root privileges]*: Updated guidance to include an example
 * *xref:release-notes[Release notes]*: Updated guidance about referring to release versions for documentation on deprecated and removed features
 * *xref:_using_style_guides_for_redhat_product_documentation[Using style guides for Red Hat product documentation]*: Updated to clarify the hierarchy of the _IBM Style_ guide, the _Red{nbsp}Hat supplementary style guide for product documentation_, and product-specific style guidelines
-//
-// .Other updates
-// * TODO
 
 [[february-2024]]
 === February 2024
