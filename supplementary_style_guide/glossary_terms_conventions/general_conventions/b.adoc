@@ -86,6 +86,17 @@
 
 *See also*: xref:distinguished-name[distinguished name]
 
+[[base64]]
+==== image:images/yes.png[yes] Base64 (noun, adjective)
+*Description*: _Base64_ is a group of binary-to-text encoding schemes that transforms binary data into a sequence of printable characters, limited to a set of 64 unique characters.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: base64, Base-64, base-64
+
+*See also*: xref:Basic HTTP authentication (noun)[basic-http-authentication]
+
 [[baseos-repository]]
 ==== image:images/yes.png[yes] BaseOS repository (noun)
 *Description*: In Red{nbsp}Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying operating system functionality that provides the foundation for all installations.
