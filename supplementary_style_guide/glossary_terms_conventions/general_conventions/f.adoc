@@ -80,6 +80,16 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 *See also*:
 
+[[fedramp]]
+==== image:images/yes.png[yes] FedRAMP® (noun)
+*Description*: The _Federal Risk and Authorization Management Program (FedRAMP®)_ is managed by the FedRAMP Program Management Office. Write "FedRAMP®" with the registered trademark symbol on first use. For more information, see the link:https://www.fedramp.gov/assets/resources/documents/FedRAMP_Branding_Guidance.pdf[FedRAMP Brand Guide].
+
+*Use it*: yes
+
+*Incorrect forms*: Fedramp, FedRamp, FEDRAMP
+
+*See also*:
+
 [[file-storage]]
 ==== image:images/yes.png[yes] file storage (noun)
 *Description*: _File storage_ refers to a repository of files and directories organized in a hierarchical way, as distinct from block storage or object storage.
