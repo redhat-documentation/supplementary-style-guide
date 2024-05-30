@@ -44,7 +44,7 @@
 
 [[qeth]]
 ==== image:images/yes.png[yes] qeth (adjective)
-*Description*: Messages with a prefix `qeth` are issued by the `qeth` device driver. The `qet`h device driver supports a multitude of network connections, for example, connections through Open Systems Adapters (OSA), HiperSockets™, guest LANs, and virtual switches.
+*Description*: Messages with a prefix `qeth` are issued by the `qeth` device driver. The `qeth` device driver supports a multitude of network connections, for example, connections through Open Systems Adapters (OSA), HiperSockets™, guest LANs, and virtual switches.
 
 *Use it*: yes
 
