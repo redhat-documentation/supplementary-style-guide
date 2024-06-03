@@ -17,20 +17,26 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 // TEMPLATE:
 //
-// [[TODO-2024]]
-// === TODO 2024
+// [[<month>-2024]]
+// === <month> 2024
 //
 // .Glossary entries
-// * TODO
+// * *<term>*: <description>
 //
 // .Style guidance
-// * TODO
+// * <description>
 //
 // .Other updates
-// * TODO
+// * <description>
 
 [[year-2024]]
 == 2024
+
+[[may-2024]]
+=== May 2024
+
+.Glossary entries
+* *xref:fedramp[FedRAMP®]*: Added glossary entry
 
 [[april-2024]]
 === April 2024
@@ -282,9 +288,6 @@ _No glossary or style updates._
 
 .Style guidance
 * *xref:minimalism[Minimalism]*: Added section with guidance on writing with minimalism
-
-// .Other updates
-// * TODO
 
 [[july-2023]]
 === July 2023
