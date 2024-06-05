@@ -164,18 +164,6 @@
 
 *See also*: xref:consumer[consumer], xref:source[source], xref:sender[sender]
 
-[[recommend]]
-==== image:images/no.png[no] recommend (verb)
-*Description*: Avoid "recommends". Instead of "Red{nbsp}Hat recommends", direct users to take the recommended action. This allows Red{nbsp}Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream or downstream coordinated efforts.
-
-For example, instead of "Red{nbsp}Hat recommends using X package because", write "Use this package because" or "Use this package when".
-
-*Use it*: no
-
-[.vale-ignore]
-*Incorrect forms*: we recommend, we suggest, Red{nbsp}Hat recommends
-
-*See also*: xref:we-suggest[we suggest]
 
 [[red-hat-amq]]
 ==== image:images/yes.png[yes] Red{nbsp}Hat AMQ (noun)
