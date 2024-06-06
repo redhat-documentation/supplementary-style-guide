@@ -165,7 +165,7 @@
 
 [[on-premise]]
 ==== image:images/caution.png[with caution] on-premise (adjective)
-*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red{nbsp}Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red{nbsp}Hat product "Red{nbsp}Hat Storage Server for On-premise".
+*Description*: Substitute "on-site" or "in-house" for "on-premise" whenever possible. For Red{nbsp}Hat OpenShift Container Platform, _on-premise_ is a collective term for grouping the bare-metal, VMware vSphere, Nutanix, and Red{nbsp}Hat OpenStack Platform (RHOSP) platforms, so you can use the term in this context. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red{nbsp}Hat Cloud business unit. Capitalize "on-premise" when using it as part of the name of the Red{nbsp}Hat product "Red{nbsp}Hat Storage Server for On-premise".
 
 *Use it*: with caution
 
