@@ -430,14 +430,14 @@ Red{nbsp}Hat Directory Server conforms to LDAP standards.
 ==== image:images/yes.png[yes] disconnected (adjective)
 *Description*: In Red{nbsp}Hat OpenShift, use "disconnected" when discussing installing a cluster in an environment that does not have an active connection to the internet. Use "disconnected" regardless of whether the restriction is physical or logical.
 
-"Disconnected" is the preferred term over "restricted", "air-gapped", or "offline".
+"Disconnected" is the preferred term over "restricted", "air-gapped", or "offline" for Red{nbsp}Hat OpenShift, but not for Red{nbsp}Hat build of MicroShift.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*:
+*See also*: xref:offline[offline]
 
 [[disk-druid]]
 ==== image:images/yes.png[yes] Disk Druid (noun)
