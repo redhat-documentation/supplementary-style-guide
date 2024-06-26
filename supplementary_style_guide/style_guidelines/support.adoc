@@ -61,7 +61,7 @@ When documenting a Technology Preview feature, follow these guidelines:
 * Never use the phrase "supported as a Technology Preview", and avoid using "support" in Technology Preview descriptions. Instead, use neutral words like "available", "provide", "capability", and so on.
 * When the Technology Preview feature becomes generally available, remove the IMPORTANT admonition from the release notes and any other document that includes content about the feature.
 
-Use the following template text verbatim, where _<feature_name>_ is your feature name:
+Use the following template text verbatim, where _<feature_name>_ is your feature name. If you are not referring to a specific feature, you can omit the first sentence of the template text:
 
 .Example AsciiDoc: Technology Preview admonition template
 [source,text,subs="+quotes"]
