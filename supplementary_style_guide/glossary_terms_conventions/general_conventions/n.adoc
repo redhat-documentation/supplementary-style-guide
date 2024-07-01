@@ -209,6 +209,18 @@
 
 *See also*: xref:vnic[vNIC], xref:smartnic[SmartNIC]
 
+[[nmstate]]
+==== image:images/yes.png[yes] Nmstate (noun)
+
+*Description*: _Nmstate_ is a declarative API to manage a host's network settings. The administrator describes a certain network state, and Nmstate applies it to the host or rolls back the changes if the process fails.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: NMstate, NmState, nmstate
+
+*See also*:
+
 [[node]]
 ==== image:images/yes.png[yes] node (noun)
 
