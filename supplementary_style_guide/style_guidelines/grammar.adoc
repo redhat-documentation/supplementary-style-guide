@@ -128,4 +128,29 @@ Avoid long introductions and unnecessary context. Shorten unnecessarily long sen
 === Principle 5: Error recovery, verification, and troubleshooting
 Recognize that people make mistakes and need to verify that they have completed a task. Be sure to include troubleshooting, error recovery, and verification steps.
 
+[[users]]
+== Users
+In most cases, the word "user" refers to a person or a person's user account, and therefore would be considered animate. We should use animate personal pronouns such as "who".
+
+However, in certain technical cases, we sometimes refer to "users" that are not persons but instead user accounts or more abstract concepts. For example, Linux users such as root and guest do not relate to any person. Applications and services might run as specific Linux users with no person controlling them. SELinux users such as `user_u` or `sysadm_u` are identifiers of one or multiple Linux users for access control purposes.
+
+In these specific cases, and only if you cannot write around it, you can refer to these inanimate users with inanimate personal pronouns such as "that".
+
+.Examples
+* Animate user
++
+image:images/no.png[yes] A _user who_ creates a file is the owner of that file.
++
+image:images/yes.png[yes] _Users who_ want to install their own packages...
++
+image:images/no.png[no] Experienced _users that_ can configure their own systems...
+
+* Inanimate user
++
+image:images/yes.png[yes] Specify a _user that_ is allowed to perform the requested action.
++
+image:images/yes.png[yes] A Linux user has the restrictions of the _SELinux user_ to _which_ it is assigned.
++
+image:images/no.png[no] A Linux user has the restrictions of the _SELinux user_ to _whom_ it is assigned.
+
 // TODO: Add new style entries alphabetically in this file
