@@ -109,7 +109,7 @@
 *See also*:
 
 [[offline]]
-== image:images/yes.png[yes] offline (adjective)
+==== image:images/yes.png[yes] offline (adjective)
 
 *Description*: In Red{nbsp}Hat build of MicroShift, use _offline_ for endpoints where no network is present or all network cards are unplugged. Also use _offline_ to describe endpoints where both conditions are true. Examples include edge devices in physically remote locations. For situations where a network is present, but devices or hosts are isolated from it, such as in restricted networks or air-gapped networks, use _disconnected_.
 
