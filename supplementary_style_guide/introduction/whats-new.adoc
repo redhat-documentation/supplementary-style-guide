@@ -21,16 +21,26 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // === <month> 2024
 //
 // .Glossary entries
-// * *<term>*: <description>
+// * *xref:<id>[<term>]*: <description>
 //
 // .Style guidance
-// * <description>
+// * *xref:<id>[<section>]*: <description>
 //
 // .Other updates
 // * <description>
 
 [[year-2024]]
 == 2024
+
+[[june-2024]]
+=== June 2024
+
+.Glossary entries
+* *xref:base64[Base64]*: Added glossary entry
+* *xref:offline[offline]*: Added glossary entry
+
+.Style guidance
+* *xref:technology-preview-guidance[Technology Preview]*: Updated guidance to clarify that you can omit the first sentence if you are not referring to a specific feature.
 
 [[may-2024]]
 === May 2024
