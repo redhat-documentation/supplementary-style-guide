@@ -33,6 +33,7 @@ Links to upstream sites, such as GitHub, are considered to be external links.
 Deep links can break more frequently and can inadvertently bypass a site's legal notices.
 * Do not use bare URLs for links.
 Bare URLs are unhelpful because they do not provide adequate context about the link target.
+* Do not use URL shorteners to replace full URLs.
 * Always include meaningful link text.
 Meaningful link text describes to users what content they will see if they click the link.
 * Use hyperlinks unless the URL is an example URL or is otherwise inaccessible to users.
