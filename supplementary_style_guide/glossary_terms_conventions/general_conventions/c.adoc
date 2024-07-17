@@ -546,15 +546,15 @@
 *See also*: xref:blueprint[blueprint]
 
 [[composite-content-view]]
-==== image:images/yes.png[yes] Composite Content View (noun)
-*Description*: In Red{nbsp}Hat Satellite, a _Composite Content View_ is a collection of Content Views. Write "Composite Content View (CCV)" on first use and "CCV" after that.
+==== image:images/yes.png[yes] composite content view (noun)
+*Description*: In Red{nbsp}Hat Satellite, a _composite content view_ is a collection of content views.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Composite Content view, composite content view, Composite View, composite view
+*Incorrect forms*: Composite Content View, Composite Content view, Composite View, composite view
 
-*See also*: xref:content-view[Content View]
+*See also*: xref:content-view[content view]
 
 [[composite-role]]
 ==== image:images/yes.png[yes] composite role
@@ -724,15 +724,15 @@ image repository contains one or more tagged images.
 *See also*: xref:container-based[container-based]
 
 [[content-view]]
-==== image:images/yes.png[yes] Content View (noun)
-*Description*: In Red{nbsp}Hat Satellite, a _Content View_ is a subset of Library content created by intelligent filtering. Write "Content View (CV)" on first use and "CV" after that.
+==== image:images/yes.png[yes] content view (noun)
+*Description*: In Red{nbsp}Hat Satellite, a _content view_ is a subset of Library content created by intelligent filtering.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Content view, content view
+*Incorrect forms*: Content view, Content View
 
-*See also*: xref:composite-content-view[Composite Content View]
+*See also*: xref:composite-content-view[composite content view]
 
 [[control-node]]
 ==== image:images/yes.png[yes] control node (noun)
