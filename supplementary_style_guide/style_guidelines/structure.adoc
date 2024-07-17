@@ -80,6 +80,11 @@ Not a complete sentence: This prerequisite is acceptable if all the other prereq
 
 To help readers find the information that they need or to confirm that they are in the right place, every module and assembly must include a _short description_, also called an _abstract_.
 
+[IMPORTANT]
+====
+Do not start a module with an admonition, even when adding the Technology Preview admonition. Always include a short description before including an admonition.
+====
+
 This description is usually at least 2-3 sentences long, and you can scan it in a few seconds. It exists between the title and the main content, connecting them and providing context and disambiguation.
 
 Follow these guidelines when writing short descriptions:
