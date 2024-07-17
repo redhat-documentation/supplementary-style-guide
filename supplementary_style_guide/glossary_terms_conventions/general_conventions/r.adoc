@@ -362,28 +362,6 @@ Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 
 *See also*: xref:jboss-eap[JBoss EAP]
 
-[[red-hat-network-proxy-server]]
-==== image:images/yes.png[yes] Red{nbsp}Hat Network Proxy Server (noun)
-*Description*: Use "Red{nbsp}Hat Network Proxy Server" for the first occurrence; use "RHN Proxy Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: Red{nbsp}Hat Proxy (Server)
-
-*See also*: xref:red-hat-network-satellite-server[Red{nbsp}Hat Network Satellite Server]
-
-[[red-hat-network-satellite-server]]
-==== image:images/yes.png[yes] Red{nbsp}Hat Network Satellite Server (noun)
-*Description*: Use "Red{nbsp}Hat Network Satellite Server" for the first occurrence; use "RHN Satellite Server" or omit the word "Server" from any of the previous constructions on subsequent mentions. With sufficient context, you can refer to "Satellite" and "Proxy", for example, "RHN Satellite and Proxy" instead of "RHN Satellite and RHN Proxy".
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: Red{nbsp}Hat Satellite (Server)
-
-*See also*: xref:red-hat-network-proxy-server[Red{nbsp}Hat Network Proxy Server]
-
 [[red-hat-openjdk]]
 ==== image:images/no.png[no] Red{nbsp}Hat OpenJDK (noun)
 *Description*: Do not use _Red{nbsp}Hat OpenJDK_ to refer to the Red{nbsp}Hat distribution of the Open Java Development Kit (OpenJDK).
