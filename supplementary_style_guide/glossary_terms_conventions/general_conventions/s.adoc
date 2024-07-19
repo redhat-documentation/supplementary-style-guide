@@ -1170,13 +1170,13 @@ Always capitalize as shown, except in commands, packages, or UI content.
 *See also*: xref:entitlement[entitlement], xref:repository[repository]
 
 [[subscription-manifest]]
-==== image:images/yes.png[yes] Subscription Manifest (noun)
-*Description*: In Red{nbsp}Hat Satellite, a _Subscription Manifest_ is a mechanism for transferring subscriptions from Red{nbsp}Hat Customer Portal to Red{nbsp}Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
+==== image:images/yes.png[yes] subscription manifest (noun)
+*Description*: In Red{nbsp}Hat Satellite, a _subscription manifest_ is a mechanism for transferring subscriptions from Red{nbsp}Hat Customer Portal to Red{nbsp}Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Subscription manifest
+*Incorrect forms*: Subscription Manifest
 
 *See also*:
 
