@@ -515,17 +515,6 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 
 *See also*: xref:client-application[client application], xref:consumer[consumer]
 
-[[product]]
-==== image:images/yes.png[yes] Product (noun)
-*Description*: In Red{nbsp}Hat Satellite, a Product is a collection of repositories.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: product
-
-*See also*:
-
 [[project]]
 ==== image:images/yes.png[yes] project (noun)
 *Description*: (1) In Red{nbsp}Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
