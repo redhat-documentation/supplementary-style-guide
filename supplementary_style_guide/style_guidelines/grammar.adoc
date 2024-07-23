@@ -139,19 +139,19 @@ In these specific cases, and only if you cannot write around it, you can refer t
 .Examples
 * Animate user
 +
+image:images/no.png[no] Experienced _users that_ can configure their own systems...
 +
 image:images/yes.png[yes] _Users who_ want to install their own packages...
-+
-image:images/no.png[no] Experienced _users that_ can configure their own systems...
 
 * Inanimate user
 +
-image:images/yes.png[yes] Specify a _user that_ is allowed to perform the requested action.
-+
 image:images/no.png[no] A Linux user has the restrictions of the _SELinux user who_ it is assigned to.
-
-image:images/yes.png[yes] A Linux user has the restrictions of the _SELinux user that_ it is assigned to.
 +
 image:images/no.png[no] A Linux user has the restrictions of the _SELinux user_ to _whom_ it is assigned.
++
+image:images/yes.png[yes] Specify a _user that_ is allowed to perform the requested action.
++
+image:images/yes.png[yes] A Linux user has the restrictions of the _SELinux user that_ it is assigned to.
+
 
 // TODO: Add new style entries alphabetically in this file
