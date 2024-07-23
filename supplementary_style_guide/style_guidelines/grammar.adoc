@@ -139,7 +139,6 @@ In these specific cases, and only if you cannot write around it, you can refer t
 .Examples
 * Animate user
 +
-image:images/no.png[yes] A _user who_ creates a file is the owner of that file.
 +
 image:images/yes.png[yes] _Users who_ want to install their own packages...
 +
