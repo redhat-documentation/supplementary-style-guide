@@ -149,7 +149,9 @@ image:images/no.png[no] Experienced _users that_ can configure their own systems
 +
 image:images/yes.png[yes] Specify a _user that_ is allowed to perform the requested action.
 +
-image:images/yes.png[yes] A Linux user has the restrictions of the _SELinux user_ to _which_ it is assigned.
+image:images/no.png[no] A Linux user has the restrictions of the _SELinux user who_ it is assigned to.
+
+image:images/yes.png[yes] A Linux user has the restrictions of the _SELinux user that_ it is assigned to.
 +
 image:images/no.png[no] A Linux user has the restrictions of the _SELinux user_ to _whom_ it is assigned.
 
