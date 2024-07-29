@@ -132,7 +132,7 @@ Recognize that people make mistakes and need to verify that they have completed 
 == Users
 In most cases, the word "user" refers to a person or a person's user account, and therefore would be considered animate. In these cases, use animate personal pronouns such as "who".
 
-However, in certain technical cases, these users are not persons but instead user accounts or more abstract concepts. For example, Linux users such as `root` and `guest` do not relate to any person. Applications and services might run as specific Linux users with no person controlling them. SELinux users such as `user_u` or `sysadm_u` are identifiers of one or multiple Linux users for access control purposes.
+In certain technical cases, these users are not persons but instead user accounts or more abstract concepts (inanimate). For example, Linux `root` and `guest` users do not relate to any person. Applications and services might run as specific Linux users with no person controlling them. SELinux users such as `user_u` or `sysadm_u` are identifiers of one or multiple Linux users for access control purposes. In these specific cases, refer to these inanimate users with inanimate personal pronouns such as "that".
 
 In these specific cases, and only if you cannot write around it, you can refer to these inanimate users with inanimate personal pronouns such as "that".
 
