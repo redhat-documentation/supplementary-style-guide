@@ -163,7 +163,7 @@ Capitalize it only when it starts a sentence.
 
 [[identity-provider]]
 ==== image:images/yes.png[yes] identity provider (noun)
-*Description*: An _identity provider (IDP)_ is a service that authenticates a user. Red{nbsp}Hat Single Sign-On is an IDP.
+*Description*: An _identity provider (IdP)_ is a service that authenticates a user. Red{nbsp}Hat Single Sign-On is an IdP.
 
 *Use it*: yes
 
@@ -174,7 +174,7 @@ Capitalize it only when it starts a sentence.
 
 [[identity-provider-federation]]
 ==== image:images/yes.png[yes] identity provider federation (noun)
-*Description*: In Red{nbsp}Hat Single Sign-On, you can delegate authentication to one or more IDPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red{nbsp}Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IDP.
+*Description*: In Red{nbsp}Hat Single Sign-On, you can delegate authentication to one or more IdPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red{nbsp}Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IdP.
 
 *Use it*: yes
 
@@ -185,7 +185,7 @@ Capitalize it only when it starts a sentence.
 
 [[identity-provider-mappers]]
 ==== image:images/yes.png[yes] identity provider mappers (noun)
-*Description*: When doing IDP federation, you can map incoming tokens and assertions to user and session attributes, which you refer to as "identity provider mappers". This helps you propagate identity information from the external IDP to your client requesting authentication.
+*Description*: When doing IdP federation, you can map incoming tokens and assertions to user and session attributes, which you refer to as "identity provider mappers". This helps you propagate identity information from the external IdP to your client requesting authentication.
 
 *Use it*: yes
 
