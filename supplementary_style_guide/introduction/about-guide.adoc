@@ -1,8 +1,8 @@
 = About this guide
 
-The style and language guidance in this guide overrides or supplements some guidance provided by the _IBM Style_ guide, which is the primary source of style guidance for link:https://www.redhat.com/[Red{nbsp}Hat] product and cross-product solution documentation.
+The style and language guidance in this guide overrides or supplements some guidance provided by the link:https://www.ibm.com/docs/en/ibm-style[_IBM Style_] guide, which is the primary source of style guidance for link:https://www.redhat.com/[Red{nbsp}Hat] product and cross-product solution documentation.
 
-The Red{nbsp}Hat Customer Content Services team has created this guide to help ensure that Red{nbsp}Hat product documentation is clear, consistent, and cohesive. Upstream communities who want to align more closely with the standards used by Red{nbsp}Hat product documentation can also use this guide.
+The Red{nbsp}Hat Customer Content Services team has created this guide to help ensure that Red{nbsp}Hat product documentation is clear, consistent, and cohesive. Upstream communities who want to align more closely with the standards used by Red{nbsp}Hat product documentation can also use this guide. However, some links in this guide might not be accessible for non-Red Hat associates.
 
 [NOTE]
 ====
@@ -13,7 +13,13 @@ Other Red{nbsp}Hat technical documentation, including Red{nbsp}Hat training and 
 
 Red{nbsp}Hat product documentation adheres to the style guidance provided in the _IBM Style_ guide, the _Red{nbsp}Hat supplementary style guide for product documentation_, and documentation style guidelines specific to Red{nbsp}Hat products, such as Red{nbsp}Hat Enterprise Linux or Red{nbsp}Hat OpenShift Container Platform.
 
-When seeking style guidance, consult the style guide specific to your product documentation project first, if applicable, then the _Red{nbsp}Hat supplementary style guide for product documentation_, and finally the _IBM Style_ guide.
+When seeking style guidance, consult the style guide specific to your product documentation project first, if applicable, then the link:https://redhat-documentation.github.io/supplementary-style-guide[_Red{nbsp}Hat supplementary style guide for product documentation_], and finally the link:https://www.ibm.com/docs/en/ibm-style[_IBM Style_] guide.
+
+[NOTE]
+====
+To log in to the _IBM Style_ guide, enter your Red{nbsp}Hat email address in the *IBMid* field.
+====
+
 The following image illustrates the hierarchical relationship between the different style guides in Red{nbsp}Hat product documentation:
 
 image:images/ccs-style-guide-hierarchy.png[CCS style guide hierarchy]
