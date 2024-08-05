@@ -46,7 +46,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * *xref:subscription-manifest[subscription manifest]*: Updated glossary entry to use lowercase spelling
 
 .Style guidance
-* *xref:external-links[External links]*: Added guidance to avoid using URL shorteners.
+* *xref:external-links[External links]*: Added guidance to avoid using URL shorteners
 * *xref:shortdesc[Short descriptions]*: Added guidance to avoid starting modules with admonitions, including Technology Preview admonitions.
 
 [[june-2024]]
