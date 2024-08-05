@@ -36,7 +36,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 === July 2024
 
 .Glossary entries
-* *xref:composite-content-view[composite content view]*: Updated glossary entry to lowercase spelling
+* *xref:composite-content-view[composite content view]*: Updated glossary entry to use lowercase spelling
 * *xref:content-view[content view]*: Updated glossary entry to lowercase spelling
 * *xref:nmstate[Nmstate]*: Added glossary entry
 * *xref:on-premise[on-premise]*: Updated glossary entry to include Red Hat OpenShift Container Platform definition
