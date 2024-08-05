@@ -41,7 +41,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * *xref:nmstate[Nmstate]*: Added glossary entry
 * *xref:on-premise[on-premise]*: Updated glossary entry to include Red Hat OpenShift Container Platform definition
 * *Product*: Removed glossary entry because Red{nbsp}Hat Satellite no longer capitalizes it
-* *Red{nbsp}Hat Network Proxy Server*: Removed glossary entry
+* *Red{nbsp}Hat Network Proxy Server*: Removed glossary entry because this term has been replaced by "Capsure Server"
 * *Red{nbsp}Hat Network Satellite Server*: Removed glossary entry because this term has been replaced by "Satellite Server"
 * *xref:subscription-manifest[subscription manifest]*: Updated glossary entry to lowercase spelling
 
