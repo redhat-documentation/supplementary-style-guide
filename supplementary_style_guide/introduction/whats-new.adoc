@@ -43,7 +43,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 * *Product*: Removed glossary entry because Red{nbsp}Hat Satellite no longer capitalizes it
 * *Red{nbsp}Hat Network Proxy Server*: Removed glossary entry because this term has been replaced by "Capsure Server"
 * *Red{nbsp}Hat Network Satellite Server*: Removed glossary entry because this term has been replaced by "Satellite Server"
-* *xref:subscription-manifest[subscription manifest]*: Updated glossary entry to lowercase spelling
+* *xref:subscription-manifest[subscription manifest]*: Updated glossary entry to use lowercase spelling
 
 .Style guidance
 * *xref:external-links[External links]*: Added guidance to avoid using URL shorteners.
