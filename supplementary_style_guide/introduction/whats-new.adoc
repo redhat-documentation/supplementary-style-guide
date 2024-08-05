@@ -32,6 +32,23 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 [[year-2024]]
 == 2024
 
+[[july-2024]]
+=== July 2024
+
+.Glossary entries
+* *xref:composite-content-view[composite content view]*: Updated glossary entry to lowercase spelling
+* *xref:content-view[content view]*: Updated glossary entry to lowercase spelling
+* *xref:nmstate[Nmstate]*: Added glossary entry
+* *xref:on-premise[on-premise]*: Updated glossary entry to include Red Hat OpenShift Container Platform definition
+* *Product*: Removed glossary entry
+* *Red{nbsp}Hat Network Proxy Server*: Removed glossary entry
+* *ed{nbsp}Hat Network Satellite Server*: Removed glossary entry
+* *xref:subscription-manifest[subscription manifest]*: Updated glossary entry to lowercase spelling
+
+.Style guidance
+* *xref:external-links[External links]*: Added guidance to avoid using URL shorteners.
+* *xref:shortdesc[Short descriptions]*: Added guidance to avoid starting modules with admonitions, including Technology Preview admonitions.
+
 [[june-2024]]
 === June 2024
 
