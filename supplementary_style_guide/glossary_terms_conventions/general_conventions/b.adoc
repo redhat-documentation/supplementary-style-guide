@@ -20,6 +20,17 @@
 
 *See also*:
 
+[[backup-storage-location]]
+==== image:images/yes.png[yes] backup storage location (noun)
+*Description*: In the OpenShift API for Data Protection, the Data Protection Application backs up cluster data in the _backup storage location (BSL)_.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[backward-chaining]]
 ==== image:images/yes.png[yes] backward chaining (verb)
 *Description*: In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager, _backward chaining_ is a feature of the rule engine. The backward chaining process is often referred to as derivation queries. It is not as common compared to reactive systems because Red{nbsp}Hat Decision Manager is primarily reactive forward chaining, that is, it responds to changes in your data. The backward chaining added to the rule engine is for product-like derivations.
@@ -458,17 +469,6 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 [[brokered-messaging]]
 ==== image:images/yes.png[yes] brokered messaging (noun)
 *Description*: Any messaging configuration that uses a message broker to deliver messages to destinations. _Brokered messaging_ can include brokers only, or a combination of brokers and routers.
-
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*:
-
-*See also*:
-
-[[bsl]]
-==== image:images/yes.png[yes] BSL (noun)
-*Description*: In the OpenShift API for Data Protection, the Data Protection Application backs up cluster data in the _backup storage location (BSL)_.
 
 *Use it*: yes
 
