@@ -21,14 +21,14 @@ Do not rely solely on a shell prompt in a sample command to indicate the require
 If you include a shell prompt to indicate that a user with root privileges must run the command, also include a statement about this requirement in the step text, the introductory text, or the prerequisites.
 ====
 +
-* When a sample command includes `sudo`, use the `$` prompt, not `#`, as shown in the following example: 
+* When a sample command includes `sudo`, use the `$` prompt, not `#`, as shown in the following example:
 +
 [source,terminal]
 ----
 $ sudo systemctl start firewalld
 ----
 +
-* If multiple commands in a procedure require root privileges, add introductory content to tell the user about the requirement. 
+* If multiple commands in a procedure require root privileges, add introductory content to tell the user about the requirement.
 The following example shows one way that you could integrate a requirement for root access into the introduction for a procedure:
 +
 .Example AsciiDoc
@@ -38,6 +38,25 @@ Some tasks in this procedure require root privileges, which you can get temporar
 
 .Additional resources
 * link:https://www.redhat.com/sysadmin/difference-between-sudo-su[Exploring the differences between sudo and su commands in Linux]
+
+[[ellipses-in-yaml-code-blocks]]
+== Ellipses in YAML code blocks
+
+Use the number sign (`#`) to comment out an ellipsis in YAML code blocks.
+YAML reserves `...` to indicate the end of a document without starting a new document.
+
+.Example AsciiDoc
+[source,yaml]
+----
+apiVersion: operator.openshift.io/v1alpha1
+kind: CertManager
+metadata:
+  name: cluster
+# ...
+----
+
+.Additional resources
+* link:https://yaml.org/spec/1.2.2/#22-structures[YAML 1.2: Structures]
 
 [[ip-addresses-and-mac-addresses]]
 == IP addresses and MAC addresses
