@@ -3038,6 +3038,7 @@ pre.rouge .gs {
 <li><a href="#technical-examples">Technical examples</a>
 <ul class="sectlevel3">
 <li><a href="#commands-with-root-privileges">Commands requiring root privileges</a></li>
+<li><a href="#ellipses-in-yaml-code-blocks">Ellipses in YAML code blocks</a></li>
 <li><a href="#ip-addresses-and-mac-addresses">IP addresses and MAC addresses</a></li>
 <li><a href="#long-code-examples">Long code examples</a></li>
 <li><a href="#code-example-syntax-highlighting">Syntax highlighting</a></li>
@@ -5372,6 +5373,31 @@ The following example shows one way that you could integrate a requirement for r
 <ul>
 <li>
 <p><a href="https://www.redhat.com/sysadmin/difference-between-sudo-su">Exploring the differences between sudo and su commands in Linux</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="ellipses-in-yaml-code-blocks"><a class="anchor" href="#ellipses-in-yaml-code-blocks"></a><a class="link" href="#ellipses-in-yaml-code-blocks">Ellipses in YAML code blocks</a></h4>
+<div class="paragraph">
+<p>Use the number sign (<code>#</code>) to comment out an ellipsis in YAML code blocks.
+YAML reserves <code>&#8230;&#8203;</code> to indicate the end of a document without starting a new document.</p>
+</div>
+<div class="listingblock">
+<div class="title">Example AsciiDoc</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">operator.openshift.io/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">CertManager</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">cluster</span>
+<span class="c1"># ...</span></code></pre>
+</div>
+</div>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="https://yaml.org/spec/1.2.2/#22-structures">YAML 1.2: Structures</a></p>
 </li>
 </ul>
 </div>
@@ -23050,7 +23076,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-08-27 14:35:31 UTC
+Last updated 2024-10-09 08:47:33 UTC
 </div>
 </div>
 <!-- Nav bar -->
