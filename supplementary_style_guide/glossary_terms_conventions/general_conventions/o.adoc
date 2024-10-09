@@ -310,16 +310,16 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 *See also*:
 
-[[openshift-container-registry]]
-==== image:images/yes.png[yes] OpenShift Container Registry (noun)
-*Description*: In Red{nbsp}Hat OpenShift, the _OpenShift Container Registry_ is the integrated container registry that is deployed as part of an installation. This container registry adds the ability to easily provision new image repositories. With OpenShift Container Registry users can automatically have a place for their builds to push the resulting images. OpenShift Container Platform has an installation option you can use to have the OpenShift Container Registry deployed, but with none of the other build options enabled.
+[[openshift-image-registry]]
+==== image:images/yes.png[yes] Integrated OpenShift image registry (noun)
+*Description*: OpenShift Container Platform provides a built-in container image registry that runs as a standard workload on the cluster. The registry is configured and managed by an infrastructure Operator. It provides an out-of-the-box solution for users to manage the images that run their workloads, and runs on top of the existing cluster infrastructure. The image registry can be scaled up or down like any other cluster workload and does not require specific infrastructure provisioning. In addition, it is integrated into the cluster user authentication and authorization system, which means that access to create and retrieve images is controlled by defining user permissions on the image resources.
 
 *Use it*: yes
 
 [.vale-ignore]
 *Incorrect forms*:
 
-*See also*: xref:container-registry[container registry], xref:red-hat-container-catalog[Red{nbsp}Hat Container Catalog]
+*See also*: xref:container-registry[container registry], xref:red-hat-ecosystem-catalog[Red{nbsp}Hat Ecosystem Catalog]
 
 // TODO: This term is outdated anyway and should be removed in a future update
 [[openshift-master]]
