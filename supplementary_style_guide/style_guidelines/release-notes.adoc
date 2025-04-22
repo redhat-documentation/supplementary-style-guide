@@ -1,10 +1,59 @@
 [[release-notes]]
 = Release notes
 
-[[release-notes-doc-texts]]
-== Release notes doc texts
+A release note explains specific product behavior, capability, or problems relevant to a product version. Release notes for a particular product version are collected in a document that is published when the new version is released.
 
-A _doc text_ is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with the _IBM Style_ guide. You can write doc texts in more than one way, depending on the issue type:
+[[style-advice-for-release-note-texts]]
+== Style advice for release note texts
+
+The normal stylistic guidelines for documentation from IBM Style and the RH SSG apply also to release note texts, particularly the following:
+
+* When you first mention a utility, package, command, or similar item outside of a heading, define it. Do not assume that the customer is familiar with it. 
+* Omit the definition in later occurrences. If the context is ambiguous, for example, when the release note text mentions both an `example` package and an `example` service, you can repeat the definition to add clarity.
+* Avoid definitions in headings, but you can use them to disambiguate different meanings of the same name.
+* Do not start a sentence with a word in lower case. You can repeat a definition to avoid starting a sentence with a lowercase name. See: link:https://www.ibm.com/docs/en/ibm-style?topic=grammar-capitalization#general-text[Capitalization (IBM Style)].
+* Expand abbreviations in descriptions. Do not expand abbreviations in headings. See: link:https://www.ibm.com/docs/en/ibm-style?topic=grammar-abbreviations[Abbreviations (IBM Style)].
+* When comparing versions, use "later" and "earlier" instead of "newer" and "older". See: link:https://www.ibm.com/docs/en/ibm-style?topic=word-usage#later[Later (IBM Style)].
+* Avoid complicated syntax, such as passive voice and modal verbs, and ambiguous language. For example, replace "Should XY happen" with "If XY happens".
+* Keep admonitions to a minimum, and avoid placing multiple admonitions in a single note. Do not begin a release note with an admonition. See xref:admonitions[Admonitions (RH SSG)].
+* Avoid using telegraphic language common in merge requests and changelogs, for example, "Remove deprecated support macros".
+
+[[tenses-in-release-notes]]
+== Tenses in release notes
+
+Write the release notes from the perspective of just after the release, which is when most of the customers will read them. The state before the update is in the past, the state after the update is in the present, any future updates are in the future.
+
+* Use the *simple present tense* as much as possible.
+* Do not use *future tenses* (or "should" or "might") to describe the state after the update. You can use future tenses to refer to future releases.
+* Use the *simple past tense* to describe the previous situation before the current update.
+* You can use the *present perfect tense* to describe the current update. “With this update, the X component has been removed from the Y package.”
+* Follow the CCFR (Cause-Consequence-Fix-Result) tense logic in bug fixes.
+* Do not use “now” to refer to the state after the update. See: xref::now[Now (RH SSG)].
+
+[[headings-for-release-notes]]
+== Headings for release notes
+
+Introduce each release note with a heading that summarizes the release note. This practice helps customers to quickly determine if the release note is relevant to them.
+
+* The heading can, but does not need to be, a full sentence. Do not use a period at the end of the heading.
+* Use Sentence-style capitalization (not Title Case). Headings can start with a lowercase letter (such as with a lowercase name of a component).
++
+----
+.`start` does not start the computer when `donotstop` is stopped
+----
+
+* Keep the heading shorter than 120 characters. Make the heading short and catchy for the reader but not too short:
+** Follow the specifics for the release notes category.
+** Mention the component in a heading whenever it might not be obvious.
+** Be specific; do not over-generalize headings (“Program no longer crashes” or “Program is no longer vulnerable” are over-generalized).
+
+* Do not expand abbreviations in headings.
+* Do not use definitions in headings, unless necessary.
+* Do not start the heading with a gerund. Use gerunds only for procedural content. See: link:https://www.ibm.com/docs/en/ibm-style?topic=format-headings[Headings (IBM Style)].
+
+== Release note categories
+
+You can write doc texts in more than one way, depending on the issue type:
 
 * Enhancement
 * Bug fix
