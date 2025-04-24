@@ -1,7 +1,7 @@
 [[release-notes]]
 = Release notes
 
-A release note explains specific product behavior, capability, or problems relevant to a product version. Release notes for a particular product version are collected in a document that is published when the new version is released.
+A release note explains specific product behavior, capability, or problem relevant to a product version. Release notes for a particular product version are collected in a document that is published when the new version is released.
 
 [[style-advice-for-release-note-texts]]
 == Style advice for release note texts
