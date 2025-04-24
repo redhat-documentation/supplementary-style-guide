@@ -10,7 +10,7 @@ The normal stylistic guidelines for documentation from IBM Style and the RH SSG 
 
 * When you first mention a utility, package, command, or similar item outside of a heading, define it. Do not assume that the customer is familiar with it. 
 ** Omit the definition in later occurrences. If the context is ambiguous, for example, when the release note text mentions both an `example` package and an `example` service, you can repeat the definition to add clarity.
-* Avoid definitions in headings, but you can use them to disambiguate different meanings of the same name.
+** Avoid definitions in headings, but you can use them to disambiguate different meanings of the same name.
 * Do not start a sentence with a word in lower case. You can repeat a definition to avoid starting a sentence with a lowercase name. See: link:https://www.ibm.com/docs/en/ibm-style?topic=grammar-capitalization#general-text[Capitalization (IBM Style)].
 * Expand abbreviations in descriptions. Do not expand abbreviations in headings. See: link:https://www.ibm.com/docs/en/ibm-style?topic=grammar-abbreviations[Abbreviations (IBM Style)].
 * When comparing versions, use "later" and "earlier" instead of "newer" and "older". See: link:https://www.ibm.com/docs/en/ibm-style?topic=word-usage#later[Later (IBM Style)].
