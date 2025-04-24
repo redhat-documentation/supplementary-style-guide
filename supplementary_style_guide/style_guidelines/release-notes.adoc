@@ -6,7 +6,7 @@ A release note explains specific product behavior, capability, or problem releva
 [[style-advice-for-release-note-texts]]
 == Style advice for release note texts
 
-The normal stylistic guidelines for documentation from IBM Style and the RH SSG apply also to release note texts, particularly the following:
+The normal stylistic guidelines for documentation from the _IBM Style_ guide and the _ Red Hat supplementary style guide for product documentation_ apply also to release note texts, particularly the following:
 
 * When you first mention a utility, package, command, or similar item outside of a heading, define it. Do not assume that the customer is familiar with it. 
 ** Omit the definition in later occurrences. If the context is ambiguous, for example, when the release note text mentions both an `example` package and an `example` service, you can repeat the definition to add clarity.
