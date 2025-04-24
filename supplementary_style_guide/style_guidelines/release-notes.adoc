@@ -48,7 +48,7 @@ Introduce each release note with a heading that summarizes the release note. Thi
 ** Be specific; do not over-generalize headings (“Program no longer crashes” or “Program is no longer vulnerable” are over-generalized).
 
 * Do not expand abbreviations in headings.
-* Do not use definitions in headings, unless necessary.
+* Do not use definitions in headings unless necessary for clarity.
 * Do not start the heading with a gerund. Use gerunds only for procedural content. See: link:https://www.ibm.com/docs/en/ibm-style?topic=format-headings[Headings (IBM Style)].
 
 == Release note categories
