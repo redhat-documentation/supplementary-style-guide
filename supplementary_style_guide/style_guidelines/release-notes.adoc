@@ -15,7 +15,7 @@ The normal stylistic guidelines for documentation from the _IBM Style_ guide and
 * Expand abbreviations in descriptions. Do not expand abbreviations in headings. See: link:https://www.ibm.com/docs/en/ibm-style?topic=grammar-abbreviations[Abbreviations (IBM Style)].
 * When comparing versions, use "later" and "earlier" instead of "newer" and "older". See: link:https://www.ibm.com/docs/en/ibm-style?topic=word-usage#later[Later (IBM Style)].
 * Avoid complicated syntax, such as passive voice and modal verbs, and ambiguous language. For example, replace "Should XY happen" with "If XY happens".
-* Keep admonitions to a minimum, and avoid placing multiple admonitions in a single note. Do not begin a release note with an admonition. See xref:admonitions[Admonitions (RH SSG)].
+* Keep admonitions to a minimum, and avoid placing multiple admonitions in a single note. Do not begin a release note with an admonition. See xref:admonitions[Admonitions (Red Hat supplementary style guide)].
 * Avoid using telegraphic language common in merge requests and changelogs, for example, "Remove deprecated support macros".
 
 [[tenses-in-release-notes]]
