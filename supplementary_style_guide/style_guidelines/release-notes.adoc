@@ -36,7 +36,7 @@ Write the release notes from the perspective of just after the release, which is
 Introduce each release note with a heading that summarizes the release note. This practice helps customers to quickly determine if the release note is relevant to them.
 
 * The heading can, but does not need to be, a full sentence. Do not use a period at the end of the heading.
-* Use Sentence-style capitalization (not Title Case). Headings can start with a lowercase letter (such as with a lowercase name of a component).
+* Use _Sentence-style capitalization_ (not _Title Case_). Headings can start with a lowercase letter (such as with a lowercase name of a component).
 +
 ----
 .`start` does not start the computer when `donotstop` is stopped
