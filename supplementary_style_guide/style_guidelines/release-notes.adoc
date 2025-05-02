@@ -43,7 +43,7 @@ Introduce each release note with a heading that summarizes the release note. Thi
 ----
 
 * Keep the heading under 120 characters. Write headings that are informative and specific without being overly long or too short:
-** Follow the specifics for the release notes category.
+** Follow the specifics for the release notes type.
 ** Mention the component in a heading whenever it might not be obvious.
 ** Be specific; do not over-generalize headings (“Program no longer crashes” or “Program is no longer vulnerable” are over-generalized).
 
