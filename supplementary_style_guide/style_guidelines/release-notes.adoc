@@ -21,7 +21,7 @@ The normal stylistic guidelines for documentation from the _IBM Style_ guide and
 [[tenses-in-release-notes]]
 == Tenses in release notes
 
-Write the release notes from the perspective of just after the release, which is when most of the customers will read them. The state before the update is in the past, the state after the update is in the present, any future updates are in the future.
+Write the release notes from the perspective of just after the release, which is when most of the customers read release notes. The state before the update is in the past and the state after the update is in the present.
 
 * Use the *simple present tense* as much as possible.
 * Do not use *future tenses* (or "should" or "might") to describe the state after the update. You can use future tenses to refer to future releases.
