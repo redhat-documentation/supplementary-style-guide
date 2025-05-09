@@ -50,7 +50,7 @@ Introduce each release note with a heading that summarizes the release note. Thi
 ** Be specific; do not over-generalize headings. For example, "Program no longer crashes" is too generic.
 
 * Do not expand abbreviations in headings. If you use an abbreviation in a heading, expand it on the first mention in the text below.
-* Do not use definitions in headings unless necessary for clarity.
+* Do not use definitions in headings unless necessary for clarity. For example: "The `journald` system role can tune the performance of the `journald` service".
 * Do not start the heading with a gerund. Use gerunds only for procedural content.
 
 == Release note categories
