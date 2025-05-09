@@ -49,7 +49,7 @@ Introduce each release note with a heading that summarizes the release note. Thi
 ** Mention the component in a heading whenever it might not be obvious.
 ** Be specific; do not over-generalize headings. For example, "Program no longer crashes" is too generic.
 
-* Do not expand abbreviations in headings.
+* Do not expand abbreviations in headings. If you use an abbreviation in a heading, expand it on the first mention in the text below.
 * Do not use definitions in headings unless necessary for clarity.
 * Do not start the heading with a gerund. Use gerunds only for procedural content.
 
