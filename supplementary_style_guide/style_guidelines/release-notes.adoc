@@ -11,11 +11,11 @@ The normal stylistic guidelines for documentation from the _IBM Style_ guide and
 * When you first mention a utility, package, command, or similar item outside of a heading, define it. Do not assume that the customer is familiar with it. 
 ** Omit the definition in later occurrences. If the context is ambiguous, for example, when the release note text mentions both an `example` package and an `example` service, you can repeat the definition to add clarity.
 ** Avoid definitions in headings, but you can use them to disambiguate different meanings of the same name.
-* Do not start a sentence with a word in lowercase. You can repeat a definition to avoid starting a sentence with a lowercase name. See: Capitalization in _IBM Style_.
-* Expand abbreviations in descriptions. Do not expand abbreviations in headings. See: Abbreviations in _IBM Style_.
-* When comparing versions, use "later" and "earlier" instead of "newer" and "older". See: Later in _IBM Style_.
+* Do not start a sentence with a word in lowercase. You can repeat a definition to avoid starting a sentence with a lowercase name. For more information, see "Capitalization" in the _IBM Style_ guide.
+* Expand abbreviations in descriptions. Do not expand abbreviations in headings. For more information, see "Abbreviations" in the _IBM Style_ guide.
+* When comparing versions, use "later" and "earlier" instead of "newer" and "older". For more information, see "later" and "earlier" in the _IBM Style_ guide.
 * Avoid complicated syntax, such as passive voice and modal verbs, and ambiguous language. For example, replace "Should XY happen" with "If XY happens".
-* Keep admonitions to a minimum, and avoid placing multiple admonitions in a single note. Do not begin a release note with an admonition. See xref:admonitions[Admonitions (Red Hat supplementary style guide)].
+* Keep admonitions to a minimum, and avoid placing multiple admonitions in a single note. Do not begin a release note with an admonition. For more information, see xref:admonitions[Admonitions].
 * Avoid using telegraphic language common in merge requests and changelogs, for example, "Remove deprecated support macros".
 
 [[tenses-in-release-notes]]
@@ -23,12 +23,13 @@ The normal stylistic guidelines for documentation from the _IBM Style_ guide and
 
 Write the release notes from the perspective of just after the release, which is when most of the customers read release notes. The state before the update is in the past and the state after the update is in the present.
 
-* Use the *simple present tense* as much as possible.
-* Do not use *future tenses* (or "should" or "might") to describe the state after the update. You can use future tenses to refer to future releases.
-* Use the *simple past tense* to describe the previous situation before the current update.
-* You can use the *present perfect tense* to describe the current update. “With this update, the X component has been removed from the Y package.”
+* Use the _simple present tense_ as much as possible.
+* Do not use _future tenses_ (or "should" or "might") to describe the state after the update. You can use future tenses to refer to potential future releases.
+* Use the _simple past tense_ to describe the previous situation before the current update.
+* You can use the _present perfect tense_ to describe the current update. For example: 
+With this update, the X component has been removed from the Y package."
 * Follow the CCFR (Cause-Consequence-Fix-Result) tense logic in bug fixes.
-* Do not use “now” to refer to the state after the update. See: xref::now[Now (RH SSG)].
+* Do not use "now" to refer to the state after the update. For more information, see the xref:now[now] glossary entry.
 
 [[headings-for-release-notes]]
 == Headings for release notes
@@ -36,7 +37,7 @@ Write the release notes from the perspective of just after the release, which is
 Introduce each release note with a heading that summarizes the release note. This practice helps customers to quickly determine if the release note is relevant to them.
 
 * The heading can, but does not need to be, a full sentence. Do not use a period at the end of the heading.
-* Use _Sentence-style capitalization_ (not _Title Case_). Headings can start with a lowercase letter (such as with a lowercase name of a component).
+* Use _sentence-style capitalization_, not _title case_. If necessary, headings can start with a lowercase in the case of a lowercase component name.
 +
 ----
 .`start` does not start the computer when `donotstop` is stopped
@@ -45,11 +46,11 @@ Introduce each release note with a heading that summarizes the release note. Thi
 * Keep the heading under 120 characters. Write headings that are informative and specific without being overly long or too short:
 ** Follow the specifics for the release notes type.
 ** Mention the component in a heading whenever it might not be obvious.
-** Be specific; do not over-generalize headings (“Program no longer crashes” or “Program is no longer vulnerable” are over-generalized).
+** Be specific; do not over-generalize headings. For example, "Program no longer crashes" is too generic.
 
 * Do not expand abbreviations in headings.
 * Do not use definitions in headings unless necessary for clarity.
-* Do not start the heading with a gerund. Use gerunds only for procedural content. See: link:https://www.ibm.com/docs/en/ibm-style?topic=format-headings[Headings (IBM Style)].
+* Do not start the heading with a gerund. Use gerunds only for procedural content.
 
 == Release note categories
 
