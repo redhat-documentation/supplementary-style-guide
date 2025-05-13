@@ -348,6 +348,28 @@ There is no functional difference between the first server that was installed an
 
 *See also*: xref:bucket-index[bucket index]
 
+[[inference]]
+==== image:images/yes.png[yes] inference (noun)
+*Description*: AI inference is the process in which a trained model is loaded into memory and then makes predictions based on input data. For example, "The Llama-3.2-90B-Vision-Instruct-FP8-dynamic model performs inference to identify objects in an image."
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: 
+
+*See also*:
+
+[[inferencing]]
+==== image:images/yes.png[yes] inferencing (noun)
+*Description*: A process by which a model processes input data, deduce information, and generates an output. For example, "The inferencing workload is distributed across multiple accelerators."
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: 
+
+*See also*:
+
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
 *Description*: In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager, the _inference engine_ is a part of the Red{nbsp}Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
@@ -356,6 +378,29 @@ There is no functional difference between the first server that was installed an
 
 [.vale-ignore]
 *Incorrect forms*: BRMS engine, engine
+
+*See also*:
+
+[[inferenceservice]]
+==== image:images/yes.png[yes] InferenceService (noun)
+*Description*: In Red Hat OpenShift AI, this is the custom resource definition (CRD) used to create the `InferenceService` object. When referring to the CRD name, use `InferenceService` in monospace. 
+          
+    
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: InferenceService, inference serving
+
+*See also*:
+
+[[inference-serving]]
+==== image:images/yes.png[yes] inference serving (verb)
+*Description*: _Inference serving_ is the process of deploying a model onto a server for the model to inference. Use as separate words, for example, "The following charts display the minimum hardware requirements for inference serving a model".
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: 
 
 *See also*:
 
