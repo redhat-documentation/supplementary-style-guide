@@ -8,16 +8,25 @@ A release note explains specific product behavior, capability, or problem releva
 
 The normal stylistic guidelines for documentation from the _IBM Style_ guide and the _Red Hat supplementary style guide for product documentation_ apply also to release note texts, particularly the following:
 
-* Be concise. Focus on the impact on the user, and omit any overly technical details.
-* When you first mention a utility, package, command, or similar item outside of a heading, define it. Do not assume that the customer is familiar with it. 
-** Omit the definition in later occurrences. If the context is ambiguous, for example, when the release note text mentions both an `example` package and an `example` service, you can repeat the definition to add clarity.
-** Avoid definitions in headings, but you can use them to disambiguate different meanings of the same name.
-* Do not start a sentence with a word in lowercase. You can repeat a definition to avoid starting a sentence with a lowercase name. For more information, see "Capitalization" in the _IBM Style_ guide.
-* Expand abbreviations in descriptions. Do not expand abbreviations in headings. For more information, see "Abbreviations" in the _IBM Style_ guide.
-* When comparing versions, use "later" and "earlier" instead of "newer" and "older". For more information, see "later" and "earlier" in the _IBM Style_ guide.
+Be clear and concise:
+* Focus on the impact on the user, and omit any overly technical details.
 * Avoid complicated syntax, such as passive voice and modal verbs, and ambiguous language. For example, replace "Should XY happen" with "If XY happens".
-* Keep admonitions to a minimum, and avoid placing multiple admonitions in a single note. Do not begin a release note with an admonition. For more information, see xref:admonitions[Admonitions].
-* Avoid using telegraphic language common in merge requests and changelogs, for example, "Remove deprecated support macros".
+* Write easily readable text. Avoid using infinitive statements that are common in merge requests and changelogs, for example, "Remove deprecated support macros".
+
+Define unfamiliar terms:
+* When you first mention a utility, package, command, or similar item outside of a heading, define it. Do not assume that the customer is familiar with it.
+* Omit the definition in later occurrences. If the context is ambiguous, for example, when the release note text mentions both an `example` package and an `example` service, you can repeat the definition to add clarity.
+* Avoid definitions in headings, but you can use them to disambiguate different meanings of the same name.
+* Expand abbreviations in descriptions. Do not expand abbreviations in headings. For more information, see "Abbreviations" in the _IBM Style_ guide.
+
+Use correct capitalization:
+* Do not start a sentence with a word in lowercase. You can repeat a definition to avoid starting a sentence with a lowercase name. For more information, see "Capitalization" in the _IBM Style_ guide.
+
+Keep admonitions to a minimum:
+* Avoid placing multiple admonitions in a single note.
+* Do not begin a release note with an admonition.
+* For more information, see xref:admonitions[Admonitions].
+
 
 [[tenses-in-release-notes]]
 == Tenses in release notes
