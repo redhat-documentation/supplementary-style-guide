@@ -51,7 +51,7 @@ With this update, the X component has been removed from the Y package."
 Introduce each release note with a heading that summarizes the release note. This practice helps customers to quickly determine if the release note is relevant to them.
 
 * The heading can, but does not need to be, a full sentence. Do not use a period at the end of the heading.
-* Use _sentence-style capitalization_, not _title case_. If necessary, headings can start with a lowercase letter in the case of a lowercase component name. For example: "```start``` does not start the computer when `donotstop` is stopped".
+* Use _sentence-style capitalization_, not _title case_. If necessary, headings can start with a lowercase letter in the case of a lowercase component name. For example: "```nvme-cli``` and `cryptsetup` are now available for Opal automation on NVMe SEDs".
 
 * Write headings that are informative and specific without being overly long or too short. Adhere to the following guidelines:
 ** Keep the heading under 120 characters.
