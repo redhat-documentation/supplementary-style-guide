@@ -41,7 +41,7 @@ Write the release notes from the perspective of just after the release, which is
 * Do not use _future tenses_ (or "should" or "might") to describe the state after the update.
 * Use the _simple past tense_ to describe the previous situation before the current update.
 * You can use the _present perfect tense_ to describe the current update. For example: 
-With this update, the X component has been removed from the Y package."
+"With this update, the X component has been removed from the Y package."
 * Follow the CCFR (Cause-Consequence-Fix-Result) tense logic in bug fixes.
 * Do not use "now" to refer to the state after the update. For more information, see the xref:now[now] glossary entry.
 
