@@ -348,6 +348,17 @@ There is no functional difference between the first server that was installed an
 
 *See also*: xref:bucket-index[bucket index]
 
+[[inference]]
+==== image:images/yes.png[yes] inference (noun)
+*Description*: _Inference_ is when a model can process, deduce, and produce outputs based on input data. 
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: 
+
+*See also*:
+
 [[inference-engine]]
 ==== image:images/yes.png[yes] inference engine (noun)
 *Description*: In Red{nbsp}Hat Process Automation Manager and Red{nbsp}Hat Decision Manager, the _inference engine_ is a part of the Red{nbsp}Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
@@ -356,6 +367,39 @@ There is no functional difference between the first server that was installed an
 
 [.vale-ignore]
 *Incorrect forms*: BRMS engine, engine
+
+*See also*:
+
+[[inferenceservice]]
+==== image:images/yes.png[yes] InferenceService (noun)
+*Description*: In Red Hat OpenShift AI, this is the custom resource definition (CRD) used to create the `InferenceService` object. Written as the CRD name `InferenceService` in monospace. 
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: InferenceService, inference serving, inferenceservice 
+
+*See also*:
+
+[[inference-serving]]
+==== image:images/yes.png[yes] inference serving (verb)
+*Description*: _Inference serving_ is the process of deploying a model onto a server. Use as separate words, for example, "The following charts display the minimum hardware requirements for inference serving a model".
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: 
+
+*See also*:
+
+[[inference-server]]
+==== image:images/yes.png[yes] Inference Server (noun)
+*Description*: In reference to product name, Red Hat AI Inference Server or RHAIIS. Capitalize the first letters. 
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: 
 
 *See also*:
 
