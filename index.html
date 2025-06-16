@@ -3074,7 +3074,10 @@ pre.rouge .gs {
 </li>
 <li><a href="#release-notes">Release notes</a>
 <ul class="sectlevel3">
-<li><a href="#release-notes-doc-texts">Release notes doc texts</a></li>
+<li><a href="#style-advice-for-release-note-texts">Style advice for release note texts</a></li>
+<li><a href="#tenses-in-release-notes">Tenses in release notes</a></li>
+<li><a href="#headings-for-release-notes">Headings for release notes</a></li>
+<li><a href="#_release_note_categories">Release note categories</a></li>
 </ul>
 </li>
 <li><a href="#accessibility">Accessibility</a>
@@ -5912,10 +5915,153 @@ For more information about the support scope of Red{nbsp}Hat Technology Preview 
 </div>
 <div class="sect2">
 <h3 id="release-notes"><a class="anchor" href="#release-notes"></a><a class="link" href="#release-notes">Release notes</a></h3>
-<div class="sect3">
-<h4 id="release-notes-doc-texts"><a class="anchor" href="#release-notes-doc-texts"></a><a class="link" href="#release-notes-doc-texts">Release notes doc texts</a></h4>
 <div class="paragraph">
-<p>A <em>doc text</em> is a short description of an engineering Bugzilla or Jira issue that is published in product Errata advisories and release notes. Engineering typically supplies draft content, which is a summary of the issue, then technical writers edit or rewrite the draft content in accordance with the <em>IBM Style</em> guide. You can write doc texts in more than one way, depending on the issue type:</p>
+<p>A release note explains specific product behavior, capability, or problem relevant to a product version. Release notes for a particular product version are collected in a document that is published when the new version is released.</p>
+</div>
+<div class="sect3">
+<h4 id="style-advice-for-release-note-texts"><a class="anchor" href="#style-advice-for-release-note-texts"></a><a class="link" href="#style-advice-for-release-note-texts">Style advice for release note texts</a></h4>
+<div class="paragraph">
+<p>The normal stylistic guidelines for documentation from the <em>IBM Style</em> guide and the <em>Red Hat supplementary style guide for product documentation</em> apply also to release note texts, particularly the following:</p>
+</div>
+<div class="paragraph">
+<p>Be clear and concise:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Focus on the impact on the user, and omit any overly technical details.</p>
+</li>
+<li>
+<p>Avoid complicated syntax, such as passive voice and modal verbs, and ambiguous language. For example, replace "Should XY happen" with "If XY happens".</p>
+</li>
+<li>
+<p>Write easily readable text. Avoid using infinitive statements that are common in merge requests and changelogs, for example, "Remove deprecated support macros".</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Define unfamiliar terms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>When you first mention a utility, package, command, or similar item outside of a heading, define it. Do not assume that the customer is familiar with it.</p>
+</li>
+<li>
+<p>Omit the definition in later occurrences. If the context is ambiguous, for example, when the release note text mentions both an <code>example</code> package and an <code>example</code> service, you can repeat the definition to add clarity.</p>
+</li>
+<li>
+<p>Avoid definitions in headings, but you can use them to disambiguate different meanings of the same name.</p>
+</li>
+<li>
+<p>Expand abbreviations in descriptions. Do not expand abbreviations in headings. For more information, see "Abbreviations" in the <em>IBM Style</em> guide.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Use correct capitalization:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Do not start a sentence with a word in lowercase. You can repeat a definition to avoid starting a sentence with a lowercase name. For more information, see "Capitalization" in the <em>IBM Style</em> guide.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Keep admonitions to a minimum:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Avoid placing multiple admonitions in a single note.</p>
+</li>
+<li>
+<p>Do not begin a release note with an admonition.</p>
+</li>
+<li>
+<p>For more information, see <a href="#admonitions">Admonitions</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="tenses-in-release-notes"><a class="anchor" href="#tenses-in-release-notes"></a><a class="link" href="#tenses-in-release-notes">Tenses in release notes</a></h4>
+<div class="paragraph">
+<p>Write the release notes from the perspective of just after the release, which is when most of the customers read release notes. The state before the update is in the past and the state after the update is in the present.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Use the <em>simple present tense</em> as much as possible.</p>
+</li>
+<li>
+<p>Do not use <em>future tenses</em> (or "should" or "might") to describe the state after the update.</p>
+</li>
+<li>
+<p>Use the <em>simple past tense</em> to describe the previous situation before the current update.</p>
+</li>
+<li>
+<p>You can use the <em>present perfect tense</em> to describe the current update. For example:
+"With this update, the X component has been removed from the Y package."</p>
+</li>
+<li>
+<p>Follow the CCFR (Cause-Consequence-Fix-Result) tense logic in bug fixes.</p>
+</li>
+<li>
+<p>Do not use "now" to refer to the state after the update. For more information, see the <a href="#now">now</a> glossary entry.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="headings-for-release-notes"><a class="anchor" href="#headings-for-release-notes"></a><a class="link" href="#headings-for-release-notes">Headings for release notes</a></h4>
+<div class="paragraph">
+<p>Introduce each release note with a heading that summarizes the release note. This practice helps customers to quickly determine if the release note is relevant to them.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The heading can, but does not need to be, a full sentence. Do not use a period at the end of the heading.</p>
+</li>
+<li>
+<p>Use <em>sentence-style capitalization</em>, not <em>title case</em>. If necessary, headings can start with a lowercase letter in the case of a lowercase component name. For example: "<code><code>nvme-cli</code></code> and <code>cryptsetup</code> are now available for Opal automation on NVMe SEDs".</p>
+</li>
+<li>
+<p>Write headings that are informative and specific without being overly long or too short. Adhere to the following guidelines:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Keep the heading under 120 characters.</p>
+</li>
+<li>
+<p>Follow the specifics for the release notes type.</p>
+</li>
+<li>
+<p>Mention the component in a heading whenever it might not be obvious.</p>
+</li>
+<li>
+<p>Be specific; do not over-generalize headings. For example, "Program no longer crashes" is too generic.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Do not expand abbreviations in headings. If you use an abbreviation in a heading, expand it on the first mention in the text below.</p>
+</li>
+<li>
+<p>Avoid definitions in headings unless necessary for clarity. For example, use definitions to disambiguate different meanings of the same name: "The <code>journald</code> system role can tune the performance of the <code>journald</code> service".</p>
+</li>
+<li>
+<p>Do not start the heading with a gerund. Use gerunds only for procedural content.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_release_note_categories"><a class="anchor" href="#_release_note_categories"></a><a class="link" href="#_release_note_categories">Release note categories</a></h4>
+<div class="paragraph">
+<p>You can write doc texts in more than one way, depending on the issue type:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -23076,7 +23222,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-10-09 08:47:33 UTC
+Last updated 2025-06-16 12:14:00 UTC
 </div>
 </div>
 <!-- Nav bar -->
