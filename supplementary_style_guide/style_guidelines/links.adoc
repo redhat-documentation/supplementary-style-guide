@@ -60,7 +60,7 @@ Follow these guidelines when specifying link text:
 
 * Use the title of the Knowledgebase article for the link text, or use descriptive running text.
 * When not using running text, call out that this is a Knowledgebase article.
-* When the link appears in *Additional resources*, put the article title first, followed by `(Red{nbsp}Hat Knowledgebase)`.
+* When the link appears in *Additional resources*, put the article title first, followed by `(Red{nbsp}Hat Knowledgebase)` within the link.
 
 .Example: Article title
 
@@ -72,6 +72,6 @@ If your Apache web server configuration enables SSL security, verify that you en
 
 .Example: Additional resources
 
-* link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions?] (Red{nbsp}Hat Knowledgebase)
+* link:https://access.redhat.com/solutions/199573[Does RHEL 7 support online resize of disk partitions? (Red{nbsp}Hat Knowledgebase)]
 
 // TODO: Add new style entries alphabetically in this file
