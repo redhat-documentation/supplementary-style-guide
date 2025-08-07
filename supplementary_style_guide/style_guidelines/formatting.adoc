@@ -4,7 +4,7 @@
 [[commands-in-code-blocks]]
 == Commands in code blocks
 
-Use a single command per code block for each procedure step. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
+Use a single command per code block for each procedure step. Separate a command and its related example output into individual code blocks. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
 
 By default, use bold formatting for commands in code blocks to visually distinguish the commands from their lead-in sentences and from the command prompts and example outputs. For consistency, use bold formatting for commands even when no command output is shown in the code block.
 
@@ -13,13 +13,17 @@ By default, use bold formatting for commands in code blocks to visually distingu
 To apply formatting in a code block, you must use the `quotes` link:https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/[AsciiDoc substitution].
 ====
 
-.Example AsciiDoc: A command and its output in a code block
+.Example AsciiDoc: A command and its output in separate code blocks
 
   Verify that the `libvirt` default network is active and configured to start automatically:
 
   [subs="+quotes"]
   ----
   # *virsh net-list --all*
+  ----
+ 
+  [subs="+quotes"]
+  ----
   Name      State    Autostart   Persistent
   --------------------------------------------
   default   active   yes         yes
@@ -34,6 +38,10 @@ Verify that the `libvirt` default network is active and configured to start auto
 [subs="+quotes"]
 ----
 # *virsh net-list --all*
+----
+
+[subs="+quotes"]
+----
 Name      State    Autostart   Persistent
 --------------------------------------------
 default   active   yes         yes
