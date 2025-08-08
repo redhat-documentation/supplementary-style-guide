@@ -109,7 +109,7 @@ In addition to general style, follow these guidelines:
 * Describe why the feature or enhancement benefits the customer or why it is required.
 * Add a link to the product documentation for the feature, if it exists.
 * When a previous Technology Preview changes to full support, make this information clear. Use text similar to these examples:
-** _<Feature>_, previously available as a Technology Preview, is fully supported from RHEL X.Y.
+** _<Feature>_, available as a Technology Preview before this update, is fully supported from RHEL X.Y.
 ** _<Feature>_, introduced in RHEL X.Y as a Technology Preview, is fully supported with this release.
 
 .Examples of new features and enhancements release notes
@@ -122,7 +122,7 @@ TICKET-REFERENCE
 ====
 New packages: keylime::
 RHEL 9.1 introduces Keylime, a tool for attestation of remote systems, which uses the trusted platform module (TPM) technology. With Keylime, you can verify and continuously monitor the integrity of remote systems. You can also specify encrypted payloads that Keylime delivers to the monitored machines, and define automated actions that trigger whenever a system fails the integrity test.
-See Ensuring system integrity with Keylime in the RHEL 9 Security hardening document for more information.
+For more information, see link:https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/security_hardening/index#assembly_ensuring-system-integrity-with-keylime_security-hardening[Ensuring system integrity with Keylime] in the RHEL 9 _Security hardening_ document.
 RHELPLAN-92522
 ====
 
@@ -317,13 +317,13 @@ Follow these guidelines for the deprecation and removal tables:
 * Avoid overly long descriptions in tables. Aim for between 3 and 11 words. Link to documentation if more information is needed.
 * Avoid blank cells in a table. Define a status, such as “Not available”, to represent that a feature did not exist in a release.
 * Make sure that markup is displayed correctly in table cells, for example, `arm64`.
-* See the following example tables that you can use for deprecations and removals:
+* See the following example tables that you can use for deprecations:
 +
 .Example table of deprecations
 |===
 |Category |Feature or component |Version |Alternative action |More information
 
-|Installation |Hive settings in the `mch` API |2.2 |Edit hive configuration directly with the `oc edit` command. |See  _<insert_link>_ for more details.
+|Installation |Hive settings in the `mch` API |2.2 |Edit hive configuration directly with the `oc edit` command. |For more information, see  _<insert_link>_ .
 |===
 
 === Removed features
@@ -376,7 +376,7 @@ If your product presents deprecations and removals in a table, follow the guidan
 
 
 === Known issues
-Known issues are existing problems that customers should be aware of to mitigate them and avoid unnecessary reporting.
+Known issues describe existing problems that customers should be aware of, so that they can mitigate them and avoid unnecessary reporting.
 
 .Known issue engineering template
 ----
