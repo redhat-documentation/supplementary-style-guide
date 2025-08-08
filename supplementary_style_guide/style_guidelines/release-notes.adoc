@@ -63,15 +63,15 @@ Introduce each release note with a heading that summarizes the release note. Thi
 * Avoid definitions in headings unless necessary for clarity. For example, use definitions to disambiguate different meanings of the same name: "The `journald` system role can tune the performance of the `journald` service".
 * Do not start the heading with a gerund. Use gerunds only for procedural content.
 
-== Release note types and chapters
+== Release note types and sections
 
 Each release note is defined by a specific type based on the information it provides to customers. In Jira tickets, the type is defined in the *Release Note Type* field.
 
-In a release note document, each release note type is presented in a specific chapter. Do not use other chapter names for these release note types.
+In a release note document, each release note type is presented in a specific section. Do not use other section names for these release note types.
 
-.Release note types and chapters
+.Release note types and sections
 |===
-|Release note type |Release note chapter
+|Release note type |Release note section
 
 |Feature, Enhancement, Rebase |New features and enhancements
 |Technology Preview |Technology Preview features
@@ -85,7 +85,7 @@ Every release note type has a template, which is pre-filled in many Jira project
 
 === New features and enhancements
 
-New features are new functions, and enhancements are improvements to existing functions. The release notes for both types are similar, and you can group them together in a single chapter, or they can be separate.
+New features are new functions, and enhancements are improvements to existing functions. The release notes for both types are similar, and you can group them together in a single section, or they can be separate.
 
 .New feature and enhancement engineering template
 ----
@@ -140,7 +140,7 @@ X.Y.Z-A.elN, where X.Y.Z is version, A is build, and elN stands for Enterprise L
 
 Example: 1.3.6-3.el8
 
-Rebuilds (change in A) are not rebases. Some products include rebases in the New features and enhancements chapter; some products do not have rebases at all.
+Rebuilds (change in A) are not rebases. Some products include rebases in the New features and enhancements section; some products do not have rebases at all.
 
 .Rebase engineering template
 ----
@@ -227,7 +227,7 @@ In addition to general style, follow these guidelines:
 * After you briefly describe the feature, mention again that it is a Technology Preview.
 * Do not use the Technology Preview admonition in the release notes because it would be repetitive.
 * Repeat a Technology Preview release note in all subsequent releases until the feature moves to full support or is removed. If necessary, you can adjust the RN text for a minor release.
-* Mention deprecated Technology Previews in both Technology Preview features and Deprecated features chapters, and repeat until the last minor release within the major release.
+* Mention deprecated Technology Previews in both Technology Preview features and Deprecated features sections, and repeat until the last minor release within the major release.
 * When required by stakeholders, you can include the following information in the description:
 ** Request for feedback 
 ** Link to upstream docs
@@ -279,7 +279,7 @@ In addition to general style, follow these guidelines:
 
 * Describe the feature or component that is deprecated.
 * Write the proposed alternative for the user. Do not use the term “Recommended”.
-* Do not repeat the definition of “deprecated” from the chapter intro.
+* Do not repeat the definition of “deprecated” from the section intro.
 * Avoid predicting future feature statuses in release notes, such as "will be deprecated next release".
 * If cloning a previous version of the release notes file for the latest version, ensure the table feature statuses are current for that version.
 
