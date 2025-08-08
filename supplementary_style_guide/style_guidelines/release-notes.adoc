@@ -365,7 +365,7 @@ TICKET-REFERENCE
 
 If your product presents deprecations and removals in a table, follow the guidance for deprecation tables.
 
-* Remove the entry from the table when the release for that removal is no longer fully supported. Typically that means a removal is not carried on beyond n-2 versions of the product documentation.
+* Remove the entry from the table when the version for that removal is no longer fully supported. Typically you do not need to include a removal in the release notes for more than n-2 versions of the product documentation.
 
 .Example table of removed features 
 |===
