@@ -62,6 +62,18 @@ Introduce each release note with a heading that summarizes the release note. Thi
 * Do not expand abbreviations in headings. If you use an abbreviation in a heading, expand it on the first mention in the text below.
 * Avoid definitions in headings unless necessary for clarity. For example, use definitions to disambiguate different meanings of the same name: "The `journald` system role can tune the performance of the `journald` service".
 * Do not start the heading with a gerund. Use gerunds only for procedural content.
+[[jira-links-release-notes]]
+== Linking to Jira in release notes
+
+For customer reference, include links to Jira tickets on all _Known issues_  and _Fixed issues_ on the line directly after the entry. Do not place that link inside parenthesis or brackets. See examples later in this guidance.
+
+Inform the user that some Jira tickets might require login credentials. For example, write the following in the introduction of your _Known issues_ or _Fixed issues_:
+
+“Some linked Jira tickets are accessible only with Red Hat credentials.” 
+
+If you refer to those tickets without including a link, inform the user. See the following example:
+
+“Some referenced tickets are not linked. This means that the ticket is not accessible without Red Hat credentials."
 
 == Release note types and sections
 
