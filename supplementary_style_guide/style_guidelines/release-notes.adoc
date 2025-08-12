@@ -65,7 +65,7 @@ Introduce each release note with a heading that summarizes the release note. Thi
 [[jira-links-release-notes]]
 == Linking to Jira in release notes
 
-For customer reference, include links to Jira tickets on all _Known issues_  and _Fixed issues_ on the line directly after the entry. Do not place that link inside parenthesis or brackets. See examples later in this guidance.
+For customer reference, include links to Jira tickets on all _Known issues_  and _Fixed issues_. Some products provide ticket references for all release note types. Place the reference on the line directly after the entry, not inside parenthesis or brackets. See examples later in this guidance.
 
 Inform the user that some Jira tickets might require login credentials. For example, write the following in the introduction of your _Known issues_ or _Fixed issues_:
 
