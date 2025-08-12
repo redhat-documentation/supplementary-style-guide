@@ -62,6 +62,7 @@ Introduce each release note with a heading that summarizes the release note. Thi
 * Do not expand abbreviations in headings. If you use an abbreviation in a heading, expand it on the first mention in the text below.
 * Avoid definitions in headings unless necessary for clarity. For example, use definitions to disambiguate different meanings of the same name: "The `journald` system role can tune the performance of the `journald` service".
 * Do not start the heading with a gerund. Use gerunds only for procedural content.
+
 [[jira-links-release-notes]]
 == Linking to Jira in release notes
 
@@ -75,6 +76,7 @@ If you refer to those tickets without including a link, inform the user. See the
 
 “Some referenced tickets are not linked. This means that the ticket is not accessible without Red Hat credentials."
 
+[[release-note-types]]
 == Release note types and sections
 
 Each release note is defined by a specific type based on the information it provides to customers. In Jira tickets, the type is defined in the *Release Note Type* field.
@@ -95,6 +97,7 @@ In a release note document, each release note type is presented in a specific se
 
 Every release note type has a template, which is pre-filled in many Jira projects, and that engineers fill in to provide the required information. The writer then rewrites that information into a customer-readable *release note text* (RN text). You can use standard connecting phrases, for example, “As a result,” for results. Sometimes, the information is better presented by changing the order of the pieces of information, for example, a consequence before the cause, or combining them into a single sentence.
 
+[[release-notes-features-enhancements]]
 === New features and enhancements
 
 New features are new functions, and enhancements are improvements to existing functions. The release notes for both types are similar, and you can group them together in a single section, or they can be separate.
@@ -145,6 +148,7 @@ For more information, see link:https://docs.redhat.com/en/documentation/red_hat_
 link:https://issues.redhat.com/browse/SAT-27349[SAT-27349]
 ====
 
+[[release-notes-rebases]]
 === Rebases
 A rebase is an enhancement in which the version of a component increases. Versions are typically presented in the following format:
 
@@ -212,6 +216,7 @@ The `nbdkit` package is rebased to upstream version 1.38, which includes the fol
 TICKET-REFERENCE
 ====
 
+[[release-notes-technology-previews]]
 === Technology Preview features
 Technology Preview features offer early access to new product innovations. This enables customers to test them and provide feedback. These features are not fully supported, might be incomplete, and are not for production use.
 +
@@ -269,6 +274,7 @@ Note that all PQC algorithms in RHEL 10 are provided as a Technology Preview fea
 link:https://issues.redhat.com/browse/RHEL-58241[RHEL-58241]
 ====
 
+[[release-notes-deprecated-features]]
 === Deprecated features
 
 Deprecated features are supported but will be removed in a future version. Deprecating a feature is a signal to customers that they should not use the feature for new deployments.
@@ -338,6 +344,7 @@ Follow these guidelines for the deprecation and removal tables:
 |Installation |Hive settings in the `mch` API |2.2 |Edit hive configuration directly with the `oc edit` command. |For more information, see  _<insert_link>_ .
 |===
 
+[[release-notes-removed-features]]
 === Removed features
 Removed features were deprecated in earlier releases and are no longer supported in the current release.
 
@@ -386,7 +393,7 @@ If your product presents deprecations and removals in a table, follow the guidan
 |Application management |Subscriptions |2.5 |Use GitOps for |See _<insert_link_to_GitOps>_ for more details.
 |===
 
-
+[[release-notes-known-issues]]
 === Known issues
 Known issues describe existing problems that customers should be aware of, so that they can mitigate them and avoid unnecessary reporting.
 
@@ -455,6 +462,7 @@ To work around this problem, re-generate the certificate tar file from the Satel
 SAT-23881
 ====
 
+[[release-notes-fixed-issues]]
 === Fixed issues
 Fixed issues, also called “bug fixes”, list problems that are resolved in the current release.
 
