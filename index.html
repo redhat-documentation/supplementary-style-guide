@@ -4627,7 +4627,7 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 <div class="sect3">
 <h4 id="commands-in-code-blocks"><a class="anchor" href="#commands-in-code-blocks"></a><a class="link" href="#commands-in-code-blocks">Commands in code blocks</a></h4>
 <div class="paragraph">
-<p>Use a single command per code block for each procedure step. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.</p>
+<p>Use a single command per code block for each procedure step. Separate a command and its related example output into individual code blocks. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.</p>
 </div>
 <div class="paragraph">
 <p>By default, use bold formatting for commands in code blocks to visually distinguish the commands from their lead-in sentences and from the command prompts and example outputs. For consistency, use bold formatting for commands even when no command output is shown in the code block.</p>
@@ -4647,7 +4647,7 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 </table>
 </div>
 <div class="literalblock">
-<div class="title">Example AsciiDoc: A command and its output in a code block</div>
+<div class="title">Example AsciiDoc: A command and its output in separate code blocks</div>
 <div class="content">
 <pre>Verify that the `libvirt` default network is active and configured to start automatically:</pre>
 </div>
@@ -4657,6 +4657,13 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 <pre>[subs="+quotes"]
 ----
 # *virsh net-list --all*
+----</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[subs="+quotes"]
+----
 Name      State    Autostart   Persistent
 --------------------------------------------
 default   active   yes         yes
@@ -4673,8 +4680,12 @@ default   active   yes         yes
 </div>
 <div class="listingblock">
 <div class="content">
-<pre># <strong>virsh net-list --all</strong>
-Name      State    Autostart   Persistent
+<pre># <strong>virsh net-list --all</strong></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Name      State    Autostart   Persistent
 --------------------------------------------
 default   active   yes         yes</pre>
 </div>
@@ -23222,7 +23233,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-07-24 13:40:27 UTC
+Last updated 2025-08-14 19:00:34 UTC
 </div>
 </div>
 <!-- Nav bar -->
