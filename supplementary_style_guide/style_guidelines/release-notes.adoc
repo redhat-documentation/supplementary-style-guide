@@ -109,7 +109,7 @@ Reason – why has the feature or enhancement been implemented
 Result – what is the current user experience
 ----
 
-.New feature and enhancement release note text
+.New feature and enhancement release note text template
 ====
 _<Heading that summarizes the enhancement or feature>_::
 _<Feature, enhancement>_. _<Reason>_. As a result, _<result>_.
@@ -164,7 +164,7 @@ Version
 List of highlights - notable new features and bug fixes since the last available version within the same RHEL major version
 ----
 
-.Rebase release note text
+.Rebase release note text template
 ====
 `_<package>_` rebased to <X.Y.Z>::
 The `_<package>_` package, which <purpose>, has been rebased to upstream version X.Y.Z. This version provides important fixes and enhancements, most notably the following:
@@ -228,7 +228,7 @@ Package - list the package that includes the Technology Preview feature
 Description - describe what the feature does
 ----
 
-.Technology Preview release note text
+.Technology Preview release note text template
 ====
 _<Feature>_ (Technology Preview)::
 _<Release note text>_.
@@ -285,7 +285,7 @@ Description - describe the discontinued feature
 Consequence - describe the recommended replacement, if applicable
 ----
 
-.Deprecated feature release note text
+.Deprecated feature release note text template
 ====
 _<feature>_ is deprecated::
 The _<feature>_, which <purpose>, is deprecated and might be removed in a future major release. You can _<purpose>_ by using _<alternative>_ instead.
@@ -354,7 +354,7 @@ Description - describe the removed feature
 Consequence - describe the recommended replacement, if applicable
 ----
 
-.Removed feature release note text
+.Removed feature release note text template
 ====
 <feature> is removed::
 The _<feature>_, which _<purpose>_, is removed and is no longer supported. You can _<purpose>_ by using _<alternative>_ instead.
@@ -405,7 +405,7 @@ Workaround - if available
 Result – mandatory if the workaround does not solve the problem completely
 ----
 
-.Known issue release note text
+.Known issue release note text template
 ====
 Heading that summarizes the known issue::
 _<Cause>_. As a consequence, _<consequence>_.
@@ -474,7 +474,7 @@ Fix – what has changed to fix the bug; do not include overly technical details
 Result – what happens now that the patch is applied, in the present tense.
 ----
 
-.Fixed issues release note text
+.Fixed issues release note text template
 ====
 Heading that summarizes the fixed issue::
 Before this update, _<cause>_. As a consequence, _<consequence>_. With this release, _<fix>_. As a result, _<result>_.
