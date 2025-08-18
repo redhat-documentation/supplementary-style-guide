@@ -335,7 +335,7 @@ Follow these guidelines for the deprecation and removal tables:
 * Avoid overly long descriptions in tables. Aim for between 3 and 11 words. Link to documentation if more information is needed.
 * Avoid blank cells in a table. Define a status, such as “Not available”, to represent that a feature did not exist in a release.
 * Make sure that markup is displayed correctly in table cells, for example, `arm64`.
-* See the following example tables that you can use for deprecations:
+* See the following example table that you can use for deprecations:
 +
 .Example table of deprecations
 |===
