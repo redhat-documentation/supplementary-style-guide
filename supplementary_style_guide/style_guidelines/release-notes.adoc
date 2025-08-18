@@ -487,7 +487,7 @@ In addition to general style, follow these guidelines:
 * Follow the Cause-Consequence-Fix-Result (CCFR) tense logic: “Before this update, a problem occurred. The current update has fixed the problem. As a result, the problem no longer occurs.”
 Cause:: The user action or circumstance that triggered the bug, in the past tense.
 Consequence:: What the user experience was when the bug occurred, in the past tense.
-Fix:: What has changed to fix the bug; do not include overly technical details, in the present perfect or present simple tense.
+Fix:: What has changed to fix the bug; do not include overly technical details; do not use the present perfect or present simple tense.
 Result:: What happens now that the patch is applied, in the present tense.
 * Use “before this update” instead of “previously” to refer to the past situation. See xref:previously[previously].
 * Partially fixed issues might require a separate Known issue for the unfixed scenario.
