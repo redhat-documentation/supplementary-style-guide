@@ -458,14 +458,6 @@ To work around this problem, switch to the `permissive` mode by adding `enforcin
 link:https://issues.redhat.com/browse/RHEL-14005[RHEL-14005]
 ====
 
-====
-When using `satellite-maintain` backup on Capsule Server, the certificate tar file is not collected::
-The `satellite-maintain` backup command does not collect the certificate tar file of the Capsule Server when creating a backup. As a result, restoring the archive fails.
-+
-To work around this problem, re-generate the certificate tar file from the Satellite Server.
-+
-SAT-23881
-====
 
 [[release-notes-fixed-issues]]
 === Fixed issues
