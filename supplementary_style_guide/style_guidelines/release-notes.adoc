@@ -299,7 +299,7 @@ TICKET-REFERENCE
 In addition to general style, follow these guidelines:
 
 * Describe the feature or component that is deprecated.
-* Write the proposed alternative for the user. Do not use the term “Recommended”.
+* Write the proposed alternative for the user. Do not use the term “Recommended”. See the xref:recommend[recommend] glossary entry.
 * Do not repeat the definition of “deprecated” from the section intro.
 * Avoid predicting future feature statuses in release notes, such as "will be deprecated next release".
 * If cloning a previous version of the release notes file for the latest version, ensure the table feature statuses are current for that version.
@@ -370,6 +370,8 @@ TICKET-REFERENCE
 In addition to general style, follow these guidelines:
 
 * If a functionality is removed in a release (for example, in RHEL 9), it must be documented as deprecated in a preceding release (RHEL 8).
+* Describe the feature or component that is removed.
+* Write the proposed alternative for the user. Do not use the term “Recommended”. See the xref:recommend[recommend] glossary entry.
 * If a small part of a feature is removed, treat that as a feature change, not a removed feature. Focus on why the change was made and what replaces the removed item. 
 
 .Examples of removed feature release notes
