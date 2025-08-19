@@ -431,7 +431,7 @@ To work around this problem, <workaround in imperative>.
 * If the known issue applies only to specific batch updates (z-streams), clarify that. For example, the known issue might exist from 4.14.0 to 4.14.4 but not 4.14.5 onwards.
 * Never promise future fixes. Avoid making claims that are related to a future release; do not announce a new component will replace a deprecated one until it is released.
 * For customer reference, include Jira tickets links to all Known issues on the line directly after the entry. Do not place that link inside parenthesis or brackets.
-** If you link to private tickets, inform the user that some Jira tickets might require login credentials, for example: “Some linked Jira tickets are accessible only with Red Hat credentials.” 
+** If you link to tickets that are not public, tell the user that some Jira tickets might require login credentials, for example: “Some linked Jira tickets are accessible only with Red Hat credentials.” 
 ** If you refer to private tickets without a link, inform the user, for example: “Some referenced tickets are not linked. This means that the ticket is accessible only with Red Hat credentials.”
 * Before a release, always check the status of all known issues. If a previously identified known issue is fixed, the customer must be informed in a product-consistent way, for example:
 ** A _Fixed issues_ release note contains a reference to the previous known issue.
