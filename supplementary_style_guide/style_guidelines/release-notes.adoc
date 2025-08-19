@@ -220,7 +220,6 @@ TICKET-REFERENCE
 [[release-notes-technology-previews]]
 === Technology Preview features
 Technology Preview features offer early access to new product innovations. This enables customers to test them and provide feedback. These features are not fully supported, might be incomplete, and are not for production use.
-+
 For more information, see link:https://access.redhat.com/support/offerings/techpreview/[Technology Preview Features Support Scope].
 
 .Technology Preview engineering template
