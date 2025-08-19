@@ -85,7 +85,7 @@ A _non-breaking space_ prevents the company name from splitting across a line br
 Before you begin to customize the installer, download the Red{nbsp}Hat-provided boot images.
 ----
 
-[product-names-versions-ref]]
+[[product-names-versions-ref]]
 == Product names and version references
 
 Use attributes instead of hard-coded references when you refer to the name of your product in full, to its abbreviated form, or to its major or minor version.
