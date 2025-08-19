@@ -496,7 +496,7 @@ Cause:: The user action or circumstance that triggered the bug, in the past tens
 Consequence:: What the user experience was when the bug occurred, in the past tense.
 Fix:: What has changed to fix the bug; do not include overly technical details; do not use the present perfect or present simple tense.
 Result:: What happens now that the patch is applied, in the present tense.
-* Use “before this update” instead of “previously” to refer to the past situation. See xref:previously[previously].
+* Use “before this update” instead of “previously” to refer to the past situation. See the xref:previously[previously] glossary entry.
 * Partially fixed issues might require a separate Known issue for the unfixed scenario.
 
 .Example known issue release notes
