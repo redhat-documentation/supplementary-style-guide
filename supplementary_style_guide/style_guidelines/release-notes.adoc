@@ -394,7 +394,7 @@ If your product presents deprecations and removals in a table, follow the guidan
 |===
 |Category |Feature or component |Version |Alternative action |More information
 
-|Application management |Subscriptions |2.5 |Use GitOps for |See _<insert_link_to_GitOps>_ for more details.
+|Application management |Subscriptions |2.5 |Use GitOps for application management|See _<insert_link_to_GitOps>_ for more details.
 |===
 
 [[release-notes-known-issues]]
