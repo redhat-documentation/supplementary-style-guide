@@ -74,6 +74,20 @@ If you refer to those tickets without including a link, inform the user. See the
 
 “Some referenced tickets are not linked. This means that the ticket is not accessible without Red Hat credentials."
 
+[[release-note-asciidoc-format]]
+== Release note formatting in AsciiDoc
+To display individual release notes outside of the structure of the table of contents, treat each release note as a description list item. This format is also compatible with the DITA/AEM migration. To preserve correct left justification, attach all lines after the first to the description with a plus sign. For additional formatting examples, you can inspect the link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[Release notes] file in the `supplementary-style-guide` repository.
+
+.Release note AsciiDoc formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another paragraph if necessary.
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
 [[release-note-types]]
 == Release note types and sections
 
