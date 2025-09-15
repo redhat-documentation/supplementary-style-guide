@@ -76,14 +76,29 @@ If you refer to those tickets without including a link, inform the user. See the
 
 [[release-note-asciidoc-format]]
 == Release note formatting in AsciiDoc
-To display individual release notes outside of the structure of the table of contents, treat each release note as a description list item. This format is also compatible with the DITA/AEM migration. For the DITA conversion to work correctly, the list must remain uninterrupted. Attach all lines after the first to the description with a plus sign. Do not use open blocks (`--`) to separate elements within the description. For additional formatting examples, you can inspect the link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[Release notes] file in the `supplementary-style-guide` repository.
+To display individual release notes outside of the structure of the table of contents, treat each release note as a description list item. This format is also compatible with the DITA/AEM migration. For additional formatting examples, you can inspect the link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[Release notes] file in the `supplementary-style-guide` repository.
 
-.Release note AsciiDoc formatting template
+.Release note AsciiDoc basic formatting template
 ----
 Release note heading::
 This is the main release note text.
 +
 Add another paragraph if necessary.
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
+For the DITA conversion to work correctly, the list must remain uninterrupted. Attach all lines after the first to the description with a plus sign. Do not use open blocks (`--`) to separate elements within the description. If you need to introduce a list inside a release note text, add an empty line before attaching the reference line with a plus sign to preserve continuation.
+
+.Release note AsciiDoc complex formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another list:
+* List item 1
+* List item 2
+
 +
 link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
 ----
@@ -186,6 +201,7 @@ The `_<package>_` package, which <purpose>, has been rebased to upstream version
 +
 * _<Enhancement_or_fix>_.
 * _<Enhancement_or_fix>_.
+
 +
 TICKET-REFERENCE
 ====
@@ -210,6 +226,7 @@ The OpenSSL packages are rebased to upstream version 3.2.2. This update includes
 * You can use the QUIC protocol on the client side as a Technology Preview.
 * The Argon2d, Argon2i, and Argon2id key derivation functions (KDF) are supported.
 * Brainpool curves are added to the TLS 1.3 protocol (RFC 8734), but Brainpool curves remain disabled in all supported system-wide cryptographic policies.
+
 +
 TICKET-REFERENCE
 ====
@@ -221,6 +238,7 @@ The `nbdkit` package is rebased to upstream version 1.38, which includes the fol
 * Block size advertising is enhanced, and a new read-only filter is added.
 * The Python and OCaml bindings support more features of the server API.
 * Internal struct integrity checks are added to make the server more robust.
+
 +
 TICKET-REFERENCE
 ====
