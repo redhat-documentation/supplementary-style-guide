@@ -76,7 +76,7 @@ If you refer to those tickets without including a link, inform the user. See the
 
 [[release-note-asciidoc-format]]
 == Release note formatting in AsciiDoc
-To display individual release notes outside of the structure of the table of contents, treat each release note as a description list item. This format is also compatible with the DITA/AEM migration. To preserve correct left justification, attach all lines after the first to the description with a plus sign. For additional formatting examples, you can inspect the link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[Release notes] file in the `supplementary-style-guide` repository.
+To display individual release notes outside of the structure of the table of contents, treat each release note as a description list item. This format is also compatible with the DITA/AEM migration. For the DITA conversion to work correctly, the list must remain uninterrupted. Attach all lines after the first to the description with a plus sign. Do not use open blocks (`--`) to separate elements within the description. For additional formatting examples, you can inspect the link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[Release notes] file in the `supplementary-style-guide` repository.
 
 .Release note AsciiDoc formatting template
 ----
