@@ -116,7 +116,7 @@ Reserved MAC addresses for documentation are defined in link:https://www.rfc-edi
 [[long-code-examples]]
 == Long code examples
 
-All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables and callouts. The length of the block is irrelevant, within reason, if the code block follows these guidelines.
+All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables. The length of the block is irrelevant, within reason, if the code block follows these guidelines.
 
 [[code-example-syntax-highlighting]]
 == Syntax highlighting
