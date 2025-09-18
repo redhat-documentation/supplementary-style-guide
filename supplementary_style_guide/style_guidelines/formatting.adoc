@@ -50,6 +50,111 @@ default   active   yes         yes
 
 For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
 
+[[explain-commands-variables-in-code-blocks]]
+== Explain commands and variables in code blocks
+
+To explain commands, lines of code, or variables (user-replaced values) used in a code block, follow the code block with the relevant explanation or description of the elements.
+
+. Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.
++
+.Example AsciiDoc: A simple sentence explaining a single coomand
++
+[source,terminal]
+----
+$ hcp create cluster <platform> --help 
+----
++
+Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
++
+. Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.
+**  List the explanations in the order in which they appear in the code block.
++
+.Example AsciiDoc: A bulleted list explaining the structure of an YAML file
+
+[source,yaml]
+----
+apiVersion: tekton.dev/v1
+kind: Pipeline
+metadata:
+  name: build-and-deploy
+spec:
+  workspaces:
+  - name: shared-workspace
+  params:
+...
+  tasks: 
+  - name: build-image
+    taskRef:
+      resolver: cluster
+      params:
+      - name: kind
+        value: task
+      - name: name
+        value: buildah
+      - name: namespace
+        value: openshift-pipelines
+    workspaces: 
+    - name: source 
+      workspace: shared-workspace 
+    params:
+    - name: TLSVERIFY
+      value: "false"
+    - name: IMAGE
+      value: $(params.IMAGE)
+    runAfter:
+    - fetch-repository
+  - name: apply-manifests
+    taskRef:
+      name: apply-manifests
+    workspaces: 
+    - name: source
+      workspace: shared-workspace
+    runAfter:
+      - build-image
+...
+----
+
+* `workspaces`: List of pipeline workspaces shared between the tasks defined in the pipeline. A pipeline can define as many workspaces as required. In this example, only one workspace named `shared-workspace` is declared.
+* `tasks`: Definition of tasks used in the pipeline. This snippet defines two tasks, `build-image` and `apply-manifests`.
+* `tasks.name.workspaces`: List of task workspaces used in the `build-image` and `apply-manifests` tasks. A task definition can include as many workspaces as it requires. However, it is recommended that a task uses at most one writable workspace. In this example, both the tasks share a common task workspace named `source`, which in turn shares the pipeline workspace named `shared-workspace`.
+
+. Use a definition list to explain multiple options, parameters, variables, placeholders, or UI elements.
+**  List the parameters/variables in the order in which they appear in the code block.
+**  Introduce definition lists with "where:" and begin each variable description with "Specifies".
++
+.Example AsciiDoc: A definition list explaining user-replaced values
+
+[source,yaml,subs="+attributes,+quotes"]
+----
+cat <<EOF | oc -n {my-product-namespace} create -f -
+apiVersion: v1
+kind: Secret
+metadata:
+ name: <my-product-database-certificates-secrets> 
+type: Opaque
+stringData:
+ postgres-ca.pem: |-
+  -----BEGIN CERTIFICATE-----
+  <ca-certificate-key> 
+ postgres-key.key: |-
+  -----BEGIN CERTIFICATE-----
+  <tls-private-key> 
+ postgres-crt.pem: |-
+  -----BEGIN CERTIFICATE-----
+  <tls-certificate-key> 
+  # ...
+EOF
+----
++
+where:
+
+<my-product-database-certificates-secrets>:: Specifies the name of the certificate secret.
+<ca-certificate-key>:: Specifies the CA certificate key.
+<tls-private-key> Optional:: Specifies the TLS private key.
+<tls-certificate-key> Optional:: Specifies the TLS certificate key.
+
+. Use the appropriate admonition style to add notes pertaining to a code block, as described in xref:admonitions[]. 
+
 [[date-formats]]
 == Date formats
 
@@ -244,6 +349,9 @@ connection.interface-name:  enp7s0
 ----
 ====
 
+To explain user-replaced values used in a code block, you must use a definition list following the code block. See xref:explain-commands-variables-in-code-blocks[] for details.
+
+
 [[user-replaced-values-xml]]
 == User-replaced values for XML
 
@@ -288,6 +396,9 @@ This example renders as follows in HTML:
 <oauth2-introspection client-id="__${client_id}__"/>
 ----
 ====
+
+To explain user-replaced values used in a code block, you must use a definition list following the code block. See xref:explain-commands-variables-in-code-blocks[] for details.
+
 
 
 // TODO: Add new style entries alphabetically in this file
