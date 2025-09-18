@@ -51,20 +51,20 @@ default   active   yes         yes
 For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
 
 [[explain-commands-variables-in-code-blocks]]
-== Explain commands and vairables in code blocks
+== Explain commands and variables in code blocks
 
 To explain commands, lines of code, or variables (user-replaced values) used in a code block, follow the code block with the relevant explanation or description of the elements.
 
 . Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.
 +
-.Example AsciiDoc: A simple sentence explainging a single coomand
+.Example AsciiDoc: A simple sentence explaining a single coomand
 +
 [source,terminal]
 ----
 $ hcp create cluster <platform> --help 
 ----
 +
-You can use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
+Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
 +
 . Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.
 **  List the explanations in the order in which they appear in the code block.
@@ -349,7 +349,7 @@ connection.interface-name:  enp7s0
 ----
 ====
 
-To explain user replaced values used in a code block, you must use a definition list following the code block. See xref:explain-commands-variables-in-code-blocks[] for details.
+To explain user-replaced values used in a code block, you must use a definition list following the code block. See xref:explain-commands-variables-in-code-blocks[] for details.
 
 
 [[user-replaced-values-xml]]
@@ -397,7 +397,7 @@ This example renders as follows in HTML:
 ----
 ====
 
-To explain user replaced values used in a code block, you must use a definition list following the code block. See xref:explain-commands-variables-in-code-blocks[] for details.
+To explain user-replaced values used in a code block, you must use a definition list following the code block. See xref:explain-commands-variables-in-code-blocks[] for details.
 
 
 
