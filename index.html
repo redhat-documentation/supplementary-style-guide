@@ -3017,6 +3017,7 @@ pre.rouge .gs {
 <li><a href="#formatting">Formatting</a>
 <ul class="sectlevel3">
 <li><a href="#commands-in-code-blocks">Commands in code blocks</a></li>
+<li><a href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a></li>
 <li><a href="#date-formats">Date formats</a></li>
 <li><a href="#man-pages">Man page references</a></li>
 <li><a href="#non-breaking-spaces">Non-breaking spaces</a></li>
@@ -4698,6 +4699,157 @@ default   active   yes         yes</pre>
 </div>
 </div>
 <div class="sect3">
+<h4 id="explain-commands-variables-in-code-blocks"><a class="anchor" href="#explain-commands-variables-in-code-blocks"></a><a class="link" href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a></h4>
+<div class="paragraph">
+<p>To explain commands, lines of code, or variables (user-replaced values) used in a code block, follow the code block with the relevant explanation or description of the elements.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.</p>
+<div class="listingblock">
+<div class="title">Example AsciiDoc: A simple sentence explaining a single coomand</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>hcp create cluster &lt;platform&gt; <span class="nt">--help</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Use the <code>hcp create cluster</code> command to create and manage hosted clusters. The supported platforms are <code>aws</code>, <code>agent</code>, and <code>kubevirt</code>.</p>
+</div>
+</li>
+<li>
+<p>Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>List the explanations in the order in which they appear in the code block.</p>
+<div class="listingblock">
+<div class="title">Example AsciiDoc: A bulleted list explaining the structure of an YAML file</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">tekton.dev/v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Pipeline</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">build-and-deploy</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">workspaces</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">shared-workspace</span>
+  <span class="na">params</span><span class="pi">:</span>
+<span class="nn">...</span>
+  <span class="na">tasks</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">build-image</span>
+    <span class="na">taskRef</span><span class="pi">:</span>
+      <span class="na">resolver</span><span class="pi">:</span> <span class="s">cluster</span>
+      <span class="na">params</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">kind</span>
+        <span class="na">value</span><span class="pi">:</span> <span class="s">task</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">name</span>
+        <span class="na">value</span><span class="pi">:</span> <span class="s">buildah</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">namespace</span>
+        <span class="na">value</span><span class="pi">:</span> <span class="s">openshift-pipelines</span>
+    <span class="na">workspaces</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">source</span>
+      <span class="na">workspace</span><span class="pi">:</span> <span class="s">shared-workspace</span>
+    <span class="na">params</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">TLSVERIFY</span>
+      <span class="na">value</span><span class="pi">:</span> <span class="s2">"</span><span class="s">false"</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">IMAGE</span>
+      <span class="na">value</span><span class="pi">:</span> <span class="s">$(params.IMAGE)</span>
+    <span class="na">runAfter</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">fetch-repository</span>
+  <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">apply-manifests</span>
+    <span class="na">taskRef</span><span class="pi">:</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">apply-manifests</span>
+    <span class="na">workspaces</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">source</span>
+      <span class="na">workspace</span><span class="pi">:</span> <span class="s">shared-workspace</span>
+    <span class="na">runAfter</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">build-image</span>
+<span class="nn">...</span></code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>workspaces</code>: List of pipeline workspaces shared between the tasks defined in the pipeline. A pipeline can define as many workspaces as required. In this example, only one workspace named <code>shared-workspace</code> is declared.</p>
+</li>
+<li>
+<p><code>tasks</code>: Definition of tasks used in the pipeline. This snippet defines two tasks, <code>build-image</code> and <code>apply-manifests</code>.</p>
+</li>
+<li>
+<p><code>tasks.name.workspaces</code>: List of task workspaces used in the <code>build-image</code> and <code>apply-manifests</code> tasks. A task definition can include as many workspaces as it requires. However, it is recommended that a task uses at most one writable workspace. In this example, both the tasks share a common task workspace named <code>source</code>, which in turn shares the pipeline workspace named <code>shared-workspace</code>.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Use a definition list to explain multiple options, parameters, variables, placeholders, or UI elements.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>List the parameters/variables in the order in which they appear in the code block.</p>
+</li>
+<li>
+<p>Introduce definition lists with "where:" and begin each variable description with "Specifies".</p>
+<div class="listingblock">
+<div class="title">Example AsciiDoc: A definition list explaining user-replaced values</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="s">cat &lt;&lt;EOF | oc -n {my-product-namespace} create -f -</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Secret</span>
+<span class="na">metadata</span><span class="pi">:</span>
+ <span class="na">name</span><span class="pi">:</span> <span class="s">&lt;my-product-database-certificates-secrets&gt;</span>
+<span class="na">type</span><span class="pi">:</span> <span class="s">Opaque</span>
+<span class="na">stringData</span><span class="pi">:</span>
+ <span class="na">postgres-ca.pem</span><span class="pi">:</span> <span class="pi">|-</span>
+  <span class="s">-----BEGIN CERTIFICATE-----</span>
+  <span class="s">&lt;ca-certificate-key&gt;</span>
+ <span class="na">postgres-key.key</span><span class="pi">:</span> <span class="pi">|-</span>
+  <span class="s">-----BEGIN CERTIFICATE-----</span>
+  <span class="s">&lt;tls-private-key&gt;</span>
+ <span class="na">postgres-crt.pem</span><span class="pi">:</span> <span class="pi">|-</span>
+  <span class="s">-----BEGIN CERTIFICATE-----</span>
+  <span class="s">&lt;tls-certificate-key&gt;</span>
+  <span class="s"># ...</span>
+<span class="s">EOF</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>where:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">&lt;my-product-database-certificates-secrets&gt;</dt>
+<dd>
+<p>Specifies the name of the certificate secret.</p>
+</dd>
+<dt class="hdlist1">&lt;ca-certificate-key&gt;</dt>
+<dd>
+<p>Specifies the CA certificate key.</p>
+</dd>
+<dt class="hdlist1">&lt;tls-private-key&gt; Optional</dt>
+<dd>
+<p>Specifies the TLS private key.</p>
+</dd>
+<dt class="hdlist1">&lt;tls-certificate-key&gt; Optional</dt>
+<dd>
+<p>Specifies the TLS certificate key.</p>
+</dd>
+</dl>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Use the appropriate admonition style to add notes pertaining to a code block, as described in <a href="#admonitions">Admonitions</a>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
 <h4 id="date-formats"><a class="anchor" href="#date-formats"></a><a class="link" href="#date-formats">Date formats</a></h4>
 <div class="paragraph">
 <p>Follow the <em>IBM Style</em> guide advice of <em>day Month year</em> for date formats, for example, 3 October 2019.</p>
@@ -4999,6 +5151,9 @@ connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 </div>
+<div class="paragraph">
+<p>To explain user-replaced values used in a code block, you must use a definition list following the code block. See <a href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a> for details.</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="user-replaced-values-xml"><a class="anchor" href="#user-replaced-values-xml"></a><a class="link" href="#user-replaced-values-xml">User-replaced values for XML</a></h4>
@@ -5068,6 +5223,9 @@ connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 </div>
+</div>
+<div class="paragraph">
+<p>To explain user-replaced values used in a code block, you must use a definition list following the code block. See <a href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a> for details.</p>
 </div>
 </div>
 </div>
@@ -5507,7 +5665,7 @@ YAML reserves <code>&#8230;&#8203;</code> to indicate the end of a document with
 <div class="sect3">
 <h4 id="long-code-examples"><a class="anchor" href="#long-code-examples"></a><a class="link" href="#long-code-examples">Long code examples</a></h4>
 <div class="paragraph">
-<p>All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables and callouts. The length of the block is irrelevant, within reason, if the code block follows these guidelines.</p>
+<p>All code blocks (regardless of length) must be necessary, accurate, and helpful. Code blocks must be as copy-and-paste friendly as possible, with the exception of variables. The length of the block is irrelevant, within reason, if the code block follows these guidelines.</p>
 </div>
 </div>
 <div class="sect3">
@@ -24044,7 +24202,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-08-21 15:31:06 UTC
+Last updated 2025-09-18 18:11:30 UTC
 </div>
 </div>
 <!-- Nav bar -->
