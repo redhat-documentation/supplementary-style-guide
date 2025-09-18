@@ -315,7 +315,7 @@ To italicize a user-replaced value in a code block, you must add an attribute to
 
   [subs="+quotes"]
   ----
-  $ *oc describe node __<node_name>__*
+  $ oc describe node __<node_name>__
   ----
 
 This example renders as follows in HTML:
@@ -323,7 +323,7 @@ This example renders as follows in HTML:
 ====
 [subs="+quotes"]
 ----
-$ *oc describe node __<node_name>__*
+$ oc describe node __<node_name>__
 ----
 ====
 
