@@ -57,7 +57,7 @@ To explain commands, lines of code, or variables (user-replaced values) used in 
 
 . Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.
 +
-.Example AsciiDoc: A simple sentence explaining a single coomand
+.Example AsciiDoc: A simple sentence explaining a single command
 +
 [source,terminal]
 ----
