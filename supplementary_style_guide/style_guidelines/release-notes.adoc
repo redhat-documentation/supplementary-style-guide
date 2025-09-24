@@ -74,6 +74,35 @@ If you refer to those tickets without including a link, inform the user. See the
 
 “Some referenced tickets are not linked. This means that the ticket is not accessible without Red Hat credentials."
 
+[[release-note-asciidoc-format]]
+== Release note formatting in AsciiDoc
+To display individual release notes outside of the structure of the table of contents, treat each release note as a description list item. This format is also compatible with the DITA/AEM migration. For additional formatting examples, you can inspect the link:https://redhat-documentation.github.io/supplementary-style-guide/#release-notes[Release notes] file in the `supplementary-style-guide` repository.
+
+.Release note AsciiDoc basic formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another paragraph if necessary.
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
+For the DITA conversion to work correctly, the list must remain uninterrupted. Attach all lines after the first to the description with a plus sign. Do not use open blocks (`--`) to separate elements within the description. If you need to introduce a list inside a release note text, add an empty line before attaching the reference line with a plus sign to preserve continuation.
+
+.Release note AsciiDoc complex formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another list:
+* List item 1
+* List item 2
+
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
 [[release-note-types]]
 == Release note types and sections
 
@@ -170,10 +199,9 @@ List of highlights - notable new features and bug fixes since the last available
 `_<package>_` rebased to <X.Y.Z>::
 The `_<package>_` package, which <purpose>, has been rebased to upstream version X.Y.Z. This version provides important fixes and enhancements, most notably the following:
 +
---
 * _<Enhancement_or_fix>_.
 * _<Enhancement_or_fix>_.
---
+
 +
 TICKET-REFERENCE
 ====
@@ -192,14 +220,13 @@ In addition to general style, follow these guidelines:
 OpenSSL rebased to 3.2.2::
 The OpenSSL packages are rebased to upstream version 3.2.2. This update includes the following enhancements and bug fixes:
 +
---
 * The `openssl req` command with the `-extensions` option no longer mishandles extensions when creating certificate signing requests (CSR). Before this update, the command fetched, parsed, and checked the name of the configuration file section for consistency but the name was not used for adding extensions to the created CSR file. With this fix, the extension is added to the generated CSR. As a side effect of this change, if the section specifies an extension incompatible with its use in the CSR, the command might fail with an error similar to this: `error:11000080:X509 V3 routines:X509V3_EXT_nconf_int:error in extension:crypto/x509/v3_conf.c:48:section=server_cert, name=authorityKeyIdentifier, value=keyid, issuer:always`.
 * The default X.500 distinguished name (DN) formatting uses the UTF-8 formatter. This change also removes space characters around the equal sign (`=`) that separates DN element types from their values.
 * The certificate compression extension (RFC 8879) is supported.
 * You can use the QUIC protocol on the client side as a Technology Preview.
 * The Argon2d, Argon2i, and Argon2id key derivation functions (KDF) are supported.
 * Brainpool curves are added to the TLS 1.3 protocol (RFC 8734), but Brainpool curves remain disabled in all supported system-wide cryptographic policies.
---
+
 +
 TICKET-REFERENCE
 ====
@@ -208,11 +235,10 @@ TICKET-REFERENCE
 `nbdkit` rebased to version 1.38::
 The `nbdkit` package is rebased to upstream version 1.38, which includes the following notable bug fixes and enhancements:
 +
---
 * Block size advertising is enhanced, and a new read-only filter is added.
 * The Python and OCaml bindings support more features of the server API.
 * Internal struct integrity checks are added to make the server more robust.
---
+
 +
 TICKET-REFERENCE
 ====
