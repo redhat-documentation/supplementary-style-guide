@@ -76,7 +76,7 @@ If you refer to those tickets without including a link, inform the user. See the
 
 [[release-note-asciidoc-format]]
 == Release note formatting in AsciiDoc
-To avoid nesting headings excessively, treat each release note as a description list item. This format is also compatible with the DITA/AEM migration. For additional formatting examples, see the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/supplementary_style_guide/style_guidelines/release-notes.adoc?plain=1[Release notes] file in the `supplementary-style-guide` repository.
+To avoid nesting headings excessively, treat each release note as a description list item. This format is also compatible with the AEM DITA migration.
 
 .Release note AsciiDoc basic formatting template
 ----
