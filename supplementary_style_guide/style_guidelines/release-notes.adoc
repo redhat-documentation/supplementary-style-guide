@@ -88,7 +88,12 @@ Add another paragraph if necessary.
 link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
 ----
 
-For the DITA conversion to work correctly, the list must remain uninterrupted. If the release note needs another paragraph or additional elements, such as a bullet list, you must attach all lines after the first line to the description with a plus sign. Do not use open blocks (`--`) to separate elements within the description. If you need to have a list inside a release note text, add an empty line followed by a plus sign after the list to attach the next paragraph, such as the ticket reference.
+For the DITA conversion to work correctly, the list must remain uninterrupted. Follow these guidelines:
+
+* If the release note needs another paragraph or additional elements, you must attach all lines after the first line to the description with a plus sign on a separate line.
+* If you need to have a list inside a release note text, attach it with a plus sign on a separate line, and add an empty line followed by a plus sign after the list to attach the next paragraph, such as the ticket reference.
+* Do not use open blocks (`--`) to separate elements within the description.
+
 
 .Release note AsciiDoc complex formatting template
 ----
@@ -96,6 +101,7 @@ Release note heading::
 This is the main release note text.
 +
 Add another list:
+
 * List item 1
 * List item 2
 
