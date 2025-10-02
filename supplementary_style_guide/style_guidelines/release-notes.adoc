@@ -92,7 +92,7 @@ For the DITA conversion to work correctly, the list must remain uninterrupted. F
 
 * If the release note needs another paragraph or additional elements, you must attach all lines after the first line to the description with a plus sign on a separate line.
 * If you need to have a list inside a release note text, attach it with a plus sign on a separate line, and add an empty line followed by a plus sign after the list to attach the next paragraph, such as the ticket reference.
-* Do not use open blocks (`--`) to separate elements within the description.
+* If you use an open block (`--`) to separate elements within the description, attach it with plus signs before and after.
 
 
 .Release note AsciiDoc complex formatting template
