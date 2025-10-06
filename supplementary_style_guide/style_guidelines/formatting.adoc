@@ -58,14 +58,14 @@ To explain commands, lines of code, or variables (user-replaced values) in a cod
 * Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.
 +
 .Example AsciiDoc: A simple sentence explaining a single command
-+
+
 [source,terminal]
 ----
 $ hcp create cluster <platform> --help 
 ----
 +
 Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
-+
+
 * Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.
 **  List the explanations in the order in which they appear in the code block.
 +
@@ -148,10 +148,10 @@ EOF
 +
 where:
 
-<my_product_database_certificates_secrets>:: Specifies the name of the certificate secret.
-<ca_certificate_key>:: Specifies the CA certificate key.
-<tls_private_key>:: Specifies the TLS private key.
-<tls_certificate_key>:: Specifies the TLS certificate key.
+`<my_product_database_certificates_secrets>`:: Specifies the name of the certificate secret.
+`<ca_certificate_key>`:: Specifies the CA certificate key.
+`<tls_private_key>`:: Specifies the TLS private key.
+`<tls_certificate_key>`:: Specifies the TLS certificate key.
 
 * Use the appropriate admonition style to add notes pertaining to a code block, as described in xref:admonitions[]. 
 
