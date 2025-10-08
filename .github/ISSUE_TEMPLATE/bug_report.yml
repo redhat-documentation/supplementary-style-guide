@@ -1,0 +1,57 @@
+name: "🐞 Bug report"
+description: Report a problem or bug you found in the supplementary style guide.
+labels: [bug]
+body:
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: What is the impact of this bug?
+      options:
+        - Critical (blocks usage or causes data loss)
+        - Major (significant impact, but workaround exists)
+        - Minor (cosmetic or small impact)
+        - Trivial (no real impact)
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgently should this be fixed?
+      options:
+        - P1 (highest)
+        - P2
+        - P3 (lowest)
+    validations:
+      required: true
+  - type: textarea
+    id: affected-pages
+    attributes:
+      label: Affected page(s)
+      description: Please provide a link (or links) to the page(s) where you found the bug.
+      placeholder: "https://github.com/redhat-documentation/supplementary-style-guide/path/to/page"
+    validations:
+      required: true
+  - type: textarea
+    id: describe-bug
+    attributes:
+      label: Describe the bug, along with repro steps
+      description: What went wrong? Be as specific as possible.
+      placeholder: "A clear and concise description of the bug."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-fix
+    attributes:
+      label: Describe the proposed fix
+      description: What fix do you recommend to resolve or improve this issue?
+      placeholder: "Describe your proposed fix here."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Optional next step:**
+        After submitting this issue, you can help resolve it by [opening a pull request](https://github.com/redhat-documentation/supplementary-style-guide/compare) that references this issue.
