@@ -13,22 +13,24 @@ By default, use bold formatting for commands in code blocks to visually distingu
 To apply formatting in a code block, you must use the `quotes` link:https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/[AsciiDoc substitution].
 ====
 
-.Example AsciiDoc: A command and its output in separate code blocks
+*Example AsciiDoc: A command and its output in separate code blocks*
 
-  Verify that the `libvirt` default network is active and configured to start automatically:
+[literal]
+--
+Verify that the `libvirt` default network is active and configured to start automatically:
 
-  [subs="+quotes"]
-  ----
-  # *virsh net-list --all*
-  ----
+[subs="+quotes"]
+----
+# *virsh net-list --all*
+----
  
-  [subs="+quotes"]
-  ----
-  Name      State    Autostart   Persistent
-  --------------------------------------------
-  default   active   yes         yes
-  ----
-
+[subs="+quotes"]
+----
+Name      State    Autostart   Persistent
+--------------------------------------------
+default   active   yes         yes
+----
+--
 
 This example renders as follows in HTML:
 
