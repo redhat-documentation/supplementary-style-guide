@@ -579,6 +579,17 @@ Always use the approved product name _Red{nbsp}Hat build of OpenJDK_ instead.
 
 *See also*: xref:remote-access[remote access]
 
+[[remote-execution]]
+==== image:images/yes.png[yes] remote execution (noun, adjective)
+*Description*: In Red{nbsp}Hat Satellite, you can use the _remote execution_ feature to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable remote execution for Capsule and then run a remote execution job to apply errata to hosts.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: Remote Execution
+
+*See also*: xref:rex[REX]
+
 [[remoting]]
 ==== image:images/yes.png[yes] remoting subsystem (noun)
 *Description*: In Red{nbsp}Hat JBoss Enterprise Application Platform, the _remoting" subsystem_ is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
@@ -736,6 +747,17 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 *Incorrect forms*:
 
 *See also*: xref:ostree[OSTree]
+
+[[rex]]
+==== image:images/yes.png[yes] REX (noun, adjective)
+*Description*: In Red{nbsp}Hat Satellite, _REX_ is an acronym for _remote execution_. You can use REX to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable REX for Capsule and then run a REX job to apply errata to hosts.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:remote-execution[remote execution]
 
 [[rgw]]
 ==== image:images/yes.png[yes] RGW (noun)
