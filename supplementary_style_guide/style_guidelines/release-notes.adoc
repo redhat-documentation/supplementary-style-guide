@@ -74,6 +74,41 @@ If you refer to those tickets without including a link, inform the user. See the
 
 “Some referenced tickets are not linked. This means that the ticket is not accessible without Red Hat credentials."
 
+[[release-note-asciidoc-format]]
+== Release note formatting in AsciiDoc
+To avoid nesting headings excessively, treat each release note as a description list item. This format is also compatible with the AEM DITA migration.
+
+.Release note AsciiDoc basic formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another paragraph if necessary.
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
+For the DITA conversion to work correctly, the list must remain uninterrupted. Follow these guidelines:
+
+* If the release note needs another paragraph or additional elements, you must attach all lines after the first line to the description with a plus sign on a separate line.
+* If you need to have a list inside a release note text, attach it with a plus sign on a separate line, and add an empty line followed by a plus sign after the list to attach the next paragraph, such as the ticket reference.
+* If you use an open block (`--`) to separate elements within the description, attach it with plus signs before and after.
+
+
+.Release note AsciiDoc complex formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another list:
+
+* List item 1
+* List item 2
+
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
 [[release-note-types]]
 == Release note types and sections
 
