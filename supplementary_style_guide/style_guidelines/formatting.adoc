@@ -68,7 +68,7 @@ $ hcp create cluster <platform> --help
 +
 Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
 
-* Use a definition list to explain multiple options, parameters, variables, placeholders, or UI elements.
+* Use a definition list to explain multiple options, parameters, user-replaced values, placeholders, or UI elements.
 **  List the parameters or variables in the order in which they appear in the code block.
 **  Introduce definition lists with "where:" and begin each variable description with "Specifies".
 +
