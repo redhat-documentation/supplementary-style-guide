@@ -51,11 +51,11 @@ default   active   yes         yes
 For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
 
 [[explain-commands-variables-in-code-blocks]]
-=== Explanation of commands and variables used in code blocks
+== Explanation of commands and variables used in code blocks
 
-To explain commands, lines of code, or variables (user-replaced values) in a code block, do not use callouts. DITA does not support callouts, hence there is no semantic markup for an AI agent to interpret or output them correctly.
+To explain commands, lines of code, or user-replaced values in a code block, do not use callouts. DITA does not support callouts, hence there is no semantic markup for an AI agent to interpret or output them correctly.
 
-Instead, follow the code block with the relevant explanation or description of the elements, using the following guidelines.
+Instead, follow the code block with the relevant explanation or description of the elements, using the following guidelines:
 
 * Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.
 +
@@ -69,7 +69,7 @@ $ hcp create cluster <platform> --help
 Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
 
 * Use a definition list to explain multiple options, parameters, variables, placeholders, or UI elements.
-**  List the parameters/variables in the order in which they appear in the code block.
+**  List the parameters or variables in the order in which they appear in the code block.
 **  Introduce definition lists with "where:" and begin each variable description with "Specifies".
 +
 .Example AsciiDoc: A definition list explaining user-replaced values
@@ -105,7 +105,7 @@ where:
 
 * Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.
 **  List the explanations in the order in which they appear in the code block.
-** Use the bullet format that makes the most sense for your explanations. You do not have to follow the exact format in the following example.
+** Use the bullet format that makes the most sense for your explanations. You do not have to follow the exact wording in the following example.
 +
 .Example AsciiDoc: A bulleted list explaining the structure of an YAML file
 
