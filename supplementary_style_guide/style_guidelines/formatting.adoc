@@ -53,7 +53,7 @@ For commands and command outputs in code blocks, observe the correct markup for 
 [[explain-commands-variables-in-code-blocks]]
 == Explanation of commands and variables used in code blocks
 
-To explain commands, lines of code, or user-replaced values in a code block, do not use callouts. DITA does not support callouts, hence there is no semantic markup for an AI agent to interpret or output them correctly.
+To explain commands, lines of code, or user-replaced values in a code block, do not use callouts.
 
 Instead, follow the code block with the relevant explanation or description of the elements, using the following guidelines:
 
