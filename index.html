@@ -3079,6 +3079,7 @@ pre.rouge .gs {
 <li><a href="#tenses-in-release-notes">Tenses in release notes</a></li>
 <li><a href="#headings-for-release-notes">Headings for release notes</a></li>
 <li><a href="#jira-links-release-notes">References to Jira in release notes</a></li>
+<li><a href="#release-note-asciidoc-format">Release note formatting in AsciiDoc</a></li>
 <li><a href="#release-note-types">Release note types and sections</a></li>
 </ul>
 </li>
@@ -6240,6 +6241,54 @@ For more information about the support scope of Red{nbsp}Hat Technology Preview 
 </div>
 <div class="paragraph">
 <p>“Some referenced tickets are not linked. This means that the ticket is not accessible without Red Hat credentials."</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="release-note-asciidoc-format"><a class="anchor" href="#release-note-asciidoc-format"></a><a class="link" href="#release-note-asciidoc-format">Release note formatting in AsciiDoc</a></h4>
+<div class="paragraph">
+<p>To avoid nesting headings excessively, treat each release note as a description list item. This format is also compatible with the AEM DITA migration.</p>
+</div>
+<div class="listingblock">
+<div class="title">Release note AsciiDoc basic formatting template</div>
+<div class="content">
+<pre>Release note heading::
+This is the main release note text.
++
+Add another paragraph if necessary.
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For the DITA conversion to work correctly, the list must remain uninterrupted. Follow these guidelines:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If the release note needs another paragraph or additional elements, you must attach all lines after the first line to the description with a plus sign on a separate line.</p>
+</li>
+<li>
+<p>If you need to have a list inside a release note text, attach it with a plus sign on a separate line, and add an empty line followed by a plus sign after the list to attach the next paragraph, such as the ticket reference.</p>
+</li>
+<li>
+<p>If you use an open block (<code>--</code>) to separate elements within the description, attach it with plus signs before and after.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="title">Release note AsciiDoc complex formatting template</div>
+<div class="content">
+<pre>Release note heading::
+This is the main release note text.
++
+Add another list:
+
+* List item 1
+* List item 2
+
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]</pre>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -24232,7 +24281,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-10-20 17:44:07 UTC
+Last updated 2025-10-22 18:54:06 UTC
 </div>
 </div>
 <!-- Nav bar -->
