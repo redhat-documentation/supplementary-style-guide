@@ -3017,7 +3017,7 @@ pre.rouge .gs {
 <li><a href="#formatting">Formatting</a>
 <ul class="sectlevel3">
 <li><a href="#commands-in-code-blocks">Commands in code blocks</a></li>
-<li><a href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a></li>
+<li><a href="#explain-commands-variables-in-code-blocks">Explanation of commands and variables used in code blocks</a></li>
 <li><a href="#date-formats">Date formats</a></li>
 <li><a href="#man-pages">Man page references</a></li>
 <li><a href="#non-breaking-spaces">Non-breaking spaces</a></li>
@@ -4700,12 +4700,15 @@ default   active   yes         yes</pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="explain-commands-variables-in-code-blocks"><a class="anchor" href="#explain-commands-variables-in-code-blocks"></a><a class="link" href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a></h4>
+<h4 id="explain-commands-variables-in-code-blocks"><a class="anchor" href="#explain-commands-variables-in-code-blocks"></a><a class="link" href="#explain-commands-variables-in-code-blocks">Explanation of commands and variables used in code blocks</a></h4>
 <div class="paragraph">
-<p>To explain commands, lines of code, or variables (user-replaced values) used in a code block, follow the code block with the relevant explanation or description of the elements.</p>
+<p>To explain commands, lines of code, or user-replaced values in a code block, do not use callouts.</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="paragraph">
+<p>Instead, follow the code block with the relevant explanation or description of the elements, using the following guidelines:</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.</p>
 <div class="listingblock">
@@ -4719,11 +4722,73 @@ default   active   yes         yes</pre>
 </div>
 </li>
 <li>
+<p>Use a definition list to explain multiple options, parameters, user-replaced values, placeholders, or UI elements.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>List the parameters or variables in the order in which they appear in the code block.</p>
+</li>
+<li>
+<p>Introduce definition lists with "where:" and begin each variable description with "Specifies".</p>
+<div class="listingblock">
+<div class="title">Example AsciiDoc: A definition list explaining user-replaced values</div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="yaml"><span class="s">$ cat &lt;&lt;EOF | oc -n &lt;my_product_namespace&gt; create -f -</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Secret</span>
+<span class="na">metadata</span><span class="pi">:</span>
+ <span class="na">name</span><span class="pi">:</span> <span class="s">&lt;my_product_database_certificates_secrets&gt;</span>
+<span class="na">type</span><span class="pi">:</span> <span class="s">Opaque</span>
+<span class="na">stringData</span><span class="pi">:</span>
+ <span class="na">postgres-ca.pem</span><span class="pi">:</span> <span class="pi">|-</span>
+  <span class="s">-----BEGIN CERTIFICATE-----</span>
+  <span class="s">&lt;ca_certificate_key&gt;</span>
+ <span class="na">postgres-key.key</span><span class="pi">:</span> <span class="pi">|-</span>
+  <span class="s">-----BEGIN CERTIFICATE-----</span>
+  <span class="s">&lt;tls_private_key&gt;</span>
+ <span class="na">postgres-crt.pem</span><span class="pi">:</span> <span class="pi">|-</span>
+  <span class="s">-----BEGIN CERTIFICATE-----</span>
+  <span class="s">&lt;tls_certificate_key&gt;</span>
+  <span class="s"># ...</span>
+<span class="s">EOF</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>where:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>&lt;my_product_database_certificates_secrets&gt;</code></dt>
+<dd>
+<p>Specifies the name of the certificate secret.</p>
+</dd>
+<dt class="hdlist1"><code>&lt;ca_certificate_key&gt;</code></dt>
+<dd>
+<p>Specifies the CA certificate key.</p>
+</dd>
+<dt class="hdlist1"><code>&lt;tls_private_key&gt;</code></dt>
+<dd>
+<p>Specifies the TLS private key.</p>
+</dd>
+<dt class="hdlist1"><code>&lt;tls_certificate_key&gt;</code></dt>
+<dd>
+<p>Specifies the TLS certificate key.</p>
+</dd>
+</dl>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
 <p>Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.</p>
 <div class="ulist">
 <ul>
 <li>
 <p>List the explanations in the order in which they appear in the code block.</p>
+</li>
+<li>
+<p>Use the bullet format that makes the most sense for your explanations. You do not have to follow the exact wording in the following example.</p>
 <div class="listingblock">
 <div class="title">Example AsciiDoc: A bulleted list explaining the structure of an YAML file</div>
 <div class="content">
@@ -4771,13 +4836,13 @@ default   active   yes         yes</pre>
 <div class="ulist">
 <ul>
 <li>
-<p><code>workspaces</code>: List of pipeline workspaces shared between the tasks defined in the pipeline. A pipeline can define as many workspaces as required. In this example, only one workspace named <code>shared-workspace</code> is declared.</p>
+<p><code>spec.workspaces</code> defines the list of pipeline workspaces shared between the tasks defined in the pipeline. A pipeline can define as many workspaces as required. In this example, only one workspace named <code>shared-workspace</code> is declared.</p>
 </li>
 <li>
-<p><code>tasks</code>: Definition of tasks used in the pipeline. This snippet defines two tasks, <code>build-image</code> and <code>apply-manifests</code>.</p>
+<p><code>spec.tasks</code> defines the tasks used in the pipeline. This snippet defines two tasks, <code>build-image</code> and <code>apply-manifests</code>.</p>
 </li>
 <li>
-<p><code>tasks.name.workspaces</code>: List of task workspaces used in the <code>build-image</code> and <code>apply-manifests</code> tasks. A task definition can include as many workspaces as it requires. However, it is recommended that a task uses at most one writable workspace. In this example, both the tasks share a common task workspace named <code>source</code>, which in turn shares the pipeline workspace named <code>shared-workspace</code>.</p>
+<p><code>spec.tasks.workspaces</code> defines the list of task workspaces used in the <code>build-image</code> and <code>apply-manifests</code> tasks. A task definition can include as many workspaces as it requires. However, it is recommended that a task uses at most one writable workspace. In this example, both the tasks share a common task workspace named <code>source</code>, which in turn could share the pipeline workspace named <code>shared-workspace</code>.</p>
 </li>
 </ul>
 </div>
@@ -4785,69 +4850,7 @@ default   active   yes         yes</pre>
 </ul>
 </div>
 </li>
-<li>
-<p>Use a definition list to explain multiple options, parameters, variables, placeholders, or UI elements.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>List the parameters/variables in the order in which they appear in the code block.</p>
-</li>
-<li>
-<p>Introduce definition lists with "where:" and begin each variable description with "Specifies".</p>
-<div class="listingblock">
-<div class="title">Example AsciiDoc: A definition list explaining user-replaced values</div>
-<div class="content">
-<pre class="rouge highlight"><code data-lang="yaml"><span class="s">cat &lt;&lt;EOF | oc -n {my-product-namespace} create -f -</span>
-<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Secret</span>
-<span class="na">metadata</span><span class="pi">:</span>
- <span class="na">name</span><span class="pi">:</span> <span class="s">&lt;my-product-database-certificates-secrets&gt;</span>
-<span class="na">type</span><span class="pi">:</span> <span class="s">Opaque</span>
-<span class="na">stringData</span><span class="pi">:</span>
- <span class="na">postgres-ca.pem</span><span class="pi">:</span> <span class="pi">|-</span>
-  <span class="s">-----BEGIN CERTIFICATE-----</span>
-  <span class="s">&lt;ca-certificate-key&gt;</span>
- <span class="na">postgres-key.key</span><span class="pi">:</span> <span class="pi">|-</span>
-  <span class="s">-----BEGIN CERTIFICATE-----</span>
-  <span class="s">&lt;tls-private-key&gt;</span>
- <span class="na">postgres-crt.pem</span><span class="pi">:</span> <span class="pi">|-</span>
-  <span class="s">-----BEGIN CERTIFICATE-----</span>
-  <span class="s">&lt;tls-certificate-key&gt;</span>
-  <span class="s"># ...</span>
-<span class="s">EOF</span></code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>where:</p>
-</div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1">&lt;my-product-database-certificates-secrets&gt;</dt>
-<dd>
-<p>Specifies the name of the certificate secret.</p>
-</dd>
-<dt class="hdlist1">&lt;ca-certificate-key&gt;</dt>
-<dd>
-<p>Specifies the CA certificate key.</p>
-</dd>
-<dt class="hdlist1">&lt;tls-private-key&gt; Optional</dt>
-<dd>
-<p>Specifies the TLS private key.</p>
-</dd>
-<dt class="hdlist1">&lt;tls-certificate-key&gt; Optional</dt>
-<dd>
-<p>Specifies the TLS certificate key.</p>
-</dd>
-</dl>
-</div>
-</li>
 </ul>
-</div>
-</li>
-<li>
-<p>Use the appropriate admonition style to add notes pertaining to a code block, as described in <a href="#admonitions">Admonitions</a>.</p>
-</li>
-</ol>
 </div>
 </div>
 <div class="sect3">
@@ -5153,7 +5156,7 @@ connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>To explain user-replaced values used in a code block, you must use a definition list following the code block. See <a href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a> for details.</p>
+<p>To explain user-replaced values used in a code block, you must use a definition list following the code block. See <a href="#explain-commands-variables-in-code-blocks">Explanation of commands and variables used in code blocks</a> for details.</p>
 </div>
 </div>
 <div class="sect3">
@@ -5226,7 +5229,7 @@ connection.interface-name:  enp7s0</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>To explain user-replaced values used in a code block, you must use a definition list following the code block. See <a href="#explain-commands-variables-in-code-blocks">Explain commands and variables in code blocks</a> for details.</p>
+<p>To explain user-replaced values used in a code block, you must use a definition list following the code block. See <a href="#explain-commands-variables-in-code-blocks">Explanation of commands and variables used in code blocks</a> for details.</p>
 </div>
 </div>
 </div>
@@ -24281,7 +24284,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-10-22 18:54:06 UTC
+Last updated 2025-10-23 19:47:08 UTC
 </div>
 </div>
 <!-- Nav bar -->
