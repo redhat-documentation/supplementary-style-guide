@@ -1,10 +1,10 @@
 # Contributing guide
 
-We welcome contributions to the supplementary style guide project. You can either [open an issue](https://github.com/redhat-documentation/doc-style/issues) for discussion, or submit an update using the steps below.
+We welcome contributions to the supplementary style guide project. To contribute to the project, first [open an issue](https://github.com/redhat-documentation/doc-style/issues) for discussion, and then submit an update. By opening an issue first, you help us track and prioritize changes. 
 
 ## Submitting an update
 
-These instructions show how to submit an update using the command line. You may also use the GitHub web interface for the update. Whichever method you choose, the update should be submitted as a pull request.
+You can submit an update by using the command line or the GitHub web interface. Whichever method you choose, submit the update as a pull request. A repository administrator must approve all updates before they can be merged. 
 
 Before you begin:
 
@@ -73,8 +73,8 @@ To submit an update:
 
    Typically the previous command gives the URL to open a pull request. If not, you can open one from the [Pull requests](https://github.com/redhat-documentation/supplementary-style-guide/pulls) tab of the GitHub UI.
 
-After you submit a pull request, at least three repository administrators must review and approve the content changes. 
-When your PR has three such approvals, a repository administrator will merge your PR to the `main` branch.
+After you submit a pull request, at least **one** repository administrator must review and approve the content changes. 
+After your PR has one approval, a repository administrator will merge your PR to the `main` branch.
 ## Building the guide
 
 You must have `asciidoctor` installed.
