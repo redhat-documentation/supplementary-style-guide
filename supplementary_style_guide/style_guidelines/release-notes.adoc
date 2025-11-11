@@ -523,7 +523,7 @@ Result:: What happens now that the patch is applied, in the present tense.
 * Use “before this update” instead of “previously” to refer to the past situation. See the xref:previously[previously] glossary entry.
 * Partially fixed issues might require a separate Known issue for the unfixed scenario.
 
-.Example known issue release notes
+.Example fixed issue release notes
 ====
 IPsec `ondemand` connections no longer fail to establish::
 Before this update, when an IPsec connection with the `ondemand` option was configured by using the TCP protocol, the connection failed to establish. With this update, the new Libreswan package makes sure that the initial IKE negotiation completes over TCP. As a result, Libreswan successfully establishes the connection even in TCP mode of IKE negotiation.
@@ -532,7 +532,7 @@ RHEL-51880
 ====
 ====
 Multipath no longer crashes because of errors encountered by the ontap prioritizer::
-Before this update, `multipathd` crashed when it was configured to use the ontap prioritizer on an unsupported path, because the prioritizer only works with NetApp storage arrays. This failure occurred because of a bug in the prioritizer’s error logging code, which caused it to overflow the error message buffer. With this update, the error logging code is fixed, and `multipathd` no longer crashes because of errors encountered by the ontap prioritizer.
+Before this update, `multipathd` failed when it was configured to use the ontap prioritizer on an unsupported path, because the prioritizer only works with NetApp storage arrays. This failure occurred because of a bug in the prioritizer’s error logging code, which caused it to overflow the error message buffer. With this update, the error logging code is fixed, and `multipathd` no longer crashes because of errors encountered by the ontap prioritizer.
 +
 RHEL-49747
 ====
