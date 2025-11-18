@@ -207,6 +207,17 @@ Do not capitalize the first letter.
 
 *See also*:
 
+[[key-pair]]
+==== image:images/yes.png[yes] key pair (noun)
+*Description*: A _key pair_ is a set of two mathematically linked cryptographic keys: a public key that can be shared and a private key that must be kept secret. The public key encrypts data or verifies signatures, and the private key decrypts data or creates signatures. This pairing is the basis of public-key cryptography used in systems like SSH and TLS/SSL.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: keypair, Key Pair
+
+*See also*: 
+
 [[keystore]]
 ==== image:images/yes.png[yes] keystore (noun)
 *Description*: A _keystore_ is a repository for private and self-certified security certificates. Write in lowercase as one word. This is in contrast to a "truststore", which stores trusted security certificates.
