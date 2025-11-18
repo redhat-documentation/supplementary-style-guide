@@ -55,14 +55,17 @@
 
 [[technology-preview]]
 ==== image:images/yes.png[yes] Technology Preview (noun)
-*Description*: _Technology Preview_ features provide early access to upcoming product innovations, enabling customers to test functionality and provide feedback during the development process. However, these features are not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information.
+*Description*: _Technology Preview_ features provide early access to upcoming product innovations, enabling customers to test functionality and provide feedback during the development process. However, these features are not fully supported. Documentation for a Technology Preview feature might be incomplete or include only basic installation and configuration information. 
+
+* Always capitalize both words in “Technology Preview”. 
+* Never shorten to "Tech" in customer-facing documents. 
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*: Technology preview, technology preview
+*Incorrect forms*: Technology preview, technology preview, tech preview, Technical Preview
 
-*See also*:
+*See also*: xref:technology-preview-guidance[Technology Preview]
 
 [[template]]
 ==== image:images/yes.png[yes] template (noun)
