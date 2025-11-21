@@ -7212,7 +7212,7 @@ Result – what happens now that the patch is applied, in the present tense.</pr
 </ul>
 </div>
 <div class="exampleblock">
-<div class="title">Example 14. Example known issue release notes</div>
+<div class="title">Example 14. Example fixed issue release notes</div>
 <div class="content">
 <div class="dlist">
 <dl>
@@ -7233,7 +7233,7 @@ Result – what happens now that the patch is applied, in the present tense.</pr
 <dl>
 <dt class="hdlist1">Multipath no longer crashes because of errors encountered by the ontap prioritizer</dt>
 <dd>
-<p>Before this update, <code>multipathd</code> crashed when it was configured to use the ontap prioritizer on an unsupported path, because the prioritizer only works with NetApp storage arrays. This failure occurred because of a bug in the prioritizer’s error logging code, which caused it to overflow the error message buffer. With this update, the error logging code is fixed, and <code>multipathd</code> no longer crashes because of errors encountered by the ontap prioritizer.</p>
+<p>Before this update, <code>multipathd</code> failed when it was configured to use the ontap prioritizer on an unsupported path, because the prioritizer only works with NetApp storage arrays. This failure occurred because of a bug in the prioritizer’s error logging code, which caused it to overflow the error message buffer. With this update, the error logging code is fixed, and <code>multipathd</code> no longer crashes because of errors encountered by the ontap prioritizer.</p>
 <div class="paragraph">
 <p>RHEL-49747</p>
 </div>
@@ -24294,7 +24294,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-11-20 16:48:45 UTC
+Last updated 2025-11-21 21:16:08 UTC
 </div>
 </div>
 <!-- Nav bar -->
