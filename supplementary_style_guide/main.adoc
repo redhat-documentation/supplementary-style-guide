@@ -9,6 +9,8 @@
 [[introduction]]
 == Introduction
 
+Testing.
+
 include::introduction/about-guide.adoc[leveloffset=+2]
 
 include::introduction/whats-new.adoc[leveloffset=+2]
