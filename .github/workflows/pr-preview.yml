@@ -66,6 +66,7 @@ jobs:
           done
 
       - name: Deploy to GitHub Pages
+        id: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -81,7 +82,34 @@ jobs:
           echo "url=${PREVIEW_URL}" >> $GITHUB_OUTPUT
           echo "Preview URL: ${PREVIEW_URL}"
 
+      - name: Verify deployment and wait for availability
+        run: |
+          PREVIEW_URL="${{ steps.preview-url.outputs.url }}"
+          MAX_ATTEMPTS=12
+          ATTEMPT=0
+
+          echo "Verifying GitHub Pages deployment..."
+          echo "Preview URL: ${PREVIEW_URL}"
+
+          # Wait up to 2 minutes for the preview to become available
+          while [ $ATTEMPT -lt $MAX_ATTEMPTS ]; do
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "${PREVIEW_URL}" || echo "000")
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "✓ Preview is now available and accessible!"
+              exit 0
+            fi
+            ATTEMPT=$((ATTEMPT + 1))
+            if [ $ATTEMPT -lt $MAX_ATTEMPTS ]; then
+              echo "Attempt ${ATTEMPT}/${MAX_ATTEMPTS}: Preview not yet available (HTTP ${HTTP_CODE}), waiting 10 seconds..."
+              sleep 10
+            fi
+          done
+
+          echo "⚠ Preview deployment completed, but URL not yet accessible (may still be propagating)."
+          echo "The preview should be available shortly. Comment will be added with the preview URL."
+
       - name: Find existing comment
+        if: success()
         uses: peter-evans/find-comment@v3
         id: find-comment
         with:
@@ -90,6 +118,7 @@ jobs:
           body-includes: 'Preview Build'
 
       - name: Create or update PR comment
+        if: success()
         uses: peter-evans/create-or-update-comment@v4
         with:
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
