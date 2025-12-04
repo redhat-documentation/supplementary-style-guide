@@ -1,6 +1,19 @@
 # Contributing guide
 
-We welcome contributions to the supplementary style guide project. To contribute to the project, first [open an issue](https://github.com/redhat-documentation/doc-style/issues) for discussion, and then submit an update. By opening an issue first, you help us track and prioritize changes. 
+We welcome contributions to the supplementary style guide project. To contribute to the project, first [open an issue](https://github.com/redhat-documentation/doc-style/issues) for discussion, and then submit an update as a pull request (PR). 
+
+## Opening an issue
+
+By opening an issue first before you submit a PR, you help us track and prioritize changes, as well as expedite them when necessary.
+
+Before you begin:
+
+* You must have a GitHub account.
+
+1. From the main page of the [GitHub repository](https://github.com/redhat-documentation/supplementary-style-guide), open the [Issues tab](https://github.com/redhat-documentation/doc-style/issues).
+2. Click **New issue**.
+3. Select **Bug report** or **Enhancement request**.
+4. Describe the issue in the **Title**, and select **Severity** and **Priority**.
 
 ## Submitting an update
 
