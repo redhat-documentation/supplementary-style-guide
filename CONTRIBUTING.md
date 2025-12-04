@@ -10,6 +10,8 @@ Before you begin:
 
 * You must have a GitHub account.
 
+Take these steps:
+
 1. From the main page of the [GitHub repository](https://github.com/redhat-documentation/supplementary-style-guide), open the [Issues tab](https://github.com/redhat-documentation/doc-style/issues).
 2. Click **New issue**.
 3. Select **Bug report** or **Enhancement request**.
@@ -83,16 +85,28 @@ To submit an update:
    ```
 
 7. Open a pull request.
-
+ 
    Typically the previous command gives the URL to open a pull request. If not, you can open one from the [Pull requests](https://github.com/redhat-documentation/supplementary-style-guide/pulls) tab of the GitHub UI.
 
-After you submit a pull request, at least **one** repository administrator must review and approve the content changes. 
-After your PR has one approval, a repository administrator will merge your PR to the `main` branch.
+After you submit a pull request, a preview URL is automatically generated. You can open that URL to see if your change is formatted corretly.
+
+At least **one** repository administrator must review and approve the content changes. After your PR has one approval, a repository administrator will merge your PR to the `main` branch.
+
+## Associating the PR with an issue
+
+Associating the PR with an issue ensures that any changes to the GitHub repo are properly tracked. 
+
+To associate your PR with the issue number in the GitHub web interface:
+
+1. Open your PR.
+2. In the right-hand sidebar, go to the Development section, click the gear icon, and select **Link an issue**.
+3. Select the issue from the list.
+
 ## Building the guide
 
 You must have `asciidoctor` installed.
 
-1. Navigate to the `supplementary_style_guide` directory.
+1. Navigate to the `supplementary_style_gde` directory.
 2. Use the following command to build the guide:
 
    ```
