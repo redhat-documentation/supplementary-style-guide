@@ -74,6 +74,41 @@ If you refer to those tickets without including a link, inform the user. See the
 
 “Some referenced tickets are not linked. This means that the ticket is not accessible without Red Hat credentials."
 
+[[release-note-asciidoc-format]]
+== Release note formatting in AsciiDoc
+To avoid nesting headings excessively, treat each release note as a description list item. This format is also compatible with the AEM DITA migration.
+
+.Release note AsciiDoc basic formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another paragraph if necessary.
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
+For the DITA conversion to work correctly, the list must remain uninterrupted. Follow these guidelines:
+
+* If the release note needs another paragraph or additional elements, you must attach all lines after the first line to the description with a plus sign on a separate line.
+* If you need to have a list inside a release note text, attach it with a plus sign on a separate line, and add an empty line followed by a plus sign after the list to attach the next paragraph, such as the ticket reference.
+* If you use an open block (`--`) to separate elements within the description, attach it with plus signs before and after.
+
+
+.Release note AsciiDoc complex formatting template
+----
+Release note heading::
+This is the main release note text.
++
+Add another list:
+
+* List item 1
+* List item 2
+
++
+link:https://issues.redhat.com/browse/TICKET-REFERENCE[TICKET-REFERENCE]
+----
+
 [[release-note-types]]
 == Release note types and sections
 
@@ -488,7 +523,7 @@ Result:: What happens now that the patch is applied, in the present tense.
 * Use “before this update” instead of “previously” to refer to the past situation. See the xref:previously[previously] glossary entry.
 * Partially fixed issues might require a separate Known issue for the unfixed scenario.
 
-.Example known issue release notes
+.Example fixed issue release notes
 ====
 IPsec `ondemand` connections no longer fail to establish::
 Before this update, when an IPsec connection with the `ondemand` option was configured by using the TCP protocol, the connection failed to establish. With this update, the new Libreswan package makes sure that the initial IKE negotiation completes over TCP. As a result, Libreswan successfully establishes the connection even in TCP mode of IKE negotiation.
@@ -497,7 +532,7 @@ RHEL-51880
 ====
 ====
 Multipath no longer crashes because of errors encountered by the ontap prioritizer::
-Before this update, `multipathd` crashed when it was configured to use the ontap prioritizer on an unsupported path, because the prioritizer only works with NetApp storage arrays. This failure occurred because of a bug in the prioritizer’s error logging code, which caused it to overflow the error message buffer. With this update, the error logging code is fixed, and `multipathd` no longer crashes because of errors encountered by the ontap prioritizer.
+Before this update, `multipathd` failed when it was configured to use the ontap prioritizer on an unsupported path, because the prioritizer only works with NetApp storage arrays. This failure occurred because of a bug in the prioritizer’s error logging code, which caused it to overflow the error message buffer. With this update, the error logging code is fixed, and `multipathd` no longer crashes because of errors encountered by the ontap prioritizer.
 +
 RHEL-49747
 ====

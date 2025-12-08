@@ -1,0 +1,64 @@
+name: "✨ Enhancement request"
+description: Suggest an improvement or new feature for the supplementary style guide.
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How important is this enhancement?
+      options:
+        - Critical (blocks usage or causes major problems)
+        - Major (highly desirable)
+        - Minor (nice to have)
+        - Trivial (minor improvement)
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgently should this be addressed?
+      options:
+        - P1 (highest)
+        - P2
+        - P3 (lowest)
+    validations:
+      required: true
+  - type: textarea
+    id: relevant-pages
+    attributes:
+      label: Relevant page(s)
+      description: Link(s) to pages related to this enhancement.
+      placeholder: "https://github.com/redhat-documentation/supplementary-style-guide/path/to/page"
+    validations:
+      required: false
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Describe the proposed change
+      description: What change or enhancement would you like to see?
+      placeholder: "Describe your proposed change here."
+    validations:
+      required: true
+  - type: textarea
+    id: change-justification
+    attributes:
+      label: Why is this change needed?
+      description: Why do you think this change is important? What problem does it solve or what improvement does it provide?
+      placeholder: "Explain the need for this enhancement."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the enhancement here.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Optional next step:**
+        After submitting this issue, you can help resolve it by [opening a pull request](https://github.com/redhat-documentation/supplementary-style-guide/compare) that references this issue.
