@@ -29,6 +29,29 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 // .Other updates
 // * <description>
 
+[[year-2025]]
+== 2025
+
+[[June-December-2025]]
+=== June-December 2025
+.Process changes
+
+Making updates to the Supplementary Style Guide (SSG) has changed:
+
+* Before opening a pull request (PR) for the SSG, link:https://github.com/redhat-documentation/supplementary-style-guide/issues/[create an issue].
+* When you create an issue, you are prompted to use either a *Bug report* or *Enhancement request* template. These templates include the *Severity* and *Priority* of the change. If we know the severity and priority of the issue, we can more easily track, triage, and expedite requests for changes. 
+* When you create a PR, the SSG automatically generates a preview and displays a URL that you can click and view. 
+* To merge a PR, we now need only one approval from an admin for the repo. 
+
+See the link:https://github.com/redhat-documentation/supplementary-style-guide/blob/main/CONTRIBUTING.md/[Contributing guide] for more details. 
+
+.Glossary entries
+
+* *xref:key-pair[key pair]*: Added glossary entry
+* *xref:remote-execution[remote execution]*: Added glossary entry
+* *xref:rex[REX]*: Added glossary entry
+* *xref:technology-preview[Technology Preview]*: Updated glossary entry
+
 [[year-2024]]
 == 2024
 
