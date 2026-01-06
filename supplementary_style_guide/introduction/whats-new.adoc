@@ -62,6 +62,7 @@ See the link:https://github.com/redhat-documentation/supplementary-style-guide/b
 ** Provided a single set of approved names for all *xref:release-note-types[release note types and sections]* 
 * *xref:commands-in-code-blocks[Commands in code blocks]*. The guidance in this section has changed. When formatting code blocks, put the command input and the example output in separate code blocks. In November, we also updated and improved the ASCIIDoc example for this update. 
 * *xref:explain-commands-variables-in-code-blocks[Explanation of commands and variables used in code blocks]*. Customer Content Services is no longer using callouts in documentation. Callouts are not supported by DITA and do not work for AI. 
+
 [[year-2024]]
 == 2024
 
