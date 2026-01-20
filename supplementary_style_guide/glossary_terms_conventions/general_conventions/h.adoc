@@ -166,6 +166,17 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 *See also*: xref:target-system[target system]
 
+[[hosted-control-planes]]
+==== image:images/yes.png[yes] hosted control planes (noun)
+*Description*: The _hosted control planes_ model is a control plane configuration where you can manage your workloads, resources, and policies across a hybrid-cloud environment. On first use of the term, use "hosted control planes for Red{nbsp}Hat OpenShift Container Platform". Capitalize the "H" in "hosted control planes" only when you use the term at the start of a title, heading, or sentence. On first use in ROSA documentation, use "For Red{nbsp}Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP)"; thereafter, use "ROSA with HCP". Do not use "HyperShift" to refer to hosted control planes. 
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: HyperShift
+
+*See also*: xref:hypershift-operator[hypershift operator]
+
 [[hot-add]]
 ==== image:images/yes.png[yes] hot add (verb)
 *Description*: _Hot add_ is the ability to add physical or virtual hardware to a running system without the need for downtime.
@@ -297,6 +308,17 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 *Incorrect forms*: hyperthreading, hyper-threading
 
 *See also*:
+
+[[hypershift-operator]]
+==== image:images/yes.png[yes] HyperShift Operator (noun)
+*Description*: The _HyperShift Operator_ manages the lifecycle of hosted clusters that are represented by the `HostedCluster` API. The HyperShift Operator and the `hcp` command-line interface (CLI) are components of hosted control planes.
+
+*Use it*: yes
+
+[.vale-ignore]
+*Incorrect forms*: hosted control planes Operator
+
+*See also*: xref:hosted-control-planes[hosted control planes]
 
 [[hyperv]]
 ==== image:images/yes.png[yes] Hyper-V (noun)
