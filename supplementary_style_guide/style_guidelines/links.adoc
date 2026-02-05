@@ -55,6 +55,16 @@ Follow these guidelines when specifying link text:
 * Use a concise sentence or sentence fragment as the link text.
 * Avoid irrelevant link text.
 
+[[rh-doc-links]]
+== Links to Red{nbsp}Hat documentation
+
+* Use `latest` in the URL so that the link resolves to the last published version.
+
+.Example AsciiDoc: Latest version
+----
+For more information, see link:https://docs.redhat.com/en/documentation/openshift_container_platform/latest/html/disconnected_environments/oc-mirror-migration-v1-to-v2[Migrating from oc-mirror plugin v1 to v2].
+----
+
 [[rh-kb-links]]
 == Links to Red{nbsp}Hat Knowledgebase articles
 
