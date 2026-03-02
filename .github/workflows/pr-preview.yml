@@ -108,6 +108,11 @@ jobs:
           echo "⚠ Preview deployment completed, but URL not yet accessible (may still be propagating)."
           echo "The preview should be available shortly. Comment will be added with the preview URL."
 
+      - name: Set timestamp
+        id: timestamp
+        if: success()
+        run: echo "time=$(date -u +'%Y-%m-%d %H:%M %Z')" >> $GITHUB_OUTPUT
+
       - name: Find existing comment
         if: success()
         uses: peter-evans/find-comment@v3
@@ -115,7 +120,7 @@ jobs:
         with:
           issue-number: ${{ github.event.pull_request.number }}
           comment-author: 'github-actions[bot]'
-          body-includes: 'Preview Build'
+          body-includes: '<!-- pr-preview -->'
 
       - name: Create or update PR comment
         if: success()
@@ -123,12 +128,16 @@ jobs:
         with:
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
+          edit-mode: replace
           body: |
+            <!-- pr-preview -->
             ## Preview Build
 
             A preview of this PR has been built and deployed.
 
             **Preview URL:** [${{ steps.preview-url.outputs.url }}](${{ steps.preview-url.outputs.url }})
+
+            **Last updated:** ${{ steps.timestamp.outputs.time }}
 
             This preview will be updated automatically when new commits are pushed to this PR.
 
