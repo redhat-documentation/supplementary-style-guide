@@ -96,7 +96,7 @@ In procedures, the short description is displayed between the module title and t
 
 In ASCIIDoc, additional information is displayed before the Prerequisites. The following image illustrates how this information is placed:
 
-image:../images/Structure-of-an-AsciiDoc-procedure.png[Place additional information before prerequisites]
+image:images/Structure-of-an-AsciiDoc-procedure.png[Place additional information before prerequisites]
 
 In DITA, include the additional information after the Prerequisites, as the following image illustrates: 
 
