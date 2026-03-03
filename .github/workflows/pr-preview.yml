@@ -36,12 +36,31 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Install Asciidoctor
-        run: gem install asciidoctor
+        run: gem install asciidoctor asciidoctor-reducer
 
       - name: Build HTML from AsciiDoc
         working-directory: pr-source/supplementary_style_guide
         run: asciidoctor main.adoc
+
+      - name: Generate Markdown with downdoc
+        working-directory: pr-source/supplementary_style_guide
+        run: |
+          asciidoctor-reducer main.adoc -o main-reduced.adoc
+          npx downdoc main-reduced.adoc -o ssg.md
+          sed -i \
+            -e 's/{nbsp}/ /g' \
+            -e 's/&#160;/ /g' \
+            -e 's|<dl><dt><strong>📌 NOTE</strong></dt><dd>|> **NOTE:**|g' \
+            -e 's|<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>|> **IMPORTANT:**|g' \
+            -e 's|<dl><dt><strong>⚠️ WARNING</strong></dt><dd>|> **WARNING:**|g' \
+            -e 's|</dd></dl>||g' \
+            ssg.md
 
       - name: Prepare preview directory
         run: |
@@ -49,8 +68,9 @@ jobs:
           PREVIEW_DIR="deploy/pr-${PR_NUM}"
           mkdir -p "${PREVIEW_DIR}"
 
-          # Copy the generated HTML file from PR source
+          # Copy the generated HTML and Markdown files from PR source
           cp pr-source/supplementary_style_guide/main.html "${PREVIEW_DIR}/"
+          cp pr-source/supplementary_style_guide/ssg.md "${PREVIEW_DIR}/"
 
           # Copy images directory preserving structure
           if [ -d "pr-source/supplementary_style_guide/images" ]; then

@@ -37,3 +37,7 @@ In addition to the _IBM Style_ guide and the _Red{nbsp}Hat supplementary style g
 == PDF version
 
 The _Red{nbsp}Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the link:https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf[latest version of the guide as a PDF] from the GitHub releases section of project's GitHub repository.
+
+== Markdown version
+
+The _Red{nbsp}Hat supplementary style guide for product documentation_ is also available as a Markdown file. You can download or reference the link:ssg.md[Markdown version of the guide] for use with tools and workflows that consume Markdown.
