@@ -128,7 +128,7 @@ If you are documenting two or more ways of completing the same procedure, use th
 
 === Example: Assembly ===
 
-This rewritten example of an assembly is no longer self-referential and explains *what* and *why*.
+The original short description for this assembly example is self-referential and does not explain *what* and *why*. The rewrite fixes both issues. 
 
 .Administering hosts
 
