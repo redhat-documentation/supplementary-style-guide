@@ -125,44 +125,41 @@ Be sure to follow Red Hat style guidelines. Pay particular attention to the foll
 
 If you are documenting two or more ways of completing the same procedure, use the short description to explain why users would want to choose one or the other. For complex procedures that have multiple sub-procedures, include some of the key tasks that a customer must complete.
 
-=== Examples of short descriptions ===
 
-Assemblies, as well as procedure, concept, and reference topics, must all have short descriptions.
-
-==== Example: Assembly ====
+=== Example: Assembly ===
 
 This rewritten example of an assembly is no longer self-referential and explains *what* and *why*.
 
 .Administering hosts
 
-*Before:* This chapter describes creating, registering, administering, and removing hosts.
+ *Before:* This chapter describes creating, registering, administering, and removing hosts.
 
-*After:* Administering hosts lets you maintain your Linux systems [*what*], ensuring they are secure and up-to-date [*why*].
+ *After:* Administering hosts lets you maintain your Linux systems [*what*], ensuring they are secure and up-to-date [*why*].
 
-==== Example: Procedure (Task) topic ====
+=== Example: Procedure (Task) topic ===
 
 The following rewritten example is no longer self-referential, leads with the benefit and explains what you can do after performing the task. 
 
 .Create an organization 
 
-*Before:* Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.
+ *Before:* Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.
 
-*After:* Create organizations to divide resources among multiple teams [*why*]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [*what*].
+ *After:* Create organizations to divide resources among multiple teams [*why*]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [*what*].
 
-==== Example: Concept topic ====
+=== Example: Concept topic ===
 
 The following example explains the benefit of each migration method. 
 
 .Migration speed comparison 
 
-You can minimize virtual machine downtime by choosing an appropriate migration path for your workload. Warm migration runs in the background to keep applications active, but cold migration requires a full shutdown and is safer. Both methods provide similar transfer speeds.
+ You can minimize virtual machine downtime by choosing an appropriate migration path for your workload. Warm migration runs in the background to keep applications active, but cold migration requires a full shutdown and is safer. Both methods provide similar transfer speeds.
 
-==== Example: Reference topic ====
+=== Example: Reference topic ===
 
 The following example describes the repository contents, which are listed in a table. 
 
 .The Supplementary repository
 
-The Supplementary repository includes proprietary-licensed packages that are not included in the open source Red Hat Enterprise Linux repositories. Software packages in the Supplementary repository are not supported. The Application Binary Interfaces (ABIs) are also not guaranteed for these packages. 
+ The Supplementary repository includes proprietary-licensed packages that are not included in the open source Red Hat Enterprise Linux repositories. Software packages in the Supplementary repository are not supported. The Application Binary Interfaces (ABIs) are also not guaranteed for these packages. 
 
 // TODO: Add new style entries alphabetically in this file
