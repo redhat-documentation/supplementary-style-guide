@@ -22,12 +22,38 @@ jobs:
         with:
           args: supplementary_style_guide/main.adoc
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Generate Markdown with downdoc
+        run: |
+          gem install asciidoctor-reducer
+          cd supplementary_style_guide
+          asciidoctor-reducer main.adoc -o main-reduced.adoc
+          npx downdoc main-reduced.adoc -o ssg.md
+          sed -i \
+            -e 's/{nbsp}/ /g' \
+            -e 's/&#160;/ /g' \
+            -e 's|<dl><dt><strong>📌 NOTE</strong></dt><dd>|> **NOTE:**|g' \
+            -e 's|<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>|> **IMPORTANT:**|g' \
+            -e 's|<dl><dt><strong>⚠️ WARNING</strong></dt><dd>|> **WARNING:**|g' \
+            -e 's|</dd></dl>||g' \
+            ssg.md
+
       - name: Copy output to docs/
         run: |
           mkdir docs
           cp -r supplementary_style_guide/images/ docs/images
           cp -r supplementary_style_guide/assets/ docs/assets
           mv index.html docs/
+          cp supplementary_style_guide/ssg.md docs/
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
