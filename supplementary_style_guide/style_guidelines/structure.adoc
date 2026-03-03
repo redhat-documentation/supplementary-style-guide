@@ -132,9 +132,15 @@ This rewritten example of an assembly is no longer self-referential and explains
 
 .Administering hosts
 
- *Before:* This chapter describes creating, registering, administering, and removing hosts.
+[subs="+quotes"]
+----
+*Before:* This chapter describes creating, registering, administering, and removing hosts.
+----
 
- *After:* Administering hosts lets you maintain your Linux systems [*what*], ensuring they are secure and up-to-date [*why*].
+[subs="+quotes"]
+----
+*After:* Administering hosts lets you maintain your Linux systems [*what*], ensuring they are secure and up-to-date [*why*].
+----
 
 === Example: Procedure (Task) topic ===
 
@@ -142,9 +148,15 @@ The following rewritten example is no longer self-referential, leads with the be
 
 .Create an organization 
 
- *Before:* Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.
+[subs="+quotes"]
+----
+*Before:* Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.
+----
 
- *After:* Create organizations to divide resources among multiple teams [*why*]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [*what*].
+[subs="+quotes"]
+----
+*After:* Create organizations to divide resources among multiple teams [*why*]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [*what*].
+----
 
 === Example: Concept topic ===
 
@@ -152,7 +164,10 @@ The following example explains the benefit of each migration method.
 
 .Migration speed comparison 
 
- You can minimize virtual machine downtime by choosing an appropriate migration path for your workload. Warm migration runs in the background to keep applications active, but cold migration requires a full shutdown and is safer. Both methods provide similar transfer speeds.
+[subs="+quotes"]
+----
+You can minimize virtual machine downtime by choosing an appropriate migration path for your workload. Warm migration runs in the background to keep applications active, but cold migration requires a full shutdown and is safer. Both methods provide similar transfer speeds.
+----
 
 === Example: Reference topic ===
 
@@ -160,6 +175,9 @@ The following example describes the repository contents, which are listed in a t
 
 .The Supplementary repository
 
- The Supplementary repository includes proprietary-licensed packages that are not included in the open source Red Hat Enterprise Linux repositories. Software packages in the Supplementary repository are not supported. The Application Binary Interfaces (ABIs) are also not guaranteed for these packages. 
+[subs="+quotes"]
+----
+The Supplementary repository includes proprietary-licensed packages that are not included in the open source Red Hat Enterprise Linux repositories. Software packages in the Supplementary repository are not supported. The Application Binary Interfaces (ABIs) are also not guaranteed for these packages. 
+----
 
 // TODO: Add new style entries alphabetically in this file
