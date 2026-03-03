@@ -160,7 +160,7 @@ The original short description for this assembly example is self-referential and
 
 === Example: Concept topic ===
 
-The following example explains the benefit of each migration method. 
+A short description for a concept module briefly explains the *what* or *why* of a concept and helps readers decide if the topic is relevant to them. The following example does this by explaining the benefit of each migration method. 
 
 .Migration speed comparison 
 
