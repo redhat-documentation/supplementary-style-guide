@@ -90,7 +90,7 @@ The short description must have the correct formatting and tagging:
 Do not start a module or assembly with an admonition, even when adding the Technology Preview admonition. Always provide a short description first.
 ====
 
-=== Placement of the short description in procedures ===
+=== Placement of the short description in procedures
 
 In procedures, the short description is displayed between the module title and the prerequisites section. If you have additional information that exceeds 300 characters, be careful that this text does not rely on the short description for context. In DITA, this additional information is displayed after the prerequisites section instead of before it. 
 
