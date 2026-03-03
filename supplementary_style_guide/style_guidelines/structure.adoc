@@ -171,7 +171,7 @@ You can minimize virtual machine downtime by choosing an appropriate migration p
 
 === Example: Reference topic ===
 
-The following example describes the repository contents, which are listed in a table. 
+A short description for a reference topic should provide a brief direct answer to the question, "What is this?"  The following example does this by describing the repository contents, which are listed in a table below the short description. 
 
 .The Supplementary repository
 
