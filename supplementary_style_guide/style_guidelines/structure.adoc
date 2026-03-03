@@ -144,7 +144,7 @@ The original short description for this assembly example is self-referential and
 
 === Example: Procedure (Task) topic ===
 
- The original short description in this example is self-referential and does not contain much information. The rewrite leads with the benefit and explains what you can do after performing the task.
+The original short description in this example is self-referential and does not contain much information. The rewrite leads with the benefit and explains what you can do after performing the task.
 
 .Create an organization 
 
