@@ -94,7 +94,7 @@ Do not start a module or assembly with an admonition, even when adding the Techn
 
 In procedures, the short description is displayed between the module title and the Prerequisites section. If you have additional information that exceeds 300 characters, be careful that this text does not rely on the short description for context. In DITA, this additional information is displayed after the Prerequisites section instead of before it. 
 
-In ASCIIDoc, additional information is displayed before the Prerequisites. The following image illustrates how this information is placed:
+In AsciiDoc, additional information is displayed before the prerequisites. The following image illustrates how this information is placed:
 
 image:images/Structure-of-an-AsciiDoc-procedure.png[Place additional information before prerequisites,width=50%,align="center"]
 
