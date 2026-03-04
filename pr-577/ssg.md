@@ -42,6 +42,10 @@ In addition to the _IBM Style_ guide and the _Red Hat supplementary style guide 
 
 The _Red Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the [latest version of the guide as a PDF](https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf) from the GitHub releases section of project’s GitHub repository.
 
+## Markdown version
+
+The _Red Hat supplementary style guide for product documentation_ is also available as a Markdown file. You can download or reference the [Markdown version of the guide](ssg.md) for use with tools and workflows that consume Markdown.
+
 # What's new
 
 Review the history of significant updates to the _Red Hat supplementary style guide for product documentation_.
@@ -1346,6 +1350,16 @@ Follow these guidelines when specifying link text:
 * Contextually describe what the user will find at the target location so that they can decide if they want to leave their current location.
 * Use a concise sentence or sentence fragment as the link text.
 * Avoid irrelevant link text.
+
+## Links to Red Hat documentation
+
+* Use `latest` in the URL so that the link resolves to the last published version.
+
+**Example AsciiDoc: Latest version**
+
+```
+For more information, see link:https://docs.redhat.com/en/documentation/openshift_container_platform/latest/html/disconnected_environments/oc-mirror-migration-v1-to-v2[Migrating from oc-mirror plugin v1 to v2].
+```
 
 ## Links to Red Hat Knowledgebase articles
 
