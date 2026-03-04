@@ -53,6 +53,9 @@ jobs:
             -e 's|image:images/no.png\[no\]-||g' \
             -e 's|image:images/caution.png\[with-caution\]-||g' \
             -e 's|image:images/caution.png\[caution\]-||g' \
+            -e 's|,-|-|g' \
+            -e 's|-(|-|g' \
+            -e 's|))|)|g' \
             ssg.md
 
       - name: Copy output to docs/
