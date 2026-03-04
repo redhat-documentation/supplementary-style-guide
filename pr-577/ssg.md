@@ -42,10 +42,6 @@ In addition to the _IBM Style_ guide and the _Red Hat supplementary style guide 
 
 The _Red Hat supplementary style guide for product documentation_ is also available as a PDF. You can download the [latest version of the guide as a PDF](https://github.com/redhat-documentation/supplementary-style-guide/releases/latest/download/red-hat-supplementary-style-guide.pdf) from the GitHub releases section of project’s GitHub repository.
 
-## Markdown version
-
-The _Red Hat supplementary style guide for product documentation_ is also available as a Markdown file. You can download or reference the [Markdown version of the guide](ssg.md) for use with tools and workflows that consume Markdown.
-
 # What's new
 
 Review the history of significant updates to the _Red Hat supplementary style guide for product documentation_.
