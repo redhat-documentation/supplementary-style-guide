@@ -67,10 +67,10 @@ Making updates to the Supplementary Style Guide (SSG) has changed:
 
 See the [Contributing guide](https://github.com/redhat-documentation/supplementary-style-guide/blob/main/CONTRIBUTING.md/) for more details.
 
-* **[key pair](#key-pair-(noun))**: Added glossary entry
-* **[remote execution](#remote-execution-(noun,-adjective))**: Added glossary entry
-* **[REX](#rex-(noun,-adjective))**: Added glossary entry
-* **[Technology Preview](#technology-preview-(noun))**: Updated glossary entry
+* **[key pair](#key-pair-noun)**: Added glossary entry
+* **[remote execution](#remote-execution-noun-adjective)**: Added glossary entry
+* **[REX](#rex-noun-adjective)**: Added glossary entry
+* **[Technology Preview](#technology-preview-noun)**: Updated glossary entry
 
 * **[Release note updates](#release-notes)**: To address commonly encountered problems with release notes, the release note improvement initiative made several additions and changes to guidance in the SSG:
   * Improved the **[style advice for release note texts](#style-advice-for-release-note-texts)**
@@ -88,14 +88,14 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 
 **Glossary entries**
 
-* **[composite content view](#composite-content-view-(noun))**: Updated glossary entry to use lowercase spelling
-* **[content view](#content-view-(noun))**: Updated glossary entry to use lowercase spelling
-* **[Nmstate](#nmstate-(noun))**: Added glossary entry
-* **[on-premise](#on-premise-(adjective))**: Updated glossary entry to include Red Hat OpenShift Container Platform definition
+* **[composite content view](#composite-content-view-noun)**: Updated glossary entry to use lowercase spelling
+* **[content view](#content-view-noun)**: Updated glossary entry to use lowercase spelling
+* **[Nmstate](#nmstate-noun)**: Added glossary entry
+* **[on-premise](#on-premise-adjective)**: Updated glossary entry to include Red Hat OpenShift Container Platform definition
 * **Product**: Removed glossary entry because Red Hat Satellite no longer capitalizes it
 * **Red Hat Network Proxy Server**: Removed glossary entry because this term has been replaced by "Capsule Server"
 * **Red Hat Network Satellite Server**: Removed glossary entry because this term has been replaced by "Satellite Server"
-* **[subscription manifest](#subscription-manifest-(noun))**: Updated glossary entry to use lowercase spelling
+* **[subscription manifest](#subscription-manifest-noun)**: Updated glossary entry to use lowercase spelling
 
 **Style guidance**
 
@@ -106,8 +106,8 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 
 **Glossary entries**
 
-* **[Base64](#base64-(noun,-adjective))**: Added glossary entry
-* **[offline](#offline-(adjective))**: Added glossary entry
+* **[Base64](#base64-noun-adjective)**: Added glossary entry
+* **[offline](#offline-adjective)**: Added glossary entry
 
 **Style guidance**
 
@@ -117,17 +117,17 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 
 **Glossary entries**
 
-* **[FedRAMP®](#fedramp®-(noun))**: Added glossary entry
+* **[FedRAMP®](#fedramp®-noun)**: Added glossary entry
 
 ### April 2024
 
 **Glossary entries**
 
-* **[peer pod](#peer-pod-(noun,-adjective))**: Added glossary entry
-* **[Red Hat Decision Manager](#red hat-decision-manager-(noun))**: Added glossary entry
+* **[peer pod](#peer-pod-noun-adjective)**: Added glossary entry
+* **[Red Hat Decision Manager](#red hat-decision-manager-noun)**: Added glossary entry
 * **Red Hat JBoss BPM Suite**: Removed glossary entry
 * **Red Hat JBoss BRMS**: Removed glossary entry
-* **[Red Hat Process Automation Manager](#red hat-process-automation-manager-(noun))**: Added glossary entry
+* **[Red Hat Process Automation Manager](#red hat-process-automation-manager-noun)**: Added glossary entry
 
 **Other updates**
 
@@ -138,94 +138,94 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 
 **Glossary entries**
 
-* **[access mode](#access-mode-(noun))**: Added glossary entry
-* **[availability](#availability-(adjective))**: Added glossary entry
-* **[availability zone](#availability-zone-(noun))**: Added glossary entry
-* **[Bare Metal service](#bare-metal-service-(noun))**: Added glossary entry
-* **[bind](#bind-(verb))**: Added glossary entry
-* **[block device](#block-device-(noun))**: Added glossary entry
-* **[block storage](#block-storage-(noun))**: Added glossary entry
-* **[block volume](#block-volume-(noun))**: Added glossary entry
-* **[boot source](#boot-source-(noun))**: Added glossary entry
-* **[brick](#brick-(noun))**: Added glossary entry
+* **[access mode](#access-mode-noun)**: Added glossary entry
+* **[availability](#availability-adjective)**: Added glossary entry
+* **[availability zone](#availability-zone-noun)**: Added glossary entry
+* **[Bare Metal service](#bare-metal-service-noun)**: Added glossary entry
+* **[bind](#bind-verb)**: Added glossary entry
+* **[block device](#block-device-noun)**: Added glossary entry
+* **[block storage](#block-storage-noun)**: Added glossary entry
+* **[block volume](#block-volume-noun)**: Added glossary entry
+* **[boot source](#boot-source-noun)**: Added glossary entry
+* **[brick](#brick-noun)**: Added glossary entry
 * **[client](#client)**: Updated glossary entry to include a generic definition
-* **[clone (noun)](#clone-(noun))**: Added glossary entry
-* **[clone (verb)](#clone-(verb))**: Added glossary entry
-* **[cloud storage](#cloud-storage-(noun))**: Added glossary entry
-* **[compression](#compression-(noun))**: Added glossary entry
-* **[control plane node](#control-plane-node-(noun))**: Added glossary entry
-* **[controller node](#controller-node-(noun))**: Added glossary entry
-* **[copy](#copy-(verb))**: Added glossary entry
-* **[currently](#currently-(adverb))**: Added glossary entry
-* **[data compression](#data-compression-(noun))**: Added glossary entry
-* **[deduplication](#deduplication-(noun))**: Added glossary entry
-* **[directory](#directory-(noun))**: Added glossary entry
-* **[disaster recovery](#disaster-recovery-(adjective))**: Added glossary entry
-* **[disk encryption](#disk-encryption-(noun))**: Added glossary entry
-* **[dispersed volume](#dispersed-volume-(noun))**: Added glossary entry
-* **[distributed file system](#distributed-file-system-(noun))**: Added glossary entry
-* **[distributed volume](#distributed-volume-(noun))**: Added glossary entry
-* **[distributed-dispersed volume](#distributed-dispersed-volume-(noun))**: Added glossary entry
-* **[distributed-replicated volume](#distributed-replicated-volume-(noun))**: Added glossary entry
-* **[dynamically provisioned storage](#dynamically-provisioned-storage-(noun))**: Added glossary entry
-* **[egress](#egress-(adjective))**: Added glossary entry
-* **[encrypted disk](#encrypted-disk-(noun))**: Added glossary entry
-* **[encryption](#encryption-(noun))**: Added glossary entry
-* **[ephemeral storage](#ephemeral-storage-(noun))**: Added glossary entry
-* **[external mode](#external-mode-(noun))**: Added glossary entry
-* **[file storage](#file-storage-(noun))**: Added glossary entry
+* **[clone (noun)](#clone-noun)**: Added glossary entry
+* **[clone (verb)](#clone-verb)**: Added glossary entry
+* **[cloud storage](#cloud-storage-noun)**: Added glossary entry
+* **[compression](#compression-noun)**: Added glossary entry
+* **[control plane node](#control-plane-node-noun)**: Added glossary entry
+* **[controller node](#controller-node-noun)**: Added glossary entry
+* **[copy](#copy-verb)**: Added glossary entry
+* **[currently](#currently-adverb)**: Added glossary entry
+* **[data compression](#data-compression-noun)**: Added glossary entry
+* **[deduplication](#deduplication-noun)**: Added glossary entry
+* **[directory](#directory-noun)**: Added glossary entry
+* **[disaster recovery](#disaster-recovery-adjective)**: Added glossary entry
+* **[disk encryption](#disk-encryption-noun)**: Added glossary entry
+* **[dispersed volume](#dispersed-volume-noun)**: Added glossary entry
+* **[distributed file system](#distributed-file-system-noun)**: Added glossary entry
+* **[distributed volume](#distributed-volume-noun)**: Added glossary entry
+* **[distributed-dispersed volume](#distributed-dispersed-volume-noun)**: Added glossary entry
+* **[distributed-replicated volume](#distributed-replicated-volume-noun)**: Added glossary entry
+* **[dynamically provisioned storage](#dynamically-provisioned-storage-noun)**: Added glossary entry
+* **[egress](#egress-adjective)**: Added glossary entry
+* **[encrypted disk](#encrypted-disk-noun)**: Added glossary entry
+* **[encryption](#encryption-noun)**: Added glossary entry
+* **[ephemeral storage](#ephemeral-storage-noun)**: Added glossary entry
+* **[external mode](#external-mode-noun)**: Added glossary entry
+* **[file storage](#file-storage-noun)**: Added glossary entry
 * **[FUSE](#fuse)**: Added glossary entry
-* **[geo-replication](#geo-replication-(noun))**: Added glossary entry
-* **[gluster volume](#gluster-volume-(noun))**: Added glossary entry
-* **[high-availability cluster](#high-availability-cluster-(noun))**: Added glossary entry
-* **[hyperconverged cluster](#hyperconverged-cluster-(noun))**: Added glossary entry
-* **[infrastructure node](#infrastructure-node-(noun))**: Added glossary entry
-* **[initiator](#initiator-(noun))**: Added glossary entry
-* **[internal mode](#internal-mode-(noun))**: Added glossary entry
-* **[local storage](#local-storage-(noun))**: Added glossary entry
-* **[logical cache](#logical-cache-(noun))**: Added glossary entry
-* **[logical volume](#logical-volume-(noun))**: Added glossary entry
-* **[metadata](#metadata-(noun))**: Added glossary entry
-* **[multipath](#multipath-(noun))**: Added glossary entry
-* **[network encryption](#network-encryption-(noun))**: Added glossary entry
-* **[Network Time Configuration](#network-time-configuration-(noun))**: Added glossary entry
-* **[n-way replication](#n-way-replication-(noun))**: Added glossary entry
-* **[object storage](#object-storage-(noun))**: Added glossary entry
-* **[OpenShift Container Platform cluster](#openshift-container-platform-cluster-(noun))**: Added glossary entry
-* **[phase](#phase-(noun))**: Added glossary entry
-* **[physical disk](#physical-disk-(noun))**: Added glossary entry
-* **[physical volume](#physical-volume-(noun))**: Added glossary entry
-* **[platform](#platform-(noun))**: Added glossary entry
-* **[primary cluster](#primary-cluster-(noun))**: Added glossary entry
-* **[primary node](#primary-node-(noun))**: Added glossary entry
-* **[provision](#provision-(verb))**: Added glossary entry
-* **[proxy](#proxy-(noun))**: Added glossary entry
-* **[replicated volume](#replicated-volume-(noun))**: Added glossary entry
-* **[restore](#restore-(verb))**: Added glossary entry
-* **[rpm-ostree](#rpm-ostree-(noun))**: Updated glossary entry to add formatting guidance
-* **[scale out](#scale-out-(verb))**: Added glossary entry
-* **[scale up](#scale-up-(verb))**: Added glossary entry
-* **[secondary cluster](#secondary-cluster-(noun))**: Added glossary entry
-* **[self-healing](#self-healing-(noun))**: Added glossary entry
-* **[server](#server-(noun))**: Added glossary entry
-* **[snapshot](#snapshot-(noun))**: Added glossary entry
-* **[source node](#source-node-(noun))**: Added glossary entry
-* **[source volume](#source-volume-(noun))**: Added glossary entry
-* **[split brain](#split-brain-(noun))**: Added glossary entry
-* **[storage cluster](#storage-cluster-(noun))**: Added glossary entry
-* **[storage pool](#storage-pool-(noun))**: Added glossary entry
-* **[stripe](#stripe-(noun))**: Added glossary entry
-* **[subvolume](#subvolume-(noun))**: Added glossary entry
-* **[target](#target-(noun))**: Updated glossary entry to include a generic definition
-* **[target volume](#target-volume-(noun))**: Added glossary entry
-* **[thickly provisioned](#thickly-provisioned-(adjective))**: Added glossary entry
-* **[total capacity](#total-capacity-(noun))**: Added glossary entry
-* **[translator](#translator-(noun))**: Added glossary entry
-* **[usable capacity](#usable-capacity-(noun))**: Added glossary entry
-* **[virtual disk](#virtual-disk-(noun))**: Added glossary entry
-* **[volume file](#volume-file-(noun))**: Added glossary entry
-* **[volume group](#volume-group-(noun))**: Added glossary entry
-* **[worker node](#worker-node-(noun))**: Added glossary entry
+* **[geo-replication](#geo-replication-noun)**: Added glossary entry
+* **[gluster volume](#gluster-volume-noun)**: Added glossary entry
+* **[high-availability cluster](#high-availability-cluster-noun)**: Added glossary entry
+* **[hyperconverged cluster](#hyperconverged-cluster-noun)**: Added glossary entry
+* **[infrastructure node](#infrastructure-node-noun)**: Added glossary entry
+* **[initiator](#initiator-noun)**: Added glossary entry
+* **[internal mode](#internal-mode-noun)**: Added glossary entry
+* **[local storage](#local-storage-noun)**: Added glossary entry
+* **[logical cache](#logical-cache-noun)**: Added glossary entry
+* **[logical volume](#logical-volume-noun)**: Added glossary entry
+* **[metadata](#metadata-noun)**: Added glossary entry
+* **[multipath](#multipath-noun)**: Added glossary entry
+* **[network encryption](#network-encryption-noun)**: Added glossary entry
+* **[Network Time Configuration](#network-time-configuration-noun)**: Added glossary entry
+* **[n-way replication](#n-way-replication-noun)**: Added glossary entry
+* **[object storage](#object-storage-noun)**: Added glossary entry
+* **[OpenShift Container Platform cluster](#openshift-container-platform-cluster-noun)**: Added glossary entry
+* **[phase](#phase-noun)**: Added glossary entry
+* **[physical disk](#physical-disk-noun)**: Added glossary entry
+* **[physical volume](#physical-volume-noun)**: Added glossary entry
+* **[platform](#platform-noun)**: Added glossary entry
+* **[primary cluster](#primary-cluster-noun)**: Added glossary entry
+* **[primary node](#primary-node-noun)**: Added glossary entry
+* **[provision](#provision-verb)**: Added glossary entry
+* **[proxy](#proxy-noun)**: Added glossary entry
+* **[replicated volume](#replicated-volume-noun)**: Added glossary entry
+* **[restore](#restore-verb)**: Added glossary entry
+* **[rpm-ostree](#rpm-ostree-noun)**: Updated glossary entry to add formatting guidance
+* **[scale out](#scale-out-verb)**: Added glossary entry
+* **[scale up](#scale-up-verb)**: Added glossary entry
+* **[secondary cluster](#secondary-cluster-noun)**: Added glossary entry
+* **[self-healing](#self-healing-noun)**: Added glossary entry
+* **[server](#server-noun)**: Added glossary entry
+* **[snapshot](#snapshot-noun)**: Added glossary entry
+* **[source node](#source-node-noun)**: Added glossary entry
+* **[source volume](#source-volume-noun)**: Added glossary entry
+* **[split brain](#split-brain-noun)**: Added glossary entry
+* **[storage cluster](#storage-cluster-noun)**: Added glossary entry
+* **[storage pool](#storage-pool-noun)**: Added glossary entry
+* **[stripe](#stripe-noun)**: Added glossary entry
+* **[subvolume](#subvolume-noun)**: Added glossary entry
+* **[target](#target-noun)**: Updated glossary entry to include a generic definition
+* **[target volume](#target-volume-noun)**: Added glossary entry
+* **[thickly provisioned](#thickly-provisioned-adjective)**: Added glossary entry
+* **[total capacity](#total-capacity-noun)**: Added glossary entry
+* **[translator](#translator-noun)**: Added glossary entry
+* **[usable capacity](#usable-capacity-noun)**: Added glossary entry
+* **[virtual disk](#virtual-disk-noun)**: Added glossary entry
+* **[volume file](#volume-file-noun)**: Added glossary entry
+* **[volume group](#volume-group-noun)**: Added glossary entry
+* **[worker node](#worker-node-noun)**: Added glossary entry
 
 **Style guidance**
 
@@ -277,11 +277,11 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 
 **Glossary entries**
 
-* **[Customer Portal](#customer-portal-(noun))**: Added glossary entry
-* **[hashbang](#hashbang-(noun))**: Added glossary entry
-* **[ingress](#ingress-(noun,-adjective))**: Updated guidance from uppercase "Ingress" to lowercase "ingress"
-* **[interpreter directive](#interpreter-directive-(noun))**: Added glossary entry
-* **[shebang](#shebang-(noun))**: Added glossary entry
+* **[Customer Portal](#customer-portal-noun)**: Added glossary entry
+* **[hashbang](#hashbang-noun)**: Added glossary entry
+* **[ingress](#ingress-noun-adjective)**: Updated guidance from uppercase "Ingress" to lowercase "ingress"
+* **[interpreter directive](#interpreter-directive-noun)**: Added glossary entry
+* **[shebang](#shebang-noun)**: Added glossary entry
 
 **Style guidance**
 
@@ -292,12 +292,12 @@ See the [Contributing guide](https://github.com/redhat-documentation/supplementa
 ### December 2023
 **Glossary entries**
 
-* **[IBM Cloud®](#ibm-cloud®-(noun))**: Added glossary entry
+* **[IBM Cloud®](#ibm-cloud®-noun)**: Added glossary entry
 * **look up**: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
 * **look-up**: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
 * **lookup**: Removed glossary entry because guidance already exists in the _Merriam-Webster Dictionary_
-* **[now](#now-(adverb))**: Updated glossary entry to "use with caution"
-* **[previously](#previously-(adverb))**: Added glossary entry
+* **[now](#now-adverb)**: Updated glossary entry to "use with caution"
+* **[previously](#previously-adverb)**: Added glossary entry
 
 **Style guidance**
 
@@ -311,64 +311,64 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[Ansible Rulebook](#ansible-rulebook-(noun))**: Added glossary entry
+* **[Ansible Rulebook](#ansible-rulebook-noun)**: Added glossary entry
 * **because**: Removed glossary entry because guidance already exists in the _IBM Style_ guidance
-* **[executable (adjective)](#executable-(adjective))**: Added glossary entry
-* **[executable (noun)](#executable-(noun))**: Added glossary entry
-* **[playbook](#playbook-(noun))**: Added glossary entry
-* **[rulebook](#rulebook-(noun))**: Added glossary entry
-* **[spec file](#spec-file-(noun))**: Updated glossary entry for clarity
+* **[executable (adjective)](#executable-adjective)**: Added glossary entry
+* **[executable (noun)](#executable-noun)**: Added glossary entry
+* **[playbook](#playbook-noun)**: Added glossary entry
+* **[rulebook](#rulebook-noun)**: Added glossary entry
+* **[spec file](#spec-file-noun)**: Updated glossary entry for clarity
 
 ### September 2023
 
 **Glossary entries**
 
-* **[AWS Local Zone](#aws-local-zone-(noun))**: Added glossary entry
-* **[AWS opt-in Region](#aws-opt-in-region-(noun))**: Added glossary entry
-* **[IBM Cloud® Bare Metal (Classic)](#ibm-cloud®-bare-metal-(classic)-(noun))**: Added glossary entry
-* **[IBM eServer System i](#ibm-eserver-system-i-(noun))**: Added glossary entry with "do not use" guidance
-* **[inject](#inject-(verb))**: Added glossary entry
-* **[opt in](#opt-in-(verb))**: Added glossary entry
+* **[AWS Local Zone](#aws-local-zone-noun)**: Added glossary entry
+* **[AWS opt-in Region](#aws-opt-in-region-noun)**: Added glossary entry
+* **[IBM Cloud® Bare Metal (Classic)](#ibm-cloud®-bare-metal-classic)-noun)**: Added glossary entry
+* **[IBM eServer System i](#ibm-eserver-system-i-noun)**: Added glossary entry with "do not use" guidance
+* **[inject](#inject-verb)**: Added glossary entry
+* **[opt in](#opt-in-verb)**: Added glossary entry
 * **pulldown**: Removed glossary entry in favor of following the _IBM Style_ guidance on using "dropdown" and "drop-down"
-* **[segmentation fault](#segmentation-fault-(noun))**: Updated glossary entry for clarity
+* **[segmentation fault](#segmentation-fault-noun)**: Updated glossary entry for clarity
 
 ### August 2023
 
 **Glossary entries**
 
 * **agnostic**: Removed glossary entry because it already exists in the _IBM Style_ guide
-* **[Application Stream](#application-stream-(noun))**: Added glossary entry
-* **[Appstream repository](#appstream-repository-(noun))**: Added glossary entry
-* **[BaseOS repository](#baseos-repository-(noun))**: Added glossary entry
-* **[binary RPM](#binary-rpm-file-(noun))**: Added glossary entry
-* **[Boolean dependencies](#boolean-dependencies-(noun))**: Added glossary entry
-* **[byte-compiled program](#byte-compiled-program-(noun))**: Added glossary entry
+* **[Application Stream](#application-stream-noun)**: Added glossary entry
+* **[Appstream repository](#appstream-repository-noun)**: Added glossary entry
+* **[BaseOS repository](#baseos-repository-noun)**: Added glossary entry
+* **[binary RPM](#binary-rpm-file-noun)**: Added glossary entry
+* **[Boolean dependencies](#boolean-dependencies-noun)**: Added glossary entry
+* **[byte-compiled program](#byte-compiled-program-noun)**: Added glossary entry
 * **client side**: Removed glossary entry because it already exists in the _IBM Style_ guide
 * **client-side**: Removed glossary entry because it already exists in the _IBM Style_ guide
 * **cloud**: Removed glossary entry because it already exists in the _IBM Style_ guide
-* **[CodeReady Linux Builder repository](#codeready-linux-builder-repository-(noun))**: Added glossary entry
+* **[CodeReady Linux Builder repository](#codeready-linux-builder-repository-noun)**: Added glossary entry
 * **colocate**: Removed glossary entry because it already exists in the _IBM Style_ guide
 * **data center**: Removed glossary entry because it already exists in the _IBM Style_ guide
 * **DevOps**: Removed glossary entry because it already exists in the _IBM Style_ guide
-* **[DNF Automatic](#dnf-automatic-(noun))**: Added glossary entry
-* **[domain controller](#domain-controller-(noun))**: Updated glossary entry to include IdM-specific information
-* **[file trigger directive](#file-trigger-directive-(noun))**: Added glossary entry
-* **[IBM eServer System p](#ibm-eserver-system-p-(noun))**: Updated to "do not use"; use "IBM Power" instead
-* **[IBM S/390](#ibm-s/390-(noun))**: Updated to "do not use"; use "IBM Z" instead
-* **[interpreted code](#interpreted-code-(noun))**: Added glossary entry
-* **[ISeries](#iseries-(noun))**: Updated to "do not use"; use "IBM Power" instead
-* **[module](#module-(noun))**: Added glossary entry
-* **[module profile](#module-profile-(noun))**: Added glossary entry
-* **[module stream](#module-stream-(noun))**: Added glossary entry
-* **[natively compiled code](#natively-compiled-code-(noun))**: Added glossary entry
-* **[pSeries](#pseries-(noun))**: Updated to "do not use"; use "IBM Power" instead
-* **[raw-interpreted program](#raw-interpreted-program-(noun))**: Added glossary entry
-* **[Rolling Stream](#rolling-stream-(noun))**: Added glossary entry
-* **[RPM macro](#rpm-macro-(noun))**: Added glossary entry
-* **[scriptlet directive](#scriptlet-directive-(noun))**: Added glossary entry
-* **[Source RPM](#source-rpm-(noun))**: Added glossary entry
-* **[trigger directive](#trigger-directive-(noun))**: Added glossary entry
-* **[Weak dependencies](#weak-dependencies-(noun))**: Added glossary entry
+* **[DNF Automatic](#dnf-automatic-noun)**: Added glossary entry
+* **[domain controller](#domain-controller-noun)**: Updated glossary entry to include IdM-specific information
+* **[file trigger directive](#file-trigger-directive-noun)**: Added glossary entry
+* **[IBM eServer System p](#ibm-eserver-system-p-noun)**: Updated to "do not use"; use "IBM Power" instead
+* **[IBM S/390](#ibm-s/390-noun)**: Updated to "do not use"; use "IBM Z" instead
+* **[interpreted code](#interpreted-code-noun)**: Added glossary entry
+* **[ISeries](#iseries-noun)**: Updated to "do not use"; use "IBM Power" instead
+* **[module](#module-noun)**: Added glossary entry
+* **[module profile](#module-profile-noun)**: Added glossary entry
+* **[module stream](#module-stream-noun)**: Added glossary entry
+* **[natively compiled code](#natively-compiled-code-noun)**: Added glossary entry
+* **[pSeries](#pseries-noun)**: Updated to "do not use"; use "IBM Power" instead
+* **[raw-interpreted program](#raw-interpreted-program-noun)**: Added glossary entry
+* **[Rolling Stream](#rolling-stream-noun)**: Added glossary entry
+* **[RPM macro](#rpm-macro-noun)**: Added glossary entry
+* **[scriptlet directive](#scriptlet-directive-noun)**: Added glossary entry
+* **[Source RPM](#source-rpm-noun)**: Added glossary entry
+* **[trigger directive](#trigger-directive-noun)**: Added glossary entry
+* **[Weak dependencies](#weak-dependencies-noun)**: Added glossary entry
 
 **Style guidance**
 
@@ -378,14 +378,14 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[Elastic Load Balancing](#elastic-load-balancing-(noun))**: Added glossary entry
-* **[IBM® LinuxONE](#ibm®-linuxone-(noun))**: Added glossary entry
-* **[IBM Power®](#ibm-power®-(noun))**: Added glossary entry
-* **[IBM Z®](#ibm-z®-(noun))**: Updated glossary entry
-* **[Red Hat build of OpenJDK](#red hat-build-of-openjdk-(noun))**: Added glossary entry
-* **[Red Hat Java](#red hat-java-(noun))**: Added glossary entry
-* **[Red Hat OpenJDK](#red hat-openjdk-(noun))**: Added glossary entry
-* **[s390x](#s390x-(noun))**: Added glossary entry
+* **[Elastic Load Balancing](#elastic-load-balancing-noun)**: Added glossary entry
+* **[IBM® LinuxONE](#ibm®-linuxone-noun)**: Added glossary entry
+* **[IBM Power®](#ibm-power®-noun)**: Added glossary entry
+* **[IBM Z®](#ibm-z®-noun)**: Updated glossary entry
+* **[Red Hat build of OpenJDK](#red hat-build-of-openjdk-noun)**: Added glossary entry
+* **[Red Hat Java](#red hat-java-noun)**: Added glossary entry
+* **[Red Hat OpenJDK](#red hat-openjdk-noun)**: Added glossary entry
+* **[s390x](#s390x-noun)**: Added glossary entry
 
 **Style guidance**
 
@@ -403,13 +403,13 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[Ansible Playbook](#ansible-playbook-(noun))**: Updated glossary entry for preferred spelling
-* **[bimodal IT](#bimodal-it-(noun))**: Updated glossary entry to include link to the Gartner website
-* **[bimonthly](#bimonthly-(adverb))**: Updated to "do not use" because the term can be ambiguous
-* **[biweekly](#biweekly-(adverb))**: Updated to "do not use" because the term can be ambiguous
-* **[codebase](#codebase-(noun))**: Added glossary entry
-* **[sos report](#sos-report-(noun))**: Added glossary entry
-* **[sosreport](#sosreport-(noun))**: Added glossary entry
+* **[Ansible Playbook](#ansible-playbook-noun)**: Updated glossary entry for preferred spelling
+* **[bimodal IT](#bimodal-it-noun)**: Updated glossary entry to include link to the Gartner website
+* **[bimonthly](#bimonthly-adverb)**: Updated to "do not use" because the term can be ambiguous
+* **[biweekly](#biweekly-adverb)**: Updated to "do not use" because the term can be ambiguous
+* **[codebase](#codebase-noun)**: Added glossary entry
+* **[sos report](#sos-report-noun)**: Added glossary entry
+* **[sosreport](#sosreport-noun)**: Added glossary entry
 
 **Other updates**
 
@@ -427,17 +427,17 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[64-bit ARM](#64-bit-arm-(noun))**: Added glossary entry
-* **[64-bit x86](#64-bit-x86-(noun))**: Added glossary entry
-* **[AArch64](#aarch64-(noun))**: Added glossary entry
-* **[aarch64](#aarch64-(noun))**: Added glossary entry
-* **[AMD64](#amd64-(noun))**: Updated description
-* **[amd64](#amd64-(noun))**: Added glossary entry
-* **[ARM64](#arm64-(noun))**: Added glossary entry
-* **[arm64](#arm64-(noun))**: Added glossary entry
-* **[Intel 64](#intel-64-(noun))**: Added glossary entry
-* **[softirq](#softirq-(noun))**: Added glossary entry
-* **[x86_64](#x86_64-(noun))**: Added glossary entry
+* **[64-bit ARM](#64-bit-arm-noun)**: Added glossary entry
+* **[64-bit x86](#64-bit-x86-noun)**: Added glossary entry
+* **[AArch64](#aarch64-noun)**: Added glossary entry
+* **[aarch64](#aarch64-noun)**: Added glossary entry
+* **[AMD64](#amd64-noun)**: Updated description
+* **[amd64](#amd64-noun)**: Added glossary entry
+* **[ARM64](#arm64-noun)**: Added glossary entry
+* **[arm64](#arm64-noun)**: Added glossary entry
+* **[Intel 64](#intel-64-noun)**: Added glossary entry
+* **[softirq](#softirq-noun)**: Added glossary entry
+* **[x86_64](#x86_64-noun)**: Added glossary entry
 
 **Style guidance**
 
@@ -447,13 +447,13 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[Apache web server](#apache-web-server-(noun))**: Updated to remove extraneous IdM definitions
-* **[certificate authority](#certificate-authority-(noun))**: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions
-* **[domain controller](#domain-controller-(noun))**: Updated to remove extraneous IdM definitions
-* **[Kerberos protocol](#kerberos-protocol-(noun))**: Updated to remove extraneous IdM definitions
-* **[Kerberos realm](#kerberos-realm-(noun))**: Updated to remove extraneous IdM definitions
-* **[POSIX attributes](#posix-attributes-(noun))**: Updated to remove extraneous IdM definitions
-* **[web server](#web-server-(noun))**: Updated to remove extraneous IdM definitions
+* **[Apache web server](#apache-web-server-noun)**: Updated to remove extraneous IdM definitions
+* **[certificate authority](#certificate-authority-noun)**: Renamed from "certificate authorities", and updated to remove extraneous IdM definitions
+* **[domain controller](#domain-controller-noun)**: Updated to remove extraneous IdM definitions
+* **[Kerberos protocol](#kerberos-protocol-noun)**: Updated to remove extraneous IdM definitions
+* **[Kerberos realm](#kerberos-realm-noun)**: Updated to remove extraneous IdM definitions
+* **[POSIX attributes](#posix-attributes-noun)**: Updated to remove extraneous IdM definitions
+* **[web server](#web-server-noun)**: Updated to remove extraneous IdM definitions
 
 **Other updates**
 
@@ -464,7 +464,7 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[devfile](#devfile-(noun))**: Added glossary entry
+* **[devfile](#devfile-noun)**: Added glossary entry
 
 **Other updates**
 
@@ -474,12 +474,12 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[Foreman](#foreman-(noun))**: Updated to remove outdated guidance
-* **[session persistence](#session-persistence-(noun))**: Added glossary entry
-* **[sticky bit](#sticky-bit-(noun))**: Added glossary entry
-* **[sticky session](#sticky-session-(noun))**: Added glossary entry
-* **[want](#want-(verb))**: Updated to "use with caution"
-* **[we suggest](#we-suggest-(verb))**: Updated to remove outdated guidance
+* **[Foreman](#foreman-noun)**: Updated to remove outdated guidance
+* **[session persistence](#session-persistence-noun)**: Added glossary entry
+* **[sticky bit](#sticky-bit-noun)**: Added glossary entry
+* **[sticky session](#sticky-session-noun)**: Added glossary entry
+* **[want](#want-verb)**: Updated to "use with caution"
+* **[we suggest](#we-suggest-verb)**: Updated to remove outdated guidance
 
 **Other updates**
 
@@ -489,11 +489,11 @@ _No glossary or style updates._
 
 **Glossary entries**
 
-* **[Assisted Installer](#assisted-installer-(noun))**: Added glossary entry
-* **[Basic HTTP authentication](#basic-http-authentication-(noun))**: Added glossary entry
-* **[bytecode](#bytecode-(noun))**: Added glossary entry
-* **[Developer Preview](#developer-preview-(noun))**: Added glossary entry
-* **[Kubernetes](#kubernetes-(noun))**: Added glossary entry
+* **[Assisted Installer](#assisted-installer-noun)**: Added glossary entry
+* **[Basic HTTP authentication](#basic-http-authentication-noun)**: Added glossary entry
+* **[bytecode](#bytecode-noun)**: Added glossary entry
+* **[Developer Preview](#developer-preview-noun)**: Added glossary entry
+* **[Kubernetes](#kubernetes-noun)**: Added glossary entry
 * **through**: Removed glossary entry in favor of following the _IBM Style_ guidance on number ranges
 
 **Style guidance**
@@ -1486,7 +1486,7 @@ Write the release notes from the perspective of just after the release, which is
 * Do not use _future tenses_ (or "should" or "might") to describe the state after the update.
 * Use the _simple past tense_ to describe the previous situation before the current update.
 * Follow the CCFR (Cause-Consequence-Fix-Result) tense logic in bug fixes.
-* Do not use "now" to refer to the state after the update. For more information, see the [now](#now-(adverb)) glossary entry.
+* Do not use "now" to refer to the state after the update. For more information, see the [now](#now-adverb) glossary entry.
 
 ## Headings for release notes
 
@@ -1749,7 +1749,7 @@ The _&lt;feature>_, which &lt;purpose>, is deprecated and might be removed in a 
 In addition to general style, follow these guidelines:
 
 * Describe the feature or component that is deprecated.
-* Write the proposed alternative for the user. Do not use the term “Recommended”. See the [recommend](#recommend-(verb)) glossary entry.
+* Write the proposed alternative for the user. Do not use the term “Recommended”. See the [recommend](#recommend-verb) glossary entry.
 * Do not repeat the definition of “deprecated” from the section intro.
 * Avoid predicting future feature statuses in release notes, such as "will be deprecated next release".
 * If cloning a previous version of the release notes file for the latest version, ensure the table feature statuses are current for that version.
@@ -1819,7 +1819,7 @@ In addition to general style, follow these guidelines:
 
 * If a functionality is removed in a release (for example, in RHEL 9), it must be documented as deprecated in a preceding release (RHEL 8).
 * Describe the feature or component that is removed.
-* Write the proposed alternative for the user. Do not use the term “Recommended”. See the [recommend](#recommend-(verb)) glossary entry.
+* Write the proposed alternative for the user. Do not use the term “Recommended”. See the [recommend](#recommend-verb) glossary entry.
 * If a small part of a feature is removed, treat that as a feature change, not a removed feature. Focus on why the change was made and what replaces the removed item.
 
 **Examples of removed feature release notes**
@@ -1930,7 +1930,7 @@ In addition to general style, follow these guidelines:
   What has changed to fix the bug; do not include overly technical details; do not use the present perfect or present simple tense.
   * **Result**\
   What happens now that the patch is applied, in the present tense.
-* Use “before this update” instead of “previously” to refer to the past situation. See the [previously](#previously-(adverb)) glossary entry.
+* Use “before this update” instead of “previously” to refer to the past situation. See the [previously](#previously-adverb) glossary entry.
 * Partially fixed issues might require a separate Known issue for the unfixed scenario.
 
 **Example fixed issue release notes**
@@ -2031,7 +2031,7 @@ _When running RHEL with an AArch64 system, run the following command:_
 
 **Incorrect forms**:
 
-**See also**: [aarch64](#aarch64-(noun))
+**See also**: [aarch64](#aarch64-noun)
 
 #### aarch64 (noun)
 **Description**: A 64-bit version of the ARM architecture. Use this term when referring to operating systems and server instances for example RHEL, Fedora, CoreOS, and other Linux distributions. Use the lowercase format with backticks when referring to objects or parameters.
@@ -2046,7 +2046,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 **Incorrect forms**:
 
-**See also**: [AArch64](#aarch64-(noun))
+**See also**: [AArch64](#aarch64-noun)
 
 #### absolute path (noun)
 **Description**: The location of a file or directory from the root directory (/). Provides all information to locate a file or directory.
@@ -2100,7 +2100,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 **Incorrect forms**: ACK
 
-**See also**: [ACK flag](#ack-flag-(noun))
+**See also**: [ACK flag](#ack-flag-noun)
 
 #### ACK flag (noun)
 **Description**: The acknowledgment flag (_ACK flag_) in a TCP packet indicates that the acknowledgment field in the packet is relevant. Do not expand the abbreviation on first use. Write "ACK flag".
@@ -2118,7 +2118,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 **Incorrect forms**:
 
-**See also**: [project](#project-(noun)), [verb](#verb-(noun))
+**See also**: [project](#project-noun), [verb](#verb-noun)
 
 #### Active Directory forest (noun)
 **Description**: An _Active Directory forest (AD)_ is a set of one or more domain trees which share a common global catalog, directory schema, logical structure, and directory configuration. The forest represents the security boundary within which users, computers, groups, and other objects are accessible.
@@ -2136,7 +2136,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 **Incorrect forms**:
 
-**See also**: [Active directory forest](#active-directory-forest-(noun))
+**See also**: [Active directory forest](#active-directory-forest-noun)
 
 #### Active Directory security identifier (noun)
 **Description**: An _Active Directory security identifier (SID)_ is a unique ID number assigned to an object in Active Directory, such as a user, group, or host. A SID is the functional equivalent of UIDs and GIDs in Linux.
@@ -2154,7 +2154,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 **Incorrect forms**: Active MQ, Active-MQ
 
-**See also**: [ActiveMQ Artemis](#activemq-artemis-(noun)), [JBoss EAP messaging](#jboss-eap-messaging-(noun))
+**See also**: [ActiveMQ Artemis](#activemq-artemis-noun), [JBoss EAP messaging](#jboss-eap-messaging-noun)
 
 #### ActiveMQ Artemis (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, use "ActiveMQ Artemis" only when describing the technology used to implement the built-in messaging for JBoss EAP.
@@ -2163,7 +2163,7 @@ _Specify the system architecture of your cluster, such as `x86_64` or `aarch64`.
 
 **Incorrect forms**: Active MQ Artemis, Active-MQ Artemis
 
-**See also**: [JBoss EAP messaging](#jboss-eap-messaging-(noun))
+**See also**: [JBoss EAP messaging](#jboss-eap-messaging-noun)
 
 #### air gap (noun)
 **Description**: _Air gap_ is the physical segregation and isolation of a system as a security measure.
@@ -2196,7 +2196,7 @@ _This Operator is supported on AMD64 and ARM64 platforms._
 
 **Incorrect forms**:
 
-**See also**: [amd64](#amd64-(noun))
+**See also**: [amd64](#amd64-noun)
 
 #### amd64 (noun)
 **Description**: The AMD 64-bit version of the x86 architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, or CLI objects. Use the lowercase format and backticks when referring to objects or parameters.
@@ -2211,7 +2211,7 @@ _Valid values are `amd64`._
 
 **Incorrect forms**:
 
-**See also**: [AMD64](#amd64-(noun))
+**See also**: [AMD64](#amd64-noun)
 
 #### AMQ (noun)
 **Description**: The short product name for Red Hat AMQ.
@@ -2220,7 +2220,7 @@ _Valid values are `amd64`._
 
 **Incorrect forms**: A-MQ, JBoss AMQ, Red Hat A-MQ, Red Hat AMQ
 
-**See also**: [Red Hat AMQ](#red hat-amq-(noun))
+**See also**: [Red Hat AMQ](#red hat-amq-noun)
 
 #### AMQ Broker (noun)
 **Description**: In Red Hat AMQ, _AMQ Broker_ is a full-featured, message-oriented middleware broker. It offers specialized queueing behaviors, message persistence, and manageability.
@@ -2229,7 +2229,7 @@ _Valid values are `amd64`._
 
 **Incorrect forms**: A-MQ Broker, The AMQ Broker, Red Hat Broker, JBoss Broker
 
-**See also**: [broker distribution](#broker-distribution-(noun)), [broker instance](#broker-instance-(noun))
+**See also**: [broker distribution](#broker-distribution-noun), [broker instance](#broker-instance-noun)
 
 #### AMQ Clients (noun)
 **Description**: In Red Hat AMQ, _AMQ Clients_ is a suite of messaging libraries supporting multiple languages and platforms. It enables users to write messaging applications that send and receive messages. AMQ Clients is a component of Red Hat AMQ.
@@ -2238,7 +2238,7 @@ _Valid values are `amd64`._
 
 **Incorrect forms**: A-MQ Clients, Red Hat Clients, JBoss Clients
 
-**See also**: [client application](#client-application-(noun)), [messaging API](#messaging-api-(noun))
+**See also**: [client application](#client-application-noun), [messaging API](#messaging-api-noun)
 
 #### AMQ Console (noun)
 **Description**: In Red Hat AMQ, the _AMQ Console_ is a management tool for administering AMQ brokers and routers in a single graphical interface.
@@ -2256,7 +2256,7 @@ _Valid values are `amd64`._
 
 **Incorrect forms**:
 
-**See also**: [JMS](#jms-(noun)), [Core protocol](#core-protocol-(noun))
+**See also**: [JMS](#jms-noun), [Core protocol](#core-protocol-noun)
 
 #### AMQ Interconnect (noun)
 **Description**: In Red Hat AMQ, it is a messaging router that provides flexible routing of messages between any AMQP-enabled endpoints, whether they are clients, servers, brokers, or any other entity that can send or receive standard AMQP messages.
@@ -2265,7 +2265,7 @@ _Valid values are `amd64`._
 
 **Incorrect forms**: Interconnect, Router, A-MQ Interconnect, Red Hat Interconnect, JBoss Interconnect
 
-**See also**: [router](#router-(noun))
+**See also**: [router](#router-noun)
 
 #### AMQP (noun)
 **Description**: _Advanced Message Queuing Protocol_. It is an open standard for passing business messages between applications or organizations (https://www.amqp.org/about/what). AMQ Broker supports AMQP, and AMQ Interconnect uses AMQP to route messages and links.
@@ -2292,7 +2292,7 @@ _Valid values are `amd64`._
 
 **Incorrect forms**:
 
-**See also**: [Ansible Playbook](#ansible-playbook-(noun))
+**See also**: [Ansible Playbook](#ansible-playbook-noun)
 
 #### Ansible Playbook (noun)
 **Description**: Playbooks are the configuration, deployment, and orchestration language for Ansible Automation Platform.
@@ -2309,7 +2309,7 @@ Examples:
 
 **Incorrect forms**: Ansible playbook
 
-**See also**: [Ansible play](#ansible-play-(noun)), [playbook](#playbook-(noun))
+**See also**: [Ansible play](#ansible-play-noun), [playbook](#playbook-noun)
 
 #### Ansible Rulebook (noun)
 **Description**: An _Ansible Rulebook_ tells Event-Driven Ansible which sources to monitor for an event and what to do when certain conditions are met. Rulebooks are written in YAML and are used like Ansible Playbooks. Write as shown: uppercase _A_ and uppercase _R_. When using the term "rulebook" without the Ansible prefix, use lowercase _r_.
@@ -2323,7 +2323,7 @@ Examples:
 
 **Incorrect forms**: Ansible rulebook
 
-**See also**: [rulebook](#rulebook-(noun))
+**See also**: [rulebook](#rulebook-noun)
 
 #### Ansible task (noun)
 **Description**: An Ansible play can contain multiple tasks. _Ansible tasks_ are units of action in Ansible. The goal of each task is to execute a module, with very specific arguments.
@@ -2342,7 +2342,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 **Incorrect forms**:
 
-**See also**: [certificate](#certificate-(noun)), [certificate authority](#certificate-authority-(noun)), [Directory Server](#directory-server-(noun))
+**See also**: [certificate](#certificate-noun), [certificate authority](#certificate-authority-noun), [Directory Server](#directory-server-noun)
 
 #### API server (noun)
 **Description**: In Red Hat OpenShift, the _API server_ is a REST API endpoint for interacting with the system. New deployments and configurations can be created with this endpoint, and the state of the system can be interrogated through this endpoint as well.
@@ -2351,7 +2351,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 **Incorrect forms**:
 
-**See also**: [endpoint](#endpoint-(noun))
+**See also**: [endpoint](#endpoint-noun)
 
 #### app (noun)
 **Description**: Acceptable when referring to a mobile or web application.
@@ -2369,7 +2369,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 **Incorrect forms**:
 
-**See also**: [app](#app-(noun))
+**See also**: [app](#app-noun)
 
 #### Application Stream (noun)
 **Description**: _Application Streams_ are multiple versions of Red Hat Enterprise Linux user-space components that are delivered and updated more frequently than the core operating system packages. Application Streams can be packaged as RPM packages, modules, or Software Collections. Do not confuse Application Streams with "AppStream", the repository through which Application Streams and other components are distributed.
@@ -2378,7 +2378,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 **Incorrect forms**: AppStream, application stream, Application stream
 
-**See also**: [AppStream repository](#appstream-repository-(noun))
+**See also**: [AppStream repository](#appstream-repository-noun)
 
 #### Applixware (noun)
 **Description**: _Applixware_ is a suite of proprietary modular applications for Linux.
@@ -2396,7 +2396,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 **Incorrect forms**: Appstream, appstream, Application Stream
 
-**See also**: [Application Stream](#application-stream-(noun))
+**See also**: [Application Stream](#application-stream-noun)
 
 #### ARP (noun)
 **Description**: Within a subnet of an Ethernet network, hosts use the Address Resolution Protocol (_ARP_) to discover the Media Access Control (MAC) address that is associated with an IPv4 address. In IPv6 networks, the Neighbor Discovery Protocol (NDP) provides the functionality of ARP.
@@ -2408,13 +2408,13 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 **See also**:
 
 #### Artemis (noun)
-**Description**: The upstream project for AMQ Broker ([Apache ActiveMQ Artemis](https://activemq.apache.org/artemis/)). When referring to AMQ Broker, always use the "Red Hat" product name.
+**Description**: The upstream project for AMQ Broker ([Apache ActiveMQ Artemis](https://activemq.apache.org/artemis/). When referring to AMQ Broker, always use the "Red Hat" product name.
 
 **Use it**: with caution
 
 **Incorrect forms**:
 
-**See also**: [AMQ Broker](#amq-broker-(noun))
+**See also**: [AMQ Broker](#amq-broker-noun)
 
 #### as expected (adverb)
 **Description**: Expectations are relative; use "correctly" instead.
@@ -2441,7 +2441,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 **Incorrect forms**:
 
-**See also**: [business rule](#business-rule-(noun)), [business process](#business-process-(noun)), [decision table](#decision-table-(noun)), [data model](#data-model-(noun)), [DSL](#dsl-(noun))
+**See also**: [business rule](#business-rule-noun), [business process](#business-process-noun), [decision table](#decision-table-noun), [data model](#data-model-noun), [DSL](#dsl-noun)
 
 #### Assisted Installer (noun)
 **Description**: In Red Hat OpenShift, the Assisted Installer is an installation solution that is offered on the Red Hat Hybrid Cloud Console to provide Software-as-a-Service functionality for cluster installations.
@@ -2495,7 +2495,7 @@ An Ansible task is a set of instructions to achieve a state defined, in its broa
 
 **Incorrect forms**:
 
-**See also**: [action](#action-(noun)), [identity](#identity-(noun))
+**See also**: [action](#action-noun), [identity](#identity-noun)
 
 #### auto-detect (verb)
 **Description**: _Auto-detect_ means to automatically detect threats, new hardware, software updates, and so on.
@@ -2526,7 +2526,7 @@ Ensure that "availability" is not erroneously used to indicate that a server or 
 
 **Incorrect forms**:
 
-**See also**: [high-availability](#high-availability-(adjective)), [availability zone](#availability-zone-(noun))
+**See also**: [high-availability](#high-availability-adjective), [availability zone](#availability-zone-noun)
 
 #### availability zone (noun)
 **Description**: A logical context or geographical region used to provide high availability. This grouping can be defined by a technology or according to unique use cases.
@@ -2535,7 +2535,7 @@ Ensure that "availability" is not erroneously used to indicate that a server or 
 
 **Incorrect forms**:
 
-**See also**: [high-availability](#high-availability-(adjective))
+**See also**: [high-availability](#high-availability-adjective)
 
 #### Azure CLI 2.0 (noun)
 **Description**: In Microsoft Azure, the _Azure CLI 2.0_ is a set of open source commands for managing Microsoft Azure platform resources. Typing `az` at the CLI command prompt lists each of the many Microsoft Azure subcommands. Azure CLI 2.0 is the most current command-line interface and is replacing Microsoft Azure Xplat-CLI.
@@ -2544,7 +2544,7 @@ Ensure that "availability" is not erroneously used to indicate that a server or 
 
 **Incorrect forms**:
 
-**See also**:  [Microsoft Azure Cross-Platform Command-Line Interface](#microsoft-azure-cross-platform-command-line-interface-(noun))
+**See also**:  [Microsoft Azure Cross-Platform Command-Line Interface](#microsoft-azure-cross-platform-command-line-interface-noun)
 
 #### ARM64 (noun)
 **Description**: A 64-bit version of the ARM architecture. Use this term for OpenShift Container Platform (OCP) attributes, Kubernetes, Operators, APIs, and CLI objects. Use this format in general sentences when referring to OCP features.
@@ -2559,7 +2559,7 @@ _Creating an ARM64 compute machine set._
 
 **Incorrect forms**:
 
-**See also**: [arm64](#arm64-(noun))
+**See also**: [arm64](#arm64-noun)
 
 #### arm64 (noun)
 **Description**: A 64-bit version of the ARM architecture. Use this term for OpenShift Container Platform attributes, Kubernetes, Operators, APIs, and CLI objects. Use lowercase format and backticks when referring to objects or parameters.
@@ -2583,7 +2583,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**: Local Zone, LZ, local zone
 
-**See also**: [opt in](#opt-in-(verb)), [AWS opt-in Region](#aws-opt-in-region-(noun))
+**See also**: [opt in](#opt-in-verb), [AWS opt-in Region](#aws-opt-in-region-noun)
 
 #### AWS opt-in Region (noun)
 **Description**: An _Amazon Web Services (AWS) opt-in Region_ represents a world-wide location, which hosts Amazon’s cloud-computing resources, where a customer must opt in to the AWS Region before they can deploy their OpenShift Container Platform cluster in this location. An AWS Region is represented by a regional service endpoint code, such as `us-east-2`.
@@ -2592,7 +2592,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**: AWS region, AWS opt in Region
 
-**See also**: [opt in](#opt-in-(verb))
+**See also**: [opt in](#opt-in-verb)
 
 #### Azure Resource Manager (noun)
 **Description**: In Microsoft Azure, the _Azure Resource Manager (ARM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. ARM mode is the default for Azure CLI 2.0. Microsoft Azure resources can be managed remotely from a Red Hat Enterprise Linux server. ARM replaces Azure Service Management (ASM) as the preferred mode for managing resources in Microsoft Azure.
@@ -2601,7 +2601,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**:
 
-**See also**: [Azure Service Management](#azure-service-management-(noun))
+**See also**: [Azure Service Management](#azure-service-management-noun)
 
 #### Azure Service Management (noun)
 **Description**: In Microsoft Azure, _Azure Service Management (ASM)_ is a management mode that deploys, manages, and monitors resources in the Microsoft Azure portal. The Azure Resource Manager (ARM) has replaced ASM as the preferred method for managing Azure resources.
@@ -2610,7 +2610,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**:
 
-**See also**: [Azure Resource Manager](#azure-resource-manager-(noun))
+**See also**: [Azure Resource Manager](#azure-resource-manager-noun)
 
 #### B
 
@@ -2657,7 +2657,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**:
 
-**See also**: [latency](#latency-(noun))
+**See also**: [latency](#latency-noun)
 
 #### bare metal (noun)
 **Description**: _Bare metal_ refers to physical hardware as opposed to virtual hardware. Use the two-word form as a noun: "Install on bare metal".
@@ -2666,7 +2666,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**: baremetal, bare-metal
 
-**See also**: [bare-metal (adjective)](#bare-metal-(adjective))
+**See also**: [bare-metal (adjective)](#bare-metal-adjective)
 
 #### bare-metal (adjective)
 **Description**: _Bare metal_ refers to physical hardware as opposed to virtual hardware. Use the hyphenated form as an adjective: "Bare-metal servers".
@@ -2675,7 +2675,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**: baremetal, bare metal
 
-**See also**: [bare metal (noun)](#bare-metal-(noun))
+**See also**: [bare metal (noun)](#bare-metal-noun)
 
 #### Bare Metal service (noun)
 **Description**: The _Bare Metal service_ is a Red Hat OpenStack Platform product that provisions bare metal machines.
@@ -2693,7 +2693,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**:
 
-**See also**: [distinguished name](#distinguished-name-(noun))
+**See also**: [distinguished name](#distinguished-name-noun)
 
 #### Base64 (noun, adjective)
 **Description**: _Base64_ is a group of binary-to-text encoding schemes that transforms binary data into a sequence of printable characters, limited to a set of 64 unique characters.
@@ -2702,7 +2702,7 @@ _Valid values are `arm64`._
 
 **Incorrect forms**: base64, Base-64, base-64
 
-**See also**: [basic-http-authentication](#Basic HTTP authentication (noun))
+**See also**: [basic-http-authentication](#Basic HTTP authentication (noun)
 
 #### BaseOS repository (noun)
 **Description**: In Red Hat Enterprise Linux, the  _BaseOS repository_ contains the core set of the underlying operating system functionality that provides the foundation for all installations.
@@ -2778,7 +2778,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 **Incorrect forms**:
 
-**See also**: [RPM](#rpm-(noun))
+**See also**: [RPM](#rpm-noun)
 
 #### BIND (noun)
 **Description**: Write "BIND" when referring to the DNS software.
@@ -2796,7 +2796,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 **Incorrect forms**:
 
-**See also**: [BIND (noun)](#bind-(noun))
+**See also**: [BIND (noun)](#bind-noun)
 
 #### bind DN (noun)
 **Description**: A _distinguished name (DN)_ defines the unique location of an entry in the LDAP directory. You can use the DN of an entry to bind (authenticate) to an LDAP directory. The bind DN is similar to a user name in other systems.
@@ -2805,7 +2805,7 @@ The practice of having both modes together is often referred to as _hybrid_, _ag
 
 **Incorrect forms**:
 
-**See also**: [distinguished name](#distinguished-name-(noun)), [bind (verb)](#bind-(verb))
+**See also**: [distinguished name](#distinguished-name-noun), [bind (verb)](#bind-verb)
 
 #### BIOS (noun)
 **Description**: _BIOS_ is an abbreviation for "Basic Input/Output System". The plural form is "BIOSes". BIOS is the specific name for the system board firmware that provides runtime services for operating systems in older PCs. Modern computers use a different kind of firmware, called either EFI or UEFI.
@@ -2816,7 +2816,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: Bios
 
-**See also**: [firmware](#firmware-(noun))
+**See also**: [firmware](#firmware-noun)
 
 #### biweekly (adverb)
 **Description**: Do not use. _Biweekly_ can mean either twice a week or every two weeks. Instead, write "twice a week" or "every two weeks" to remove ambiguity.
@@ -2834,7 +2834,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: block storage, block volume
 
-**See also**: [block storage](#block-storage-(noun)), [block volume](#block-volume-(noun))
+**See also**: [block storage](#block-storage-noun), [block volume](#block-volume-noun)
 
 #### block storage (noun)
 **Description**: _Block storage_, as distinct from file storage and object storage, breaks data into chunks that are arbitrarily organized and distributed. These chunks can then be further partitioned and treated as individual storage devices. Do not confuse this term with "block device" (generic) or "block volume" (OpenShift Virtualization).
@@ -2843,7 +2843,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: block device, block volume
 
-**See also**: [block device](#block-device-(noun)), [block volume](#block-volume-(noun))
+**See also**: [block device](#block-device-noun), [block volume](#block-volume-noun)
 
 #### block volume (noun)
 **Description**: A _block volume_ is a physical volume that supports `Block` as opposed to `Filesystem` data formats. Block data are raw chunks of data that are not compatible with any predefined file system mechanism, such as NFS. Do not confuse this term with "block device" (generic) or "block storage" (cloud storage).
@@ -2852,7 +2852,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: block device, block storage
 
-**See also**: [block device](#block-device-(noun)), [block storage](#block-storage-(noun))
+**See also**: [block device](#block-device-noun), [block storage](#block-storage-noun)
 
 #### blueprint (noun)
 **Description**: In Red Hat Enterprise Linux, _blueprints_ are simple text files in Tom’s Obvious Minimal Language (TOML) format that describe which packages, and what versions, to install into the image. They can also define a limited set of customizations that can be used to build the final image.
@@ -2870,7 +2870,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: bluestore, Blue Store
 
-**See also**: [FileStore](#filestore-(noun)), [Object Store](#object-store-(noun))
+**See also**: [FileStore](#filestore-noun), [Object Store](#object-store-noun)
 
 #### Boolean dependencies (noun)
 **Description**: In Red Hat Enterprise Linux, _Boolean dependencies_ are Boolean expressions such as `if`, `and`, `or`, and other expressions that are used in the `Requires`, `Conflicts`, and `Weak` dependency directives. Boolean dependencies are also known as _Rich dependencies_.
@@ -2879,7 +2879,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [Weak dependencies](#weak-dependencies-(noun))
+**See also**: [Weak dependencies](#weak-dependencies-noun)
 
 #### boot disk (noun)
 **Description**: A _boot disk_ is a disk used to start a computer.
@@ -2933,7 +2933,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: bps
 
-**See also**: [bps](#bps-(noun))
+**See also**: [bps](#bps-noun)
 
 #### bps (noun)
 **Description**: The abbreviation for "bits per second" is _bps_.
@@ -2942,7 +2942,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: Bps
 
-**See also**: [Bps](#bps-(noun))
+**See also**: [Bps](#bps-noun)
 
 #### brick (noun)
 **Description**: A _brick_ is an exported directory on a server that is in a trusted storage pool. It is the basic unit of storage in Red Hat Gluster Storage.
@@ -2960,7 +2960,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: broad cast, broad-cast
 
-**See also**: [broadcast (verb)](#broadcast-(verb))
+**See also**: [broadcast (verb)](#broadcast-verb)
 
 #### broadcast (verb)
 **Description**: When used as a verb, _broadcast_ means to simultaneously send the same message to multiple recipients. Broadcasting is a useful feature in email systems. It is also supported by some fax systems. In networking, a distinction is made between broadcasting and multicasting. Broadcasting sends a message to everyone on the network, whereas multicasting sends a message to a select list of recipients.
@@ -2969,7 +2969,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: broad cast, broad-cast
 
-**See also**: [broadcast (noun)](#broadcast-(noun))
+**See also**: [broadcast (noun)](#broadcast-noun)
 
 #### broker cluster (noun)
 **Description**: A group of brokers to be grouped together in order to share message processing load. In JBoss A-MQ 6, this was called a _network of brokers_.
@@ -2987,7 +2987,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [AMQ Broker](#amq-broker-(noun)), [broker instance](#broker-instance-(noun))
+**See also**: [AMQ Broker](#amq-broker-noun), [broker instance](#broker-instance-noun)
 
 #### broker instance (noun)
 **Description**: In Red Hat AMQ, a _broker instance_ is a configurable instance of AMQ Broker. Each broker instance is a separate directory containing its own runtime and configuration data. Use this term to refer to the instance, not the product.
@@ -2996,7 +2996,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [AMQ Broker](#amq-broker-(noun)), [broker distribution](#broker-distribution-(noun))
+**See also**: [AMQ Broker](#amq-broker-noun), [broker distribution](#broker-distribution-noun)
 
 #### brokered messaging (noun)
 **Description**: Any messaging configuration that uses a message broker to deliver messages to destinations. _Brokered messaging_ can include brokers only, or a combination of brokers and routers.
@@ -3023,7 +3023,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [container](#container-(noun))
+**See also**: [container](#container-noun)
 
 #### bucket index (noun)
 **Description**: A _bucket index_ in the S3 API contains an index of objects within the bucket. The bucket index enables listing the bucket’s contents.
@@ -3041,7 +3041,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [shard](#shard-(noun))
+**See also**: [shard](#shard-noun)
 
 #### bug fix (noun)
 **Description**: A _bug fix_ is the resolution to a bug.
@@ -3068,7 +3068,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [build](#build-(noun))
+**See also**: [build](#build-noun)
 
 #### built-in (adjective)
 **Description**: Write "built-in" when referring to something that is included or incorporated into a larger unit.
@@ -3086,7 +3086,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: ActiveMQ, ActiveMQ Artemis
 
-**See also**: [JBoss EAP built-in messaging](#jboss-eap-built-in-messaging-(noun)), [JBoss EAP messaging](#jboss-eap-messaging-(noun))
+**See also**: [JBoss EAP built-in messaging](#jboss-eap-built-in-messaging-noun), [JBoss EAP messaging](#jboss-eap-messaging-noun)
 
 #### Business Central (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _Business Central_ is a web-based user interface. It is the user interface for the business rules manager and has been combined with the core Drools engine and other tools. It enables a business user to manage rules in a multi-user environment and implement changes in a controlled fashion.
@@ -3140,7 +3140,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [interpreted code](#interpreted-code-(noun))
+**See also**: [interpreted code](#interpreted-code-noun)
 
 #### C
 
@@ -3160,7 +3160,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [routing context](#routing-context-(noun))
+**See also**: [routing context](#routing-context-noun)
 
 #### CapEx (noun)
 **Description**: _CapEx_ is an acronym for "capital expenditures".
@@ -3187,7 +3187,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: CD
 
-**See also**: [CD](#cd-(noun))
+**See also**: [CD](#cd-noun)
 
 #### CD (noun)
 **Description**: _CD_ is an abbreviation for "compact disc".
@@ -3196,7 +3196,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: cd
 
-**See also**: [cd](#cd-(noun)), [CDs](#cds-(noun))
+**See also**: [cd](#cd-noun), [CDs](#cds-noun)
 
 #### CD #1 (noun)
 **Description**: When referring to a specific CD in the Red Hat Enterprise Linux CD set, it is correct to refer to it as "Red Hat Enterprise Linux CD #1". Avoid using "Red Hat Enterprise Linux CD 1".
@@ -3223,7 +3223,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: CDS, Cds
 
-**See also**: [CD](#cd-(noun))
+**See also**: [CD](#cd-noun)
 
 #### Ceph (noun)
 **Description**: _Ceph_ is a unified, distributed storage system designed for excellent performance, reliability and scalability.
@@ -3232,7 +3232,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: CEPH, ceph
 
-**See also**: [Red Hat Ceph Storage](#red hat-ceph-storage-(noun)), [ceph](#ceph-(noun))
+**See also**: [Red Hat Ceph Storage](#red hat-ceph-storage-noun), [ceph](#ceph-noun)
 
 #### ceph (noun)
 **Description**: In Red Hat Ceph Storage, `ceph` is the Ceph command-line utility. Always mark it correctly (`ceph`).
@@ -3241,7 +3241,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: CEPH
 
-**See also**: [Ceph](#ceph-(noun)), [Red Hat Ceph Storage](#red hat-ceph-storage-(noun))
+**See also**: [Ceph](#ceph-noun), [Red Hat Ceph Storage](#red hat-ceph-storage-noun)
 
 #### Ceph Block Device (noun)
 **Description**: In Red Hat Ceph Storage, the _Ceph Block Device_ is the block storage component of Ceph. Also known as the _RADOS Block Device_, however the term "Ceph Block Device" is preferred.
@@ -3250,7 +3250,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: Ceph block device, Ceph block devices
 
-**See also**: [RADOS Block Device](#rados-block-device-(noun)), [RBD](#rbd-(noun)), [rbd](#rbd-(noun)), [librbd](#librbd-(noun))
+**See also**: [RADOS Block Device](#rados-block-device-noun), [RBD](#rbd-noun), [rbd](#rbd-noun), [librbd](#librbd-noun)
 
 #### Ceph File System (noun)
 **Description**: In Red Hat Ceph Storage, the _Ceph File System_ is the POSIX file system component of Ceph.
@@ -3259,7 +3259,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: Ceph filesystem, Ceph file system
 
-**See also**: [Ceph File System](#cephfs-(noun))
+**See also**: [Ceph File System](#cephfs-noun)
 
 #### Ceph Monitor (noun)
 **Description**: In Red Hat Ceph Storage, the _Ceph Monitor_ is a node where the `ceph-mon` daemon is running.
@@ -3268,7 +3268,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: Ceph monitor
 
-**See also**: [ceph-mon](#ceph-mon-(noun))
+**See also**: [ceph-mon](#ceph-mon-noun)
 
 #### Ceph Object Gateway (noun)
 **Description**: In Red Hat Ceph Storage, the _Ceph Object Gateway_ is the S3/Swift component. Also known as _RADOS gateway_. However, prefer using the "Ceph Object Gateway".
@@ -3277,7 +3277,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: Ceph object gateway, Ceph object gateways
 
-**See also**: [RADOS Gateway](#rados-gateway-(noun)), [RGW](#rgw-(noun)), [ceph-radosgw](#ceph-radosgw-(noun))
+**See also**: [RADOS Gateway](#rados-gateway-noun), [RGW](#rgw-noun), [ceph-radosgw](#ceph-radosgw-noun)
 
 #### ceph-ansible (noun)
 **Description**: In Red Hat Ceph Storage, `ceph-ansible` is a utility that provides Ansible Playbooks for installing, managing, and upgrading the Ceph Storage Cluster. Always mark it correctly: `ceph-ansible`.
@@ -3296,7 +3296,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [Metadata Server](#metadata-server-(noun)), [MDS](#mds-(noun))
+**See also**: [Metadata Server](#metadata-server-noun), [MDS](#mds-noun)
 
 #### ceph-mon (noun)
 
@@ -3306,7 +3306,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [Ceph Monitor](#ceph-monitor-(noun))
+**See also**: [Ceph Monitor](#ceph-monitor-noun)
 
 #### ceph-osd (noun)
 
@@ -3316,7 +3316,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [OSD](#osd-(noun)), [Object Storage Device](#object-storage-device-(noun)),
+**See also**: [OSD](#osd-noun), [Object Storage Device](#object-storage-device-noun),
 
 #### ceph-radosgw (noun)
 **Description**: In Red Hat Ceph Storage, the `ceph-radosgw` daemon runs on Ceph Object Gateway nodes. Each instance provides a Civetweb web server and the object gateway functionality.
@@ -3325,7 +3325,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [Ceph Object Gateway](#ceph-object-gateway-(noun)), [RADOS Gateway](#rados-gateway-(noun)), [RGW](#rgw-(noun))
+**See also**: [Ceph Object Gateway](#ceph-object-gateway-noun), [RADOS Gateway](#rados-gateway-noun), [RGW](#rgw-noun)
 
 #### CephFS (noun)
 **Description**: In Red Hat Ceph Storage, _CephFS_ is an initialization for the Ceph File System.
@@ -3334,7 +3334,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: cephfs
 
-**See also**: [Ceph File System](#ceph-file-system-(noun))
+**See also**: [Ceph File System](#ceph-file-system-noun)
 
 #### certificate (noun)
 **Description**: A _certificate_ is an electronic document used to identify an individual, a server, a company, or other entity and to associate that identity with a public key. A certificate provides generally recognized proof of a person’s identity. Public-key cryptography uses certificates to address the problem of impersonation.
@@ -3343,7 +3343,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [certificate authority](#certificate-authority-(noun))
+**See also**: [certificate authority](#certificate-authority-noun)
 
 #### certificate authority (noun)
 **Description**: An entity that issues digital certificates. In Red Hat Identity Management, the primary CA is `ipa`.
@@ -3352,7 +3352,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [certificate](#certificate-(noun))
+**See also**: [certificate](#certificate-noun)
 
 #### cgroup (noun)
 **Description**: The term _cgroup_ is an abbreviation for "control group". Cgroups allow you to allocate resources, such as CPU time, system memory, network bandwidth, or combinations of these resources, among user-defined groups of processes running on a system.
@@ -3388,7 +3388,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [upgrade](#upgrade-(verb)), [in-place upgrade](#in-place-upgrade-(noun))
+**See also**: [upgrade](#upgrade-verb), [in-place upgrade](#in-place-upgrade-noun)
 
 #### client
 **Description**: _Client_ has multiple meanings, depending on the context:
@@ -3418,7 +3418,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [producer](#producer-(noun)), [consumer](#consumer-(noun)), [AMQ Clients](#amq-clients-(noun)), [messaging API](#messaging-api-(noun))
+**See also**: [producer](#producer-noun), [consumer](#consumer-noun), [AMQ Clients](#amq-clients-noun), [messaging API](#messaging-api-noun)
 
 #### client role
 **Description**: In Red Hat Single Sign-On, a _client role_ is a role namespace that is dedicated to a client. Each client can define roles that are specific to it.
@@ -3445,7 +3445,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [clone (verb)](#clone-(verb))
+**See also**: [clone (verb)](#clone-verb)
 
 #### clone (verb)
 **Description**: _Cloning_ is the process of making a full data copy from an existing volume or disk drive to a new volume or disk drive.
@@ -3454,7 +3454,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [clone (noun)](#clone-(noun))
+**See also**: [clone (noun)](#clone-noun)
 
 #### cloudbursting (verb)
 **Description**: _Cloudbursting_ is an event where a private cloud exceeds its capacity and _bursts_ into and uses public cloud resources.
@@ -3544,7 +3544,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: comma-delimited values, comma delimited values, comma separated values
 
-**See also**: [CSV](#csv-(noun))
+**See also**: [CSV](#csv-noun)
 
 #### command language (noun)
 **Description**: _Command language_ is the programming language through which a user communicates with an operating system or an application.
@@ -3562,7 +3562,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: command driven, commanddriven
 
-**See also**: [menu-driven](#menu-driven-(adjective))
+**See also**: [menu-driven](#menu-driven-adjective)
 
 #### commit (noun)
 **Description**: In Red Hat Enterprise Linux, a _commit_ is a release or image version of the operating system. Image Builder generates an OSTree commit for RHEL for Edge images. You can use these images to install or update RHEL on Edge servers.
@@ -3571,7 +3571,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [OSTree](#ostree-(noun))
+**See also**: [OSTree](#ostree-noun)
 
 #### component (noun)
 **Description**: In Red Hat Fuse, a _component_ is a factory for creating endpoints in a Camel route. For example, you would use the Twitter component to create Twitter endpoints. Each component represents a connection to a specific service or application, such as Atom, CXF, Bean, File, and so on.
@@ -3580,7 +3580,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [connection](#connection-(noun)), [endpoint](#endpoint-(noun))
+**See also**: [connection](#connection-noun), [endpoint](#endpoint-noun)
 
 #### compose (noun)
 **Description**: In Red Hat Enterprise Linux, _composes_ are individual builds of a system image, based on a particular version of a particular blueprint. Compose as a term refers to the system image, the logs from its creation, inputs, metadata, and the process itself.
@@ -3589,7 +3589,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [blueprint](#blueprint-(noun))
+**See also**: [blueprint](#blueprint-noun)
 
 #### composite content view (noun)
 **Description**: In Red Hat Satellite, a _composite content view_ is a collection of content views.
@@ -3598,7 +3598,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: Composite Content View, Composite Content view, Composite View, composite view
 
-**See also**: [content view](#content-view-(noun))
+**See also**: [content view](#content-view-noun)
 
 #### composite role
 **Description**: A _composite role_ is a role that can be associated with other roles. For example a `superuser` composite role can be associated with the `sales-admin` and `order-entry-admin` roles. If a user is mapped to the `superuser` role they also inherit the `sales-admin` and `order-entry-admin` roles.
@@ -3643,7 +3643,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [acceptor](#acceptor-(noun)), [listener](#listener-(noun)), [connector](#connector-(noun)), [container](#container-(noun)), [session](#session-(noun))
+**See also**: [acceptor](#acceptor-noun), [listener](#listener-noun), [connector](#connector-noun), [container](#container-noun), [session](#session-noun)
 
 #### connection factory (noun)
 **Description**: In Red Hat AMQ, a _connection factory_ is an object used by a JMS client to create a connection to a broker.
@@ -3670,7 +3670,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [connection](#connection-(noun))
+**See also**: [connection](#connection-noun)
 
 #### consent
 **Description**: In Red Hat Single Sign-On, _consent_ is when you as an `admin` want a user to give permission to a client before that client can participate in the authentication process. After a user provides their credentials, Red Hat Single Sign-On opens a screen identifying the client requesting a login and what identity information is requested of the user. Users can decide whether or not to grant the request.
@@ -3688,7 +3688,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**: slave
 
-**See also**: [hub](#hub-(noun)), [supplier](#supplier-(noun)), [client application](#client-application-(noun)), [message exchange](#message-exchange-(noun)), [producer](#producer-(noun))
+**See also**: [hub](#hub-noun), [supplier](#supplier-noun), [client application](#client-application-noun), [message exchange](#message-exchange-noun), [producer](#producer-noun)
 
 #### container (noun)
 **Description**: (1) A _container_ is the fundamental piece of an OpenShift application. A container is a way to isolate and limit process interactions with minimal overhead and footprint. In most cases, a container is limited to a single process providing a specific service (for example web server, database). (2) A container in the Swift API contains objects. A container also defines access control lists (ACLs). Unlike folders or directories, a container cannot contain other containers. A container in the Swift API is synonymous with a "bucket" in the S3 API. (3) In Red Hat AMQ, a container is a top-level application, such as a broker or client. Connections are established between containers.
@@ -3697,7 +3697,7 @@ Do not use "BIOS" as a generic term for computer firmware. Instead, write "firmw
 
 **Incorrect forms**:
 
-**See also**: [bucket](#bucket-(noun)), [connection](#connection-(noun))
+**See also**: [bucket](#bucket-noun), [connection](#connection-noun)
 
 #### container registry (noun)
 **Description**: A _container registry_ refers to a service that stores and retrieves Docker-formatted container
@@ -3708,7 +3708,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [Red Hat Container Catalog](#red hat-container-catalog-(noun)), [OpenShift Container Registry](#openshift-container-registry-(noun))
+**See also**: [Red Hat Container Catalog](#red hat-container-catalog-noun), [OpenShift Container Registry](#openshift-container-registry-noun)
 
 #### Container Storage Interface (noun)
 **Description**: The _Container Storage Interface (CSI)_ is a standard for exposing arbitrary block and file storage systems to containerized workloads on Container Orchestration Systems like Kubernetes, and in particular Red Hat OpenShift Container Platform. This allows OpenShift Container Platform to consume storage from third-party storage providers that implement the CSI interface as persistent storage.
@@ -3726,7 +3726,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**: container based
 
-**See also**: [containerized](#containerized-(adjective))
+**See also**: [containerized](#containerized-adjective)
 
 #### containerized (adjective)
 **Description**: Use "containerized" as an adjective when referring to applications made up of multiple services that are distributed in containers. "Containerized" can be used interchangeably with "container-based".
@@ -3735,7 +3735,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**: containerised
 
-**See also**: [container-based](#container-based-(adjective))
+**See also**: [container-based](#container-based-adjective)
 
 #### content view (noun)
 **Description**: In Red Hat Satellite, a _content view_ is a subset of Library content created by intelligent filtering.
@@ -3744,7 +3744,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**: Content view, Content View
 
-**See also**: [composite content view](#composite-content-view-(noun))
+**See also**: [composite content view](#composite-content-view-noun)
 
 #### control node (noun)
 **Description**: Any machine with Ansible installed. You can run commands and playbooks, invoking `/usr/bin/ansible` or `/usr/bin/ansible-playbook`, from any _control node_. You can have multiple control nodes. You can use any computer that has Python installed on it as a control node: laptops, shared desktops, and servers can all run Ansible. However, you cannot use a Windows machine as a control node.
@@ -3753,7 +3753,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [Ansible Playbook](#ansible-playbook-(noun))
+**See also**: [Ansible Playbook](#ansible-playbook-noun)
 
 #### control plane (noun)
 **Description**: The  _control plane_ is a container orchestration layer that exposes the API and interfaces to define, deploy, and manage the lifecycle of containers.
@@ -3762,7 +3762,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [API server](#api-server-(noun)), [scheduler](#scheduler-(noun))
+**See also**: [API server](#api-server-noun), [scheduler](#scheduler-noun)
 
 #### control plane node (noun)
 **Description**: In OpenShift Container Platform, _control plane node_ refers to the node that manages other nodes in its Kubernetes cluster and schedules pods to run on nodes.
@@ -3771,7 +3771,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**: master node
 
-**See also**: [primary node](#primary-node-(noun))
+**See also**: [primary node](#primary-node-noun)
 
 #### control program (noun)
 **Description**: A _control program_ refers to a program that enhances an operating system by creating an environment in which you can run other programs.
@@ -3780,7 +3780,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [operating environment](#operating-environment-(noun))
+**See also**: [operating environment](#operating-environment-noun)
 
 #### controller (noun)
 **Description**: In Red Hat OpenShift, a _controller_ is an object that reads APIs, applies changes to other objects, and reports status or write back to the object.
@@ -3798,7 +3798,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**: master node
 
-**See also**: [primary node](#primary-node-(noun))
+**See also**: [primary node](#primary-node-noun)
 
 #### conversion (noun)
 **Description**: In Red Hat Enterprise Linux, an operating system _conversion_ is when you convert your operating system from a different Linux distribution to Red Hat Enterprise Linux.
@@ -3825,7 +3825,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [raw](#raw-(adjective))
+**See also**: [raw](#raw-adjective)
 
 #### cookie (noun)
 **Description**: A _cookie_ is a message given to a web browser by a web server. The browser stores the message. The message is then sent back to the server each time the browser requests a page from the server.
@@ -3852,7 +3852,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [Core protocol](#core-protocol-(noun)), [AMQ Core Protocol JMS](#amq-core-protocol-jms-(noun))
+**See also**: [Core protocol](#core-protocol-noun), [AMQ Core Protocol JMS](#amq-core-protocol-jms-noun)
 
 #### Core protocol (noun)
 **Description**: The _Core protocol_ is the native messaging protocol for ActiveMQ Artemis.
@@ -3861,7 +3861,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [AMQ Core Protocol JMS](#amq-core-protocol-jms-(noun))
+**See also**: [AMQ Core Protocol JMS](#amq-core-protocol-jms-noun)
 
 #### core-management subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _core-management subsystem_ is used to register server lifecycle event listeners and track configuration changes. In general text, write in lowercase as two words separated by a hyphen. Use "Core Management subsystem" when referring to the `core-management` subsystem in titles and headings.
@@ -3879,7 +3879,7 @@ image repository contains one or more tagged images.
 
 **Incorrect forms**:
 
-**See also**: [fail](#fail-(verb))
+**See also**: [fail](#fail-verb)
 
 #### credentials
 **Description**: In Red Hat Single Sign-On, _credentials_ are pieces of data used to verify the identity of a user. Some examples are passwords, one-time passwords, digital certificates, or even fingerprints.
@@ -3898,7 +3898,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 **Incorrect forms**:
 
-**See also**: [Active Directory forest](#active-directory-forest-(noun))
+**See also**: [Active Directory forest](#active-directory-forest-noun)
 
 #### cross-platform (adjective)
 **Description**: Use _cross-platform_ as an adjective when referring to the capability of software or hardware to run identically on different platforms.
@@ -3934,7 +3934,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 **Incorrect forms**:
 
-**See also**: [CRUSH map](#crush-map-(noun))
+**See also**: [CRUSH map](#crush-map-noun)
 
 #### CRUSH map (noun)
 **Description**: In Red Hat Ceph Storage, a CRUSH map contain a list of OSDs, a list of buckets for aggregating the devices into physical locations, and a list of rules that tell CRUSH how it should replicate data in a Ceph cluster’s pools. For more information, see the [CRUSH](https://access.redhat.com/documentation/en/red-hat-ceph-storage/2/single/architecture-guide#crush) section in the Red Hat Ceph Storage Architecture Guide.
@@ -3943,7 +3943,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 **Incorrect forms**: crush map, crushmap
 
-**See also**: [CRUSH](#crush-(noun))
+**See also**: [CRUSH](#crush-noun)
 
 #### CSV (noun)
 **Description**: _CSV_ is an abbreviation for "comma-separated values", which is a set of values in which each value is separated by a comma. Write "comma-separated values (CSV)" on first use and "CSV" after that.
@@ -3952,7 +3952,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 **Incorrect forms**: csv
 
-**See also**: [comma-separated values](#comma-separated-values-(noun))
+**See also**: [comma-separated values](#comma-separated-values-noun)
 
 #### Ctrl (noun)
 **Description**: _Ctrl_ refers to the `Ctrl` key on a keyboard.
@@ -4006,7 +4006,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 **Incorrect forms**: CP, RHCP, customer portal, portal
 
-**See also**: [Red Hat Customer Portal](#red hat-customer-portal-(noun))
+**See also**: [Red Hat Customer Portal](#red hat-customer-portal-noun)
 
 #### customization (noun)
 **Description**: In Red Hat Enterprise Linux, _customizations_ are specifications for the system that are not packages. This includes users, groups, and SSH keys.
@@ -4035,7 +4035,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 **Incorrect forms**: daisy-chain, daisychain
 
-**See also**: [daisy chain (verb)](#daisy-chain-(verb))
+**See also**: [daisy chain (verb)](#daisy-chain-verb)
 
 #### daisy chain (verb)
 **Description**: When used as a verb _daisy chain_ means to connect devices in a daisy-chain pattern, that is, in series.
@@ -4044,7 +4044,7 @@ With a _cross-forest trust_ between an Active Directory (AD) forest root domain 
 
 **Incorrect forms**: daisy-chain, daisychain
 
-**See also**: [daisy chain (noun)](#daisy-chain-(noun))
+**See also**: [daisy chain (noun)](#daisy-chain-noun)
 
 #### data compression (noun)
 **Description**: _Data compression_ is a method of encoding data using fewer bits than the original data. How compression is achieved differs across products and should always be clarified.
@@ -4077,7 +4077,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 
 **Incorrect forms**: JBoss Data Grid
 
-**See also**: [Red Hat Data Grid](#red hat-data-grid-(noun))
+**See also**: [Red Hat Data Grid](#red hat-data-grid-noun)
 
 #### Data Grid Console (noun)
 **Description**: In Red Hat Data Grid, the _Data Grid Console_ provides a web interface for creating and managing caches.
@@ -4149,7 +4149,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 
 **Incorrect forms**: de-bug
 
-**See also**: [debug (verb)](#debug-(verb))
+**See also**: [debug (verb)](#debug-verb)
 
 #### debug (verb)
 **Description**: When used as a verb, _debug_ means to find and remove errors from a program or design.
@@ -4158,7 +4158,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 
 **Incorrect forms**: de-bug
 
-**See also**: [debug (adjective)](#debug-(adjective))
+**See also**: [debug (adjective)](#debug-adjective)
 
 #### deduplication (noun)
 **Description**: _Deduplication_ is a feature of virtual disk optimization (VDO) that helps conserve storage space by eliminating multiple copies of duplicate blocks.
@@ -4194,7 +4194,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 
 **Incorrect forms**:
 
-**See also**: [message settlement](#message-settlement-(noun))
+**See also**: [message settlement](#message-settlement-noun)
 
 #### denial of service (noun)
 **Description**: _Denial of service_ is an interruption in a user’s access to a computer network, usually caused deliberately and with malicious intent. Use "denial of service (DoS)" on first use and "DoS" thereafter.
@@ -4203,7 +4203,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 
 **Incorrect forms**: Denial of Service
 
-**See also**: [denial of service (adjective)](#denial-of-service-(adjective))
+**See also**: [denial of service (adjective)](#denial-of-service-adjective)
 
 #### denial-of-service (adjective)
 **Description**: When used as an adjective, spell as "denial-of-service", for example, "denial-of-service attack".
@@ -4212,7 +4212,7 @@ LZO compression and LZ4 compression are specific compression algorithms, so they
 
 **Incorrect forms**: Denial-of-Service
 
-**See also**: [denial of service (noun)](#denial-of-service-(noun))
+**See also**: [denial of service (noun)](#denial-of-service-noun)
 
 #### deployment (noun)
 **Description**: In Red Hat OpenShift, a _deployment_ is a statement of intent by a user to deploy a new version of a configuration. To avoid confusion, do not refer to an overall OpenShift Container Platform installation, instance, or cluster as an "OpenShift deployment".
@@ -4241,7 +4241,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 **Incorrect forms**: desk top, desk-top
 
-**See also**: [desktop (noun)](#desktop-(noun))
+**See also**: [desktop (noun)](#desktop-noun)
 
 #### desktop (noun)
 **Description**: When used as a noun, _desktop_ can refer to a type of computer or the working area of a computer screen.
@@ -4250,7 +4250,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 **Incorrect forms**: desk top, desk-top
 
-**See also**: [desktop (adjective)](#desktop-(adjective))
+**See also**: [desktop (adjective)](#desktop-adjective)
 
 #### destination (noun)
 **Description**: In JMS, this is a named location for messages, such as a queue or a topic. Clients use _destinations_ to specify the queue or topic from which to send or receive messages. Only use this term in the context of JMS. In all other instances, use _address_.
@@ -4259,7 +4259,7 @@ The API object for a deployment can be either a Kubernetes-native `Deployment` o
 
 **Incorrect forms**:
 
-**See also**: [message address](#message-address-(noun))
+**See also**: [message address](#message-address-noun)
 
 #### Developer Preview (noun)
 **Description**: _Developer Preview_ software provides early access to upcoming product software in advance of its possible inclusion in a Red Hat product offering. Customers can use Developer Preview software to test functionality and provide feedback during the development process. The software might not have any documentation, is subject to change or removal at any time, and has received limited testing. Developer Preview software is not supported by Red Hat in any way and is not functionally complete or production-ready.
@@ -4359,7 +4359,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**:
 
-**See also**: [LDAP](#ldap-(noun))
+**See also**: [LDAP](#ldap-noun)
 
 #### Directory Server (noun)
 **Description**: The short product name of _Red Hat Directory Server_. In the title of guides, use the full product name "Red Hat Directory Server" and, elsewhere, the short name "Directory Server". Because it is the product name, both words start with a capital letter. Additionally, this practice distinguishes the Red Hat Directory Server product from other directory servers.
@@ -4368,7 +4368,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**: directory server
 
-**See also**: [Red Hat Directory Server](#red hat-directory-server-(noun))
+**See also**: [Red Hat Directory Server](#red hat-directory-server-noun)
 
 #### disaster recovery (adjective)
 **Description**: _Disaster recovery_ refers to processes or methods used to ensure data integrity and the operational continuity of an environment or infrastructure during any malicious or accidental interruption.
@@ -4388,7 +4388,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**:
 
-**See also**: [offline](#offline-(adjective))
+**See also**: [offline](#offline-adjective)
 
 #### Disk Druid (noun)
 **Description**: A _Disk Druid_ is a partitioning tool incorporated into Red Hat Enterprise Linux.
@@ -4418,13 +4418,13 @@ Red Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### Dispatch Router (noun)
-**Description**: The upstream component for AMQ Interconnect ([Apache Qpid Dispatch Router](https://qpid.apache.org/components/dispatch-router/)). When referring to "AMQ Interconnect", always use the "Red Hat" product name.
+**Description**: The upstream component for AMQ Interconnect ([Apache Qpid Dispatch Router](https://qpid.apache.org/components/dispatch-router/). When referring to "AMQ Interconnect", always use the "Red Hat" product name.
 
 **Use it**: with caution
 
 **Incorrect forms**:
 
-**See also**: [AMQ Interconnect](#amq-interconnect-(noun))
+**See also**: [AMQ Interconnect](#amq-interconnect-noun)
 
 #### dispersed volume (noun)
 **Description**: A _dispersed volume_ is a Gluster volume that uses erasure coding to write data across three or more bricks to ensure that data remains available even when a certain number of bricks is not available.
@@ -4433,7 +4433,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**:
 
-**See also**: [brick](#brick-(noun))
+**See also**: [brick](#brick-noun)
 
 #### distinguished name (noun)
 **Description**: A _distinguished name (DN)_ is a sequence of relative distinguished names (RDN) connected by commas. A DN defines the unique location of an entry in the LDAP directory. Use "distinguished name" on the first usage and then the abbreviation "DN" subsequently.
@@ -4533,13 +4533,13 @@ Red Hat Directory Server conforms to LDAP standards.
 **See also**:
 
 #### domain mode (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the [managed domain](#managed-domain-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "domain mode" to refer to the running instance of JBoss EAP server. For the correct usage, see the [managed domain](#managed-domain-noun) entry.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [managed domain](#managed-domain-(noun))
+**See also**: [managed domain](#managed-domain-noun)
 
 #### domain name (noun)
 **Description**: A _domain name_ is a name that identifies one or more IP addresses, for example, "redhat.com".
@@ -4557,7 +4557,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**: down-load, down load
 
-**See also**: [download (verb)](#download-(verb))
+**See also**: [download (verb)](#download-verb)
 
 #### download (verb)
 **Description**: Use "download" as a verb when referring to the act or process of downloading data.
@@ -4566,7 +4566,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**: down-load, down load
 
-**See also**: [download (noun)](#download-(noun))
+**See also**: [download (noun)](#download-noun)
 
 #### downstream (adjective)
 **Description**: _Downstream_ as an adjective refers to the Red Hat offerings that are based on upstream community projects.
@@ -4575,7 +4575,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**: down-stream, down stream
 
-**See also**: [downstream (noun)](#downstream-(noun)), [upstream (adjective)](#upstream-(adjective)), [upstream (noun)](#upstream-(noun))
+**See also**: [downstream (noun)](#downstream-noun), [upstream (adjective)](#upstream-adjective), [upstream (noun)](#upstream-noun)
 
 #### downstream (noun)
 **Description**: _Downstream_ as a noun refers to the Red Hat offerings that are based on upstream community projects.
@@ -4584,7 +4584,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**: down-stream, down stream
 
-**See also**: [downstream (adjective)](#downstream-(adjective)), [upstream (adjective)](#upstream-(adjective)), [upstream (noun)](#upstream-(noun))
+**See also**: [downstream (adjective)](#downstream-adjective), [upstream (adjective)](#upstream-adjective), [upstream (noun)](#upstream-noun)
 
 #### DRL (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _DRL_ is an abbreviation for the "Drools Rule Language", which is a file with the .drl extension. A DRL file stores technical rules as text and can be managed in the Red Hat Decision Manager user interface. A DRL file contains one or more rules.
@@ -4658,7 +4658,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**:
 
-**See also**: [ingress](#ingress-(noun,-adjective))
+**See also**: [ingress](#ingress-noun-adjective)
 
 #### EIP (noun)
 **Description**: _EIP_ is an initialism for "Enterprise Integration Pattern". In Red Hat Fuse, an EIP is a pattern language providing a technology-independent vocabulary and visual notation for designing and documenting enterprise integration solutions. Each pattern provides a proven solution for a recurring problem in integrating disparate applications and services across different enterprises. Red Hat Fuse implements numerous patterns for asynchronous messaging.
@@ -4667,7 +4667,7 @@ Red Hat Directory Server conforms to LDAP standards.
 
 **Incorrect forms**:
 
-**See also**: [component](#component-(noun))
+**See also**: [component](#component-noun)
 
 #### ejb3 subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _ejb3 subsystem_ is used to configure Enterprise JavaBeans. In general text, write in lowercase as one word. Use "EJB 3 subsystem" when referring to the `ejb3` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a space between 'EJB' and '3'.
@@ -4695,13 +4695,13 @@ Do not abbreviate any of the previously listed load balancer terms.
 **See also**:
 
 #### elytron subsystem (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the [Security - Elytron](#security---elytron-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _elytron subsystem_ is used to configure server and application security. Write in lowercase in general text. Use "Elytron subsystem" when referring to the `elytron` subsystem in titles and headings. For the correct usage when referring to the `elytron` subsystem in the management console, see the [Security - Elytron](#security---elytron-noun) entry.
 
 **Use it**: yes
 
 **Incorrect forms**:
 
-**See also**: [Security - Elytron](#security---elytron-(noun))
+**See also**: [Security - Elytron](#security---elytron-noun)
 
 #### Emacs (noun)
 **Description**: _Emacs_ is a text editor that is available on the UNIX system and similar operating systems. Like vi, Emacs is a screen editor. Unlike vi, Emacs is not an insertion mode editor, meaning that any character typed in Emacs is automatically inserted into the file, unless it includes a command prefix.
@@ -4748,7 +4748,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 **Incorrect forms**:
 
-**See also**: [component](#component-(noun)), [consumer](#consumer-(noun)), [producer](#producer-(noun))
+**See also**: [component](#component-noun), [consumer](#consumer-noun), [producer](#producer-noun)
 
 #### Enter (noun)
 **Description**: When referring to the keyboard key, use "Enter". If referring to the keyboard key on Solaris, use "Return".
@@ -4757,7 +4757,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 **Incorrect forms**:
 
-**See also**: [return](#return-(verb))
+**See also**: [return](#return-verb)
 
 #### entitlement (noun)
 **Description**: _Entitlement_ refers to the number of systems that can be attached to an individual subscription. When you use Red Hat Subscription Management (RHSM), you register a system, attach a subscription, and enable repositories. Attaching a subscription to the system consumes one or more of the subscription’s available entitlements. Do not use "entitlement" and "subscription" interchangeably. See [https://access.redhat.com/discussions/3119981](https://access.redhat.com/discussions/3119981) for details.
@@ -4766,7 +4766,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 **Incorrect forms**:
 
-**See also**: [subscription](#subscription-(noun)), [repository](#repository-(noun))
+**See also**: [subscription](#subscription-noun), [repository](#repository-noun)
 
 #### environment (noun)
 **Description**: In IT, _environment_ refers to the state of a computer, usually determined by which programs are running and basic hardware and software characteristics. For example, when one speaks of running a program in a UNIX "environment", it means running a program on a computer that has the UNIX operating system. One ingredient of an environment is the operating system, but operating systems include a number of different parameters. For example, many operating systems allow you to choose your command prompt or a default command path. All of these parameters taken together comprise the environment.
@@ -4856,7 +4856,7 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 **Incorrect forms**:
 
-**See also**: [XP](#xp-(noun))
+**See also**: [XP](#xp-noun)
 
 #### extranet (noun)
 **Description**: _Extranet_ refers to an "intranet" that is partially accessible to authorized outsiders. Whereas an intranet resides behind a firewall and is accessible only to people who are members of the same company or organization, an extranet provides various levels of accessibility to outsiders. You can access an extranet only if you have a valid user name and password. Your identity determines which parts of the extranet you can view.
@@ -4898,7 +4898,7 @@ Use this term only in OpenShift Container Storage.
 
 **Incorrect forms**:
 
-**See also**: [crash](#crash-(verb))
+**See also**: [crash](#crash-verb)
 
 #### FAQ (noun)
 **Description**: When referring to a _Frequently Asked Questions (FAQ)_ section of content, refer to it as "an FAQ" (to be read as "an F-A-Q"), not "a FAQ". The plural form is "FAQs".
@@ -4918,7 +4918,7 @@ Use the two-word "fault tolerance" when using it as a noun.
 
 **Incorrect forms**: fault-tolerance
 
-**See also**: [fault-tolerant](#fault-tolerant-(adjective))
+**See also**: [fault-tolerant](#fault-tolerant-adjective)
 
 #### fault-tolerant (adjective)
 **Description**: _Fault-tolerant_ systems can respond gracefully to an unexpected hardware or software failure. Many fault-tolerant computer systems mirror all operations, that is, every operation is performed on two or more duplicate systems, so if one fails the other can take over.
@@ -4929,7 +4929,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 **Incorrect forms**: fault tolerant
 
-**See also**: [fault tolerance](#fault-tolerance-(noun))
+**See also**: [fault tolerance](#fault-tolerance-noun)
 
 #### federated (adjective)
 **Description**: In Red Hat Ceph Storage 1.3, you can configure the Ceph Object Gateway to participate in a _federated_ architecture with multiple regions and with multiple zones for a region.
@@ -4938,7 +4938,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 **Incorrect forms**:
 
-**See also**: [multisite](#multisite-(adjective))
+**See also**: [multisite](#multisite-adjective)
 
 #### Fedora™ Project (noun)
 **Description**: The _Fedora Project_ is a global partnership of free software community members, sponsored by Red Hat. Red Hat Enterprise Linux is based on the Fedora operating system.
@@ -4965,7 +4965,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 **Incorrect forms**:
 
-**See also**: [block storage](#block-storage-(noun)), [object storage](#object-storage-(noun))
+**See also**: [block storage](#block-storage-noun), [object storage](#object-storage-noun)
 
 #### FileStore (noun)
 **Description**: In Red Hat Ceph Storage, _FileStore_ is an OSD back end responsible for the OSD data that writes objects as files on a file system.
@@ -4974,7 +4974,7 @@ Use the hyphenated "fault-tolerant" when using it as an adjective.
 
 **Incorrect forms**: filestore, File Store
 
-**See also**: [BlueStore](#bluestore-(noun))
+**See also**: [BlueStore](#bluestore-noun)
 
 #### file trigger directive (noun)
 **Description**: In Red Hat Enterprise Linux, a _file trigger directive_ is a special form of a transaction scriptlet that runs conditionally when matching files from other packages are installed or uninstalled.
@@ -5012,7 +5012,7 @@ Do not use "Firewire" or "firewire". Although FireWire is a trademark of Apple C
 
 **Incorrect forms**: firm ware, firm-ware
 
-**See also**: [BIOS](#bios-(noun))
+**See also**: [BIOS](#bios-noun)
 
 #### floating point (noun)
 **Description**: _Floating point_ derives from the fact that there is no fixed number of digits before and after the decimal point, that is, the decimal point can float.
@@ -5086,7 +5086,7 @@ Use with caution. It is more typical to refer to _FUSE-compatible_ or _FUSE-comp
 
 **Incorrect forms**: Ignite, Fuse Ignite
 
-**See also**: [Syndesis](#syndesis-(noun)), [Red Hat Fuse Online](#red hat-fuse-online-(noun))
+**See also**: [Syndesis](#syndesis-noun), [Red Hat Fuse Online](#red hat-fuse-online-noun)
 
 #### FUSE_HOME (noun)
 **Description**: In Red Hat Fuse, _FUSE_HOME_ specifies the Fuse installation directory. Use this when describing which directory to use.
@@ -5104,7 +5104,7 @@ Use with caution. It is more typical to refer to _FUSE-compatible_ or _FUSE-comp
 
 **Incorrect forms**:
 
-**See also**: [futexes](#futexes-(noun)), [mutex](#mutex-(noun))
+**See also**: [futexes](#futexes-noun), [mutex](#mutex-noun)
 
 #### futexes (noun)
 **Description**: _Futex_ is an abbreviation for "fast user-space mutex". "Futexes" is the correct plural form.
@@ -5113,7 +5113,7 @@ Use with caution. It is more typical to refer to _FUSE-compatible_ or _FUSE-comp
 
 **Incorrect forms**:
 
-**See also**: [futex](#futex-(noun)), [mutexes](#mutexes-(noun))
+**See also**: [futex](#futex-noun), [mutexes](#mutexes-noun)
 
 #### fuzzy (adjective)
 **Description**: It is only correct to use "fuzzy" as an adjective when referring to "fuzzy searches" (the technique of finding strings that match a pattern approximately, rather than exactly). See [Avoiding Slang, Metaphors, and Misleading Language](http://www.stylepedia.net/#chap-Red_Hat_Technical_Publications-Writing_Style_Guide-Avoiding_Slang_Metaphors_and_Misleading_Language) for details and examples.
@@ -5144,7 +5144,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [gas](#gas-(noun))
+**See also**: [gas](#gas-noun)
 
 #### gas (noun)
 **Description**: _GAS_ is an acronym for "GNU Assembler", the assembler used by the GNU Project. When referring to the command, use `gas`, marked up appropriately.
@@ -5153,7 +5153,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [GAS](#gas-(noun))
+**See also**: [GAS](#gas-noun)
 
 #### GB (noun)
 **Description**: _GB_ is an abbreviation for "gigabyte". Use a space between the value and the abbreviation, for example, "a 2 GB file".
@@ -5162,7 +5162,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**: gb, Gb
 
-**See also**: [gigabyte](#gigabyte-(noun))
+**See also**: [gigabyte](#gigabyte-noun)
 
 #### Gbps (noun)
 **Description**: _Gbps_ is an abbreviation for "gigabits per second", a data transfer speed measurement for high-speed networks such as Gigabit Ethernet. When used to describe data transfer rates, a gigabit equals 1,000,000,000 bits.
@@ -5180,7 +5180,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [gcc](#gcc-(noun))
+**See also**: [gcc](#gcc-noun)
 
 #### gcc (noun)
 **Description**: _GCC_ is an abbreviation for the "GNU Compiler Collection". GCC is a compiler system produced by the GNU Project supporting various programming languages. When referring to the command, use `gcc`, marked up appropriately.
@@ -5189,7 +5189,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [GCC](#gcc-(noun))
+**See also**: [GCC](#gcc-noun)
 
 #### GCJ (noun)
 **Description**: _GCJ_ is an abbreviation for the "GNU Compiler for Java". GCJ was a free compiler for the Java programming language and part of the GNU Compiler Collection. As of 2015, there were no new developments announced from GCJ. In 2016, GCJ was removed from GCC. When referring to the program, use "GCJ".
@@ -5198,7 +5198,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [gcj](#gcj-(noun)), [GCC](#gcc-(noun))
+**See also**: [gcj](#gcj-noun), [GCC](#gcc-noun)
 
 #### gcj (noun)
 
@@ -5208,7 +5208,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [GCJ](#gcj-(noun)), [gcc](#gcc-(noun))
+**See also**: [GCJ](#gcj-noun), [gcc](#gcc-noun)
 
 #### GDB (noun)
 **Description**: _GDB_ is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the program, use "GDB".
@@ -5217,7 +5217,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [gdb](#gdb-(noun)), [Insight](#insight-(noun))
+**See also**: [gdb](#gdb-noun), [Insight](#insight-noun)
 
 #### gdb (noun)
 **Description**: _GDB_ is an abbreviation for "GNU Debugger", the standard debugger for the GNU operating system. It is a portable debugger that runs on many operating systems that are similar to the UNIX system, and works for many programming languages. When referring to the command, use `gdb`, marked up appropriately.
@@ -5226,7 +5226,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [GDB](#gdb-(noun)), [Insight](#insight-(noun))
+**See also**: [GDB](#gdb-noun), [Insight](#insight-noun)
 
 #### geo-replication (noun)
 **Description**: (1) In Red Hat Gluster Storage and related solutions, _geo-replication_ refers to asynchronous replication of data in a Gluster file system from one location to another across a network. (2) In Red Hat Quay, _geo-replication_ refers to replication of data from one central storage engine to other storage engines.
@@ -5253,7 +5253,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [GB](#gb-(noun))
+**See also**: [GB](#gb-noun)
 
 #### GIMP (noun)
 **Description**: _GIMP_ is an acronym for "GNU Image Manipulation Program". Do not use "Gimp" or "gimp".
@@ -5280,7 +5280,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**:
 
-**See also**: [brick](#brick-(noun))
+**See also**: [brick](#brick-noun)
 
 #### GNOME (noun)
 **Description**: _GNOME_ is an open source desktop environment for operating systems that are similar to the UNIX system.
@@ -5289,7 +5289,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**: Gnome, gnome
 
-**See also**: [GNOME Classic](#gnome-classic-(noun))
+**See also**: [GNOME Classic](#gnome-classic-noun)
 
 #### GNOME Classic (noun)
 **Description**: Although the desktop team tends to refer to "GNOME Classic" (technically, GNOME Shell with the classic mode extensions enabled) as _classic mode_ in internal and developer-oriented community documents, we should stay consistent with what is displayed to the user on the GNOME Display Manager (GDM) login screen, that is, "GNOME Classic". Refer to "GNOME modern mode" (technically, GNOME Shell with the classic mode extensions disabled) as "GNOME" (on the login screen and elsewhere).
@@ -5298,7 +5298,7 @@ When referring to the command, use pass:q[`g++`], marked up appropriately.
 
 **Incorrect forms**: classic mode
 
-**See also**: [GNOME](#gnome-(noun))
+**See also**: [GNOME](#gnome-noun)
 
 #### GNU (noun)
 **Description**: _GNU_ is a recursive acronym for "GNU’s Not UNIX". GNU is an open-source operating system that is similar to the UNIX system. Do not use "Gnu" or "gnu".
@@ -5399,7 +5399,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 **Incorrect forms**:
 
-**See also**: [libvirt](#libvirt-(noun))
+**See also**: [libvirt](#libvirt-noun)
 
 #### guided editor (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _guided editor_ is an editor for creating and editing business rules. Rules edited in the guided editor use the Business Rules Language (BRL) format. The guided editor prompts users for input based on the object model of the rule being edited.
@@ -5408,7 +5408,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 **Incorrect forms**: Editor, GUI editor, Business Central editor
 
-**See also**: [Business Central](#business-central-(noun))
+**See also**: [Business Central](#business-central-noun)
 
 #### H
 
@@ -5437,7 +5437,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 **Incorrect forms**:
 
-**See also**: [interpreter directive](#interpreter-directive-(noun)), [shebang](#shebang-(noun))
+**See also**: [interpreter directive](#interpreter-directive-noun), [shebang](#shebang-noun)
 
 #### he (pronoun)
 
@@ -5447,7 +5447,7 @@ Kerberos is the dominant GSSAPI mechanism implementation, which allows Red Hat E
 
 **Incorrect forms**:
 
-**See also**: [she](#she-(pronoun))
+**See also**: [she](#she-pronoun)
 
 #### health check (noun)
 **Description**: A _health check_ identifies inefficiencies in your IT systems, applications, and maintenance. "Health check" is only capitalized when it is part of a product name, for example, "Red Hat Enterprise Linux Server Health Check". Do not capitalize "health check" when referring to those services in a general way. For example, "A health check ensures your systems perform at their best."
@@ -5485,7 +5485,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [DNS SRV records](#dns-srv-records-(noun))
+**See also**: [DNS SRV records](#dns-srv-records-noun)
 
 #### high availability (noun)
 **Description**: _High availability_ is the concept of making a system or service continuously available, even if a particular component experiences a failure. For example, "Support is available 24x7 to help maintain high availability."
@@ -5494,7 +5494,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [high-availability](#high-availability-(adjective))
+**See also**: [high-availability](#high-availability-adjective)
 
 #### high-availability (adjective)
 **Description**: Use _high-availability_ to describe an object that is continuously available, for example, "high-availability cluster".
@@ -5503,7 +5503,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [high availability](#high-availability-(noun))
+**See also**: [high availability](#high-availability-noun)
 
 #### high-availability cluster (noun)
 **Description**: A _high-availability cluster_ is a group of physical or virtual machines that can share work between themselves in order to allow services and resources to be available even if one or more machines in the cluster is offline.
@@ -5512,7 +5512,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [availability](#availability-(adjective))
+**See also**: [availability](#availability-adjective)
 
 #### high-performance computing (noun)
 **Description**: _High-performance computing_ is the use of parallel processing to obtain more efficient processing of complex programs. Use standard hyphenation guidelines to maintain clarity.
@@ -5548,7 +5548,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [target system](#target-system-(noun))
+**See also**: [target system](#target-system-noun)
 
 #### hot add (verb)
 **Description**: _Hot add_ is the ability to add physical or virtual hardware to a running system without the need for downtime.
@@ -5557,7 +5557,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: hotadd, hot-add
 
-**See also**: [hot plug](#hot-plug-(verb)), [hot swap](#hot-swap-(verb))
+**See also**: [hot plug](#hot-plug-verb), [hot swap](#hot-swap-verb)
 
 #### hot plug (verb)
 **Description**: _Hot plug_ is the ability to add or remove physical or virtual hardware to or from a running system without the need for downtime.
@@ -5566,7 +5566,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: hotplug, hot-plug
 
-**See also**: [hot add](#hot-add-(verb)), [hot swap](#hot-swap-(verb))
+**See also**: [hot add](#hot-add-verb), [hot swap](#hot-swap-verb)
 
 #### Hot Rod (adjective)
 **Description**: In Red Hat Data Grid, _Hot Rod_ is a binary TCP client-server protocol. Java, C#, C++, and Node.js clients, as well as clients written in other programming languages, can access data that resides in remote caches on Data Grid Server clusters via the Hot Rod endpoint. Write as two words and capitalize the first letter of each word.
@@ -5584,7 +5584,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: hotswap, hot-swap
 
-**See also**: [hot add](#hot-add-(verb)), [hot plug](#hot-plug-(verb))
+**See also**: [hot add](#hot-add-verb), [hot plug](#hot-plug-verb)
 
 #### hotline (noun)
 **Description**: A _hotline_ is a direct communications link between two points in which communications are automatically directed to a specific destination without the need for additional routing.
@@ -5614,13 +5614,13 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **See also**:
 
 #### HTTP interface (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the [management console](#management-console-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "HTTP interface" to refer to the management console. For the correct usage, see the [management console](#management-console-noun) entry.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [management console](#management-console-(noun))
+**See also**: [management console](#management-console-noun)
 
 #### hub (noun)
 **Description**: In an LDAP replication environment, a _hub_ receives data from a supplier and replicates the data to consumers.
@@ -5629,7 +5629,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [consumer](#consumer-(noun)), [LDAP](#ldap-(noun))
+**See also**: [consumer](#consumer-noun), [LDAP](#ldap-noun)
 
 #### huge page (noun)
 **Description**: Use "huge page" when referring to page sizes on Linux-based systems larger than the default size of 4096 bytes. Use the two-word version in uppercase and lowercase. Capitalize "huge" at the beginning of a sentence, and capitalize both words in titles. If you are documenting a user interface, use the capitalization used in that interface.
@@ -5638,16 +5638,16 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: large page, super page
 
-**See also**: [huge-page (adjective)](#huge-page-(adjective))
+**See also**: [huge-page (adjective)](#huge-page-adjective)
 
 #### huge-page (adjective)
-**Description**: Use "huge-page" when referring to page sizes on Linux-based systems larger than the default size of 4096 bytes. Normal hyphenation rules apply. See [huge page](#huge-page-(noun)) for capitalization rules.
+**Description**: Use "huge-page" when referring to page sizes on Linux-based systems larger than the default size of 4096 bytes. Normal hyphenation rules apply. See [huge page](#huge-page-noun) for capitalization rules.
 
 **Use it**: yes
 
 **Incorrect forms**:
 
-**See also**: [huge page (noun)](#huge-page-(noun))
+**See also**: [huge page (noun)](#huge-page-noun)
 
 #### Hyper-Threading (noun)
 **Description**: _Hyper-Threading_ is the Intel implementation of simultaneous multithreading. If you are not referring specifically to the Intel implementation, use "simultaneous multithreading" or "SMT".
@@ -5665,7 +5665,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [hypervisor](#hypervisor-(noun))
+**See also**: [hypervisor](#hypervisor-noun)
 
 #### hyperconverged (adjective)
 **Description**: A _hyperconverged_ system combines compute, storage, networking, and management capabilities into a single solution, simplifying deployment and reducing the cost of acquisition and maintenance.
@@ -5703,7 +5703,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [PaaS](#paas-(noun)), [SaaS](#saas-(noun))
+**See also**: [PaaS](#paas-noun), [SaaS](#saas-noun)
 
 #### IBM Cloud® (noun)
 **Description**: _IBM Cloud®_ refers to a platform where a customer can run an OpenShift Container Platform cluster on hybrid cloud infrastructure. The name IBM Cloud® replaces IBM Cloud VPC.
@@ -5712,7 +5712,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: IBM Cloud® Bare Metal (Classic), IBM Cloud VPC
 
-**See also**: [IBM Cloud® Bare Metal (Classic)](#ibm-cloud®-bare-metal-(classic)-(noun))
+**See also**: [IBM Cloud® Bare Metal (Classic)](#ibm-cloud®-bare-metal-classic)-noun)
 
 #### IBM Cloud® Bare Metal (Classic) (noun)
 **Description**: _IBM Cloud® Bare Metal (Classic)_ refers to a platform where a customer can run an OpenShift Container Platform cluster on an IBM bare-metal server. Ensure that "IBM Cloud®" precedes "Bare Metal (Classic)".
@@ -5721,7 +5721,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: IBM Cloud®
 
-**See also**: [IBM Cloud®](#ibm-cloud®-(noun))
+**See also**: [IBM Cloud®](#ibm-cloud®-noun)
 
 #### IBM eServer System i (noun)
 **Description**: This is a former product name; instead use the official product name "IBM Power".
@@ -5730,7 +5730,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: IBM eServer System I
 
-**See also**: [IBM Power®](#ibm-power®-(noun)), [iSeries](#iseries-(noun))
+**See also**: [IBM Power®](#ibm-power®-noun), [iSeries](#iseries-noun)
 
 #### IBM eServer System p (noun)
 **Description**: This is a former product name; instead use the official product name "IBM Power".
@@ -5739,7 +5739,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: pSeries
 
-**See also**: [IBM Power®](#ibm-power®-(noun))
+**See also**: [IBM Power®](#ibm-power®-noun)
 
 #### IBM® LinuxONE (noun)
 **Description**: _IBM® LinuxONE_ represents the IBM® LinuxONE platform (`s390x` architecture) and its products. "IBM®" must always precede "LinuxONE" in any context.
@@ -5748,7 +5748,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: IBM LinuxONE, LinuxONE, linuxone
 
-**See also**: [IBM Z®](#ibm-z®-(noun)), [s390x](#s390x-(noun))
+**See also**: [IBM Z®](#ibm-z®-noun), [s390x](#s390x-noun)
 
 #### IBM Power® (noun)
 **Description**: _IBM Power®_ represents the family of servers based on Power processors that can include combinations of IBM Power® servers and its products. For sub-products of IBM Power®, do not move the registered trademark symbol’s position. For example, _IBM Power® Virtual Server_.
@@ -5766,7 +5766,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: S/390, S90
 
-**See also**: [IBM® LinuxONE](#ibm®-linuxone-(noun)), [IBM Z®](#ibm-z®-(noun)), [s390x](#s390x-(noun))
+**See also**: [IBM® LinuxONE](#ibm®-linuxone-noun), [IBM Z®](#ibm-z®-noun), [s390x](#s390x-noun)
 
 #### IBM Z® (noun)
 **Description**: _IBM Z®_ represents the IBM mainframe platform (`s390x` architecture) and its products.
@@ -5775,7 +5775,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**: IBM zSystems, Z, S/390
 
-**See also**: [IBM® LinuxONE](#ibm®-linuxone-(noun)), [s390x](#s390x-(noun))
+**See also**: [IBM® LinuxONE](#ibm®-linuxone-noun), [s390x](#s390x-noun)
 
 #### ID mapping (noun)
 **Description**: In Red Hat Enterprise Linux, SSSD can use the SID of an AD user to algorithmically generate POSIX IDs in a process called _ID mapping_. ID mapping creates a map between SIDs in AD and IDs on Linux.
@@ -5788,7 +5788,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **Incorrect forms**:
 
-**See also**: [id ranges](#id-ranges-(noun)), [SSSD](#sssd-(noun))
+**See also**: [id ranges](#id-ranges-noun), [SSSD](#sssd-noun)
 
 #### ID ranges (noun)
 **Description**: In Red Hat Enterprise Linux, an _ID range_ is a range of ID numbers assigned to the IdM topology or a specific replica. You can use ID ranges to specify the valid range of UIDs and GIDs for new users, hosts and groups. ID ranges are used to avoid ID number conflicts. There are two distinct types of ID ranges in IdM:
@@ -5806,7 +5806,7 @@ Note that the IdM range and the DNA range match, but they are not interconnected
 
 **Incorrect forms**:
 
-**See also**: [ID mapping](#id-mapping-(noun))
+**See also**: [ID mapping](#id-mapping-noun)
 
 #### ID views (noun)
 **Description**: In Red Hat Enterprise Linux, you can use _ID views_ to specify new values for POSIX user or group attributes, and to define on which client host or hosts the new values will apply. See examples of ID views usage:
@@ -5820,7 +5820,7 @@ In an IdM-AD trust setup, the `Default Trust View` is an ID view applied to AD u
 
 **Incorrect forms**:
 
-**See also**: [POSIX attributes](#posix-attributes-(noun))
+**See also**: [POSIX attributes](#posix-attributes-noun)
 
 #### identity (noun)
 **Description**: _Identity_ refers to both the user name and the list of groups a user belongs to.
@@ -5839,7 +5839,7 @@ Capitalize it only when it starts a sentence.
 
 **Incorrect forms**:
 
-**See also**: [identity provider federation](#identity-provider-federation-(noun)), [identity provider mappers](#identity-provider-mappers-(noun))
+**See also**: [identity provider federation](#identity-provider-federation-noun), [identity provider mappers](#identity-provider-mappers-noun)
 
 #### identity provider federation (noun)
 **Description**: In Red Hat Single Sign-On, you can delegate authentication to one or more IdPs, and this process is referred to as _identity provider federation_. Social login through Facebook or Google+ is an example of identity provider federation. You can also hook Red Hat Single Sign-On to delegate authentication to any other OpenID Connect or SAML 2.0 IdP.
@@ -5848,7 +5848,7 @@ Capitalize it only when it starts a sentence.
 
 **Incorrect forms**:
 
-**See also**: [identity provider](#identity-provider-(noun)), [identity provider mappers](#identity-provider-mappers-(noun))
+**See also**: [identity provider](#identity-provider-noun), [identity provider mappers](#identity-provider-mappers-noun)
 
 #### identity provider mappers (noun)
 **Description**: When doing IdP federation, you can map incoming tokens and assertions to user and session attributes, which you refer to as "identity provider mappers". This helps you propagate identity information from the external IdP to your client requesting authentication.
@@ -5857,7 +5857,7 @@ Capitalize it only when it starts a sentence.
 
 **Incorrect forms**:
 
-**See also**: [identity provider](#identity-provider-(noun)), [identity provider federation](#identity-provider-federation-(noun)), [identity token](#identity-token-(noun))
+**See also**: [identity provider](#identity-provider-noun), [identity provider federation](#identity-provider-federation-noun), [identity token](#identity-token-noun)
 
 #### identity token (noun)
 **Description**: An _identity token_ provides identity information about the user and is part of the OpenID Connect specification.
@@ -5866,7 +5866,7 @@ Capitalize it only when it starts a sentence.
 
 **Incorrect forms**:
 
-**See also**: [identity provider](#identity-provider-(noun)), [identity provider mappers](#identity-provider-mappers-(noun)), [identity provider federation](#identity-provider-federation-(noun))
+**See also**: [identity provider](#identity-provider-noun), [identity provider mappers](#identity-provider-mappers-noun), [identity provider federation](#identity-provider-federation-noun)
 
 #### IdM CA renewal server (noun)
 **Description**: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the _IdM CA renewal server_. This server maintains and renews IdM system certificates. By default, the first CA server you install fulfills this role, but you can configure any CA server to be the IdM CA renewal server. In a deployment without integrated CA, there is no IdM CA renewal server.
@@ -5875,7 +5875,7 @@ Capitalize it only when it starts a sentence.
 
 **Incorrect forms**: master CA
 
-**See also**: [certificate authority](#certificate-authority-(noun))
+**See also**: [certificate authority](#certificate-authority-noun)
 
 #### IdM CA server (noun)
 **Description**: In Red Hat Enterprise Linux, an _IdM CA server_ is an IdM server on which the IdM certificate authority (CA) service is installed and running.
@@ -5886,7 +5886,7 @@ Alternative names: **CA server**
 
 **Incorrect forms**:
 
-**See also**: [certificate authority](#certificate-authority-(noun))
+**See also**: [certificate authority](#certificate-authority-noun)
 
 #### IdM CRL publisher server (noun)
 **Description**: In Red Hat Enterprise Linux, if your IdM topology contains an integrated certificate authority (CA), one server has the unique role of the Certificate revocation list (CRL) publisher server. This server is known as an _IdM CRL publisher server_ and is responsible for maintaining the CRL. By default, the server that fulfills the `CA renewal server` role also fulfills this role, but you can configure any CA server to be the IdM CRL publisher server. In a deployment without integrated CA, there is no IdM CRL publisher server.
@@ -5895,7 +5895,7 @@ Alternative names: **CA server**
 
 **Incorrect forms**:
 
-**See also**: [IdM CA renewal server](#idm-ca-renewal-server-(noun)), [certificate authority](#certificate-authority-(noun))
+**See also**: [IdM CA renewal server](#idm-ca-renewal-server-noun), [certificate authority](#certificate-authority-noun)
 
 #### IdM deployment (noun)
 **Description**: In Red Hat Enterprise Linux, _IdM deployment_ is a term that refers to the entirety of your IdM installation. Your IdM deployment has many identifying components:
@@ -5958,7 +5958,7 @@ There is no functional difference between the first server that was installed an
 
 **Incorrect forms**:
 
-**See also**: [image](#image-(noun))
+**See also**: [image](#image-noun)
 
 #### in-memory (adjective)
 **Description**: _In-memory_ systems store data in a computer’s random access memory (RAM). Clusters share memory resources, which reduces waste and boosts application performance by providing access to data in the same memory space where code executes.
@@ -5976,7 +5976,7 @@ There is no functional difference between the first server that was installed an
 
 **Incorrect forms**:
 
-**See also**: [upgrade](#upgrade-(verb)), [clean install](#clean-install-(noun))
+**See also**: [upgrade](#upgrade-verb), [clean install](#clean-install-noun)
 
 #### indexless bucket (noun)
 **Description**: An _indexless bucket_ is a bucket that does not maintain an index.
@@ -5985,7 +5985,7 @@ There is no functional difference between the first server that was installed an
 
 **Incorrect forms**:
 
-**See also**: [bucket index](#bucket-index-(noun))
+**See also**: [bucket index](#bucket-index-noun)
 
 #### inference engine (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _inference engine_ is a part of the Red Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
@@ -6032,7 +6032,7 @@ Always use `Ingress` with markup when referencing the `Ingress` resource or `Ing
 
 **Incorrect forms**:
 
-**See also**:[egress](#egress-(adjective)), [Ingress Controller](#ingress-controller-(noun))
+**See also**:[egress](#egress-adjective), [Ingress Controller](#ingress-controller-noun)
 
 #### Ingress Controller (noun)
 **Description**: In Red Hat OpenShift, the _Ingress Controller_ is a resource that forwards traffic to endpoints of services.
@@ -6088,7 +6088,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 **Incorrect forms**: GDBTK
 
-**See also**: [GDB](#gdb-(noun)), [gdb](#gdb-(noun))
+**See also**: [GDB](#gdb-noun), [gdb](#gdb-noun)
 
 #### installation program (noun)
 **Description**: An _installation program_ is a program that installs certain software.
@@ -6124,7 +6124,7 @@ Red Hat Trusted Application Pipeline users can configure secrets to inject sensi
 
 **Incorrect forms**:
 
-**See also**: [host system](#host-system-(noun)), [target kernel](#target-kernel-(noun)), [target system](#target-system-(noun))
+**See also**: [host system](#host-system-noun), [target kernel](#target-kernel-noun), [target system](#target-system-noun)
 
 #### integration (noun)
 **Description**: In Red Hat Fuse Online, an _integration_ is a Camel route created.
@@ -6220,7 +6220,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [raw-interpreted program](#raw-interpreted-program-(noun)), [byte-compiled program](#byte-compiled-program-(noun))
+**See also**: [raw-interpreted program](#raw-interpreted-program-noun), [byte-compiled program](#byte-compiled-program-noun)
 
 #### interpreter directive (noun)
 **Description**: An _interpreter directive_, such as `#!/bin/bash`, is a computer language construct that controls which interpreter parses and interprets instructions in a computer program. This term is also commonly known as _shebang_. Write "interpreter directives, also known as shebangs ..." on first use. Do not use "hashbang".
@@ -6229,7 +6229,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: hashbang
 
-**See also**: [shebang](#shebang-(noun)), [hashbang](#hashbang-(noun))
+**See also**: [shebang](#shebang-noun), [hashbang](#hashbang-noun)
 
 #### inventory (noun)
 **Description**: In Red Hat Enterprise Linux, an _inventory_ is a list of managed nodes. An inventory file is also sometimes called a _hostfile_. An inventory can specify information like IP address for each managed node. An inventory can also organize managed nodes, creating and nesting groups for easier scaling.
@@ -6238,7 +6238,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [managed nodes](#managed-nodes-(noun))
+**See also**: [managed nodes](#managed-nodes-noun)
 
 #### io subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _io subsystem_ is used to define workers and buffer pools used by other subsystems. In general text, write "io" in lowercase as one word. Use "IO subsystem" when referring to the `io` subsystem in titles and headings.
@@ -6265,7 +6265,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: Ip
 
-**See also**: [IPv4](#ipv4-(noun)), [IPv6](#ipv6-(noun))
+**See also**: [IPv4](#ipv4-noun), [IPv6](#ipv6-noun)
 
 #### IP address (noun)
 **Description**: Use _IP address_ instead of "IP" when writing about IP addresses.
@@ -6274,7 +6274,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: IP
 
-**See also**: [IP](#ip-(noun))
+**See also**: [IP](#ip-noun)
 
 #### IPv4 (noun)
 **Description**: Use _IPv4_ to explicitly refer to version 4 of the Internet Protocol. Do not expand the abbreviation on first use.
@@ -6283,7 +6283,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: ipv4, IPV4, Ipv4
 
-**See also**: [IP](#ip-(noun))
+**See also**: [IP](#ip-noun)
 
 #### IPv6 (noun)
 **Description**: Use _IPv6_ to explicitly refer to version 6 of the Internet Protocol. Do not expand the abbreviation on first use.
@@ -6292,7 +6292,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: ipv6, IPV6, Ipv6
 
-**See also**: [IP](#ip-(noun))
+**See also**: [IP](#ip-noun)
 
 #### IP Masquerade (noun)
 **Description**: _IP Masquerade_ is a Linux networking function. IP Masquerade, also called "IPMASQ" or "MASQ", allows one or more computers in a network without assigned IP addresses to communicate with the internet using the Linux server’s assigned IP address. The IPMASQ server acts as a gateway, and the other devices are invisible behind it. To other machines on the internet, the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs. Because IPMASQ is a generic technology, the server can be connected to other computers through LAN technologies such as Ethernet, Token Ring, and FDDI, as well as dial-up connections such as PPP or SLIP.
@@ -6328,7 +6328,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: ISeries
 
-**See also**: [IBM Power®](#ibm-power®-(noun)), [IBM eServer System i](#ibm-eserver-system-i-(noun))
+**See also**: [IBM Power®](#ibm-power®-noun), [IBM eServer System i](#ibm-eserver-system-i-noun)
 
 #### ISO (noun)
 **Description**: _ISO_ is an acronym for the "International Organization for Standardization", which is an international standard-setting body made up of representatives from multiple national standards organizations. Since its founding in February 1947, ISO has promoted worldwide proprietary, industrial, and commercial standards.
@@ -6364,7 +6364,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: IA64, ia64
 
-**See also**: [Itanium 2](#itanium-2-(noun))
+**See also**: [Itanium 2](#itanium-2-noun)
 
 #### Itanium 2 (noun)
 **Description**: _Itanium 2_ is correct. Do not use "Itanium2" without the space between "Itanium" and "2".
@@ -6373,7 +6373,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: Itanium2
 
-**See also**: [Itanium](#itanium-(noun))
+**See also**: [Itanium](#itanium-noun)
 
 #### J
 
@@ -6384,7 +6384,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [JavaScript](#javascript-(noun))
+**See also**: [JavaScript](#javascript-noun)
 #### JavaScript (noun)
 **Description**: _JavaScript_ is a trademark of Oracle Corporation and should be used when referring to the scripting language. When referring to a file written using this language, use "javascript".
 
@@ -6392,7 +6392,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [javascript](#javascript-(adjective))
+**See also**: [javascript](#javascript-adjective)
 
 #### jaxrs subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _jaxrs subsystem_ enables the deployment and functionality of RESTful web services through the Java API for RESTful Web Services (JAX-RS). In general text, write in lowercase as one word. Use "JAX-RS subsystem" when referring to the `jaxrs` subsystem in titles and headings. When writing the term in its heading form, ensure that you include a hyphen between 'JAX' and 'RS'.
@@ -6410,7 +6410,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [Red Hat AMQ](#red hat-amq-(noun))
+**See also**: [Red Hat AMQ](#red hat-amq-noun)
 
 #### JBoss Community (noun)
 **Description**: Use "JBoss Community" when referring to the community of users and contributors. Do not refer to the community as "JBoss.org".
@@ -6422,13 +6422,13 @@ _This feature can run only on Intel 64 processors_
 **See also**:
 
 #### JBoss EAP (noun)
-**Description**: _JBoss EAP_ is the approved shortened form of [Red Hat JBoss Enterprise Application Platform](#red hat-jboss-enterprise-application-platform-(noun)).
+**Description**: _JBoss EAP_ is the approved shortened form of [Red Hat JBoss Enterprise Application Platform](#red hat-jboss-enterprise-application-platform-noun).
 
 **Use it**: yes
 
 **Incorrect forms**: EAP, JBoss
 
-**See also**: [Red Hat JBoss Enterprise Application Platform](#red hat-jboss-enterprise-application-platform-(noun))
+**See also**: [Red Hat JBoss Enterprise Application Platform](#red hat-jboss-enterprise-application-platform-noun)
 
 #### JBoss EAP built-in messaging (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, _JBoss EAP built-in messaging_ is an acceptable term for referring to the built-in `messaging` system. Other acceptable terms are "built-in messaging" and "JBoss EAP messaging".
@@ -6437,7 +6437,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: ActiveMQ, ActiveMQ Artemis
 
-**See also**: [built-in messaging](#built-in-messaging-(noun)), [JBoss EAP messaging](#jboss-eap-messaging-(noun))
+**See also**: [built-in messaging](#built-in-messaging-noun), [JBoss EAP messaging](#jboss-eap-messaging-noun)
 
 #### JBoss EAP messaging (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, "JBoss EAP messaging" is an acceptable term for referring to the built-in messaging system. Other acceptable terms are "built-in messaging" and "JBoss EAP built-in messaging".
@@ -6446,7 +6446,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**: ActiveMQ, ActiveMQ Artemis
 
-**See also**: [built-in messaging](#built-in-messaging-(noun)), [JBoss EAP built-in messaging](#jboss-eap-built-in-messaging-(noun))
+**See also**: [built-in messaging](#built-in-messaging-noun), [JBoss EAP built-in messaging](#jboss-eap-built-in-messaging-noun)
 
 #### JBoss Way (noun)
 **Description**: Capitalize "JBoss Way" as a formal, branded concept when referring specifically to the JBoss cultural and business climate or practices. If the reference is generic or the way is further specified, do not capitalize "way".
@@ -6455,7 +6455,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [Red Hat Way](#red hat-way-(noun))
+**See also**: [Red Hat Way](#red hat-way-noun)
 
 #### jca subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _jca subsystem_ is used to configure settings for the Jakarta EE Connector Architecture (JCA) container. In general text, write in lowercase as one word. Use "JCA subsystem" when referring to the `jca` subsystem in titles and headings.
@@ -6574,7 +6574,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [kB](#kb-(noun))
+**See also**: [kB](#kb-noun)
 
 #### kB (noun)
 **Description**: "kB" is an abbreviation for "kilobyte". One kB equals 1000 bytes.
@@ -6583,7 +6583,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [KB](#kb-(noun))
+**See also**: [KB](#kb-noun)
 
 #### kerberize (verb)
 **Description**: Do not use "kerberize" or other variants to refer to applications or services that use Kerberos authentication. Refer to such applications as "Kerberos-aware" or "Kerberos-enabled", or rewrite the sentence.
@@ -6592,7 +6592,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [kerberized](#kerberized-(adjective))
+**See also**: [kerberized](#kerberized-adjective)
 
 #### kerberized (adjective)
 **Description**: Do not use "kerberized" or other variants to refer to applications or services that use Kerberos authentication. Refer to such applications as "Kerberos-aware" or "Kerberos-enabled", or rewrite the sentence.
@@ -6601,7 +6601,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [kerberize](#kerberize-(verb))
+**See also**: [kerberize](#kerberize-verb)
 
 #### Kerberos authentication indicators (noun)
 **Description**: _Authentication indicators_ are attached to Kerberos tickets and represent the initial authentication method used to acquire a ticket:
@@ -6624,7 +6624,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [Kerberos principal](#kerberos-principal-(noun))
+**See also**: [Kerberos principal](#kerberos-principal-noun)
 
 #### Kerberos principal (noun)
 **Description**:  Unique _Kerberos principals_ identify each user, service, and host in a Kerberos realm. "Kerberos principals" adhere to the following naming conventions:
@@ -6637,7 +6637,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [Kerberos realm](#kerberos-realm-(noun))
+**See also**: [Kerberos realm](#kerberos-realm-noun)
 
 #### Kerberos protocol (noun)
 **Description**: _Kerberos_ is a network authentication protocol that provides strong authentication for client and server applications by using secret-key cryptography.
@@ -6655,7 +6655,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [IdM deployment](#idm-deployment-(noun)), [Key Distribution Center](#key-distribution-center-(noun))
+**See also**: [IdM deployment](#idm-deployment-noun), [Key Distribution Center](#key-distribution-center-noun)
 
 #### Kerberos ticket policies (noun)
 **Description**: The _Kerberos Key Distribution Center (KDC)_ enforces ticket access control through connection policies, and manages the duration of Kerberos tickets through ticket lifecycle policies. For example, the default global ticket lifetime is one day, and the default global maximum renewal age is one week.
@@ -6664,7 +6664,7 @@ _This feature can run only on Intel 64 processors_
 
 **Incorrect forms**:
 
-**See also**: [Key Distribution Center](#key-distribution-center-(noun))
+**See also**: [Key Distribution Center](#key-distribution-center-noun)
 
 #### kernel (noun)
 **Description**: The _kernel_ is the central module of an operating system. It is the part of the operating system that loads first, and it remains in main memory. Because it stays in memory, it is important for the kernel to be as small as possible while still providing all the essential services required by other parts of the operating system and applications. Typically, the kernel is responsible for memory management, process and task management, and disk management.
@@ -6675,7 +6675,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: Kernel
 
-**See also**: [kernel panic](#kernel-panic-(noun)), [kernel space](#kernel-space-(noun)), [kernel-space](#kernel-space-(adjective))
+**See also**: [kernel panic](#kernel-panic-noun), [kernel space](#kernel-space-noun), [kernel-space](#kernel-space-adjective)
 
 #### kernel oops (noun)
 **Description**: A _kernel oops_ is an error in the Linux kernel. Do not use "oops" by itself.
@@ -6684,7 +6684,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: oops
 
-**See also**: [kernel](#kernel-(noun)), [kernel panic](#kernel-panic-(noun))
+**See also**: [kernel](#kernel-noun), [kernel panic](#kernel-panic-noun)
 
 #### kernel panic (noun)
 **Description**: Numerous circumstances can cause a _kernel panic_. Unlike a _kernel oops_, when confronted with a kernel panic, the operating system shuts down to prevent the possibility of further damage or security breaches.
@@ -6693,7 +6693,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**:
 
-**See also**: [kernel](#kernel-(noun)), [kernel oops](#kernel-oops-(noun))
+**See also**: [kernel](#kernel-noun), [kernel oops](#kernel-oops-noun)
 
 #### kernel space (noun)
 **Description**: _Kernel space_ is the part of the system memory where the kernel executes and provides its services.
@@ -6702,7 +6702,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: kernelspace
 
-**See also**: [kernel](#kernel-(noun)), [kernel-space](#kernel-space-(adjective))
+**See also**: [kernel](#kernel-noun), [kernel-space](#kernel-space-adjective)
 
 #### Kernel-based Virtual Machine (noun)
 **Description**: _Kernel-based Virtual Machine_ is a loadable kernel module that converts the Linux kernel into a bare-metal hypervisor. Write "Kernel-based Virtual Machine (KVM)" on first use and "KVM" after that. It is an industry standard and a proper noun.
@@ -6711,7 +6711,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: kernel-based virtual machine
 
-**See also**: [KVM](#kvm-(noun))
+**See also**: [KVM](#kvm-noun)
 
 #### kernel-space (adjective)
 **Description**: _Kernel space_ is that part of the system memory where the kernel executes and provides its services. When used as modifier, use the hyphenated form "kernel-space".
@@ -6720,7 +6720,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: kernelspace
 
-**See also**: [kernel](#kernel-(noun)), [kernel space](#kernel-space-(noun))
+**See also**: [kernel](#kernel-noun), [kernel space](#kernel-space-noun)
 
 #### Key Distribution Center (noun)
 **Description**: The Kerberos _Key Distribution Center_ (KDC) is a service that acts as the central, trusted authority that manages Kerberos credential information. The KDC issues Kerberos tickets and ensures the authenticity of data originating from entities within the IdM network.
@@ -6747,7 +6747,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: key store
 
-**See also**: [truststore](#truststore-(noun))
+**See also**: [truststore](#truststore-noun)
 
 #### Kickstart (noun)
 **Description**: _Kickstart_ is a tool for Red Hat Enterprise Linux and Fedora-based distributions that allows you to control various aspects of a system install process using commands in a text file. You can use "Kickstart" to change defaults or even do a fully automatic installation. Capitalize the first letter.
@@ -6810,7 +6810,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: knowledgebase
 
-**See also**: [Knowledgebase](#knowledgebase-(noun))
+**See also**: [Knowledgebase](#knowledgebase-noun)
 
 #### knowledge store (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _knowledge store_ is a centralized repository for your business knowledge. The knowledge store connects to the Git repository to store various knowledge assets and artifacts at a single location.
@@ -6828,7 +6828,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: KnowledgeBase
 
-**See also**: [knowledge base](#knowledge-base-(noun))
+**See also**: [knowledge base](#knowledge-base-noun)
 
 #### kubelet (noun)
 **Description**: In Kubernetes, the _kubelet_ is the agent that controls a Kubernetes node. Each node runs a `kubelet`, which handles starting and stopping containers on a node, based on the required state defined by the master.
@@ -6846,7 +6846,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: kubernetes, k8s
 
-**See also**: [OpenShift](#openshift-(noun)), [OKD](#okd-(noun))
+**See also**: [OpenShift](#openshift-noun), [OKD](#okd-noun)
 
 #### Kubernetes master (noun)
 **Description**: The Kubernetes-native equivalent to the OpenShift master. An OpenShift system runs OpenShift masters, not _Kubernetes masters_, and an OpenShift master provides a superset of the functionality of a _Kubernetes master_, so it is generally preferred to use the term "OpenShift master".
@@ -6855,7 +6855,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**:
 
-**See also**: [OpenShift master](#openshift-master-(noun))
+**See also**: [OpenShift master](#openshift-master-noun)
 
 #### KVM (noun)
 **Description**: "KVM" is an abbreviation for "Kernel-based Virtual Machine".
@@ -6864,7 +6864,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: kvm
 
-**See also**: [Kernel-based Virtual Machine](#kernel-based-virtual-machine-(noun))
+**See also**: [Kernel-based Virtual Machine](#kernel-based-virtual-machine-noun)
 
 #### L
 
@@ -6893,7 +6893,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**:
 
-**See also**: [bandwidth](#bandwidth-(noun))
+**See also**: [bandwidth](#bandwidth-noun)
 
 #### LDAP (noun)
 **Description**: The Lightweight Directory Access Protocol (_LDAP_) defines an industry standard for accessing and maintaining directory servers, such as Red Hat Directory Server. By default, the LDAP protocol is unencrypted. Do not expand the abbreviation on first use.
@@ -6902,7 +6902,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: Lightweight Directory Access Protocol
 
-**See also**: [LDAPS](#ldaps-(noun)), [STARTTLS](#starttls-(noun))
+**See also**: [LDAPS](#ldaps-noun), [STARTTLS](#starttls-noun)
 
 #### LDAPS (noun)
 **Description**: The Lightweight Directory Access Protocol over Secure Socket Layer (_LDAPS_) uses the TLS protocol to encrypt LDAP traffic. Do not expand the abbreviation on first use.
@@ -6911,7 +6911,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: Lightweight Directory Access Protocol over Secure Socket Layer
 
-**See also**: [LDAP](#ldap-(noun)), [STARTTLS](#starttls-(noun))
+**See also**: [LDAP](#ldap-noun), [STARTTLS](#starttls-noun)
 
 #### librados (noun)
 **Description**: In Red Hat Ceph Storage, _librados_ is a shared library allowing applications to access the RADOS object store.
@@ -6920,7 +6920,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: Librados, LIBRADOS
 
-**See also**: [RADOS](#rados-(noun))
+**See also**: [RADOS](#rados-noun)
 
 #### librbd (noun)
 **Description**: In Red Hat Ceph Storage, _librbd_ is a shared library allowing applications to access Ceph Block Devices.
@@ -6929,7 +6929,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: Librbd, LIBRBD
 
-**See also**: [Ceph Block Device](#ceph-block-device-(noun)), [RADOS Block Device](#rados-block-device-(noun)), [RBD](#rbd-(noun))
+**See also**: [Ceph Block Device](#ceph-block-device-noun), [RADOS Block Device](#rados-block-device-noun), [RBD](#rbd-noun)
 
 #### libvirt (noun)
 **Description**: _libvirt_ is an open source API, daemon, and management tool for managing platform virtualization. It can manage several types of virtualization technologies, including KVM and QEMU. `libvirt` APIs are used in the orchestration layer of hypervisors in the development of cloud-based environments.
@@ -6938,7 +6938,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**: Libvirt
 
-**See also**:  [KVM](#kvm-(noun))
+**See also**:  [KVM](#kvm-noun)
 
 #### lightweight sub-CA (noun)
 **Description**: In IdM, a _lightweight sub-CA_ is a certificate authority (CA) whose certificate is signed by an IdM root CA or one of the CAs that are subordinate to it. A lightweight sub-CA issues certificates only for a specific purpose, for example to secure a VPN or HTTP connection.
@@ -6947,7 +6947,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**:
 
-**See also**: [certificate authority](#certificate-authority-(noun))
+**See also**: [certificate authority](#certificate-authority-noun)
 
 #### link (noun)
 **Description**: In Red Hat AMQ, a _link_ is a message path between endpoints. Links are established over connections, and are responsible for tracking the exchange status of the messages that flow through them.
@@ -6965,7 +6965,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**:
 
-**See also**: [message routing](#message-routing-(noun))
+**See also**: [message routing](#message-routing-noun)
 
 #### Linux (noun)
 **Description**: _Linux_ is an operating system that is similar to the UNIX system. Do not use "LINUX" because it is not an acronym. Do not use "linux" unless you are referring to a command, such as "To start Linux, type `linux`." In that case, mark it correctly.
@@ -6983,7 +6983,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**:
 
-**See also**: [connection](#connection-(noun))
+**See also**: [connection](#connection-noun)
 
 #### live-only (noun)
 **Description**: In Red Hat AMQ, _live-broker_ is a broker high availability policy for scaling down brokers. If a `live-only` broker is shut down, its messages and transaction state are copied to another live broker.
@@ -7055,7 +7055,7 @@ Do not capitalize the first letter.
 
 **Incorrect forms**:
 
-**See also**: [physical topology](#physical-topology-(noun)), [signal-topology](#signal-topology-(noun))
+**See also**: [physical topology](#physical-topology-noun), [signal-topology](#signal-topology-noun)
 
 #### logical volume (noun)
 **Description**: A _logical volume_ is a virtual, block storage device that a file system, database, or application can use. To create a logical volume, physical volumes are combined into a volume group (VG). This process creates a pool of disk space out of which logical volumes (LVs) can be allocated. Note that Logical Volume Manager (LVM) is the device mapper framework that provides logical volume management for the Linux kernel.
@@ -7122,7 +7122,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**: manpage
 
-**See also**: [manual page](#manual-page-(noun))
+**See also**: [manual page](#manual-page-noun)
 
 #### managed domain (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, a "_managed domain_ is a group of JBoss EAP instances managed from a single control point. This is the appropriate way to refer to the managed domain operating mode. For example, "When running the JBoss EAP server in a managed domain".
@@ -7131,7 +7131,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**: domain mode
 
-**See also**: [domain mode](#domain-mode-(noun))
+**See also**: [domain mode](#domain-mode-noun)
 
 #### managed nodes (noun)
 **Description**: The network devices, servers, or both that you manage with Ansible. "Managed nodes" are also sometimes called “hosts”. Ansible is not installed on managed nodes.
@@ -7149,7 +7149,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**: CLI, native interface
 
-**See also**: [native interface](#native-interface-(noun))
+**See also**: [native interface](#native-interface-noun)
 
 #### management console (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, use "management console" when referring to the web-based JBoss EAP management console. Do not capitalize "management" unless it starts a sentence.
@@ -7158,7 +7158,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**: GUI, HTTP interface
 
-**See also**: [HTTP interface](#http-interface-(noun))
+**See also**: [HTTP interface](#http-interface-noun)
 
 #### manual page (noun)
 **Description**: A _manual page_ is a form of software documentation tied directly with packages providing that software. It is accessible by using the `man <utility>` command from the command-line interface.
@@ -7167,7 +7167,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [man page](#man-page-(noun))
+**See also**: [man page](#man-page-noun)
 
 #### many (noun)
 **Description**: Use "many" to indicate the number of objects.
@@ -7185,7 +7185,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [supplier](#supplier-(noun))
+**See also**: [supplier](#supplier-noun)
 
 #### Master Boot Record (noun)
 **Description**: _Master Boot Record_ (MBR) is a small program that is executed when a computer boots up. Typically, the MBR resides on the first sector of the hard disk. The program begins the boot process by looking up the partition table to determine which partition to use for booting. The program then transfers program control to the boot sector of that partition, which continues the boot process.
@@ -7194,7 +7194,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [MBR](#mbr-(noun))
+**See also**: [MBR](#mbr-noun)
 
 #### master broker (noun)
 **Description**: In Red Hat AMQ, the _master broker_ is the broker that serves client requests in a master-slave group.
@@ -7203,7 +7203,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**: live broker
 
-**See also**: [master-slave group](#master-slave-group-(noun)), [slave broker](#slave-broker-(noun))
+**See also**: [master-slave group](#master-slave-group-noun), [slave broker](#slave-broker-noun)
 
 #### master-slave group (noun)
 **Description**: In Red Hat AMQ, a _master-slave group_ is a broker high availability configuration in which a master broker is linked to slave brokers. If a failover event occurs, the slave broker(s) take over the master broker’s workload.
@@ -7230,7 +7230,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [Mb](#mb-(noun))
+**See also**: [Mb](#mb-noun)
 
 #### Mb (noun)
 **Description**: "Mb" is an abbreviation for "megabit". One megabit equals 1000 kilobits or 1,000,000 bits.
@@ -7239,7 +7239,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [MB](#mb-(noun))
+**See also**: [MB](#mb-noun)
 
 #### MBps (noun)
 **Description**: "MBps" is an abbreviation for "megabytes per second", a measure of data transfer speed. Mass storage devices are generally measured in MBps.
@@ -7257,7 +7257,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [Master Boot Record](#master-boot-record-(noun))
+**See also**: [Master Boot Record](#master-boot-record-noun)
 
 #### MDS (noun)
 **Description**: In Red Hat Ceph Storage, "MDS" is an abbreviation for the Ceph Metadata Server.
@@ -7266,7 +7266,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [Metadata Server](#metadata-server-(noun)), [ceph-mds](#ceph-mds-(noun))
+**See also**: [Metadata Server](#metadata-server-noun), [ceph-mds](#ceph-mds-noun)
 
 #### media (noun)
 **Description**: (1) _Media_ are objects on which data can be stored. These objects include hard disks, diskettes, CDs, and tapes. (2) In computer networks, "media" refer to the cables linking workstations together. There are many different types of transmission media, the most popular being twisted-pair wire (normal electrical wire), coaxial cable (the type of cable used for cable television), and fiber optic cable (cables made out of glass). (3) "Media" can also mean the form and technology used to communicate information. Multimedia presentations, for example, combine sound, pictures, and videos, all of which are different types of media.
@@ -7284,7 +7284,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**: menu driven, menudriven
 
-**See also**: [command-driven](#command-driven-(adjective))
+**See also**: [command-driven](#command-driven-adjective)
 
 #### MEP (noun)
 **Description**: Message Exchange Pattern. In Red Hat Fuse, the _MEP_ is the part of the message exchange that selects between one of two messaging modes: one-way (`InOnly`) or request-reply (`InOut`). The default is `InOnly`.
@@ -7293,7 +7293,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [message exchange](#message-exchange-(noun))
+**See also**: [message exchange](#message-exchange-noun)
 
 #### message (noun)
 **Description**: (1) In Red Hat AMQ, a _message_ is a mutable holder of application content. (2) In Red Hat Fuse, the message is the fundamental structure for moving data through a route. A message consists of a body (also known as payload), headers, and attachments (optional). Messages flow in one direction from sender to receiver. Headers contain metadata, such as sender IDs, content encoding hints, and so on. Attachments can be text, image, audio, or video files and are typically used with email and web service components.
@@ -7302,7 +7302,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [message exchange](#message-exchange-(noun))
+**See also**: [message exchange](#message-exchange-noun)
 
 #### message address (noun)
 **Description**: In Red Hat AMQ, a _message address_ is the name of a source or destination endpoint for messages within the messaging network. Message addresses can designate entities, such as queues and topics. The term "address" is also acceptable, but should not be confused with "TCP/IP addresses". In JMS, the term "destination" may be used.
@@ -7311,7 +7311,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [destination](#destination-(noun))
+**See also**: [destination](#destination-noun)
 
 #### message exchange (noun)
 **Description**:  In Red Hat Fuse, _message exchanges_ deal with conversations and can flow in both directions. They encapsulate messages in containers while the messages are en route to their target endpoints. A message exchange consists of an exchange ID that identifies the conversation, an MEP setting to indicate whether the exchange is one- or two-way (request-reply), an Exception field that is set whenever an error occurs during routing, and global-level properties that users can store/retrieve at any time during the lifecycle of the exchange.
@@ -7320,7 +7320,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [message](#message-(noun)), [MEP](#mep-(noun))
+**See also**: [message](#message-noun), [MEP](#mep-noun)
 
 #### message routing (noun)
 **Description**: In Red Hat AMQ, _message routing_ is a routing mechanism in AMQ Interconnect. A message route is the message distribution pattern used for a message address. With message routing, a router makes a routing decision on a per-message basis when a message arrives.
@@ -7329,7 +7329,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [link routing](#link-routing-(noun))
+**See also**: [link routing](#link-routing-noun)
 
 #### message settlement (noun)
 **Description**: In Red Hat AMQ, _message settlement_ is the process for confirming that a message delivery has been completed, and propagating that confirmation to the appropriate endpoints. The term "settlement" is also acceptable.
@@ -7338,7 +7338,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [delivery](#delivery-(noun))
+**See also**: [delivery](#delivery-noun)
 
 #### Messaging - ActiveMQ (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, use "Messaging - ActiveMQ" when describing the `messaging-activemq` subsystem in the management console. Write as two capitalized words separated by two spaces and a hyphen. Ensure that "MQ" is also in uppercase.
@@ -7347,7 +7347,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [messaging-activemq](#messaging-activemq-subsystem-(noun)), [messaging subsystem](#messaging-subsystem-(noun))
+**See also**: [messaging-activemq](#messaging-activemq-subsystem-noun), [messaging subsystem](#messaging-subsystem-noun)
 
 #### messaging API (noun)
 **Description**: In Red Hat AMQ, the _messaging API_ is the client libraries and APIs used to create client applications. These libraries are provided by AMQ Clients.
@@ -7356,25 +7356,25 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [AMQ Clients](#amq-clients-(noun)), [client application](#client-application-(noun))
+**See also**: [AMQ Clients](#amq-clients-noun), [client application](#client-application-noun)
 
 #### messaging subsystem (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, for the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#messaging---activemq-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, _messaging subsystem_ is an acceptable generic term for referring to the `messaging-activemq` subsystem. Capitalize "messaging" only at the beginning of a sentence. However, for the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#messaging---activemq-noun) entry.
 
 **Use it**: yes
 
 **Incorrect forms**:
 
-**See also**: [messaging-activemq](#messaging-activemq-subsystem-(noun)), [Messaging - ActiveMQ](#messaging---activemq-(noun))
+**See also**: [messaging-activemq](#messaging-activemq-subsystem-noun), [Messaging - ActiveMQ](#messaging---activemq-noun)
 
 #### messaging-activemq subsystem (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. For the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#messaging---activemq-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _messaging-activemq subsystem_ is used to configure messaging in JBoss EAP. In general text, write in lowercase as two words separated by a hyphen. Use "Messaging subsystem" when referring to the `messaging-activemq` subsystem in titles and headings. For the correct usage when referring to the `messaging-activemq` subsystem in the management console, see the [Messaging - ActiveMQ](#messaging---activemq-noun) entry.
 
 **Use it**: yes
 
 **Incorrect forms**:
 
-**See also**: [Messaging - ActiveMQ](#messaging---activemq-(noun)), [messaging subsystem](#messaging-subsystem-(noun))
+**See also**: [Messaging - ActiveMQ](#messaging---activemq-noun), [messaging subsystem](#messaging-subsystem-noun)
 
 #### metadata (noun)
 **Description**: _Metadata_ is a generic term for data that provides information about one or more other pieces of data.
@@ -7392,7 +7392,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [MDS](#mds-(noun)), [ceph-mds](#ceph-mds-(noun))
+**See also**: [MDS](#mds-noun), [ceph-mds](#ceph-mds-noun)
 
 #### micro release (noun)
 **Description**: "Micro release" refers to the **_z_** in an _x.y.z_ product version numbering schema. Use only if required for generic reference to a release and the term is already used by the product. In all other instances refer to the specific release number.
@@ -7401,7 +7401,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**:
 
-**See also**: [z-stream](#z-stream-(noun))
+**See also**: [z-stream](#z-stream-noun)
 
 #### Microsoft (noun)
 **Description**: _Microsoft_ is a technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and services.
@@ -7410,7 +7410,7 @@ Always capitalize as shown, with the exception of UI content.
 
 **Incorrect forms**: MS, MSFT, MicroSoft
 
-**See also**: [MS-DOS](#ms-dos-(noun))
+**See also**: [MS-DOS](#ms-dos-noun)
 
 #### Microsoft Azure (noun)
 **Description**: _Microsoft Azure_ is a cloud computing platform and infrastructure for building, deploying, and managing applications and services through a global network of Microsoft-managed datacenters. (source: Wikipedia). Always refer to it as "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
@@ -7432,7 +7432,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: xplat-cli, x-plat-cli, xplat cli, x-plat cli, X-PLAT CLI, X-PLAT-CLI, XPLAT-CLI, XPLAT CLI
 
-**See also**: [Azure CLI 2.0](#azure-cli-2.0-(noun))
+**See also**: [Azure CLI 2.0](#azure-cli-2.0-noun)
 
 #### Microsoft Azure On-Demand Marketplace (noun)
 **Description**: In Microsoft Azure, the _Microsoft Azure On-Demand Marketplace_ is a storefront where users can locate and quickly install operating systems, programming languages, frameworks, tools, databases, and devices into their Microsoft Azure environment. Red Hat Enterprise Linux is available as a VM image within the Microsoft Azure On-Demand Marketplace, along with other Red Hat open source products. Always preface "On-Demand Marketplace" with "Microsoft Azure" to provide clarity unless the term is repeated multiple times in a sentence or paragraph.
@@ -7450,16 +7450,16 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: Microsoft Azure Portal
 
-**See also**: [Azure Resource Manager](#azure-resource-manager-(noun))
+**See also**: [Azure Resource Manager](#azure-resource-manager-noun)
 
 #### Microsoft Windows (noun)
-**Description**: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. For the correct usage, see the [Windows Server](#windows-server-(noun)) entry.
+**Description**: Do not use "Microsoft Windows" to refer to the Windows Server product by Microsoft or to Windows-specific commands and scripts such as `standalone.bat`. For the correct usage, see the [Windows Server](#windows-server-noun) entry.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [Windows Server](#windows-server-(noun))
+**See also**: [Windows Server](#windows-server-noun)
 
 #### migration (noun)
 **Description**: In Red Hat Enterprise Linux, typically, a _migration_ indicates a change of platform: software or hardware. Moving from Windows to Linux is a migration. Moving a user from one laptop to another or a company from one server to another is a migration. However, most "migrations" also involve "upgrades", and sometimes the terms are used interchangeably.
@@ -7468,7 +7468,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [update](#update-(noun)), [upgrade](#upgrade-(verb)), [conversion](#conversion-(noun))
+**See also**: [update](#update-noun), [upgrade](#upgrade-verb), [conversion](#conversion-noun)
 
 #### minion (noun)
 **Description**: In Red Hat OpenShift, this term is deprecated. Use "node" instead.
@@ -7477,7 +7477,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [node](#node-(noun))
+**See also**: [node](#node-noun)
 
 #### misconfigure (verb)
 **Description**: "Misconfigure" means to configure something incorrectly. Avoid using it if possible.
@@ -7513,7 +7513,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [BaseOS repository](#baseos-repository-(noun))
+**See also**: [BaseOS repository](#baseos-repository-noun)
 
 #### module stream (noun)
 **Description**: In Red Hat Enterprise Linux, _module streams_ are filters that can be thought of as virtual repositories in the AppStream physical repository. Module streams represent versions of the Application Stream components.
@@ -7549,7 +7549,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: firefox
 
-**See also**: [Mozilla Thunderbird](#mozilla-thunderbird-(noun))
+**See also**: [Mozilla Thunderbird](#mozilla-thunderbird-noun)
 
 #### Mozilla Thunderbird (noun)
 **Description**: _Mozilla Thunderbird_ is a free, open source, cross-platform email, news, RSS, and chat client. The first reference must be "Mozilla Thunderbird". Subsequent references can be "Thunderbird". Do not use "thunderbird" unless you are referring to the `thunderbird` command; as such, mark it correctly.
@@ -7558,7 +7558,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: thunderbird
 
-**See also**: [Mozilla Firefox](#mozilla-firefox-(noun))
+**See also**: [Mozilla Firefox](#mozilla-firefox-noun)
 
 #### MQTT (noun)
 **Description**: MQ Telemetry Transport protocol. It is a lightweight, client-to-server, publish/subscribe messaging protocol (http://mqtt.org/). AMQ Broker supports _MQTT_.
@@ -7576,7 +7576,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: ms-dos, MSDOS, msdos
 
-**See also**: [Microsoft](#microsoft-(noun))
+**See also**: [Microsoft](#microsoft-noun)
 
 #### Multicloud Object Gateway (noun)
 **Description**: _Multicloud Object Gateway_ (MCG) is a lightweight object storage service for OpenShift Container Platform you can use to start with a small storage service and then scale according to your requirements on-premise, in multiple clusters, and with cloud-native storage.
@@ -7612,7 +7612,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: multi site, multi-site
 
-**See also**: [federated](#federated-(adjective))
+**See also**: [federated](#federated-adjective)
 
 #### multitenant (adjective)
 **Description**: "Multitenant" describes a mode where a software instance serves multiple tenants. Do not hyphenate "multitenant".
@@ -7630,7 +7630,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [mutual exclusion](#mutual-exclusion-(noun)), [Mutexes](#mutexes-(noun))
+**See also**: [mutual exclusion](#mutual-exclusion-noun), [Mutexes](#mutexes-noun)
 
 #### mutexes (noun)
 **Description**: "Mutexes" is the plural form of "mutex".
@@ -7639,7 +7639,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [mutual exclusion](#mutual-exclusion-(noun)), [Mutex](#mutex-(noun))
+**See also**: [mutual exclusion](#mutual-exclusion-noun), [Mutex](#mutex-noun)
 
 #### mutual exclusion (noun)
 **Description**: In computer science, "mutual exclusion" is a property of concurrency control, which is instituted for the purpose of preventing race conditions. It is the requirement that one thread of execution never enter its critical section at the same time that another concurrent thread of execution enters its own critical section.
@@ -7648,7 +7648,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [Mutex](#mutex-(noun)), [Mutexes](#mutexes-(noun))
+**See also**: [Mutex](#mutex-noun), [Mutexes](#mutexes-noun)
 
 #### MySQL (noun)
 **Description**: _MySQL_ is the common open source database server and client package from Microsoft. Mark the first mention of MySQL in body text with an r-ball (®) to denote that it is a registered trademark.
@@ -7657,7 +7657,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: MYSQL, mySQL
 
-**See also**: [SQL](#sql-(noun))
+**See also**: [SQL](#sql-noun)
 
 #### N
 
@@ -7668,7 +7668,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [project](#project-(noun))
+**See also**: [project](#project-noun)
 
 #### namespace bucket (noun)
 **Description**: _Namespace buckets_ enable connecting data repositories on different providers together so that the interaction with data is possible through a single unified view. Data written to namespace buckets are plain and not deduped, compressed, or encrypted. The data can be consumed directly from the repository.
@@ -7707,13 +7707,13 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 **See also**:
 
 #### native interface (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the [management CLI](#management-cli-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "native interface" to refer to the command line interface for the JBoss EAP management tool. For the correct usage, see the [management CLI](#management-cli-noun) entry.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [management CLI](#management-cli-(noun))
+**See also**: [management CLI](#management-cli-noun)
 
 #### natively compiled code (noun)
 **Description**: _Natively compiled code_ is code written in a programming language that compiles to machine code with a resulting binary executable file. Such code can be run standalone.
@@ -7731,7 +7731,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: desire, wish
 
-**See also**: [want](#want-(verb))
+**See also**: [want](#want-verb)
 
 #### neighbor (noun)
 
@@ -7750,7 +7750,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: .Net, dotNet, .NET Core, dotNet Core, .Net Core
 
-**See also**: [.Net Core](#.net-core-(noun))
+**See also**: [.Net Core](#.net-core-noun)
 
 #### .NET Core (noun)
 **Description**: Microsoft’s development platform, _.NET Core_, is an open source and cross-platform framework for building cloud-based internet-connected applications, such as web apps, IoT apps, and mobile back ends. All .NET Core applications can run on .NET Core or on the .NET Framework. For version 3.1 and earlier, refer to it as ".NET Core". In later versions, Microsoft changed the name to ".NET".
@@ -7759,7 +7759,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: dotNet Core, .Net Core, .NET, .Net
 
-**See also**: [.NET](#.net-(noun))
+**See also**: [.NET](#.net-noun)
 
 #### network bond (noun)
 **Description**: A _network bond_ is a method to combine or aggregate physical and virtual network interfaces to provide a logical interface with higher throughput or redundancy. The main difference to a network team is that, in bonding, the kernel handles all operations exclusively.
@@ -7786,7 +7786,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [network interface controller](#network-interface-controller-(nic))
+**See also**: [network interface controller](#network-interface-controller-nic)
 
 #### network interface controller (NIC)
 **Description**: The physical or virtual hardware that provides Ethernet connectivity between a host or virtual machine and a network.
@@ -7795,7 +7795,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**: network interface card
 
-**See also**: [vNIC](#vnic-(noun)), [SmartNIC](#smartnic)
+**See also**: [vNIC](#vnic-noun), [SmartNIC](#smartnic)
 
 #### network team (noun)
 **Description**: A _network team_ is a method to combine or aggregate physical and virtual network interfaces to provide a logical interface with higher throughput or redundancy. The main difference to a network bond is that, in teaming, both a small kernel module and a user-space service process the operations.
@@ -7832,7 +7832,7 @@ Azure CLI 2.0 is the most current command-line interface and is replacing Xplat-
 
 **Incorrect forms**:
 
-**See also**: [vNIC](#vnic-(noun)), [SmartNIC](#smartnic)
+**See also**: [vNIC](#vnic-noun), [SmartNIC](#smartnic)
 
 #### Nmstate (noun)
 
@@ -7883,7 +7883,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**: ORAN
 
-**See also**: [Open RAN](#open-ran-(noun)), [OpenRAN](#openran-(noun))
+**See also**: [Open RAN](#open-ran-noun), [OpenRAN](#openran-noun)
 
 #### object bucket (noun)
 **Description**: A container to store objects.
@@ -7910,7 +7910,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**: objectClass
 
-**See also**: [objectClass](#objectclass-(noun))
+**See also**: [objectClass](#objectclass-noun)
 
 #### object storage (noun)
 **Description**: _Object storage_ is a repository of data objects stored in an unstructured way, as distinct from block storage or file storage.
@@ -7919,7 +7919,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [block storage](#block-storage-(noun)), [file storage](#file-storage-(noun))
+**See also**: [block storage](#block-storage-noun), [file storage](#file-storage-noun)
 
 #### Object Storage Device (noun)
 **Description**: In Red Hat Ceph Storage, _Object Storage Device_ is a storage drive in a Ceph Storage Cluster. Do not confuse "Object Storage Device" with the "Ceph OSD", which is the `ceph-osd` daemon and the underlying data disk.
@@ -7928,7 +7928,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [ceph-osd](#ceph-osd-(noun)), [OSD](#osd-(noun)), [OSD daemon](#osd-daemon-(noun))
+**See also**: [ceph-osd](#ceph-osd-noun), [OSD](#osd-noun), [OSD daemon](#osd-daemon-noun)
 
 #### Object Store (noun)
 **Description**: In Red Hat Ceph Storage, _Object Store_ is a core component of the Ceph Storage Cluster. Also referred as "RADOS".
@@ -7937,7 +7937,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [RADOS](#rados-(noun))
+**See also**: [RADOS](#rados-noun)
 
 #### objectClass (noun)
 **Description**: The `objectClass` attribute in an LDAP entry stores the object classes of this entry.
@@ -7946,7 +7946,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**: object class, objectclass
 
-**See also**: [object class](#object-class-(noun))
+**See also**: [object class](#object-class-noun)
 
 #### Objective C (noun)
 **Description**: "Objective C" is the name of a programming language.
@@ -7974,7 +7974,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [disconnected](#disconnected-(adjective))
+**See also**: [disconnected](#disconnected-adjective)
 
 #### offline backup (noun)
 **Description**: Use "offline backup" to refer to backing up a database while the database is not being accessed by applications.
@@ -7983,7 +7983,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**: cold backup
 
-**See also**: [online backup](#online-backup-(noun))
+**See also**: [online backup](#online-backup-noun)
 
 #### OK (noun)
 **Description**: When referring to the "OK" button, it is not necessary to use "button" in the sentence.
@@ -8019,7 +8019,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [onboard](#onboard-(verb))
+**See also**: [onboard](#onboard-verb)
 
 #### on-premise (adjective)
 **Description**: Substitute "on-site" or "in-house" for "on-premise" whenever possible. Although "on-premises" is grammatically correct, "on-premise" is preferred by the industry and the Red Hat Cloud business unit. Capitalize "on-premise" only when using it as part of the name of the Red Hat product "Red Hat Storage Server for On-premise". For Red Hat OpenShift Container Platform, _on-premise_ is a collective term for grouping the bare-metal, VMware vSphere, Nutanix, and Red Hat OpenStack Platform (RHOSP) platforms, so you can use the term in this context.
@@ -8037,7 +8037,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [on-board](#on-board-(adjective))
+**See also**: [on-board](#on-board-adjective)
 
 #### online backup (noun)
 **Description**: From [webopedia](http://www.webopedia.com/TERM/O/online_backup.html): In storage technology, "online backup" means to back up data from your hard drive to a remote server or computer using a network connection.
@@ -8046,7 +8046,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [offline backup](#offline-backup-(noun))
+**See also**: [offline backup](#offline-backup-noun)
 
 #### opcode (noun)
 **Description**: An _opcode_ is the portion of a machine language instruction that specifies the operation to be performed.
@@ -8073,7 +8073,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [O-RAN](#o-ran-(noun)), [OpenRAN](#openran-(noun))
+**See also**: [O-RAN](#o-ran-noun), [OpenRAN](#openran-noun)
 
 #### OpenShift Container Platform cluster (noun)
 **Description**: An _OpenShift Container Platform cluster_ is a group of physical machines that contains the controllers, pods, services, and configurations required to build and run containerized applications.
@@ -8100,7 +8100,7 @@ If your release notes are based on the templates in this guide’s [Release note
 
 **Incorrect forms**:
 
-**See also**: [O-RAN](#o-ran-(noun)), [Open RAN](#open-ran-(noun))
+**See also**: [O-RAN](#o-ran-noun), [Open RAN](#open-ran-noun)
 
 #### OpenShift (noun)
 **Description**: The "OpenShift" product name should be paired with its product distribution or variant name whenever possible. For example:
@@ -8122,7 +8122,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 **Incorrect forms**:
 
-**See also**: [OKD](#okd-(noun))
+**See also**: [OKD](#okd-noun)
 
 #### OpenShift CLI (noun)
 **Description**: In Red Hat OpenShift, the `oc` tool is the command-line interface of OpenShift Container Platform 3 and 4.
@@ -8140,7 +8140,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 **Incorrect forms**:
 
-**See also**: [container registry](#container-registry-(noun)), [Red Hat Container Catalog](#red hat-container-catalog-(noun))
+**See also**: [container registry](#container-registry-noun), [Red Hat Container Catalog](#red hat-container-catalog-noun)
 
 #### OpenShift master (noun)
 **Description**: Provides a REST endpoint for interacting with the system and manages the state of the system, ensuring that all containers expected to be running are actually running and that other requests such as builds and deployments are serviced. New deployments and configurations are created with the REST API, and the state of the system can be interrogated through this endpoint as well. An _OpenShift master_ comprises the API server, scheduler, and SkyDNS.
@@ -8149,7 +8149,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 **Incorrect forms**:
 
-**See also**: [endpoint](#endpoint-(noun)), [API server](#api-server-(noun)), [scheduler](#scheduler-(noun))
+**See also**: [endpoint](#endpoint-noun), [API server](#api-server-noun), [scheduler](#scheduler-noun)
 
 #### OpenShift Origin (noun)
 **Description**: The previous name of the open source, upstream project of OpenShift Container Platform. This project has been renamed "OKD".
@@ -8158,7 +8158,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 **Incorrect forms**:
 
-**See also**: [OKD](#okd-(noun))
+**See also**: [OKD](#okd-noun)
 
 #### OpenWire (noun)
 **Description**: A cross-language wire protocol that enables JMS clients to communicate with AMQ Broker (http://activemq.apache.org/openwire.html).
@@ -8176,7 +8176,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 **Incorrect forms**: Operating Environment
 
-**See also**: [control program](#control-program-(noun))
+**See also**: [control program](#control-program-noun)
 
 #### operating system (noun)
 **Description**: From [Wikipedia](https://en.wikipedia.org/wiki/Operating_system): An _operating system_ is system software that manages computer hardware and software resources and provides common services for computer programs. All computer programs, excluding firmware, require an operating system to function.
@@ -8276,7 +8276,7 @@ When referring generally to other Kubernetes components, such as pods, nodes, or
 
 **Incorrect forms**: opt into, opting into
 
-**See also**: [AWS opt-in Region](#aws-opt-in-region-(noun)), [AWS Local Zone](#aws-local-zone-(noun))
+**See also**: [AWS opt-in Region](#aws-opt-in-region-noun), [AWS Local Zone](#aws-local-zone-noun)
 
 #### Organization Administrator (noun)
 **Description**: From [Roles and Permissions for Red Hat Customer Portal](https://access.redhat.com/articles/1757953): Organization Administrator: This is the highest permission level for a Red Hat account with full access to content and features. This is the only role that can manage users and control their access and permissions on an account.
@@ -8305,7 +8305,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 **Incorrect forms**: ceph-osd, Object Storage Device, OSD daemon
 
-**See also**: [ceph-osd](#ceph-osd-(noun)), [Object Storage Device](#object-storage-device-(noun)), [OSD daemon](#osd-daemon-(noun))
+**See also**: [ceph-osd](#ceph-osd-noun), [Object Storage Device](#object-storage-device-noun), [OSD daemon](#osd-daemon-noun)
 
 #### OSD Daemon (noun)
 **Description**: In Red Hat Ceph Storage, "OSD Daemon" is another name of the `ceph-osd` daemon.
@@ -8314,7 +8314,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 **Incorrect forms**:
 
-**See also**: [ceph-osd](#ceph-osd-(noun)), [OSD](#osd-(noun)), [Object Storage Device](#object-storage-device-(noun))
+**See also**: [ceph-osd](#ceph-osd-noun), [OSD](#osd-noun), [Object Storage Device](#object-storage-device-noun)
 
 #### OSTree (noun)
 **Description**: A tool used for managing Linux-based operating system versions. The _OSTree_ tree view is similar to Git and is based on similar concepts.
@@ -8341,7 +8341,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 **Incorrect forms**: Overcloud
 
-**See also**: [undercloud](#undercloud-(noun))
+**See also**: [undercloud](#undercloud-noun)
 
 #### override (verb)
 **Description**: In computing, "override" means to force the use of a specific setting or value instead of the one that would otherwise be used, for example, "Apply a setting from a configuration file to override the default ones."
@@ -8361,7 +8361,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 **Incorrect forms**:
 
-**See also**: [SaaS](#saas-(noun)), [IaaS](#iaas-(noun))
+**See also**: [SaaS](#saas-noun), [IaaS](#iaas-noun)
 
 #### package (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, a _package_ is a deployable collection of assets. Rules and other assets must be collected into a package before they can be deployed. When a package is built, the assets contained in the package are validated and compiled into a deployable package.
@@ -8419,7 +8419,7 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 **Incorrect forms**:
 
-**See also**: [direct routed messaging](#direct-routed-messaging-(noun))
+**See also**: [direct routed messaging](#direct-routed-messaging-noun)
 
 #### performance counter (noun)
 **Description**: A _performance counter_ is a utility for collecting and analyzing performance data. Always use "performance counter" unless referring to a code element named `perfcounter` and as such, mark it up appropriately (`perfcounter`).
@@ -8440,7 +8440,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 
 **Incorrect forms**:
 
-**See also**: [privilege](#privilege-(noun))
+**See also**: [privilege](#privilege-noun)
 
 #### persistent storage (noun)
 **Description**: _Persistent storage_ is a type of storage that preserves data even after the computer is turned off or after the process that created the data ends. A hard disk, tape, or flash memory are examples of persistent storage.
@@ -8449,7 +8449,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 
 **Incorrect forms**:
 
-**See also**: [volatile storage](#volatile-storage-(noun))
+**See also**: [volatile storage](#volatile-storage-noun)
 
 #### persistent volume (noun)
 **Description**: (1) Generically, a _persistent volume_ (PV) is a piece of storage in the cluster that an administrator provisions or uses storage classes to dynamically provision. (2) A storage volume for data in an Red Hat OpenShift cluster that remains available and usable after the pod that created it has been destroyed. A persistent volume provides persistent storage to Red Hat OpenShift applications, as distinct from the ephemeral storage provided by default. This term is sometimes abbreviated as _PV_, so it is important to clearly distinguish this term from _physical volume_ in contexts where logical volume management is discussed, such as when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
@@ -8476,7 +8476,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 
 **Incorrect forms**:
 
-**See also**: [placement group](#placement-group-(noun))
+**See also**: [placement group](#placement-group-noun)
 
 #### phase (noun)
 **Description**: In Red Hat OpenShift, a _phase_ is the state of an object (storage or otherwise). For example, an object’s phase can be `available`, `bound`, `released`, or `failed`.
@@ -8503,7 +8503,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 
 **Incorrect forms**:
 
-**See also**: [virtual disk](#virtual-disk-(noun))
+**See also**: [virtual disk](#virtual-disk-noun)
 
 #### physical topology (noun)
 **Description**: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The _physical topology_ is the way that the workstations are connected to the network through the actual cables that transmit data.
@@ -8512,7 +8512,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 
 **Incorrect forms**:
 
-**See also**: [logical topology](#logical-topology-(noun)), [signal topology](#signal-topology-(noun))
+**See also**: [logical topology](#logical-topology-noun), [signal topology](#signal-topology-noun)
 
 #### physical volume (noun)
 **Description**: A _physical volume_ is a storage unit, a partition, or a whole disk that has been configured for use by Logical Volume Manager. Before this configuration, the physical volume is just a block device. This term is sometimes abbreviated as _PV_, so be sure that you clearly distinguish this term from _persistent volume_ in contexts where Red Hat OpenShift is discussed, such as when discussing storage for both Red Hat Enterprise Linux and OpenShift Container Platform.
@@ -8566,7 +8566,7 @@ When combined with privileges, permissions define a user’s or resource’s ove
 
 **Incorrect forms**:
 
-**See also**: [PG](#pg-(noun))
+**See also**: [PG](#pg-noun)
 
 #### placement target (noun)
 **Description**: In Red Hat Ceph Storage, a _placement target_ is a configurable rule that determines where bucket data is stored.
@@ -8609,7 +8609,7 @@ Examples:
 
 **Incorrect forms**: Playbook
 
-**See also**: [Ansible Playbook](#ansible-playbook-(noun))
+**See also**: [Ansible Playbook](#ansible-playbook-noun)
 
 #### pluggable (noun)
 **Description**: "Pluggable" refers to something that is capable of being plugged in, especially in terms of (for example) software modules. "Hot-pluggable" is also widely used with respect to hardware to indicate that it can be connected and recognized without powering down the system.
@@ -8628,7 +8628,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 **Incorrect forms**: plug in, plug-in
 
-**See also**: [plugin](#plugin-(noun))
+**See also**: [plugin](#plugin-noun)
 
 #### plugin (noun)
 **Description**: A _plugin_ is a software component that adds new features or extends the functionality of an existing application or service.
@@ -8638,7 +8638,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 **Incorrect forms**: plug in, plug-in
 
-**See also**: [plug-in](#plug-in-(noun))
+**See also**: [plug-in](#plug-in-noun)
 
 #### plug-in (noun)
 **Description**: Use with caution. Write as shown only when updating existing content that uses the hyphenated form. For new content, use "plugin".
@@ -8647,7 +8647,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 **Incorrect forms**: plug in
 
-**See also**: [plugin](#plugin-(noun))
+**See also**: [plugin](#plugin-noun)
 
 #### pod (noun)
 **Description**: In Kubernetes, a _pod_ is a set of one or more containers deployed together to act as if they are on a single host, sharing an internal IP, ports, and local storage. OpenShift Container Platform treats pods as immutable. Any changes to the underlying image, `Pod` configuration, or environment variable values, cause new pods to be created and phase out the existing pods. Being immutable also means that any state is not maintained between pods when they are re-created. The API object for a pod is `Pod`.
@@ -8656,7 +8656,7 @@ Use "plugin" rather than "plug-in", unless you are updating existing content tha
 
 **Incorrect forms**:
 
-**See also**: [container](#container-(noun))
+**See also**: [container](#container-noun)
 
 #### pojo subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the `pojo` subsystem enables deployment of applications containing JBoss Microcontainer services. In general text, write in lowercase as one word. Use "POJO subsystem" when referring to the `pojo` subsystem in titles and headings.
@@ -8763,7 +8763,7 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 
 **Incorrect forms**: master node
 
-**See also**: [control plane node](#control-plane-node-(noun)), [controller node](#controller-node-(noun)), [source node](#source-node-(noun))
+**See also**: [control plane node](#control-plane-node-noun), [controller node](#controller-node-noun), [source node](#source-node-noun)
 
 #### processor (noun)
 **Description**: In Red Hat Fuse, a _processor_ is a node that is capable of using, creating, or modifying an incoming message exchange in a Camel route. Processors are typically implementations of EIPs, but can be custom made.
@@ -8772,7 +8772,7 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 
 **Incorrect forms**:
 
-**See also**: [route](#route-(noun)), [EIP](#eip-(noun))
+**See also**: [route](#route-noun), [EIP](#eip-noun)
 
 #### producer (noun)
 **Description**: (1) In Red Hat AMQ, a _producer_ is a client that sends messages. (2) In Red Hat Fuse, a producer is an endpoint that acts as the source of messages exiting a Camel route. It can create and send processed messages to their target destination, such as external systems or services. The producer populates the messages it creates with data that is compatible with the target destination. A route can have multiple producers.
@@ -8781,7 +8781,7 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 
 **Incorrect forms**:
 
-**See also**: [client application](#client-application-(noun)), [consumer](#consumer-(noun))
+**See also**: [client application](#client-application-noun), [consumer](#consumer-noun)
 
 #### project (noun)
 **Description**: (1) In Red Hat OpenShift, a _project_ corresponds to a Kubernetes namespace. They organize and group objects in the system, such as services and deployments, as well as provide security policies specific to those resources. (2) In Red Hat Process Automation Manager and Red Hat Decision Manager, a project is a container that comprises packages of assets (business processes, rules, work definitions, decision tables, fact models, data models, and DSLs) and is located in the knowledge repository. This container defines the properties of the KIE base and KIE session that are applied to its content. You can edit these entities in the project editor in Business Central.
@@ -8790,7 +8790,7 @@ Use "source node" for the node in the active cluster when discussing geo-replica
 
 **Incorrect forms**:
 
-**See also**: [action](#action-(noun)), [business rule](#business-rule-(noun)), [business process](#business-process-(noun))
+**See also**: [action](#action-noun), [business rule](#business-rule-noun), [business process](#business-process-noun)
 
 #### privilege (noun)
 **Description**: A _privilege_ is a right granted to an agent to perform certain restricted actions. A user is one example of an agent.
@@ -8804,7 +8804,7 @@ When combined with permissions, privileges define an agent’s overall access to
 
 **Incorrect forms**:
 
-**See also**: [permission](#permission-(noun))
+**See also**: [permission](#permission-noun)
 
 #### PROM (noun)
 **Description**: "PROM" is an acronym for "programmable read-only memory" and is a variation of "ROM". _PROMs_ are manufactured as blank chips on which data can be written with a device called a PROM programmer.
@@ -8813,7 +8813,7 @@ When combined with permissions, privileges define an agent’s overall access to
 
 **Incorrect forms**: prom, Prom
 
-**See also**: [ROM](#rom-(noun))
+**See also**: [ROM](#rom-noun)
 
 #### proof of concept (noun)
 **Description**: Use the following rules to form the plural of this phrase: Use "proofs of concept" for multiple proofs but only one concept. Use "proofs of concepts" for multiple proofs and multiple concepts.
@@ -8876,7 +8876,7 @@ When combined with permissions, privileges define an agent’s overall access to
 
 **Incorrect forms**:
 
-**See also**: [IBM Power](#ibm-power®-(noun))
+**See also**: [IBM Power](#ibm-power®-noun)
 
 #### pseudo-ops (noun)
 **Description**: "Pseudo-ops" is an abbreviation for "pseudo operations" and is sometimes called an assembler directive. These keywords do not directly translate to a machine instruction.
@@ -8912,7 +8912,7 @@ When combined with permissions, privileges define an agent’s overall access to
 
 **Incorrect forms**: puppetize
 
-**See also**: [Puppet](#puppet-(noun))
+**See also**: [Puppet](#puppet-noun)
 
 #### PXE (noun)
 **Description**: "PXE" is an acronym for "Pre-Boot Execution Environment". Pronounced "pixie", PXE is one of the components of the Intel Wired for Management (WfM) specification. It allows a workstation to boot from a server on a network in preference to booting the operating system on the local hard drive. _PXE_ is a mandatory element of the WfM specification. To be considered compliant, PXE must be supported by the computer’s BIOS and its NIC.
@@ -8941,7 +8941,7 @@ When combined with permissions, privileges define an agent’s overall access to
 
 **Incorrect forms**: qcow2, Qcow2
 
-**See also**: [KVM](#kvm-(noun))
+**See also**: [KVM](#kvm-noun)
 
 #### qdmanage (noun)
 **Description**: In Red Hat AMQ, `qdmanage` is a generic AMQP management client used for managing AMQ Interconnect.
@@ -9011,7 +9011,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**: rados
 
-**See also**: [Object Store](#object-store-(noun))
+**See also**: [Object Store](#object-store-noun)
 
 #### RADOS Block Device (noun)
 **Description**: In Red Hat Ceph Storage, the _RADOS Block Device_ is the block storage component of Ceph. Also known as the "Ceph Block Device", which is the preferred form. Use "RADOS Block Device" only when expanding the RBD abbreviation.
@@ -9020,7 +9020,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**: RADOS block device
 
-**See also**: [Ceph Block Device](#ceph-block-device-(noun)), [RBD](#rbd-(noun)), [rbd](#rbd-(noun)), [librbd](#librbd-(noun))
+**See also**: [Ceph Block Device](#ceph-block-device-noun), [RBD](#rbd-noun), [rbd](#rbd-noun), [librbd](#librbd-noun)
 
 #### RADOS Gateway (noun)
 **Description**: In Red Hat Ceph Storage, _RADOS Gateway_ is the S3/Swift component. Also known as the "Ceph Object Gateway", which is the preferred form. Use "RADOS Gateway" only when expanding the RGW abbreviation.
@@ -9029,7 +9029,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**: RadosGW, RADOS gateway
 
-**See also**: [Ceph Object Gateway](#ceph-object-gateway-(noun)), [RGW](#rgw-(noun)), [ceph-radosgw](#ceph-radosgw-(noun))
+**See also**: [Ceph Object Gateway](#ceph-object-gateway-noun), [RGW](#rgw-noun), [ceph-radosgw](#ceph-radosgw-noun)
 
 #### RAM (noun)
 **Description**: _RAM_ is an acronym for random access memory.
@@ -9038,7 +9038,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**: Ram, ram
 
-**See also**: [RAM disk](#ram-disk-(noun))
+**See also**: [RAM disk](#ram-disk-noun)
 
 #### RAM disk (noun)
 **Description**: _RAM disk_ refers to RAM that has been configured to simulate a disk drive. You can access files on a RAM disk as you would access files on a physical disk. RAM disks, however, are approximately a thousand times faster than hard disk drives. They are particularly useful for applications that require frequent disk accesses.
@@ -9047,7 +9047,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**: RAMdisk, ramdisk, RAM-disk
 
-**See also**: [RAM](#ram-(noun))
+**See also**: [RAM](#ram-noun)
 
 #### raw (adjective)
 **Description**: In computing terms, _raw_ means unprocessed. The term refers to data that is passed to an I/O device without being interpreted. In contrast, _cooked_ refers to data that is processed before being passed to the I/O device. The term comes from the UNIX system, which supports cooked and raw modes for data output to a terminal. In cooked mode, special characters, such as erase and kill, are processed by the device driver before being sent to the output device.
@@ -9056,7 +9056,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**: RAW
 
-**See also**: [cooked](#cooked-(adjective))
+**See also**: [cooked](#cooked-adjective)
 
 #### raw data (noun)
 **Description**: _Raw data_ is information that has not been organized, formatted, or analyzed.
@@ -9075,7 +9075,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**:
 
-**See also**: [interpreted code](#interpreted-code-(noun))
+**See also**: [interpreted code](#interpreted-code-noun)
 
 #### RBD (noun)
 **Description**: In Red Hat Ceph Storage, _RBD_ is an abbreviation for RADOS Block Device.
@@ -9084,7 +9084,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**: rbd
 
-**See also**: [Ceph Block Device](#ceph-block-device-(noun)), [RADOS Block Device](#rados-block-device-(noun)), [rbd](#rbd-(noun)), [librbd](#librbd-(noun))
+**See also**: [Ceph Block Device](#ceph-block-device-noun), [RADOS Block Device](#rados-block-device-noun), [rbd](#rbd-noun), [librbd](#librbd-noun)
 
 #### rbd (noun)
 **Description**: In Red Hat Ceph Storage, `rbd` is a command to create, list, introspect, and remove Ceph Block Device images. Always mark it correctly (`rbd`).
@@ -9093,7 +9093,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**:
 
-**See also**: [Ceph Block Device](#ceph-block-device-(noun)), [RADOS Block Device](#rados-block-device-(noun)), [RBD](#rbd-(noun)), [librbd](#librbd-(noun))
+**See also**: [Ceph Block Device](#ceph-block-device-noun), [RADOS Block Device](#rados-block-device-noun), [RBD](#rbd-noun), [librbd](#librbd-noun)
 
 #### read (noun)
 **Description**: When used as a noun, "read" refers to the act of reading, for example, "A fast disk drive performs 100 'reads' per second."
@@ -9102,7 +9102,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**:
 
-**See also**: [read (verb)](#read-(verb))
+**See also**: [read (verb)](#read-verb)
 
 #### read (verb)
 **Description**: To _read_ means to copy data to a place where it can be used by a program. Read is commonly used to describe copying data from a storage medium, such as a disk, to main memory. It is also used to refer to the act of determining the contents of a variable or parameter.
@@ -9111,7 +9111,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**:
 
-**See also**: [read (noun)](#read-(noun))
+**See also**: [read (noun)](#read-noun)
 
 #### realm
 **Description**: (1) A _realm_ manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control. (2) In Red Hat Ceph Storage, a _realm_ is a namespace context for storing a multisite configuration. The notion of a realm enables Ceph to provide multiple namespaces in the same cluster.
@@ -9120,7 +9120,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**:
 
-**See also**: [zone group](#zone-group-(noun))
+**See also**: [zone group](#zone-group-noun)
 
 #### Realtime Decision Server (noun)
 **Description**: In Red Hat Decision Manager and Red Hat Process Automation Manager, the _Realtime Decision Server_ is a standalone, built-in component that can be used to instantiate and execute rules through interfaces available for REST, JMS, or a Java client-side applications. Created as a web deployable WAR file, this server can be deployed on any web container. The current version of the Realtime Decision Server is included with default extensions for both Red Hat Decision Manager and Red Hat Process Automatio Manager.
@@ -9138,7 +9138,7 @@ Ensure that you provide context about which type of "quick start" you are referr
 
 **Incorrect forms**:
 
-**See also**: [consumer](#consumer-(noun)), [source](#source-(noun)), [sender](#sender-(noun))
+**See also**: [consumer](#consumer-noun), [source](#source-noun), [sender](#sender-noun)
 
 #### recommend (verb)
 **Description**: Avoid "recommends". Instead of "Red Hat recommends", direct users to take the recommended action. This allows Red Hat to be more prescriptive in documentation and prevent any user uncertainty, and is easier for upstream or downstream coordinated efforts.
@@ -9149,7 +9149,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 **Incorrect forms**: we recommend, we suggest, Red Hat recommends
 
-**See also**: [we suggest](#we-suggest-(verb))
+**See also**: [we suggest](#we-suggest-verb)
 
 #### Red Hat AMQ (noun)
 **Description**: A lightweight messaging platform that delivers information and easily integrates applications. _Red Hat AMQ_ consists of several components, such as message broker, interconnect router, and clients, that support a variety of configurations. Always use the full product name, "Red Hat AMQ", or short product name, "AMQ".
@@ -9158,7 +9158,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 **Incorrect forms**: A-MQ, AMQ, Red Hat A-MQ, Red Hat JBoss AMQ
 
-**See also**: [AMQ](#amq-(noun)), [JBoss AMQ](#jboss-amq-(noun))
+**See also**: [AMQ](#amq-noun), [JBoss AMQ](#jboss-amq-noun)
 
 #### Red Hat build of OpenJDK (noun)
 **Description**: _Red Hat build of OpenJDK_ is the Red Hat distribution of the Open Java Development Kit (OpenJDK).
@@ -9167,7 +9167,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 **Incorrect forms**: Red Hat Java, Red Hat OpenJDK, RHOJDK
 
-**See also**: [Red Hat Java](#red hat-java-(noun)), [Red Hat OpenJDK](#red hat-openjdk-(noun))
+**See also**: [Red Hat Java](#red hat-java-noun), [Red Hat OpenJDK](#red hat-openjdk-noun)
 
 #### Red Hat Ceph Storage (noun)
 **Description**: _Red Hat Ceph Storage_ is a Red Hat offering of the Ceph storage system.
@@ -9176,7 +9176,7 @@ For example, instead of "Red Hat recommends using X package because", write "Use
 
 **Incorrect forms**:
 
-**See also**: [Ceph](#ceph-(noun))
+**See also**: [Ceph](#ceph-noun)
 
 #### Red Hat Cloud Access (noun)
 **Description**: _Red Hat Cloud Access_ is a Red Hat partner program that allows customers to use their Red Hat subscriptions to build resources and import images on qualified Red Hat Certified Cloud and Service Providers (CCSPs).
@@ -9196,7 +9196,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 **Incorrect forms**:
 
-**See also**: [container registry](#container-registry-(noun)), [OpenShift Container Registry](#openshift-container-registry-(noun))
+**See also**: [container registry](#container-registry-noun), [OpenShift Container Registry](#openshift-container-registry-noun)
 
 #### Red Hat Customer Portal (noun)
 **Description**: _Red Hat Customer Portal_ is the official name for https://access.redhat.com. Use "Red Hat Customer Portal" on the first use. You can shorten it to "Customer Portal" after that.
@@ -9205,7 +9205,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 **Incorrect forms**: CP, RHCP, customer portal, portal
 
-**See also**: [Customer Portal](#customer-portal-(noun))
+**See also**: [Customer Portal](#customer-portal-noun)
 
 #### Red Hat Data Grid (noun)
 **Description**: _Red Hat Data Grid_, which was formerly Red Hat JBoss Data Grid, is a high-performance, distributed, in-memory data store. Use "Red Hat Data Grid" in the first instance and "Data Grid" in all subsequent instances. In 2019, Red Hat JBoss Data Grid was rebranded as Red Hat Data Grid.
@@ -9214,7 +9214,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 **Incorrect forms**: Red Hat JBoss Data Grid, JDG
 
-**See also**: [Data Grid](#data-grid-(noun)), [Red Hat JBoss Data Grid](#red hat-jboss-data-grid-(noun))
+**See also**: [Data Grid](#data-grid-noun), [Red Hat JBoss Data Grid](#red hat-jboss-data-grid-noun)
 
 #### Red Hat Decision Manager (noun)
 **Description**: _Red Hat Decision Manager_ is a comprehensive platform for business rules management, business resource optimization, and complex event processing (CEP). Red Hat Decision Manager is a subset of Red Hat Process Automation Manager. Organizations can use Red Hat Decision Manager to incorporate sophisticated decision logic into line-of-business applications and quickly update underlying business rules as market conditions change.
@@ -9223,7 +9223,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 **Incorrect forms**: BRMS, BRM, JBoss BRMS, DM
 
-**See also**: [Red Hat Process Automation Manager](#red hat-process-automation-manager-(noun))
+**See also**: [Red Hat Process Automation Manager](#red hat-process-automation-manager-noun)
 
 #### Red Hat Directory Server (noun)
 **Description**: _Red Hat Directory Server_ (RHDS) is an LDAPv3-compliant directory server and the name of the product. Use the full product name in titles of guides. Outside of titles, refer to the product as "Directory Server". Use the product name without an article. Do not use the acronym "RHDS" in documentation.
@@ -9232,7 +9232,7 @@ The Red Hat Container Catalog no longer exists; it has become part of the Red Ha
 
 **Incorrect forms**: RHDS
 
-**See also**: [Directory Server](#directory-server-(noun))
+**See also**: [Directory Server](#directory-server-noun)
 
 #### Red Hat Ecosystem Catalog (noun)
 **Description**: The _Red Hat Ecosystem Catalog_ is the official source for discovering and learning more about the Red Hat Certified Technology Ecosystem and certified third-party products and services. The Red Hat Ecosystem Catalog is a repository for all certified partner software, hardware, and public cloud provider images that run on, in, or under Red Hat software, such as Red Hat Enterprise Linux, OpenShift Container Platform, Red Hat OpenStack Platform, and Ansible.
@@ -9243,7 +9243,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 **Incorrect forms**:
 
-**See also**: [Red Hat Container Catalog](#red hat-container-catalog-(noun))
+**See also**: [Red Hat Container Catalog](#red hat-container-catalog-noun)
 
 #### Red Hat Enterprise Linux
 
@@ -9253,7 +9253,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 **Incorrect forms**:
 
-**See also**: [RHEL](#rhel-(noun))
+**See also**: [RHEL](#rhel-noun)
 
 #### Red Hat Enterprise Linux OpenStack Platform (noun)
 **Description**: Spell out in full. This product name applies to Red Hat Enterprise Linux OpenStack Platform 7 and earlier versions.
@@ -9262,7 +9262,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 **Incorrect forms**: RHELOSP, RHEL-OSP
 
-**See also**: [Red Hat OpenStack Platform](#red hat-openstack-platform-(noun))
+**See also**: [Red Hat OpenStack Platform](#red hat-openstack-platform-noun)
 
 #### Red Hat Fuse Online (noun)
 **Description**: The distribution of Red Hat Fuse for non-expert integrators with a simplified workflow that is accessed through a browser-based UI.
@@ -9271,7 +9271,7 @@ Write this name in full the first time that you use it in a document. Subsequent
 
 **Incorrect forms**: Ignite, Fuse Ignite
 
-**See also**: [Syndesis](#syndesis-(noun)), [Fuse Online](#fuse-online-(noun))
+**See also**: [Syndesis](#syndesis-noun), [Fuse Online](#fuse-online-noun)
 
 #### Red Hat Java (noun)
 **Description**: Do not use _Red Hat Java_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
@@ -9284,7 +9284,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**:
 
-**See also**: [Red Hat build of OpenJDK](#red hat-build-of-openjdk-(noun)), [Red Hat OpenJDK](#red hat-openjdk-(noun))
+**See also**: [Red Hat build of OpenJDK](#red hat-build-of-openjdk-noun), [Red Hat OpenJDK](#red hat-openjdk-noun)
 
 #### Red Hat JBoss Data Grid (noun)
 **Description**: This product name applies to Red Hat Data Grid 7.2 and earlier versions.
@@ -9293,7 +9293,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**:
 
-**See also**: [Red Hat Data Grid](#red hat-data-grid-(noun))
+**See also**: [Red Hat Data Grid](#red hat-data-grid-noun)
 
 #### Red Hat JBoss Enterprise Application Platform (noun)
 **Description**: _Red Hat JBoss Enterprise Application Platform_ is an enterprise-grade Java application server. Spell out on first use in a guide, and use the approved abbreviation "JBoss EAP" thereafter.
@@ -9302,7 +9302,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: Red Hat JBoss EAP, JBoss Enterprise Application Platform
 
-**See also**: [JBoss EAP](#jboss-eap-(noun))
+**See also**: [JBoss EAP](#jboss-eap-noun)
 
 #### Red Hat OpenJDK (noun)
 **Description**: Do not use _Red Hat OpenJDK_ to refer to the Red Hat distribution of the Open Java Development Kit (OpenJDK).
@@ -9315,7 +9315,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**:
 
-**See also**: [Red Hat build of OpenJDK](#red hat-build-of-openjdk-(noun)), [Red Hat Java](#red hat-java-(noun))
+**See also**: [Red Hat build of OpenJDK](#red hat-build-of-openjdk-noun), [Red Hat Java](#red hat-java-noun)
 
 #### Red Hat OpenShift Cluster Manager (noun)
 **Description**: A managed service for Red Hat OpenShift that lets users create, subscribe, and manage different types of OpenShift clusters from a single user interface. After the first mention, you can use "OpenShift Cluster Manager". [OpenShift Cluster Manager](https://console.redhat.com/openshift) is part of the Red Hat Hybrid Cloud Console.
@@ -9342,7 +9342,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: OCS
 
-**See also**: [Red Hat OpenShift Data Foundation](#red hat-openshift-data-foundation-(noun))
+**See also**: [Red Hat OpenShift Data Foundation](#red hat-openshift-data-foundation-noun)
 
 #### Red Hat OpenShift Data Foundation (noun)
 **Description**: Red Hat software-defined, container-native storage that helps to develop and deploy applications quickly and efficiently across cloud platforms. Formerly _Red Hat OpenShift Container Storage_.
@@ -9351,7 +9351,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: ODF
 
-**See also**: [Red Hat OpenShift Container Storage](#red hat-openshift-container-storage-(noun))
+**See also**: [Red Hat OpenShift Container Storage](#red hat-openshift-container-storage-noun)
 
 #### Red Hat OpenShift Dedicated (noun)
 **Description**: A Red Hat managed public cloud application deployment and hosting service.
@@ -9378,7 +9378,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: OpenStack Platform, RHOS, RH-OSP
 
-**See also**: [Red Hat Enterprise Linux OpenStack Platform](#red hat-enterprise-linux-openstack-platform-(noun))
+**See also**: [Red Hat Enterprise Linux OpenStack Platform](#red hat-enterprise-linux-openstack-platform-noun)
 
 #### Red Hat Process Automation Manager (noun)
 **Description**: _Red Hat Process Automation Manager_ is the Red Hat platform for Business Process Management (BPM). With Red Hat Process Automation Manager enterprise business and IT users can document, simulate, manage, automate, and monitor business processes and policies. It is designed to empower business and IT users to collaborate more effectively, so business applications can be changed more easily and quickly.
@@ -9387,7 +9387,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: BPMS, BPM, JBoss BPMS, PAM
 
-**See also**: [Red Hat Decision Manager](#red hat-decision-manager-(noun))
+**See also**: [Red Hat Decision Manager](#red hat-decision-manager-noun)
 
 #### Red Hat Way (noun)
 
@@ -9415,7 +9415,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**:
 
-**See also**: [OSTree](#ostree-(noun))
+**See also**: [OSTree](#ostree-noun)
 
 #### region (noun)
 **Description**: In Red Hat Ceph Storage, a _region_ is the deprecated term for referring to a zone group. Red Hat Ceph Storage 1.3 uses regions.
@@ -9424,7 +9424,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**:
 
-**See also**: [zone group](#zone-group-(noun))
+**See also**: [zone group](#zone-group-noun)
 
 #### regex (noun)
 **Description**: _Regex_ is an abbreviation for "regular expression". Do not use "regex" as a replacement for "regular expression".
@@ -9433,7 +9433,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**:
 
-**See also**: [regular expression](#regular-expression-(noun))
+**See also**: [regular expression](#regular-expression-noun)
 
 #### regular expression (noun)
 **Description**: A _regular expression_ is a string of letters, numbers, and symbols that defines a pattern. When searching a body of text, software can use this pattern to match characters or groups of characters and return results.
@@ -9442,7 +9442,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: regex
 
-**See also**: [regex](#regex-(noun))
+**See also**: [regex](#regex-noun)
 
 #### relative path (noun)
 **Description**: The path related to the present working directory. Because it does not provide enough information for a program to locate a file, it must be combined with an additional path to access a file.
@@ -9460,7 +9460,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**:
 
-**See also**: [OSTree](#ostree-(noun))
+**See also**: [OSTree](#ostree-noun)
 
 #### remote access (noun)
 **Description**: _Remote access_ is the ability to log on to a network from a distant location. Generally, this implies a computer, a modem, and some remote access software to connect to the network. _Remote control_ refers to taking control of another computer, while _remote access_ means that the remote computer actually becomes a full-fledged host on the network. The remote access software dials in directly to the network server. The only difference between a remote host and workstations connected directly to the network is slower data transfer speeds.
@@ -9469,7 +9469,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: remote-access
 
-**See also**: [remote access server](#remote-access-server-(noun))
+**See also**: [remote access server](#remote-access-server-noun)
 
 #### remote access server (noun)
 **Description**: A _remote access server_ is a server that is dedicated to handling users that are not on a LAN but need remote access to it. The remote access server allows users to gain access to files and print services on the LAN from a remote location. For example, a user who dials in to a network from home by using an analog modem or an ISDN connection dial in to a remote access server. After the user is authenticated, they can access shared drives and printers as if they were physically connected to the office LAN.
@@ -9478,7 +9478,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: remote-access server
 
-**See also**: [remote access](#remote-access-(noun))
+**See also**: [remote access](#remote-access-noun)
 
 #### remote execution (noun, adjective)
 **Description**: In Red Hat Satellite, you can use the _remote execution_ feature to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable remote execution for Capsule and then run a remote execution job to apply errata to hosts.
@@ -9487,7 +9487,7 @@ Always use the approved product name _Red Hat build of OpenJDK_ instead.
 
 **Incorrect forms**: Remote Execution
 
-**See also**: [REX](#rex-(noun,-adjective))
+**See also**: [REX](#rex-noun-adjective)
 
 #### remoting subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _remoting" subsystem_ is used to configure inbound and outbound connections for local and remote servers. Write in lowercase in general text. Use "Remoting subsystem" when referring to the remoting subsystem in titles and headings.
@@ -9524,7 +9524,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [IdM deployment](#idm-deployment-(noun))
+**See also**: [IdM deployment](#idm-deployment-noun)
 
 #### replication controller (noun)
 **Description**: In Red Hat OpenShift, a _replication controller_ is a Kubernetes object that ensures a specified number of pods for an application are running at a given time. The replication controller automatically reacts to changes to deployed pods, both the removal of existing pods, for example, deletion or crashing, or the addition of extra pods that are not wanted. The pods are automatically added or removed from the service to ensure its uptime.
@@ -9542,7 +9542,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**: channel
 
-**See also**: [subscription](#subscription-(noun)), [entitlement](#entitlement-(noun))
+**See also**: [subscription](#subscription-noun), [entitlement](#entitlement-noun)
 
 #### request-controller subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _request-controller_ subsystem is used to configure settings to suspend servers or to shut them down gracefully. In general text, write in lowercase as two words separated by a hyphen. Use "Request Controller subsystem" when referring to the request-controller subsystem in titles and headings.
@@ -9608,7 +9608,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [enter](#enter-(noun))
+**See also**: [enter](#enter-noun)
 
 #### revision (noun)
 **Description**: _Revision_ (Rev) represents SHA-256 for a specific OSTree commit.
@@ -9617,7 +9617,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [OSTree](#ostree-(noun))
+**See also**: [OSTree](#ostree-noun)
 
 #### REX (noun, adjective)
 **Description**: In Red Hat Satellite, _REX_ is an acronym for _remote execution_. You can use REX to run jobs on hosts from Capsule by using shell scripts or Ansible. For example, you can enable REX for Capsule and then run a REX job to apply errata to hosts.
@@ -9626,7 +9626,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [remote execution](#remote-execution-(noun,-adjective))
+**See also**: [remote execution](#remote-execution-noun-adjective)
 
 #### RGW (noun)
 **Description**: In Red Hat Ceph Storage, _RGW_ is an abbreviation for RADOS Gateway.
@@ -9635,7 +9635,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [RADOS Gateway](#rados-gateway-(noun)), [Ceph Object Gateway](#ceph-object-gateway-(noun))
+**See also**: [RADOS Gateway](#rados-gateway-noun), [Ceph Object Gateway](#ceph-object-gateway-noun)
 
 #### RHEL (noun)
 **Description**: _RHEL_ is an acronym for _Red Hat Enterprise Linux_. The conventions for using this acronym vary for different products and teams. If you are not sure whether to use the acronym or only the full version, ask your team members.
@@ -9671,7 +9671,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**: rollout
 
-**See also**: [rollout](#rollout-(noun))
+**See also**: [rollout](#rollout-noun)
 
 #### rollout (noun)
 **Description**: In marketing, _rollout_ describes a series of related product announcements. When a company installs new equipment or software, this process is also called a "rollout".
@@ -9680,7 +9680,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**: roll out
 
-**See also**: [roll-out](#roll-out-(verb))
+**See also**: [roll-out](#roll-out-verb)
 
 #### ROM (noun)
 **Description**: _ROM_ is an acronym for _read-only memory_, that is, computer memory on which data has been prerecorded. After data has been written onto a ROM chip, it cannot be removed and can only be read.
@@ -9689,7 +9689,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**: Rom, rom
 
-**See also**: [PROM](#prom-(noun))
+**See also**: [PROM](#prom-noun)
 
 #### Rook (noun)
 **Description**: _Rook_ is an orchestrator for multiple storage solutions, each with a specialized Kubernetes Operator to automate management.
@@ -9718,7 +9718,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**: roundtable
 
-**See also**: [roundtable](#roundtable-(noun))
+**See also**: [roundtable](#roundtable-noun)
 
 #### roundtable (noun)
 **Description**: Use "roundtable" when referring to a type of event or gathering.
@@ -9727,7 +9727,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**: round table
 
-**See also**: [round table](#round-table-(noun))
+**See also**: [round table](#round-table-noun)
 
 #### route (noun)
 **Description**: (1) In Red Hat OpenShift, a _route_ exposes a service at a hostname, like www.example.com, so that external clients can reach it by name. (2) In Red Hat Fuse, routes specify paths through which messages move. A _route_ is basically a chain of processors that execute actions on messages as they move between the route’s consumer and producer endpoints. A routing context can contain multiple routes.
@@ -9736,7 +9736,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [consumer](#consumer-(noun)), [endpoint](#endpoint-(noun)), [processor](#processor-(noun)), [producer](#producer-(noun)), [routing context](#routing-context-(noun))
+**See also**: [consumer](#consumer-noun), [endpoint](#endpoint-noun), [processor](#processor-noun), [producer](#producer-noun), [routing context](#routing-context-noun)
 
 #### router (noun)
 **Description**: In Red Hat AMQ, a _router_ is a configurable instance of AMQ Interconnect. Routers are application layer programs that route AMQP messages between message producers and consumers. Routers are typically deployed in networks of multiple routers with redundant paths. When using this term, be careful not to confuse it with network device routers.
@@ -9745,7 +9745,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [AMQ Interconnect](#amq-interconnect-(noun))
+**See also**: [AMQ Interconnect](#amq-interconnect-noun)
 
 #### routine (noun)
 
@@ -9764,7 +9764,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [Camel context](#camel-context-(noun)), [routing rules](#routing-rules-(noun))
+**See also**: [Camel context](#camel-context-noun), [routing rules](#routing-rules-noun)
 
 #### routing mechanism (noun)
 **Description**: In Red Hat AMQ, a _routing mechanism_ is the type of routing to be used for an address. Routing mechanisms include message routing and link routing.
@@ -9791,7 +9791,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [routing context](#routing-context-(noun))
+**See also**: [routing context](#routing-context-noun)
 
 #### RPM (noun)
 **Description**: _RPM_ is the recursive initialism for the _RPM Package Manager_. RPM manages files in the RPM format. Those files are referred to as "RPM packages". Even though RPM packages are known informally as `rpm` files, do not use this informal term in Red Hat documentation to avoid confusion with the command name.
@@ -9818,7 +9818,7 @@ IdM uses two types of replication agreements: _domain replication_ agreements, w
 
 **Incorrect forms**:
 
-**See also**: [OSTree](#ostree-(noun))
+**See also**: [OSTree](#ostree-noun)
 
 #### rts subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _rts subsystem_ is an implementation of REST AT that is not supported in JBoss EAP. In general text, write in lowercase as one word. Use "RTS subsystem" when referring to the `rts` subsystem in titles and headings.
@@ -9860,7 +9860,7 @@ Examples:
 
 **Incorrect forms**: Rulebook
 
-**See also**: [Ansible Rulebook](#ansible-rulebook-(noun))
+**See also**: [Ansible Rulebook](#ansible-rulebook-noun)
 
 #### runlevel (noun)
 **Description**: A _runlevel_ is a preset operating state on a UNIX system and similar operating systems. A system can be booted in to (that is, started up in to) any of several runlevels, each of which is represented by a single-digit integer. Each runlevel designates a different system configuration and allows access to a different combination of processes (that is, instances of executing programs). There are differences in the runlevels according to the operating system. Seven runlevels are supported in the standard Linux kernel.
@@ -9878,7 +9878,7 @@ Examples:
 
 **Incorrect forms**:
 
-**See also**: [KIE API](#kie-api-(noun))
+**See also**: [KIE API](#kie-api-noun)
 
 #### S
 
@@ -9895,7 +9895,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**:  [IBM Z](#ibm-z®-(noun))
+**See also**:  [IBM Z](#ibm-z®-noun)
 
 #### S-record (noun)
 **Description**: Motorola _S-record_ is a file format that stores binary information in ASCII hex text form.
@@ -9913,7 +9913,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [IaaS](#iaas-(noun)), [PaaS](#paas-(noun))
+**See also**: [IaaS](#iaas-noun), [PaaS](#paas-noun)
 
 #### Samba (noun)
 **Description**: _Samba_ provides file, printing, and Active Directory (AD) domain services for Microsoft Windows and other clients that use the Server Message Block (SMB) protocol to access network resources.
@@ -9949,7 +9949,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [scale up](#scale-up-(verb))
+**See also**: [scale up](#scale-up-verb)
 
 #### scale up (verb)
 **Description**: To _scale up_ is to improve the ability of a specific machine or cluster to do work by adding more resources to the machines. _Scaling up_ refers to increasing the amount of load that the system can handle by increasing the resources available to its components.
@@ -9958,7 +9958,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [scale out](#scale-out-(verb))
+**See also**: [scale out](#scale-out-verb)
 
 #### scheduler (noun)
 **Description**: In Red Hat OpenShift, the _scheduler_ is a control plane component that manages the state of the system, places pods on nodes, and ensures that all containers that are expected to be running are actually running.
@@ -10030,7 +10030,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [elytron](#elytron-subsystem-(noun))
+**See also**: [elytron](#elytron-subsystem-noun)
 
 #### security subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the legacy security subsystem is called _security_. Write in lowercase in general text. Use "Security subsystem" when referring to the legacy `security` subsystem in titles and headings.
@@ -10093,7 +10093,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [producer](#producer-(noun)), [target](#target-(noun)), [receiver](#receiver-(noun))
+**See also**: [producer](#producer-noun), [target](#target-noun), [receiver](#receiver-noun)
 
 #### server (noun)
 **Description**: A _server_ is a physical or virtual machine that runs software that provides the primary features of a product. Do not use "server" by itself unless you have previously qualified it with another defined term, such as storage server, metadata server, or database server.
@@ -10111,7 +10111,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**: computer farm, computer ranch
 
-**See also**: [server farm](#server-farm-(noun))
+**See also**: [server farm](#server-farm-noun)
 
 #### server farm (noun)
 **Description**: A _server farm_ is a group of networked servers housed in one location. This organization of servers streamlines internal processes by distributing the workload between the individual components of the group. It also expedites computing processes by harnessing the power of multiple servers. The farms rely on load-balancing software that accomplishes tasks such as tracking demand for processing power from different machines, prioritizing the tasks, and scheduling and rescheduling them, depending on priority and demand on the network. When one server in the farm fails, another server can serve as a backup.
@@ -10120,7 +10120,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**: computer farm, computer ranch
 
-**See also**: [server cluster](#server-cluster-(noun))
+**See also**: [server cluster](#server-cluster-noun)
 
 #### service (noun)
 **Description**: (1) Generically, software that performs automated tasks and listens to and responds to hardware events and requests from other software. (2) In Red Hat OpenShift, a _service_ functions as a load balancer and proxy to underlying pods. Services are assigned IP addresses and ports and delegate requests to an appropriate pod that can field it. The API object for a service is `Service`.
@@ -10147,7 +10147,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [connection](#connection-(noun))
+**See also**: [connection](#connection-noun)
 
 #### session externalization (noun)
 **Description**: In Red Hat Data Grid, clusters can provide external cache containers that store application-specific data. These external caches store HTTP sessions and other data to make applications stateless and achieve elastic scalability as well as high availability.
@@ -10165,7 +10165,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [sticky session](#sticky-session-(noun))
+**See also**: [sticky session](#sticky-session-noun)
 
 #### SHA-1 (noun)
 **Description**: _SHA_ is an acronym for "Secure Hash Algorithm" and is a cryptographic hash function. SHA-1 is an earlier hashing algorithm that is being replaced by SHA-2.
@@ -10174,7 +10174,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [SHA-2](#sha-2-(noun))
+**See also**: [SHA-2](#sha-2-noun)
 
 #### SHA-2 (noun)
 **Description**: _SHA_ is an acronym for "Secure Hash Algorithm" and is a cryptographic hash function. The encryption hash used in SHA-2 is significantly stronger and not subject to the same vulnerabilities as SHA-1. SHA-2 variants are often specified using their digest size, in bits, as the trailing number, instead of 2. "SHA-224", "SHA-256", "SHA-384", and "SHA-512" are all correct when referring to these specific hash functions.
@@ -10183,7 +10183,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [SHA-1](#sha-1-(noun))
+**See also**: [SHA-1](#sha-1-noun)
 
 #### shadow passwords (noun)
 **Description**: _Shadow passwords_ are a method of improving system security by moving the encrypted passwords (normally found in `/etc/passwd`) to `/etc/shadow`, which is readable only by root. This option is available during installation and is part of the shadow utilities package. "Shadow passwords" is not a proper noun and is only capitalized at the beginning of a sentence.
@@ -10219,7 +10219,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [bucket sharding](#bucket-sharding-(noun))
+**See also**: [bucket sharding](#bucket-sharding-noun)
 
 #### sharded queue (noun)
 **Description**: In Red Hat AMQ, a _sharded queue_ is a distributed queue in which a single logical queue is hosted on multiple brokers. Routers are typically used with sharded queues to enable clients to access the entire sharded queue instead of only a single shard of the queue.
@@ -10228,7 +10228,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [queue](#queue-(noun))
+**See also**: [queue](#queue-noun)
 
 #### share name (noun)
 **Description**: _Share name_ is the name of a shared resource. Use it as two words unless you are quoting the output of commands, such as "smbclient -L".
@@ -10255,7 +10255,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**: hashbang
 
-**See also**: [interpreter directive](#interpreter-directive-(noun)), [hashbang](#hashbang-(noun))
+**See also**: [interpreter directive](#interpreter-directive-noun), [hashbang](#hashbang-noun)
 
 #### shell (noun)
 **Description**: A _shell_ is a software application (for example, `/bin/bash` or `/bin/sh`) that provides an interface to a computer. Do not use this term to describe the prompt where you type commands.
@@ -10264,7 +10264,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [shell prompt](#shell-prompt-(noun))
+**See also**: [shell prompt](#shell-prompt-noun)
 
 #### shell prompt (noun)
 **Description**:  The _shell prompt_ is the character at the beginning of the command line, for example "$" or "#". It indicates that the shell is ready to accept commands. Do not use "command prompt", "terminal", or "shell".
@@ -10273,7 +10273,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**: command prompt, terminal, shell
 
-**See also**: [shell](#shell-(noun))
+**See also**: [shell](#shell-noun)
 
 #### signal topology (noun)
 **Description**: Every LAN has a topology, or the way that the devices on a network are arranged and how they communicate with each other. The _signal topology_ is the way that the signals act on the network media, or the way that the data passes through the network from one device to the next without regard to the physical interconnection of the devices. The signal topology is also called "logical topology".
@@ -10282,7 +10282,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [logical topology](#logical-topology-(noun)), [physical topology](#physical-topology-(noun))
+**See also**: [logical topology](#logical-topology-noun), [physical topology](#physical-topology-noun)
 
 #### singleton subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _singleton subsystem_ is used to configure the behavior of singleton deployments. Write in lowercase in general text. Use "Singleton subsystem" when referring to the `singleton` subsystem in titles and headings.
@@ -10318,7 +10318,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [consumer](#consumer-(noun)), [hub](#hub-(noun))
+**See also**: [consumer](#consumer-noun), [hub](#hub-noun)
 
 #### slave broker (noun)
 **Description**: In Red Hat AMQ, in a master-slave group, _slave broker_ is the broker (or brokers) that takes over for the master broker to which it is linked.
@@ -10327,7 +10327,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**: passive broker
 
-**See also**: [master-slave group](#master-slave-group-(noun)), [master broker](#master-broker-(noun))
+**See also**: [master-slave group](#master-slave-group-noun), [master broker](#master-broker-noun)
 
 #### smart card (noun)
 **Description**: A _smart card_ is a removable device or card used to control access to a resource. They can be plastic credit card-sized cards with an embedded integrated circuit (IC) chip, small USB devices such as a Yubikey, or other similar devices. Smart cards can provide authentication by allowing users to connect a smart card to a host computer, and software on that host computer interacts with key material stored on the smart card to authenticate the user.
@@ -10345,7 +10345,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**: smart NIC, Smart-NIC
 
-**See also**: [NIC](#nic), [vNIC](#vnic-(noun))
+**See also**: [NIC](#nic), [vNIC](#vnic-noun)
 
 #### snap (noun)
 **Description**: In Red Hat Ceph Storage, a _snap_ is the snapshot identifier of an object. The only writable version of the object is called "head". If an object is a clone, this field includes its sequential identifier. Always mark it correctly (`snap`).
@@ -10354,7 +10354,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**:
 
-**See also**: [snapshot set](#snapshot-set-(noun))
+**See also**: [snapshot set](#snapshot-set-noun)
 
 #### snapshot (noun)
 **Description**: A _snapshot_ is a point-in-time copy of the current state of a volume or disk drive. Do not use "snapshot" as a verb, such as "snapshot the drive". Instead, say "take a snapshot" or "create a snapshot"
@@ -10372,7 +10372,7 @@ Specify the system architecture of your cluster, such as `s390x` or `x86_64`.
 
 **Incorrect forms**: snapset, snapsets
 
-**See also**: [snap](#snap-(noun))
+**See also**: [snap](#snap-noun)
 
 #### snippet (noun)
 **Description**: A _snippet_ is a small piece or brief extract. Use "piece" instead of snippet. Use "excerpt" to refer to samples taken from a more-extensive section of text.
@@ -10434,7 +10434,7 @@ Therefore, if you need to use the indefinite article before "sos report", use _a
 
 **Incorrect forms**: sosreport, SoSreport, SOSreport, SOSREPORT, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
 
-**See also**: [sosreport](#sosreport-(noun))
+**See also**: [sosreport](#sosreport-noun)
 
 #### sosreport (noun)
 **Description**: In RHEL 7 and earlier, an _sosreport_ is a collection of files that contain configuration details, system information, and diagnostic data.
@@ -10451,7 +10451,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 **Incorrect forms**: SoSreport, SOSreport, SOSREPORT, sos report, SoS report, SOS report, sos Report, SoS Report, SOS Report, SOS REPORT
 
-**See also**: [sos report](#sos-report-(noun))
+**See also**: [sos report](#sos-report-noun)
 
 #### sound card (noun)
 **Description**: A _sound card_ is a device slotted into a computer to allow the use of audio components for multimedia applications.
@@ -10469,7 +10469,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 **Incorrect forms**:
 
-**See also**: [target](#target-(noun))
+**See also**: [target](#target-noun)
 
 #### Source RPM (noun)
 **Description**: _Source RPM_, or SRPM, is an RPM package that contains the complete source code, including any patches, and a SPEC file that describes how to build the source code into a binary RPM file.
@@ -10478,7 +10478,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 **Incorrect forms**: srpm
 
-**See also**: [spec file](#spec-file-(noun)), [RPM](#rpm-(noun))
+**See also**: [spec file](#spec-file-noun), [RPM](#rpm-noun)
 
 #### Source-Navigator^TM^ (noun)
 **Description**: _Source-Navigator^TM^_ is a source code analysis tool and is a Red Hat trademark.
@@ -10496,7 +10496,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 **Incorrect forms**: master node
 
-**See also**: [primary node](#primary-node-(noun))
+**See also**: [primary node](#primary-node-noun)
 
 #### Source-to-Image (S2I) (noun)
 **Description**: _Source-to-Image_ is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image.
@@ -10523,7 +10523,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 **Incorrect forms**:
 
-**See also**: [spacebar](#spacebar-(noun))
+**See also**: [spacebar](#spacebar-noun)
 
 #### spacebar (noun)
 **Description**: Use "spacebar" when referring to the keyboard key, for example, "Press the spacebar and type the correct number." Use "space" to refer to white space.
@@ -10532,7 +10532,7 @@ Therefore, if you need to use the indefinite article before "sosreport", use _an
 
 **Incorrect forms**:
 
-**See also**: [space](#space-(noun))
+**See also**: [space](#space-noun)
 
 #### spec (noun)
 **Description**: In Red Hat OpenShift, use "spec" and "spec file" when you want to describe an RPM spec file. You can also use "spec" for general usage when you describe Kubernetes or OpenShift Container Platform object specs, manifests, or definitions.
@@ -10554,7 +10554,7 @@ _Update the `Pod` spec to reflect the changes._
 
 **Incorrect forms**: specfile
 
-**See also**: [RPM](#rpm-(noun))
+**See also**: [RPM](#rpm-noun)
 
 #### specific (noun)
 **Description**: When used as a modifier, put a hyphen before "specific", for example, "Linux-specific" or "chip-specific".
@@ -10601,7 +10601,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**:
 
-**See also**: [MySQL](#mysql-(noun))
+**See also**: [MySQL](#mysql-noun)
 
 #### SR-IOV (noun)
 **Description**: _SR-IOV_ is an abbreviation for "Single-Root I/O Virtualization". It is a virtualization specification that allows a PCIe device to appear to be multiple separate physical PCIe devices.
@@ -10628,7 +10628,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**:
 
-**See also**: [SSL/TLS](#ssl/tls-(noun)), [TLS](#tls-(noun))
+**See also**: [SSL/TLS](#ssl/tls-noun), [TLS](#tls-noun)
 
 #### SSL/TLS (noun)
 **Description**: _SSL/TLS_ refers to the Secure Socket Layer protocol (SSL) and its successor, the Transport Layer Security protocol (TLS). Both of these protocols are frequently called "SSL", so use "SSL/TLS" in high-level documentation entries, such as headings, to establish context with encryption protocols. In other documentation areas, use TLS and document the supported version of the TLS protocol for your product.
@@ -10655,7 +10655,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**:
 
-**See also**: [LDAP](#ldap-(noun)), [SSSD](#sssd-(noun))
+**See also**: [LDAP](#ldap-noun), [SSSD](#sssd-noun)
 
 #### standalone (adjective)
 **Description**: Use "standalone" instead of "stand-alone" when referring to components that are complete and that operate independently of other components, such as "a standalone distribution" or "a standalone module". However, use two words for a noun phrase, such as "a module must stand alone".
@@ -10667,13 +10667,13 @@ Always capitalize as shown, except in commands, packages, or UI content.
 **See also**:
 
 #### standalone mode (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the [standalone server](#standalone-server-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, do not use "standalone mode" to refer to the standalone operating mode of JBoss EAP server. For the correct usage, see the [standalone server](#standalone-server-noun) entry.
 
 **Use it**: no
 
 **Incorrect forms**:
 
-**See also**: [standalone server](#standalone-server-(noun))
+**See also**: [standalone server](#standalone-server-noun)
 
 #### standalone server (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, use "standalone server" to refer to the standalone operating mode of JBoss EAP server. For example, when running JBoss EAP as a standalone server.
@@ -10682,7 +10682,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**: standalone mode
 
-**See also**: [standalone mode](#standalone-mode-(noun))
+**See also**: [standalone mode](#standalone-mode-noun)
 
 #### StarOffice (noun)
 **Description**: _StarOffice_ is a Linux desktop suite.
@@ -10700,7 +10700,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**: StartTLS, startTLS
 
-**See also**: [LDAP](#ldap-(noun)), [LDAPS](#ldaps-(noun))
+**See also**: [LDAP](#ldap-noun), [LDAPS](#ldaps-noun)
 
 #### startx (noun)
 **Description**: _startx_ begins the xsession, which provides a graphical interface for running the session.
@@ -10718,7 +10718,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**:
 
-**See also**: [OSTree](#ostree-(noun)), [commit](#commit-(noun))
+**See also**: [OSTree](#ostree-noun), [commit](#commit-noun)
 
 #### sticky bit (noun)
 **Description**: A _sticky bit_ is a user permission set for a directory that limits user access to the directory owner and the root user.
@@ -10736,7 +10736,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**:
 
-**See also**: [session persistence](#session-persistence-(noun))
+**See also**: [session persistence](#session-persistence-noun)
 
 #### STOMP (noun)
 **Description**: _STOMP_ is an acronym for "Simple (or Streaming) Text Oriented Message Protocol". It is a text-oriented wire protocol that enables STOMP clients to communicate with STOMP brokers. AMQ Broker can accept connections from STOMP clients.
@@ -10844,7 +10844,7 @@ Always capitalize as shown, except in commands, packages, or UI content.
 
 **Incorrect forms**: entitlement
 
-**See also**: [entitlement](#entitlement-(noun)), [repository](#repository-(noun))
+**See also**: [entitlement](#entitlement-noun), [repository](#repository-noun)
 
 #### subscription manifest (noun)
 **Description**: In Red Hat Satellite, a _subscription manifest_ is a mechanism for transferring subscriptions from Red Hat Customer Portal to Red Hat Satellite 6. Use the two-word name in full on first use in a section; the word "manifest" is acceptable thereafter.
@@ -10905,7 +10905,7 @@ Use the expanded term before you use "subvolume" by itself.
 
 **Incorrect forms**: master
 
-**See also**: [consumer](#consumer-(noun))
+**See also**: [consumer](#consumer-noun)
 
 #### swap space (noun)
 **Description**:  A Linux system uses _swap space_ when it needs more memory resources and the RAM is full. The system moves inactive pages to the swap space to free memory.
@@ -10941,7 +10941,7 @@ Use the expanded term before you use "subvolume" by itself.
 
 **Incorrect forms**: Ignite, Fuse Ignite
 
-**See also**: [Fuse Online](#fuse-online-(noun))
+**See also**: [Fuse Online](#fuse-online-noun)
 
 #### sysprep (noun)
 **Description**: _Sysprep_ is a tool that automates the configuration of Windows virtual machines.
@@ -10981,7 +10981,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 **Incorrect forms**:
 
-**See also**: [source](#source-(noun))
+**See also**: [source](#source-noun)
 
 #### target kernel (noun)
 **Description**: In Red Hat Enterprise Linux, the _target kernel_ is the kernel of the target system. This is the kernel that loads and runs the instrumentation module.
@@ -10990,7 +10990,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 **Incorrect forms**:
 
-**See also**: [target system](#target-system-(noun)), [instrumentation module](#instrumentation-module-(noun))
+**See also**: [target system](#target-system-noun), [instrumentation module](#instrumentation-module-noun)
 
 #### target system (noun)
 **Description**: In Red Hat Enterprise Linux, the _target system_ is the system in which the instrumentation module is being built from `SystemTap` scripts.
@@ -10999,7 +10999,7 @@ With the exception of "sysprep file", which has a specific function, use "syspre
 
 **Incorrect forms**:
 
-**See also**: [instrumentation module](#instrumentation-module-(noun))
+**See also**: [instrumentation module](#instrumentation-module-noun)
 
 #### target volume (noun)
 **Description**:  A _target volume_ is a storage volume that has an administrative action performed against it.
@@ -11111,7 +11111,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 **Incorrect forms**:
 
-**See also**: [Key Distribution Center](#key-distribution-center-(noun))
+**See also**: [Key Distribution Center](#key-distribution-center-noun)
 
 #### tier-1 (adjective)
 **Description**: Always hyphenate "tier-1" and indicate the number in numeral form. Follow standard capitalization guidelines.
@@ -11138,7 +11138,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 **Incorrect forms**:
 
-**See also**: [TTL](#ttl-(noun)), [time-to-live](#time-to-live-(adjective))
+**See also**: [TTL](#ttl-noun), [time-to-live](#time-to-live-adjective)
 
 #### time-to-live (adjective)
 **Description**: Do not capitalize "time-to-live" unless you are documenting a GUI field, label, or similar element, in which case you should use the same capitalization. Capitalization at the beginning of a sentence is acceptable.
@@ -11147,7 +11147,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 
 **Incorrect forms**:
 
-**See also**: [TTL](#ttl-(noun)), [time to live](#time-to-live-(noun))
+**See also**: [TTL](#ttl-noun), [time to live](#time-to-live-noun)
 
 #### TLS (noun)
 **Description**: _TLS_ is an initialism for "Transport Layer Security (TLS)", and it is the successor to the Secure Sockets Layer (SSL) protocol. Do not expand the abbreviation on first use.
@@ -11162,7 +11162,7 @@ Use "SSL/TLS" in high-level documentation entries, such as headings, to establis
 
 **Incorrect forms**:
 
-**See also**: [SSL](#ssl-(noun)), [SSL/TLS](#ssl/tls-(noun)), [symmetric encryption](#symmetric-encryption-(noun)), [TLS handshake](#tls-handshake-(noun)), [trusted certificate authority](#trusted-certificate-authority-(noun))
+**See also**: [SSL](#ssl-noun), [SSL/TLS](#ssl/tls-noun), [symmetric encryption](#symmetric-encryption-noun), [TLS handshake](#tls-handshake-noun), [trusted certificate authority](#trusted-certificate-authority-noun)
 
 #### TLS handshake (noun)
 **Description**: A _TLS handshake_ is the process of a client checking the validity of a certificate on a web server for authentication purposes.
@@ -11175,7 +11175,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 **Incorrect forms**: SSL handshake
 
-**See also**: [TLS](#tls-(noun)), [symmetric encryption](#symmetric-encryption-(noun)), [trusted certificate authority](#trusted-certificate-authority-(noun))
+**See also**: [TLS](#tls-noun), [symmetric encryption](#symmetric-encryption-noun), [trusted certificate authority](#trusted-certificate-authority-noun)
 
 #### topic (noun)
 **Description**: In Red Hat AMQ, a _topic_ is a stored sequence of messages for read-only distribution.
@@ -11202,7 +11202,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 **Incorrect forms**:
 
-**See also**: [basically](#basically-(adverb))
+**See also**: [basically](#basically-adverb)
 
 #### transactions subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _transactions subsystem_ is used to configure options in the Transaction Manager. Write in lowercase in general text. Use "Transactions subsystem" when referring to the `transactions` subsystem in titles and headings.
@@ -11229,7 +11229,7 @@ A client requests a certificate from a web server. On receiving the certificate,
 
 **Incorrect forms**:
 
-**See also**: [scriptlet directive](#scriptlet-directive-(noun))
+**See also**: [scriptlet directive](#scriptlet-directive-noun)
 
 #### trusted certificate authority (noun)
 **Description**: A _trusted certificate authority (CA)_ is a third-party entity that creates TLS certificates, known as CA certificates, for authentication purposes. A trusted CA is different from a self-signed certificate in that a self-signed certificate has its own private key and does not need to request a key from a public or private CA.
@@ -11240,7 +11240,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: self-signed certificate
 
-**See also**: [TLS](#tls-(noun))
+**See also**: [TLS](#tls-noun)
 
 #### truststore (noun)
 **Description**: A _truststore_ is a repository of trusted security certificates. Write in lowercase as one word. This is in contrast to a _keystore_, which stores private and self-certified certificates.
@@ -11249,7 +11249,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: trust store
 
-**See also**: [keystore](#keystore-(noun))
+**See also**: [keystore](#keystore-noun)
 
 #### truth maintenance system (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, a _truth maintenance system (TMS)_ refers to the ability of the inference engine to enforce truthfulness when applying rules. The truth maintenance system uses the mechanism of truth maintenance to efficiently handle the inferred information from rules. It provides justified reasoning for each and every action taken by the inference engine and validates the conclusions of the engine. If the inference engine asserts data as a result of firing a rule, the engine uses the truth maintenance to justify the assertion.
@@ -11267,7 +11267,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: ttl
 
-**See also**: [time-to-live](#time-to-live-(adjective)), [time to live](#time-to-live-(noun))
+**See also**: [time-to-live](#time-to-live-adjective), [time to live](#time-to-live-noun)
 
 #### U
 
@@ -11305,16 +11305,16 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: Undercloud
 
-**See also**: [overcloud](#overcloud-(noun)), [node](#node-(noun))
+**See also**: [overcloud](#overcloud-noun), [node](#node-noun)
 
 #### undertow subsystem (noun)
-**Description**: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the [WebHTTP - Undertow](#webhttp---undertow-(noun)) entry.
+**Description**: In Red Hat JBoss Enterprise Application Platform, the _undertow subsystem_ is used to configure the JBoss EAP web server and servlet container settings. Write in lowercase in general text. Use "Undertow subsystem" when referring to the `undertow` subsystem in titles and headings. For the correct usage when referring to the `undertow` subsystem in the management console, see the [WebHTTP - Undertow](#webhttp---undertow-noun) entry.
 
 **Use it**: yes
 
 **Incorrect forms**:
 
-**See also**: [WebHTTP - Undertow](#webhttp---undertow-(noun))
+**See also**: [WebHTTP - Undertow](#webhttp---undertow-noun)
 
 #### uninterruptible (adjective)
 **Description**: Although "uninterruptible" is not listed in the American Heritage Dictionary, it is listed in the Merriam-Webster Unabridged Dictionary and is considered acceptable in Red Hat documentation, especially in the context of "uninterruptible power supply (UPS)".
@@ -11368,7 +11368,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: up-grade, up grade
 
-**See also**: [in-place upgrade](#in-place-upgrade-(noun)), [clean install](#clean-install-(noun))
+**See also**: [in-place upgrade](#in-place-upgrade-noun), [clean install](#clean-install-noun)
 
 #### UPS (noun)
 **Description**: _UPS_ is an abbreviation of "uninterruptible power supply", which is a power supply that includes a battery to maintain power in the event of a power outage.
@@ -11404,7 +11404,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: up-stream, up stream
 
-**See also**: [downstream (noun)](#downstream-(noun)), [downstream (adjective)](#downstream-(adjective)), [upstream (noun)](#upstream-(noun))
+**See also**: [downstream (noun)](#downstream-noun), [downstream (adjective)](#downstream-adjective), [upstream (noun)](#upstream-noun)
 
 #### upstream (noun)
 **Description**: _Upstream_ is data sent from a customer to a network service provider. Use the one-word form for the nominal form.
@@ -11413,7 +11413,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: up-stream, up stream
 
-**See also**: [downstream (noun)](#downstream-(noun)), [downstream (adjective)](#downstream-(adjective)), [upstream (adjective)](#upstream-(adjective))
+**See also**: [downstream (noun)](#downstream-noun), [downstream (adjective)](#downstream-adjective), [upstream (adjective)](#upstream-adjective)
 
 #### uptime (noun)
 **Description**: _Uptime_ is the time during which a computer or server is in operation. Use the one-word form.
@@ -11431,7 +11431,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: uri
 
-**See also**: [endpoint](#endpoint-(noun)), [URN](#urn-(noun))
+**See also**: [endpoint](#endpoint-noun), [URN](#urn-noun)
 
 #### URL (noun)
 **Description**: _URL_ is an initialism for "Uniform Resource Locator". A URL provides a way to locate a resource on the web, the hypertext system that operates over the internet. The URL contains the name of the protocol to be used to access the resource and a resource name. Include the appropriate protocol, such as http, ftp, or https, at the beginning of URLs, that is, use http://www.redhat.com and not www.redhat.com.
@@ -11449,7 +11449,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: urn
 
-**See also**: [URI](#uri-(noun))
+**See also**: [URI](#uri-noun)
 
 #### usable capacity (noun)
 **Description**: _Usable capacity_ is the amount of unused space available on a storage device.
@@ -11503,7 +11503,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: userspace
 
-**See also**: [user-space](#user-space-(adjective))
+**See also**: [user-space](#user-space-adjective)
 
 #### user-provisioned infrastructure (noun)
 **Description**: In Red Hat OpenShift, if the user must deploy and configure separate virtual or physical hosts as part of the cluster deployment process, it is a _user-provisioned infrastructure_ installation.
@@ -11521,7 +11521,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: userspace
 
-**See also**: [user space](#user-space-(noun))
+**See also**: [user space](#user-space-noun)
 
 #### V
 
@@ -11532,7 +11532,7 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 **Incorrect forms**: var
 
-**See also**: [OEM](#oem-(noun))
+**See also**: [OEM](#oem-noun)
 
 #### vCPU (noun)
 **Description**: _vCPU_ is an abbreviation for a "virtual central processing unit", which represents a portion of a physical CPU that is assigned to a virtual machine.
@@ -11561,7 +11561,7 @@ Use lowercase "v" and uppercase "CPU".
 
 **Incorrect forms**:
 
-**See also**: [action](#action-(noun)), [project](#project-(noun))
+**See also**: [action](#action-noun), [project](#project-noun)
 
 #### verify (verb)
 **Description**: _Verify_ means to check that something is correct.
@@ -11579,7 +11579,7 @@ Use lowercase "v" and uppercase "CPU".
 
 **Incorrect forms**: VI
 
-**See also**: [Vim](#vim-(noun))
+**See also**: [Vim](#vim-noun)
 
 #### video mode (noun)
 **Description**: _Video mode_ is the setting of a video adapter. Most video adapters can run in either text mode or graphics mode. In text mode, a monitor can display only ASCII characters. In graphics mode, a monitor can display any bit-mapped image. In addition to the text and graphics modes, video adapters offer different modes of resolution and color depth.
@@ -11597,7 +11597,7 @@ Use lowercase "v" and uppercase "CPU".
 
 **Incorrect forms**: VIM, vim
 
-**See also**: [vi](#vi-(noun))
+**See also**: [vi](#vi-noun)
 
 #### virtual (adjective)
 **Description**: _Virtual_ is an adjective describing computer systems with hardware functions partially carried out in the software layer. It is preferred over virtualized, as it is simple, direct, and unambiguous.
@@ -11606,7 +11606,7 @@ Use lowercase "v" and uppercase "CPU".
 
 **Incorrect forms**:
 
-**See also**: [virtualized](#virtualized-(adjective))
+**See also**: [virtualized](#virtualized-adjective)
 
 #### virtual console (noun)
 **Description**: "Virtual console" can be abbreviated to "VC" as long as the term has been introduced in the same content in its full version first, such as "A virtual console (VC) is a shell prompt in a non-graphical environment. Multiple VCs can be accessed simultaneously".
@@ -11624,7 +11624,7 @@ Use lowercase "v" and uppercase "CPU".
 
 **Incorrect forms**:
 
-**See also**: [physical disk](#physical-disk-(noun))
+**See also**: [physical disk](#physical-disk-noun)
 
 #### virtual floppy disk (noun)
 **Description**: A _virtual floppy disk_ is an alternative to the traditional floppy. It is an image file rather than a physical disk.
@@ -11635,7 +11635,7 @@ Although the _IBM Style_ guide recommends using "diskette" instead of "floppy di
 
 **Incorrect forms**: virtual diskette
 
-**See also**: [virtual floppy drive](#virtual-floppy-drive-(noun))
+**See also**: [virtual floppy drive](#virtual-floppy-drive-noun)
 
 #### virtual floppy drive (noun)
 **Description**: A _virtual floppy drive_ is the virtual hardware used to mount a floppy disk image.
@@ -11646,7 +11646,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**: virtual diskette drive
 
-**See also**: [virtual floppy disk](#virtual-floppy-disk-(noun))
+**See also**: [virtual floppy disk](#virtual-floppy-disk-noun)
 
 #### virtual hard drive (noun)
 **Description**: A _virtual hard drive (VHD)_ is file format that represents a virtual hard disk drive (HDD). It contains elements typically found on a physical HDD, such as disk partitions and a file system, which in turn can contain files and folders. VHD files have the extension `.vhd`. In Microsoft Azure, VHD is the required image format for all virtual machine images. Do not use "virtual hard disk" as a synonym.
@@ -11682,7 +11682,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [virtual](#virtual-(adjective))
+**See also**: [virtual](#virtual-adjective)
 
 #### virtualized guest (noun)
 **Description**: A _virtualized guest_ is a virtual machine (VM). Use "virtualized guest" only when comparing a _fully virtualized guest_ with a _paravirtualized guest_.
@@ -11691,7 +11691,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [guest operating system](#guest-operating-system-(noun)), [virtual machine](#virtual-machine-(noun))
+**See also**: [guest operating system](#guest-operating-system-noun), [virtual machine](#virtual-machine-noun)
 
 #### VLAN (noun)
 **Description**: _VLAN_ is an abbreviation for "virtual local area network". Use uppercase for all letters.
@@ -11727,7 +11727,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [persistent storage](#persistent-storage-(noun))
+**See also**: [persistent storage](#persistent-storage-noun)
 
 #### volume file (noun)
 **Description**: In Red Hat Gluster Storage, a _volume file_ is a configuration file that determines the behavior of the trusted storage pool.
@@ -11792,7 +11792,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [Boolean dependencies](#boolean-dependencies-(noun))
+**See also**: [Boolean dependencies](#boolean-dependencies-noun)
 
 #### we suggest (verb)
 **Description**: Do not use "we suggest". Use a more direct construction instead. For example, instead of "We suggest that you make a backup of your data disk", write "Back up your data disk".
@@ -11801,7 +11801,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [recommend](#recommend-(verb))
+**See also**: [recommend](#recommend-verb)
 
 #### web server (noun)
 **Description**: A _web server_ is the computer software and underlying hardware that accepts requests for web content, such as pages, images, or applications. A user agent, such as a web browser, requests a specific resource using HTTP, the network protocol for distributing web content, or its secure variant HTTPS. The web server responds with the content of that resource or an error message. The web server can also accept and store resources sent from the user agent.
@@ -11809,7 +11809,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [Directory Server](#directory-server-(noun)), [certificate authority](#certificate-authority-(noun))
+**See also**: [Directory Server](#directory-server-noun), [certificate authority](#certificate-authority-noun)
 
 #### Web services (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, use "Web services" when referring to the general concept of Web services. Write as two words. Capitalize "Web" and write "services" in lowercase.
@@ -11836,7 +11836,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [undertow](#undertow-subsystem-(noun))
+**See also**: [undertow](#undertow-subsystem-noun)
 
 #### webservices subsystem (noun)
 **Description**: In Red Hat JBoss Enterprise Application Platform, the _webservices subsystem_ is used to configure the Web services provider. In general text, write in lowercase as one word. Use "Web Services subsystem" when referring to the `webservices` subsystem in titles and headings.
@@ -11863,7 +11863,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [whom](#whom-(pronoun))
+**See also**: [whom](#whom-pronoun)
 
 #### whom (pronoun)
 **Description**: Use the pronoun "whom" as a direct object, an indirect object, or the object of a preposition, for example, "To whom does this belong?"
@@ -11872,7 +11872,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**: [who](#who-(pronoun))
+**See also**: [who](#who-pronoun)
 
 #### will (verb)
 **Description**: Do not use future tense unless it is absolutely necessary.
@@ -11899,7 +11899,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**: Microsoft Windows Server, Microsoft Windows, Windows
 
-**See also**: [Microsoft Windows](#microsoft-windows-(noun))
+**See also**: [Microsoft Windows](#microsoft-windows-noun)
 
 #### worker node (noun)
 **Description**: In Red Hat OpenShift, a _worker node_ runs containerized applications.
@@ -11908,7 +11908,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**:
 
-**See also**:[compute node](#compute-node-(noun))
+**See also**:[compute node](#compute-node-noun)
 
 #### working memory (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, _working memory_ is a stateful object that provides temporary storage and enables manipulation of facts. The working memory includes an API that contains methods that enable access to the working memory from rule files.
@@ -11937,7 +11937,7 @@ Although the _IBM Style_ guide recommends using "diskette drive" instead of "flo
 
 **Incorrect forms**: X (when referring to XEmacs only)
 
-**See also**: [XEmacs](#xemacs-(noun))
+**See also**: [XEmacs](#xemacs-noun)
 
 #### x86_64 (noun)
 **Description**: A 64-bit version of the x86 architecture. Use this term when referring to operating systems and server instances, for example RHEL, Fedora, CoreOS and other Linux distributions. Use this format without backticks in general cases when referring to system architecture. Use this format in backticks when referring to architecture as a value or parameter.
@@ -11953,7 +11953,7 @@ Example 1:
 
 **Incorrect forms**: x64, x86-64, or x86
 
-**See also**: [64-bit x86](#64-bit-x86-(noun))
+**See also**: [64-bit x86](#64-bit-x86-noun)
 
 #### XEmacs (noun)
 **Description**: Use "xemacs" only when referring to a command, such as, "To start XEmacs, type xemacs."
@@ -11980,7 +11980,7 @@ Example 1:
 
 **Incorrect forms**: Xp, xp
 
-**See also**: [Expansion Pack](#expansion-pack-(noun))
+**See also**: [Expansion Pack](#expansion-pack-noun)
 
 #### xterm (noun)
 **Description**: _Xterm_ is the standard terminal emulator for the X Window System. Do not use "Xterm" capitalized unless the word is used at the beginning of a sentence.
@@ -12029,7 +12029,7 @@ Example 1:
 
 **Incorrect forms**:
 
-**See also**: [micro release](#micro-release-(noun))
+**See also**: [micro release](#micro-release-noun)
 
 #### zone (noun)
 **Description**: In Red Hat Ceph Storage, a _zone_ represents a physical location consisting of a Ceph Storage Cluster and nodes running the Ceph Object Gateway daemons.
@@ -12038,7 +12038,7 @@ Example 1:
 
 **Incorrect forms**:
 
-**See also**: [zone group](#zone-group-(noun))
+**See also**: [zone group](#zone-group-noun)
 
 #### zone group (noun)
 **Description**: In Red Hat Ceph Storage, a _zone group_ is a list of zones. A zone group always has one master zone, and can have multiple secondary zones. A realm has one master zone group, which manages users and metadata for the realm.
@@ -12047,7 +12047,7 @@ Example 1:
 
 **Incorrect forms**: zonegroup, zone-group
 
-**See also**: [zone](#zone-(noun)), [realm](#realm), [region](#region-(noun))
+**See also**: [zone](#zone-noun), [realm](#realm), [region](#region-noun)
 
 #### zSeries (noun)
 **Description**: "IBM Z" is the correct usage. Do not use "S/390x", "s390x", "IBM zSeries", or "zSeries".
@@ -12056,7 +12056,7 @@ Example 1:
 
 **Incorrect forms**: S/390x, s390x, IBM zSeries, zSeries
 
-**See also**: [IBM Z](#ibm-z®-(noun))
+**See also**: [IBM Z](#ibm-z®-noun)
 
 #### Symbols
 
@@ -12103,7 +12103,7 @@ Example:
 
 **Incorrect forms**:
 
-**See also**: [aarch64](#aarch64-(noun)), [arm64](#arm64-(noun))
+**See also**: [aarch64](#aarch64-noun), [arm64](#arm64-noun)
 
 #### 64-bit x86 (noun)
 **Description**: A 64-bit version of the x86 architecture. This term can refer to both x86_64 and AMD64/`amd64`. Use this format in general cases when writing for both names of the architectures for various cloud providers.
@@ -12119,4 +12119,4 @@ Example:
 
 **Incorrect forms**: x64, x86-64, or x86
 
-**See also**: [x86_64](#x86_64-(noun))
+**See also**: [x86_64](#x86_64-noun)
