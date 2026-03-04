@@ -45,6 +45,14 @@ jobs:
             -e 's|<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>|> **IMPORTANT:**|g' \
             -e 's|<dl><dt><strong>⚠️ WARNING</strong></dt><dd>|> **WARNING:**|g' \
             -e 's|</dd></dl>||g' \
+            -e 's|image:images/yes.png\[yes\] ||g' \
+            -e 's|image:images/no.png\[no\] ||g' \
+            -e 's|image:images/caution.png\[with caution\] ||g' \
+            -e 's|image:images/caution.png\[caution\] ||g' \
+            -e 's|image:images/yes.png\[yes\]-||g' \
+            -e 's|image:images/no.png\[no\]-||g' \
+            -e 's|image:images/caution.png\[with-caution\]-||g' \
+            -e 's|image:images/caution.png\[caution\]-||g' \
             ssg.md
 
       - name: Copy output to docs/
