@@ -168,7 +168,7 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 [[hosted-control-planes]]
 ==== image:images/yes.png[yes] hosted control planes (noun)
-*Description*: The _hosted control planes_ model is a control plane configuration where you can manage your workloads, resources, and policies across a hybrid-cloud environment. On first use of the term, use "hosted control planes for Red{nbsp}Hat OpenShift Container Platform". Capitalize the "H" in "hosted control planes" only when you use the term at the start of a title, heading, or sentence. On first use in ROSA documentation, use "For Red{nbsp}Hat OpenShift Service on AWS (ROSA) with hosted control planes (HCP)"; thereafter, use "ROSA with HCP". Do not use "HyperShift" to refer to hosted control planes. 
+*Description*: _Hosted control planes_ is a form factor of OpenShift Container Platform where compute nodes are separated from the control plane, reducing infrastructure costs and time to provision. On first use of the term, use "hosted control planes for Red{nbsp}Hat OpenShift Container Platform". Capitalize the "H" in "hosted control planes" only when you use the term at the start of a title, heading, or sentence. Do not use "HyperShift" to refer to hosted control planes.
 
 *Use it*: yes
 
