@@ -5550,6 +5550,15 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 
 **See also**: [target system](#target-system-noun)
 
+#### hosted control planes (noun)
+**Description**: _Hosted control planes_ is a form factor of OpenShift Container Platform where compute nodes are separated from the control plane, reducing infrastructure costs and time to provision. On first use of the term, use "hosted control planes for Red Hat OpenShift Container Platform". Capitalize the "H" in "hosted control planes" only when you use the term at the start of a title, heading, or sentence. Do not use "HyperShift" to refer to hosted control planes.
+
+**Use it**: yes
+
+**Incorrect forms**: HyperShift
+
+**See also**: [hypershift operator](#hypershift-operator-noun)
+
 #### hot add (verb)
 **Description**: _Hot add_ is the ability to add physical or virtual hardware to a running system without the need for downtime.
 
@@ -5657,6 +5666,15 @@ Hidden replicas are primarily designed for services such as backups, bulk import
 **Incorrect forms**: hyperthreading, hyper-threading
 
 **See also**:
+
+#### HyperShift Operator (noun)
+**Description**: The _HyperShift Operator_ manages the lifecycle of hosted clusters that are represented by the `HostedCluster` API. The HyperShift Operator and the `hcp` command-line interface (CLI) are components of hosted control planes.
+
+**Use it**: yes
+
+**Incorrect forms**: hosted control planes Operator
+
+**See also**: [hosted control planes](#hosted-control-planes-noun)
 
 #### Hyper-V (noun)
 **Description**: In the Microsoft Windows operating system, _Hyper-V_ is a native hypervisor. Hyper-V can create virtual machines (VMs) on AMD64 systems running the Microsoft Windows operating system. Hyper-V drivers are required on all Red Hat Enterprise Linux (RHEL) VMs running in Microsoft Azure.
