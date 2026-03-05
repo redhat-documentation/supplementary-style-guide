@@ -98,7 +98,7 @@ In AsciiDoc, additional information is displayed before the prerequisites. The f
 
 image:images/Structure-of-an-AsciiDoc-procedure.png[Place additional information before prerequisites,width=50%,align="center"]
 
-In DITA, include the additional information after the Prerequisites, as the following image illustrates: 
+In DITA, include the additional information **after** the prerequisites, as the following image illustrates. Be careful that this added text does not rely on the short description for context:
 
 image:images/Structure-of-a-DITA-procedure.png[Place additional information after prerequisites,width=50%,align="center"]
 
