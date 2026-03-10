@@ -142,7 +142,7 @@ The original short description for this assembly example is self-referential and
 
 [subs="+quotes"]
 ----
-*After:* Administering hosts lets you maintain your Linux systems [*what*], ensuring they are secure and up-to-date [*why*].
+*Rewrite:* Administering hosts lets you maintain your Linux systems [*what*], ensuring they are secure and up-to-date [*why*].
 ----
 
 === Example: Procedure (Task) topic ===
