@@ -137,7 +137,7 @@ The original short description for this assembly example is self-referential and
 
 [subs="+quotes"]
 ----
-*Before:* This chapter describes creating, registering, administering, and removing hosts.
+*Original:* This chapter describes creating, registering, administering, and removing hosts.
 ----
 
 [subs="+quotes"]
