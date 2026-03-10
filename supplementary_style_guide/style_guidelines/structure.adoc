@@ -78,7 +78,10 @@ Not a complete sentence: This prerequisite is acceptable if all the other prereq
 [[shortdesc]]
 == Short descriptions
 
-Every module and assembly must include a _short description_, formerly called an _abstract_. A short description provides a high-quality summary for both readers and AI-powered search tools. Short descriptions must contain no more than 300 characters. 
+Every module and assembly must include a _short description_, formerly called an _abstract_. A short description provides a high-quality summary for both readers and AI-powered search tools. 
+
+- Short descriptions **must** be at least 50 characters and no more than 300 characters long. 
+- Place any information that exceeds 300 characters in a new paragraph or paragraphs. It cannot be part of the short description. 
 
 The short description must have the correct formatting and tagging:
 
@@ -94,7 +97,7 @@ Do not start a module or assembly with an admonition, even when adding the Techn
 
 In procedures, the short description is displayed between the module title and the prerequisites section. Put additional information in a new paragraph or paragraphs.
 
-In AsciiDoc, additional information is displayed before the prerequisites. The following image illustrates how this information is placed:
+In AsciiDoc, additional information is displayed **before** the prerequisites. The following image illustrates how to place this information:
 
 image:images/Structure-of-an-AsciiDoc-procedure.png[Place additional information before prerequisites,width=50%,align="center"]
 
@@ -150,19 +153,19 @@ The original short description in this example is self-referential and does not 
 
 [subs="+quotes"]
 ----
-*Before:* Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.
+*Original:* Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.
 ----
 
 [subs="+quotes"]
 ----
-*After:* Create organizations to divide resources among multiple teams [*why*]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [*what*].
+*Rewrite:* Create organizations to divide resources among multiple teams [*why*]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [*what*].
 ----
 
 === Example: Concept topic ===
 
 A short description for a concept module briefly explains the *what* or *why* of a concept and helps readers decide if the topic is relevant to them. The following example does this by explaining the benefit of each migration method. 
 
-.Migration speed comparison 
+.Comparison between warm and cold migration
 
 [subs="+quotes"]
 ----
