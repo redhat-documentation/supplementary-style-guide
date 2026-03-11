@@ -78,49 +78,108 @@ Not a complete sentence: This prerequisite is acceptable if all the other prereq
 [[shortdesc]]
 == Short descriptions
 
-To help readers find the information that they need or to confirm that they are in the right place, every module and assembly must include a _short description_, also called an _abstract_.
+Every module and assembly must include a _short description_, formerly called an _abstract_. A short description provides a high-quality summary for both readers and AI-powered search tools. 
+
+- Short descriptions **must** be at least 50 characters and no more than 300 characters long. 
+- Place any information that exceeds 300 characters in a new paragraph or paragraphs. It cannot be part of the short description. 
+
+The short description must have the correct formatting and tagging:
+
+* In AsciiDoc, label the short description with `[role="_abstract"]`. 
+* In DITA, tag the short description with `<shortdesc>`. 
 
 [IMPORTANT]
 ====
-Do not start a module or assembly with an admonition, even when adding the Technology Preview admonition. Always include a short description before including an admonition.
+Do not start a module or assembly with an admonition, even when adding the Technology Preview admonition. Always provide a short description first.
 ====
 
-This description is usually at least 2-3 sentences long, and you can scan it in a few seconds. It exists between the title and the main content, connecting them and providing context and disambiguation.
+=== Placement of the short description in procedures
 
-Follow these guidelines when writing short descriptions:
+In procedures, the short description is displayed between the module title and the prerequisites section. Put additional information in a new paragraph or paragraphs.
 
-* Include user intent:
-** *What* users must do. This content is similar to what is in the title but should not just repeat the same information.
-** *Why* users must complete an action. You must build from the information in the title. This content helps users understand why completing an action is important or beneficial to them.
-* Make modules findable and reusable. Ensure that the product name is either in the title or the short description of a module or assembly.
-* If you are documenting two or more ways of completing the same procedure, explain why users would want to choose one or the other. If possible, link to the other ways.
-* For complex procedures, include some of the key tasks that a customer must complete.
-* Write in plain English and use simple sentences. You can test the reading level of your sentences by using a readability scoring tool.
-* Use active voice and present tense.
-* Avoid self-referential language, such as "This topic covers..." or "Use this procedure to...".
-* Avoid feature-focused language. Focus on what users can accomplish with a product, not on what a product does. For example, avoid phrases such as "This product allows you to...".
-* Use customer-centric language, such as "You can... by..." or "To..., configure...".
+In AsciiDoc, additional information is displayed **before** the prerequisites. The following image illustrates how to place this information:
 
-.Example short description 1
---
-====
-==== Creating a group and adding a system
+image:images/Structure-of-an-AsciiDoc-procedure.png[Place additional information before prerequisites,width=50%,align="center"]
 
-Group many systems together in the Edge Management application [*what*] to manage them more easily [*why*]. For example, you can more easily mitigate vulnerabilities and update systems that are alike.
-====
---
+In DITA, include the additional information **after** the prerequisites, as the following image illustrates. Be careful that this added text does not rely on the short description for context:
 
-.Example short description 2
---
-====
-==== Creating a Kafka instance in OpenShift Streams for Apache Kafka
+image:images/Structure-of-a-DITA-procedure.png[Place additional information after prerequisites,width=50%,align="center"]
 
-To connect OpenShift Streams for Apache Kafka to other applications or services [*why*], create and configure a Kafka instance in the web console [*what*]. A Kafka instance in OpenShift Streams for Apache Kafka includes the following items:
+=== Core principles for writing a helpful short description ===
 
-* A Kafka cluster
-* A bootstrap server
-* The configurations needed to connect to producer and consumer services
-====
---
+Short descriptions help readers find the information that they need and confirm that they are in the right place. The following principles ensure that you are writing the best short description that you can:
+
+* Include user intent. Explain *what* the user must do and *why* they must complete that action. Build upon the title--do not repeat it.
+* Write for AI and search. High-quality short descriptions are a primary source of metadata for large language models (LLMs) and search engine link previews. A high quality, human-verified summary reduces the risk of AI misinterpretation and saves processing time.
+* Do not use DITA-incompatible structures, such as bulleted lists or multiple paragraphs. 
+
+=== Style guidelines ===
+
+Be sure to follow Red Hat style guidelines. Pay particular attention to the following rules, because short descriptions frequently violate these standards:
+
+* Use active voice and present tense. Write in plain English using simple, direct sentences.
+* Use customer-centric language. Use phrases like "You can... by..." or "To..., configure...".
+* Do not use self-referential language, for example, "This topic covers..." or "Use this procedure to...".
+* Do not use feature-focused language. Focus on what users can accomplish rather than what the product does. Do not use "This product allows you to...".
+* Make modules findable and reusable. Include the product name in either the title or the short description to make the module reusable.
+
+=== Short descriptions for complex procedures ===
+
+If you are documenting two or more ways of completing the same procedure, use the short description to explain why users would want to choose one or the other. For complex procedures that have multiple sub-procedures, include some of the key tasks that a customer must complete.
+
+
+=== Example: Assembly ===
+
+The original short description for this assembly example is self-referential and does not explain the *why*, although it does explain some of the *what*. The rewrite fixes both issues. 
+
+.Configuring compliance policy deployment methods
+
+[subs="+quotes"]
+----
+*Original:* Use one the following procedures to configure Satellite for the method that you have selected to deploy compliance policies. You will select one of these methods when you later create a compliance policy.
+----
+
+[subs="+quotes"]
+----
+*Rewrite:* To choose the appropriate method for your infrastructure [*why*], review the compliance policy deployment options in Red Hat Satellite [*what*]. Understanding the Ansible method, Puppet method, and manual method helps you plan your deployment effectively [*why*].
+----
+
+=== Example: Procedure (Task) topic ===
+
+The original short description in this example is self-referential and does not contain much information. The rewrite leads with the benefit and explains what you can do after performing the task.
+
+.Create an organization 
+
+[subs="+quotes"]
+----
+*Original:* Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.
+----
+
+[subs="+quotes"]
+----
+*Rewrite:* Create organizations to divide resources among multiple teams [*why*]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [*what*].
+----
+
+=== Example: Concept topic ===
+
+A short description for a concept module briefly explains the *what* or *why* of a concept and helps readers decide if the topic is relevant to them. The following example does this by explaining the benefit of each migration method. 
+
+.Comparison between warm and cold migration
+
+[subs="+quotes"]
+----
+You can minimize virtual machine downtime by choosing an appropriate migration path for your workload. Warm migration runs in the background to keep applications active, but cold migration requires a full shutdown and is safer. Both methods provide similar transfer speeds.
+----
+
+=== Example: Reference topic ===
+
+A short description for a reference topic should provide a brief direct answer to the question, "What is this?"  The following example does this by describing the repository contents, which are listed in a table below the short description. 
+
+.The Supplementary repository
+
+[subs="+quotes"]
+----
+The Supplementary repository includes proprietary-licensed packages that are not included in the open source Red Hat Enterprise Linux repositories. Software packages in the Supplementary repository are not supported. The Application Binary Interfaces (ABIs) are also not guaranteed for these packages. 
+----
 
 // TODO: Add new style entries alphabetically in this file
