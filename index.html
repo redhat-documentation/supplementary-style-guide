@@ -5461,7 +5461,30 @@ Text for note.
 <div class="sect3">
 <h4 id="shortdesc"><a class="anchor" href="#shortdesc"></a><a class="link" href="#shortdesc">Short descriptions</a></h4>
 <div class="paragraph">
-<p>To help readers find the information that they need or to confirm that they are in the right place, every module and assembly must include a <em>short description</em>, also called an <em>abstract</em>.</p>
+<p>Every module and assembly must include a <em>short description</em>, formerly called an <em>abstract</em>. A short description provides a high-quality summary for both readers and AI-powered search tools.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Short descriptions <strong>must</strong> be at least 50 characters and no more than 300 characters long.</p>
+</li>
+<li>
+<p>Place any information that exceeds 300 characters in a new paragraph or paragraphs. It cannot be part of the short description.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The short description must have the correct formatting and tagging:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>In AsciiDoc, label the short description with <code>[role="_abstract"]</code>.</p>
+</li>
+<li>
+<p>In DITA, tag the short description with <code>&lt;shortdesc&gt;</code>.</p>
+</li>
+</ul>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -5471,99 +5494,135 @@ Text for note.
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Do not start a module or assembly with an admonition, even when adding the Technology Preview admonition. Always include a short description before including an admonition.</p>
+<p>Do not start a module or assembly with an admonition, even when adding the Technology Preview admonition. Always provide a short description first.</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
+<div class="sect4">
+<h5 id="_placement_of_the_short_description_in_procedures"><a class="anchor" href="#_placement_of_the_short_description_in_procedures"></a><a class="link" href="#_placement_of_the_short_description_in_procedures">Placement of the short description in procedures</a></h5>
 <div class="paragraph">
-<p>This description is usually at least 2-3 sentences long, and you can scan it in a few seconds. It exists between the title and the main content, connecting them and providing context and disambiguation.</p>
+<p>In procedures, the short description is displayed between the module title and the prerequisites section. Put additional information in a new paragraph or paragraphs.</p>
 </div>
 <div class="paragraph">
-<p>Follow these guidelines when writing short descriptions:</p>
+<p>In AsciiDoc, additional information is displayed <strong>before</strong> the prerequisites. The following image illustrates how to place this information:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/Structure-of-an-AsciiDoc-procedure.png" alt="Place additional information before prerequisites" width="50%"></span></p>
+</div>
+<div class="paragraph">
+<p>In DITA, include the additional information <strong>after</strong> the prerequisites, as the following image illustrates. Be careful that this added text does not rely on the short description for context:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/Structure-of-a-DITA-procedure.png" alt="Place additional information after prerequisites" width="50%"></span></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_core_principles_for_writing_a_helpful_short_description"><a class="anchor" href="#_core_principles_for_writing_a_helpful_short_description"></a><a class="link" href="#_core_principles_for_writing_a_helpful_short_description">Core principles for writing a helpful short description</a></h5>
+<div class="paragraph">
+<p>Short descriptions help readers find the information that they need and confirm that they are in the right place. The following principles ensure that you are writing the best short description that you can:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Include user intent:</p>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>What</strong> users must do. This content is similar to what is in the title but should not just repeat the same information.</p>
+<p>Include user intent. Explain <strong>what</strong> the user must do and <strong>why</strong> they must complete that action. Build upon the title&#8212;&#8203;do not repeat it.</p>
 </li>
 <li>
-<p><strong>Why</strong> users must complete an action. You must build from the information in the title. This content helps users understand why completing an action is important or beneficial to them.</p>
+<p>Write for AI and search. High-quality short descriptions are a primary source of metadata for large language models (LLMs) and search engine link previews. A high quality, human-verified summary reduces the risk of AI misinterpretation and saves processing time.</p>
+</li>
+<li>
+<p>Do not use DITA-incompatible structures, such as bulleted lists or multiple paragraphs.</p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>Make modules findable and reusable. Ensure that the product name is either in the title or the short description of a module or assembly.</p>
-</li>
-<li>
-<p>If you are documenting two or more ways of completing the same procedure, explain why users would want to choose one or the other. If possible, link to the other ways.</p>
-</li>
-<li>
-<p>For complex procedures, include some of the key tasks that a customer must complete.</p>
-</li>
-<li>
-<p>Write in plain English and use simple sentences. You can test the reading level of your sentences by using a readability scoring tool.</p>
-</li>
-<li>
-<p>Use active voice and present tense.</p>
-</li>
-<li>
-<p>Avoid self-referential language, such as "This topic covers&#8230;&#8203;" or "Use this procedure to&#8230;&#8203;".</p>
-</li>
-<li>
-<p>Avoid feature-focused language. Focus on what users can accomplish with a product, not on what a product does. For example, avoid phrases such as "This product allows you to&#8230;&#8203;".</p>
-</li>
-<li>
-<p>Use customer-centric language, such as "You can&#8230;&#8203; by&#8230;&#8203;" or "To&#8230;&#8203;, configure&#8230;&#8203;".</p>
-</li>
-</ul>
 </div>
-<div class="openblock">
-<div class="title">Example short description 1</div>
-<div class="content">
-<div class="exampleblock">
-<div class="content">
+<div class="sect4">
+<h5 id="_style_guidelines"><a class="anchor" href="#_style_guidelines"></a><a class="link" href="#_style_guidelines">Style guidelines</a></h5>
 <div class="paragraph">
-<p>==== Creating a group and adding a system</p>
-</div>
-<div class="paragraph">
-<p>Group many systems together in the Edge Management application [<strong>what</strong>] to manage them more easily [<strong>why</strong>]. For example, you can more easily mitigate vulnerabilities and update systems that are alike.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="openblock">
-<div class="title">Example short description 2</div>
-<div class="content">
-<div class="exampleblock">
-<div class="content">
-<div class="paragraph">
-<p>==== Creating a Kafka instance in OpenShift Streams for Apache Kafka</p>
-</div>
-<div class="paragraph">
-<p>To connect OpenShift Streams for Apache Kafka to other applications or services [<strong>why</strong>], create and configure a Kafka instance in the web console [<strong>what</strong>]. A Kafka instance in OpenShift Streams for Apache Kafka includes the following items:</p>
+<p>Be sure to follow Red Hat style guidelines. Pay particular attention to the following rules, because short descriptions frequently violate these standards:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>A Kafka cluster</p>
+<p>Use active voice and present tense. Write in plain English using simple, direct sentences.</p>
 </li>
 <li>
-<p>A bootstrap server</p>
+<p>Use customer-centric language. Use phrases like "You can&#8230;&#8203; by&#8230;&#8203;" or "To&#8230;&#8203;, configure&#8230;&#8203;".</p>
 </li>
 <li>
-<p>The configurations needed to connect to producer and consumer services</p>
+<p>Do not use self-referential language, for example, "This topic covers&#8230;&#8203;" or "Use this procedure to&#8230;&#8203;".</p>
+</li>
+<li>
+<p>Do not use feature-focused language. Focus on what users can accomplish rather than what the product does. Do not use "This product allows you to&#8230;&#8203;".</p>
+</li>
+<li>
+<p>Make modules findable and reusable. Include the product name in either the title or the short description to make the module reusable.</p>
 </li>
 </ul>
 </div>
 </div>
+<div class="sect4">
+<h5 id="_short_descriptions_for_complex_procedures"><a class="anchor" href="#_short_descriptions_for_complex_procedures"></a><a class="link" href="#_short_descriptions_for_complex_procedures">Short descriptions for complex procedures</a></h5>
+<div class="paragraph">
+<p>If you are documenting two or more ways of completing the same procedure, use the short description to explain why users would want to choose one or the other. For complex procedures that have multiple sub-procedures, include some of the key tasks that a customer must complete.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_example_assembly"><a class="anchor" href="#_example_assembly"></a><a class="link" href="#_example_assembly">Example: Assembly</a></h5>
+<div class="paragraph">
+<p>The original short description for this assembly example is self-referential and does not explain the <strong>why</strong>, although it does explain some of the <strong>what</strong>. The rewrite fixes both issues.</p>
+</div>
+<div class="listingblock">
+<div class="title">Configuring compliance policy deployment methods</div>
+<div class="content">
+<pre><strong>Original:</strong> Use one the following procedures to configure Satellite for the method that you have selected to deploy compliance policies. You will select one of these methods when you later create a compliance policy.</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre><strong>Rewrite:</strong> To choose the appropriate method for your infrastructure [<strong>why</strong>], review the compliance policy deployment options in Red Hat Satellite [<strong>what</strong>]. Understanding the Ansible method, Puppet method, and manual method helps you plan your deployment effectively [<strong>why</strong>].</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_example_procedure_task_topic"><a class="anchor" href="#_example_procedure_task_topic"></a><a class="link" href="#_example_procedure_task_topic">Example: Procedure (Task) topic</a></h5>
+<div class="paragraph">
+<p>The original short description in this example is self-referential and does not contain much information. The rewrite leads with the benefit and explains what you can do after performing the task.</p>
+</div>
+<div class="listingblock">
+<div class="title">Create an organization</div>
+<div class="content">
+<pre><strong>Original:</strong> Use this procedure to create an organization. To use the CLI instead of the Satellite web UI, see the CLI procedure.</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre><strong>Rewrite:</strong> Create organizations to divide resources among multiple teams [<strong>why</strong>]. Assign content and subscriptions to each organization or team, based on ownership, purpose, or security level [<strong>what</strong>].</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_example_concept_topic"><a class="anchor" href="#_example_concept_topic"></a><a class="link" href="#_example_concept_topic">Example: Concept topic</a></h5>
+<div class="paragraph">
+<p>A short description for a concept module briefly explains the <strong>what</strong> or <strong>why</strong> of a concept and helps readers decide if the topic is relevant to them. The following example does this by explaining the benefit of each migration method.</p>
+</div>
+<div class="listingblock">
+<div class="title">Comparison between warm and cold migration</div>
+<div class="content">
+<pre>You can minimize virtual machine downtime by choosing an appropriate migration path for your workload. Warm migration runs in the background to keep applications active, but cold migration requires a full shutdown and is safer. Both methods provide similar transfer speeds.</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_example_reference_topic"><a class="anchor" href="#_example_reference_topic"></a><a class="link" href="#_example_reference_topic">Example: Reference topic</a></h5>
+<div class="paragraph">
+<p>A short description for a reference topic should provide a brief direct answer to the question, "What is this?"  The following example does this by describing the repository contents, which are listed in a table below the short description.</p>
+</div>
+<div class="listingblock">
+<div class="title">The Supplementary repository</div>
+<div class="content">
+<pre>The Supplementary repository includes proprietary-licensed packages that are not included in the open source Red Hat Enterprise Linux repositories. Software packages in the Supplementary repository are not supported. The Application Binary Interfaces (ABIs) are also not guaranteed for these packages.</pre>
 </div>
 </div>
 </div>
@@ -24442,7 +24501,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-03-10 14:16:13 UTC
+Last updated 2026-03-11 15:38:03 UTC
 </div>
 </div>
 <!-- Nav bar -->
