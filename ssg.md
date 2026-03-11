@@ -6055,12 +6055,48 @@ There is no functional difference between the first server that was installed an
 
 **See also**: [bucket index](#bucket-index-noun)
 
+#### inference (noun, verb)
+**Description**: AI inference is the process in which a trained model is loaded into memory and then makes predictions based on input data. For example, "The Llama-3.2-90B-Vision-Instruct-FP8-dynamic model performs inference to identify objects in an image."
+
+**Use it**: yes
+
+**Incorrect forms**:
+
+**See also**:
+
+#### inferencing (noun)
+**Description**: _Inferencing_ is the active process of running a trained AI model against input data to produce outputs such as predictions, classifications, or generated output text.
+
+**Use it**: yes
+
+**Incorrect forms**:
+
+**See also**:
+
 #### inference engine (noun)
 **Description**: In Red Hat Process Automation Manager and Red Hat Decision Manager, the _inference engine_ is a part of the Red Hat Decision Manager engine, which matches production facts and data to rules. It is often called the brain of a production rules system because it is able to scale to a large number of rules and facts. It makes inferences based on its existing knowledge and performs the actions based on what it infers from the information.
 
 **Use it**: yes
 
 **Incorrect forms**: BRMS engine, engine
+
+**See also**:
+
+#### InferenceService (noun)
+**Description**: In Red Hat OpenShift AI, this is the custom resource definition (CRD) used to create the `InferenceService` object. When referring to the CRD name, use `InferenceService` in monospace.
+
+**Use it**: yes
+
+**Incorrect forms**: InferenceService, inference serving
+
+**See also**:
+
+#### inference serving (verb)
+**Description**: _Inference serving_ is the process of deploying and hosting a large language model on a serving platform so that it can receive and respond to inference requests.
+
+**Use it**: yes
+
+**Incorrect forms**:
 
 **See also**:
 
