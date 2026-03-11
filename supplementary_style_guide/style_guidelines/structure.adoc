@@ -132,16 +132,16 @@ If you are documenting two or more ways of completing the same procedure, use th
 
 The original short description for this assembly example is self-referential and does not explain the *why*, although it does explain some of the *what*. The rewrite fixes both issues. 
 
-.Administering hosts
+.Configuring compliance policy deployment methods
 
 [subs="+quotes"]
 ----
-*Original:* This chapter describes creating, registering, administering, and removing hosts.
+*Original:* Use one the following procedures to configure Satellite for the method that you have selected to deploy compliance policies. You will select one of these methods when you later create a compliance policy.
 ----
 
 [subs="+quotes"]
 ----
-*Rewrite:* Administering hosts lets you maintain your Linux systems [*what*], ensuring they are secure and up-to-date [*why*].
+*Rewrite:* To choose the appropriate method for your infrastructure [*why*], review the compliance policy deployment options in Red Hat Satellite [*what*]. Understanding the Ansible method, Puppet method, and manual method helps you plan your deployment effectively [*why*].
 ----
 
 === Example: Procedure (Task) topic ===
