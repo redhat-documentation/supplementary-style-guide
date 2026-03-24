@@ -49,7 +49,7 @@ Write the release notes from the perspective of just after the release, which is
 Introduce each release note with a heading that summarizes the release note. This practice helps customers to quickly determine if the release note is relevant to them.
 
 * The heading can, but does not need to be, a full sentence. Do not use a period at the end of the heading.
-* Use _sentence-style capitalization_, not _title case_. If necessary, headings can start with a lowercase letter in the case of a lowercase component name. For example: "```nvme-cli``` and `cryptsetup` are now available for Opal automation on NVMe SEDs".
+* Use _sentence-style capitalization_, not _title case_. If necessary, headings can start with a lowercase letter in the case of a lowercase component name. For example: "```nvme-cli``` and `cryptsetup` are available for Opal automation on NVMe SEDs".
 
 * Write headings that are informative and specific without being overly long or too short. Adhere to the following guidelines:
 ** Keep the heading under 120 characters.
@@ -346,7 +346,7 @@ link:https://issues.redhat.com/browse/OCPBUGS-33661[OCPBUGS-33661]
 
 ====
 `katello-agent` is deprecated::
-`katello-agent` is deprecated and might be removed in a future version. Migrate now to Remote Execution or Remote Execution pull mode. If you upgrade to Satellite 6.15 without migrating, you will not be able to perform critical host package actions, including patching and security updates. For more information about migrating to Remote Execution, see link:https://access.redhat.com/documentation/en-us/red_hat_satellite/6.14/html-single/managing_hosts/index#Migrating_From_Katello_Agent_to_Remote_Execution_managing-hosts[Migrating From Katello Agent to Remote Execution] in _Managing Hosts_.
+`katello-agent` is deprecated and might be removed in a future version. Migrate immediately to Remote Execution or Remote Execution pull mode. If you upgrade to Satellite 6.15 without migrating, you will not be able to perform critical host package actions, including patching and security updates. For more information about migrating to Remote Execution, see link:https://access.redhat.com/documentation/en-us/red_hat_satellite/6.14/html-single/managing_hosts/index#Migrating_From_Katello_Agent_to_Remote_Execution_managing-hosts[Migrating From Katello Agent to Remote Execution] in _Managing Hosts_.
 +
 SAT-18124
 ====
@@ -502,7 +502,7 @@ Fixed issues, also called “bug fixes”, list problems that are resolved in th
 Cause – the user action or circumstance that triggered the bug, in the past tense.
 Consequence – what the user experience was when the bug occurred, in the past tense.
 Fix – what has changed to fix the bug; do not include overly technical details, in the present perfect or present simple tense.
-Result – what happens now that the patch is applied, in the present tense.
+Result – what happens after the patch is applied, in the present tense.
 ----
 
 .Fixed issues release note text template
@@ -519,7 +519,7 @@ In addition to general style, follow these guidelines:
 Cause:: The user action or circumstance that triggered the bug, in the past tense.
 Consequence:: What the user experience was when the bug occurred, in the past tense.
 Fix:: What has changed to fix the bug; do not include overly technical details; do not use the present perfect or present simple tense.
-Result:: What happens now that the patch is applied, in the present tense.
+Result:: What happens after the patch is applied, in the present tense.
 * Use “before this update” instead of “previously” to refer to the past situation. See the xref:previously[previously] glossary entry.
 * Partially fixed issues might require a separate Known issue for the unfixed scenario.
 
