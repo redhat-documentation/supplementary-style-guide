@@ -669,8 +669,6 @@ In these specific cases, and only if you cannot write around it, you can refer t
 
 Use a single command per code block for each procedure step. Separate a command and its related example output into individual code blocks. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
 
-By default, use bold formatting for commands in code blocks to visually distinguish the commands from their lead-in sentences and from the command prompts and example outputs. For consistency, use bold formatting for commands even when no command output is shown in the code block.
-
 > **NOTE:**
 
 To apply formatting in a code block, you must use the `quotes` [AsciiDoc substitution](https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/).
