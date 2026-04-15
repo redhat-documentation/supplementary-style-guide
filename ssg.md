@@ -8400,6 +8400,15 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 **See also**:
 
+#### ![no](images/no.png) OS (noun)
+**Description**: Do not use "OS" as an abbreviation for "operating system".
+
+**Use it**: no
+
+**Incorrect forms**:
+
+**See also**: [operating system](#yesimagesyespng-operating-system-noun)
+
 #### ![yes](images/yes.png) OSD (noun)
 **Description**: In Red Hat Ceph Storage, OSD is the `ceph-osd` daemon and the underlying data disk.
 
