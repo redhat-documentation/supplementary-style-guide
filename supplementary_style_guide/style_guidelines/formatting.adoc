@@ -270,12 +270,60 @@ For example:
 [[titles-and-headings]]
 == Titles and headings
 
-Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization.
+Use the following guidelines when writing titles and headings:
 
-.Examples
-* _Composing a customized RHEL system image_
-* _Configuring the node port service range_
-* _How to perform an unsupported conversion from a RHEL-derived Linux distribution to RHEL_
+* Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization.
+* Focus your headings on user jobs and outcomes. Begin with user intent and then explain how the product fulfills the intended purpose.
+* Use imperative verbs for procedural and task-based content. Do not use gerunds (-ing forms). Imperatives are more direct, translate more consistently, and better map to task sequences. Do not mix imperatives and gerunds.
+* For concept and reference topics, use nouns or noun phrases. Do not use "Understanding" or "Understand" to begin a concept or reference topic.
+* Avoid generic titles such as "Introduction," "About," or "Overview." Instead, use descriptive keywords that clearly define the specific task or subject.
+* Keep headings between 3 and 11 words (approximately 60-75 characters) to ensure scannability and findability. Titles that exceed 60-75 characters are often truncated in search engine results.
+
+Do not change any gerund-based headings and titles until after you have converted the content into a Jobs to Be Done format.
+
+.Procedure (task) topics
+====
+image:images/no.png[Incorrect,15,15] Installing the OpenShift CLI
+
+image:images/yes.png[Correct,15,15] Install the OpenShift CLI
+
+image:images/no.png[Incorrect,15,15] Using two-factor authentication
+
+image:images/yes.png[Correct,15,15] Secure your environment with two-factor authentication
+====
+
+.Concept topics
+====
+image:images/no.png[Incorrect,15,15] Understanding platform and application integration
+
+image:images/yes.png[Correct,15,15] Platform and application integration
+
+image:images/no.png[Incorrect,15,15] About Operators installation
+
+image:images/yes.png[Correct,15,15] What to expect when you install an Operator
+====
+
+.Reference topics
+====
+image:images/no.png[Incorrect,15,15] Configuration parameters
+
+image:images/yes.png[Correct,15,15] Installation configuration parameters for AWS
+
+image:images/no.png[Incorrect,15,15] Reference design specifications
+
+image:images/yes.png[Correct,15,15] Reference design specifications for telco RAN DU 5G deployments
+====
+
+.Assemblies (parent topics)
+====
+image:images/no.png[Incorrect,15,15] About private clusters
+
+image:images/yes.png[Correct,15,15] Private cluster architecture and features
+
+image:images/no.png[Incorrect,15,15] Architecture
+
+image:images/yes.png[Correct,15,15] Architecture of hosted control planes
+====
 
 
 [[user-replaced-values]]
