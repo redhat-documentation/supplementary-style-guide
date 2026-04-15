@@ -501,6 +501,17 @@ Use Organization Administrator as a proper noun when referring to the Organizati
 
 *See also*:
 
+[[os]]
+==== image:images/no.png[no] OS (noun)
+*Description*: Do not use "OS" as an abbreviation for "operating system".
+
+*Use it*: no
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*: xref:operating-system[operating system]
+
 [[osd]]
 ==== image:images/yes.png[yes] OSD (noun)
 *Description*: In Red{nbsp}Hat Ceph Storage, OSD is the `ceph-osd` daemon and the underlying data disk.
