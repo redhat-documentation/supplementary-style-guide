@@ -279,7 +279,7 @@ Use the following guidelines when writing titles and headings:
 * Avoid generic titles such as "Introduction," "About," or "Overview." Instead, use descriptive keywords that clearly define the specific task or subject.
 * Keep headings between 3 and 11 words (approximately 60-75 characters) to ensure scannability and findability. Titles that exceed 60-75 characters are often truncated in search engine results.
 
-Don't change any gerund-based headings and titles until after you have converted the content into a Jobs to Be Done format.
+Do not change any gerund-based headings and titles until after you have converted the content into a Jobs to Be Done format.
 
 .Procedure (task) topics
 ====
