@@ -8328,7 +8328,7 @@ Avoid using the name "OpenShift" on its own when referring to something that app
 
 **Use it**: yes
 
-**Incorrect forms**: OS, Operating System
+**Incorrect forms**: [OS](#noimagesnopng-os-noun), Operating System
 
 **See also**:
 
