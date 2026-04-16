@@ -381,18 +381,6 @@ There is no functional difference between the first server that was installed an
 
 *See also*:
 
-[[inferenceservice]]
-==== image:images/yes.png[yes] InferenceService (noun)
-*Description*: In Red Hat OpenShift AI, this is the custom resource definition (CRD) used to create the `InferenceService` object. When referring to the CRD name, use `InferenceService` in monospace. 
-          
-    
-*Use it*: yes
-
-[.vale-ignore]
-*Incorrect forms*: InferenceService, inference serving
-
-*See also*:
-
 [[inference-serving]]
 ==== image:images/yes.png[yes] inference serving (verb)
 *Description*: _Inference serving_ is the process of deploying and hosting a large language model on a serving platform so that it can receive and respond to inference requests.
