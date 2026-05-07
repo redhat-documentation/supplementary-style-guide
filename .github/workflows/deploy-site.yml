@@ -37,26 +37,9 @@ jobs:
           gem install asciidoctor-reducer
           cd supplementary_style_guide
           asciidoctor-reducer main.adoc -o main-reduced.adoc
-          npx downdoc main-reduced.adoc -o ssg.md
-          sed -i \
-            -e 's/{nbsp}/ /g' \
-            -e 's/&#160;/ /g' \
-            -e 's|<dl><dt><strong>📌 NOTE</strong></dt><dd>|> **NOTE:**|g' \
-            -e 's|<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>|> **IMPORTANT:**|g' \
-            -e 's|<dl><dt><strong>⚠️ WARNING</strong></dt><dd>|> **WARNING:**|g' \
-            -e 's|</dd></dl>||g' \
-            -e 's|image:images/yes.png\[yes\] ||g' \
-            -e 's|image:images/no.png\[no\] ||g' \
-            -e 's|image:images/caution.png\[with caution\] ||g' \
-            -e 's|image:images/caution.png\[caution\] ||g' \
-            -e 's|image:images/yes.png\[yes\]-||g' \
-            -e 's|image:images/no.png\[no\]-||g' \
-            -e 's|image:images/caution.png\[with-caution\]-||g' \
-            -e 's|image:images/caution.png\[caution\]-||g' \
-            -e 's|,-|-|g' \
-            -e 's|-(|-|g' \
-            -e 's|))|)|g' \
-            ssg.md
+          node ../scripts/fix-asciidoc-levels.js main-reduced.adoc main-ready.adoc
+          npx downdoc main-ready.adoc -o ssg-raw.md
+          node ../scripts/cleanup-markdown.js ssg-raw.md ssg.md
 
       - name: Copy output to docs/
         run: |
