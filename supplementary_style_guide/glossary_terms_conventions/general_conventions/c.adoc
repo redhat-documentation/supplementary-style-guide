@@ -266,6 +266,17 @@
 
 *See also*:
 
+[[change]]
+==== image:images/caution.png[caution] change (verb)
+*Description*: Use with caution. Instead, use a descriptive verb such as "edit", "update", or "modify" unless the context is changing directories or passwords.
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*: 
+
+*See also*:
+
 [[cidr]]
 ==== image:images/yes.png[yes] CIDR (noun)
 *Description*: Classless Inter-Domain Routing (_CIDR_) is a method to efficiently allocate IP addresses and for IP routing. CIDR replaces the classful network addressing architecture. In CIDR notation, IP addresses contain a suffix that represents the number of bits of the prefix. Write "Classless Inter-Domain Routing (CIDR)" on first use and "CIDR" after that.
