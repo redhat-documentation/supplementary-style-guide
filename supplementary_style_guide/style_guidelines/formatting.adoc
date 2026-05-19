@@ -22,7 +22,7 @@ Verify that the `libvirt` default network is active and configured to start auto
 ----
 # virsh net-list --all
 ----
- 
+
 [subs="+quotes"]
 ----
 Name      State    Autostart   Persistent
@@ -64,14 +64,15 @@ Instead, follow the code block with the relevant explanation or description of t
 
 [source,terminal]
 ----
-$ hcp create cluster <platform> --help 
+$ hcp create cluster <platform> --help
 ----
 +
 Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
 
 * Use a definition list to explain multiple options, parameters, user-replaced values, placeholders, or UI elements.
-**  List the parameters or variables in the order in which they appear in the code block.
-**  Introduce definition lists with "where:" and begin each variable description with "Specifies".
+** List the parameters or variables in the order in which they appear in the code block.
+** Introduce the definition list with "where:".
+** Start descriptions with a full sentence or a sentence fragment. If you use a sentence fragment, start with a third-person verb or a noun phrase. Begin with an uppercase letter.
 +
 .Example AsciiDoc: A definition list explaining user-replaced values
 
@@ -81,18 +82,18 @@ $ cat <<EOF | oc -n <my_product_namespace> create -f -
 apiVersion: v1
 kind: Secret
 metadata:
- name: <my_product_database_certificates_secrets> 
+ name: <my_product_database_certificates_secrets>
 type: Opaque
 stringData:
  postgres-ca.pem: |-
   -----BEGIN CERTIFICATE-----
-  <ca_certificate_key> 
+  <ca_certificate_key>
  postgres-key.key: |-
   -----BEGIN CERTIFICATE-----
-  <tls_private_key> 
+  <tls_private_key>
  postgres-crt.pem: |-
   -----BEGIN CERTIFICATE-----
-  <tls_certificate_key> 
+  <tls_certificate_key>
   # ...
 EOF
 ----
@@ -104,7 +105,7 @@ where:
 `<tls_private_key>`:: Specifies the TLS private key.
 `<tls_certificate_key>`:: Specifies the TLS certificate key.
 
-* Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.
+* Use a bulleted list to describe the structure of a sample code block or explain multiple lines of code in a code block.
 **  List the explanations in the order in which they appear in the code block.
 ** Use the bullet format that makes the most sense for your explanations. You do not have to follow the exact wording in the following example.
 +
@@ -121,7 +122,7 @@ spec:
   - name: shared-workspace
   params:
 ...
-  tasks: 
+  tasks:
   - name: build-image
     taskRef:
       resolver: cluster
@@ -132,9 +133,9 @@ spec:
         value: buildah
       - name: namespace
         value: openshift-pipelines
-    workspaces: 
-    - name: source 
-      workspace: shared-workspace 
+    workspaces:
+    - name: source
+      workspace: shared-workspace
     params:
     - name: TLSVERIFY
       value: "false"
@@ -145,7 +146,7 @@ spec:
   - name: apply-manifests
     taskRef:
       name: apply-manifests
-    workspaces: 
+    workspaces:
     - name: source
       workspace: shared-workspace
     runAfter:
