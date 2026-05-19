@@ -1444,7 +1444,7 @@ Follow these guidelines when specifying link text:
 
 #### Links to Red Hat documentation
 
-* Use `latest` in the URL so that the link resolves to the last published version.
+* Unless you need to link to a specific version, use `latest` in the URL so that the link resolves to the last published version.
 
 **Example AsciiDoc: Latest version**
 
