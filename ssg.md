@@ -720,7 +720,8 @@ Use the `hcp create cluster` command to create and manage hosted clusters. The s
 
 * Use a definition list to explain multiple options, parameters, user-replaced values, placeholders, or UI elements.
   * List the parameters or variables in the order in which they appear in the code block.
-  * Introduce definition lists with "where:" and begin each variable description with "Specifies".
+  * Introduce the definition list with "where:".
+  * Start descriptions with a full sentence or a sentence fragment. If you use a sentence fragment, start with a third-person verb or a noun phrase. Begin with an uppercase letter.
 
 ```yaml
 $ cat <<EOF | oc -n <my_product_namespace> create -f -
@@ -753,7 +754,7 @@ Specifies the CA certificate key.
 Specifies the TLS private key.
 * **`<tls_certificate_key>`**\
 Specifies the TLS certificate key.
-  * Use a bulleted list to describe the structure of a sample YAML file or explain multiple lines of code in a code block.
+  * Use a bulleted list to describe the structure of a sample code block or explain multiple lines of code in a code block.
     * List the explanations in the order in which they appear in the code block.
     * Use the bullet format that makes the most sense for your explanations. You do not have to follow the exact wording in the following example.
 
