@@ -37,7 +37,7 @@ To view the history of changes from 2020 through 2022, see the link:https://gith
 
 .Improvements for AI
 
-With this update, the SSG is automatically generated in Markdown format in addition to being available as a PDF and in HTML. This change optimizes the SSG for AI consumption and machine reading.
+With this update, the SSG is automatically generated in xref:_markdown_version[Markdown] format in addition to being available as a PDF and in HTML. This change optimizes the SSG for AI consumption and machine reading.
 
 .Glossary entries
 
