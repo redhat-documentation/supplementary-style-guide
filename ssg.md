@@ -55,6 +55,26 @@ Review the history of significant updates to the _Red Hat supplementary style gu
 To view the history of changes from 2020 through 2022, see the [What’s new](https://github.com/redhat-documentation/supplementary-style-guide/blob/main/HISTORY.md) page in the GitHub repository.
 
 
+#### 2026
+
+##### January-June 2026
+
+With this update, the SSG is automatically generated in [Markdown](#markdown-version) format in addition to being available as a PDF and in HTML. This change optimizes the SSG for AI consumption and machine reading.
+
+* **[OS](#os-noun)**: Added glossary entry
+* **[hosted control planes](#hosted-control-planes-noun)**: Added glossary entry
+* **[inference](#inference-noun-verb)**: Added glossary entry
+* **[inferencing](#inferencing-noun)**: Added glossary entry
+* **[inference serving](#inference-serving-verb)**: Added glossary entry
+* **[InferenceService](#inferenceservice-noun)**: Added glossary entry
+
+* **[Titles and headings](#titles-and-headings)**: Added additional guidance for writing titles and headings for different content types. The guidance includes recommendations for title length and words to avoid. Procedure titles and headings should begin with imperatives instead of gerunds. But do not change any gerund-based headings and titles until after you have converted the content into a Jobs to Be Done format.
+* **[Commands in code blocks](#commands-in-code-blocks)**: Removed the requirement to enclose commands in asterisks for bold formatting, which was breaking commands that contain wildcard characters (`*`).
+* **[Explanation of commands and variables](#explanation-of-commands-and-variables-used-in-code-blocks)**: Clarified callout options to provide more flexibility. Description list entries can start with a full sentence, noun phrase, or third-person verb (for example, "Specifies").
+* **[Links to Red Hat documentation](#links-to-red-hat-documentation)**: Added guidance to use `latest` in links to Red Hat documentation to simplify maintenance. Added guidance for projects that must link to specific versions.
+* **[Release notes](#release-notes)**: Updated examples to align with the rule to avoid "now" for the post-update state.
+* **[Short descriptions](#short-descriptions)**: Updated guidance for writing short descriptions that adhere to DITA standards. This guidance includes new diagram examples that show how procedures are structured in both AsciiDoc and DITA and more examples of short descriptions for different content types.
+
 #### 2025
 ##### June-December 2025
 
