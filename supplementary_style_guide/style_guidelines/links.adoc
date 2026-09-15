@@ -9,7 +9,7 @@ To preserve reader focus and improve content usability, inline links are restric
 
 * Concept topics: Avoid inline links. Place essential links in the "Related Links" section at the end of the topic.
 * Procedure topics: Inline links are allowed to support task completion.
-* *Reference topics:* Inline links are allowed but consider moving supplemental links to the "Related Links" section when possible.
+* Reference topics: Inline links are allowed but consider moving supplemental links to the "Related Links" section when possible.
 * *Short descriptions:* Do not include links. 
 
 [[cross-references]]
