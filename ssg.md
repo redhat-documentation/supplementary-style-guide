@@ -924,7 +924,7 @@ For example, you might combine existing product name attributes to create compou
 
 #### Single-step procedures
 
-When a procedure contains only one step, use an unnumbered bullet.
+When a procedure contains only one step, use an unnumbered bullet to make the step more visible.
 
 For example:
 * Install the `dnf-automatic` package.
