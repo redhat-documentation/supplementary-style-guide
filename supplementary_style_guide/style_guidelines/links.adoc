@@ -20,9 +20,8 @@ For more information about <topic>, see xref:<link>[<link_text>].
 
 Follow these guidelines when linking externally:
 
-* Avoid unnecessary links to external sites not owned and operated by Red{nbsp}Hat or IBM.
-Links to external sites can change or be unreliable.
-In addition, customers might infer that Red{nbsp}Hat endorses or supports the linked content, even if that is not the intent.
+* Minimize links to external sites not owned and operated by Red{nbsp}Hat or IBM. Links to external sites can change or be unreliable. Customers might infer that Red{nbsp}Hat endorses or supports the linked content, even if that is not the intent.
+* Use external links only when necessary for product deployment, configuration, or integration. For example, you can link to official documentation for supported partner platforms, such as AWS, Azure, and Google Cloud Platform.
 +
 [NOTE]
 ====
