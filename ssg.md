@@ -1182,7 +1182,7 @@ Short descriptions help readers find the information that they need and confirm 
 
 * Include user intent. Explain **what** the user must do and **why** they must complete that action. Build upon the title--do not repeat it.
 * Write for AI and search. High-quality short descriptions are a primary source of metadata for large language models (LLMs) and search engine link previews. A high quality, human-verified summary reduces the risk of AI misinterpretation and saves processing time.
-* Do not use DITA-incompatible structures, such as bulleted lists or multiple paragraphs.
+* Do not use DITA-incompatible structures, such as bulleted lists, multiple paragraphs, or inline links.
 
 ##### Style guidelines ===
 
@@ -1410,6 +1410,15 @@ In these situations, follow these guidelines:
 **Yes:** It is anticipated that an upcoming release will include a fix for this issue.
 
 ### Links
+
+#### Where links are allowed
+
+To preserve reader focus and improve content usability, inline links are restricted in some places:
+
+* Concept topics: Avoid inline links. Place essential links in the "Related Links" section at the end of the topic.
+* Procedure topics: Inline links are allowed to support task completion.
+* Reference topics: Inline links are allowed but consider moving supplemental links to the "Related Links" section when possible.
+* Short descriptions: Do not include links.
 
 #### Cross-references
 
