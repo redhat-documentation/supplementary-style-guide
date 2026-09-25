@@ -78,7 +78,7 @@ For a non-cloud environment, you can resize the disk and file system. For more i
 
 .Example: Running text
 
-If your Apache web server configuration enables SSL security, verify that you enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This is because of the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
+If your Apache web server configuration enables SSL security, enable only the TLSv1 protocol. Disable SSLv2 and SSLv3 because they are vulnerable to the link:https://access.redhat.com/solutions/1232413[POODLE SSL vulnerability (CVE-2014-3566)].
 
 .Example: Additional resources
 

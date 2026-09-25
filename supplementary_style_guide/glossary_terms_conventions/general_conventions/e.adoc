@@ -88,6 +88,17 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 *See also*:
 
+[[email]]
+==== image:images/yes.png[yes] email (noun)
+*Description*: Use _email_ to refer to the communication system or service. To improve translation accuracy, distinguish between _email address_ (a specific address such as user@example.com) and _email message_ (a communication sent by using email).
+
+*Use it*: with caution
+
+[.vale-ignore]
+*Incorrect forms*:
+
+*See also*:
+
 [[emit]]
 ==== image:images/yes.png[yes] emit (verb)
 *Description*: _Emit_ means to send something out. Do not use "send out" because that is too informal and imprecise. Alternatively, use "issue".
