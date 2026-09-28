@@ -251,14 +251,14 @@
 
 *See also*:
 
-[[user-name]]
-==== image:images/yes.png[yes] user name (noun)
-*Description*: Use as shown, two words, except for instances in which the GUI uses the single word form ("username").
+[[username]]
+==== image:images/yes.png[yes] username (noun)
+*Description*: Use _username_ as one word. This spelling aligns with current IBM Style recommendations and PatternFly guidelines, which are already used in Red{nbsp}Hat consoles.
 
 *Use it*: yes
 
 [.vale-ignore]
-*Incorrect forms*:
+*Incorrect forms*: user name
 
 *See also*:
 
