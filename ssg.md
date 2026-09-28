@@ -10553,11 +10553,12 @@ A web server uses its public key to obtain a certificate from a trusted CA. The 
 
 
 
-##### user name (noun)
-**Description**: Use as shown, two words, except for instances in which the GUI uses the single word form ("username").
+##### username (noun)
+**Description**: Use _username_ as one word. This spelling aligns with current IBM Style recommendations and PatternFly guidelines, which are already used in Red Hat consoles.
 
 **Use it**: yes
 
+**Incorrect forms**: user name
 
 
 ##### user role mapping (noun)
