@@ -1104,6 +1104,8 @@ Admonitions should be short and concise. Do not include procedures in an admonit
 
 Only individual admonitions are allowed, for example, you cannot have a plural **NOTES** heading.
 
+Do not start a module or assembly with an admonition, even when adding the Technology Preview admonition. Always include a short description before including an admonition.
+
 **Example AsciiDoc**
 
 ```
