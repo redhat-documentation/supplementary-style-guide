@@ -1491,7 +1491,7 @@ For more information, see link:https://docs.redhat.com/en/documentation/openshif
 
 For a non-cloud environment, you can resize the disk and file system. For more information, see the Red Hat Knowledgebase solution [Does RHEL 7 support online resize of disk partitions?](https://access.redhat.com/solutions/199573).
 
-If your Apache web server configuration enables SSL security, verify that you enable only the TLSv1 protocol and disable SSLv2 and SSLv3. This is because of the [POODLE SSL vulnerability (CVE-2014-3566)](https://access.redhat.com/solutions/1232413).
+If your Apache web server configuration enables SSL security, enable only the TLSv1 protocol. Disable SSLv2 and SSLv3 because they are vulnerable to the [POODLE SSL vulnerability (CVE-2014-3566)](https://access.redhat.com/solutions/1232413).
 
 * [Does RHEL 7 support online resize of disk partitions? (Red Hat Knowledgebase)](https://access.redhat.com/solutions/199573)
 
@@ -4518,6 +4518,13 @@ If referring to the program, use "Emacs", for example, "Source-Navigator support
 
 
 
+##### email (noun)
+**Description**: Use _email_ to refer to the communication system or service. To improve translation accuracy, distinguish between _email address_ (a specific address such as user@example.com) and _email message_ (a communication sent by using email).
+
+**Use it**: with caution
+
+
+
 ##### emit (verb)
 **Description**: _Emit_ means to send something out. Do not use "send out" because that is too informal and imprecise. Alternatively, use "issue".
 
@@ -6825,7 +6832,7 @@ Always capitalize as shown, with the exception of UI content.
 **See also**: [Metadata Server](#metadata-server-noun), [ceph-mds](#ceph-mds-noun)
 
 ##### media (noun)
-**Description**: (1) _Media_ are objects on which data can be stored. These objects include hard disks, diskettes, CDs, and tapes. (2) In computer networks, "media" refer to the cables linking workstations together. There are many different types of transmission media, the most popular being twisted-pair wire (normal electrical wire), coaxial cable (the type of cable used for cable television), and fiber optic cable (cables made out of glass). (3) "Media" can also mean the form and technology used to communicate information. Multimedia presentations, for example, combine sound, pictures, and videos, all of which are different types of media.
+**Description**: (1) _Media_ are objects on which data can be stored. These objects include hard disks, floppy disks, CDs, and tapes. (2) In computer networks, "media" refer to the cables linking workstations together. There are many different types of transmission media, the most popular being twisted-pair wire (normal electrical wire), coaxial cable (the type of cable used for cable television), and fiber optic cable (cables made out of glass). (3) "Media" can also mean the form and technology used to communicate information. Multimedia presentations, for example, combine sound, pictures, and videos, all of which are different types of media.
 
 **Use it**: yes
 
