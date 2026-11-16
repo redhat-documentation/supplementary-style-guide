@@ -936,6 +936,7 @@ Use the following guidelines when writing titles and headings:
 * Write all titles and headings, including the titles of product documentation guides and Knowledgebase articles, in sentence-style capitalization. Do not use headline-style capitalization.
 * Focus your headings on user jobs and outcomes. Begin with user intent and then explain how the product fulfills the intended purpose.
 * Use imperative verbs for procedural and task-based content. Do not use gerunds (-ing forms). Imperatives are more direct, translate more consistently, and better map to task sequences. Do not mix imperatives and gerunds.
+* Use imperative verbs for a job or assembly (parent topic) if any of its child topics is a procedure, even when the job also includes concepts or references.
 * For concept and reference topics, use nouns or noun phrases. Do not use "Understanding" or "Understand" to begin a concept or reference topic.
 * Avoid generic titles such as "Introduction," "About," or "Overview." Instead, use descriptive keywords that clearly define the specific task or subject.
 * Keep headings between 3 and 11 words (approximately 60-75 characters) to ensure scannability and findability. Titles that exceed 60-75 characters are often truncated in search engine results.
@@ -981,6 +982,12 @@ Do not change any gerund-based headings and titles until after you have converte
 **No:** Architecture
 
 **Yes:** Architecture of hosted control planes
+
+If the assembly includes one or more procedures:
+
+**No:** Configuring alert notifications
+
+**Yes:** Configure alert notifications
 
 #### User-replaced values
 
