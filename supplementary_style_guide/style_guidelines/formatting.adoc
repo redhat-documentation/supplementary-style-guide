@@ -64,7 +64,7 @@ Instead, follow the code block with the relevant explanation or description of t
 
 [source,terminal]
 ----
-$ hcp create cluster <platform> --help
+hcp create cluster <platform> --help
 ----
 +
 Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
@@ -78,7 +78,7 @@ Use the `hcp create cluster` command to create and manage hosted clusters. The s
 
 [source,yaml,subs="+attributes,+quotes"]
 ----
-$ cat <<EOF | oc -n <my_product_namespace> create -f -
+cat <<EOF | oc -n <my_product_namespace> create -f -
 apiVersion: v1
 kind: Secret
 metadata:
@@ -373,7 +373,7 @@ To italicize a user-replaced value in a code block, you must add an attribute to
 
   [subs="+quotes"]
   ----
-  $ oc describe node __<node_name>__
+  oc describe node __<node_name>__
   ----
 
 This example renders as follows in HTML:
@@ -381,7 +381,7 @@ This example renders as follows in HTML:
 ====
 [subs="+quotes"]
 ----
-$ oc describe node __<node_name>__
+oc describe node __<node_name>__
 ----
 ====
 
