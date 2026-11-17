@@ -6,21 +6,44 @@
 
 Use a single command per code block for each procedure step. Separate a command and its related example output into individual code blocks. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
 
+For commands and command outputs in code blocks, use the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
+
+[[shell-prompts-in-code-blocks]]
+=== Shell prompts in code blocks
+
+Do not include a shell prompt character, such as `$`, `#`, `%`, or `>`, in a code block that contains a runnable command. The copy button copies the entire contents of the code block, including the prompt character. If a user pastes the copied text on the command line, the command fails.
+
+.image:images/no.png[no]
+[source,terminal]
+----
+$ dnf install httpd
+----
+
+.image:images/yes.png[yes]
+[source,terminal]
+----
+dnf install httpd
+----
+
+To show that a command requires root privileges, enter the `sudo` command as part of the command itself, or state the privilege level in the step text, the introductory text, or the prerequisites. Do not use the `#` prompt to show the privilege level. For more details, see xref:commands-with-root-privileges[Commands requiring root privileges].
+
+Include a shell prompt only when the prompt itself is what you are documenting. For example, show a prompt when you document an interactive shell session or describe the prompt that a user can expect to see. Content of this type is illustrative rather than runnable.
 
 [NOTE]
 ====
 To apply formatting in a code block, you must use the `quotes` link:https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/[AsciiDoc substitution].
 ====
 
-*Example AsciiDoc: A command and its output in separate code blocks*
+The following example separates the command from its output. This command requires `sudo` access, but instead of using the `#` prompt to indicate that, the instructions explain that you must run the command as a user with root privileges.
 
-[literal]
---
-Verify that the `libvirt` default network is active and configured to start automatically:
+.Example AsciiDoc: A command and its output in separate code blocks
+[source,asciidoc]
+....
+To verify that the `libvirt` default network is active and configured to start automatically, run the following command as a user with root privileges:
 
 [subs="+quotes"]
 ----
-# virsh net-list --all
+virsh net-list --all
 ----
 
 [subs="+quotes"]
@@ -29,16 +52,16 @@ Name      State    Autostart   Persistent
 --------------------------------------------
 default   active   yes         yes
 ----
---
+....
 
 This example renders as follows in HTML:
 
 ====
-Verify that the `libvirt` default network is active and configured to start automatically:
+To verify that the `libvirt` default network is active and configured to start automatically, run the following command as a user with root privileges:
 
 [subs="+quotes"]
 ----
-# virsh net-list --all
+virsh net-list --all
 ----
 
 [subs="+quotes"]
@@ -49,7 +72,9 @@ default   active   yes         yes
 ----
 ====
 
-For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
+.Additional resources
+
+* xref:commands-with-root-privileges[Commands requiring root privileges]
 
 [[explain-commands-variables-in-code-blocks]]
 == Explanation of commands and variables used in code blocks

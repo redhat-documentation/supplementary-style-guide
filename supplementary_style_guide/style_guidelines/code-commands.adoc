@@ -13,31 +13,32 @@ Some commands require root privileges to run. Users without root privileges must
 Use the following guidelines when you document commands that require root privileges:
 
 * If a command requires a temporary switch to root privileges, use the `sudo` command at the beginning of the sample command syntax rather than the `su -` command.
-* If you include a shell prompt in a sample command, always show the correct prompt for a regular user (`$`) or a user with root privileges (`#`).
+* Do not use a shell prompt to show the privilege level that a command requires.
+Do not include the `$` or `#` prompt character in a code block that contains a runnable command, as described in xref:commands-in-code-blocks[Commands in code blocks].
+* State the privilege requirement in the step text, the introductory text, or the prerequisites, as shown in the following example:
 +
-[NOTE]
-====
-Do not rely solely on a shell prompt in a sample command to indicate the required privilege level to run a command.
-If you include a shell prompt to indicate that a user with root privileges must run the command, also include a statement about this requirement in the step text, the introductory text, or the prerequisites.
-====
-+
-* When a sample command includes `sudo`, use the `$` prompt, not `#`, as shown in the following example:
-+
+.Example AsciiDoc
+[source,asciidoc]
+....
+To start the firewall service, run the following command as a user with root privileges:
+
 [source,terminal]
 ----
-$ sudo systemctl start firewalld
+sudo systemctl start firewalld
 ----
-+
+....
 * If multiple commands in a procedure require root privileges, add introductory content to tell the user about the requirement.
 The following example shows one way that you could integrate a requirement for root access into the introduction for a procedure:
 +
 .Example AsciiDoc
-----
+[source,asciidoc]
+....
 Some tasks in this procedure require root privileges, which you can get temporarily by prefixing commands with `sudo`.
-----
+....
 
 .Additional resources
 * link:https://www.redhat.com/sysadmin/difference-between-sudo-su[Exploring the differences between sudo and su commands in Linux]
+* xref:commands-in-code-blocks[Commands in code blocks]
 
 [[ellipses-in-yaml-code-blocks]]
 == Ellipses in YAML code blocks
