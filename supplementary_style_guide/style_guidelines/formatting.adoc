@@ -6,7 +6,7 @@
 
 Use a single command per code block for each procedure step. Separate a command and its related example output into individual code blocks. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
 
-For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
+For commands and command outputs in code blocks, use the correct markup for user-replaced values, as described in xref:user-replaced-values[] and xref:user-replaced-values-xml[].
 
 [[shell-prompts-in-code-blocks]]
 === Shell prompts in code blocks
