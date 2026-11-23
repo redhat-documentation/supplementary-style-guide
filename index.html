@@ -4889,7 +4889,7 @@ default   active   yes         yes</pre>
 <div class="listingblock">
 <div class="title">Example AsciiDoc: A simple sentence explaining a single command</div>
 <div class="content">
-<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>hcp create cluster &lt;platform&gt; <span class="nt">--help</span></code></pre>
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">hcp create cluster &lt;platform&gt;</span><span class="w"> </span><span class="nt">--help</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -4911,7 +4911,7 @@ default   active   yes         yes</pre>
 <div class="listingblock">
 <div class="title">Example AsciiDoc: A definition list explaining user-replaced values</div>
 <div class="content">
-<pre class="rouge highlight"><code data-lang="yaml"><span class="s">$ cat &lt;&lt;EOF | oc -n &lt;my_product_namespace&gt; create -f -</span>
+<pre class="rouge highlight"><code data-lang="yaml"><span class="s">cat &lt;&lt;EOF | oc -n &lt;my_product_namespace&gt; create -f -</span>
 <span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
 <span class="na">kind</span><span class="pi">:</span> <span class="s">Secret</span>
 <span class="na">metadata</span><span class="pi">:</span>
@@ -5381,7 +5381,7 @@ For example, you might combine existing product name attributes to create compou
 <div class="content">
 <pre>[subs="+quotes"]
 ----
-$ oc describe node __&lt;node_name&gt;__
+oc describe node __&lt;node_name&gt;__
 ----</pre>
 </div>
 </div>
@@ -5392,7 +5392,7 @@ $ oc describe node __&lt;node_name&gt;__
 <div class="content">
 <div class="listingblock">
 <div class="content">
-<pre>$ oc describe node <em>&lt;node_name&gt;</em></pre>
+<pre>oc describe node <em>&lt;node_name&gt;</em></pre>
 </div>
 </div>
 </div>
@@ -7065,11 +7065,11 @@ Description - describe what the feature does</pre>
 <dl>
 <dt class="hdlist1">System-wide post-quantum cryptography is available through <code>crypto-policies-pq-preview</code> (Technology Preview)</dt>
 <dd>
-<p>The <code>TEST-PQ</code> subpolicy contained in the new <code>crypto-policies-pq-preview</code> package provides system-wide post-quantum cryptography (PQC) as a Technology Preview. You can enable PQC by switching to the TEST-PQ subpolicy and restarting the system, for example:</p>
+<p>The <code>TEST-PQ</code> subpolicy contained in the new <code>crypto-policies-pq-preview</code> package provides system-wide post-quantum cryptography (PQC) as a Technology Preview. You can enable PQC by switching to the TEST-PQ subpolicy and restarting the system. For example, run the following commands as a user with root privileges:</p>
 <div class="listingblock">
 <div class="content">
-<pre># update-crypto-policies --set DEFAULT:TEST-PQ
-# reboot</pre>
+<pre>update-crypto-policies --set DEFAULT:TEST-PQ
+reboot</pre>
 </div>
 </div>
 <div class="paragraph">
@@ -24794,7 +24794,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-11-23 14:34:08 UTC
+Last updated 2026-11-23 14:34:38 UTC
 </div>
 </div>
 <!-- Nav bar -->

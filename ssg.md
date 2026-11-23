@@ -761,7 +761,7 @@ Instead, follow the code block with the relevant explanation or description of t
 * Use a simple sentence to explain or describe a single line of command, variable, option, or parameter.
 
 ```terminal
-$ hcp create cluster <platform> --help
+hcp create cluster <platform> --help
 ```
 +
 Use the `hcp create cluster` command to create and manage hosted clusters. The supported platforms are `aws`, `agent`, and `kubevirt`.
@@ -772,7 +772,7 @@ Use the `hcp create cluster` command to create and manage hosted clusters. The s
   * Start descriptions with a full sentence or a sentence fragment. If you use a sentence fragment, start with a third-person verb or a noun phrase. Begin with an uppercase letter.
 
 ```yaml
-$ cat <<EOF | oc -n <my_product_namespace> create -f -
+cat <<EOF | oc -n <my_product_namespace> create -f -
 apiVersion: v1
 kind: Secret
 metadata:
@@ -1049,13 +1049,13 @@ To italicize a user-replaced value in a code block, you must add an attribute to
 
     [subs="+quotes"]
     ----
-    $ oc describe node __<node_name>__
+    oc describe node __<node_name>__
     ----
 
 This example renders as follows in HTML:
 
 ```
-$ oc describe node __<node_name>__
+oc describe node __<node_name>__
 ```
 
     [subs="+quotes"]
@@ -1875,11 +1875,11 @@ OpenShift Container Platform 4.17 introduces volume snapshot support for the Mic
   TICKET-REFERENCE
 
 * **System-wide post-quantum cryptography is available through `crypto-policies-pq-preview` (Technology Preview)**\
-The `TEST-PQ` subpolicy contained in the new `crypto-policies-pq-preview` package provides system-wide post-quantum cryptography (PQC) as a Technology Preview. You can enable PQC by switching to the TEST-PQ subpolicy and restarting the system, for example:
+The `TEST-PQ` subpolicy contained in the new `crypto-policies-pq-preview` package provides system-wide post-quantum cryptography (PQC) as a Technology Preview. You can enable PQC by switching to the TEST-PQ subpolicy and restarting the system. For example, run the following commands as a user with root privileges:
 
   ```
-  # update-crypto-policies --set DEFAULT:TEST-PQ
-  # reboot
+  update-crypto-policies --set DEFAULT:TEST-PQ
+  reboot
   ```
 
   Note that all PQC algorithms in RHEL 10 are provided as a Technology Preview feature. The package and system-wide cryptographic policy name are subject to change when post-quantum cryptography exits Technology Preview.
