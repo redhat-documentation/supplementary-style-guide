@@ -4781,6 +4781,32 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 <div class="paragraph">
 <p>Use a single command per code block for each procedure step. Separate a command and its related example output into individual code blocks. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.</p>
 </div>
+<div class="paragraph">
+<p>For commands and command outputs in code blocks, use the correct markup for user-replaced values, as described in <a href="#user-replaced-values">User-replaced values</a> and <a href="#user-replaced-values-xml">User-replaced values for XML</a>.</p>
+</div>
+<div class="sect4">
+<h5 id="shell-prompts-in-code-blocks"><a class="anchor" href="#shell-prompts-in-code-blocks"></a><a class="link" href="#shell-prompts-in-code-blocks">Shell prompts in code blocks</a></h5>
+<div class="paragraph">
+<p>Do not include a shell prompt character, such as <code>$</code>, <code>#</code>, <code>%</code>, or <code>&gt;</code>, in a code block that contains a runnable command. The copy button copies the entire contents of the code block, including the prompt character. If a user pastes the copied text on the command line, the command fails.</p>
+</div>
+<div class="listingblock">
+<div class="title"><span class="image"><img src="images/no.png" alt="no"></span></div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span>dnf <span class="nb">install </span>httpd</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title"><span class="image"><img src="images/yes.png" alt="yes"></span></div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="terminal"><span class="go">dnf install httpd</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To show that a command requires root privileges, enter the <code>sudo</code> command as part of the command itself, or state the privilege level in the step text, the introductory text, or the prerequisites. Do not use the <code>#</code> prompt to show the privilege level. For more details, see <a href="#commands-with-root-privileges">Commands requiring root privileges</a>.</p>
+</div>
+<div class="paragraph">
+<p>Include a shell prompt only when the prompt itself is what you are documenting. For example, show a prompt when you document an interactive shell session or describe the prompt that a user can expect to see. Content of this type is illustrative rather than runnable.</p>
+</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -4796,15 +4822,16 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 </table>
 </div>
 <div class="paragraph">
-<p><strong>Example AsciiDoc: A command and its output in separate code blocks</strong></p>
+<p>The following example separates the command from its output. This command requires <code>sudo</code> access, but instead of using the <code>#</code> prompt to indicate that, the instructions explain that you must run the command as a user with root privileges.</p>
 </div>
-<div class="literalblock">
+<div class="listingblock">
+<div class="title">Example AsciiDoc: A command and its output in separate code blocks</div>
 <div class="content">
-<pre>Verify that the `libvirt` default network is active and configured to start automatically:
+<pre class="rouge highlight"><code data-lang="asciidoc">To verify that the `libvirt` default network is active and configured to start automatically, run the following command as a user with root privileges:
 
 [subs="+quotes"]
 ----
-# virsh net-list --all
+virsh net-list --all
 ----
 
 [subs="+quotes"]
@@ -4812,7 +4839,7 @@ Therefore, be aware of this potential issue, and, when possible, avoid writing s
 Name      State    Autostart   Persistent
 --------------------------------------------
 default   active   yes         yes
-----</pre>
+----</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -4821,11 +4848,11 @@ default   active   yes         yes
 <div class="exampleblock">
 <div class="content">
 <div class="paragraph">
-<p>Verify that the <code>libvirt</code> default network is active and configured to start automatically:</p>
+<p>To verify that the <code>libvirt</code> default network is active and configured to start automatically, run the following command as a user with root privileges:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre># virsh net-list --all</pre>
+<pre>virsh net-list --all</pre>
 </div>
 </div>
 <div class="listingblock">
@@ -4837,8 +4864,14 @@ default   active   yes         yes</pre>
 </div>
 </div>
 </div>
-<div class="paragraph">
-<p>For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in <a href="#user-replaced-values">User-replaced values</a> and <a href="#user-replaced-values-xml">User-replaced values for XML</a>.</p>
+<div class="ulist">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p><a href="#commands-with-root-privileges">Commands requiring root privileges</a></p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -5806,28 +5839,20 @@ Text for note.
 <p>If a command requires a temporary switch to root privileges, use the <code>sudo</code> command at the beginning of the sample command syntax rather than the <code>su -</code> command.</p>
 </li>
 <li>
-<p>If you include a shell prompt in a sample command, always show the correct prompt for a regular user (<code>$</code>) or a user with root privileges (<code>#</code>).</p>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>Do not rely solely on a shell prompt in a sample command to indicate the required privilege level to run a command.
-If you include a shell prompt to indicate that a user with root privileges must run the command, also include a statement about this requirement in the step text, the introductory text, or the prerequisites.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
+<p>Do not use a shell prompt to show the privilege level that a command requires.
+Do not include the <code>$</code> or <code>#</code> prompt character in a code block that contains a runnable command, as described in <a href="#commands-in-code-blocks">Commands in code blocks</a>.</p>
 </li>
 <li>
-<p>When a sample command includes <code>sudo</code>, use the <code>$</code> prompt, not <code>#</code>, as shown in the following example:</p>
+<p>State the privilege requirement in the step text, the introductory text, or the prerequisites, as shown in the following example:</p>
 <div class="listingblock">
+<div class="title">Example AsciiDoc</div>
 <div class="content">
-<pre class="rouge highlight"><code data-lang="terminal"><span class="gp">$</span><span class="w"> </span><span class="nb">sudo </span>systemctl start firewalld</code></pre>
+<pre class="rouge highlight"><code data-lang="asciidoc">To start the firewall service, run the following command as a user with root privileges:
+
+[source,terminal]
+----
+sudo systemctl start firewalld
+----</code></pre>
 </div>
 </div>
 </li>
@@ -5837,7 +5862,7 @@ The following example shows one way that you could integrate a requirement for r
 <div class="listingblock">
 <div class="title">Example AsciiDoc</div>
 <div class="content">
-<pre>Some tasks in this procedure require root privileges, which you can get temporarily by prefixing commands with `sudo`.</pre>
+<pre class="rouge highlight"><code data-lang="asciidoc">Some tasks in this procedure require root privileges, which you can get temporarily by prefixing commands with `sudo`.</code></pre>
 </div>
 </div>
 </li>
@@ -5848,6 +5873,9 @@ The following example shows one way that you could integrate a requirement for r
 <ul>
 <li>
 <p><a href="https://www.redhat.com/sysadmin/difference-between-sudo-su">Exploring the differences between sudo and su commands in Linux</a></p>
+</li>
+<li>
+<p><a href="#commands-in-code-blocks">Commands in code blocks</a></p>
 </li>
 </ul>
 </div>
@@ -24766,7 +24794,7 @@ You can use a TGT to request further access, and provide the user with a Single 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-11-16 19:44:39 UTC
+Last updated 2026-11-23 14:34:08 UTC
 </div>
 </div>
 <!-- Nav bar -->

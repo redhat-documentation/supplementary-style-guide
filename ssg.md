@@ -689,31 +689,59 @@ In these specific cases, and only if you cannot write around it, you can refer t
 
 Use a single command per code block for each procedure step. Separate a command and its related example output into individual code blocks. This approach helps with readability and makes it possible for the copy button in code blocks to work correctly.
 
+For commands and command outputs in code blocks, use the correct markup for user-replaced values, as described in [User-replaced values](#user-replaced-values) and [User-replaced values for XML](#user-replaced-values-for-xml).
+
+##### Shell prompts in code blocks
+
+Do not include a shell prompt character, such as `$`, `#`, `%`, or `>`, in a code block that contains a runnable command. The copy button copies the entire contents of the code block, including the prompt character. If a user pastes the copied text on the command line, the command fails.
+
+**![no](images/no.png)**
+
+```terminal
+$ dnf install httpd
+```
+
+**![yes](images/yes.png)**
+
+```terminal
+dnf install httpd
+```
+
+To show that a command requires root privileges, enter the `sudo` command as part of the command itself, or state the privilege level in the step text, the introductory text, or the prerequisites. Do not use the `#` prompt to show the privilege level. For more details, see [Commands requiring root privileges](#commands-requiring-root-privileges).
+
+Include a shell prompt only when the prompt itself is what you are documenting. For example, show a prompt when you document an interactive shell session or describe the prompt that a user can expect to see. Content of this type is illustrative rather than runnable.
+
 > **NOTE:**
 
 To apply formatting in a code block, you must use the `quotes` [AsciiDoc substitution](https://docs.asciidoctor.org/asciidoc/latest/subs/apply-subs-to-blocks/).
 
 
+The following example separates the command from its output. This command requires `sudo` access, but instead of using the `#` prompt to indicate that, the instructions explain that you must run the command as a user with root privileges.
+
 **Example AsciiDoc: A command and its output in separate code blocks**
 
-Verify that the `libvirt` default network is active and configured to start automatically:
+```asciidoc
+To verify that the `libvirt` default network is active and configured to start automatically, run the following command as a user with root privileges:
 
-```
-# virsh net-list --all
-```
+[subs="+quotes"]
+----
+virsh net-list --all
+----
 
-```
+[subs="+quotes"]
+----
 Name      State    Autostart   Persistent
 --------------------------------------------
 default   active   yes         yes
+----
 ```
 
 This example renders as follows in HTML:
 
-Verify that the `libvirt` default network is active and configured to start automatically:
+To verify that the `libvirt` default network is active and configured to start automatically, run the following command as a user with root privileges:
 
 ```
-# virsh net-list --all
+virsh net-list --all
 ```
 
 ```
@@ -722,7 +750,7 @@ Name      State    Autostart   Persistent
 default   active   yes         yes
 ```
 
-For commands and command outputs in code blocks, observe the correct markup for user-replaced values, as described in [User-replaced values](#user-replaced-values) and [User-replaced values for XML](#user-replaced-values-for-xml).
+* [Commands requiring root privileges](#commands-requiring-root-privileges)
 
 #### Explanation of commands and variables used in code blocks
 
@@ -1259,32 +1287,33 @@ Some commands require root privileges to run. Users without root privileges must
 Use the following guidelines when you document commands that require root privileges:
 
 * If a command requires a temporary switch to root privileges, use the `sudo` command at the beginning of the sample command syntax rather than the `su -` command.
-* If you include a shell prompt in a sample command, always show the correct prompt for a regular user (`$`) or a user with root privileges (`#`).
+* Do not use a shell prompt to show the privilege level that a command requires.
+Do not include the `$` or `#` prompt character in a code block that contains a runnable command, as described in [Commands in code blocks](#commands-in-code-blocks).
+* State the privilege requirement in the step text, the introductory text, or the prerequisites, as shown in the following example:
 
-  > **NOTE:**
+  **Example AsciiDoc**
 
-  Do not rely solely on a shell prompt in a sample command to indicate the required privilege level to run a command.
-  If you include a shell prompt to indicate that a user with root privileges must run the command, also include a statement about this requirement in the step text, the introductory text, or the prerequisites.
-  
+  ```asciidoc
+  To start the firewall service, run the following command as a user with root privileges:
 
-* When a sample command includes `sudo`, use the `$` prompt, not `#`, as shown in the following example:
-
-  ```terminal
-  $ sudo systemctl start firewalld
+  [source,terminal]
+  ----
+  sudo systemctl start firewalld
+  ----
   ```
-
 * If multiple commands in a procedure require root privileges, add introductory content to tell the user about the requirement.
 The following example shows one way that you could integrate a requirement for root access into the introduction for a procedure:
 
   **Example AsciiDoc**
 
-  ```
+  ```asciidoc
   Some tasks in this procedure require root privileges, which you can get temporarily by prefixing commands with `sudo`.
   ```
 
 **Additional resources**
 
 * [Exploring the differences between sudo and su commands in Linux](https://www.redhat.com/sysadmin/difference-between-sudo-su)
+* [Commands in code blocks](#commands-in-code-blocks)
 
 #### Ellipses in YAML code blocks
 
